@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="/hw/BSC6000R11Cell.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="ACTGENE" index="2"/>
+				<field name="ACTSTATUS" index="3"/>
+				<field name="BCC" index="4"/>
+				<field name="BCCHNO" index="5"/>
+				<field name="BSPAGBLKSRES" index="6"/>
+				<field name="BSPBCCHBLKS" index="7"/>
+				<field name="BSPRACHBLKS" index="8"/>
+				<field name="BTSID" index="9"/>
+				<field name="CELLID" index="10"/>
+				<field name="CELLINEXTP" index="11"/>
+				<field name="CELLNAME" index="12"/>
+				<field name="CGI" index="13"/>
+				<field name="CI" index="14"/>
+				<field name="CSDSP" index="15"/>
+				<field name="CSVSP" index="16"/>
+				<field name="DBFREQBCCHIUO" index="17"/>
+				<field name="DBLFREQADJCID" index="18"/>
+				<field name="DBLFREQADJCNAME" index="19"/>
+				<field name="DBLFREQADJIDTYPE" index="20"/>
+				<field name="ENIUO" index="21"/>
+				<field name="EXTTP" index="22"/>
+				<field name="FLEXMAIO" index="23"/>
+				<field name="HSNSW" index="24"/>
+				<field name="IDTYPE" index="25"/>
+				<field name="IUOTP" index="26"/>
+				<field name="LAC" index="27"/>
+				<field name="MCC" index="28"/>
+				<field name="MNC" index="29"/>
+				<field name="MOIndex" index="30"/>
+				<field name="NCC" index="31"/>
+				<field name="NEWCELLNAME" index="32"/>
+				<field name="OPNAME" index="33"/>
+				<field name="PSHPSP" index="34"/>
+				<field name="PSLPSVP" index="35"/>
+				<field name="TYPE" index="36"/>
+				<field name="className" index="37"/>
+				<field name="name" index="38"/>
+				<field name="neID" index="39"/>
+				<field name="EXTEND1" index="40"/>
+				<field name="EXTEND2" index="41"/>
+				<field name="EXTEND3" index="42"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/hw/BSC6000R11G2GNCELL.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="OBJECTID" index="0"/>
+				<field name="BQMARGIN" index="1"/>
+				<field name="DRHOLEVRANGE" index="2"/>
+				<field name="IBCADYNCMEASURENCELLALLOWED" index="3"/>
+				<field name="IBCANCELLFLAG" index="4"/>
+				<field name="IBCARXLEVOFFSET" index="5"/>
+				<field name="IDTYPE" index="6"/>
+				<field name="INTELEVHOHYST" index="7"/>
+				<field name="INTERCELLHYST" index="8"/>
+				<field name="ISCHAINNCELL" index="9"/>
+				<field name="MINOFFSET" index="10"/>
+				<field name="MOINDEX" index="11"/>
+				<field name="NBR2GNCELLID" index="12"/>
+				<field name="NBR2GNCELLNAME" index="13"/>
+				<field name="NBRCI" index="14"/>
+				<field name="NBRLAC" index="15"/>
+				<field name="NBRMCC" index="16"/>
+				<field name="NBRMNC" index="17"/>
+				<field name="PBGTMARGIN" index="18"/>
+				<field name="SRC2GNCELLID" index="19"/>
+				<field name="SRC2GNCELLNAME" index="20"/>
+				<field name="SRCCI" index="21"/>
+				<field name="SRCHOCTRLSWITCH" index="22"/>
+				<field name="SRCLAC" index="23"/>
+				<field name="SRCMCC" index="24"/>
+				<field name="SRCMNC" index="25"/>
+				<field name="CLASSNAME" index="26"/>
+				<field name="NAME" index="27"/>
+				<field name="NEID" index="28"/>
+				<field name="EXTEND1" index="29"/>
+				<field name="EXTEND2" index="30"/>
+				<field name="EXTEND3" index="31"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="/hw/BSC6000R11G3GNCELL.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="OBJECTID" index="0"/>
+				<field name="ECNOOFF" index="1"/>
+				<field name="IDTYPE" index="2"/>
+				<field name="MOINDEX" index="3"/>
+				<field name="NBR3GNCELLID" index="4"/>
+				<field name="NBR3GNCELLNAME" index="5"/>
+				<field name="RSCPOFF" index="6"/>
+				<field name="SRC3GNCELLID" index="7"/>
+				<field name="SRC3GNCELLNAME" index="8"/>
+				<field name="CLASSNAME" index="9"/>
+				<field name="NAME" index="10"/>
+				<field name="NEID" index="11"/>
+				<field name="EXTEND1" index="12"/>
+				<field name="EXTEND2" index="13"/>
+				<field name="EXTEND3" index="14"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="3" file="/hw/BSC6000R11GCELLBASICPARA.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="BFEDGEMTX" index="2"/>
+				<field name="BTSADJUST" index="3"/>
+				<field name="CALLRESTABDIS" index="4"/>
+			<!--	<field name="CELL8PSKPOWERLEVEL" index="5"/>-->
+				<field name="CELLID" index="6"/>
+			<!--			<field name="CELLLAYER" index="7"/>-->
+				<field name="CELLNAME" index="8"/>
+			<!--	<field name="CELLPRIOR" index="9"/>-->
+				<field name="DIRECTRYEN" index="10"/>
+				<field name="DIVERT8PSKDELAY" index="11"/>
+				<field name="DNPCEN" index="12"/>
+				<field name="DYNOPENTRXPOWER" index="13"/>
+				<field name="ENCRY" index="14"/>
+				<field name="FRDLDTX" index="15"/>
+				<field name="FRULDTX" index="16"/>
+				<field name="GMSKDELAY" index="17"/>
+				<field name="HRDLDTX" index="18"/>
+				<field name="HRULDTX" index="19"/>
+				<field name="ICBALLOW" index="20"/>
+				<field name="IDTYPE" index="21"/>
+			<!--	<field name="IMMASSCBB" index="22"/>-->
+				<field name="IMMASSEN" index="23"/>
+				<field name="LEVELRPT" index="24"/>
+				<field name="MAXTA" index="25"/>
+				<field name="MOIndex" index="26"/>
+				<field name="RXMIN" index="27"/>
+				<field name="SDDYN" index="28"/>
+				<field name="TIMESLOTVOLADJALLOW" index="29"/>
+				<field name="UPPCEN" index="30"/>
+				<field name="className" index="31"/>
+				<field name="name" index="32"/>
+				<field name="neID" index="33"/>
+				<field name="EXTEND1" index="34"/>
+				<field name="EXTEND2" index="35"/>
+				<field name="EXTEND3" index="36"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="4" file="/hw/BSC6000R11GCELLCCACCESS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="BHPREPOLICY" index="2"/>
+				<field name="CELLID" index="3"/>
+				<field name="CELLNAME" index="4"/>
+				<field name="IDTYPE" index="5"/>
+				<field name="MOIndex" index="6"/>
+				<field name="PWRDIV" index="7"/>
+				<field name="PWRDIVIND" index="8"/>
+				<field name="RACHACCLEV" index="9"/>
+				<field name="RANERRTHRED" index="10"/>
+				<field name="TRXAIDSWITCH" index="11"/>
+				<field name="VOICEVER" index="12"/>
+				<field name="className" index="13"/>
+				<field name="name" index="14"/>
+				<field name="neID" index="15"/>
+				<field name="EXTEND1" index="16"/>
+				<field name="EXTEND2" index="17"/>
+				<field name="EXTEND3" index="18"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="5" file="/hw/BSC6000R11GCELLCCBASIC.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="ABISRESADJTCHHEN" index="2"/>
+				<field name="AFRDSBLCNT" index="3"/>
+				<field name="AFRSAMULFRM" index="4"/>
+				<field name="AHRDSBLCNT" index="5"/>
+				<field name="AHRSAMULFRM" index="6"/>
+				<field name="ASSLOADJUDGEEN" index="7"/>
+				<field name="CELLID" index="8"/>
+				<field name="CELLNAME" index="9"/>
+				<field name="COMMACC" index="10"/>
+				<field name="DTLOADTHRED" index="11"/>
+				<field name="ECSC" index="12"/>
+				<field name="EMLPPEN" index="13"/>
+				<field name="ERGCALLDIS" index="14"/>
+				<field name="IDTYPE" index="15"/>
+				<field name="MBR" index="16"/>
+				<field name="MOIndex" index="17"/>
+				<field name="MSMAXRETRAN" index="18"/>
+				<field name="PAGTIMES" index="19"/>
+				<field name="RACHBUSYTHRED" index="20"/>
+				<field name="REASSEN" index="21"/>
+				<field name="REPEATDLFASET" index="22"/>
+				<field name="REPEATDLFATHRED" index="23"/>
+				<field name="REPEATSASET" index="24"/>
+				<field name="RLT" index="25"/>
+				<field name="SAMULFRM" index="26"/>
+				<field name="SPECACC" index="27"/>
+				<field name="className" index="28"/>
+				<field name="name" index="29"/>
+				<field name="neID" index="30"/>
+				<field name="EXTEND1" index="31"/>
+				<field name="EXTEND2" index="32"/>
+				<field name="EXTEND3" index="33"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="6" file="/hw/BSC6000R11GCELLCCCH.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="ABISFCEN" index="2"/>
+				<field name="CANPC" index="3"/>
+				<field name="CCCHLOADINDPRD" index="4"/>
+				<field name="CCCHLOADTHRES" index="5"/>
+				<field name="CELLID" index="6"/>
+				<field name="CELLNAME" index="7"/>
+				<field name="FMSMAXOPCC" index="8"/>
+				<field name="HRATESPT" index="9"/>
+				<field name="IDTYPE" index="10"/>
+				<field name="MOIndex" index="11"/>
+				<field name="OVERLOADINTV" index="12"/>
+				<field name="RACHLDAVERSLOT" index="13"/>
+				<field name="RFRESINDPRD" index="14"/>
+				<field name="className" index="15"/>
+				<field name="name" index="16"/>
+				<field name="neID" index="17"/>
+				<field name="EXTEND1" index="18"/>
+				<field name="EXTEND2" index="19"/>
+				<field name="EXTEND3" index="20"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="7" file="/hw/BSC6000R11GCELLFREQ.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="CELLID" index="2"/>
+				<field name="CELLNAME" index="3"/>
+				<field name="FREQ1" index="4"/>
+				<field name="FREQ10" index="5"/>
+				<field name="FREQ11" index="6"/>
+				<field name="FREQ12" index="7"/>
+				<field name="FREQ13" index="8"/>
+				<field name="FREQ14" index="9"/>
+				<field name="FREQ15" index="10"/>
+				<field name="FREQ16" index="11"/>
+				<field name="FREQ17" index="12"/>
+				<field name="FREQ18" index="13"/>
+				<field name="FREQ19" index="14"/>
+				<field name="FREQ2" index="15"/>
+				<field name="FREQ20" index="16"/>
+				<field name="FREQ21" index="17"/>
+				<field name="FREQ22" index="18"/>
+				<field name="FREQ23" index="19"/>
+				<field name="FREQ24" index="20"/>
+				<field name="FREQ25" index="21"/>
+				<field name="FREQ26" index="22"/>
+				<field name="FREQ27" index="23"/>
+				<field name="FREQ28" index="24"/>
+				<field name="FREQ29" index="25"/>
+				<field name="FREQ3" index="26"/>
+				<field name="FREQ30" index="27"/>
+				<field name="FREQ31" index="28"/>
+				<field name="FREQ32" index="29"/>
+				<field name="FREQ33" index="30"/>
+				<field name="FREQ34" index="31"/>
+				<field name="FREQ35" index="32"/>
+				<field name="FREQ36" index="33"/>
+				<field name="FREQ37" index="34"/>
+				<field name="FREQ38" index="35"/>
+				<field name="FREQ39" index="36"/>
+				<field name="FREQ4" index="37"/>
+				<field name="FREQ40" index="38"/>
+				<field name="FREQ41" index="39"/>
+				<field name="FREQ42" index="40"/>
+				<field name="FREQ43" index="41"/>
+				<field name="FREQ44" index="42"/>
+				<field name="FREQ45" index="43"/>
+				<field name="FREQ46" index="44"/>
+				<field name="FREQ47" index="45"/>
+				<field name="FREQ48" index="46"/>
+				<field name="FREQ49" index="47"/>
+				<field name="FREQ5" index="48"/>
+				<field name="FREQ50" index="49"/>
+				<field name="FREQ51" index="50"/>
+				<field name="FREQ52" index="51"/>
+				<field name="FREQ53" index="52"/>
+				<field name="FREQ54" index="53"/>
+				<field name="FREQ55" index="54"/>
+				<field name="FREQ56" index="55"/>
+				<field name="FREQ57" index="56"/>
+				<field name="FREQ58" index="57"/>
+				<field name="FREQ59" index="58"/>
+				<field name="FREQ6" index="59"/>
+				<field name="FREQ60" index="60"/>
+				<field name="FREQ61" index="61"/>
+				<field name="FREQ62" index="62"/>
+				<field name="FREQ63" index="63"/>
+				<field name="FREQ64" index="64"/>
+				<field name="FREQ7" index="65"/>
+				<field name="FREQ8" index="66"/>
+				<field name="FREQ9" index="67"/>
+				<field name="IDTYPE" index="68"/>
+				<field name="MOIndex" index="69"/>
+				<field name="className" index="70"/>
+				<field name="name" index="71"/>
+				<field name="neID" index="72"/>
+				<field name="EXTEND1" index="73"/>
+				<field name="EXTEND2" index="74"/>
+				<field name="EXTEND3" index="75"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="8" file="/hw/BSC6000R11GCELLHOBASIC.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="AMRFULLTOHALFHOALLOW" index="2"/>
+				<field name="AMRFULLTOHALFHOATCBADJSTEP" index="3"/>
+				<field name="AMRFULLTOHALFHOATCBTHRESH" index="4"/>
+				<field name="AMRFULLTOHALFHOPATHADJSTEP" index="5"/>
+				<field name="AMRFULLTOHALFHOPATHTHRESH" index="6"/>
+				<field name="AMRFULLTOHALFHOQUALTHRESH" index="7"/>
+				<field name="AMRFULLTOHALFHOTHRESH" index="8"/>
+				<field name="AMRHALFTOFULLHOATCBTHRESH" index="9"/>
+				<field name="AMRHALFTOFULLHOPATHTHRESH" index="10"/>
+				<field name="AMRHALFTOFULLHOQUALALLOW" index="11"/>
+				<field name="AMRHALFTOFULLHOQUALTHRESH" index="12"/>
+				<field name="AMRHALFTOFULLHOTHRESH" index="13"/>
+				<field name="ATCBHOEN" index="14"/>
+				<field name="BETTERCELLHOEN" index="15"/>
+				<field name="BETTERCELLLASTTIME" index="16"/>
+				<field name="BETTERCELLSTATTIME" index="17"/>
+				<field name="BQHOEN" index="18"/>
+				<field name="BQLASTTIME" index="19"/>
+				<field name="BQSTATTIME" index="20"/>
+				<field name="CELLID" index="21"/>
+				<field name="CELLNAME" index="22"/>
+				<field name="COBSCMSCADJEN" index="23"/>
+				<field name="CONHOEN" index="24"/>
+				<field name="DLEDGETHRES" index="25"/>
+				<field name="EDGEADJLASTTIME" index="26"/>
+				<field name="EDGEADJLASTTIME1" index="27"/>
+				<field name="EDGEADJSTATTIME" index="28"/>
+				<field name="EDGEADJSTATTIME1" index="29"/>
+				<field name="EDGELAST" index="30"/>
+				<field name="EDGELAST1" index="31"/>
+				<field name="EDGESTAT" index="32"/>
+				<field name="EDGESTAT1" index="33"/>
+				<field name="FRINGEHOEN" index="34"/>
+				<field name="FULLTOHALFHOATCBOFFSET" index="35"/>
+				<field name="FULLTOHALFHODURATION" index="36"/>
+				<field name="FULLTOHALFHOLASTTIME" index="37"/>
+				<field name="FULLTOHALFHOPATHOFFSET" index="38"/>
+				<field name="FULLTOHALFHOPERIOD" index="39"/>
+				<field name="FULLTOHALFHOSTATTIME" index="40"/>
+				<field name="HALFTOFULLATCBOFFSET" index="41"/>
+				<field name="HALFTOFULLHODURATION" index="42"/>
+				<field name="HALFTOFULLHOLASTTIME" index="43"/>
+				<field name="HALFTOFULLHOPATHOFFSET" index="44"/>
+				<field name="HALFTOFULLHOSTATTIME" index="45"/>
+				<field name="HCSLASTTIME" index="46"/>
+				<field name="HCSSTATTIME" index="47"/>
+				<field name="HOCDCMINDWPWR" index="48"/>
+				<field name="HOCDCMINUPPWR" index="49"/>
+				<field name="HOCTRLSWITCH" index="50"/>
+				<field name="HOTHRES" index="51"/>
+				<field name="IDTYPE" index="52"/>
+				<field name="INFHHOLAST" index="53"/>
+				<field name="INFHHOSTAT" index="54"/>
+				<field name="INHOF2HTH" index="55"/>
+				<field name="INHOH2FTH" index="56"/>
+				<field name="INTERFERELASTTIME" index="57"/>
+				<field name="INTERFERESTATTIME" index="58"/>
+				<field name="INTERFHOEN" index="59"/>
+				<field name="INTERRATCELLRESELEN" index="60"/>
+				<field name="INTERRATINBSCHOEN" index="61"/>
+				<field name="INTERRATOUTBSCHOEN" index="62"/>
+				<field name="INTRACELLFHHOEN" index="63"/>
+				<field name="INTRACELLHOEN" index="64"/>
+				<field name="LEVHOEN" index="65"/>
+				<field name="LEVHOHYST" index="66"/>
+				<field name="LEVLAST" index="67"/>
+				<field name="LEVSTAT" index="68"/>
+				<field name="LOADHOEN" index="69"/>
+				<field name="MOIndex" index="70"/>
+				<field name="NOAMRFULLTOHALFHOALLOW" index="71"/>
+				<field name="NOAMRFULLTOHALFHOATCBADJSTEP" index="72"/>
+				<field name="NOAMRFULLTOHALFHOATCBTHRESH" index="73"/>
+				<field name="NOAMRFULLTOHALFHOPATHADJSTEP" index="74"/>
+				<field name="NOAMRFULLTOHALFHOPATHTHRESH" index="75"/>
+				<field name="NOAMRFULLTOHALFHOQUALTHRESH" index="76"/>
+				<field name="NOAMRFULLTOHALFTHRESH" index="77"/>
+				<field name="NOAMRHALFTOFULLHOATCBTHRESH" index="78"/>
+				<field name="NOAMRHALFTOFULLHOPATHTHRESH" index="79"/>
+				<field name="NOAMRHALFTOFULLHOQUALALLOW" index="80"/>
+				<field name="NOAMRHALFTOFULLHOQUALTHRESH" index="81"/>
+				<field name="NOAMRHALFTOFULLTHRESH" index="82"/>
+				<field name="PATHLOSSHOEN" index="83"/>
+				<field name="PBGTHOEN" index="84"/>
+				<field name="PBGTLAST" index="85"/>
+				<field name="PBGTSTAT" index="86"/>
+				<field name="PWRBOOST" index="87"/>
+				<field name="QCKMVHOEN" index="88"/>
+				<field name="QUICKHOEN" index="89"/>
+				<field name="RXQCKFALLHOEN" index="90"/>
+				<field name="SIGCHANHOEN" index="91"/>
+				<field name="TAHOEN" index="92"/>
+				<field name="TALASTTIME" index="93"/>
+				<field name="TASTATTIME" index="94"/>
+				<field name="TIGHTBCCHHOLASTTIME" index="95"/>
+				<field name="TIGHTBCCHHOSTATTIME" index="96"/>
+				<field name="ULBQLASTTIME" index="97"/>
+				<field name="ULBQSTATTIME" index="98"/>
+				<field name="ULEDGETHRES" index="99"/>
+				<field name="className" index="100"/>
+				<field name="name" index="101"/>
+				<field name="neID" index="102"/>
+				<field name="EXTEND1" index="103"/>
+				<field name="EXTEND2" index="104"/>
+				<field name="EXTEND3" index="105"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="9" file="/hw/BSC6000R11GCELLHOEMG.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="CELLID" index="2"/>
+				<field name="CELLNAME" index="3"/>
+				<field name="DLQUALIMIT" index="4"/>
+				<field name="FLTPARAA1" index="5"/>
+				<field name="FLTPARAA2" index="6"/>
+				<field name="FLTPARAA3" index="7"/>
+				<field name="FLTPARAA4" index="8"/>
+				<field name="FLTPARAA5" index="9"/>
+				<field name="FLTPARAA6" index="10"/>
+				<field name="FLTPARAA7" index="11"/>
+				<field name="FLTPARAA8" index="12"/>
+				<field name="FLTPARAB" index="13"/>
+				<field name="HOCTRLSWITCH" index="14"/>
+				<field name="IDTYPE" index="15"/>
+				<field name="MOIndex" index="16"/>
+				<field name="NODLMRHOALLOWLIMIT" index="17"/>
+				<field name="NODLMRHOEN" index="18"/>
+				<field name="NODLMRHOQUALLIMIT" index="19"/>
+				<field name="TALIMIT" index="20"/>
+				<field name="ULQUALIMIT" index="21"/>
+				<field name="className" index="22"/>
+				<field name="name" index="23"/>
+				<field name="neID" index="24"/>
+				<field name="EXTEND1" index="25"/>
+				<field name="EXTEND2" index="26"/>
+				<field name="EXTEND3" index="27"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="10" file="/hw/BSC6000R11GCELLHOPTP.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="CELLID" index="2"/>
+				<field name="CELLNAME" index="3"/>
+				<field name="FHMODE" index="4"/>
+				<field name="IDTYPE" index="5"/>
+				<field name="MOIndex" index="6"/>
+				<field name="className" index="7"/>
+				<field name="name" index="8"/>
+				<field name="neID" index="9"/>
+				<field name="EXTEND1" index="10"/>
+				<field name="EXTEND2" index="11"/>
+				<field name="EXTEND3" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="11" file="/hw/BSC6000R11GCELLIDLEAD.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="ACS" index="2"/>
+				<field name="CELLID" index="3"/>
+				<field name="CELLNAME" index="4"/>
+				<field name="IDTYPE" index="5"/>
+				<field name="MOIndex" index="6"/>
+				<field name="OFFSET" index="7"/>
+				<field name="PT" index="8"/>
+				<field name="className" index="9"/>
+				<field name="name" index="10"/>
+				<field name="neID" index="11"/>
+				<field name="EXTEND1" index="12"/>
+				<field name="EXTEND2" index="13"/>
+				<field name="EXTEND3" index="14"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="12" file="/hw/BSC6000R11GCELLIDLEBASIC.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="ATT" index="2"/>
+				<field name="BSAGBLKSRES" index="3"/>
+				<field name="BSPAMFRAMS" index="4"/>
+				<field name="CBA" index="5"/>
+				<field name="CBQ" index="6"/>
+				<field name="CELLID" index="7"/>
+				<field name="CELLNAME" index="8"/>
+				<field name="CRH" index="9"/>
+				<field name="CRO" index="10"/>
+				<field name="IDTYPE" index="11"/>
+				<field name="MOIndex" index="12"/>
+				<field name="NCCPERMIT" index="13"/>
+				<field name="PI" index="14"/>
+				<field name="T3212" index="15"/>
+				<field name="TX" index="16"/>
+				<field name="className" index="17"/>
+				<field name="name" index="18"/>
+				<field name="neID" index="19"/>
+				<field name="EXTEND1" index="20"/>
+				<field name="EXTEND2" index="21"/>
+				<field name="EXTEND3" index="22"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="13" file="/hw/BSC6000R11GCELLMAGRP.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="CELLID" index="2"/>
+				<field name="CELLNAME" index="3"/>
+				<field name="FREQ1" index="4"/>
+				<field name="FREQ10" index="5"/>
+				<field name="FREQ11" index="6"/>
+				<field name="FREQ12" index="7"/>
+				<field name="FREQ13" index="8"/>
+				<field name="FREQ14" index="9"/>
+				<field name="FREQ15" index="10"/>
+				<field name="FREQ16" index="11"/>
+				<field name="FREQ17" index="12"/>
+				<field name="FREQ18" index="13"/>
+				<field name="FREQ19" index="14"/>
+				<field name="FREQ2" index="15"/>
+				<field name="FREQ20" index="16"/>
+				<field name="FREQ21" index="17"/>
+				<field name="FREQ22" index="18"/>
+				<field name="FREQ23" index="19"/>
+				<field name="FREQ24" index="20"/>
+				<field name="FREQ25" index="21"/>
+				<field name="FREQ26" index="22"/>
+				<field name="FREQ27" index="23"/>
+				<field name="FREQ28" index="24"/>
+				<field name="FREQ29" index="25"/>
+				<field name="FREQ3" index="26"/>
+				<field name="FREQ30" index="27"/>
+				<field name="FREQ31" index="28"/>
+				<field name="FREQ32" index="29"/>
+				<field name="FREQ33" index="30"/>
+				<field name="FREQ34" index="31"/>
+				<field name="FREQ35" index="32"/>
+				<field name="FREQ36" index="33"/>
+				<field name="FREQ37" index="34"/>
+				<field name="FREQ38" index="35"/>
+				<field name="FREQ39" index="36"/>
+				<field name="FREQ4" index="37"/>
+				<field name="FREQ40" index="38"/>
+				<field name="FREQ41" index="39"/>
+				<field name="FREQ42" index="40"/>
+				<field name="FREQ43" index="41"/>
+				<field name="FREQ44" index="42"/>
+				<field name="FREQ45" index="43"/>
+				<field name="FREQ46" index="44"/>
+				<field name="FREQ47" index="45"/>
+				<field name="FREQ48" index="46"/>
+				<field name="FREQ49" index="47"/>
+				<field name="FREQ5" index="48"/>
+				<field name="FREQ50" index="49"/>
+				<field name="FREQ51" index="50"/>
+				<field name="FREQ52" index="51"/>
+				<field name="FREQ53" index="52"/>
+				<field name="FREQ54" index="53"/>
+				<field name="FREQ55" index="54"/>
+				<field name="FREQ56" index="55"/>
+				<field name="FREQ57" index="56"/>
+				<field name="FREQ58" index="57"/>
+				<field name="FREQ59" index="58"/>
+				<field name="FREQ6" index="59"/>
+				<field name="FREQ60" index="60"/>
+				<field name="FREQ61" index="61"/>
+				<field name="FREQ62" index="62"/>
+				<field name="FREQ63" index="63"/>
+				<field name="FREQ64" index="64"/>
+				<field name="FREQ7" index="65"/>
+				<field name="FREQ8" index="66"/>
+				<field name="FREQ9" index="67"/>
+				<field name="HOPINDEX" index="68"/>
+				<field name="HOPMODE" index="69"/>
+				<field name="HSN" index="70"/>
+				<field name="IDTYPE" index="71"/>
+				<field name="MOIndex" index="72"/>
+				<field name="TSC" index="73"/>
+				<field name="className" index="74"/>
+				<field name="name" index="75"/>
+				<field name="neID" index="76"/>
+				<field name="EXTEND1" index="77"/>
+				<field name="EXTEND2" index="78"/>
+				<field name="EXTEND3" index="79"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="14" file="/hw/BSC6000R11GCELLOTHEXT.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="CDRTTRYFBDTHRES" index="2"/>
+				<field name="CELLID" index="3"/>
+				<field name="CELLNAME" index="4"/>
+				<field name="CELLOVERCVGRXLEVDLTH" index="5"/>
+				<field name="CELLOVERCVGTALTH" index="6"/>
+				<field name="CELLWEAKCVGRXLEVDLTH" index="7"/>
+				<field name="CELLWEAKCVGTALTH" index="8"/>
+				<field name="DATATRAFFSET" index="9"/>
+				<field name="DCDIVTHRES" index="10"/>
+				<field name="DRXEN" index="11"/>
+				<field name="FRAMEOFFSET" index="12"/>
+				<field name="FREQADJ" index="13"/>
+				<field name="FREQADJVALUE" index="14"/>
+				<field name="IDTYPE" index="15"/>
+				<field name="INTERFTHRES0" index="16"/>
+				<field name="INTERFTHRES1" index="17"/>
+				<field name="INTERFTHRES2" index="18"/>
+				<field name="INTERFTHRES3" index="19"/>
+				<field name="INTERFTHRES4" index="20"/>
+				<field name="INTERFTHRES5" index="21"/>
+				<field name="INTERPERIOD" index="22"/>
+				<field name="MAINBCCHPWDTACTCHEN" index="23"/>
+				<field name="MAINBCCHPWRDTEN" index="24"/>
+				<field name="MAINBCCHPWRDTETIME" index="25"/>
+				<field name="MAINBCCHPWRDTRANGE" index="26"/>
+				<field name="MAINBCCHPWRDTSTIME" index="27"/>
+				<field name="MOIndex" index="28"/>
+				<field name="PODECTHRES" index="29"/>
+				<field name="POERRTHRES" index="30"/>
+				<field name="RESERVEDIDLECH" index="31"/>
+				<field name="RFMAXPWRDEC" index="32"/>
+				<field name="SDDROPSTATDLLEV" index="33"/>
+				<field name="SDDROPSTATDLQUAL" index="34"/>
+				<field name="SDDROPSTATULLEV" index="35"/>
+				<field name="SDDROPSTATULQUAL" index="36"/>
+				<field name="TFRMSTARTTIME" index="37"/>
+				<field name="VSWRERRTHRES" index="38"/>
+				<field name="VSWRUNJUSTTHRES" index="39"/>
+				<field name="className" index="40"/>
+				<field name="name" index="41"/>
+				<field name="neID" index="42"/>
+				<field name="EXTEND1" index="43"/>
+				<field name="EXTEND2" index="44"/>
+				<field name="EXTEND3" index="45"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="15" file="/hw/BSC6000R11GCELLPWRBASIC.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="AMRSADLUPGRADE" index="2"/>
+				<field name="CELLID" index="3"/>
+				<field name="CELLNAME" index="4"/>
+				<field name="COMBINERLOSS" index="5"/>
+				<field name="DLQHIGHTHRED" index="6"/>
+				<field name="DLQLOWTHRED" index="7"/>
+				<field name="DLSSHIGHTHRED" index="8"/>
+				<field name="DLSSLOWTHRED" index="9"/>
+				<field name="DOUBLEANTENNAGAIN" index="10"/>
+				<field name="EXPDLRXLEV" index="11"/>
+				<field name="EXPULRXLEV" index="12"/>
+				<field name="IDTYPE" index="13"/>
+				<field name="MOIndex" index="14"/>
+				<field name="PATHLOSS" index="15"/>
+				<field name="PCADJPERIOD" index="16"/>
+				<field name="PWRBCDALLOWD" index="17"/>
+				<field name="PWRCTRLSW" index="18"/>
+				<field name="SAICALLOWED" index="19"/>
+				<field name="ULQHIGHTHRED" index="20"/>
+				<field name="ULQLOWTHRED" index="21"/>
+				<field name="ULSSHIGHTHRED" index="22"/>
+				<field name="ULSSLOWTHRED" index="23"/>
+				<field name="className" index="24"/>
+				<field name="name" index="25"/>
+				<field name="neID" index="26"/>
+				<field name="EXTEND1" index="27"/>
+				<field name="EXTEND2" index="28"/>
+				<field name="EXTEND3" index="29"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="16" file="/hw/BSC6000R11GEXT2GCELL.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="BCC" index="2"/>
+				<field name="BCCH" index="3"/>
+				<field name="BSCIDX" index="4"/>
+				<field name="BSCN2GCELLNAME" index="5"/>
+				<field name="CELLLAYER" index="6"/>
+				<field name="CELLPRIOR" index="7"/>
+				<field name="CGI" index="8"/>
+				<field name="CI" index="9"/>
+				<field name="COMSC" index="10"/>
+				<field name="EXT2GCELLID" index="11"/>
+				<field name="EXT2GCELLNAME" index="12"/>
+				<field name="HOOFFSET" index="13"/>
+				<field name="HOPUNISHVALUE" index="14"/>
+				<field name="HOTHRES" index="15"/>
+				<field name="IDTYPE" index="16"/>
+				<field name="ISEDGESUPPORT" index="17"/>
+				<field name="ISGPRSSUPPORT" index="18"/>
+				<field name="ISNC2SUPPORT" index="19"/>
+				<field name="LAC" index="20"/>
+				<field name="LOADACCTHRES" index="21"/>
+				<field name="LOADHOEN" index="22"/>
+				<field name="MCC" index="23"/>
+				<field name="MNC" index="24"/>
+				<field name="MOIndex" index="25"/>
+				<field name="MSRXMIN" index="26"/>
+				<field name="NCC" index="27"/>
+				<field name="OPNAME" index="28"/>
+				<field name="RA" index="29"/>
+				<field name="SDPUNTIME" index="30"/>
+				<field name="SDPUNVAL" index="31"/>
+				<field name="SRCCI" index="32"/>
+				<field name="SRCLAC" index="33"/>
+				<field name="SRCMCC" index="34"/>
+				<field name="SRCMNC" index="35"/>
+				<field name="TIMEPUNISH" index="36"/>
+				<field name="className" index="37"/>
+				<field name="name" index="38"/>
+				<field name="neID" index="39"/>
+				<field name="EXTEND1" index="40"/>
+				<field name="EXTEND2" index="41"/>
+				<field name="EXTEND3" index="42"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="17" file="/hw/BSC6000R11GEXT3GCELL.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="BSCN3GCELLNAME" index="2"/>
+				<field name="CELLLAYER" index="3"/>
+				<field name="CI" index="4"/>
+				<field name="DF" index="5"/>
+				<field name="DIVERSITY" index="6"/>
+				<field name="ECNOTHRES" index="7"/>
+				<field name="EXT3GCELLID" index="8"/>
+				<field name="EXT3GCELLNAME" index="9"/>
+				<field name="FDDECQUALTHRSH" index="10"/>
+				<field name="FDDRSCPQUALTHRSH" index="11"/>
+				<field name="IDTYPE" index="12"/>
+				<field name="LAC" index="13"/>
+				<field name="LOADACCTHRES" index="14"/>
+				<field name="LOADHOEN" index="15"/>
+				<field name="MCC" index="16"/>
+				<field name="MINECNOTHRES" index="17"/>
+				<field name="MINRSCPTHRES" index="18"/>
+				<field name="MNC" index="19"/>
+				<field name="MOIndex" index="20"/>
+				<field name="OPNAME" index="21"/>
+				<field name="RNCID" index="22"/>
+				<field name="RSCPTHRES" index="23"/>
+				<field name="SCRAMBLE" index="24"/>
+				<field name="SYNCCASE" index="25"/>
+				<field name="TDDRSCPQUALTHRSH" index="26"/>
+				<field name="UTRANCELLTYPE" index="27"/>
+				<field name="className" index="28"/>
+				<field name="name" index="29"/>
+				<field name="neID" index="30"/>
+				<field name="EXTEND1" index="31"/>
+				<field name="EXTEND2" index="32"/>
+				<field name="EXTEND3" index="33"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="18" file="/hw/BSC6000R11GTRX.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="ACTSTATUS" index="2"/>
+				<field name="CABINETNO" index="3"/>
+				<field name="CELLID" index="4"/>
+				<field name="CELLNAME" index="5"/>
+				<field name="FREQ" index="6"/>
+				<field name="IDTYPE" index="7"/>
+				<field name="ISMAINBCCH" index="8"/>
+				<field name="MOIndex" index="9"/>
+				<field name="SN" index="10"/>
+				<field name="SRN" index="11"/>
+				<field name="TEI" index="12"/>
+				<field name="TRXID" index="13"/>
+				<field name="TRXNO" index="14"/>
+				<field name="UPRSLLOGICNO" index="15"/>
+				<field name="className" index="16"/>
+				<field name="name" index="17"/>
+				<field name="neID" index="18"/>
+				<field name="EXTEND1" index="19"/>
+				<field name="EXTEND2" index="20"/>
+				<field name="EXTEND3" index="21"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="19" file="/hw/BSC6000R11GTRXCHANHOP.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="CHNO" index="2"/>
+				<field name="MOIndex" index="3"/>
+				<field name="TRXHOPINDEX" index="4"/>
+				<field name="TRXID" index="5"/>
+				<field name="TRXMAIO" index="6"/>
+				<field name="className" index="7"/>
+				<field name="name" index="8"/>
+				<field name="neID" index="9"/>
+				<field name="EXTEND1" index="10"/>
+				<field name="EXTEND2" index="11"/>
+				<field name="EXTEND3" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="20" file="/hw/BSC6000R11NE.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Fdn" index="0"/>
+				<field name="objectId" index="1"/>
+				<field name="DaylightSaveInfo" index="2"/>
+				<field name="IP" index="3"/>
+				<field name="MOIndex" index="4"/>
+				<field name="TimeZone" index="5"/>
+				<field name="className" index="6"/>
+				<field name="district" index="7"/>
+				<field name="isOffline" index="8"/>
+				<field name="latitude" index="9"/>
+				<field name="locationName" index="10"/>
+				<field name="longitude" index="11"/>
+				<field name="matchVersion" index="12"/>
+				<field name="memo" index="13"/>
+				<field name="name" index="14"/>
+				<field name="neID" index="15"/>
+				<field name="neType" index="16"/>
+				<field name="neVersion" index="17"/>
+				<field name="realLatitude" index="18"/>
+				<field name="realLongitude" index="19"/>
+				<field name="userLabel" index="20"/>
+				<field name="vendorName" index="21"/>
+				<field name="EXTEND1" index="22"/>
+				<field name="EXTEND2" index="23"/>
+				<field name="EXTEND3" index="24"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

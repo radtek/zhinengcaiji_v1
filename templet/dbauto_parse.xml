@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets><!--智能数据库解析-->
+	<!--正常模板-->
+	<templet id="0" table="src0" used="0" condition="">
+		<field name="STARTTIME" index="0"/>
+		<field name="SRC0COL1" index="1" occur="required" />
+		<field name="SRC0COL2" index="2"/>
+		<field name="SRC0COL3" index="3" />
+	</templet>
+	<!--不存在列和错列模板-->
+	<templet id="1" table="src1" used="1" condition="">
+		<field name="STARTTIME" index="0"/>
+		<field name="SRC1COL2" index="1" occur="required" />
+		<field name="SRC1COL1" index="2"/>
+		<field name="SRC1COL4" index="3" />
+	</templet>
+		<!--正常-->
+	<templet id="2" table="src2" used="1" condition="">
+		<field name="STARTTIME" index="0"/>
+		<field name="SRC2COL1" index="1" occur="required" />
+		<field name="SRC2COL2" index="2"/>
+		<field name="SRC2COL3" index="3" />
+	</templet>
+		<!--不存在必须列模板-->
+	<templet id="3" table="src3" used="1" condition="">
+		<field name="STARTTIME" index="0"/>
+		<field name="SRC3COL1" index="1" occur="required" />
+		<field name="SRC3COL2" index="2"/>
+		<field name="SRC3COL3" index="3" occur="required" />
+	</templet>
+</templets>

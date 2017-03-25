@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+	<templet id="0" file="/c/am/hw/%%Y%%M%%D*-event-log-auto-*.zip">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="日志流水号" index="0"/>
+				<field name="产品名称" index="1"/>
+				<field name="网元类型" index="2"/>
+				<field name="网元名称" index="3"/>
+				<field name="设备告警流水号" index="4"/>
+				<field name="告警名称" index="5"/>
+				<field name="告警类型" index="6"/>
+				<field name="告警级别" index="7"/>
+				<field name="发生时间" index="8"/>
+				<field name="定位信息" index="9"/>
+				<field name="链路标识" index="10"/>
+				<field name="链路名称" index="11"/>
+				<field name="链路类型" index="12"/>
+				<field name="告警标识" index="13"/>
+				<field name="告警ID" index="14"/>
+				<field name="对象实例类型" index="15"/>
+				<field name="影响业务标识" index="16"/>
+				<field name="附加信息" index="17"/>
+				<field name="到达网管UTC时间" index="18"/>
+				<field name="代理ID" index="19"/>
+				<field name="根源告警ID" index="20"/>
+				<field name="告警是否被隐藏（屏蔽）" index="21"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/c/am/hw/%%Y%%M%%D*-alarm-log-auto-*.zip">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="日志流水号" index="0"/>
+				<field name="产品名称" index="1"/>
+				<field name="网元类型" index="2"/>
+				<field name="网元名称" index="3"/>
+				<field name="设备告警流水号" index="4"/>
+				<field name="告警名称" index="5"/>
+				<field name="告警类型" index="6"/>
+				<field name="告警级别" index="7"/>
+				<field name="告警状态" index="8"/>
+				<field name="发生时间" index="9"/>
+				<field name="确认时间" index="10"/>
+				<field name="清除时间" index="11"/>
+				<field name="(反)确认操作员" index="12"/>
+				<field name="清除操作员" index="13"/>
+				<field name="定位信息" index="14"/>
+				<field name="链路标识" index="15"/>
+				<field name="链路名称" index="16"/>
+				<field name="链路类型" index="17"/>
+				<field name="告警标识" index="18"/>
+				<field name="告警ID" index="19"/>
+				<field name="对象实例类型" index="20"/>
+				<field name="自动清除" index="21"/>
+				<field name="告警清除类型" index="22"/>
+				<field name="影响业务标识" index="23"/>
+				<field name="附加信息" index="24"/>
+				<field name="到达网管UTC时间" index="25"/>
+				<field name="列表流水号" index="26"/>
+				<field name="关联日志id" index="27"/>
+				<field name="代理ID" index="28"/>
+				<field name="根源告警ID" index="29"/>
+				<field name="告警是否被隐藏（屏蔽）" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

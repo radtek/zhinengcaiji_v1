@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templet>
+	<gsm>
+		<omc_id exclude="81001,81002,81003,71001,71002,91001" />
+		<dburl>jdbc:oracle:thin:@192.168.15.11:1521:gnoap</dburl>
+		<dbuser>gnoap</dbuser>
+		<dbpwd>uwaysoft</dbpwd>
+		<table>clt_am_g_jx_yy_alarm</table>
+		<fields>
+			<field index="0"   name="intversion" />
+			<field index="1"   name="msgserial" />
+			<field index="2"   name="alarmuniqueid" />
+			<field index="3"   name="neid" />
+			<field index="4"   name="nename" />
+			<field index="5"   name="nealias" />
+			<field index="6"   name="neip" />
+			<field index="7"   name="bsc_id" />
+			<field index="8"   name="bts_id" />
+			<field index="9"   name="cell_id" />
+			<field index="10"   name="object_class" />
+			<field index="11"   name="omc_id" />
+			<field index="12"   name="systemname" />
+			<field index="13"   name="equipmentclass" />
+			<field index="14"   name="vendor" />
+			<field index="15"   name="version" />
+			<field index="16"   name="locatenename" />
+			<field index="17"   name="locatenetype" />
+			<field index="18"   name="locatenestatus" />
+			<field index="19"   name="locatenesubstatus" />
+			<field index="20"   name="locateinfo" />
+			<field index="21"   name="eventtime" dateFormat="yyyy-MM-dd HH:mm:ss" />
+			<field index="22"   name="canceltime" dateFormat="yyyy-MM-dd HH:mm:ss" />
+			<field index="23"   name="daltime" />
+			<field index="24"   name="vendoralarmtype" />
+			<field index="25"   name="vendorseverity" />
+			<field index="26"   name="alarmseverity" />
+			<field index="27"   name="vendoralarmid" />
+			<field index="28"   name="nmsalarmid" />
+			<field index="29"   name="alarmstatus" />
+			<field index="30"   name="ackflag" />
+			<field index="31"   name="acktime" />
+			<field index="32"   name="ackuser" />
+			<field index="33"   name="alarmtitle" />
+			<field index="34"   name="standardalarmname" />
+			<field index="35"   name="probablecausetxt" />
+			<field index="36"   name="alarmtext_1" />
+			<field index="37"   name="alarmtext_2" />
+			<field index="38"   name="specialty" />
+			<field index="39"   name="alarmlogicclass" />
+			<field index="40"   name="alarmlogicsubclass" />
+			<field index="41"   name="sub_alarm_type" />
+			<field index="42"   name="effectonequipment" />
+			<field index="43"   name="effectonbusiness" />
+			<field index="44"   name="nmsalarmtype" />
+			<field index="45"   name="sendgroupflag" />
+			<field index="46"   name="relatedflag" />
+			<field index="47"   name="alarmprovince" />
+			<field index="48"   name="alarmregion" />
+			<field index="49"   name="alarmcounty" />
+			<field index="50"   name="site" />
+			<field index="51"   name="alarmactcount" />
+			<field index="52"   name="correlatealarmflag" />
+			<field index="53"   name="businesssystem" />
+			<field index="54"   name="groupcustomer" />
+			<field index="55"   name="customerclass" />
+			<field index="56"   name="businesslevel" />
+			<field index="57"   name="circuitid" />
+		</fields>
+	</gsm>
+	<wcdma>
+		<omc_id include="81001,81002,81003,71001,71002,91001" />
+		<dburl>jdbc:oracle:thin:@192.168.15.12:1521:uway</dburl>
+		<dbuser>igp</dbuser>
+		<dbpwd>igp</dbpwd>
+		<table>clt_am_w_jx_yy_alarm</table>
+		<fields>
+			<field index="0"   name="intversion" />
+			<field index="1"   name="msgserial" />
+			<field index="2"   name="alarmuniqueid" />
+			<field index="3"   name="neid" />
+			<field index="4"   name="nename" />
+			<field index="5"   name="nealias" />
+			<field index="6"   name="neip" />
+			<field index="7"   name="bsc_id" />
+			<field index="8"   name="bts_id" />
+			<field index="9"   name="cell_id" />
+			<field index="10"   name="object_class" />
+			<field index="11"   name="omc_id" />
+			<field index="12"   name="systemname" />
+			<field index="13"   name="equipmentclass" />
+			<field index="14"   name="vendor" />
+			<field index="15"   name="version" />
+			<field index="16"   name="locatenename" />
+			<field index="17"   name="locatenetype" />
+			<field index="18"   name="locatenestatus" />
+			<field index="19"   name="locatenesubstatus" />
+			<field index="20"   name="locateinfo" />
+			<field index="21"   name="eventtime" dateFormat="yyyy-MM-dd HH:mm:ss" />
+			<field index="22"   name="canceltime" dateFormat="yyyy-MM-dd HH:mm:ss" />
+			<field index="23"   name="daltime" />
+			<field index="24"   name="vendoralarmtype" />
+			<field index="25"   name="vendorseverity" />
+			<field index="26"   name="alarmseverity" />
+			<field index="27"   name="vendoralarmid" />
+			<field index="28"   name="nmsalarmid" />
+			<field index="29"   name="alarmstatus" />
+			<field index="30"   name="ackflag" />
+			<field index="31"   name="acktime" />
+			<field index="32"   name="ackuser" />
+			<field index="33"   name="alarmtitle" />
+			<field index="34"   name="standardalarmname" />
+			<field index="35"   name="probablecausetxt" />
+			<field index="36"   name="alarmtext_1" />
+			<field index="37"   name="alarmtext_2" />
+			<field index="38"   name="specialty" />
+			<field index="39"   name="alarmlogicclass" />
+			<field index="40"   name="alarmlogicsubclass" />
+			<field index="41"   name="sub_alarm_type" />
+			<field index="42"   name="effectonequipment" />
+			<field index="43"   name="effectonbusiness" />
+			<field index="44"   name="nmsalarmtype" />
+			<field index="45"   name="sendgroupflag" />
+			<field index="46"   name="relatedflag" />
+			<field index="47"   name="alarmprovince" />
+			<field index="48"   name="alarmregion" />
+			<field index="49"   name="alarmcounty" />
+			<field index="50"   name="site" />
+			<field index="51"   name="alarmactcount" />
+			<field index="52"   name="correlatealarmflag" />
+			<field index="53"   name="businesssystem" />
+			<field index="54"   name="groupcustomer" />
+			<field index="55"   name="customerclass" />
+			<field index="56"   name="businesslevel" />
+			<field index="57"   name="circuitid" />
+		</fields>
+	</wcdma>
+</templet>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_PM_HW_GD_DOCARRIERFREQ" split="|">
+			<column name="DRCRate1" index="0"/>
+			<column name="DRCRate2" index="1"/>
+			<column name="DRCRate3" index="2"/>
+			<column name="PDSNRelease" index="3"/>
+			<column name="attANRadioCall" index="4"/>
+			<column name="attATRadioCall" index="5"/>
+			<column name="avgSetupTime" index="6"/>
+			<column name="earlyRelease" index="7"/>
+			<column name="failByNoCaptureTCH" index="8"/>
+			<column name="failByNoResource" index="9"/>
+			<column name="failByNoTCC" index="10"/>
+			<column name="radioDropByHHOFail" index="11"/>
+			<column name="radioDropByOtherCause" index="12"/>
+			<column name="radioDropByRFLost" index="13"/>
+			<column name="radioRelease" index="14"/>
+			<column name="succANNetCall" index="15"/>
+			<column name="succANRadioCall" index="16"/>
+			<column name="succATNetCall" index="17"/>
+			<column name="succATRadioCall" index="18"/>
+			<column name="forwardCCHSlotUsage" index="19"/>
+			<column name="forwardPhyAvgThroughput" index="20"/>
+			<column name="forwardPhyBurstThroughput" index="21"/>
+			<column name="forwardRLPReTx" index="22"/>
+			<column name="forwardRLPThroughput" index="23"/>
+			<column name="forwardTCHSlotUsage" index="24"/>
+			<column name="reverseACHSlotUsage" index="25"/>
+			<column name="reverseLinkBusy" index="26"/>
+			<column name="reversePhyAvgThroughput" index="27"/>
+			<column name="reversePhyBurstThroughput" index="28"/>
+			<column name="reverseRLPReRx" index="29"/>
+			<column name="reverseRLPThroughput" index="30"/>
+			<column name="InterANAttHHO" index="31"/>
+			<column name="InterANAttSHO" index="32"/>
+			<column name="InterANSuccHHO" index="33"/>
+			<column name="InterANSuccSHO" index="34"/>
+			<column name="IntraANAttHHO" index="35"/>
+			<column name="IntraANAttSHO" index="36"/>
+			<column name="IntraANSuccHHO" index="37"/>
+			<column name="IntraANSuccSHO" index="38"/>
+			<column name="attUATIAssign" index="39"/>
+			<column name="avgUATISetupTime" index="40"/>
+			<column name="succUATIAssign" index="41"/>
+			<column name="maxForwardMacIndex" index="42"/>
+			<column name="ceTraffic" index="43"/>
+			<column name="conntionTraffic" index="44"/>
+			<column name="numEquUser" index="45"/>
+			<column name="SubNetwork" index="46" />
+			<column name="ManagedElement" index="47" />
+			<column name="BscFunction" index="48" />
+			<column name="DOSector" index="49" />
+			<column name="DOCarrierFreq" index="50" />
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_PM_HW_GD_CARRIERFREQ" split="|">
+			<column name="carrierTraffic" index="0"/>
+			<column name="SubNetwork" index="1" />
+			<column name="ManagedElement" index="2" />
+			<column name="BscFunction" index="3" />
+			<column name="Sector" index="4" />
+			<column name="CarrierFreq" index="5" />
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="CLT_PM_HW_GD_BTSFUNCTION" split="|">
+			<column name="avgBandABis" index="0"/>
+			<column name="numReverseCeMax" index="1"/>
+			<column name="IntraBTSattSofterHoAdditionPd" index="2"/>
+			<column name="IntraBTSattSofterHoAdditionVce" index="3"/>
+			<column name="IntraBTSsuccSofterHoAdditionPd" index="4"/>
+			<column name="IntraBTSsuccSofterHoAdditionVce" index="5"/>
+			<column name="durCeSeizure" index="6"/>
+			<column name="failCallsByBlock" index="7"/>
+			<column name="nbrAvailCe" index="8"/>
+			<column name="trafficPch" index="9"/>
+			<column name="trafficCarrier1" index="10"/>
+			<column name="trafficCarrier2" index="11"/>
+			<column name="SubNetwork" index="12" />
+			<column name="ManagedElement" index="13" />
+			<column name="BtsFunction" index="14" />
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="CLT_PM_HW_GD_BSCFUNCTION" split="|">
+			<column name="attCalls" index="0"/>
+			<column name="attTchSeizureCallee" index="1"/>
+			<column name="attTchSeizureCaller" index="2"/>
+			<column name="attTchSeizureHo" index="3"/>
+			<column name="attTchSeizureSms" index="4"/>
+			<column name="failCallsByBlock" index="5"/>
+			<column name="nbrRadioDropCs" index="6"/>
+			<column name="sucTchSeizureCallee" index="7"/>
+			<column name="sucTchSeizureCaller" index="8"/>
+			<column name="sucTchSeizureHo" index="9"/>
+			<column name="sucTchSeizureSms" index="10"/>
+			<column name="succCalls" index="11"/>
+			<column name="trafficExcludeSoftHo" index="12"/>
+			<column name="attSHO" index="13"/>
+			<column name="succSHO" index="14"/>
+			<column name="attInterANDormantHO" index="15"/>
+			<column name="attSessionAuth" index="16"/>
+			<column name="failSessionAuth" index="17"/>
+			<column name="failSessionNego" index="18"/>
+			<column name="numActiveSession" index="19"/>
+			<column name="numNotActiveSession" index="20"/>
+			<column name="numSession" index="21"/>
+			<column name="rejectSessionAuth" index="22"/>
+			<column name="succInterANDormantHO" index="23"/>
+			<column name="succSessionAuth" index="24"/>
+			<column name="succSessionNego" index="25"/>
+			<column name="attPaging" index="26"/>
+			<column name="avgConnectionTime" index="27"/>
+			<column name="rspPaging" index="28"/>
+			<column name="IntraBSCattSoftHoAddition" index="29"/>
+			<column name="IntraBSCsuccSoftHoAddition" index="30"/>
+			<column name="attIncHardHo" index="31"/>
+			<column name="attSoftHoAddition" index="32"/>
+			<column name="succIncHardHo" index="33"/>
+			<column name="succSoftHoAddition" index="34"/>
+			<column name="attCallsPs" index="35"/>
+			<column name="attFschAssign" index="36"/>
+			<column name="attHoPs" index="37"/>
+			<column name="attRschAssign" index="38"/>
+			<column name="fchCeTraffic" index="39"/>
+			<column name="fchCeTrafficExcludeSoftHo" index="40"/>
+			<column name="nbrCallDropPs" index="41"/>
+			<column name="nbrCongestionRadioPart" index="42"/>
+			<column name="nbrForwardRlpPkts" index="43"/>
+			<column name="nbrResendedForwardRlpPkts" index="44"/>
+			<column name="nbrResendedReverseRlpPkts" index="45"/>
+			<column name="nbrReverseRlpPkts" index="46"/>
+			<column name="schCeTraffic" index="47"/>
+			<column name="succFschAssign" index="48"/>
+			<column name="succHoPs" index="49"/>
+			<column name="succRschAssign" index="50"/>
+			<column name="trafficByWalshPsFch" index="51"/>
+			<column name="trafficByWalshPsSch" index="52"/>
+			<column name="durACircuitsSeizure" index="53"/>
+			<column name="meanCpuUsage" index="54"/>
+			<column name="nbrAvailACircuits" index="55"/>
+			<column name="SubNetwork" index="56" />
+			<column name="ManagedElement" index="57" />
+			<column name="BscFunction" index="58" />
+		</table>
+	</templet>
+</templets>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<TEMPLATE>
+	<PUBLIC>
+		<SCANTYPE>0</SCANTYPE>
+	</PUBLIC>
+	<UNRESERVED>
+		<UITEM>
+			<UNSTR>			HANDOFF MATRIX</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>			  TYPE 1008</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>FROM</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>CELL</UNSTR>
+		</UITEM>
+	</UNRESERVED>
+	<RESERVED>
+    <RITEM>
+        <FILENAME>TABLE_0</FILENAME>
+        <LINEHEADSIGN></LINEHEADSIGN>
+        <LINEHEADTYPE>0</LINEHEADTYPE>
+        <PARSETYPE>1</PARSETYPE>
+        <COLUMNCOUNT>7</COLUMNCOUNT>
+        <FIELDSPLITSIGN>	</FIELDSPLITSIGN>
+        <NEWFIELDSPLITSIGN>;</NEWFIELDSPLITSIGN>
+        <nvl></nvl>
+        <COLUMNS>
+           <FIELDITEM>
+                <FIELDINDEX>0</FIELDINDEX>
+                <FIELDNAME>FROMCELL</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>1</FIELDINDEX>
+                <FIELDNAME>FROMLAF</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>2</FIELDINDEX>
+                <FIELDNAME>TOSID</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>3</FIELDINDEX>
+                <FIELDNAME>TOECP</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>4</FIELDINDEX>
+                <FIELDNAME>TOCELL</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>5</FIELDINDEX>
+                <FIELDNAME>TOLAF</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>6</FIELDINDEX>
+                <FIELDNAME>HANDOFFCOUNT</FIELDNAME>
+           </FIELDITEM>
+        </COLUMNS>
+     </RITEM>		
+	</RESERVED>
+</TEMPLATE>

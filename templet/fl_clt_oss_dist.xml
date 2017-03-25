@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_OSS_BSC" split="%" >
+			<column name="CITY_NAME" index="0"/>
+			<column name="COUNTY_NAME" index="1"/>
+			<column name="CITY_COUNTY_NAME" index="2"/>
+			<column name="LOCATION_NUM" index="3"/>
+			<column name="NET_TYPE" index="4"/>
+			<column name="VENDOR_NAME" index="5"/>
+			<column name="CHINA_NAME" index="6"/>
+			<column name="BSC_ID" index="7"/>
+			<column name="BSC_NUM" index="8"/>
+			<column name="USE_STATE" index="9"/>
+			<column name="LONGITUDE" index="10"/>
+			<column name="LATITUDE" index="11"/>
+			<column name="ADDRESS" index="12"/>
+			<column name="SOFTWARE_VERSION" index="13"/>
+			<column name="PROJECT_NUM" index="14"/>
+			<column name="PROJECT_STATE" index="15"/>
+			<column name="ONLINE_TIME" index="16" type="3" format="yyyy/mm/dd hh24:mi:ss.###" />
+			<column name="GUARANTEE_START_TIME" index="17" type="3" format="yyyy/mm/dd hh24:mi:ss.###" />
+			<column name="GUARATEE_END_TIME" index="18" type="3" format="yyyy/mm/dd hh24:mi:ss.###" />
+			<column name="SIGNALLING_POINT_NUM" index="19"/>
+			<column name="MARKETING_CENTER" index="20"/>
+			<column name="A_INTERFACE_MODE" index="21"/>
+			<column name="ABIS_INTERFACE_MODE" index="22"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_OSS_BTS" split="%" >
+			<column name="CITY_NAME" index="0" />
+			<column name="COUNTY_NAME" index="1" />
+			<column name="LOCATION" index="2" />
+			<column name="LOCATION_NUM" index="3" />
+			<column name="NET_TYPE" index="4" />
+			<column name="VENDOR_NAME" index="5" />
+			<column name="BTS_NAME" index="6" />
+			<column name="BSC_NAME" index="7" />
+			<column name="BTS_ID" index="8" />
+			<column name="BTS_NUM" index="9" />
+			<column name="USE_STATE" index="10" />
+			<column name="LONGITUDE" index="11" />
+			<column name="LATITUDE" index="12" />
+			<column name="ADDRESS" index="13" />
+			<column name="SOFTWARE_VERSION" index="14" />
+			<column name="PROJECT_NUM" index="15" />
+			<column name="PROJECT_STATE" index="16" />
+			<column name="ONLINE_TIME" index="17" type="3" format="yyyy/mm/dd hh24:mi:ss.###"  />
+			<column name="GUARANTEE_START_TIME" index="18" type="3" format="yyyy/mm/dd hh24:mi:ss.###" />
+			<column name="GUARATEE_END_TIME" index="19" type="3" format="yyyy/mm/dd hh24:mi:ss.###" />
+			<column name="INSTALL_MODE" index="20" />
+			<column name="IS_SELF_HEALING" index="21" />
+			<column name="EQUIPMENT_SOURCE" index="22" />
+			<column name="BTS_TYPE" index="23" />
+			<column name="BTS_KIND" index="24" />
+			<column name="RANK" index="25" />
+			<column name="SITE_MODE" index="26" />
+			<column name="ONEX_SITE_MODE" index="27" />
+			<column name="EVDO_SITE_MODE" index="28" />
+			<column name="IS_BODER" index="29" />
+			<column name="BORDER_CO" index="30" />
+			<column name="INDOOR_ONLY" index="31" />
+			<column name="TRANS_MODE" index="32" />
+			<column name="TRANS_ATTRIBUTES" index="33" />
+			<column name="CIRCUIT_CODING" index="34" />
+			<column name="TRANS_TYPE" index="35" />
+			<column name="ONEX_2M_NUM" index="36" />
+			<column name="DO_2M_NUM" index="37" />
+			<column name="ONEX_DO_2M_NUM" index="38" />
+			<column name="GE_NUM" index="39" />
+			<column name="FE_NUM" index="40" />
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="CLT_OSS_RRU" split="%" >
+			<column name="CITY_NAME" index="0" />
+			<column name="COUNTY_NAME" index="1" />
+			<column name="LOCATION_NUM" index="2" />
+			<column name="NET_TYPE" index="3" />
+			<column name="VENDOR_NUM" index="4" />
+			<column name="RRU_NAME" index="5" />
+			<column name="BTS_NAME" index="6" />
+			<column name="BTS_NUM" index="7" />
+			<column name="RRU_NUM" index="8" />
+			<column name="USE_STATE" index="9" />
+			<column name="PROJECT_NUM" index="10" />
+			<column name="ONLINE_TIME" index="11"  type="3" format="yyyy/mm/dd hh24:mi:ss.###" />
+			<column name="INSTALL_MODE" index="12" />
+			<column name="INSTALL_ADDRESS" index="13" />
+			<column name="CARR_COUNT" index="14" />
+			<column name="CASCADE_LEVEL" index="15" />
+			<column name="COVER_ATTRIBUTES" index="16" />
+			<column name="COVER_AREA_TYPE" index="17" />
+			<column name="COVER_ROAD_TYPE" index="18" />
+			<column name="LIGHT_PATH_NUM" index="19" />
+			<column name="FIBER_LENGTH" index="20" />
+			<column name="COUNTY_NUM" index="21" />
+			<column name="MARKETING_CENTER" index="22" />
+			<column name="TRANS_MODE" index="23" />
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="CLT_OSS_CELL" split="%" >
+			<column name="CELL_NUM" index="0" />
+			<column name="BTS_NUM" index="1" />
+			<column name="BSC_ID" index="2" />
+			<column name="BTS_ID" index="3" />
+			<column name="CELL_ID" index="4" />
+			<column name="CARR_COUNT" index="5" />
+			<column name="CARR_1X_COUNT" index="6" />
+			<column name="CARR_DO_COUNT" index="7" />
+			<column name="CARR_1X" index="8" />
+			<column name="CARR_DO" index="9" />
+			<column name="CARR_PILOT_BEACON" index="10" />
+			<column name="IS_MICRO_CELL" index="11" />
+			<column name="IS_INDOOR_SIGNAL" index="12" />
+		</table>
+	</templet>
+	<templet id="4">
+		<table id="0" name="CLT_OSS_ANTENNA" split="%" >
+			<column name="ANTENNA_ID"  index="0" />
+			<column name="NET_TYPE"  index="1" />
+			<column name="NET_ID"  index="2" />
+			<column name="CARR_ID"  index="3" />
+			<column name="CELL_TYPE"  index="4" />
+			<column name="ANTENNA_NUM"  index="5" />
+			<column name="ANTENNA_TOWER"  index="6" />
+			<column name="IS_SHARE_INFO"  index="7" />
+			<column name="CITY_NAME"  index="8" />
+			<column name="COUNTY_NAME"  index="9" />
+			<column name="ANTENNA_NAME"  index="10" />
+			<column name="EQUIPMENT_RELATED"  index="11" />
+			<column name="LONGITUDE"  index="12" />
+			<column name="LATITUDE"  index="13" />
+			<column name="ADDRESS"  index="14" />
+			<column name="PROJECT_NUM"  index="15" />
+			<column name="ONLINE_TIME"  index="16" type="3" format="yyyy/mm/dd hh24:mi:ss.###"  />
+			<column name="ISTOWER"  index="17" />
+			<column name="ISHIDDEN"  index="18" />
+			<column name="BENEFIT_NET"  index="19" />
+			<column name="OPERATOR"  index="20" />
+			<column name="ANT_CATEGORY"  index="21" />
+			<column name="ANT_TYPE"  index="22" />
+			<column name="ANT_MODE"  index="23" />
+			<column name="ANT_AZIMUTH"  index="24" />
+			<column name="ANT_POLARIZE"  index="25" />
+			<column name="ANT_ANGLE_MODE"  index="26" />
+			<column name="ANT_ENGINE_ANGLE"  index="27" />
+			<column name="ANT_ELECTRON_ANGLE"  index="28" />
+			<column name="ANT_GAIN"  index="29" />
+			<column name="HORIZONTAL"  index="30" />
+			<column name="VERTICAL"  index="31" />
+			<column name="ANT_HIGH"  index="32" />
+			<column name="ANT_VENDOR"  index="33" />
+			<column name="ANT_DIR_CMP"  index="34" />
+			<column name="FEEDER_TYPE"  index="35" />
+			<column name="FEEDER_LENGTH"  index="36" />
+			<column name="FEEDER_BAND"  index="37" />
+			<column name="FEEDER_VENDOR"  index="38" />
+			<column name="FEEDER_MODE"  index="39" />
+			<column name="FEEDER_COUNT"  index="40" />
+			<column name="POLER_TYPE"  index="41" />
+		</table>
+	</templet>
+	<templet id="5">
+		<table id="0" name="CLT_OSS_HOTPOINT" split="%" >
+			<column name="HOT_NUM"  index="0"  />
+			<column name="NET_TYPE"  index="1"  />
+			<column name="HOT_ID"  index="2"  />
+			<column name="CITY_NAME"  index="3"  />
+			<column name="AREA_NAME"  index="4"  />
+			<column name="MARKETING_CENTER"  index="5"  />
+			<column name="COUNTY_NUM"  index="6"  />
+			<column name="SERVICE_PROVIDER"  index="7"  />
+			<column name="HOT_CHILD_TYPE"  index="8"  />
+			<column name="SUPPORT_C"  index="9"  />
+			<column name="TRANS_MODE"  index="10"  />
+			<column name="LANDMARKS"  index="11"  />
+			<column name="TIME_ZONE"  index="12"  />
+			<column name="IP_START"  index="13"  />
+			<column name="IP_END"  index="14"  />
+			<column name="FINISH_TIME"  index="15"  type="3" format="yyyy/mm/dd hh24:mi:ss.###"  />
+			<column name="HOT_INDEX"  index="16"  />
+			<column name="HOT_NAME"  index="17"  />
+			<column name="ADDRESS"  index="18"  />
+			<column name="LONGITUDE"  index="19"  />
+			<column name="LATITUDE"  index="20"  />
+			<column name="HOT_TYPE"  index="21"  />
+			<column name="BUILDING_LAYERS"  index="22"  />
+			<column name="HAS_INDOOR"  index="23"  />
+			<column name="INDOOR_SOURCE_VENDOR"  index="24"  />
+			<column name="WLAN_COVER_AREA"  index="25"  />
+			<column name="WLAN_COVER"  index="26"  />
+			<column name="COVER_TECH"  index="27"  />
+			<column name="AP_TYPE"  index="28"  />
+			<column name="AP_COUNT"  index="29"  />
+			<column name="PROPERTY_CONTRACT"  index="30"  />
+			<column name="PROPERTY_CONTRACT_PHONE"  index="31"  />
+			<column name="HOT_REPARE_ATT"  index="32"  />
+			<column name="ACCOUNT_MANAGER"  index="33"  />
+			<column name="ACCOUNT_MANAGER_PHONE"  index="34"  />
+			<column name="NEGOTIANT"  index="35"  />
+			<column name="NEGOTIANT_PHONE"  index="36"  />
+			<column name="AGREEMENT"  index="37"  />
+			<column name="ELECTRICITY_SETTLEMENT"  index="38"  />
+			<column name="DESIGN_ORG"  index="39"  />
+			<column name="CONSTRUCTION_ORG"  index="40"  />
+			<column name="DESIGN_DOC_NUM"  index="41"  />
+			<column name="EARLY_CHECK_DATE"  index="42" type="3" format="yyyy/mm/dd hh24:mi:ss.###"  />
+			<column name="COST"  index="43"  />
+			<column name="FINAL_CHECK_DATE"  index="44" type="3" format="yyyy/mm/dd hh24:mi:ss.###"  />
+			<column name="NET_STATE"  index="45"  />
+			<column name="MON_ONLINE_TIME"  index="46"  />
+			<column name="TUE_ONLINE_TIME"  index="47"  />
+			<column name="WED_ONLINE_TIME"  index="48"  />
+			<column name="THU_ONLINE_TIME"  index="49"  />
+			<column name="FRI_ONLINE_TIME"  index="50"  />
+			<column name="SAT_ONLINE_TIME"  index="51"  />
+			<column name="SUN_ONLINE_TIME"  index="52"  />
+		</table>
+	</templet>
+	<templet id="6">
+		<table id="0" name="CLT_OSS_AP" split="%" >
+			<column name="CITY_NAME" index="0"  />
+			<column name="AREA_NAME" index="1"  />
+			<column name="AP_NUM" index="2"  />
+			<column name="NET_TYPE" index="3"  />
+			<column name="LOCATION" index="4"  />
+			<column name="LOCATION_NUM" index="5"  />
+			<column name="MARKETING_CENTER" index="6"  />
+			<column name="COUNTY_NUM" index="7"  />
+			<column name="AP_ID" index="8"  />
+			<column name="AP_NAME" index="9"  />
+			<column name="HOT_INDEX" index="10"  />
+			<column name="HOT_NAME" index="11"  />
+			<column name="INSTALL_ADDRESS" index="12"  />
+			<column name="AP_GRADE" index="13"  />
+			<column name="AP_VENDOR_NAME" index="14"  />
+			<column name="IP" index="15"  />
+			<column name="AP_SUBNET_MASK" index="16"  />
+			<column name="AP_GATEWAY" index="17"  />
+			<column name="IS_FIT_AP" index="18"  />
+			<column name="AP_UNIT_TYPE" index="19"  />
+			<column name="AP_COVER_FLOOR" index="20"  />
+			<column name="SSID" index="21"  />
+			<column name="AP_COVER_WAY" index="22"  />
+			<column name="AP_COVER_AREA" index="23"  />
+			<column name="CUR_FREQ_CHANNEL" index="24"  />
+			<column name="PROJECT_STATE" index="25"  />
+			<column name="ASSESSMENT_STATE" index="26"  />
+			<column name="OPERATEING_STATE" index="27"  />
+		</table>
+	</templet>
+	<templet id="7">
+		<table id="0" name="CLT_OSS_AC" split="%" >
+			<column name="AC_NUM"  index="0"  />
+			<column name="NET_TYPE"  index="1"  />
+			<column name="CITY_NAME"  index="2"  />
+			<column name="CITY_ID"  index="3"  />
+			<column name="AREA_NAME"  index="4"  />
+			<column name="LOCATION"  index="5"  />
+			<column name="MARKETING_CENTER"  index="6"  />
+			<column name="COUNTY_NUM"  index="7"  />
+			<column name="LOCATION_NUM"  index="8"  />
+			<column name="AC_ID"  index="9"  />
+			<column name="OWNED_BRANCH"  index="10"  />
+			<column name="BRANCH_CO_NAME"  index="11"  />
+			<column name="IP"  index="12"  />
+			<column name="HOT_INDEX"  index="13"  />
+			<column name="HOT_NAME"  index="14"  />
+			<column name="AC_INDEX"  index="15"  />
+			<column name="AC_NAME"  index="16"  />
+			<column name="AC_SEQUENCE"  index="17"  />
+			<column name="INSTALL_ADDRESS"  index="18"  />
+			<column name="CREATE_DATE"  index="19" type="3" format="yyyy/mm/dd hh24:mi:ss.###"   />
+			<column name="AC_GRADE"  index="20"  />
+			<column name="AC_MAC"  index="21"  />
+			<column name="AC_VENDOR_NAME"  index="22"  />
+			<column name="AC_MODE"  index="23"  />
+			<column name="VERSION"  index="24"  />
+			<column name="LAN_NUM"  index="25"  />
+			<column name="MASK"  index="26"  />
+			<column name="GATEWAY"  index="27"  />
+			<column name="USER_NAME"  index="28"  />
+			<column name="PASSWORD"  index="29"  />
+			<column name="PUBLIC_STRING"  index="30"  />
+			<column name="PRIVATE_STRING   "  index="31"  />
+		</table>
+	</templet>
+</templets>

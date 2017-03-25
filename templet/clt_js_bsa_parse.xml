@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="/全省%%Y-%%M-%%D*.csv"  skipLine="1">
+		
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Pilot Sector Name" index="1"/>
+				<field name="SID" index="2"/>
+				<field name="NID" index="3"/>
+				<field name="Extend BID" index="4"/>
+				<field name="T-PN" index="5"/>
+				<field name="Antenna Lati" index="6"/>
+				<field name="Antenna Longi" index="7"/>
+				<field name="Antenna Alti" index="8"/>
+				<field name="Antenna Loc Accu" index="9"/>
+				<field name="Sector Center Lati" index="10"/>
+				<field name="Sector Center Longi" index="11"/>
+				<field name="Sector Center Alti" index="12"/>
+				<field name="Antenna Orientation" index="13"/>
+				<field name="Antenna Opening" index="14"/>
+				<field name="Max Antenna Range" index="15"/>
+				<field name="Terrain Average Height" index="16"/>
+				<field name="Terrain Height Standard Deviation" index="17"/>
+				<field name="Potential Repeater" index="18"/>
+				<field name="PN Increment" index="19"/>
+				<field name="FWD Calib" index="20"/>
+				<field name="FWD Calib Accu" index="21"/>
+				<field name="RTD Calib" index="22"/>
+				<field name="RTD Calib Accu" index="23"/>
+				<field name="Format Type" index="24"/>
+				<field name="Switch Num" index="25"/>
+				<field name="starttime" index="26"	macro="@fileNamePattern_\d{4}-\d{2}-\d{8}"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>
+
+
+
+
+

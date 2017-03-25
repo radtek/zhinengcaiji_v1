@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/ACIE/ACIE_NLexport_Dir1/Adjacency2gTo3g.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="ADJACENCY2GTO3GINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ADJACENCYTYPE" index="2" />
+				<field name="RELATEDTARGETCELL" index="3"/>
+				<field name="USERLABEL" index="4"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="1" file="/ACIE/ACIE_NLexport_Dir1/Adjacency.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="ADJACENCYINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="AGPRSNCRESELECTHYSTERESIS" index="2" />
+				<field name="ADJACENCYTYPE" index="3"/>
+				<field name="CSVGCSCHAR" index="4"/>
+				<field name="ENABLETRAFFICLOADHO" index="5"/>
+				<field name="HOMARGIN" index="6"/>
+				<field name="HOMARGINALCATELDIST" index="7"/>
+				<field name="HOMARGINLEVEL" index="8"/>
+				<field name="HOMARGINQUAL" index="9"/>
+				<field name="HOPRIORITYLEVEL" index="10"/>
+				<field name="L_RXLEV_CPT_HO" index="11"/>
+				<field name="LINKFACTOR0N" index="12"/>
+				<field name="LOCATIONNAME" index="13"/>
+				<field name="MAXRXLEVNCELLHO" index="14"/>
+				<field name="OUTDOOR_UMB_LEV" index="15"/>
+				<field name="RELATEDTARGETCELL" index="16"/>
+				<field name="USERLABEL" index="17"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="2" file="/ACIE/ACIE_NLexport_Dir1/Cell.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="CELLINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ACMBBSCVMAX" index="2" />
+				<field name="ACMBFDD_QMIN" index="3"/>
+				<field name="ACMBFDD_QOFFSET" index="4"/>
+				<field name="ACMBLSA_ID_I" index="5"/>
+				<field name="ACMBNEXTRAABISTSMAIN" index="6"/>
+				<field name="ACMBNEXTRAABISTSSECONDARY" index="7"/>
+				<field name="ACMBNBTSMPDCH" index="8"/>
+				<field name="ACMBPANDEC" index="9"/>
+				<field name="ACMBPANINC" index="10"/>
+				<field name="ACMBPANMAX" index="11"/>
+				<field name="ACMBPRIORITYACCESSTHRESHOLD" index="12"/>
+				<field name="ACMBQSEARCH" index="13"/>
+				<field name="ACMBRACODE" index="14"/>
+				<field name="ACMBT3168" index="15"/>
+				<field name="ACMBT3192" index="16"/>
+				<field name="ACMBTPAGCS" index="17"/>
+				<field name="ACMBTPAGPS" index="18"/>
+				<field name="ADDITIONAL_RESELECT_PARAM" index="19"/>
+				<field name="AECNOHO" index="20"/>
+				<field name="AG_PREMPT_PCH" index="21"/>
+				<field name="AGPRSACCESSBURSTTYPE" index="22"/>
+				<field name="AGPRSBEPPERIOD" index="23"/>
+				<field name="AGPRSBSPAGBLKSRES" index="24"/>
+				<field name="AGPRSBSPBCCHBLKS" index="25"/>
+				<field name="AGPRSBSPRACHBLKS" index="26"/>
+				<field name="AGPRSC31HYST" index="27"/>
+				<field name="AGPRSC32QUAL" index="28"/>
+				<field name="AGPRSCSMAXIDLEPERIOD" index="29"/>
+				<field name="AGPRSEGPRSN3105LIMIT" index="30"/>
+				<field name="AGPRSEGPRSN3105LIMITSATELLITE" index="31"/>
+				<field name="AGPRSENCONVGPS" index="32"/>
+				<field name="AGPRSENCSADAPTATIONACK" index="33"/>
+				<field name="AGPRSENCSADAPTATIONNACK" index="34"/>
+				<field name="AGPRSENEDA" index="35"/>
+				<field name="AGPRSENEXTENDEDULTBF" index="36"/>
+				<field name="AGPRSENFASTINITIALGPRSACCESS" index="37"/>
+				<field name="AGPRSENFULLIRDLPERCELL" index="38"/>
+				<field name="AGPRSENIRULPERCELL" index="39"/>
+				<field name="AGPRSENMCS1INCRP" index="40"/>
+				<field name="AGPRSENMSASSISTEDAGPS" index="41"/>
+				<field name="AGPRSENMSBASEDAGPS" index="42"/>
+				<field name="AGPRSENMULTISLOTCLASS3033" index="43"/>
+				<field name="AGPRSENNACC" index="44"/>
+				<field name="AGPRSENOUTGOINGGPRSREDIR" index="45"/>
+				<field name="AGPRSENPSISTATUS" index="46"/>
+				<field name="AGPRSENRESEGMENTATIONULPERCELL" index="47"/>
+				<field name="AGPRSENSOLSA" index="48"/>
+				<field name="AGPRSENSTREAMING" index="49"/>
+				<field name="AGPRSFDDGPRSQOFFSET" index="50"/>
+				<field name="AGPRSGCHREDFACTORHIGHATERUSAGE" index="51"/>
+				<field name="AGPRSGPRSCELLRESELECTHYSTERESIS" index="52"/>
+				<field name="AGPRSGPRSHCSTHR" index="53"/>
+				<field name="AGPRSGPRSPENALTYTIME" index="54"/>
+				<field name="AGPRSGPRSPRIORITYCLASS" index="55"/>
+				<field name="AGPRSGPRSRESELECTIONOFFSET" index="56"/>
+				<field name="AGPRSGPRSRXLEVACCESSMIN" index="57"/>
+				<field name="AGPRSGPRSTEMPORARYOFFSET" index="58"/>
+				<field name="AGPRSHALFPWRBEAMWIDTH" index="59"/>
+				<field name="AGPRSKAVGL" index="60"/>
+				<field name="AGPRSKAVGQ" index="61"/>
+				<field name="AGPRSMAXDLTBFSPDCH" index="62"/>
+				<field name="AGPRSMAXEGPRSMCS" index="63"/>
+				<field name="AGPRSMAXGPRSASSIGNAGCHRETRANS" index="64"/>
+				<field name="AGPRSMAXGPRSASSIGNPCHRETRANS" index="65"/>
+				<field name="AGPRSMAXPDCH" index="66"/>
+				<field name="AGPRSMAXPDCHHIGHLOAD" index="67"/>
+				<field name="AGPRSMAXPDCHPERTBF" index="68"/>
+				<field name="AGPRSMAXRETRANS1" index="69"/>
+				<field name="AGPRSMAXRETRANS2" index="70"/>
+				<field name="AGPRSMAXRETRANS3" index="71"/>
+				<field name="AGPRSMAXRETRANS4" index="72"/>
+				<field name="AGPRSMAXULTBFSPDCH" index="73"/>
+				<field name="AGPRSMINPDCH" index="74"/>
+				<field name="AGPRSMINRLFTIMEDL" index="75"/>
+				<field name="AGPRSN3105LIMIT" index="76"/>
+				<field name="AGPRSN3105LIMITSATELLITE" index="77"/>
+				<field name="AGPRSNBBONUSANDPSCAPABLETRX" index="78"/>
+				<field name="AGPRSNC2DEACTIVATIONMODE" index="79"/>
+				<field name="AGPRSNCDLRXLEVLIMITTHR" index="80"/>
+				<field name="AGPRSNCDLRXLEVTHR" index="81"/>
+				<field name="AGPRSNCDLRXQUALTHR" index="82"/>
+				<field name="AGPRSNCPINGPONGOFFSET" index="83"/>
+				<field name="AGPRSNCREPORTINGPERIODT" index="84"/>
+				<field name="AGPRSNCRXLEVFORGETTINGFACTOR" index="85"/>
+				<field name="AGPRSNCRXQUALAVGPERIOD" index="86"/>
+				<field name="AGPRSNCULRXQUALTHR" index="87"/>
+				<field name="AGPRSNETWORKCONTROLORDER" index="88"/>
+				<field name="AGPRSPERSISTENCELEVEL1" index="89"/>
+				<field name="AGPRSPERSISTENCELEVEL2" index="90"/>
+				<field name="AGPRSPERSISTENCELEVEL3" index="91"/>
+				<field name="AGPRSPERSISTENCELEVEL4" index="92"/>
+				<field name="AGPRSPRACHBUSYTHRES" index="93"/>
+				<field name="AGPRSQOSSAFETYMARGIN" index="94"/>
+				<field name="AGPRSQSEARCHPPTM" index="95"/>
+				<field name="AGPRSRAVERAGEEGPRS" index="96"/>
+				<field name="AGPRSRAVERAGEGPRS" index="97"/>
+				<field name="AGPRSRARESELECTHYSTERESIS" index="98"/>
+				<field name="AGPRSRMINEGPRS" index="99"/>
+				<field name="AGPRSRMINGPRS" index="100"/>
+				<field name="AGPRSROUNDTRIPDELAY" index="101"/>
+				<field name="AGPRSS" index="102"/>
+				<field name="AGPRSTCORR" index="103"/>
+				<field name="AGPRSTDLASSIGNCCCH" index="104"/>
+				<field name="AGPRSTDLEGPRSMEASREPORT" index="105"/>
+				<field name="AGPRSTDLGPRSMEASREPORT" index="106"/>
+				<field name="AGPRSTMAXEXTENDEDUL" index="107"/>
+				<field name="AGPRSTNCPINGPONG" index="108"/>
+				<field name="AGPRSTNCREJCELL" index="109"/>
+				<field name="AGPRSTRESEL" index="110"/>
+				<field name="AGPRSTULASSIGNCCCH" index="111"/>
+				<field name="AGPRSTULASSIGNPCCCH" index="112"/>
+				<field name="AGPRSTULRLSEUTM" index="113"/>
+				<field name="AGPRSTBFDLINITCS" index="114"/>
+				<field name="AGPRSTBFDLINITMCS" index="115"/>
+				<field name="AGPRSTBFULINITCS" index="116"/>
+				<field name="AGPRSTBFULINITMCS" index="117"/>
+				<field name="AGPRSTESTAB" index="118"/>
+				<field name="AGPRSTHRNC2LOADRANKING" index="119"/>
+				<field name="AGPRSTXEFFICIENCYACKTHR" index="120"/>
+				<field name="AGPRSTXEFFICIENCYNACKTHR" index="121"/>
+				<field name="AGPRSTXINT" index="122"/>
+				<field name="AGPRSWIPR" index="123"/>
+				<field name="AGPRSWIPRCPUOVERLOAD" index="124"/>
+				<field name="AMR_FR_HYST" index="125"/>
+				<field name="AMR_FR_THR1" index="126"/>
+				<field name="AMR_FR_THR2" index="127"/>
+				<field name="AMR_FR_THR3" index="128"/>
+				<field name="AMR_HR_HYST" index="129"/>
+				<field name="AMR_HR_THR1" index="130"/>
+				<field name="AMR_HR_THR2" index="131"/>
+				<field name="AMR_HR_THR3" index="132"/>
+				<field name="ARFN_CU_MAPPING" index="133"/>
+				<field name="ACCESSCLASSBARRINGTHRESHOLD" index="134"/>
+				<field name="ACTIVERADIOCONFIG" index="135"/>
+				<field name="ADMINISTRATIVESTATE" index="136"/>
+				<field name="ALARMSTATUS" index="137"/>
+				<field name="ALARMSACKNOWLEDGEMENTSTATUS" index="138"/>
+				<field name="ALIGNMENTSTATUS" index="139"/>
+				<field name="ALIGNMENTSTATUSCAUSE" index="140"/>
+				<field name="ALLOWIMSIATTACHDETACH" index="141"/>
+				<field name="AMRWBGMSKHYST1" index="142"/>
+				<field name="AMRWBGMSKHYST2" index="143"/>
+				<field name="AMRWBGMSKTHR1" index="144"/>
+				<field name="AMRWBGMSKTHR2" index="145"/>
+				<field name="AVAILABILITYSTATUS" index="146"/>
+				<field name="AZIMUTH" index="147"/>
+				<field name="BBTSPERCELLNUMBER" index="148"/>
+				<field name="BCCHFREQUENCY" index="149"/>
+				<field name="BSS_RELEASE" index="150"/>
+				<field name="BTS_Q_LENGTH" index="151"/>
+				<field name="BSIDENTITYCODE" index="152"/>
+				<field name="BSCGSMGENERALOBJECTID" index="153"/>
+				<field name="BTSSITEMANAGERIDSECONDARY" index="154"/>
+				<field name="CCCH_CONF" index="155"/>
+				<field name="CELL_BAR_QUALIFY" index="156"/>
+				<field name="CELL_RESELECT_OFFSET" index="157"/>
+				<field name="CELL_RESELECT_PARAM_IND" index="158"/>
+				<field name="CALLREESTABLISHMENTALLOWED" index="159"/>
+				<field name="CELLALLOCATION" index="160"/>
+				<field name="CELLALLOCATIONDCS" index="161"/>
+				<field name="CELLBARRED" index="162"/>
+				<field name="CELLCAPACITYCLASS" index="163"/>
+				<field name="CELLGLOBALIDENTITY" index="164"/>
+				<field name="CELLRESELECTHYSTERESIS" index="165"/>
+				<field name="CHECKACTIVATIONERRORLIST" index="166"/>
+				<field name="DTMCAPABILITY" index="167"/>
+				<field name="DTXINDICATORSACCHAMRWBGMSK" index="168"/>
+				<field name="DTXUPLINK" index="169"/>
+				<field name="DTXUPLINKAMR" index="170"/>
+				<field name="DTXUPLINKAMR_HR" index="171"/>
+				<field name="DTXUPLINKHR" index="172"/>
+				<field name="EFR_ENABLED" index="173"/>
+				<field name="EN_AMR_FR" index="174"/>
+				<field name="EN_AMR_HR" index="175"/>
+				<field name="EN_EXTENDED_CBCH" index="176"/>
+				<field name="EN_IPE_PREF_CODEC_TYPE" index="177"/>
+				<field name="EN_RL_RECOV" index="178"/>
+				<field name="EN_TFO" index="179"/>
+				<field name="EN_TFO_MATCH" index="180"/>
+				<field name="EN_TFO_OPT" index="181"/>
+				<field name="EXT_BCCH" index="182"/>
+				<field name="EMERGENCYCALLRESTRICTED" index="183"/>
+				<field name="EN2G3GHONOSERVICEHO" index="184"/>
+				<field name="EN2GTO3GCELLRESELECTION" index="185"/>
+				<field name="EN2GTO3GTDDCELLRESELECTION" index="186"/>
+				<field name="EN3GHO" index="187"/>
+				<field name="ENAMRWBGMSK" index="188"/>
+				<field name="ENCPICH2G3GRESELECTION" index="189"/>
+				<field name="ENDTM" index="190"/>
+				<field name="ENEGPRS" index="191"/>
+				<field name="ENFAST3GRESELECTION" index="192"/>
+				<field name="ENGPRS" index="193"/>
+				<field name="ENRETURNCSZONEHO" index="194"/>
+				<field name="ENTFOAMRWB" index="195"/>
+				<field name="ENUNBALANCEDOUTPUTPOWER" index="196"/>
+				<field name="ENVGCS" index="197"/>
+				<field name="ENABLELOADMNGTACCESSCLASSBARRING" index="198"/>
+				<field name="ENABLEMASELECTION" index="199"/>
+				<field name="ENABLEPAGINGBARRING" index="200"/>
+				<field name="FORCE_TFO_HR_WHEN_LOADED" index="201"/>
+				<field name="FORCE_TFO_VS_AMR" index="202"/>
+				<field name="FDDMULTIRATREPORTING" index="203"/>
+				<field name="FDDQMINOFFSET" index="204"/>
+				<field name="FDDREPORTINGOFFSET" index="205"/>
+				<field name="FDDREPORTINGTHRESHOLD" index="206"/>
+				<field name="FDDRSCPMIN" index="207"/>
+				<field name="FINALADMINISTRATIVESTATE" index="208"/>
+				<field name="FORCETRXRSLRESHUFFLING" index="209"/>
+				<field name="FREQUENCYRANGE" index="210"/>
+				<field name="GEOGRAPHICALCOORDINATES" index="211"/>
+				<field name="HR_ENABLED" index="212"/>
+				<field name="HOPPINGTYPE" index="213"/>
+				<field name="INACTIVEHOPPINGTYPE" index="214"/>
+				<field name="INBANDPAGINGTHR" index="215"/>
+				<field name="ISREFLEXIVERESELECTION" index="216"/>
+				<field name="KEEP_CODEC_HO" index="217"/>
+				<field name="LSA_OFFSET" index="218"/>
+				<field name="LOADEVPERIODGPRS" index="219"/>
+				<field name="LOCATIONNAME" index="220"/>
+				<field name="MSTXPWRMAXCCH" index="221"/>
+				<field name="MATECELLID" index="222"/>
+				<field name="MAXGPRSCS" index="223"/>
+				<field name="MAXNUMBERRETRANSMISSION" index="224"/>
+				<field name="MAXVGCSTS" index="225"/>
+				<field name="MFSADMINISTRATIVESTATE" index="226"/>
+				<field name="MFSALARMSTATUS" index="227"/>
+				<field name="MFSALARMSACKNOWLEDGEMENTSTATUS" index="228"/>
+				<field name="MFSALIGNMENTSTATUS" index="229"/>
+				<field name="MFSALIGNMENTSTATUSCAUSE" index="230"/>
+				<field name="MFSAVAILABILITYSTATUS" index="231"/>
+				<field name="MFSOPERATIONALSTATE" index="232"/>
+				<field name="MINVGCSTS" index="233"/>
+				<field name="MULTIBANDREPORTING" index="234"/>
+				<field name="N_BSTXPWR_M" index="235"/>
+				<field name="NB_TS_FOR_BASIC_CBCH" index="236"/>
+				<field name="NB_TS_FOR_E_CBCH" index="237"/>
+				<field name="NBRSDCCH" index="238"/>
+				<field name="NBRSDCCHAVAILABLE" index="239"/>
+				<field name="NBRTCH" index="240"/>
+				<field name="NBRTCHAVAILABLE" index="241"/>
+				<field name="NOOFBLOCKSFORACCESSGRANT" index="242"/>
+				<field name="NOOFMULTIFRAMESBETWEENPAGING" index="243"/>
+				<field name="NOTALLOWEDACCESSCLASSES" index="244"/>
+				<field name="NOTIFFACCHOTHERVGCSCALLTHR" index="245"/>
+				<field name="NOTIFFACCHPTPCALLTHR" index="246"/>
+				<field name="NOTIFPCHTHR" index="247"/>
+				<field name="NUMBERNCHBLOCKS" index="248"/>
+				<field name="NUMBEROFSLOTSSPREADTRANS" index="249"/>
+				<field name="NY1" index="250"/>
+				<field name="NY2" index="251"/>
+				<field name="OPERATIONALSTATE" index="252"/>
+				<field name="PENALTY_TIME" index="253"/>
+				<field name="PRIO_THR" index="254"/>
+				<field name="PWRC" index="255"/>
+				<field name="PERCENTAGESDCCHAVAILABLE" index="256"/>
+				<field name="PERCENTAGETCHAVAILABLE" index="257"/>
+				<field name="PERIODCCCHLOADINDICATION" index="258"/>
+				<field name="PLMNPERMITTED" index="259"/>
+				<field name="PROCEDURALSTATUS" index="260"/>
+				<field name="PSPREFBCCHTRX" index="261"/>
+				<field name="QSEARCHC" index="262"/>
+				<field name="QSEARCHI" index="263"/>
+				<field name="QSEARCHP" index="264"/>
+				<field name="RACHBUSYTHRESHOLD" index="265"/>
+				<field name="RACHLOADAVERAGINGSLOTS" index="266"/>
+				<field name="RADIOLINK_TIMEOUT_BS" index="267"/>
+				<field name="RMS_EN_EXT_MEAS_REP" index="268"/>
+				<field name="RMS_EXT_MEAS_REP_LIST" index="269"/>
+				<field name="RMS_TEMPLATE" index="270"/>
+				<field name="RMS_TA_STAT" index="271"/>
+				<field name="RACOLOR" index="272"/>
+				<field name="RADIOLINKTIMEOUT" index="273"/>
+				<field name="RADIOLINKTIMEOUTAMR" index="274"/>
+				<field name="RADIOLINKTIMEOUTBSAMR" index="275"/>
+				<field name="RELATEDSECONDARYSECTOR" index="276"/>
+				<field name="RNLADJWHERETARGET" index="277"/>
+				<field name="RNLCELLTYPE" index="278"/>
+				<field name="RNLGPRSMSTXPWRMAXCCH" index="279"/>
+				<field name="RNLNETWORKCELLID" index="280"/>
+				<field name="RNLSUPPORTINGSECTOR" index="281"/>
+				<field name="RXLEVACCESSMIN" index="282"/>
+				<field name="SCHEDULE_PERIOD" index="283"/>
+				<field name="SCHEDULE_PERIOD_E_CBCH" index="284"/>
+				<field name="SOLSAFUNCTLEVEL" index="285"/>
+				<field name="STARTUPLINKREPLY" index="286"/>
+				<field name="T200TF" index="287"/>
+				<field name="T200TH" index="288"/>
+				<field name="T3105_D" index="289"/>
+				<field name="T3105_D_STOP" index="290"/>
+				<field name="T3105_F_FR" index="291"/>
+				<field name="T3105_F_HR" index="292"/>
+				<field name="T3105_F_STOP" index="293"/>
+				<field name="T3106_D" index="294"/>
+				<field name="T3106_D_STOP" index="295"/>
+				<field name="T3106_F" index="296"/>
+				<field name="T3106_F_STOP" index="297"/>
+				<field name="T3115" index="298"/>
+				<field name="TEMPORARY_OFFSET" index="299"/>
+				<field name="THR_FR_LOAD_L_SV1" index="300"/>
+				<field name="THR_FR_LOAD_L_SV3" index="301"/>
+				<field name="THR_FR_LOAD_U_SV1" index="302"/>
+				<field name="THR_FR_LOAD_U_SV3" index="303"/>
+				<field name="TREPETITIONCHANNELRELEASE" index="304"/>
+				<field name="TREPETITIONUPLINKFREE" index="305"/>
+				<field name="T_FILTER" index="306"/>
+				<field name="T_INTRF_L3" index="307"/>
+				<field name="TDDQOFFSET" index="308"/>
+				<field name="THRCELLLOAD3GREJECT" index="309"/>
+				<field name="THRCELLLOAD3GREQ" index="310"/>
+				<field name="THRECNOHO" index="311"/>
+				<field name="THRESHOLDCCCHLOADINDICATION" index="312"/>
+				<field name="TIMEADVANCEFILTER" index="313"/>
+				<field name="TIMERPERIODICUPDATEMS" index="314"/>
+				<field name="TIMERTIA" index="315"/>
+				<field name="TIMERTPDA" index="316"/>
+				<field name="TIMERTPUA" index="317"/>
+				<field name="TSCVALUE" index="318"/>
+				<field name="UNKNOWNSTATUS" index="319"/>
+				<field name="USAGESTATE" index="320"/>
+				<field name="USERLABEL" index="321"/>
+				<field name="WAITINDICATIONFORCALLREESTABLISHMENT" index="322"/>
+				<field name="WAITINDICATIONFOREMERGENCYCALL" index="323"/>
+				<field name="WAITINDICATIONFORORIGINATINGCALL" index="324"/>
+				<field name="WAITINDICATIONFOROTHERPROCEDURES" index="325"/>
+				<field name="WAITUPLINKACCESS" index="326"/>
+				<field name="WARNINGLIST" index="327"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="3" file="/ACIE/ACIE_NLexport_Dir1/ExternalOmc3gCell.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="EXTERNALOMC3GCELLINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="CI3G" index="2" />
+				<field name="EN3GDIVERSITY" index="3"/>
+				<field name="FDD_ARFCN" index="4"/>
+				<field name="GLOBAL3GCELLIDENTITY" index="5"  occur="required" />
+				<field name="LAC3G" index="6"/>
+				<field name="LOCATIONNAME" index="7"/>
+				<field name="RNCID" index="8"/>
+				<field name="RNLADJWHERETARGET" index="9"/>
+				<field name="SCRAMBLINGCODE3G" index="10"/>
+				<field name="USERLABEL" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="4" file="/ACIE/ACIE_NLexport_Dir1/ExternalOmcCell.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="EXTERNALOMCCELLINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ACMBLSA_ID_I" index="2" />
+				<field name="ACMBRACODE" index="3"/>
+				<field name="AGPRSENOUTGOINGGPRSREDIR" index="4"/>
+				<field name="AGPRSENSOLSA" index="5"/>
+				<field name="AGPRSGPRSHCSTHR" index="6"/>
+				<field name="AGPRSGPRSPENALTYTIME" index="7"/>
+				<field name="AGPRSGPRSPRIORITYCLASS" index="8"/>
+				<field name="AGPRSGPRSRESELECTIONOFFSET" index="9"/>
+				<field name="AGPRSGPRSRXLEVACCESSMIN" index="10"/>
+				<field name="AGPRSGPRSTEMPORARYOFFSET" index="11"/>
+				<field name="AGPRSNCREPORTINGPERIODT" index="12"/>
+				<field name="AGPRSNETWORKCONTROLORDER" index="13"/>
+				<field name="BCCHFREQUENCY" index="14"/>
+				<field name="BSIDENTITYCODE" index="15"/>
+				<field name="CELL_RESELECT_OFFSET" index="16"/>
+				<field name="CELLGLOBALIDENTITY" index="17"  occur="required" />
+				<field name="CELLRESELECTHYSTERESIS" index="18"/>
+				<field name="ENABLEBIBANDMS" index="19"/>
+				<field name="FREELEVELDRN" index="20"/>
+				<field name="FREQUENCYRANGE" index="21"/>
+				<field name="L_RXLEV_NCELL_DRN" index="22"/>
+				<field name="LOCATIONNAME" index="23"/>
+				<field name="MSTXPWRMAXCCH" index="24"/>
+				<field name="MS_TXPWR_MAX" index="25"/>
+				<field name="PENALTY_TIME" index="26"/>
+				<field name="RNLADJWHERETARGET" index="27"/>
+				<field name="RNLCELLTYPE" index="28"/>
+				<field name="RNLGPRSMSTXPWRMAXCCH" index="29"/>
+				<field name="RXLEVACCESSMIN" index="30"/>
+				<field name="RXLEVMINCELL" index="31"/>
+				<field name="TEMPORARY_OFFSET" index="32"/>
+				<field name="USERLABEL" index="33"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="5" file="/ACIE/ACIE_NLexport_Dir1/HoControl.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="HOCONTROLINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ALLOC_ANYWAY" index="2" />
+				<field name="ATRAFFICLOAD" index="3"/>
+				<field name="A_LEV_MCHO" index="4"/>
+				<field name="A_PBGT_DR" index="5"/>
+				<field name="A_QUAL_CA_FR_HR" index="6"/>
+				<field name="A_QUAL_CA_HR_FR" index="7"/>
+				<field name="CELL_EV" index="8"/>
+				<field name="EN_AMR_CA" index="9"/>
+				<field name="EN_DR" index="10"/>
+				<field name="EN_FAST_TRAFFIC_HO" index="11"/>
+				<field name="EN_FORCED_DR" index="12"/>
+				<field name="EN_IC_HO" index="13"/>
+				<field name="EN_INTRACELL_REPEATED" index="14"/>
+				<field name="EN_INTRA_DL" index="15"/>
+				<field name="EN_INTRA_DL_AMR" index="16"/>
+				<field name="EN_INTRA_UL" index="17"/>
+				<field name="EN_INTRA_UL_AMR" index="18"/>
+				<field name="EN_LOAD_BALANCE" index="19"/>
+				<field name="EN_LOAD_ORDER" index="20"/>
+				<field name="EN_MCHO_H_DL" index="21"/>
+				<field name="EN_MCHO_H_UL" index="22"/>
+				<field name="EN_MCHO_NCELL" index="23"/>
+				<field name="EN_MCHO_RESCUE" index="24"/>
+				<field name="EN_MULTIBAND_PBGT_HO" index="25"/>
+				<field name="EN_PREFERRED_BAND_HO" index="26"/>
+				<field name="EN_RESCUE_UM" index="27"/>
+				<field name="EN_RXLEV_DL" index="28"/>
+				<field name="EN_RXLEV_UL" index="29"/>
+				<field name="EN_RXQUAL_DL" index="30"/>
+				<field name="EN_RXQUAL_UL" index="31"/>
+				<field name="EN_SPEED_DISC" index="32"/>
+				<field name="EXT_HO_FORCED" index="33"/>
+				<field name="ENAMRCAFRHR" index="34"/>
+				<field name="ENAMRCAHRFR" index="35"/>
+				<field name="ENGANHO" index="36"/>
+				<field name="ENINTRADLAMRWBGMSK" index="37"/>
+				<field name="ENINTRAULAMRWBGMSK" index="38"/>
+				<field name="ENABLEBETTERZONEHO" index="39"/>
+				<field name="ENABLEBIBANDMS" index="40"/>
+				<field name="ENABLEGENERALCAPTUREHO" index="41"/>
+				<field name="ENABLEOPTHANDOVERPROCESSING" index="42"/>
+				<field name="ENABLEPRIORITYORDERING" index="43"/>
+				<field name="ENABLEPWBUDGETFILTERING" index="44"/>
+				<field name="FREELEVELDRN" index="45"/>
+				<field name="FREEFACTOR_1" index="46"/>
+				<field name="FREEFACTOR_2" index="47"/>
+				<field name="FREEFACTOR_3" index="48"/>
+				<field name="FREEFACTOR_4" index="49"/>
+				<field name="FREEFACTOR_5" index="50"/>
+				<field name="FREELEVEL_1" index="51"/>
+				<field name="FREELEVEL_2" index="52"/>
+				<field name="FREELEVEL_3" index="53"/>
+				<field name="FREELEVEL_4" index="54"/>
+				<field name="GENERALCAPTUREHOTLCONDITION" index="55"/>
+				<field name="HO_INTERCELL_ALLOWED" index="56"/>
+				<field name="HO_INTRACELL_ALLOWED" index="57"/>
+				<field name="HO_SDCCH_INHIBIT" index="58"/>
+				<field name="H_LOAD_OBJ" index="59"/>
+				<field name="HIGHTRAFFICLOADGPRS" index="60"/>
+				<field name="HOAVERAGINGADJCELLPARAM" index="61"/>
+				<field name="HOAVERAGINGDISTPARAM" index="62"/>
+				<field name="HOAVERAGINGLEVPARAM" index="63"/>
+				<field name="HOAVERAGINGQUALPARAM" index="64"/>
+				<field name="HOHYSTCONCENTRICCELLDL" index="65"/>
+				<field name="HOHYSTCONCENTRICCELLUL" index="66"/>
+				<field name="HOMARGINALCATELINNEROFFSET" index="67"/>
+				<field name="HOMARGINDEF" index="68"/>
+				<field name="HOOFFSETQUALPARAM" index="69"/>
+				<field name="HOTHRESHOLDDISTPARAM" index="70"/>
+				<field name="HOTHRESHOLDINTERFERENCEPARAM" index="71"/>
+				<field name="HOTHRESHOLDLEVPARAM" index="72"/>
+				<field name="HOTHRESHOLDQUALPARAM" index="73"/>
+				<field name="INTERFERENCEAVERAGINGPARAM" index="74"/>
+				<field name="LRXQUALDLHAMRWBGMSK" index="75"/>
+				<field name="LRXQUALULHAMRWBGMSK" index="76"/>
+				<field name="L_LOAD_OBJ" index="77"/>
+				<field name="L_RXLEV_NCELL_DRN" index="78"/>
+				<field name="L_RXQUAL_DL_H_AMR" index="79"/>
+				<field name="L_RXQUAL_UL_H_AMR" index="80"/>
+				<field name="LOADEVPERIOD" index="81"/>
+				<field name="LOADFACTOR_1" index="82"/>
+				<field name="LOADFACTOR_2" index="83"/>
+				<field name="LOADFACTOR_3" index="84"/>
+				<field name="LOADFACTOR_4" index="85"/>
+				<field name="LOADFACTOR_5" index="86"/>
+				<field name="LOADLEVEL_1" index="87"/>
+				<field name="LOADLEVEL_2" index="88"/>
+				<field name="LOADLEVEL_3" index="89"/>
+				<field name="LOADLEVEL_4" index="90"/>
+				<field name="LOCATIONNAME" index="91"/>
+				<field name="MIN_CONNECT_TIME" index="92"/>
+				<field name="MINTIMINGADVANCEEXTOUTERHO" index="93"/>
+				<field name="MSTXPWRMAXCELLDEF" index="94"/>
+				<field name="MSMTPROCPARAMLOC" index="95"/>
+				<field name="MULTIBANDTRAFFICLOADHOCONDITION" index="96"/>
+				<field name="NTRAFFICLOAD" index="97"/>
+				<field name="NUM_TCH_EGNCY_HO" index="98"/>
+				<field name="N_BAD_SACCH" index="99"/>
+				<field name="N_TCH_HO" index="100"/>
+				<field name="OFFSET_CA_HIGH" index="101"/>
+				<field name="OFFSET_CA_NORMAL" index="102"/>
+				<field name="PING_PONG_HCP" index="103"/>
+				<field name="RXLEV_DL_ZONE" index="104"/>
+				<field name="RXLEV_UL_ZONE" index="105"/>
+				<field name="RXLEVMINCELL" index="106"/>
+				<field name="RXLEVMINCELLDEF" index="107"/>
+				<field name="RXLEVPWBUDGETHOTHRESHOLD" index="108"/>
+				<field name="SDCCH_COUNTER" index="109"/>
+				<field name="THR_RXQUAL_CA_HIGH" index="110"/>
+				<field name="THR_RXQUAL_CA_NORMAL" index="111"/>
+				<field name="T_HCP" index="112"/>
+				<field name="T_INHIBIT_CPT" index="113"/>
+				<field name="TRAFFICLOADHOMARGINS" index="114"/>
+				<field name="TRAFFICLOADTHRESHOLDS" index="115"/>
+				<field name="U_RXLEV_DL_MCHO" index="116"/>
+				<field name="U_RXLEV_UL_MCHO" index="117"/>
+				<field name="USERLABEL" index="118"/>
+				<field name="WITH_SYNCHRONISED_HANDOVER" index="119"/>
+				<field name="W_LEV_MCHO" index="120"/>
+				<field name="W_QUAL_CA" index="121"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="6" file="/ACIE/ACIE_NLexport_Dir1/RnlAlcatelMFS.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="RNLALCATELMFSINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ACTIVATIONSTATUS" index="2" />
+				<field name="ALARMSACKNOWLEDGEMENTSYNTHESIS" index="3"/>
+				<field name="MFSALIGNMENTSTATUS" index="4"/>
+				<field name="MFSALIGNMENTSTATUSCAUSE" index="5"/>
+				<field name="MFSGENERATION" index="6"/>
+				<field name="NEALARMSTATUS" index="7"/>
+				<field name="NETWORKADDRESS" index="8"/>
+				<field name="NODEIDENTIFIER" index="9"/>
+				<field name="RESERVATIONSTATUS" index="10"/>
+				<field name="SUPERVISIONSTATE" index="11"/>
+				<field name="UNKNOWNSTATUS" index="12"/>
+				<field name="USERLABEL" index="13"/>
+				<field name="VERSION" index="14"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="7" file="/ACIE/ACIE_NLexport_Dir1/RnlBasebandTransceiver.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="RNLBASEBANDTRANSCEIVERINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="CHANNELSELECTIONPREFERENCEMARK" index="2" />
+				<field name="INACTIVELISTOFFREQUENCYUSAGE" index="3"/>
+				<field name="LISTOFRADIOCHANNELS" index="4"/>
+				<field name="LOCATIONNAME" index="5"/>
+				<field name="OPERATIONALSTATE" index="6"/>
+				<field name="PRESERVECALLS" index="7"/>
+				<field name="RANK" index="8"/>
+				<field name="SHAREDSECTORTYPE" index="9"/>
+				<field name="TEI" index="10"/>
+				<field name="USERLABEL" index="11"/>
+				<field name="ZONE_TYPE" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="8" file="/ACIE/ACIE_NLexport_Dir1/RnlAlcatelBSC.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="RNLALCATELBSCINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="AC_PRIORITY_LIST" index="2" />
+				<field name="ACMBDRXTIMERMAX" index="3"/>
+				<field name="ACMBEN2GTO3GCELLRESELECTION" index="4"/>
+				<field name="ACMBENLCS" index="5"/>
+				<field name="ACMBMSCR" index="6"/>
+				<field name="ACMBNETWORKOPERATIONMODE" index="7"/>
+				<field name="ACMBPLMNFREQUENCYBANDS" index="8"/>
+				<field name="AGPRSALLOWDTMEDACOMBINATION" index="9"/>
+				<field name="AGPRSARCSIZEFACTOR" index="10"/>
+				<field name="AGPRSATERUSAGETHRESHOLD" index="11"/>
+				<field name="AGPRSBESTEFFORTPRIORITY" index="12"/>
+				<field name="AGPRSCSAVGPERIODLT" index="13"/>
+				<field name="AGPRSCSAVGPERIODST" index="14"/>
+				<field name="AGPRSCSBLERDL34" index="15"/>
+				<field name="AGPRSCSBLERDL43" index="16"/>
+				<field name="AGPRSCSHSTDLLT" index="17"/>
+				<field name="AGPRSCSHSTDLST" index="18"/>
+				<field name="AGPRSCSHSTULLT" index="19"/>
+				<field name="AGPRSCSHSTULST" index="20"/>
+				<field name="AGPRSCSQUALDL12FHACK" index="21"/>
+				<field name="AGPRSCSQUALDL12FHNACK" index="22"/>
+				<field name="AGPRSCSQUALDL12NFHACK" index="23"/>
+				<field name="AGPRSCSQUALDL12NFHNACK" index="24"/>
+				<field name="AGPRSCSQUALDL23FHACK" index="25"/>
+				<field name="AGPRSCSQUALDL23FHNACK" index="26"/>
+				<field name="AGPRSCSQUALDL23NFHACK" index="27"/>
+				<field name="AGPRSCSQUALDL23NFHNACK" index="28"/>
+				<field name="AGPRSCSQUALDL34FHACK" index="29"/>
+				<field name="AGPRSCSQUALDL34FHNACK" index="30"/>
+				<field name="AGPRSCSQUALDL34NFHACK" index="31"/>
+				<field name="AGPRSCSQUALDL34NFHNACK" index="32"/>
+				<field name="AGPRSCSQUALUL12FHACK" index="33"/>
+				<field name="AGPRSCSQUALUL12FHNACK" index="34"/>
+				<field name="AGPRSCSQUALUL12NFHACK" index="35"/>
+				<field name="AGPRSCSQUALUL12NFHNACK" index="36"/>
+				<field name="AGPRSCSQUALUL23FHACK" index="37"/>
+				<field name="AGPRSCSQUALUL23FHNACK" index="38"/>
+				<field name="AGPRSCSQUALUL23NFHACK" index="39"/>
+				<field name="AGPRSCSQUALUL23NFHNACK" index="40"/>
+				<field name="AGPRSCSQUALUL34FHACK" index="41"/>
+				<field name="AGPRSCSQUALUL34FHNACK" index="42"/>
+				<field name="AGPRSCSQUALUL34NFHACK" index="43"/>
+				<field name="AGPRSCSQUALUL34NFHNACK" index="44"/>
+				<field name="AGPRSCSSIRDL34FHACK" index="45"/>
+				<field name="AGPRSCSSIRDL34FHNACK" index="46"/>
+				<field name="AGPRSCSSIRDL34NFHACK" index="47"/>
+				<field name="AGPRSCSSIRDL34NFHNACK" index="48"/>
+				<field name="AGPRSCSSIRHSTDL" index="49"/>
+				<field name="AGPRSETXEFFICIENCYPERIOD" index="50"/>
+				<field name="AGPRSEDAMSACTIVATIONLEVEL" index="51"/>
+				<field name="AGPRSENDLLLCPDUREROUTING" index="52"/>
+				<field name="AGPRSENFASTUSFULEXTENDED" index="53"/>
+				<field name="AGPRSENFULLIRDL" index="54"/>
+				<field name="AGPRSENIRUL" index="55"/>
+				<field name="AGPRSENPFCFEATURE" index="56"/>
+				<field name="AGPRSENRACAPUPDATE" index="57"/>
+				<field name="AGPRSENRESEGMENTATIONUL" index="58"/>
+				<field name="AGPRSENSAGI" index="59"/>
+				<field name="AGPRSGBTRANSPORTMODE" index="60"/>
+				<field name="AGPRSGPRSMULTISLOTCLASSDEFVALUE" index="61"/>
+				<field name="AGPRSHIGHPRECEDENCEBACKGROUNDPRIORITY" index="62"/>
+				<field name="AGPRSHIGHPRECEDENCETHP1PRIORITY" index="63"/>
+				<field name="AGPRSHIGHPRECEDENCETHP2PRIORITY" index="64"/>
+				<field name="AGPRSHIGHPRECEDENCETHP3PRIORITY" index="65"/>
+				<field name="AGPRSLOWPRECEDENCEBACKGROUNDPRIORITY" index="66"/>
+				<field name="AGPRSLOWPRECEDENCETHP1PRIORITY" index="67"/>
+				<field name="AGPRSLOWPRECEDENCETHP2PRIORITY" index="68"/>
+				<field name="AGPRSLOWPRECEDENCETHP3PRIORITY" index="69"/>
+				<field name="AGPRSMAXPAGINGQUEUE" index="70"/>
+				<field name="AGPRSMAXRADIUSFACTOR" index="71"/>
+				<field name="AGPRSMINRADIUSFACTOR" index="72"/>
+				<field name="AGPRSN3101LIMIT" index="73"/>
+				<field name="AGPRSN3101POLLINGTHR" index="74"/>
+				<field name="AGPRSN3103LIMIT" index="75"/>
+				<field name="AGPRSNATERTSMARGINGPU" index="76"/>
+				<field name="AGPRSNSTAGNATINGWINDOWDLLIMIT" index="77"/>
+				<field name="AGPRSNSTAGNATINGWINDOWULLIMIT" index="78"/>
+				<field name="AGPRSNULBIASFOREDA" index="79"/>
+				<field name="AGPRSNORMALPRECEDENCEBACKGROUNDPRIORITY" index="80"/>
+				<field name="AGPRSNORMALPRECEDENCETHP1PRIORITY" index="81"/>
+				<field name="AGPRSNORMALPRECEDENCETHP2PRIORITY" index="82"/>
+				<field name="AGPRSNORMALPRECEDENCETHP3PRIORITY" index="83"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR1" index="84"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR2" index="85"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR3" index="86"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR4" index="87"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR5" index="88"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR6" index="89"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR7" index="90"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR8" index="91"/>
+				<field name="AGPRSPDDLPDCHUNITALLOCTHR9" index="92"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR1" index="93"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR2" index="94"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR3" index="95"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR4" index="96"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR5" index="97"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR6" index="98"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR7" index="99"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR8" index="100"/>
+				<field name="AGPRSPDDLTBFDURATIONTHR9" index="101"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR1" index="102"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR2" index="103"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR3" index="104"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR4" index="105"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR5" index="106"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR6" index="107"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR7" index="108"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR8" index="109"/>
+				<field name="AGPRSPDDLTBFVOLUMETHR9" index="110"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR1" index="111"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR2" index="112"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR3" index="113"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR4" index="114"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR5" index="115"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR6" index="116"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR7" index="117"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR8" index="118"/>
+				<field name="AGPRSPDULPDCHUNITALLOCTHR9" index="119"/>
+				<field name="AGPRSPDULTBFDURATIONTHR1" index="120"/>
+				<field name="AGPRSPDULTBFDURATIONTHR2" index="121"/>
+				<field name="AGPRSPDULTBFDURATIONTHR3" index="122"/>
+				<field name="AGPRSPDULTBFDURATIONTHR4" index="123"/>
+				<field name="AGPRSPDULTBFDURATIONTHR5" index="124"/>
+				<field name="AGPRSPDULTBFDURATIONTHR6" index="125"/>
+				<field name="AGPRSPDULTBFDURATIONTHR7" index="126"/>
+				<field name="AGPRSPDULTBFDURATIONTHR8" index="127"/>
+				<field name="AGPRSPDULTBFDURATIONTHR9" index="128"/>
+				<field name="AGPRSPDULTBFVOLUMETHR1" index="129"/>
+				<field name="AGPRSPDULTBFVOLUMETHR2" index="130"/>
+				<field name="AGPRSPDULTBFVOLUMETHR3" index="131"/>
+				<field name="AGPRSPDULTBFVOLUMETHR4" index="132"/>
+				<field name="AGPRSPDULTBFVOLUMETHR5" index="133"/>
+				<field name="AGPRSPDULTBFVOLUMETHR6" index="134"/>
+				<field name="AGPRSPDULTBFVOLUMETHR7" index="135"/>
+				<field name="AGPRSPDULTBFVOLUMETHR8" index="136"/>
+				<field name="AGPRSPDULTBFVOLUMETHR9" index="137"/>
+				<field name="AGPRSPFCT6" index="138"/>
+				<field name="AGPRSPFCT8" index="139"/>
+				<field name="AGPRSSGSNR" index="140"/>
+				<field name="AGPRSSMSPRIORITY" index="141"/>
+				<field name="AGPRSTDELAYEDFINALPUAN" index="142"/>
+				<field name="AGPRSTFLOWCTRLCELL" index="143"/>
+				<field name="AGPRSTFLOWCTRLMS" index="144"/>
+				<field name="AGPRSTGCHINACTIVITY" index="145"/>
+				<field name="AGPRSTGCHINACTIVITYLAST" index="146"/>
+				<field name="AGPRSTLCSDELAYTOLERANT" index="147"/>
+				<field name="AGPRSTLCSLOWDELAY" index="148"/>
+				<field name="AGPRSTMAXSTREAMINGBUFFERING" index="149"/>
+				<field name="AGPRSTNETWORKRESPONSETIME" index="150"/>
+				<field name="AGPRSTPSIPACCH" index="151"/>
+				<field name="AGPRSTRRLPDELAYTOLERANT" index="152"/>
+				<field name="AGPRSTRRLPLOWDELAY" index="153"/>
+				<field name="AGPRSTBFCS3BLERPERIOD" index="154"/>
+				<field name="AGPRSTBFCS4BLERPERIOD" index="155"/>
+				<field name="AGPRSTBFCSDL" index="156"/>
+				<field name="AGPRSTBFCSUL" index="157"/>
+				<field name="AGPRSTBFMCSDL" index="158"/>
+				<field name="AGPRSTBFMCSUL" index="159"/>
+				<field name="AGPRSTOM8PRIORITY" index="160"/>
+				<field name="AGPRSTXEFFICIENCYPERIOD" index="161"/>
+				<field name="AGPRSWEIGHTP10" index="162"/>
+				<field name="AGPRSWEIGHTP11" index="163"/>
+				<field name="AGPRSWEIGHTP12" index="164"/>
+				<field name="AGPRSWEIGHTP13" index="165"/>
+				<field name="AGPRSWEIGHTP14" index="166"/>
+				<field name="AGPRSWEIGHTP15" index="167"/>
+				<field name="AGPRSWEIGHTP4" index="168"/>
+				<field name="AGPRSWEIGHTP5" index="169"/>
+				<field name="AGPRSWEIGHTP6" index="170"/>
+				<field name="AGPRSWEIGHTP7" index="171"/>
+				<field name="AGPRSWEIGHTP8" index="172"/>
+				<field name="AGPRSWEIGHTP9" index="173"/>
+				<field name="AMR_FR_SUBSET" index="174"/>
+				<field name="AMR_HR_SUBSET" index="175"/>
+				<field name="AMR_START_MODE_FR" index="176"/>
+				<field name="AMR_START_MODE_HR" index="177"/>
+				<field name="AUT_BAR" index="178"/>
+				<field name="ADMINISTRATIVESTATE" index="179"/>
+				<field name="ALARMSEVERITYASSIGNMENTPROFILEPOINTER" index="180"/>
+				<field name="ALARMSTATUS" index="181"/>
+				<field name="ALARMSTATUSSYNTHESIS" index="182"/>
+				<field name="ALARMSACKNOWLEDGEMENTSTATUS" index="183"/>
+				<field name="ALARMSACKNOWLEDGEMENTSYNTHESIS" index="184"/>
+				<field name="ALIGNMENTSTATUS" index="185"/>
+				<field name="ALIGNMENTSTATUSCAUSE" index="186"/>
+				<field name="BSC_GENERATION" index="187"/>
+				<field name="BSC_HW_CONFIG" index="188"/>
+				<field name="BSS_CIPH_LIST" index="189"/>
+				<field name="BSS_RELEASE" index="190"/>
+				<field name="BANDALLOCATIONRANGE" index="191"/>
+				<field name="BSSFUNCTIONALIGNMENTSTATUS" index="192"/>
+				<field name="BSSMAPT1" index="193"/>
+				<field name="BSSMAPT10" index="194"/>
+				<field name="BSSMAPT13" index="195"/>
+				<field name="BSSMAPT17" index="196"/>
+				<field name="BSSMAPT18" index="197"/>
+				<field name="BSSMAPT19" index="198"/>
+				<field name="BSSMAPT20" index="199"/>
+				<field name="BSSMAPT4" index="200"/>
+				<field name="BSSMAPT7" index="201"/>
+				<field name="BSSMAPT8" index="202"/>
+				<field name="BSSMAPTIMERT11FORCED" index="203"/>
+				<field name="BSSTOTALSDHLINKS" index="204"/>
+				<field name="CBC_CALLUSERDATASEL" index="205"/>
+				<field name="CBC_OPERATOR" index="206"/>
+				<field name="CBC_PASSWORD" index="207"/>
+				<field name="CBC_WINDOW" index="208"/>
+				<field name="CGI_REQD" index="209"/>
+				<field name="CGI3GREQD" index="210"/>
+				<field name="CURRENTSESSIONSTATUS" index="211"/>
+				<field name="DWELL_TIME_STEP" index="212"/>
+				<field name="DLDTXAMRWBGMSK" index="213"/>
+				<field name="DTXDOWNLINK" index="214"/>
+				<field name="DTXDOWNLINKAMR_FR" index="215"/>
+				<field name="DTXDOWNLINKAMR_HR" index="216"/>
+				<field name="DTXDOWNLINKHR" index="217"/>
+				<field name="EC_BAR" index="218"/>
+				<field name="EN_BSS_OVRL_CLASS_BAR" index="219"/>
+				<field name="EN_CIRCUIT_GROUP" index="220"/>
+				<field name="EN_INTERBAND_NEIGH" index="221"/>
+				<field name="EN_LOAD_OUTER" index="222"/>
+				<field name="EN_SEND_CHAN_MODE" index="223"/>
+				<field name="EN_SEND_CM3" index="224"/>
+				<field name="EN_SEND_SPEECH_VERSION" index="225"/>
+				<field name="EDRASSIGNMENTFAILUREAFTERHOREQ" index="226"/>
+				<field name="EDRASSIGNMENTFAILURECAUSE" index="227"/>
+				<field name="EDRKEEPASSIGNMENTREQINQUEUE" index="228"/>
+				<field name="EDRSENDASSIGNMENTFAILURE" index="229"/>
+				<field name="EGSMRRALLOCSTRATEGY" index="230"/>
+				<field name="EN4DRTREPERTCU" index="231"/>
+				<field name="ENCOMPRESSEDINTERRATINFO" index="232"/>
+				<field name="ENINBANDNOTIF" index="233"/>
+				<field name="ENINBANDPAGING" index="234"/>
+				<field name="ENUPLINKREPLY" index="235"/>
+				<field name="ENABLEEDR" index="236"/>
+				<field name="ENABLEHOREQREJECT" index="237"/>
+				<field name="ENABLEIMMEDIATEASSIGNMENTREJECT" index="238"/>
+				<field name="ENABLEUNEQUIPPEDCIRCUIT" index="239"/>
+				<field name="FDD_ARFCN_LIST" index="240"/>
+				<field name="FORBID_AMR_NS" index="241"/>
+				<field name="FORBID_DTXDOWNLINK_NH_BCCH_F" index="242"/>
+				<field name="FORCEASSIGNMENTREQQUEUING" index="243"/>
+				<field name="GSM_PHASE" index="244"/>
+				<field name="H_MIN_DWELL_TIME" index="245"/>
+				<field name="IGNORE_2MBIT_FAILURE" index="246"/>
+				<field name="IPHOSUPPORTED" index="247"/>
+				<field name="L_MIN_DWELL_TIME" index="248"/>
+				<field name="LOCATIONNAME" index="249"/>
+				<field name="M1" index="250"/>
+				<field name="M2" index="251"/>
+				<field name="MTP3_WB_INTERWORKING" index="252"/>
+				<field name="MAXLAPDM" index="253"/>
+				<field name="MFSADMINISTRATIVESTATE" index="254"/>
+				<field name="MFSALARMSTATUS" index="255"/>
+				<field name="MFSALARMSACKNOWLEDGEMENTSTATUS" index="256"/>
+				<field name="MFSALIGNMENTSTATUS" index="257"/>
+				<field name="MFSALIGNMENTSTATUSCAUSE" index="258"/>
+				<field name="MFSAVAILABILITYSTATUS" index="259"/>
+				<field name="MFSOPERATIONALSTATE" index="260"/>
+				<field name="MLUMODESTATUS" index="261"/>
+				<field name="MLUPROGRESSIONSTATUS" index="262"/>
+				<field name="N1" index="263"/>
+				<field name="N2" index="264"/>
+				<field name="NCI" index="265"/>
+				<field name="NBRPREFERREDCELLSFORHANDOVER" index="266"/>
+				<field name="NBRRESETREP" index="267"/>
+				<field name="NBR_BLK_UNBLK" index="268"/>
+				<field name="NBR_CLR_REQ" index="269"/>
+				<field name="NBR_RESET_CIC_REP" index="270"/>
+				<field name="NODEIDENTIFIER" index="271"/>
+				<field name="OPERATIONALSTATE" index="272"/>
+				<field name="PREFERRED_BAND" index="273"/>
+				<field name="PROCEDURALSTATUS" index="274"/>
+				<field name="RMS_TEMPLATE_1" index="275"/>
+				<field name="RMS_TEMPLATE_10" index="276"/>
+				<field name="RMS_TEMPLATE_11" index="277"/>
+				<field name="RMS_TEMPLATE_12" index="278"/>
+				<field name="RMS_TEMPLATE_13" index="279"/>
+				<field name="RMS_TEMPLATE_14" index="280"/>
+				<field name="RMS_TEMPLATE_15" index="281"/>
+				<field name="RMS_TEMPLATE_16" index="282"/>
+				<field name="RMS_TEMPLATE_2" index="283"/>
+				<field name="RMS_TEMPLATE_3" index="284"/>
+				<field name="RMS_TEMPLATE_4" index="285"/>
+				<field name="RMS_TEMPLATE_5" index="286"/>
+				<field name="RMS_TEMPLATE_6" index="287"/>
+				<field name="RMS_TEMPLATE_7" index="288"/>
+				<field name="RMS_TEMPLATE_8" index="289"/>
+				<field name="RMS_TEMPLATE_9" index="290"/>
+				<field name="RMS_TEMPLATE_NAME_1" index="291"/>
+				<field name="RMS_TEMPLATE_NAME_10" index="292"/>
+				<field name="RMS_TEMPLATE_NAME_11" index="293"/>
+				<field name="RMS_TEMPLATE_NAME_12" index="294"/>
+				<field name="RMS_TEMPLATE_NAME_13" index="295"/>
+				<field name="RMS_TEMPLATE_NAME_14" index="296"/>
+				<field name="RMS_TEMPLATE_NAME_15" index="297"/>
+				<field name="RMS_TEMPLATE_NAME_16" index="298"/>
+				<field name="RMS_TEMPLATE_NAME_2" index="299"/>
+				<field name="RMS_TEMPLATE_NAME_3" index="300"/>
+				<field name="RMS_TEMPLATE_NAME_4" index="301"/>
+				<field name="RMS_TEMPLATE_NAME_5" index="302"/>
+				<field name="RMS_TEMPLATE_NAME_6" index="303"/>
+				<field name="RMS_TEMPLATE_NAME_7" index="304"/>
+				<field name="RMS_TEMPLATE_NAME_8" index="305"/>
+				<field name="RMS_TEMPLATE_NAME_9" index="306"/>
+				<field name="ROT" index="307"/>
+				<field name="RELATEDEMLOBJECT" index="308"/>
+				<field name="REPLACEMENTJOBSTATUS" index="309"/>
+				<field name="RESERVATIONSTATUS" index="310"/>
+				<field name="RNLRELATEDMFS" index="311"/>
+				<field name="SMSCB_MODE" index="312"/>
+				<field name="SMSCB_PHASE" index="313"/>
+				<field name="SMSCB_RECOVERY" index="314"/>
+				<field name="SMSCB_STATE" index="315"/>
+				<field name="SMSCB_FEATURESET" index="316"/>
+				<field name="SENDCLASSMARKENQUIRY" index="317"/>
+				<field name="STRIPBYTE5FROMCLASSMARK2" index="318"/>
+				<field name="SUPPORTEDOWNMCC" index="319"/>
+				<field name="SUPPORTEDOWNMNC" index="320"/>
+				<field name="SWPACKAGEPRODUCTIONSTATUS" index="321"/>
+				<field name="T14" index="322"/>
+				<field name="T18_OVERLOAD" index="323"/>
+				<field name="T3101" index="324"/>
+				<field name="T3103" index="325"/>
+				<field name="T3107" index="326"/>
+				<field name="T3109" index="327"/>
+				<field name="T3111" index="328"/>
+				<field name="T3121" index="329"/>
+				<field name="T9104" index="330"/>
+				<field name="T9105" index="331"/>
+				<field name="T9110" index="332"/>
+				<field name="T9112" index="333"/>
+				<field name="T9113" index="334"/>
+				<field name="TCH_PREMPT" index="335"/>
+				<field name="TNOTIFRESPONSEDELAY" index="336"/>
+				<field name="TWAITUPLINKACCESS" index="337"/>
+				<field name="TWAITUPLINKREQUESTACK" index="338"/>
+				<field name="T_AUTOCLEANING_MEAS_REP" index="339"/>
+				<field name="T_BIND_CNF" index="340"/>
+				<field name="T_LOC_ABORT" index="341"/>
+				<field name="T_LOCATION" index="342"/>
+				<field name="T_LOCATION_LONGER" index="343"/>
+				<field name="T_MS_CELL_REJ" index="344"/>
+				<field name="TCHUSAGEINFOPERIOD" index="345"/>
+				<field name="TDDARFCNLIST" index="346"/>
+				<field name="TIMELIMITCALL" index="347"/>
+				<field name="TIMELIMITHANDOVER" index="348"/>
+				<field name="TIMERTBURST" index="349"/>
+				<field name="TIMERTCONNEST" index="350"/>
+				<field name="TIMERTHOREQDLOST" index="351"/>
+				<field name="TIMERTSTATINFO" index="352"/>
+				<field name="TIMERTI" index="353"/>
+				<field name="TIMERTIAR" index="354"/>
+				<field name="TIMERTIAS" index="355"/>
+				<field name="TIMERTREL" index="356"/>
+				<field name="TRANSCODINGCAPABILITY" index="357"/>
+				<field name="TRAUCONNECTIONTIMEOUT" index="358"/>
+				<field name="UNACKNOWLEDGEDALARM" index="359"/>
+				<field name="UNKNOWNSTATUS" index="360"/>
+				<field name="USERLABEL" index="361"/>
+				<field name="VERSIONOFOMC_BSCINTERFACE" index="362"/>
+				<field name="VGCSFIXAMRFRCODEC" index="363"/>
+				<field name="VGCSFIXAMRHRCODEC" index="364"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="9" file="/ACIE/ACIE_NLexport_Dir1/RnlFrequencyHoppingSystem.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="RNLFREQUENCYHOPPINGSYSTEMINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="HOPPINGSEQUENCENUMBER" index="2" />
+				<field name="LOCATIONNAME" index="3"/>
+				<field name="MOBILEALLOCATION" index="4"/>
+				<field name="USERLABEL" index="5"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="10" file="/ACIE/ACIE_NLexport_Dir1/RnlPowerControl.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="RNLPOWERCONTROLINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ACMBALPHA" index="2" />
+				<field name="ACMBNAVGI" index="3"/>
+				<field name="ACMBPCMEASCHAN" index="4"/>
+				<field name="ACMBTAVGT" index="5"/>
+				<field name="ACMBTAVGW" index="6"/>
+				<field name="AGPRSGAMMATNX" index="7"/>
+				<field name="BS_P_CON_ACK" index="8"/>
+				<field name="BS_P_CON_INT" index="9"/>
+				<field name="BS_TXPWR_MAX" index="10"/>
+				<field name="BS_TXPWR_MAX_INNER" index="11"/>
+				<field name="BS_TXPWR_MIN" index="12"/>
+				<field name="EN_BS_PC" index="13"/>
+				<field name="EN_MS_PC" index="14"/>
+				<field name="EMEPWRMAXDCS" index="15"/>
+				<field name="EMEPWRMAXGSM" index="16"/>
+				<field name="LOCATIONNAME" index="17"/>
+				<field name="MS_P_CON_ACK" index="18"/>
+				<field name="MS_P_CON_INT" index="19"/>
+				<field name="MS_TXPWR_MAX" index="20"/>
+				<field name="MS_TXPWR_MAX_INNER" index="21"/>
+				<field name="MS_TXPWR_MIN" index="22"/>
+				<field name="MSMTPROCPARAMLOC" index="23"/>
+				<field name="PCAVERAGINGLEV" index="24"/>
+				<field name="PCAVERAGINGQUAL" index="25"/>
+				<field name="PCLOWEROFFSETQUALPARAM" index="26"/>
+				<field name="PCLOWERTHRESHOLDLEVPARAM" index="27"/>
+				<field name="PCLOWERTHRESHOLDQUALPARAM" index="28"/>
+				<field name="PCSDCCHSTOPDURATION" index="29"/>
+				<field name="PCUPPERTHRESHOLDLEVPARAM" index="30"/>
+				<field name="PCUPPERTHRESHOLDQUALPARAM" index="31"/>
+				<field name="POWERCONTROLINTERVAL" index="32"/>
+				<field name="POWERINCRFACTOR" index="33"/>
+				<field name="POWERINCRMAX" index="34"/>
+				<field name="POWERINCRSTEPSIZE" index="35"/>
+				<field name="POWERREDFACTOR" index="36"/>
+				<field name="POWERREDMAX" index="37"/>
+				<field name="POWERREDSTEPSIZE" index="38"/>
+				<field name="USERLABEL" index="39"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="11" file="/ACIE/ACIE_NLexport_Dir1/RnlAlcatelSector.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="RNLALCATELSECTORINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ACMBNEXTRAABISTSMAIN" index="2" />
+				<field name="ACMBNEXTRAABISTSSECONDARY" index="3"/>
+				<field name="ALIGNMENTSTATUS" index="4"/>
+				<field name="ALIGNMENTSTATUSCAUSE" index="5"/>
+				<field name="BTSSITEMANAGERIDSECONDARY" index="6"/>
+				<field name="COMBINERTYPE" index="7"/>
+				<field name="FREQUENCYRANGE" index="8"/>
+				<field name="GPRSCAPABILITY" index="9"/>
+				<field name="HOPPINGMODE" index="10"/>
+				<field name="LOCATIONNAME" index="11"/>
+				<field name="MFSALIGNMENTSTATUS" index="12"/>
+				<field name="MFSALIGNMENTSTATUSCAUSE" index="13"/>
+				<field name="NBBASEBANDTRANSCEIVER" index="14"/>
+				<field name="NBOFEDGETRESPERSECTOR" index="15"/>
+				<field name="NBRDR_GSM1800_1900_TRE" index="16"/>
+				<field name="NBRDR_GSM900_TRE" index="17"/>
+				<field name="NODEIDENTIFIER" index="18"/>
+				<field name="PWRMAXDCSCAPABILITYPERSECTOR" index="19"/>
+				<field name="PWRMAXGSMCAPABILITYPERSECTOR" index="20"/>
+				<field name="RELATEDCELLSHARED" index="21"/>
+				<field name="RELATEDEMLOBJECT" index="22"/>
+				<field name="RNLRELATEDCELL" index="23"/>
+				<field name="TXDIVTRENUMBER" index="24"/>
+				<field name="USERLABEL" index="25"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="12" file="/ACIE/ACIE_NLexport_Dir1/RnlAlcatelSiteManager.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="RNLALCATELSITEMANAGERINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ACMBCOMMERCIALUSE" index="2" />
+				<field name="ADMINISTRATIVESTATE" index="3"/>
+				<field name="ALARMSTATUS" index="4"/>
+				<field name="ALARMSACKNOWLEDGEMENTSTATUS" index="5"/>
+				<field name="ALLOW_EXTENDEDCELL" index="6"/>
+				<field name="AVAILABILITYSTATUS" index="7"/>
+				<field name="BTS_GENERATION" index="8"/>
+				<field name="LOCATIONNAME" index="9"/>
+				<field name="MAX_BASEBANDTRANSCEIVER_PERSECTOR" index="10"/>
+				<field name="MAX_BTS_SECTOR" index="11"/>
+				<field name="MAX_FHS_PERSECTOR" index="12"/>
+				<field name="MFSALIGNMENTSTATUS" index="13"/>
+				<field name="MFSALIGNMENTSTATUSCAUSE" index="14"/>
+				<field name="MUXRATE" index="15"/>
+				<field name="MUXRULE" index="16"/>
+				<field name="NODEIDENTIFIER" index="17"/>
+				<field name="OPERATIONALSTATE" index="18"/>
+				<field name="RSLS12PERBTSNUMBER" index="19"/>
+				<field name="RADIOCARRIERTYPE" index="20"/>
+				<field name="RELATEDEMLOBJECT" index="21"/>
+				<field name="RELATEDSYNCHRONIZEDBTS" index="22"/>
+				<field name="USERLABEL" index="23"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="13" file="/ACIE/ACIE_NLexport_Dir1/SubNetwork.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign=";" />
+			</meta>
+			<fields splitSign=";">
+				<field name="MODE" index="0"  occur="required" />
+				<field name="SUBNETWORKINSTANCEIDENTIFIER" index="1"  occur="required" />
+				<field name="ACMBPLMNFREQUENCYBANDS" index="2" />
+				<field name="ACTIVATIONMODE" index="3"/>
+				<field name="AMRFRCELLSNUMBER" index="4"/>
+				<field name="AMRHRCELLSNUMBER" index="5"/>
+				<field name="BBTSTOTALNUMBER" index="6"/>
+				<field name="CELLSTOBEDELETED" index="7"/>
+				<field name="CS3CS4CELLSNUMBER" index="8"/>
+				<field name="CURRENTSESSIONSTATUS" index="9"/>
+				<field name="CURRENTTOTALSOFCONFIGUREDUNITS" index="10"/>
+				<field name="DRTRENUMBER" index="11"/>
+				<field name="EGPRSCELLSNUMBER" index="12"/>
+				<field name="EGSMCELLSNUMBER" index="13"/>
+				<field name="EXTERNALTARGETVGCSLINKWARNLEVEL" index="14"/>
+				<field name="FOREIGNMCC_1" index="15"/>
+				<field name="FOREIGNMCC_2" index="16"/>
+				<field name="FOREIGNMCC_3" index="17"/>
+				<field name="FOREIGNMCC_4" index="18"/>
+				<field name="FOREIGNMNC_1" index="19"/>
+				<field name="FOREIGNMNC_2" index="20"/>
+				<field name="FOREIGNMNC_3" index="21"/>
+				<field name="FOREIGNMNC_4" index="22"/>
+				<field name="FOREIGNPLMNNAME_1" index="23"/>
+				<field name="FOREIGNPLMNNAME_2" index="24"/>
+				<field name="FOREIGNPLMNNAME_3" index="25"/>
+				<field name="FOREIGNPLMNNAME_4" index="26"/>
+				<field name="LISTOFDEFINEDLSA" index="27"/>
+				<field name="LOCATIONNAME" index="28"/>
+				<field name="NODEIDENTIFIER" index="29"/>
+				<field name="OMC3INSTANCENAME" index="30"/>
+				<field name="OWNMCC_1" index="31"/>
+				<field name="OWNMCC_2" index="32"/>
+				<field name="OWNMCC_3" index="33"/>
+				<field name="OWNMCC_4" index="34"/>
+				<field name="OWNMNC_1" index="35"/>
+				<field name="OWNMNC_2" index="36"/>
+				<field name="OWNMNC_3" index="37"/>
+				<field name="OWNMNC_4" index="38"/>
+				<field name="OWNPLMNNAME_1" index="39"/>
+				<field name="OWNPLMNNAME_2" index="40"/>
+				<field name="OWNPLMNNAME_3" index="41"/>
+				<field name="OWNPLMNNAME_4" index="42"/>
+				<field name="OWNTARGETVGCSLINKWARNLEVEL" index="43"/>
+				<field name="PRCACCESSRIGHT" index="44"/>
+				<field name="PRCACTIVATOR" index="45"/>
+				<field name="PRCCREATOR" index="46"/>
+				<field name="PRCFREEDESCRIPTION" index="47"/>
+				<field name="PRCLASTMODIFGTIME" index="48"/>
+				<field name="PROCEDURALSTATUS" index="49"/>
+				<field name="RESERVATIONSTATUS" index="50"/>
+				<field name="SDCCHTEMPLATENAME_1" index="51"/>
+				<field name="SDCCHTEMPLATENAME_10" index="52"/>
+				<field name="SDCCHTEMPLATENAME_2" index="53"/>
+				<field name="SDCCHTEMPLATENAME_3" index="54"/>
+				<field name="SDCCHTEMPLATENAME_4" index="55"/>
+				<field name="SDCCHTEMPLATENAME_5" index="56"/>
+				<field name="SDCCHTEMPLATENAME_6" index="57"/>
+				<field name="SDCCHTEMPLATENAME_7" index="58"/>
+				<field name="SDCCHTEMPLATENAME_8" index="59"/>
+				<field name="SDCCHTEMPLATENAME_9" index="60"/>
+				<field name="SDCCHTEMPLATE_1" index="61"/>
+				<field name="SDCCHTEMPLATE_10" index="62"/>
+				<field name="SDCCHTEMPLATE_2" index="63"/>
+				<field name="SDCCHTEMPLATE_3" index="64"/>
+				<field name="SDCCHTEMPLATE_4" index="65"/>
+				<field name="SDCCHTEMPLATE_5" index="66"/>
+				<field name="SDCCHTEMPLATE_6" index="67"/>
+				<field name="SDCCHTEMPLATE_7" index="68"/>
+				<field name="SDCCHTEMPLATE_8" index="69"/>
+				<field name="SDCCHTEMPLATE_9" index="70"/>
+				<field name="TXDIVTRETOTALNUMBER" index="71"/>
+				<field name="USERLABEL" index="72"/>
+				<field name="WTC" index="73"/>
+				<field name="WARNINGTHRESLTDFEATURES" index="74"/>
+			</fields>
+		</ds>
+	</templet>
+
+</templets>

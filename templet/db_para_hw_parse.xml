@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="/*/PARA/cell.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="module_id"  index="0" />
+				<field name="cell_index"  index="1" />
+				<field name="cell_id"  index="2" />
+				<field name="sector_id"  index="3" />
+				<field name="local_cell_id"  index="4" />
+				<field name="local_sector_id"  index="5" />
+				<field name="pilot_pn"  index="6" />
+				<field name="sid"  index="7" />
+				<field name="nid"  index="8" />
+				<field name="pzid"  index="9" />
+				<field name="lacode"  index="10" />
+				<field name="virtual_lac1"  index="11" />
+				<field name="virtual_lac2"  index="12" />
+				<field name="virtual_lac3"  index="13" />
+				<field name="virtual_lac4"  index="14" />
+				<field name="virtual_lac5"  index="15" />
+				<field name="border"  index="16" />
+				<field name="site_no"  index="17" />
+				<field name="carr_assgn_allow"  index="18" />
+				<field name="if_bord_cell"  index="19" />
+				<field name="base_id"  index="20" />
+				<field name="rev_rssi_carr_assgn_switch"  index="21" />
+				<field name="do_carr_assgn_allow"  index="22" />
+				<field name="doa_rev_rssi_carr_assgn_switch"  index="23" />
+				<field name="doa_prv_pri_carr_assgn_sw"  index="24" />
+				<field name="ct_lacode"  index="25" />
+				<field name="do_multi_band_assign_sw"  index="26" />
+				<field name="autodwn_fwdeqlchan_thd"  index="27" />
+				<field name="autodwn_count_thd"  index="28" />
+				<field name="unblk_fwdeqlchan_thd"  index="29" />
+				<field name="do_usercount_thd"  index="30" />
+				<field name="do_autodwn_count_thd"  index="31" />
+				<field name="do_unblk_usercount_thd"  index="32" />
+				<field name="irecid"  index="33" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/*/PARA/pilot.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="global_carrier_index" index="0"  />
+				<field name="module_id" index="1"  />
+				<field name="pilot_id" index="2"  />
+				<field name="cell_id" index="3"  />
+				<field name="sector_id" index="4"  />
+				<field name="carrier_id" index="5"  />
+				<field name="pilot_beacon_flag" index="6"  />
+				<field name="band_class" index="7"  />
+				<field name="arfcn" index="8"  />
+				<field name="tx_gain" index="9"  />
+				<field name="sector_gain" index="10"  />
+				<field name="preced_srv_type" index="11"  />
+				<field name="pilot_prio" index="12"  />
+				<field name="cclm_send_flag" index="13"  />
+				<field name="ecclm_send_flag" index="14"  />
+				<field name="bcch_ecclm_flag" index="15"  />
+				<field name="system_typ" index="16"  />
+				<field name="transitional_flag" index="17"  />
+				<field name="evdo_protocol_ver" index="18"  />
+				<field name="autodownd_sw" index="19"  />
+				<field name="beacon_typ" index="20"  />
+				<field name="irecid" index="21"  />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="/*/PARA/tbl_btsbasicinfo.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="ibtsid" index="0"  />
+				<field name="sbtsname" index="1"  />
+				<field name="iloadindex" index="2"  />
+				<field name="ibackuptime" index="3"  />
+				<field name="igatewayip" index="4"  />
+				<field name="inetmask" index="5"  />
+				<field name="isiteclass" index="6"  />
+				<field name="isitetype" index="7"  />
+				<field name="iautoloadflag" index="8"  />
+				<field name="irvsmntflag" index="9"  />
+				<field name="imsaccessflag" index="10"  />
+				<field name="supgradever" index="11"  />
+				<field name="ibinlogautorptflag" index="12"  />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="3" file="/*/PARA/vwcellall.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="module_id"  index="0"  />
+				<field name="cell_index"  index="1"  />
+				<field name="cell_id"  index="2"  />
+				<field name="sector_id"  index="3"  />
+				<field name="local_cell_id"  index="4"  />
+				<field name="local_sector_id"  index="5"  />
+				<field name="pilot_pn"  index="6"  />
+				<field name="sid"  index="7"  />
+				<field name="nid"  index="8"  />
+				<field name="pzid"  index="9"  />
+				<field name="system_type"  index="10"  />
+				<field name="lacode"  index="11"  />
+				<field name="virtual_lac1"  index="12"  />
+				<field name="virtual_lac2"  index="13"  />
+				<field name="virtual_lac3"  index="14"  />
+				<field name="virtual_lac4"  index="15"  />
+				<field name="virtual_lac5"  index="16"  />
+				<field name="border"  index="17"  />
+				<field name="site_no"  index="18"  />
+				<field name="carr_assgn_allow"  index="19"  />
+				<field name="if_bord_cell"  index="20"  />
+				<field name="base_id"  index="21"  />
+				<field name="rev_rssi_carr_assgn_switch"  index="22"  />
+				<field name="ct_lacode"  index="23"  />
+				<field name="autodwn_fwdeqlchan_thd"  index="24"  />
+				<field name="autodwn_count_thd"  index="25"  />
+				<field name="unblk_fwdeqlchan_thd"  index="26"  />
+				<field name="hard_assign_type"  index="27"  />
+				<field name="do_carr_assgn_allow"  index="28"  />
+				<field name="doa_rev_rssi_carr_assgn_switch"  index="29"  />
+				<field name="doa_prv_pri_carr_assgn_sw"  index="30"  />
+				<field name="do_multi_band_assign_sw"  index="31"  />
+				<field name="do_usercount_thd"  index="32"  />
+				<field name="do_autodwn_count_thd"  index="33"  />
+				<field name="do_unblk_usercount_thd"  index="34"  />
+				<field name="do_uzid"  index="35"  />
+				<field name="stay_mode"  index="36"  />
+				<field name="bandclass_assign_sw"  index="37"  />
+				<field name="bandclass_assign"  index="38"  />
+				<field name="an_assist_1xdo_sw"  index="39"  />
+				<field name="location"  index="40"  />
+				<field name="microcell"  index="41"  />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="4" file="/*/PARA/vwgpsoneinfo.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="SID" index="0"/>
+				<field name="NID" index="1"/>
+				<field name="BTS_NAME" index="2"/>
+				<field name="CELL_ID" index="3"/>
+				<field name="SECTOR_ID" index="4"/>
+				<field name="CARRIER_ID" index="5"/>
+				<field name="ARFCN" index="6"/>
+				<field name="BAND_CLASS" index="7"/>
+				<field name="REGION_TYPE" index="8"/>
+				<field name="PILOT_PN" index="9"/>
+				<field name="PILOT_INC" index="10"/>
+				<field name="BASE_LAT" index="11"/>
+				<field name="BASE_LONG" index="12"/>
+				<field name="ANT_LAT" index="13"/>
+				<field name="ANT_LONG" index="14"/>
+				<field name="ANT_ALT" index="15"/>
+				<field name="SURVEY_ACC" index="16"/>
+				<field name="ANT_ORIENT" index="17"/>
+				<field name="ANT_OPENING" index="18"/>
+				<field name="DOWN_TILT" index="19"/>
+				<field name="ANT_CABLE" index="20"/>
+				<field name="FLC_ACC" index="21"/>
+				<field name="P_REPTR" index="22"/>
+				<field name="FORMAT_TYPE" index="23"/>
+				<field name="MSC_ID" index="24"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="5" file="/*/PARA/vw_hw_mtgetbtscarriorinfo.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="iBtsId" index="0"/>
+				<field name="iLocalCellId" index="1"/>
+				<field name="iLocalSectorId" index="2"/>
+				<field name="iCarrierId" index="3"/>
+				<field name="iPilotBeaconFlag" index="4"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="6" file="/*/PARA/tbl_objectinstance.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="objecttypeid" index="0" />
+				<field name="objectno" index="1" />
+				<field name="invalidtime" index="2" />
+				<field name="objectparameter" index="3" />
+				<field name="nefdn" index="4" />
+				<field name="nename" index="5" />
+				<field name="membernum" index="6" />
+				<field name="objectmember0" index="7" />
+				<field name="objectmemname0" index="8" />
+				<field name="objectmember1" index="9" />
+				<field name="objectmemname1" index="10" />
+				<field name="objectmember2" index="11" />
+				<field name="objectmemname2" index="12" />
+				<field name="objectmember3" index="13" />
+				<field name="objectmemname3" index="14" />
+				<field name="objectmember4" index="15" />
+				<field name="objectmemname4" index="16" />
+				<field name="objectmember5" index="17" />
+				<field name="objectmemname5" index="18" />
+				<field name="objectdescription" index="19" />
+				<field name="bamobjectstr" index="20" />
+				<field name="measurementstate" index="21" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

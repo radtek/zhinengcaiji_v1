@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/BSC_20121224.txt" encoding ="utf-8">
+		<ds id="0">
+			<meta>
+				<head splitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">  
+	
+<field name="所属地市"                index="0" />                                   
+<field name="网格化区域"         index="1" /> 
+<field name="机房编号"             index="2" /> 
+<field name="网元类型"                 index="3" /> 
+<field name="生产厂商"              index="4" /> 
+<field name="名称"               index="5" /> 
+<field name="设备ID后缀"                   index="6" /> 
+<field name="网元编号"                   index="7" /> 
+<field name="使用状态"                index="8" /> 
+<field name="软件版本"         index="9" /> 
+<field name="工程编码"              index="10" />
+<field name="工程状态"            index="11" />
+<field name="投产时间"              index="12" />
+<field name="保修期开始时间"     index="13" />
+<field name="保修期结束时间"        index="14" />
+<field name="信令点编码"     index="15" />
+<field name="所属营销中心编号"     index="16" />	
+
+<field name="A接口传输设备型号"         index="17" />
+<field name="Abis接口传输设备型号"      index="18" />
+<field name="传输方式"               index="19" />
+<field name="设备编码"            index="20" />
+<field name="所属MSC名称"                  index="21" />
+<field name="安装详细地址"            index="22" />
+<field name="相关联的PCF的列表"                 index="23" />
+<field name="入网时间"              index="24" />
+<field name="最后更新时间"        index="25" />
+<field name="归属MSC标识符"                   index="26" />
+<field name="所属区域ID"                index="27" />
+<field name="地市编号"                  index="28" />
+<field name="网元状态"                index="29" />
+<field name="所属网格编号"               index="30" />
+<field name="所属机房名称"            index="31" />
+<field name="设备型号"              index="32" />
+<field name="经度"                index="33" />
+<field name="纬度"                 index="34" />
+<field name="IP地址"                       index="35" />
+<field name="所属网格"              index="36" />
+<field name="所属营销中心"         index="37" />
+<field name="所属区县分公司编号"             index="38" />
+<field name="所属区县分公司名称"            index="39" />
+<field name="网管名称"       index="40" />
+<field name="Lac"                      index="41" />
+<field name="OPC"                      index="42" />
+<field name="所属MSCe_ID"                  index="43" />
+<field name="所属MSCID"                    index="44" />
+<field name="REGZONE"                  index="45" />
+<field name="SID"                      index="46" />
+<field name="NID"                      index="47" />
+<field name="PZID"                     index="48" />
+<field name="ColorCode"                index="49" />
+<field name="SectorID104"              index="50" />
+<field name="DPC"                      index="51" />
+<field name="所属MGW"                      index="52" />
+<field name="BSC无线容量"                 index="53" />
+<field name="最大中继端口数"            index="54" />
+<field name="最大64K信令链路数"         index="55" />
+<field name="最大2M信令链路数"          index="56" />
+<field name="现网已配置的中继端口数"           index="57" />
+<field name="现网已配置的64K信令链路数"        index="58" />
+<field name="现网已配置的2M信令链路数"         index="59" />
+<field name="信道板配置总数"             index="60" />
+<field name="BSC管理的BTS的数目"                  index="61" />
+<field name="BSC管理的小区数目"                 index="62" />
+<field name="单载频小区数量"               index="63" />
+<field name="最大FEAbis接口数目"           index="64" />
+<field name="最大GEAbis接口数目"           index="65" />
+<field name="现管辖1X载扇数"          index="66" />
+<field name="现管辖DO载扇数"            index="67" />
+<field name="归属的PDSN"                     index="68" />
+<field name="当前配置的FEAbis接口数目"          index="69" />
+<field name="当前配置的GEAbis接口数目"          index="70" />
+<field name="最大STM1中继端口数目"       index="71" />
+<field name="当前配置的STM1中继端口数目"      index="72" />
+<field name="最大2MAbis接口数目"          index="73" />
+<field name="当前配置的2MAbis接口数目"         index="74" />
+<field name="最大可同时支持的SESSION数量"      index="75" />
+<field name="最大可同时支持的激活的SESSION数量"       index="76" />
+<field name="1X容量"              index="77" />
+<field name="1X实占容量"       index="78" />
+<field name="EV-DO容量"            index="79" />
+<field name="EV-DO实占容量"     index="80" />		
+
+	
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="1" file="/BTS_20121224.txt" encoding ="utf-8">
+		<ds id="0">
+			<meta>
+				<head splitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">  
+				
+			
+<field name="网元号"  index ="0"/>
+<field name="网元类型"  index ="1"/>
+<field name="地市"  index ="2"/>
+<field name="行政区域"  index ="3"/>
+<field name="机房（或安装点）编号"  index ="4"/>
+<field name="营销中心ID"  index ="5"/>
+<field name="网格编号"  index ="6"/>
+<field name="站点级别(基站等级)"  index ="7"/>
+<field name="版本信息"  index ="8"/>
+<field name="传输电路编号"  index ="9"/>
+<field name="传输属性"  index ="10"/>
+<field name="传输方式"  index ="11"/>
+<field name="基站业务类型"  index ="12"/>
+<field name="X1基站站型"  index ="13"/>
+<field name="DO基站站型"  index ="14"/>
+<field name="网元设备型号"  index ="15"/>
+<field name="基站设备类型"  index ="16"/>
+<field name="覆盖区域类型"  index ="17"/>
+<field name="覆盖属性"  index ="18"/>
+<field name="覆盖道路类型"  index ="19"/>
+<field name="是否边界"  index ="20"/>
+<field name="是否室分信源"  index ="21"/>
+<field name="投产时间"  index ="22"/>
+<field name="基站备注"  index ="23"/>
+<field name="工程名称"  index ="24"/>
+<field name="工程编码"  index ="25"/>
+<field name="工程状态"  index ="26"/>
+<field name="开通日期"  index ="27"/>
+<field name="使用状态"  index ="28"/>
+<field name="保修期开始时间"  index ="29"/>
+<field name="保修期结束时间"  index ="30"/>
+<field name="设备安装方式"  index ="31"/>
+<field name="设备来源"  index ="32"/>
+<field name="2M用于1X数量"  index ="33"/>
+<field name="2M用于DO数量"  index ="34"/>
+<field name="1XDO混用2M数量"  index ="35"/>
+<field name="已用GE数"  index ="36"/>
+<field name="已用FE数"  index ="37"/>
+<field name="E1数"  index ="38"/>
+<field name="设备厂家"  index ="39"/>
+<field name="BSC名称"  index ="40"/>
+<field name="传输设备型号"  index ="41"/>
+<field name="网元名称"  index ="42"/>
+<field name="设备编码"  index ="43"/>
+<field name="BSC编号"  index ="44"/>
+<field name="BTS编号"  index ="45"/>
+<field name="无线网络覆盖范围"  index ="46"/>
+<field name="地市区号"  index ="47"/>
+<field name="安装详细地址"  index ="48"/>
+<field name="TCH配置数"  index ="49"/>
+<field name="信道单元配置数"  index ="50"/>
+<field name="是否室内分布专建站"  index ="51"/>
+<field name="入网时间"  index ="52"/>
+<field name="工程设计书"  index ="53"/>
+<field name="数据来源"  index ="54"/>
+<field name="管理域"  index ="55"/>
+<field name="入库时间"  index ="56"/>
+<field name="最后更新时间"  index ="57"/>
+<field name="是否有效"  index ="58"/>
+<field name="BTS标识符"  index ="59"/>
+<field name="BTS管理实例名称"  index ="60"/>
+<field name="所属BSC标志"  index ="61"/>
+<field name="修改来源"  index ="62"/>
+<field name="CDM板数"  index ="63"/>
+<field name="网元状态"  index ="64"/>
+<field name="接入线路"  index ="65"/>
+<field name="所属行政区域编"  index ="66"/>
+<field name="站址归属"  index ="67"/>
+<field name="临时网元状态"  index ="68"/>
+<field name="是否已经修改网元状态"  index ="69"/>
+<field name="手工批量修改网元状态的时间"  index ="70"/>
+<field name="所属机房名称"  index ="71"/>
+<field name="软件版本"  index ="72"/>
+<field name="经度"  index ="73"/>
+<field name="纬度"  index ="74"/>
+<field name="站型（总）"  index ="75"/>
+<field name="基站种类"  index ="76"/>
+<field name="网格"  index ="77"/>
+<field name="动环网元状态"  index ="78"/>
+<field name="网管IP地址"  index ="79"/>
+<field name="交界分公司"  index ="80"/>
+<field name="关联天馈系统"  index ="81"/>
+<field name="是否RRU扇区"  index ="82"/>
+<field name="所属区县分公司编号"  index ="83"/>
+<field name="所属区县分公司名称"  index ="84"/>
+<field name="射频拉远编号"  index ="85"/>
+<field name="SID"  index ="86"/>
+<field name="NID"  index ="87"/>
+<field name="LAC"  index ="88"/>
+<field name="REG_ZONE"  index ="89"/>
+<field name="扇区数量"  index ="90"/>
+<field name="塔桅类型"  index ="91"/>
+<field name="GPS高度"  index ="92"/>
+<field name="GPS类型"  index ="93"/>
+<field name="边界基站类型"  index ="94"/>
+<field name="网管名称"  index ="95"/>
+<field name="无线容量设计值（ERL）"  index ="96"/>
+<field name="覆盖半径"  index ="97"/>
+<field name="基站语音站型"  index ="98"/>
+<field name="基站数据站型"  index ="99"/>
+<field name="基站站型"  index ="100"/>
+<field name="扇区载频数"  index ="101"/>
+<field name="1X板CE数"  index ="102"/>
+<field name="EV-DOCE数量"  index ="103"/>
+<field name="开销信道数"  index ="104"/>
+<field name="1X载扇数"  index ="105"/>
+<field name="DO载扇数"  index ="106"/>
+<field name="1X载频数目"  index ="107"/>
+<field name="DO载频数目"  index ="108"/>
+<field name="CE数量"  index ="109"/>
+<field name="1X无线网络容量"  index ="110"/>
+<field name="1X实占无线网络容量"  index ="111"/>
+<field name="EV-DO无线网络容量"  index ="112"/>
+<field name="EV-DO实占无线网络容量"  index ="113"/>
+<field name="1X扇区数"  index ="114"/>
+<field name="DO扇区数"  index ="115"/>
+<field name="SectorID104"  index ="116"/>
+<field name="Colorcode"  index ="117"/>
+
+<field name="电路编码"  index ="118"/>
+<field name="营销中心"  index ="119"/>	
+
+<field name="覆盖道路类型描述"  index ="120"/>
+<field name="覆盖区域类型描述"  index ="121"/>					
+							
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="2" file="/CELL_20121224.txt" encoding ="utf-8">
+		<ds id="0">
+			<meta>
+				<head splitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">  
+				
+<field name="网元号"  index ="0"/>
+<field name="基站网元号"  index ="1"/>
+<field name="BSC编号"  index ="2"/>
+<field name="基站编号"  index ="3"/>
+<field name="扇区编号"  index ="4"/>
+<field name="载频数目"  index ="5"/>
+<field name="扇区1X载频数"  index ="6"/>
+<field name="扇区DO载频数"  index ="7"/>
+<field name="扇区1X载频号"  index ="8"/>
+<field name="扇区DO载频号"  index ="9"/>
+<field name="扇区伪导频号"  index ="10"/>
+<field name="是否是微蜂窝小区"  index ="11"/>
+<field name="是否室分信源"  index ="12"/>
+<field name="小区号"  index ="13"/>
+<field name="设备编码"  index ="14"/>
+<field name="OMC编号"  index ="15"/>
+<field name="扇区容量"  index ="16"/>
+<field name="所属的BSC名称"  index ="17"/>
+<field name="扇区PN"  index ="18"/>
+<field name="射频通道"  index ="19"/>
+<field name="扇区名称"  index ="20"/>
+<field name="直放站数量"  index ="21"/>
+<field name="室内分布系统数量"  index ="22"/>
+<field name="CI"  index ="23"/>
+<field name="计费CellID"  index ="24"/>
+<field name="SID"  index ="25"/>
+<field name="NID"  index ="26"/>
+<field name="LAC"  index ="27"/>
+<field name="REG_ZONE"  index ="28"/>
+<field name="系统类型"  index ="29"/>
+<field name="是否为同PN扇区"  index ="30"/>
+<field name="是否有塔放"  index ="31"/>
+<field name="是否有功分"  index ="32"/>
+<field name="是否多载频边界"  index ="33"/>
+<field name="边界扇区类型"  index ="34"/>
+<field name="接壤省份名称"  index ="35"/>
+<field name="接壤城市名称"  index ="36"/>
+<field name="网元状态"  index ="37"/>
+<field name="SectorID 104"  index ="38"/>
+<field name="SectorID 24"  index ="39"/>
+<field name="DO小区编号"  index ="40"/>
+<field name="小区半径"  index ="41"/>
+<field name="Colorcode"  index ="42"/>
+<field name="天线数量"  index ="43"/>
+<field name="1X小区编号"  index ="44"/>
+<field name="扇区网管名称"  index ="45"/>
+<field name="覆盖属性"  index ="46"/>
+<field name="覆盖道路类型"  index ="47"/>
+<field name="覆盖区域类型"  index ="48"/>
+<field name="所属1级类型"  index ="49"/>
+<field name="所属2级类型"  index ="50"/>
+<field name="所属3级类型"  index ="51"/>
+<field name="是否为RRU扇区"  index ="52"/>
+				
+				
+				
+				
+				
+				
+				
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="3" file="/RRU_20121224.txt" encoding ="utf-8">
+		<ds id="0">
+			<meta>
+				<head splitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">  
+			
+<field name="地市"  index ="0"/>
+<field name="所属行政区域"  index ="1"/>
+<field name="所属机房或安装点编号"  index ="2"/>
+<field name="网元类型"  index ="3"/>
+<field name="生产厂商"  index ="4"/>
+<field name="名称"  index ="5"/>
+<field name="所属基站名称"  index ="6"/>
+<field name="所属基站网元号"  index ="7"/>
+<field name="RRU网元编号"  index ="8"/>
+<field name="使用状态"  index ="9"/>
+<field name="工程编码"  index ="10"/>
+<field name="投产时间"  index ="11"/>
+<field name="设备安装方式"  index ="12"/>
+<field name="设备安装位置"  index ="13"/>
+<field name="载频数目"  index ="14"/>
+<field name="设备级联级别"  index ="15"/>
+<field name="覆盖属性"  index ="16"/>
+<field name="覆盖区域类型"  index ="17"/>
+<field name="覆盖道路类型"  index ="18"/>
+<field name="光路编号"  index ="19"/>
+<field name="光纤长度"  index ="20"/>
+<field name="网格化区域"  index ="21"/>
+<field name="所属营销中心"  index ="22"/>
+<field name="设备编码"  index ="23"/>
+<field name="BSC名称"  index ="24"/>
+<field name="BSC编号"  index ="25"/>
+<field name="BTS编号"  index ="26"/>
+<field name="扇区号(设备ID后缀)"  index ="27"/>
+<field name="站点级别"  index ="28"/>
+<field name="业务类型"  index ="29"/>
+<field name="是否室分信源"  index ="30"/>
+<field name="入网时间"  index ="31"/>
+<field name="地市编码"  index ="32"/>
+<field name="删除标志"  index ="33"/>
+<field name="网元状态"  index ="34"/>
+<field name="是否已经修改网元状态"  index ="35"/>
+<field name="临时网元状态"  index ="36"/>
+<field name="手工批量修改网元状态的时间"  index ="37"/>
+<field name="网元状态修改来源"  index ="38"/>
+<field name="承载传输设备型号"  index ="39"/>
+<field name="所属天馈ID"  index ="40"/>
+<field name="无线网络覆盖范围"  index ="41"/>
+<field name="所属1级类型"  index ="42"/>
+<field name="所属2级类型"  index ="43"/>
+<field name="所属3级类型"  index ="44"/>
+<field name="是否拉远"  index ="45"/>	
+						
+			</fields>
+		</ds>
+	</templet>
+	
+		<templet id="4" file="/Antenna_20121224.txt" encoding ="utf-8">
+		<ds id="0">
+			<meta>
+				<head splitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">  
+	
+<field name="关联网元类型"                index="0" /> 
+<field name="关联网元ID"         index="1" /> 
+<field name="关联扇区ID"             index="2" /> 
+<field name="小区类型"                 index="3" /> 
+<field name="天馈编号"              index="4" /> 
+<field name="天馈铁塔ID"               index="5" /> 
+<field name="是否共用信息"                   index="6" /> 
+<field name="地市"                   index="7" /> 
+<field name="所属行政区域"                index="8" /> 
+<field name="名称"         index="9" /> 
+<field name="经度"              index="10" />
+<field name="纬度"            index="11" />
+<field name="安装详细地址"              index="12" />
+<field name="工程编码"     index="13" />
+<field name="投产时间"        index="14" />
+<field name="是否带有塔放"     index="15" />
+<field name="是否美化、隐蔽天线"         index="17" />
+<field name="受益网络"      index="18" />
+<field name="运营商"               index="19" />
+<field name="天线类别"            index="20" />
+<field name="天线类型"                  index="21" />
+<field name="天线型号"            index="22" />
+<field name="天线方向角"                 index="23" />
+<field name="天线挂高"              index="24" />
+<field name="天线厂家"        index="25" />
+<field name="天线前后比"                   index="26" />
+<field name="馈线类型"                index="27" />
+<field name="馈线长度"                  index="28" />
+<field name="馈线频带"                index="29" />
+<field name="馈线厂家"               index="30" />
+<field name="馈线型号"            index="31" />
+<field name="馈线数量"              index="32" />
+<field name="塔桅类型"                index="33" />
+<field name="天线增益"                 index="34" />
+<field name="天线极化方式"                       index="35" />
+<field name="天线倾角调整"              index="36" />
+<field name="天线机械倾角"         index="37" />
+<field name="天线电调倾角"             index="38" />
+<field name="水平半功率角"            index="39" />
+<field name="垂直半功率角"       index="40" />
+<field name="天馈ID"                      index="41" />
+<field name="设备编码"                      index="42" />
+<field name="机房/安装点编号"                  index="43" />
+<field name="馈线编号"                    index="44" />
+<field name="主分集"                  index="45" />
+<field name="产权归属"                      index="46" />
+<field name="地市编码"                      index="47" />
+<field name="行政区域编号"                     index="48" />
+<field name="天线频带"                index="49" />
+<field name="预置电子倾角"              index="50" />
+<field name="天线是否可以电调"                      index="51" />
+
+
+<field name="是否带有基站放大器"         index="55" />
+<field name="使用状态"          index="56" />
+<field name="塔桅关联天馈系统编号"           index="57" />
+<field name="塔桅厂家"        index="58" />
+<field name="塔桅高度"         index="59" />
+<field name="塔桅平台数量"             index="60" />
+<field name="塔桅投产日期"                  index="61" />
+<field name="塔桅材质"                 index="62" />
+<field name="塔桅接地方式"               index="63" />
+<field name="功分器类型"           index="64" />
+<field name="功分器型号"           index="65" />
+<field name="功放器厂家"          index="66" />
+<field name="功分器数量"            index="67" />
+	
+			</fields>
+		</ds>
+	</templet>
+
+</templets>

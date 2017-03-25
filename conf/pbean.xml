@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbeans>
+	<!-- <name></name> <des></des> <bean></bean> <params> <param> <name></name> 
+		<value></value> </param> </params> -->
+	<!-- value-defined rule: ___________________ total: 4 digits ___________________ 
+		0 - 1999: system define ___________________ huawei: 2xxx; zte: 3xxx; A-lucent: 
+		4xxx; eric: 5xxx; bell: 6xxx; cisco: 7xxx; Siemens: 8xxx; others: 9xxx; ___________________ -->
+	<accessors>
+		<accessor id="1">
+			<name>g-telnet-accessor</name>
+			<des>generic telnet-type gather</des>
+			<bean>access.TelnetAccessor</bean>
+		</accessor>
+		<accessor id="2">
+			<name>g-tcp-accessor</name>
+			<des>generic tcp-type gather</des>
+			<bean />
+		</accessor>
+		<accessor id="3">
+			<name>g-ftp-accessor</name>
+			<des>generic ftp-type gather</des>
+			<bean>access.FtpAccessor</bean>
+		</accessor>
+		<accessor id="4">
+			<name>g-file-accessor</name>
+			<des>generic file-type gather</des>
+			<bean>access.LocalFileAccessor</bean>
+		</accessor>
+		<accessor id="5">
+			<name>g-db-accessor</name>
+			<des>generic db-type gather</des>
+			<bean>access.DBAccessor</bean>
+		</accessor>
+		<accessor id="6">
+			<name>g-db-auto-accessor</name>
+			<des>auto db-type gather</des>
+			<bean>access.DBAutoAccessor</bean>
+		</accessor>
+		<accessor id="7">
+			<name>g-sftp-accessor</name>
+			<des>generic sftp-type gather</des>
+			<bean>access.SFTPAccessor</bean>
+		</accessor>
+		<accessor id="60">
+			<name>g-db-auto-accessor-2</name>
+			<des>auto db-type gather v2</des>
+			<bean>access.DBAutoAccessor2</bean>
+		</accessor>
+		<accessor id="8">
+			<name>g-db-accessor</name>
+			<des>generic db-type gather</des>
+			<bean>access.SocketAccessor</bean>
+		</accessor>
+		<accessor id="80">
+			<name>g-socket-accessor</name>
+			<des>generic socket-type gather</des>
+			<bean>access.SocketAccessorV2</bean>
+		</accessor>
+		<accessor id="9">
+			<name>g-db-accessor</name>
+			<des>generic ftp-type download</des>
+			<bean>access.SimpleFtpAccessor</bean>
+		</accessor>
+		<accessor id="10">
+			<name>smart luc telnet accessor</name>
+			<des>smart luc telnet accessor</des>
+			<bean>access.SmartLucTelnetAccessor</bean>
+		</accessor>
+		<accessor id="11">
+			<name>telnet accessorV2</name>
+			<des>telnet accessorV2</des>
+			<bean>access.TelnetAccessorV2</bean>
+		</accessor>
+		<accessor id="12">
+			<name>telnet mml accessor</name>
+			<des>telnet cdma hw mml accessor--2013-09-02</des>
+			<bean>access.TelnetMmlAccessor</bean>
+		</accessor>
+		<accessor id="100">
+			<name>nms corba accessor</name>
+			<des>nms corba accessor</des>
+			<bean>access.NMSCorbaAccessor</bean>
+		</accessor>
+	</accessors>
+
+	<parsers>
+		<parser id="0">
+			<name>empty-parser</name>
+			<des>empty-type parser</des>
+			<bean>parser.EmptyParser</bean>
+		</parser>
+		<parser id="1">
+			<name>g-line-parser</name>
+			<des>generic line-type parser</des>
+			<bean>parser.LineParser</bean>
+		</parser>
+		<parser id="2">
+			<name>sect-parser</name>
+			<des>sect-type parser</des>
+			<bean>parser.SectParser</bean>
+		</parser>
+		<parser id="3">
+			<name>third-parser</name>
+			<des>third-type parser</des>
+			<bean />
+		</parser>
+		<parser id="4">
+			<name>xml-parser</name>
+			<des>xml-type parser</des>
+			<bean>parser.XMLParser</bean>
+		</parser>
+		<parser id="5">
+			<name>xls-parser</name>
+			<des>xls-type parser</des>
+			<bean>parser.XlsParser</bean>
+		</parser>
+		<parser id="6">
+			<name>db-auto-parser</name>
+			<des>db-type parser</des>
+			<bean>parser.DBAutoParser</bean>
+		</parser>
+		<parser id="60">
+			<name>db-auto-parser-2</name>
+			<des>db-type parser v2</des>
+			<bean>parser.DBAutoParser2</bean>
+		</parser>
+		<parser id="10">
+			<name>smart luc telnet parser</name>
+			<des>smart luc telnet parser</des>
+			<bean>parser.SmartLucTelnetParser</bean>
+		</parser>
+		<parser id="11">
+			<name>alucent-pm-parser</name>
+			<des>alucent pm parser</des>
+			<bean>parser.lucent.CV1ASCII</bean>
+		</parser>
+		<parser id="12">
+			<name>hwcm-parser</name>
+			<des>huaweipm-type parser</des>
+			<bean>parser.hw.pm.CV1Xml</bean>
+		</parser>
+		<parser id="122">
+			<name>hwcm-parser</name>
+			<des>huaweipm-type parser</des>
+			<bean>parser.hw.pm.CV1Xml_NEW</bean>
+		</parser>
+		<parser id="13">
+			<name>hwcm-parser</name>
+			<des>huconfig-type parser</des>
+			<bean>parser.zte.pm.CV2ASCII</bean>
+		</parser>
+		<parser id="14">
+			<name>hwcm-parser</name>
+			<des>hucm-type parser</des>
+			<bean>parser.hw.mml.WV1ASCII</bean>
+		</parser>
+
+		<parser id="15">
+			<name>empty-parser</name>
+			<des>empty-type parser</des>
+			<bean>collect.SocketCollect</bean>
+		</parser>
+		<parser id="16">
+			<name>hwcm-parser</name>
+			<des>huaweicm-type parser</des>
+			<bean>parser.hw.cm.CV1CSV</bean>
+		</parser>
+		<parser id="17">
+			<name>hwcm-parser</name>
+			<des>huaweiconfig-type parser</des>
+			<bean>parser.hw.cm.cfg.CV1CSV</bean>
+		</parser>
+		<parser id="18">
+			<name>eric-w-pm-parser</name>
+			<des>eric w pm parser</des>
+			<bean>parser.eric.pm.WV2XML</bean>
+		</parser>
+		<parser id="19">
+			<name>eric-w-cm-parser</name>
+			<des>eric w cm parser</des>
+			<bean>parser.eric.cm.WV1XML</bean>
+		</parser>
+
+		<parser id="20">
+			<name>hwcm-parser</name>
+			<des>huaweiam-type parser</des>
+			<bean>parser.hw.am.CV1CSV</bean>
+		</parser>
+		<parser id="21">
+			<name>sect-21-parser</name>
+			<des>sect-21-type parser</des>
+			<bean>parser.Sect21Parser</bean>
+		</parser>
+		<parser id="23">
+			<name>eric-g-cm-parser</name>
+			<des>eric g cm parser</des>
+			<bean>parser.eric.cm.GV1ASCII</bean>
+		</parser>
+		<parser id="24">
+			<name>hwcm-parser</name>
+			<des>huconfig-type parser</des>
+			<bean>parser.others.gpslog.CV1Bin</bean>
+		</parser>
+		<parser id="25">
+			<name>jituan-nbi-check</name>
+			<des>jituan-nbi-file-check</des>
+			<bean>parser.nbi.check.GroupFilesCheck</bean>
+		</parser>
+		<parser id="35">
+			<name>dbf-parser</name>
+			<des>hw pm dbf parser</des>
+			<bean>parser.hw.pm.GV1DBF</bean>
+		</parser>
+		<parser id="999">
+			<name>hwcm-parser</name>
+			<des>huconfig-type parser</des>
+			<bean>parser.xparser.tag.GenericParser</bean>
+		</parser>
+		<parser id="100">
+			<name>nms corba parser</name>
+			<des>nms corba parser</des>
+			<bean>parser.corba.nms.NMSCorbaParser</bean>
+		</parser>
+		<parser id="101">
+			<name>zte 2g alarm</name>
+			<des>zte 2g alarm</des>
+			<bean>parser.zte.am.GV1CorbaSdAmParser</bean>
+		</parser>
+		<parser id="102">
+			<name>JiangXiAlarmParser</name>
+			<des>JiangXiAlarmParser</des>
+			<bean>parser.boco.am.JiangXiAlarmParser</bean>
+		</parser>
+		<parser id="103">
+			<name>JiangXiAlarmParser</name>
+			<des>JiangXiAlarmParser</des>
+			<bean>parser.boco.am.JiangXiAlarm2Parser</bean>
+		</parser>
+		<parser id="2001">
+			<name>hwcm-parser</name>
+			<des>huaweiam-type parser</des>
+			<bean>parser.hw.am.CV1LogSH</bean>
+		</parser>
+
+		<parser id="2002">
+			<name>hw-wcdma-cm-xml</name>
+			<des>hw-wcdma-cm-xml</des>
+			<bean>parser.hw.cm.w.WV2XML</bean>
+		</parser>
+
+		<parser id="2003">
+			<name>hw-wcdma-pm-xml</name>
+			<des>hw-wcdma-pm-xml</des>
+			<bean>parser.hw.pm.w.xml.WV1XML</bean>
+		</parser>
+
+		<parser id="2004">
+			<name>hw-ftp-am-log</name>
+			<name>hw-ftp-am-log</name>
+			<bean>parser.hw.am.CV1LogAlarm</bean>
+		</parser>
+		<parser id="2005">
+			<name>hw-ftp-am-log</name>
+			<name>hw-ftp-am-log</name>
+			<bean>parser.hw.am.CV1LogTelnetAlarm</bean>
+		</parser>
+		<parser id="2006">
+			<name>hw-stream-am-wcdma</name>
+			<name>hw-stream-am-wcdma</name>
+			<bean>parser.hw.am.w.StreamAlarmParser</bean>
+		</parser>
+
+		<parser id="2007">
+			<name>hw-stream-am-M2000</name>
+			<name>hw-stream-am-M2000</name>
+			<bean>parser.hw.am.M2000StreamParser</bean>
+		</parser>
+		<parser id="2008">
+			<name>cdma spas hw cm/cfg xml</name>
+			<name>cdma spas hw cm/cfg xml</name>
+			<bean>parser.hw.spas.SPAS_HW_FJ_CM_CFG_XML</bean>
+		</parser>
+
+		<parser id="2009">
+			<name>hw-stream-am-M2000</name>
+			<des>hw-stream-am-M2000-g liangww add 2012-07-28</des>
+			<bean>parser.hw.am.M2000Stream2GParser</bean>
+		</parser>
+
+
+		<parser id="2010">
+			<name>cdma gd hw pm xml</name>
+			<des>cdma gd hw pm xml</des>
+			<bean>parser.hw.pm.CDMA_GD_HW_Parser</bean>
+		</parser>
+
+		<parser id="2013">
+			<name>cdma hw mml telnet</name>
+			<des>cdma hw mml telnet--2013-09-02</des>
+			<bean>parser.hw.mml.c.MmlCdmaParser</bean>
+		</parser>
+
+
+		<parser id="3001">
+			<name>cdma lucnt ftp cm</name>
+			<des>cdma lucnt ftp cm</des>
+			<bean>parser.lucent.cm.LucntCdmaFtpPara</bean>
+		</parser>
+		<parser id="3005">
+			<name>cdma lucnt ftp cm</name>
+			<des>cdma lucnt ftp cm</des>
+			<bean>parser.lucent.cm.LucntCdma1FtpPara</bean>
+		</parser>
+		<parser id="3002">
+			<name>cdma lucnt pm 1x(smrg)</name>
+			<des>cdma lucnt pm 1x(smrg)</des>
+			<bean>parser.lucent.PmParser1X</bean>
+		</parser>
+		<parser id="3003">
+			<name>cdma lucnt pm do(hdr/hcs)</name>
+			<des>cdma lucnt pm do(hdr/hcs)</des>
+			<bean>parser.lucent.PmParserDO</bean>
+		</parser>
+
+		<parser id="3004">
+			<name>cdma zte am croba</name>
+			<des>cdma zte am croba_shan dong--liangww add 2012-08-06</des>
+			<bean>parser.zte.am.WV1CorbaSdAmParser</bean>
+		</parser>
+
+
+		<parser id="4001">
+			<name>al-w-parser</name>
+			<des>chensijiang 2010-08-17</des>
+			<bean>parser.lucent.w.WV1XML</bean>
+		</parser>
+		<parser id="4002">
+			<name>al-c-do-cm-parser</name>
+			<des>chensijiang 2010-11-10</des>
+			<bean>parser.lucent.cm.cdma.CV1XML</bean>
+		</parser>
+		<parser id="4003">
+			<name>al-c-smart-pm-parser</name>
+			<des>al-c-smart-pm-parser add by liangww 2012-07-17</des>
+			<bean>parser.lucent.SmartPm1x</bean>
+		</parser>
+		<parser id="4004">
+			<name>cdma lucnt alarm apx</name>
+			<des>cdma lucnt alarm apx--liangww add 2012-06-08</des>
+			<bean>parser.lucent.CV2_8ASCIIAlarmParser</bean>
+		</parser>
+		<parser id="4111">
+			<name>lucent-cm-parser</name>
+			<des>litp 2010-09-01</des>
+			<bean>parser.lucent.cm.WV2XML</bean>
+		</parser>
+
+
+		<!-- eric -->
+		<parser id="5000">
+			<name>eric am corba </name>
+			<des>eric am corba liangww 2012-08-06</des>
+			<bean>parser.eric.am.WV1CorbaSdAmParser</bean>
+		</parser>
+
+
+		<parser id="6001">
+			<name>bell-parser</name>
+			<des>bell-type parser</des>
+			<bean>parser.GenericSectionHeadParser</bean>
+		</parser>
+
+		<parser id="6002">
+			<name>macro-parser </name>
+			<des>GenericSectionHeadParser sub class, add macro parser. liangww
+				add 2012-03-30
+			</des>
+			<bean>parser.MacroParser</bean>
+		</parser>
+
+		<parser id="6003">
+			<name>GenericUnSectionHeadParser</name>
+			<des>un head txt or csv parser liangww add 2012-09-13</des>
+			<bean>parser.GenericUnSectionHeadParser</bean>
+		</parser>
+
+		<parser id="6005">
+			<name>lte-parser</name>
+			<des>let-4g-type parser</des>
+			<bean>lte.LteCSVParser</bean>
+		</parser>
+
+		<parser id="8001">
+			<name>sim-pm-rc90-parser</name>
+			<des>simpm-type parser 10-05-20</des>
+			<bean>parser.siemens.pm.GRC90ASCII</bean>
+		</parser>
+		<parser id="8002">
+			<name>sim-cm-rc90-parser</name>
+			<des>simcm-type parser 2010-07-13</des>
+			<bean>parser.siemens.cm.GV1ASCII</bean>
+		</parser>
+		<parser id="3010">
+			<name>c-wlan-hp-cm-parser</name>
+			<des>wlan</des>
+			<bean>parser.c.wlan.bean.CV2XML_HP_CM</bean>
+		</parser>
+		<parser id="3011">
+			<name>c-wlan-ap-cm-parser</name>
+			<des>wlan</des>
+			<bean>parser.c.wlan.bean.CV2XML_AP_CM</bean>
+		</parser>
+		<parser id="3012">
+			<name>c-wlan-ap-fm-parser</name>
+			<des>wlan</des>
+			<bean>parser.c.wlan.bean.CV2XML_AP_FM</bean>
+		</parser>
+		<parser id="3013">
+			<name>c-wlan-ap-pm-parser</name>
+			<des>wlan</des>
+			<bean>parser.c.wlan.bean.CV2XML_AP_PM</bean>
+		</parser>
+		<parser id="3014">
+			<name>c-jswlan-ap-cm-parser</name>
+			<des>wlan</des>
+			<bean>parser.c.wlan.bean.CV2XML_AP_CM_JS</bean>
+		</parser>
+		<parser id="3015">
+			<name>c-jswlan-ap-pm-parser</name>
+			<des>wlan</des>
+			<bean>parser.c.wlan.bean.CV2XML_AP_PM_JS</bean>
+		</parser>
+		<parser id="3016">
+			<name>c-jswlan-hp-cm-parser</name>
+			<des>wlan</des>
+			<bean>parser.c.wlan.bean.CV2XML_HP_CM_JS</bean>
+		</parser>
+
+		<parser id="9001">
+			<name>chongqing work flow xls</name>
+			<des>chongqing work flow xls</des>
+			<bean>parser.cqworkflow.GV1XLS</bean>
+		</parser>
+		<parser id="9002">
+			<name>chongqing work flow xml</name>
+			<des>chongqing work flow xml</des>
+			<bean>parser.cqworkflow.GV1XML</bean>
+		</parser>
+		<parser id="9003">
+			<name>DT dingli v201</name>
+			<des>DT dingli v201</des>
+			<bean>parser.dt.dingli201.CV201ASCII</bean>
+		</parser>
+		<parser id="9004">
+			<name>gd ft</name>
+			<des>gd ft</des>
+			<bean>parser.c.ft.CV1ASCII</bean>
+		</parser>
+		<parser id="9005">
+			<name>loss data</name>
+			<des>loss data</des>
+			<bean>parser.c.lossdata.LossDataParser</bean>
+		</parser>
+		<parser id="9006">
+			<name>cdma ue info</name>
+			<des>cdma ue info</des>
+			<bean>parser.c.ue.UEInfoParser</bean>
+		</parser>
+		<parser id="9007">
+			<name>DzlgzxtParser</name>
+			<des>DzlgzxtParser</des>
+			<bean>parser.dzlgzxt.DzlgzxtParser</bean>
+		</parser>
+		<parser id="9008">
+			<name>js cu alarm webservice</name>
+			<des>js cu alarm webservice</des>
+			<bean>parser.webservice.js.cu.JS_CU_AlarmParser</bean>
+		</parser>
+		<parser id="9009">
+			<name>js telecom ue create ilap index file</name>
+			<des>js telecom ue create ilap index file</des>
+			<bean>parser.c.ue.JSDbUEInfoParser</bean>
+		</parser>
+
+		<parser id="9019">
+			<name>JSFileUEInfoParser</name>
+			<des>JSFileUEInfoParser</des>
+			<bean>parser.c.ue.JSFileUEInfoParser</bean>
+		</parser>
+
+		<parser id="9035">
+			<name>JSFileTemUEInfoParser</name>
+			<des>JSFileTemUEInfoParser</des>
+			<bean>parser.c.ue.JSFileTemUEInfoParser</bean>
+		</parser>
+		
+		<parser id="9014">
+			<name>gansu ue</name>
+			<des>gansu ue</des>
+			<bean>parser.c.ue.GanSuDbUEInfoParser</bean>
+		</parser>
+
+
+		<parser id="9020">
+			<name>bsa-log-parser</name>
+			<des>bsa-log parser</des>
+			<bean>parser.others.bsa.BsaLogParser</bean>
+		</parser>
+
+		<parser id="9030">
+			<name>shanxi ue info</name>
+			<des>shanxi ue info</des>
+			<bean>parser.c.ue.ShanxiUeInfoParser</bean>
+		</parser>
+
+		<parser id="9031">
+			<name>guangdong ue info</name>
+			<des>guangdong ue info</des>
+			<bean>parser.c.ue.GuangDongUeParser</bean>
+		</parser>
+
+		<parser id="9032">
+			<name>tianjing ue info</name>
+			<des>tianjing ue info</des>
+			<bean>parser.c.ue.TianJingUeParser</bean>
+		</parser>
+
+		<parser id="9033">
+			<name>hubei ue info</name>
+			<des>hubei ue info</des>
+			<bean>parser.c.ue.HuBeiUeInfoParser</bean>
+		</parser>
+
+		<parser id="9034">
+			<name>hubei ue info</name>
+			<des>hubei ue info</des>
+			<bean>parser.c.ue.XinJiangUeParser</bean>
+		</parser>
+
+		<parser id="9010">
+			<name>parser.SimpleParser</name>
+			<des>config parser gd_pk--liangww 2012-09-20</des>
+			<bean>parser.SimpleParser</bean>
+		</parser>
+
+		<parser id="9011">
+			<name>parser.others.VcarrnbrSheetCsvParser</name>
+			<des>Vcarrnbr Sheet --liangww 2012-10-15</des>
+			<bean>parser.others.VcarrnbrSheetCsvParser</bean>
+		</parser>
+
+		<!-- 鼎力路测-解析 -->
+		<parser id="9012">
+			<name>cdma hw dt</name>
+			<des>cdma hw dt--lijy 2013-09-10</des>
+			<!--<bean>parser.hw.dt.HwDtCdmaParser</bean>	新版本用这个-->
+			<bean>parser.hw.dt.HwDtCdmaOldParser</bean><!--	老版本用这个-->
+		</parser>
+
+		<parser id="9013">
+			<name>ftp delete files</name>
+			<des>cdma hw dt--lijy 2013-12-04</des>
+			<bean>parser.FtpDeleteFileParser</bean>
+		</parser>
+
+		<parser id="26">
+			<name>parser.hw.dt.CdmaScanParser</name>
+			<des>cdma hw dt--lijy 2014-08-05</des>
+			<bean>parser.hw.dt.CdmaScanParser</bean>
+		</parser>
+	</parsers>
+
+	<distributors>
+		<distributor id="6">
+			<name>old-distributor-v3.0</name>
+			<des>old-distributor-v3.0</des>
+			<bean>distributor.Distribute</bean>
+		</distributor>
+		<distributor id="2">
+			<name>generic-section-head-distributor-v3.1</name>
+			<des>generic-section-head-distributor-v3.1 2010-06-24</des>
+			<bean>distributor.GenericSectionHeadDistributor</bean>
+		</distributor>
+		<distributor id="10">
+			<name>smart luc telnet distributor</name>
+			<des>smart luc telnet distributor</des>
+			<bean>distributor.SmartLucTelnetDistributor</bean>
+		</distributor>
+
+		<distributor id="11">
+			<name>smart luc pm distributor</name>
+			<des>smart luc pm distributor liangww add 2012-07-15</des>
+			<bean>distributor.SmartDistributor</bean>
+		</distributor>
+
+	</distributors>
+
+	<templates>
+		<template id="0">
+			<name>empty-template-p</name>
+			<des>empty-type parse template</des>
+			<bean>templet.EmptyTempletP</bean>
+		</template>
+		<template id="1">
+			<name>g-line-template-p</name>
+			<des>generic line-type parse template</des>
+			<bean>templet.LineTempletP</bean>
+		</template>
+		<template id="2">
+			<name>sect-template-p</name>
+			<des>sect-type parse template(FIELDITEM=table)</des>
+			<bean>templet.SectTempletP</bean>
+		</template>
+		<template id="3">
+			<name>third-template-p</name>
+			<des>third-type parse template</des>
+			<bean>templet.ThirdTempletP</bean>
+		</template>
+		<template id="4">
+			<name>xml-template-p</name>
+			<des>xml-type parse template</des>
+			<bean>templet.XMLTempletP</bean>
+		</template>
+		<template id="5">
+			<name>xls-template-p</name>
+			<des>xls-type parse template</des>
+			<bean>templet.XlsTempletP</bean>
+		</template>
+		<template id="6">
+			<name>empty-template-p</name>
+			<des>empty-type parse template</des>
+			<bean>distributor.DistributeTemplet</bean>
+		</template>
+		<template id="7">
+			<name>db-auto-template-p</name>
+			<des>db-auto-type parse templet</des>
+			<bean>templet.DBAutoTempletP</bean>
+		</template>
+		<template id="10">
+			<name>smart luc telnet templet</name>
+			<des>smart luc telnet templet</des>
+			<bean>templet.SmartLucTelnetTemplet</bean>
+		</template>
+		<template id="60">
+			<name>db-auto-template-p-2</name>
+			<des>db-auto-type parse templet v2</des>
+			<bean>templet.DBAutoTempletP2</bean>
+		</template>
+		<template id="13">
+			<name>empty-template-p</name>
+			<des>empty-type parse template</des>
+			<bean>templet.zte.PmTempletP</bean>
+		</template>
+
+		<template id="15">
+			<name>empty-template-p</name>
+			<des>empty-type parse template</des>
+			<bean>templet.hw.M2000AlarmTempletP</bean>
+		</template>
+		<template id="21">
+			<name>sect-21-template-p</name>
+			<des>sect-type parse template(SECTITEM=table)</des>
+			<bean>templet.Sect21TempletP</bean>
+		</template>
+		<template id="999">
+			<name>empty-template-p</name>
+			<des>empty-type parse template</des>
+			<bean>templet.xparser.GenericTemplet</bean>
+		</template>
+
+		<template id="2010">
+			<name>cdma hw gd pm xml</name>
+			<des>cdma hw gd pm xml---2012-09-20</des>
+			<bean>templet.hw.cdma.pm.CDMA_GD_HW_P</bean>
+		</template>
+
+		<template id="2013">
+			<name>cdma hw mml telnet</name>
+			<des>cdma hw mml telnet--2013-09-02</des>
+			<bean>templet.hw.cdma.mml.MmlCdmaTempletP</bean>
+		</template>
+
+		<template id="4001">
+			<name>Smart parse template</name>
+			<des>Smart parse template add by liangww 2012-07-18</des>
+			<bean>templet.lucent.SmartTempletP</bean>
+		</template>
+
+
+
+
+		<template id="6001">
+			<name>bell-template-p</name>
+			<des>bell-type parse template</des>
+			<bean>templet.GenericSectionHeadP</bean>
+		</template>
+
+		<template id="6002">
+			<name>bell-template-d</name>
+			<des>bell-type distribute template</des>
+			<bean>templet.GenericSectionHeadD</bean>
+		</template>
+		<template id="8001">
+			<name>simw-pm-rc90-template-p</name>
+			<des>simpm-type parse template</des>
+			<bean>templet.siemens.GRC90PMTempletP</bean>
+		</template>
+		<template id="8002">
+			<name>hw-dt-cdma-template-p</name>
+			<des>simpm-type parse template</des>
+			<bean>templet.hw.cdma.dt.DtCdmaTempletP</bean>
+		</template>
+		<!-- 鼎力路测-分发 -->
+		<template id="8003">
+			<name>hw-dt-cdma-template-d</name>
+			<des>simpm-type distribute template</des>
+			<!--<bean>templet.hw.cdma.dt.DtCdmaTempletD</bean>	新版本用这个-->
+			<bean>templet.hw.cdma.dt.DtCdmaTempletOldD</bean><!--	老版本用这个-->
+		</template>
+	</templates>
+
+	<parseFormators>
+		<parseFormator id="0">
+			<name>DefaultFormator</name>
+			<des>defaultFormator do nothing add by liangww 2012-07-17s</des>
+			<bean>formator.Formators$DefaultFormator</bean>
+		</parseFormator>
+
+		<parseFormator id="1">
+			<name>NumberFormator</name>
+			<des>integer formator by liangww 2012-07-17s</des>
+			<bean>formator.Formators$NumberFormator</bean>
+		</parseFormator>
+
+
+
+
+		<!-- A-lucent: 4xxx; -->
+		<parseFormator id="4000">
+			<name>SmartPmDscFormator</name>
+			<des>Smart Pm Dsc formator by liangww 2012-07-17s</des>
+			<bean>formator.LucentFormators$SmartPmDscFormator</bean>
+		</parseFormator>
+
+		<parseFormator id="4001">
+			<name>SmartPmEcpFormator</name>
+			<des>Smart Pm ecp formator by liangww 2012-07-17s</des>
+			<bean>formator.LucentFormators$SmartPmEcpFormator</bean>
+		</parseFormator>
+
+		<parseFormator id="4002">
+			<name>SmartPmSidFormator</name>
+			<des>Smart Pm sid formator by liangww 2012-07-17s</des>
+			<bean>formator.LucentFormators$SmartPmSidFormator</bean>
+		</parseFormator>
+
+		<parseFormator id="4003">
+			<name>SmartPmVersionFormator</name>
+			<des>Smart Pm version formator by liangww 2012-07-17s</des>
+			<bean>formator.LucentFormators$SmartPmVersionFormator</bean>
+		</parseFormator>
+
+		<parseFormator id="4004">
+			<name>SmartPmCellFormator</name>
+			<des>Smart Pm cell formator by liangww 2012-07-17s</des>
+			<bean>formator.LucentFormators$SmartPmCellFormator</bean>
+		</parseFormator>
+
+	</parseFormators>
+
+
+</pbeans>

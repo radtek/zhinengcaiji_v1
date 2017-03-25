@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" table="tablequerymanager.flux_day_stat_%%Y_%%NZM" used="1" condition="">
+		<field name="collecttime" index="0"/>
+		<field name="device_id" index="1"/>
+		<field name="port_info" index="2"/>
+		<field name="getway" index="3"/>
+		<field name="ifinoctets" index="4"/>
+		<field name="ifoutoctets" index="5"/>
+		<field name="ifinerrors" index="6"/>
+		<field name="ifouterrors" index="7"/>
+		<field name="ifindiscards" index="8"/>
+		<field name="ifoutdiscards" index="9"/>
+		<field name="ifinucastpkts" index="10"/>
+		<field name="ifoutucastpkts" index="11"/>
+		<field name="ifinnucastpkts" index="12"/>
+		<field name="ifoutnucastpkts" index="13"/>
+		<field name="ifinunknownprotos" index="14"/>
+		<field name="ifoutqlen" index="15"/>
+		<field name="ifinoctetsbps" index="16"/>
+		<field name="ifoutoctetsbps" index="17"/>
+		<field name="ifinerrorspps" index="18"/>
+		<field name="ifouterrorspps" index="19"/>
+		<field name="ifindiscardspps" index="20"/>
+		<field name="ifoutdiscardspps" index="21"/>
+		<field name="ifinucastpktspps" index="22"/>
+		<field name="ifoutucastpktspps" index="23"/>
+		<field name="ifinnucastpktspps" index="24"/>
+		<field name="ifoutnucastpktspps" index="25"/>
+		<field name="ifinunknownprotospps" index="26"/>
+		<field name="ifoutqlenpps" index="27"/>
+		<field name="ifinoctetsbpsmax" index="28"/>
+		<field name="ifoutoctetsbpsmax" index="29"/>
+		<field name="deltatime" index="30"/>
+	</templet>
+</templets>

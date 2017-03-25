@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CONF_RNC_W" split="|">
+			<column name="PROVINCE_ID" index="0"/>
+			<column name="CITY_ID" index="1"/>
+			<column name="RELATED_OMC" index="2"/>
+			<column name="VENDOR_ID" index="3"/>
+			<column name="RELATED_MSC" index="4"/>
+			<column name="RELATED_MGW" index="5"/>
+			<column name="RELATED_SGSN" index="6"/>
+			<column name="RNC_ID" index="7"/>
+			<column name="RNC_NUMBER" index="8"/>
+			<column name="RNC_NAME" index="9"/>
+			<column name="RNC_STATE" index="10"/>
+			<column name="VERSION_ID" index="11"/>
+			<column name="IUCS_ATMCONFBANDWIDTH" index="12"/>
+			<column name="IUCS_IPCONFBANDWIDTH" index="13"/>
+			<column name="IUR_ATMCONFBANDWIDTH" index="14"/>
+			<column name="IUR_IPCONFBANDWIDTH" index="15"/>
+			<column name="FREQ_NUM" index="16"/>
+			<column name="NODEB_NUM" index="17"/>
+			<column name="CARRFREQ1_NODEB_NUM" index="18"/>
+			<column name="CARRFREQ2_NODEB_NUM" index="19"/>
+			<column name="CARRFREQ3_NODEB_NUM" index="20"/>
+			<column name="BBU_NUM" index="21"/>
+			<column name="CARRFREQ1_SECTOR_NUM" index="22"/>
+			<column name="CARRFREQ2_SECTOR_NUM" index="23"/>
+			<column name="CARRFREQ3_SECTOR_NUM" index="24"/>
+			<column name="REPEATER_NUM" index="25"/>
+			<column name="CELL_NUM" index="26"/>
+			<column name="MACROCELL_NUM" index="27"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CONF_NODEB_W" split="|">
+			<column name="PROVINCE_ID" index="0"/>
+			<column name="CITY_ID" index="1"/>
+			<column name="RELATED_MSC" index="2"/>
+			<column name="RELATED_MGW" index="3"/>
+			<column name="RELATED_SGSN" index="4"/>
+			<column name="RELATED_OMC" index="5"/>
+			<column name="RELATED_RNC" index="6"/>
+			<column name="RELATED_NODEB" index="7"/>
+			<column name="VENDOR_ID" index="8"/>
+			<column name="VERSION_ID" index="9"/>
+			<column name="LONGITUDE" index="10"/>
+			<column name="LATITUDE" index="11"/>
+			<column name="FREQ_NUM" index="12"/>
+			<column name="SECTOR_TYPE" index="13"/>
+			<column name="SITE_TYPE" index="14"/>
+			<column name="ULCE_CAPACITY" index="15"/>
+			<column name="DLCE_CAPACITY" index="16"/>
+			<column name="IUB_ATMCONFBANDWIDTH" index="17"/>
+			<column name="IUB_IPCONFBANDWIDTH" index="18"/>
+		</table>
+	</templet>	
+	<templet id="2">
+		<table id="0" name="CONF_COSITE_W" split="|">		
+				                                   
+			<column name="province_id" index="0"/>
+			<column name="city_id" index="1"/>   
+			<column name="rnc" index="2"/>
+			<column name="related_nodeb" index="3"/>
+			<column name="site_address" index="4"/>
+			<column name="w_cellidlist" index="5"/>
+			<column name="related_bts" index="6"/>
+			<column name="g_cellidlist" index="7"/>
+			</table>
+  </templet>
+	<templet id="3">
+		<table id="0" name="CONF_CELL_W" split="|">
+			<column name="PROVINCE_ID" index="0"/>
+			<column name="CITY_ID" index="1"/>
+			<column name="CITY_AREA"    index="2"/>
+			<column name="RELATED_MSC" index="3"/>
+			<column name="RELATED_MGW" index="4"/>
+			<column name="RELATED_SGSN" index="5"/>
+			<column name="RELATED_RNC" index="6"/>
+			<column name="NODEB_ID" index="7"/>
+			<column name="RELATED_NODEB" index="8"/>
+			<column name="RELATED_SECTORID" index="9"/>
+			<column name="CELL_ID" index="10"/>
+			<column name="CELL_NAME" index="11"/>
+			<column name="CI" index="12"/>
+			<column name="VENDOR_ID" index="13"/>
+			<column name="MR" index="14"/>
+			<column name="LONGITUDE" index="15"/>
+			<column name="LATITUDE" index="16"/>
+			<column name="ANT_AZIMUTH" index="17"/>
+			<column name="ANT_HIGH" index="18"/>
+			<column name="ANT_ELECTANGLE" index="19"/>
+			<column name="ANT_MACHANGLE" index="20"/>
+			<column name="CELL_LEVEL" index="21"/>
+			<column name="RRUCELL_FLAG" index="22"/>
+			<column name="UARFCN_UL" index="23"/>
+			<column name="UARFCN_DL" index="24"/>
+			<column name="PSC" index="25"/>
+			<column name="PRIMARY_CPICH_POWER" index="26"/>
+			<column name="MAXIMUM_TRANSMISSION_POWER" index="27"/>
+			<column name="LAC" index="28"/>
+			<column name="RAC" index="29"/>
+			<column name="SAC" index="30"/>
+			<column name="RADIO_CAPACITY" index="31"/>
+			<column name="HSD_FLAG" index="32"/>
+			<column name="HSD_STAT" index="33"/>
+			<column name="NBR_COD_HSPDSCH" index="34"/>
+			<column name="NBR_COD_HSSCCH" index="35"/>
+			<column name="HSU_FLAG" index="36"/>
+			<column name="HSU_STAT" index="37"/>
+			<column name="NUM_OF_EAGCH" index="38"/>
+			<column name="NUM_OF_ERG_HICH" index="39"/>
+			<column name="WORK_STATE" index="40"/>      	
+		</table>
+	</templet>
+</templets>

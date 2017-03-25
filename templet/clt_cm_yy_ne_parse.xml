@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/mrdata3/alarm/bts_%%y-%%M-%%D.txt" >
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+			</meta>
+			<fields splitSign="|">
+				<field name="CEll_INT_ID" index="0" />
+				<field name="LAC" index="1" />
+				<field name="CID" index="2" />
+				<field name="SITE_INT_ID" index="3" />
+				<field name="CELL_USERLABEL" index="4" />
+				<field name="CELL_ZH_LABEL" index="5" />
+				<field name="SITE_USERLABEL" index="6" />
+				<field name="SITE_ZH_LABEL" index="7" />
+				<field name="CITY_NAME" index="8" />
+				<field name="VENDOR_NAME" index="9" />
+				<field name="NETWORK_TYPE" index="10" />
+			</fields>
+		</ds>
+	</templet>
+		<templet id="1" file="/mrdata3/alarm/bsc_%%y-%%M-%%D.txt" >
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+			</meta>
+			<fields splitSign="|">
+				<field name="CEll_INT_ID" index="0" />
+				<field name="LAC" index="1" />
+				<field name="CID" index="2" />
+				<field name="SITE_INT_ID" index="3" />
+				<field name="CELL_USERLABEL" index="4" />
+				<field name="CELL_ZH_LABEL" index="5" />
+				<field name="SITE_USERLABEL" index="6" />
+				<field name="SITE_ZH_LABEL" index="7" />
+				<field name="CITY_NAME" index="8" />
+				<field name="VENDOR_NAME" index="9" />
+				<field name="NETWORK_TYPE" index="10" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

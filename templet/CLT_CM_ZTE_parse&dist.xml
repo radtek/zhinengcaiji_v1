@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+
+		<templet id="0" fromTable="R_3G_T_CARRIER" toTable="CLT_CM_R_3G_T_CARRIER_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="1" fromTable="R_3G_T_CELL" toTable="CLT_CM_R_3G_T_CELL_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="2" fromTable="R_H_S_HO_PARA" toTable="CLT_CM_R_H_S_HO_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="3" fromTable="R_3G_T_ACCESS_PARA" toTable="CLT_CM_R_3G_T_ACCESS_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="4" fromTable="R_3G_S_LINKCELL" toTable="CLT_CM_R_3G_S_LINKCELL_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="5" fromTable="R_3G_T_NGLISTINFO" toTable="CLT_CM_R_3G_T_NGLISTINFO_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="6" fromTable="R_3G_T_HANDOFF" toTable="CLT_CM_R_3G_T_HANDOFF_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="7" fromTable="R_3G_T_SYS_PARA" toTable="CLT_CM_R_3G_T_SYS_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="8" fromTable="B_SYSTEM" toTable="CLT_CM_B_SYSTEM_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="9" fromTable="R_GPSTM_B" toTable="CLT_CM_R_GPSTM_B_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="10" fromTable="R_3G_T_CH_PARA" toTable="CLT_CM_R_3G_T_CH_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="11" fromTable="R_H_T_ACC_PARA" toTable="CLT_CM_R_H_T_ACC_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="12" fromTable="R_3G_T_PAGE_CH" toTable="CLT_CM_R_3G_T_PAGE_CH_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="13" fromTable="R_3G_T_PILOT_CH" toTable="CLT_CM_R_3G_T_PILOT_CH_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="14" fromTable="R_3G_T_FWDOL" toTable="CLT_CM_R_3G_T_FWDOL_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="15" fromTable="R_3G_T_ECAMREPPARA" toTable="CLT_CM_R_3G_T_ECAMREPPARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="16" fromTable="R_3G_T_SYNC_CH" toTable="CLT_CM_R_3G_T_SYNC_CH_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="17" fromTable="R_H_T_CARRIER_PARA" toTable="CLT_CM_R_H_T_CARRIER_PARA_ZTE" used="1" occur="1" condition=""><sql>select A.ANID,A.SYSTEM,A.CELLID,A.CARRIERID,A.GROUPID,A.CARRIERCELLID,A.SYSTEMTYPE,A.IsBeacon,A.IsCritical,A.Switch1,A.Switch2,A.Switch3,A.Switch4,A.Switch5,A.Switch6,A.Switch7,A.Switch8,A.Switch9,A.Switch10,A.CHMType,A.BCSubnet,A.IsRedirection,A.RedirectionCr0,A.RedirectionCr1,A.RTDThreshold1Min,A.RTDThreshold1Max,A.RTDThreshold2Min,A.RTDThreshold2Max,A.CELLMode,A.phycellID,B.CDMA_FREQ from R_H_T_CARRIER_PARA A,R_3G_S_CDMAFREQ B WHERE A.CARRIERID = B.CARRIERID</sql></templet>
+		<templet id="18" fromTable="R_H_T_CARRIER_STATE" toTable="CLT_CM_R_H_T_CARRIER_STATE_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="19" fromTable="R_H_T_CCH_PARA" toTable="CLT_CM_R_H_T_CCH_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="20" fromTable="R_H_T_CELL_PARA" toTable="CLT_CM_R_H_T_CELL_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="21" fromTable="R_H_T_CELL_STATE" toTable="CLT_CM_R_H_T_CELL_STATE_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="22" fromTable="R_H_T_FTC_PARA" toTable="CLT_CM_R_H_T_FTC_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="23" fromTable="R_H_T_OVLD_PARA" toTable="CLT_CM_R_H_T_OVLD_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="24" fromTable="R_H_T_SYSTEM" toTable="CLT_CM_R_H_T_SYSTEM_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="25" fromTable="R_H_T_NB_CARRIER_INFO" toTable="CLT_CM_R_NB_CARRIER_INFO_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="26" fromTable="R_H_T_NB_CARRIER_BASE" toTable="CLT_CM_T_NB_CARRIER_BASE_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="27" fromTable="VIEW_B_SYSTEM" toTable="CLT_CM_VIEW_B_SYSTEM_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="28" fromTable="view_rru_information" toTable="CLT_CM_RRU_INFOR_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="29" fromTable="P_PCFIP" toTable="CLT_CM_P_PCFIP_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="30" fromTable="B_CPULIMIT" toTable="CLT_CM_B_CPULIMIT_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="31" fromTable="H_RLM_PARA" toTable="CLT_CM_H_RLM_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="32" fromTable="P_CMPSELECT" toTable="CLT_CM_P_CMPSELECT_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="33" fromTable="P_CPU" toTable="CLT_CM_P_CPU_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="34" fromTable="P_HMPSELECT" toTable="CLT_CM_P_HMPSELECT_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="35" fromTable="P_OBSSCDSUCON" toTable="CLT_CM_POBSSCDSUCON_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="36" fromTable="R_3G_S_BCKPOWER" toTable="CLT_CM_R_3G_S_BCKPOWER_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="37" fromTable="r_3g_s_bschopara_const" toTable="CLT_CM_R_3G_S_BSCHOPARACON_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="38" fromTable="R_3G_S_BSS_NCELL " toTable="CLT_CM_R_3G_S_BSS_NCELL_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="39" fromTable="R_3G_S_BSS_NGCARRIER " toTable="CLT_CM_R_3G_S_BSSNGCARR_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="40" fromTable="R_3G_S_BSS_PARA" toTable="CLT_CM_R_3G_S_BSS_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="41" fromTable="R_3G_S_CDMAFREQ" toTable="CLT_CM_R_3G_S_CDMAFREQ_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="42" fromTable="R_3g_s_dscp" toTable="CLT_CM_R_3G_S_DSCP_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="43" fromTable="R_3G_S_FWDPOWER" toTable="CLT_CM_R_3G_S_FWDPOWER_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="44" fromTable="R_3G_S_NGFREQBASE" toTable="CLT_CM_R_3G_S_NGFREQBASE_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="45" fromTable="R_3G_S_NGFREQINFO" toTable="CLT_CM_R_3G_S_NGFREQINFO_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="46" fromTable="R_3G_S_PTTSCHPARA" toTable="CLT_CM_R_3G_S_PTTSCHPARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="47" fromTable="R_3G_S_RLPBLOB" toTable="CLT_CM_R_3G_S_RLPBLOB_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="48" fromTable="R_3g_s_switchpara" toTable="CLT_CM_R_3G_S_SWITCHPARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="49" fromTable="R_3G_T_PPMROPARA" toTable="CLT_CM_R_3G_T_PPMROPARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="50" fromTable="R_3g_t_pttschpc_para" toTable="CLT_CM_R_3G_T_PTTSCHPCPARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="51" fromTable="R_3G_T_REVLINKOVERLOADPARA" toTable="CLT_CM_REVLINKOVERLOADPARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="52" fromTable="R_3G_T_RSCHRATE" toTable="CLT_CM_R_3G_T_RSCHRATE_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="53" fromTable="R_h_s_6800qsgcfg" toTable="CLT_CM_R_H_S_6800QSGCFG_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="54" fromTable="R_H_S_A12" toTable="CLT_CM_R_H_S_A12_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="55" fromTable="R_H_S_A13" toTable="CLT_CM_R_H_S_A13_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="56" fromTable="R_H_S_ACCAUTH_PARA" toTable="CLT_CM_R_H_S_ACCAUTH_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="57" fromTable="R_H_S_AN_PARA" toTable="CLT_CM_R_H_S_AN_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="58" fromTable="R_H_S_DRC_PARA" toTable="CLT_CM_R_H_S_DRC_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="59" fromTable="R_H_S_NBSS_NCELL" toTable="CLT_CM_R_H_S_NBSS_NCELL_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="60" fromTable="R_H_S_NBSS_NGCARRIER" toTable="CLT_CM_R_H_S_NBSSNGCARRIER_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="61" fromTable="R_h_s_UserRank" toTable="CLT_CM_R_H_S_USERRANK_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="62" fromTable="R_h_t_QSGCfg" toTable="CLT_CM_R_H_T_QSGCFG_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="63" fromTable="VIEW_BK_BCP_B_Hirs_CpuLimit" toTable="CLT_CM_V_HIRS_CPULIMIT_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="64" fromTable="VIEW_BK_BCP_R_3G_T_PPMROPARA" toTable="CLT_CM_V_PPMROPARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="65" fromTable="VIEW_BK_BCP_R_H_S_SSHO_PARA" toTable="CLT_CM_V_SSHO_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="66" fromTable="VIEW_CAS_R_3G_T_PAGE_CH" toTable="CLT_CM_V_PAGE_CH_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="67" fromTable="VIEW_CAS_R_H_T_NB_CARRIER_BASE" toTable="CLT_CM_V_CARRIER_BASE_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="68" fromTable="VIEW_CAS_R_H_T_NB_CARRIER_INFO" toTable="CLT_CM_V_CARRIER_INFO_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="69" fromTable="VIEW_H_FLM_PARA" toTable="CLT_CM_V_FLM_PARA_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="70" fromTable="VIEW_R_3g_T_Nglstbase" toTable="CLT_CM_V_NGLSTBASE_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="71" fromTable="VIEW_R_3G_T_QUICK_PAGE_CH" toTable="CLT_CM_V_QUICK_PAGE_CH_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="72" fromTable="VIEW_R_H_T_NB_CARRIER_INFO" toTable="CLT_CM_R_H_T_NBCARRIERINFO_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="73" fromTable="B_RRUCFG" toTable="CLT_CM_B_RRUCFG_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="74" fromTable="B_BSSE1" toTable="CLT_CM_B_BSSE1_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="75" fromTable="B_BTSCeNum" toTable="CLT_CM_B_BTSCENUM_ZTE" used="1" occur="1" condition=""></templet>
+		<templet id="76" fromTable="R_H_S_CFG_PARA" toTable="CLT_CM_ZTE_R_H_S_CFG_PARA" used="1" occur="1" condition=""></templet>
+		<templet id="77" fromTable="H_6800CFG_PARA" toTable="CLT_CM_ZTE_H_6800CFG_PARA" used="1" occur="1" condition=""></templet>
+		<templet id="78" fromTable="R_H_S_OUTPWR_PARA" toTable="CLT_CM_ZTE_R_H_S_OUTPWR_PARA" used="1" occur="1" condition=""></templet>
+		<templet id="79" fromTable="R_H_S_RMACUNQOS" toTable="CLT_CM_ZTE_R_H_S_RMACUNQOS" used="1" occur="1" condition=""></templet>
+		<templet id="80" fromTable="R_3G_S_BSS_NGCARRIER" toTable="CLT_CM_ZTE_R_3G_S_BSS_NGCARR" used="1" occur="1" condition=""></templet>
+		<templet id="81" fromTable="R_3G_T_ACCESS_CH" toTable="CLT_CM_ZTE_R_3G_T_ACCESS_CH" used="1" occur="1" condition=""></templet>
+		<templet id="82" fromTable="R_3G_T_PWR_REP" toTable="CLT_CM_ZTE_R_3G_T_PWR_REP" used="1" occur="1" condition=""></templet>
+		<templet id="83" fromTable="R_3G_T_PC_MSG" toTable="CLT_CM_ZTE_R_3G_T_PC_MSG" used="1" occur="1" condition=""></templet>
+		<templet id="84" fromTable="R_3G_S_FWDPOWER_1X" toTable="CLT_CM_ZTE_R_3G_S_FWDPOWER_1X" used="1" occur="1" condition=""></templet>
+		<templet id="85" fromTable="R_3G_S_GAIN" toTable="CLT_CM_ZTE_R_3G_S_GAIN" used="1" occur="1" condition=""></templet>
+		<templet id="86" fromTable="R_3G_S_BSS_NCELL" toTable="CLT_CM_ZTE_R_3G_S_BSS_NCELL" used="1" occur="1" condition=""></templet>
+		<templet id="87" fromTable="R_3G_T_QUICK_PAGE_CH" toTable="CLT_CM_ZTE_R_3G_T_QUICK_PAGE_C" used="1" occur="1" condition=""></templet>
+		<templet id="88" fromTable="R_3G_T_FWDPOWER_1X" toTable="CLT_CM_ZTE_R_3G_T_FWDPOWER_1X" used="1" occur="1" condition=""></templet>
+		<templet id="89" fromTable="R_H_S_AN_PARA" toTable="CLT_CM_ZTE_R_H_S_AN_PARA" used="1" occur="1" condition=""></templet>
+		<templet id="90" fromTable="P_BSSCONFIG" toTable="CLT_CM_ZTE_P_BSSCONFIG" used="1" occur="1" condition=""></templet>
+		<templet id="91" fromTable="R_3G_S_BSS_PARA" toTable="CLT_CM_ZTE_R_3G_S_BSS_PARA" used="1" occur="1" condition=""></templet>
+  
+</templets>

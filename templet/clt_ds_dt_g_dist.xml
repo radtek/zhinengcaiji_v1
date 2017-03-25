@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="DS_DT_RAWDATA_G" split="|">
+	        <column name="START_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+					<column name="LONGITUDE" index="2"/>
+					<column name="LATITUDE" index="3"/>
+					<column name="DT_RXLEVSUB_NUM" index="4"/>
+					<column name="DT_RXLEVSUB1_1_NUM" index="5"/>
+					<column name="DT_RXLEVSUB1_2_NUM" index="6"/>
+					<column name="DT_RXLEVSUB1_3_NUM" index="7"/>
+					<column name="DT_RXLEVSUB1_4_NUM" index="8"/>
+					<column name="DT_RXLEVSUB2_NUM" index="9"/>
+					<column name="DT_RXLEVSUB3_NUM" index="10"/>
+					<column name="DT_RXLEVSUB4_NUM" index="11"/>
+					<column name="DT_RXLEVSUB5_NUM" index="12"/>
+					<column name="DT_RXLEVSUB6_NUM" index="13"/>
+					<column name="DT_RXLEVSUB_MAX" index="14"/>
+					<column name="DT_RXLEVSUB_MIN" index="15"/>
+					<column name="DT_RXLEVSUB_AVE" index="16"/>
+					<column name="DT_RXQUALSUB_NUM" index="17"/>
+					<column name="DT_RXQUALSUB1_NUM" index="18"/>
+					<column name="DT_RXQUALSUB2_NUM" index="19"/>
+					<column name="DT_RXQUALSUB3_NUM" index="20"/>
+					<column name="DT_RXQUALSUB_MAX" index="21"/>
+					<column name="DT_RXQUALSUB_MIN" index="22"/>
+					<column name="DT_RXQUALSUB_AVE" index="23"/>
+					<column name="DT_CI_NUM" index="24"/>
+					<column name="DT_CI1_NUM" index="25"/>
+					<column name="DT_CI2_NUM" index="26"/>
+					<column name="DT_CI3_NUM" index="27"/>
+					<column name="DT_CI_AVE" index="28"/>
+					<column name="DT_CI_MAX" index="29"/>
+					<column name="DT_CI_MIN" index="30"/>
+					<column name="DT_MSPOWER_MAX" index="31"/>
+					<column name="DT_MSPOWER_MIN" index="32"/>
+					<column name="DT_MSPOWER_AVE" index="33"/>
+					<column name="DT_MOS_AVE" index="34"/>
+					<column name="DT_MOS_MAX" index="35"/>
+					<column name="DT_MOS_MIN" index="36"/>
+					<column name="DT_CALL_NUM" index="37"/>
+					<column name="DT_DORP_NUM" index="38"/>
+					<column name="DT_ACCESS_FAIL_NUM" index="39"/>
+					<column name="DT_ACCESS_NUM" index="40"/>
+					<column name="DT_HANDOVER_NUM" index="41"/>
+					<column name="DT_HANDOVER_FAIL_NUM" index="42"/>
+					<column name="GRID_ID" index="43"/>
+					<column name="PIECE_ID" index="44"/>
+					<column name="PIECE_NAME" index="45"/>
+					<column name="REGION_ID" index="46"/>
+					<column name="REGION_NAME" index="47"/> 
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="DS_DT_RAWDATA_W" split="|">
+        <column name="START_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+				<column name="LONGITUDE" index="2"/>
+				<column name="LATITUDE" index="3"/>
+				<column name="DT_RSCP_NUM" index="4"/>
+				<column name="DT_RSCP1_1_NUM" index="5"/>
+				<column name="DT_RSCP1_2_NUM" index="6"/>
+				<column name="DT_RSCP1_3_NUM" index="7"/>
+				<column name="DT_RSCP1_4_NUM" index="8"/>
+				<column name="DT_RSCP1_5_NUM" index="9"/>
+				<column name="DT_RSCP2_NUM" index="10"/>
+				<column name="DT_RSCP3_NUM" index="11"/>
+				<column name="DT_RSCP4_NUM" index="12"/>
+				<column name="DT_RSCP5_NUM" index="13"/>
+				<column name="DT_RSCP6_NUM" index="14"/>
+				<column name="DT_RSCP7_NUM" index="15"/>
+				<column name="DT_ECIO_NUM" index="16"/>
+				<column name="DT_ECIO1_NUM" index="17"/>
+				<column name="DT_ECIO2_NUM" index="18"/>
+				<column name="DT_ECIO3_NUM" index="19"/>
+				<column name="DT_ECIO4_NUM" index="20"/>
+				<column name="DT_ECIO5_NUM" index="21"/>
+				<column name="DT_ECIO6_NUM" index="22"/>
+				<column name="DT_ECIO7_NUM" index="23"/>
+				<column name="DT_UE_UP_TX_NUM3_1" index="24"/>
+				<column name="DT_UE_UP_TX_NUM3_2" index="25"/>
+				<column name="DT_UE_UP_TX_NUM3_3" index="26"/>
+				<column name="DT_RSCP_AVE" index="27"/>
+				<column name="DT_ECIO_AVE" index="28"/>
+				<column name="DT_RSCP_MAX" index="29"/>
+				<column name="DT_RSCP_MIN" index="30"/>
+				<column name="DT_ECNO_MAX" index="31"/>
+				<column name="DT_ECNO_MIN" index="32"/>
+				<column name="DT_ECNO_AVE" index="33"/>
+				<column name="DT_CQI_NUM" index="34"/>
+				<column name="DT_CQI1_NUM" index="35"/>
+				<column name="DT_CQI2_NUM" index="36"/>
+				<column name="DT_CQI3_NUM" index="37"/>
+				<column name="DT_CQI4_NUM" index="38"/>
+				<column name="DT_CQI5_NUM" index="39"/>
+				<column name="DT_CQI6_NUM" index="40"/>
+				<column name="DT_CQI_AVE" index="41"/>
+				<column name="DT_CQI_MAX" index="42"/>
+				<column name="DT_CQI_MIN" index="43"/>
+				<column name="DT_UE_UP_TX_NUM" index="44"/>
+				<column name="DT_UE_UP_TX_NUM1" index="45"/>
+				<column name="DT_UE_UP_TX_NUM2" index="46"/>
+				<column name="DT_UE_UP_TX_NUM3" index="47"/>
+				<column name="DT_UE_UP_TX_NUM4" index="48"/>
+				<column name="DT_UE_UP_TX_MAX" index="49"/>
+				<column name="DT_UE_UP_TX_MIN" index="50"/>
+				<column name="DT_UE_UP_TX_AVE" index="51"/>
+				<column name="DT_HSDPA_ROUGHPUT_AVE" index="52"/>
+				<column name="DT_HSDPA_ROUGHPUT_MAX" index="53"/>
+				<column name="DT_HSDPA_ROUGHPUT_MIN" index="54"/>
+				<column name="DT_HSUPA_ROUGHPUT_AVE" index="55"/>
+				<column name="DT_HSUPA_ROUGHPUT_MAX" index="56"/>
+				<column name="DT_HSUPA_ROUGHPUT_MIN" index="57"/>
+				<column name="DT_MOS_AVE" index="58"/>
+				<column name="DT_MOS_MAX" index="59"/>
+				<column name="DT_MOS_MIN" index="60"/>
+				<column name="DT_CS_CALL_NUM" index="61"/>
+				<column name="DT_CS_CALL_FAIL_NUM" index="62"/>
+				<column name="DT_PS_CALL_NUM" index="63"/>
+				<column name="DT_PS_CALL_FAIL_NUM" index="64"/>
+				<column name="DT_CS_CALL_DORP_NUM" index="65"/>
+				<column name="DT_PS_CALL_DORP_NUM" index="66"/>
+				<column name="DT_PILOT_POLLUTION_NUM" index="67"/>
+				<column name="GRID_ID" index="68"/>
+				<column name="PIECE_ID" index="69"/>
+				<column name="PIECE_NAME" index="70"/>
+				<column name="REGION_ID" index="71"/>
+				<column name="REGION_NAME" index="72"/>
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="CLT_DT_EVENT_G" split="|">
+			<column name="EVENT_NAME" index="0"/>
+			<column name="EVENT_NUM" index="1"/>
+			<column name="LONGITUDE" index="2"/>
+			<column name="LATITUDE" index="3"/>
+			<column name="DATE_TIME" index="4" type="7" format="YYYY-MM-DD HH24:MI:SS"/>
+			<column name="CELL_NAME" index="5"/>
+			<column name="CAUSE" index="6"/>
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="CLT_DT_EVENT_W" split="|">
+			<column name="EVENT_NAME" index="0"/>
+			<column name="EVENT_NUM" index="1"/>
+			<column name="LONGITUDE" index="2"/>
+			<column name="LATITUDE" index="3"/>
+			<column name="DATE_TIME" index="4" type="7" format="YYYY-MM-DD HH24:MI:SS"/>
+			<column name="CELL_NAME" index="5"/>
+			<column name="CAUSE" index="6"/>
+		</table>
+	</templet>
+</templets>

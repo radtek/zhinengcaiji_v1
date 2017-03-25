@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+space = &#032; 
+tab   = &#009;
+\r    = &#x000D;
+\n    = &#x000A;
+-->
+<!--
+系统变量：
+	 $CITY_ID$      城市编号
+	 $OMC_ID$       omc编号
+	 $GATHER_TIME$  采集时间
+	 $DATA_TIME$    数据时间 
+-->
+<definition>
+	<cfg>
+	    <charset>ZHS16GBK</charset>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@192.168.0.180:uway</url>
+		<username>igp</username>
+		<password>igp</password>
+		<service>noap</service>
+		<distribute-split-sign>;</distribute-split-sign>
+		<backlog-count>80</backlog-count>
+	</cfg>
+	<mapping>
+		<properties table="CLT_AM_ALARMHISTORY_ZTE" >
+			<property id="0" name="OMCID" column="OMCID" value="$OMC_ID$"/>
+			<property id="1" name="COLLECTTIME" column="COLLECTTIME" value="$GATHER_TIME$" 	type="date" format="YYYY-MM-DD HH24:MI:SS"/>
+			<property id="2" name="stamptime" column="stamptime" value="$DATA_TIME$" type="date" format="YYYY-MM-DD HH24:MI:SS"/>
+			<property id="3" name="ALARM_ID" column="ALARM_ID"  />
+			<property id="4" name="EVENT_TIME" column="EVENT_TIME" type="date" format="YYYY-MM-DD HH24:MI:SS"/>
+			<property id="5" name="NOTIFICATION_TYPE" column="NOTIFICATION_TYPE" />
+			<property id="6" name="MANAGED_OBJECT_INSTANCE" column="MANAGED_OBJECT_INSTANCE"  />
+			<property id="7" name="PERCEIVED_SEVERITY" column="PERCEIVED_SEVERITY" />
+			
+			<property id="8" name="ALARM_TYPE" column="ALARM_TYPE" />
+			<property id="9" name="PROBABLE_CAUSE" column="PROBABLE_CAUSE" />
+			<property id="10" name="SPECIFIC_PROBLEM" column="SPECIFIC_PROBLEM"  />
+			<property id="11" name="ADDITIONAL_TEXT" column="ADDITIONAL_TEXT" />
+			
+		</properties>
+	</mapping>
+	
+	<rule id="1" name="ownerRule">
+		<strcat mark=":">
+			<const value="CLT_AM_ALARMHISTORY_ZTE" />
+			<raw />
+		</strcat>
+	</rule>
+
+	<rule id="2" name="matchRule">
+		<split value="&#x000D;&#x000A;&#x000D;&#x000A;" />
+	</rule>
+	
+	<rule id="3" name="digRule">
+		<split value="&#x000D;&#x000A;" >
+			<field index="0" >
+				<split value="=">
+					<field index="1" property="3" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>
+			<field index="1" >
+				<split value="=">
+					<field index="1" property="4" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>
+			<field index="2" >
+				<split value="=">
+					<field index="1" property="5" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>						
+			<field index="3" >
+				<trim-sign start="MANAGED_OBJECT_INSTANCE=" >
+			           <field index="0" property="6" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</trim-sign>
+			</field>
+			<field index="4" >
+				<split value="=">
+					<field index="1" property="7" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>
+			<field index="5" >
+				<split value="=">
+					<field index="1" property="8" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>
+													
+			<field index="6" >
+				<split value="=" >
+					<field index="1" property="9" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>
+			<field index="7" >
+				<split value="=">
+					<field index="1" property="10" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>
+			<field index="8" >
+				<split value="=">
+					<field index="1" property="11" owner="CLT_AM_ALARMHISTORY_ZTE" />
+				</split>
+			</field>
+						
+			
+		</split>
+	</rule>
+
+	<process>			
+		<owner rule-ref="1">
+			<record owner="CLT_AM_ALARMHISTORY_ZTE" match-rule="2" dig-rule="3" file="AlarmLog_2011071411.log"/>
+		</owner>
+	</process>
+</definition>
+

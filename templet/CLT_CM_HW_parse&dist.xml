@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets> 
+		<templet id="67" fromTable="tbl_BtsBasicInfo" toTable="CLT_CM_TBL_BTSBASICINFO_HW" used="1" occur="1" condition=""></templet>
+		 
+</templets>

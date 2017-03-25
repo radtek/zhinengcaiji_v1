@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<!--1-移动AAA原始数据说明 -->
+	<templet id="0" file="AAA_*.TXT">
+		<ds id="0">
+			<fields splitSign="\t">
+				<field name="StreamNumber" index="0" />
+				<field name="Acct_Status_Type" index="1" />
+				<field name="RoamFlag" index="2" />
+				<field name="PaidType" index="3" />
+				<field name="MDN" index="4" />
+				<field name="MSID" index="5" />
+				<field name="ESN" index="6" />
+				<field name="MEID" index="7" />
+				<field name="Source_IP_Address" index="8" />
+				<field name="Network_Access_Idetifier " index="9" />
+				<field name="Account_Session_ID " index="10" />
+				<field name="Correlation_ID" index="11" />
+				<field name="Session_Continue" index="12" />
+				<field name="Beginning_Session" index="13" />
+				<field name="PDSN_Address" index="14" />
+				<field name="Serving_PCF " index="15" />
+				<field name="BSID" index="16" />
+				<field name="Subnet" index="17" />
+				<field name="Service_Option" index="18" />
+				<field name="Data_Octet_Count_T " index="19" />
+				<field name="Data_Octet_Count_O " index="20" />
+				<field name="Acct_Terminate_Cause " index="21" />
+				<field name="Acct_Input_Gigawords " index="22" />
+				<field name="Acct_Output_Gigawords" index="23" />
+				<field name="Start_Time" index="24" />
+				<field name="End_Time" index="25" />
+				<field name="HOME_AREA_CODE" index="26" />
+				<field name="VISIT_AREA_CODE " index="27" />
+				<field name="UP_COUNT" index="28" />
+				<field name="DOWN_COUNT" index="29" />
+				<field name="TIME_LENGTH " index="30" />
+				<field name="ERROR_CODE" index="31" />
+
+			</fields>
+		</ds>
+	</templet>
+	<!-- 2-固网AAA-后付费（163大后台）原始数据 -->
+	<templet id="1" file="KDSZ*dat">
+		<ds id="0">
+			<fields splitSign="\|">
+				<field name="File_id" index="0" />
+				<field name="Offset_aft" index="1" />
+				<field name="LOCAL_NET" index="2" />
+				<field name="COUNTING_TYPE_ID2" index="3" />
+				<field name="PRODUCT_SPEC_ID" index="4" />
+				<field name="COLLECT_TIME" index="5" />
+				<field name="LOGIN_TIME" index="6" />
+				<field name="LOGOUT_TIME" index="7" />
+				<field name="SERVICE_TYPE" index="8" />
+				<field name="FRAMED_IP" index="9" />
+				<field name="FRAMED_PROTOCOL" index="10" />
+				<field name="NAS_IP" index="11" />
+				<field name="NAS_PORT" index="12" />
+				<field name="NAS_PORT_TYPE" index="13" />
+				<field name="NAS_IDENTIFIER" index="14" />
+				<field name="SESSION_ID" index="15" />
+				<field name="SESSION_TIME" index="16" />
+				<field name="DATA_IN" index="17" />
+				<field name="DATA_OUT" index="18" />
+				<field name="PACKET_IN" index="19" />
+				<field name="PACKET_OUT" index="20" />
+				<field name="TERMINATE_CAUSE" index="21" />
+				<field name="USE_NODE_ID" index="22" />
+				<field name="ROAM_FLAG" index="23" />
+				<field name="XPI" index="24" />
+				<field name="XCI" index="25" />
+				<field name="PORT_TYPE" index="26" />
+				<field name="SLOT" index="27" />
+				<field name="SUB_SLOT" index="28" />
+				<field name="PORT" index="29" />
+				<field name="MAC_ADDRESS" index="30" />
+				<field name="DOMAIN_ID" index="31" />
+				<field name="DELAY_TIME" index="32" />
+				<field name="RADIUS_ID" index="33" />
+				<field name="MULTI_SESSION_ID" index="34" />
+				<field name="LINK_COUNT" index="35" />
+				<field name="XDR_ID" index="36" />
+				<field name="NODE_ID" index="37" />
+				<field name="COUNTING_TYPE_ID" index="38" />
+				<field name="PRODUCT_ID" index="39" />
+				<field name="OFFERING_ID" index="40" />
+				<field name="OFFERING_SPEC_ID" index="41" />
+				<field name="OFFERING_TYPE" index="42" />
+				<field name="BILL_CYCLE_ID" index="43" />
+				<field name="IS_OPEN" index="44" />
+				<field name="CUSTOMER_ID" index="45" />
+				<field name="BILL_ACCOUNT_ID" index="46" />
+				<field name="RATE_ID" index="47" />
+				<field name="EXTERNAL_NUMBER" index="48" />
+				<field name="DISCOUNT_TIME" index="49" />
+				<field name="USE_USAGE" index="50" />
+				<field name="USE_FEE" index="51" />
+				<field name="IN_INFO_USAGE" index="52" />
+				<field name="IN_INFO_FEE" index="53" />
+				<field name="OUT_INFO_USAGE" index="54" />
+				<field name="OUT_INFO_FEE" index="55" />
+				<field name="R_USE_USAGE" index="56" />
+				<field name="R_USE_FEE" index="57" />
+				<field name="XDR_PAY_TYPE" index="58" />
+				<field name="GREEN_TYPE" index="59" />
+				<field name="RULE_NO" index="60" />
+			</fields>
+		</ds>
+	</templet>
+	<!-- 3-固网AAA-预付费（163大后台）原始数据 -->
+	<templet id="2" file="RBI_*.unl">
+		<ds id="0">
+			<fields splitSign="\|">
+				<field name="SessionId" index="0" />
+				<field name="TimeStamp" index="1" />
+				<field name="ServiceScenarious" index="2" />
+				<field name="ChargedParty" index="3" />
+				<field name="ServID" index="4" />
+				<field name="ProductSpecID" index="5" />
+				<field name="NasIP" index="6" />
+				<field name="FRAMED_IP" index="7" />
+				<field name="Use_Node_ID" index="8" />
+				<field name="Duration" index="9" />
+				<field name="Fee1" index="10" />
+				<field name="Fee2" index="11" />
+				<field name="Fee3" index="12" />
+				<field name="Fee4" index="13" />
+				<field name="ACCT_Item_Type_ID1" index="14" />
+				<field name="ACCT_Item_Type_ID2" index="15" />
+				<field name="ACCT_Item_Type_ID3" index="16" />
+				<field name="ACCT_Item_Type_ID4" index="17" />
+				<field name="FreeFee1" index="18" />
+				<field name="FreeFee2" index="19" />
+				<field name="FreeFee3" index="20" />
+				<field name="FreeFee4" index="21" />
+				<field name="PrepaidBalance" index="22" />
+				<field name="AreaCode" index="23" />
+				<field name="UpFlux" index="24" />
+				<field name="DownFlux" index="25" />
+				<field name="Fee_Duration" index="26" />
+				<field name="ProductID" index="27" />
+				<field name="UserType" index="28" />
+				<field name="BSID" index="29" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

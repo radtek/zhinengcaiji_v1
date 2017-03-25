@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+         <templet id="0">
+	       <table id="0" name="mod_cqt_piece_g_d" split="|">
+           <column name="NE_PIECE_ID" index="0"/>
+           <column name="PIECE_NAME" index="1"/>
+           <column name="CITY_NAME" index="2"/>
+           <column name="START_TIME" index="3" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+           <column name="cqt_coverage_molecular_90" index="4"/>
+           <column name="cqt_coverage_denominator_90" index="5"/>
+           <column name="cqt_coverage_proportion_90" index="6"/>
+           <column name="cqt_voice_quality_molecular_4" index="7"/>
+           <column name="cqt_voice_quality_denominator4" index="8"/>
+           <column name="cqt_voice_quality_proportion_4" index="9"/>
+           <column name="cqt_mos_mean" index="10"/>
+           <column name="cqt_mos_num_sum" index="11"/>
+           <column name="cqt_voice_access_molecular" index="12"/>
+           <column name="cqt_voice_access_denominatorr" index="13"/>
+           <column name="cqt_voice_access_proportion" index="14"/>
+           <column name="cqt_voice_drop_molecular" index="15"/>
+           <column name="cqt_voice_drop_denominatorr" index="16"/>
+           <column name="cqt_voice_drop_proportion" index="17"/>
+           <column name="cqt_time_delay_molecular_7" index="18"/>
+           <column name="cqt_time_delay_denominatorr_7" index="19"/>
+           <column name="cqt_time_delay_proportion_7" index="20"/>
+              </table>
+	  </templet>
+          <templet id="1">
+	       <table id="0" name="mod_dt_piece_g_d" split="|">
+           <column name="NE_PIECE_ID" index="0"/>
+           <column name="PIECE_NAME" index="1"/>
+           <column name="CITY_NAME" index="2"/>
+           <column name="START_TIME" index="3" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+           <column name="dt_coverage_molecular_90" index="4"/>
+           <column name="dt_coverage_denominator_90" index="5"/>
+           <column name="dt_coverage_proportion_90" index="6"/>
+           <column name="dt_voice_quality_molecular_4" index="7"/>
+           <column name="dt_voice_quality_denominator4" index="8"/>
+           <column name="dt_voice_quality_proportion_4" index="9"/>
+           <column name="dt_mos_mean" index="10"/>
+           <column name="dt_mos_num_sum" index="11"/>
+           <column name="dt_voice_access_molecular" index="12"/>
+           <column name="dt_voice_access_denominatorr" index="13"/>
+           <column name="dt_voice_access_proportion" index="14"/>
+           <column name="dt_voice_drop_molecular" index="15"/>
+           <column name="dt_voice_drop_denominatorr" index="16"/>
+           <column name="dt_voice_drop_proportion" index="17"/>
+           <column name="dt_time_delay_molecular_7" index="18"/>
+           <column name="dt_time_delay_denominatorr_7" index="19"/>
+           <column name="dt_time_delay_proportion_7" index="20"/>
+           <column name="dt_cs_drop_molecular" index="21"/>
+           <column name="dt_cs_drop_denominator" index="22"/>
+           <column name="dt_cs_drop_proportion" index="23"/>
+              </table>
+	  </templet>
+          <templet id="2">
+	       <table id="0" name="mod_cqt_piece_w_d" split="|">
+             <column name="NE_PIECE_ID" index="0"/> 
+             <column name="PIECE_NAME" index="1"/>
+             <column name="CITY_NAME" index="2"/>
+             <column name="START_TIME" index="3" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+             <column name="cqt_RSCP_MOLECULAR_80" index="4"/>
+             <column name="cqt_RSCP_DENOMINATOR_80" index="5"/>
+             <column name="cqt_RSC_PROPORTION_80" index="6"/>
+             <column name="cqt_ECIO_MOLECULAR_10" index="7"/>
+             <column name="cqt_ECIO_DENOMINATOR_10" index="8"/>
+             <column name="cqt_ECIO_PROPORTION_10" index="9"/>
+             <column name="cqt_HAND_MOLECULAR" index="10"/>
+             <column name="cqt_HAND_DENOMINATOR" index="11"/>
+             <column name="cqt_HAND_PROPORTION" index="12"/>
+             <column name="cqt_PILOT_POLLU_MOLECULAR" index="13"/>
+             <column name="cqt_PILOT_POLLU_DENOMINATOR" index="14"/>
+             <column name="cqt_PILOT_POLLU_PROPORTION" index="15"/>
+             <column name="cqt_AMR_ACCESS_MOLECULAR" index="16"/>
+             <column name="cqt_AMR_ACCESS_DENOMINATOR" index="17"/>
+             <column name="cqt_AMR_ACCESS_PROPORTION" index="18"/>
+             <column name="cqt_AMR_DROP_MOLECULAR" index="19"/>
+             <column name="cqt_AMR_DROP_DENOMINATOR" index="20"/>
+             <column name="cqt_AMR_DROP_PROPORTION" index="21"/>
+             <column name="cqt_CS_DROP_MOLECULAR" index="22"/>
+             <column name="cqt_CS_DROP_DENOMINATOR" index="23"/>
+             <column name="cqt_CS_DROP_PROPORTION" index="24"/>
+             <column name="cqt_MOS_MEAN" index="25"/>
+             <column name="cqt_MOS_NUM_SUM" index="26"/>
+             <column name="cqt_PS_DROP_MOLECULAR" index="27"/>
+             <column name="cqt_PS_DROP_DENOMINATOR" index="28"/>
+             <column name="cqt_PS_DROP_PROPORTION" index="29"/>
+             <column name="cqt_PS_3G_MOLECULAR" index="30"/>
+             <column name="cqt_PS_3G_DENOMINATOR" index="31"/>
+             <column name="cqt_PS_3G_PROPORTION" index="32"/>
+             <column name="cqt_TEST_HSDPA_ROUGHPUT_AVE" index="33"/>
+             <column name="cqt_TEST_HSDPA_ROUGHPUT_NUM" index="34"/>
+             <column name="cqt_TEST_HSUPA_ROUGHPUT_AVE" index="35"/>
+             <column name="cqt_TEST_HSUPA_ROUGHPUT_NUM" index="36"/>
+             <column name="cqt_TIME_DELAY_MOLECULAR_5" index="37"/>
+             <column name="cqt_TIME_DELAY_DENOMINATORR_5" index="38"/>
+             <column name="cqt_TIME_DELAY_PROPORTION_5" index="39"/>
+              </table>
+	  </templet>
+	   <templet id="3">
+	       <table id="0" name="mod_dt_piece_w_d" split="|">
+             <column name="NE_PIECE_ID" index="0"/> 
+             <column name="PIECE_NAME" index="1"/>
+             <column name="CITY_NAME" index="2"/>
+             <column name="START_TIME" index="3" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+             <column name="DT_RSCP_MOLECULAR_80" index="4"/>
+             <column name="DT_RSCP_DENOMINATOR_80" index="5"/>
+             <column name="DT_RSC_PROPORTION_80" index="6"/>
+             <column name="DT_ECIO_MOLECULAR_10" index="7"/>
+             <column name="DT_ECIO_DENOMINATOR_10" index="8"/>
+             <column name="DT_ECIO_PROPORTION_10" index="9"/>
+             <column name="DT_HAND_MOLECULAR" index="10"/>
+             <column name="DT_HAND_DENOMINATOR" index="11"/>
+             <column name="DT_HAND_PROPORTION" index="12"/>
+             <column name="DT_PILOT_POLLU_MOLECULAR" index="13"/>
+             <column name="DT_PILOT_POLLU_DENOMINATOR" index="14"/>
+             <column name="DT_PILOT_POLLU_PROPORTION" index="15"/>
+             <column name="DT_AMR_ACCESS_MOLECULAR" index="16"/>
+             <column name="DT_AMR_ACCESS_DENOMINATOR" index="17"/>
+             <column name="DT_AMR_ACCESS_PROPORTION" index="18"/>
+             <column name="DT_AMR_DROP_MOLECULAR" index="19"/>
+             <column name="DT_AMR_DROP_DENOMINATOR" index="20"/>
+             <column name="DT_AMR_DROP_PROPORTION" index="21"/>
+             <column name="DT_CS_DROP_MOLECULAR" index="22"/>
+             <column name="DT_CS_DROP_DENOMINATOR" index="23"/>
+             <column name="DT_CS_DROP_PROPORTION" index="24"/>
+             <column name="DT_MOS_MEAN" index="25"/>
+             <column name="DT_MOS_NUM_SUM" index="26"/>
+             <column name="DT_PS_DROP_MOLECULAR" index="27"/>
+             <column name="DT_PS_DROP_DENOMINATOR" index="28"/>
+             <column name="DT_PS_DROP_PROPORTION" index="29"/>
+             <column name="DT_PS_3G_MOLECULAR" index="30"/>
+             <column name="DT_PS_3G_DENOMINATOR" index="31"/>
+             <column name="DT_PS_3G_PROPORTION" index="32"/>
+             <column name="DT_TEST_HSDPA_ROUGHPUT_AVE" index="33"/>
+             <column name="DT_TEST_HSDPA_ROUGHPUT_NUM" index="34"/>
+             <column name="DT_TEST_HSUPA_ROUGHPUT_AVE" index="35"/>
+             <column name="DT_TEST_HSUPA_ROUGHPUT_NUM" index="36"/>
+             <column name="DT_TIME_DELAY_MOLECULAR_5" index="37"/>
+             <column name="DT_TIME_DELAY_DENOMINATORR_5" index="38"/>
+             <column name="DT_TIME_DELAY_PROPORTION_5" index="39"/>
+              </table>
+	  </templet>
+
+
+</templets>

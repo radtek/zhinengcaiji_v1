@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<!--  朗讯 电信  smart 性能  r36版本  解析模板配置   -->
+	<!-- 注意 id, index 必须唯一 -->
+	<templet id="1" startRegex="HOUR" num="1" endRegex="" ignore="true">
+		<!-- 开始的公共内容 -->
+		<!--  minIndex =1  maxIndex = 4  -->
+		<publicFields startRegex="HOUR" fieldSize="11" num="n"
+			spilt=" " endRegex="ECP CNTS">
+			<!--
+				DCS varchar2(2), ECP varchar2(2), SID varchar2(5), VERSION
+				varchar2(5), srcIndex 必须是从0开始
+			-->
+			<field index="1" srcIndex="8" formatType="4000" />
+			<field index="2" srcIndex="8" formatType="4001" />
+			<field index="3" srcIndex="8" formatType="4002" />
+			<field index="4" srcIndex="10" formatType="4003" />
+
+		</publicFields>
+
+		<!-- ECP LCNTS    minIndex =5  maxIndex = 1277  -->
+		<templet id="11" startRegex="ECP LCNTS" num="1">
+			<fields startRegex="ECP LCNTS" fieldSize="1272" num="1">
+			<field index="7" srcIndex="3" formatType="1" />
+			<field index="8" srcIndex="4" formatType="1" />
+			<field index="9" srcIndex="5" formatType="1" />
+			<field index="10" srcIndex="6" formatType="1" />
+			<field index="11" srcIndex="7" formatType="1" />
+			<field index="12" srcIndex="8" formatType="1" />
+			<field index="13" srcIndex="9" formatType="1" />
+			<field index="14" srcIndex="10" formatType="1" />
+			<field index="15" srcIndex="11" formatType="1" />
+			<field index="21" srcIndex="17" formatType="1" />
+			<field index="45" srcIndex="41" formatType="1" />
+			<field index="58" srcIndex="54" formatType="1" />
+			<field index="83" srcIndex="79" formatType="1" />
+			<field index="84" srcIndex="80" formatType="1" />
+			<field index="85" srcIndex="81" formatType="1" />
+			<field index="86" srcIndex="82" formatType="1" />
+			<field index="88" srcIndex="84" formatType="1" />
+			<field index="90" srcIndex="86" formatType="1" />
+			<field index="92" srcIndex="88" formatType="1" />
+			<field index="104" srcIndex="100" formatType="1" />
+			<field index="106" srcIndex="102" formatType="1" />
+			<field index="108" srcIndex="104" formatType="1" />
+			<field index="110" srcIndex="106" formatType="1" />
+			<field index="113" srcIndex="109" formatType="1" />
+			<field index="124" srcIndex="120" formatType="1" />
+			<field index="125" srcIndex="121" formatType="1" />
+			<field index="126" srcIndex="122" formatType="1" />
+			<field index="127" srcIndex="123" formatType="1" />
+			<field index="129" srcIndex="125" formatType="1" />
+			<field index="131" srcIndex="127" formatType="1" />
+			<field index="133" srcIndex="129" formatType="1" />
+			<field index="139" srcIndex="135" formatType="1" />
+			<field index="190" srcIndex="186" formatType="1" />
+			<field index="191" srcIndex="187" formatType="1" />
+			<field index="192" srcIndex="188" formatType="1" />
+			<field index="193" srcIndex="189" formatType="1" />
+			<field index="195" srcIndex="191" formatType="1" />
+			<field index="197" srcIndex="193" formatType="1" />
+			<field index="198" srcIndex="194" formatType="1" />
+			<field index="199" srcIndex="195" formatType="1" />
+			<field index="200" srcIndex="196" formatType="1" />
+			<field index="201" srcIndex="197" formatType="1" />
+			<field index="203" srcIndex="199" formatType="1" />
+			<field index="205" srcIndex="201" formatType="1" />
+			<field index="206" srcIndex="202" formatType="1" />
+			<field index="207" srcIndex="203" formatType="1" />
+			<field index="208" srcIndex="204" formatType="1" />
+			<field index="209" srcIndex="205" formatType="1" />
+			<field index="211" srcIndex="207" formatType="1" />
+			<field index="213" srcIndex="209" formatType="1" />
+			<field index="214" srcIndex="210" formatType="1" />
+			<field index="215" srcIndex="211" formatType="1" />
+			<field index="217" srcIndex="213" formatType="1" />
+			<field index="219" srcIndex="215" formatType="1" />
+			<field index="221" srcIndex="217" formatType="1" />
+			<field index="222" srcIndex="218" formatType="1" />
+			<field index="223" srcIndex="219" formatType="1" />
+			<field index="225" srcIndex="221" formatType="1" />
+			<field index="227" srcIndex="223" formatType="1" />
+			<field index="229" srcIndex="225" formatType="1" />
+			<field index="270" srcIndex="266" formatType="1" />
+			<field index="271" srcIndex="267" formatType="1" />
+			<field index="272" srcIndex="268" formatType="1" />
+			<field index="273" srcIndex="269" formatType="1" />
+			<field index="275" srcIndex="271" formatType="1" />
+			<field index="277" srcIndex="273" formatType="1" />
+			<field index="302" srcIndex="298" formatType="1" />
+			<field index="303" srcIndex="299" formatType="1" />
+			<field index="304" srcIndex="300" formatType="1" />
+			<field index="305" srcIndex="301" formatType="1" />
+			<field index="307" srcIndex="303" formatType="1" />
+			<field index="309" srcIndex="305" formatType="1" />
+			<field index="310" srcIndex="306" formatType="1" />
+			<field index="311" srcIndex="307" formatType="1" />
+			<field index="313" srcIndex="309" formatType="1" />
+			<field index="315" srcIndex="311" formatType="1" />
+			<field index="317" srcIndex="313" formatType="1" />
+			<field index="318" srcIndex="314" formatType="1" />
+			<field index="319" srcIndex="315" formatType="1" />
+			<field index="321" srcIndex="317" formatType="1" />
+			<field index="323" srcIndex="319" formatType="1" />
+			<field index="325" srcIndex="321" formatType="1" />
+			<field index="382" srcIndex="378" formatType="1" />
+			<field index="383" srcIndex="379" formatType="1" />
+			<field index="384" srcIndex="380" formatType="1" />
+			<field index="385" srcIndex="381" formatType="1" />
+			<field index="387" srcIndex="383" formatType="1" />
+			<field index="389" srcIndex="385" formatType="1" />
+			<field index="398" srcIndex="394" formatType="1" />
+			<field index="399" srcIndex="395" formatType="1" />
+			<field index="400" srcIndex="396" formatType="1" />
+			<field index="401" srcIndex="397" formatType="1" />
+			<field index="403" srcIndex="399" formatType="1" />
+			<field index="405" srcIndex="401" formatType="1" />
+			<field index="406" srcIndex="402" formatType="1" />
+			<field index="407" srcIndex="403" formatType="1" />
+			<field index="408" srcIndex="404" formatType="1" />
+			<field index="409" srcIndex="405" formatType="1" />
+			<field index="411" srcIndex="407" formatType="1" />
+			<field index="413" srcIndex="409" formatType="1" />
+			<field index="414" srcIndex="410" formatType="1" />
+			<field index="415" srcIndex="411" formatType="1" />
+			<field index="416" srcIndex="412" formatType="1" />
+			<field index="417" srcIndex="413" formatType="1" />
+			<field index="419" srcIndex="415" formatType="1" />
+			<field index="421" srcIndex="417" formatType="1" />
+			<field index="422" srcIndex="418" formatType="1" />
+			<field index="423" srcIndex="419" formatType="1" />
+			<field index="425" srcIndex="421" formatType="1" />
+			<field index="427" srcIndex="423" formatType="1" />
+			<field index="429" srcIndex="425" formatType="1" />
+			<field index="430" srcIndex="426" formatType="1" />
+			<field index="431" srcIndex="427" formatType="1" />
+			<field index="433" srcIndex="429" formatType="1" />
+			<field index="435" srcIndex="431" formatType="1" />
+			<field index="437" srcIndex="433" formatType="1" />
+			<field index="478" srcIndex="474" formatType="1" />
+			<field index="479" srcIndex="475" formatType="1" />
+			<field index="480" srcIndex="476" formatType="1" />
+			<field index="481" srcIndex="477" formatType="1" />
+			<field index="483" srcIndex="479" formatType="1" />
+			<field index="485" srcIndex="481" formatType="1" />
+			<field index="525" srcIndex="521" formatType="1" />
+			<field index="597" srcIndex="593" formatType="1" />
+			<field index="598" srcIndex="594" formatType="1" />
+			<field index="611" srcIndex="607" formatType="1" />
+			<field index="612" srcIndex="608" formatType="1" />
+			<field index="617" srcIndex="613" formatType="1" />
+			<field index="618" srcIndex="614" formatType="1" />
+			<field index="866" srcIndex="862" formatType="1" />
+			<field index="867" srcIndex="863" formatType="1" />
+			<field index="868" srcIndex="864" formatType="1" />
+			<field index="869" srcIndex="865" formatType="1" />
+			<field index="871" srcIndex="867" formatType="1" />
+			<field index="873" srcIndex="869" formatType="1" />
+			<field index="874" srcIndex="870" formatType="1" />
+			<field index="875" srcIndex="871" formatType="1" />
+			
+			<field index="876" srcIndex="872" formatType="1" />
+			<field index="877" srcIndex="873" formatType="1" />
+			
+			<field index="879" srcIndex="875" formatType="1" />
+			
+			<field index="881" srcIndex="877" formatType="1" />
+			
+			<field index="882" srcIndex="878" formatType="1" />
+			<field index="883" srcIndex="879" formatType="1" />
+			<field index="884" srcIndex="880" formatType="1" />
+			<field index="885" srcIndex="881" formatType="1" />
+			<field index="887" srcIndex="883" formatType="1" />
+			<field index="889" srcIndex="885" formatType="1" />
+			<field index="891" srcIndex="887" formatType="1" />
+			<field index="892" srcIndex="888" formatType="1" />
+			<field index="893" srcIndex="889" formatType="1" />
+			<field index="894" srcIndex="890" formatType="1" />
+			<field index="896" srcIndex="892" formatType="1" />
+			<field index="898" srcIndex="894" formatType="1" />
+			<field index="900" srcIndex="896" formatType="1" />
+			<field index="1093" srcIndex="1089" formatType="1" />
+			<field index="1160" srcIndex="1156" formatType="1" />
+			<field index="1161" srcIndex="1157" formatType="1" />
+			<field index="1162" srcIndex="1158" formatType="1" />
+			<field index="1163" srcIndex="1159" formatType="1" />
+			<field index="1165" srcIndex="1161" formatType="1" />
+			<field index="1167" srcIndex="1163" formatType="1" />
+
+			</fields>
+		</templet>
+		
+		<!--  AR  minIndex =1691  maxIndex = 1569   -->
+		<templet id="111" startRegex="MSCOT " num="1"
+			endRegex="ESIDOT " ignore="false">
+			<fields startRegex="MSCOT " fieldSize="105" num="1"
+				endRegex="ESIDOT ">
+				<field index="1691" srcIndex="1" formatType="1" />
+				<field index="1692" srcIndex="2" formatType="1" />
+				<field index="1693" srcIndex="3" formatType="1" />
+				<field index="1694" srcIndex="4" formatType="1" />
+				<field index="1695" srcIndex="5" formatType="1" />
+				<field index="1696" srcIndex="6" formatType="1" />
+				<field index="1697" srcIndex="7" formatType="1" />
+				<field index="1698" srcIndex="8" formatType="1" />
+				<field index="1699" srcIndex="9" formatType="1" />
+				<field index="1700" srcIndex="10" formatType="1" />
+				<field index="1701" srcIndex="11" formatType="1" />
+				<field index="1702" srcIndex="12" formatType="1" />
+				<field index="1703" srcIndex="13" formatType="1" />
+				<field index="1704" srcIndex="14" formatType="1" />
+				<field index="1705" srcIndex="15" formatType="1" /> 
+				<field index="1706" srcIndex="16" formatType="1" /> 
+				<field index="1707" srcIndex="17" formatType="1" /> 
+				<field index="1708" srcIndex="18" formatType="1" /> 
+				<field index="1709" srcIndex="19" formatType="1" /> 
+				<field index="1710" srcIndex="20" formatType="1" /> 
+				<field index="1711" srcIndex="21" formatType="1" /> 
+				<field index="1712" srcIndex="22" formatType="1" /> 
+				<field index="1713" srcIndex="23" formatType="1" /> 
+				<field index="1714" srcIndex="24" formatType="1" />
+				<field index="1715" srcIndex="25" formatType="1" />
+				<field index="1716" srcIndex="26" formatType="1" />
+				<field index="1717" srcIndex="27" formatType="1" />
+				<field index="1718" srcIndex="28" formatType="1" />
+				<field index="1719" srcIndex="29" formatType="1" /> 
+				<field index="1720" srcIndex="30" formatType="1" /> 
+				<field index="1721" srcIndex="31" formatType="1" /> 
+				<field index="1722" srcIndex="32" formatType="1" /> 
+				<field index="1723" srcIndex="33" formatType="1" /> 
+				<field index="1724" srcIndex="34" formatType="1" /> 
+				<field index="1725" srcIndex="35" formatType="1" /> 
+				<field index="1726" srcIndex="36" formatType="1" /> 
+				<field index="1727" srcIndex="37" formatType="1" /> 
+				<field index="1728" srcIndex="38" formatType="1" />
+				<field index="1729" srcIndex="39" formatType="1" />
+				<field index="1730" srcIndex="40" formatType="1" />
+				<field index="1731" srcIndex="41" formatType="1" />
+				<field index="1732" srcIndex="42" formatType="1" />
+				<field index="1733" srcIndex="43" formatType="1" /> 
+				<field index="1734" srcIndex="44" formatType="1" /> 
+				<field index="1735" srcIndex="45" formatType="1" /> 
+				<field index="1736" srcIndex="46" formatType="1" /> 
+				<field index="1737" srcIndex="47" formatType="1" /> 
+				<field index="1738" srcIndex="48" formatType="1" /> 
+				<field index="1739" srcIndex="49" formatType="1" /> 
+				<field index="1740" srcIndex="50" formatType="1" /> 
+				<field index="1741" srcIndex="51" formatType="1" /> 
+				<field index="1742" srcIndex="52" formatType="1" />
+				<field index="1743" srcIndex="53" formatType="1" />
+				<field index="1744" srcIndex="54" formatType="1" />
+				<field index="1745" srcIndex="55" formatType="1" />
+				<field index="1746" srcIndex="56" formatType="1" />
+				<field index="1747" srcIndex="57" formatType="1" /> 
+				<field index="1748" srcIndex="58" formatType="1" /> 
+				<field index="1749" srcIndex="59" formatType="1" /> 
+				<field index="1750" srcIndex="60" formatType="1" /> 
+				<field index="1751" srcIndex="61" formatType="1" /> 
+				<field index="1752" srcIndex="62" formatType="1" /> 
+				<field index="1753" srcIndex="63" formatType="1" /> 
+				<field index="1754" srcIndex="64" formatType="1" /> 
+				<field index="1755" srcIndex="65" formatType="1" /> 
+				<field index="1756" srcIndex="66" formatType="1" />
+				<field index="1757" srcIndex="67" formatType="1" />
+				<field index="1758" srcIndex="68" formatType="1" />
+				<field index="1759" srcIndex="69" formatType="1" />
+				<field index="1760" srcIndex="70" formatType="1" />
+				<field index="1761" srcIndex="71" formatType="1" /> 
+				<field index="1762" srcIndex="72" formatType="1" /> 
+				<field index="1763" srcIndex="73" formatType="1" /> 
+				<field index="1764" srcIndex="74" formatType="1" /> 
+				<field index="1765" srcIndex="75" formatType="1" /> 
+				<field index="1766" srcIndex="76" formatType="1" /> 
+				<field index="1767" srcIndex="77" formatType="1" /> 
+				<field index="1768" srcIndex="78" formatType="1" /> 
+				<field index="1769" srcIndex="79" formatType="1" /> 
+				<field index="1770" srcIndex="80" formatType="1" />
+				<field index="1771" srcIndex="81" formatType="1" />
+				<field index="1772" srcIndex="82" formatType="1" />
+				<field index="1773" srcIndex="83" formatType="1" />
+				<field index="1774" srcIndex="84" formatType="1" />
+				<field index="1775" srcIndex="85" formatType="1" /> 
+				<field index="1776" srcIndex="86" formatType="1" /> 
+				<field index="1777" srcIndex="87" formatType="1" /> 
+				<field index="1778" srcIndex="88" formatType="1" /> 
+				<field index="1779" srcIndex="89" formatType="1" /> 
+				<field index="1780" srcIndex="90" formatType="1" /> 
+				<field index="1781" srcIndex="91" formatType="1" /> 
+				<field index="1782" srcIndex="92" formatType="1" /> 
+				<field index="1783" srcIndex="93" formatType="1" /> 
+				<field index="1784" srcIndex="94" formatType="1" />
+				<field index="1785" srcIndex="95" formatType="1" />
+				<field index="1786" srcIndex="96" formatType="1" />
+				<field index="1787" srcIndex="97" formatType="1" />
+				<field index="1788" srcIndex="98" formatType="1" />
+				<field index="1789" srcIndex="99" formatType="1" /> 
+				<field index="1790" srcIndex="100" formatType="1" /> 
+				<field index="1791" srcIndex="101" formatType="1" /> 
+				<field index="1792" srcIndex="102" formatType="1" /> 
+				<field index="1793" srcIndex="103" formatType="1" /> 
+				<field index="1794" srcIndex="104" formatType="1" /> 
+				<field index="1795" srcIndex="105" formatType="1" />
+				
+			</fields>
+		</templet>
+
+		<!-- CL minIndex =1278  maxIndex = 1277 -->
+		<templet id="12" startRegex="CL\d" num="n" endRegex="这个是没完没了的"
+			ignore="true">
+			<!-- 开始的公共内容  minIndex =1278  maxIndex = 1278 -->
+			<publicFields startRegex="CL" fieldSize="1" num="1">
+				<!-- CELL id -->
+				<field index="1278" srcIndex="0" formatType="4004" />
+			</publicFields>
+			
+			<!-- AGGR-S minIndex =1279  maxIndex = 1372   -->
+			<templet id="121" startRegex="AGGR-S" num="n" endRegex="CL\d|  AGGR-L">
+				<fields startRegex="AGGR-S" fieldSize="95" num="1"
+					endRegex="CL\d|  AGGR-L">
+					<field index="1279" srcIndex="1" formatType="1" />
+					<field index="1280" srcIndex="2" formatType="1" />
+					<field index="1281" srcIndex="3" formatType="1" />
+					<field index="1282" srcIndex="4" formatType="1" />
+					<field index="1283" srcIndex="5" formatType="1" />
+					<field index="1284" srcIndex="6" formatType="1" />
+					<field index="1285" srcIndex="7" formatType="1" />
+					<field index="1286" srcIndex="8" formatType="1" />
+					<field index="1287" srcIndex="9" formatType="1" />
+					<field index="1288" srcIndex="10" formatType="1" />
+					<field index="1289" srcIndex="11" formatType="1" />
+					<field index="1290" srcIndex="12" formatType="1" />
+					<field index="1291" srcIndex="13" formatType="1" />
+					<field index="1292" srcIndex="14" formatType="1" />
+					<field index="1293" srcIndex="15" formatType="1" />
+					<field index="1294" srcIndex="16" formatType="1" />
+					<field index="1295" srcIndex="17" formatType="1" />
+					<field index="1296" srcIndex="18" formatType="1" />
+					<field index="1297" srcIndex="19" formatType="1" />
+					<field index="1298" srcIndex="20" formatType="1" />
+					<field index="1299" srcIndex="21" formatType="1" />
+					<field index="1300" srcIndex="22" formatType="1" />
+					<field index="1301" srcIndex="23" formatType="1" />
+					<field index="1302" srcIndex="24" formatType="1" />
+					<field index="1303" srcIndex="25" formatType="1" />
+					<field index="1304" srcIndex="26" formatType="1" />
+					<field index="1305" srcIndex="27" formatType="1" />
+					<field index="1306" srcIndex="28" formatType="1" />
+					<field index="1307" srcIndex="29" formatType="1" />
+					<field index="1308" srcIndex="30" formatType="1" />
+					<field index="1309" srcIndex="31" formatType="1" />
+					<field index="1310" srcIndex="32" formatType="1" />
+					<field index="1311" srcIndex="33" formatType="1" />
+					<field index="1312" srcIndex="34" formatType="1" />
+					<field index="1313" srcIndex="35" formatType="1" />
+					<field index="1314" srcIndex="36" formatType="1" />
+					<field index="1315" srcIndex="37" formatType="1" />
+					<field index="1316" srcIndex="38" formatType="1" />
+					<field index="1317" srcIndex="39" formatType="1" />
+					<field index="1318" srcIndex="40" formatType="1" />
+					<field index="1319" srcIndex="41" formatType="1" />
+					<field index="1320" srcIndex="42" formatType="1" />
+					<field index="1321" srcIndex="43" formatType="1" />
+					<field index="1322" srcIndex="44" formatType="1" />
+					<field index="1323" srcIndex="45" formatType="1" />
+					<field index="1324" srcIndex="46" formatType="1" />
+					<field index="1325" srcIndex="47" formatType="1" />
+					<field index="1326" srcIndex="48" formatType="1" />
+					<field index="1327" srcIndex="49" formatType="1" />
+					<field index="1328" srcIndex="50" formatType="1" />
+					<field index="1329" srcIndex="51" formatType="1" />
+					<field index="1330" srcIndex="52" formatType="1" />
+					<field index="1331" srcIndex="53" formatType="1" />
+					<field index="1332" srcIndex="54" formatType="1" />
+					<field index="1333" srcIndex="55" formatType="1" />
+					<field index="1334" srcIndex="56" formatType="1" />
+					<field index="1335" srcIndex="57" formatType="1" />
+					<field index="1336" srcIndex="58" formatType="1" />
+					<field index="1337" srcIndex="59" formatType="1" />
+					<field index="1338" srcIndex="60" formatType="1" />
+					<field index="1339" srcIndex="61" formatType="1" />
+					<field index="1340" srcIndex="62" formatType="1" />
+					<field index="1341" srcIndex="63" formatType="1" />
+					<field index="1342" srcIndex="64" formatType="1" />
+					<field index="1343" srcIndex="65" formatType="1" />
+					<field index="1344" srcIndex="66" formatType="1" />
+					<field index="1345" srcIndex="67" formatType="1" />
+					<field index="1346" srcIndex="68" formatType="1" />
+					<field index="1347" srcIndex="69" formatType="1" />
+					<field index="1348" srcIndex="70" formatType="1" />
+					<field index="1349" srcIndex="71" formatType="1" />
+					<field index="1350" srcIndex="72" formatType="1" />
+					<field index="1351" srcIndex="73" formatType="1" />
+					<field index="1352" srcIndex="74" formatType="1" />
+					<field index="1353" srcIndex="75" formatType="1" />
+					<field index="1354" srcIndex="76" formatType="1" />
+					<field index="1355" srcIndex="77" formatType="1" />
+					<field index="1356" srcIndex="78" formatType="1" />
+					<field index="1357" srcIndex="79" formatType="1" />
+					<field index="1358" srcIndex="80" formatType="1" />
+					<field index="1359" srcIndex="81" formatType="1" />
+					<field index="1360" srcIndex="82" formatType="1" />
+					<field index="1361" srcIndex="83" formatType="1" />
+					<field index="1362" srcIndex="84" formatType="1" />
+					<field index="1363" srcIndex="85" formatType="1" />
+					<field index="1364" srcIndex="86" formatType="1" />
+					<field index="1365" srcIndex="87" formatType="1" />
+					<field index="1366" srcIndex="88" formatType="1" />
+					<field index="1367" srcIndex="89" formatType="1" />
+					<field index="1368" srcIndex="90" formatType="1" />
+					<field index="1369" srcIndex="91" formatType="1" />
+					<field index="1370" srcIndex="92" formatType="1" />
+					<field index="1371" srcIndex="93" formatType="1" />
+					<field index="1372" srcIndex="94" formatType="1" />
+				</fields>
+			</templet>
+
+			<!--  CDMA-CS   -->
+			<!--  CDMA-CS    minIndex =1373  maxIndex = 1471   -->
+			<templet id="122" startRegex=" CDMA-CS  " num="n"
+				endRegex=" CDMA-CS-L|CL\d">
+				<fields startRegex=" CDMA-CS  " fieldSize="100" num="1">
+					<field index="1373" srcIndex="1" formatType="1" />
+					<field index="1374" srcIndex="2" formatType="1" />
+					<field index="1375" srcIndex="3" formatType="1" />
+					<field index="1376" srcIndex="4" formatType="1" />
+					<field index="1377" srcIndex="5" formatType="1" />
+					<field index="1378" srcIndex="6" formatType="1" />
+					<field index="1379" srcIndex="7" formatType="1" />
+					<field index="1380" srcIndex="8" formatType="1" />
+					<field index="1381" srcIndex="9" formatType="1" />
+					<field index="1382" srcIndex="10" formatType="1" />
+					<field index="1383" srcIndex="11" formatType="1" />
+					<field index="1384" srcIndex="12" formatType="1" />
+					<field index="1385" srcIndex="13" formatType="1" />
+					<field index="1386" srcIndex="14" formatType="1" />
+					<field index="1387" srcIndex="15" formatType="1" />
+					<field index="1388" srcIndex="16" formatType="1" />
+					<field index="1389" srcIndex="17" formatType="1" />
+					<field index="1390" srcIndex="18" formatType="1" />
+					<field index="1391" srcIndex="19" formatType="1" />
+					<field index="1392" srcIndex="20" formatType="1" />
+					<field index="1393" srcIndex="21" formatType="1" />
+					<field index="1394" srcIndex="22" formatType="1" />
+					<field index="1395" srcIndex="23" formatType="1" />
+					<field index="1396" srcIndex="24" formatType="1" />
+					<field index="1397" srcIndex="25" formatType="1" />
+					<field index="1398" srcIndex="26" formatType="1" />
+					<field index="1399" srcIndex="27" formatType="1" />
+					<field index="1400" srcIndex="28" formatType="1" />
+					<field index="1401" srcIndex="29" formatType="1" />
+					<field index="1402" srcIndex="30" formatType="1" />
+					<field index="1403" srcIndex="31" formatType="1" />
+					<field index="1404" srcIndex="32" formatType="1" />
+					<field index="1405" srcIndex="33" formatType="1" />
+					<field index="1406" srcIndex="34" formatType="1" />
+					<field index="1407" srcIndex="35" formatType="1" />
+					<field index="1408" srcIndex="36" formatType="1" />
+					<field index="1409" srcIndex="37" formatType="1" />
+					<field index="1410" srcIndex="38" formatType="1" />
+					<field index="1411" srcIndex="39" formatType="1" />
+					<field index="1412" srcIndex="40" formatType="1" />
+					<field index="1413" srcIndex="41" formatType="1" />
+					<field index="1414" srcIndex="42" formatType="1" />
+					<field index="1415" srcIndex="43" formatType="1" />
+					<field index="1416" srcIndex="44" formatType="1" />
+					<field index="1417" srcIndex="45" formatType="1" />
+					<field index="1418" srcIndex="46" formatType="1" />
+					<field index="1419" srcIndex="47" formatType="1" />
+					<field index="1420" srcIndex="48" formatType="1" />
+					<field index="1421" srcIndex="49" formatType="1" />
+					<field index="1422" srcIndex="50" formatType="1" />
+					<field index="1423" srcIndex="51" formatType="1" />
+					<field index="1424" srcIndex="52" formatType="1" />
+					<field index="1425" srcIndex="53" formatType="1" />
+					<field index="1426" srcIndex="54" formatType="1" />
+					<field index="1427" srcIndex="55" formatType="1" />
+					<field index="1428" srcIndex="56" formatType="1" />
+					<field index="1429" srcIndex="57" formatType="1" />
+					<field index="1430" srcIndex="58" formatType="1" />
+					<field index="1431" srcIndex="59" formatType="1" />
+					<field index="1432" srcIndex="60" formatType="1" />
+					<field index="1433" srcIndex="61" formatType="1" />
+					<field index="1434" srcIndex="62" formatType="1" />
+					<field index="1435" srcIndex="63" formatType="1" />
+					<field index="1436" srcIndex="64" formatType="1" />
+					<field index="1437" srcIndex="65" formatType="1" />
+					<field index="1438" srcIndex="66" formatType="1" />
+					<field index="1439" srcIndex="67" formatType="1" />
+					<field index="1440" srcIndex="68" formatType="1" />
+					<field index="1441" srcIndex="69" formatType="1" />
+					<field index="1442" srcIndex="70" formatType="1" />
+					<field index="1443" srcIndex="71" formatType="1" />
+					<field index="1444" srcIndex="72" formatType="1" />
+					<field index="1445" srcIndex="73" formatType="1" />
+					<field index="1446" srcIndex="74" formatType="1" />
+					<field index="1447" srcIndex="75" formatType="1" />
+					<field index="1448" srcIndex="76" formatType="1" />
+					<field index="1449" srcIndex="77" formatType="1" />
+					<field index="1450" srcIndex="78" formatType="1" />
+					<field index="1451" srcIndex="79" formatType="1" />
+					<field index="1452" srcIndex="80" formatType="1" />
+					<field index="1453" srcIndex="81" formatType="1" />
+					<field index="1454" srcIndex="82" formatType="1" />
+					<field index="1455" srcIndex="83" formatType="1" />
+					<field index="1456" srcIndex="84" formatType="1" />
+					<field index="1457" srcIndex="85" formatType="1" />
+					<field index="1458" srcIndex="86" formatType="1" />
+					<field index="1459" srcIndex="87" formatType="1" />
+					<field index="1460" srcIndex="88" formatType="1" />
+					<field index="1461" srcIndex="89" formatType="1" />
+					<field index="1462" srcIndex="90" formatType="1" />
+					<field index="1463" srcIndex="91" formatType="1" />
+					<field index="1464" srcIndex="92" formatType="1" />
+					<field index="1465" srcIndex="93" formatType="1" />
+					<field index="1466" srcIndex="94" formatType="1" />
+					<field index="1467" srcIndex="95" formatType="1" />
+					<field index="1468" srcIndex="96" formatType="1" />
+					<field index="1469" srcIndex="97" formatType="1" />
+					<field index="1470" srcIndex="98" formatType="1" />
+					<field index="1471" srcIndex="99" formatType="1" />
+				</fields>
+			</templet>
+
+			<!--  CDMA-CS-L -->
+			<!--  CDMA-CS-L   minIndex =1472  maxIndex = "1476"   -->
+			<templet id="123" startRegex=" CDMA-CS-L" num="n" endRegex=" DS-AMPS|CL\d">
+				<fields startRegex=" CDMA-CS-L" fieldSize="5" num="1">
+					<field index="1472" srcIndex="1" formatType="1" />
+					<field index="1473" srcIndex="2" formatType="1" />
+					<field index="1474" srcIndex="3" formatType="1" />
+					<field index="1475" srcIndex="4" formatType="1" />
+					<field index="1476" srcIndex="5" formatType="1" />
+				</fields>
+			</templet>
+
+			<!--   CDMA-PAF -->
+			<!--   CDMA-PAF  minIndex =1477  maxIndex = 1558   -->
+			<templet id="124" startRegex=" CDMA-PAF$" num="n"
+				endRegex=" CDMA-PAF-L|CL\d" ignore="true">
+				<!--     SECT  -->
+				<!--     SECT   minIndex =1472  maxIndex = 1372   -->
+				<templet id="1241" startRegex="  SECT " num="n"
+					endRegex=" CDMA-PAF-L|CL| DS-AMPS">
+					<fields startRegex="  SECT " fieldSize="82" num="n"
+						endRegex=" CDMA-PAF-L|CL| DS-AMPS">
+						<field index="1477" srcIndex="2" formatType="1" />
+						<field index="1478" srcIndex="3" formatType="1" />
+						<field index="1479" srcIndex="4" formatType="1" />
+						<field index="1480" srcIndex="5" formatType="1" />
+						<field index="1481" srcIndex="6" formatType="1" />
+						<field index="1482" srcIndex="7" formatType="1" />
+						<field index="1483" srcIndex="8" formatType="1" />
+						<field index="1484" srcIndex="9" formatType="1" />
+						<field index="1485" srcIndex="10" formatType="1" />
+						<field index="1486" srcIndex="11" formatType="1" />
+						<field index="1487" srcIndex="12" formatType="1" />
+						<field index="1488" srcIndex="13" formatType="1" />
+						<field index="1489" srcIndex="14" formatType="1" />
+						<field index="1490" srcIndex="15" formatType="1" />
+						<field index="1491" srcIndex="16" formatType="1" />
+						<field index="1492" srcIndex="17" formatType="1" />
+						<field index="1493" srcIndex="18" formatType="1" />
+						<field index="1494" srcIndex="19" formatType="1" />
+						<field index="1495" srcIndex="20" formatType="1" />
+						<field index="1496" srcIndex="21" formatType="1" />
+						<field index="1497" srcIndex="22" formatType="1" />
+						<field index="1498" srcIndex="23" formatType="1" />
+						<field index="1499" srcIndex="24" formatType="1" />
+						<field index="1500" srcIndex="25" formatType="1" />
+						<field index="1501" srcIndex="26" formatType="1" />
+						<field index="1502" srcIndex="27" formatType="1" />
+						<field index="1503" srcIndex="28" formatType="1" />
+						<field index="1504" srcIndex="29" formatType="1" />
+						<field index="1505" srcIndex="30" formatType="1" />
+						<field index="1506" srcIndex="31" formatType="1" />
+						<field index="1507" srcIndex="32" formatType="1" />
+						<field index="1508" srcIndex="33" formatType="1" />
+						<field index="1509" srcIndex="34" formatType="1" />
+						<field index="1510" srcIndex="35" formatType="1" />
+						<field index="1511" srcIndex="36" formatType="1" />
+						<field index="1512" srcIndex="37" formatType="1" />
+						<field index="1513" srcIndex="38" formatType="1" />
+						<field index="1514" srcIndex="39" formatType="1" />
+						<field index="1515" srcIndex="40" formatType="1" />
+						<field index="1516" srcIndex="41" formatType="1" />
+						<field index="1517" srcIndex="42" formatType="1" />
+						<field index="1518" srcIndex="43" formatType="1" />
+						<field index="1519" srcIndex="44" formatType="1" />
+						<field index="1520" srcIndex="45" formatType="1" />
+						<field index="1521" srcIndex="46" formatType="1" />
+						<field index="1522" srcIndex="47" formatType="1" />
+						<field index="1523" srcIndex="48" formatType="1" />
+						<field index="1524" srcIndex="49" formatType="1" />
+						<field index="1525" srcIndex="50" formatType="1" />
+						<field index="1526" srcIndex="51" formatType="1" />
+						<field index="1527" srcIndex="52" formatType="1" />
+						<field index="1528" srcIndex="53" formatType="1" />
+						<field index="1529" srcIndex="54" formatType="1" />
+						<field index="1530" srcIndex="55" formatType="1" />
+						<field index="1531" srcIndex="56" formatType="1" />
+						<field index="1532" srcIndex="57" formatType="1" />
+						<field index="1533" srcIndex="58" formatType="1" />
+						<field index="1534" srcIndex="59" formatType="1" />
+						<field index="1535" srcIndex="60" formatType="1" />
+						<field index="1536" srcIndex="61" formatType="1" />
+						<field index="1537" srcIndex="62" formatType="1" />
+						<field index="1538" srcIndex="63" formatType="1" />
+						<field index="1539" srcIndex="64" formatType="1" />
+						<field index="1540" srcIndex="65" formatType="1" />
+						<field index="1541" srcIndex="66" formatType="1" />
+						<field index="1542" srcIndex="67" formatType="1" />
+						<field index="1543" srcIndex="68" formatType="1" />
+						<field index="1544" srcIndex="69" formatType="1" />
+						<field index="1545" srcIndex="70" formatType="1" />
+						<field index="1546" srcIndex="71" formatType="1" />
+						<field index="1547" srcIndex="72" formatType="1" />
+						<field index="1548" srcIndex="73" formatType="1" />
+						<field index="1549" srcIndex="74" formatType="1" />
+						<field index="1550" srcIndex="75" formatType="1" />
+						<field index="1551" srcIndex="76" formatType="1" />
+						<field index="1552" srcIndex="77" formatType="1" />
+						<field index="1553" srcIndex="78" formatType="1" />
+						<field index="1554" srcIndex="79" formatType="1" />
+						<field index="1555" srcIndex="80" formatType="1" />
+						<field index="1556" srcIndex="81" formatType="1" />
+						<field index="1557" srcIndex="82" formatType="1" />
+						<!-- sect -->
+						<field index="1558" srcIndex="1" formatType="1" />
+					</fields>
+				</templet>
+			</templet>
+
+
+			<!--  CDMA-CARR  minIndex =1559  maxIndex = 1569   -->
+			<templet id="125" startRegex=" CDMA-CARR$" num="n"
+				endRegex=" CDMA-PAF-CARR|CL\d" ignore="false">
+				<fields startRegex="  CARR " fieldSize="12" num="n"
+					endRegex=" CDMA-PAF-CARR|CL\d">
+					<!-- carr -->
+					<field index="1559" srcIndex="1" formatType="1" />
+
+					<field index="1560" srcIndex="2" formatType="1" />
+					<field index="1561" srcIndex="3" formatType="1" />
+					<field index="1562" srcIndex="4" formatType="1" />
+					<field index="1563" srcIndex="5" formatType="1" />
+					<field index="1564" srcIndex="6" formatType="1" />
+					<field index="1565" srcIndex="7" formatType="1" />
+					<field index="1566" srcIndex="8" formatType="1" />
+					<field index="1567" srcIndex="9" formatType="1" />
+					<field index="1568" srcIndex="10" formatType="1" />
+					<field index="1569" srcIndex="11" formatType="1" />
+				</fields>
+			</templet>
+
+			<!--   CDMA-PAF-CARR     -->
+			<templet id="130" startRegex=" CDMA-PAF-CARR$" num="n"
+				endRegex="CDMA-PAF-CARR-L$|CL\d" ignore="true">
+
+				<templet id="1301" startRegex="SECT \d\d" num="n"
+					endRegex="CDMA-PAF-CARR-L$|CL\d" ignore="false">
+					<!-- sect-->
+					<publicFields startRegex="SECT \d\d" fieldSize="2"
+						num="1">
+						<field index="1301001" srcIndex="1" formatType="1" />
+					</publicFields>
+
+					<fields startRegex="CARR " fieldSize="345" num="n"
+						endRegex="CDMA-PAF-CARR-L$|CL\d|SECT">
+						<!-- carr -->
+						<field index="1301002" srcIndex="1" formatType="1" />
+
+						<!--  -->
+						<field index="1301003" srcIndex="2" formatType="1" />
+						<field index="1301004" srcIndex="3" formatType="1" />
+						<field index="1301005" srcIndex="4" formatType="1" />
+						<field index="1301006" srcIndex="5" formatType="1" />
+						<field index="1301007" srcIndex="6" formatType="1" />
+						<field index="1301008" srcIndex="7" formatType="1" />
+						<field index="1301009" srcIndex="8" formatType="1" />
+						<field index="1301010" srcIndex="9" formatType="1" />
+						<field index="1301011" srcIndex="10" formatType="1" />
+						<field index="1301012" srcIndex="11" formatType="1" />
+						<field index="1301013" srcIndex="12" formatType="1" />
+						<field index="1301014" srcIndex="13" formatType="1" />
+						<field index="1301015" srcIndex="14" formatType="1" />
+						<field index="1301016" srcIndex="15" formatType="1" />
+						<field index="1301017" srcIndex="16" formatType="1" />
+						<field index="1301018" srcIndex="17" formatType="1" />
+						<field index="1301019" srcIndex="18" formatType="1" />
+						<field index="1301020" srcIndex="19" formatType="1" />
+						<field index="1301021" srcIndex="20" formatType="1" />
+						<field index="1301022" srcIndex="21" formatType="1" />
+						<field index="1301023" srcIndex="22" formatType="1" />
+						<field index="1301024" srcIndex="23" formatType="1" />
+						<field index="1301025" srcIndex="24" formatType="1" />
+						<field index="1301026" srcIndex="25" formatType="1" />
+						<field index="1301027" srcIndex="26" formatType="1" />
+						<field index="1301028" srcIndex="27" formatType="1" />
+						<field index="1301029" srcIndex="28" formatType="1" />
+						<field index="1301030" srcIndex="29" formatType="1" />
+						<field index="1301031" srcIndex="30" formatType="1" />
+						<field index="1301032" srcIndex="31" formatType="1" />
+						<field index="1301033" srcIndex="32" formatType="1" />
+						<field index="1301034" srcIndex="33" formatType="1" />
+						<field index="1301035" srcIndex="34" formatType="1" />
+						<field index="1301036" srcIndex="35" formatType="1" />
+						<field index="1301037" srcIndex="36" formatType="1" />
+						<field index="1301038" srcIndex="37" formatType="1" />
+						<field index="1301039" srcIndex="38" formatType="1" />
+						<field index="1301040" srcIndex="39" formatType="1" />
+						<field index="1301041" srcIndex="40" formatType="1" />
+						<field index="1301042" srcIndex="41" formatType="1" />
+						<field index="1301043" srcIndex="42" formatType="1" />
+						<field index="1301044" srcIndex="43" formatType="1" />
+						<field index="1301045" srcIndex="44" formatType="1" />
+						<field index="1301046" srcIndex="45" formatType="1" />
+						<field index="1301047" srcIndex="46" formatType="1" />
+						<field index="1301048" srcIndex="47" formatType="1" />
+						<field index="1301049" srcIndex="48" formatType="1" />
+						<field index="1301050" srcIndex="49" formatType="1" />
+						<field index="1301051" srcIndex="50" formatType="1" />
+						<field index="1301052" srcIndex="51" formatType="1" />
+						<field index="1301053" srcIndex="52" formatType="1" />
+						<field index="1301054" srcIndex="53" formatType="1" />
+						<field index="1301055" srcIndex="54" formatType="1" />
+						<field index="1301056" srcIndex="55" formatType="1" />
+						<field index="1301057" srcIndex="56" formatType="1" />
+						<field index="1301058" srcIndex="57" formatType="1" />
+						<field index="1301059" srcIndex="58" formatType="1" />
+						<field index="1301060" srcIndex="59" formatType="1" />
+						<field index="1301061" srcIndex="60" formatType="1" />
+						<field index="1301062" srcIndex="61" formatType="1" />
+						<field index="1301063" srcIndex="62" formatType="1" />
+						<field index="1301064" srcIndex="63" formatType="1" />
+						<field index="1301065" srcIndex="64" formatType="1" />
+						<field index="1301066" srcIndex="65" formatType="1" />
+						<field index="1301067" srcIndex="66" formatType="1" />
+						<field index="1301068" srcIndex="67" formatType="1" />
+						<field index="1301069" srcIndex="68" formatType="1" />
+						<field index="1301070" srcIndex="69" formatType="1" />
+						<field index="1301071" srcIndex="70" formatType="1" />
+						<field index="1301072" srcIndex="71" formatType="1" />
+						<field index="1301073" srcIndex="72" formatType="1" />
+						<field index="1301074" srcIndex="73" formatType="1" />
+						<field index="1301075" srcIndex="74" formatType="1" />
+						<field index="1301076" srcIndex="75" formatType="1" />
+						<field index="1301077" srcIndex="76" formatType="1" />
+						<field index="1301078" srcIndex="77" formatType="1" />
+						<field index="1301079" srcIndex="78" formatType="1" />
+						<field index="1301080" srcIndex="79" formatType="1" />
+						<field index="1301081" srcIndex="80" formatType="1" />
+						<field index="1301082" srcIndex="81" formatType="1" />
+						<field index="1301083" srcIndex="82" formatType="1" />
+						<field index="1301084" srcIndex="83" formatType="1" />
+						<field index="1301085" srcIndex="84" formatType="1" />
+						<field index="1301086" srcIndex="85" formatType="1" />
+						<field index="1301087" srcIndex="86" formatType="1" />
+						<field index="1301088" srcIndex="87" formatType="1" />
+						<field index="1301089" srcIndex="88" formatType="1" />
+						<field index="1301090" srcIndex="89" formatType="1" />
+						<field index="1301091" srcIndex="90" formatType="1" />
+						<field index="1301092" srcIndex="91" formatType="1" />
+						<field index="1301093" srcIndex="92" formatType="1" />
+						<field index="1301094" srcIndex="93" formatType="1" />
+						<field index="1301095" srcIndex="94" formatType="1" />
+						<field index="1301096" srcIndex="95" formatType="1" />
+						<field index="1301097" srcIndex="96" formatType="1" />
+						<field index="1301098" srcIndex="97" formatType="1" />
+						<field index="1301099" srcIndex="98" formatType="1" />
+						<field index="1301100" srcIndex="99" formatType="1" />
+						<field index="1301101" srcIndex="100" formatType="1" />
+						<field index="1301102" srcIndex="101" formatType="1" />
+						<field index="1301103" srcIndex="102" formatType="1" />
+						<field index="1301104" srcIndex="103" formatType="1" />
+						<field index="1301105" srcIndex="104" formatType="1" />
+						<field index="1301106" srcIndex="105" formatType="1" />
+						<field index="1301107" srcIndex="106" formatType="1" />
+						<field index="1301108" srcIndex="107" formatType="1" />
+						<field index="1301109" srcIndex="108" formatType="1" />
+						<field index="1301110" srcIndex="109" formatType="1" />
+						<field index="1301111" srcIndex="110" formatType="1" />
+						<field index="1301112" srcIndex="111" formatType="1" />
+						<field index="1301113" srcIndex="112" formatType="1" />
+						<field index="1301114" srcIndex="113" formatType="1" />
+						<field index="1301115" srcIndex="114" formatType="1" />
+						<field index="1301116" srcIndex="115" formatType="1" />
+						<field index="1301117" srcIndex="116" formatType="1" />
+						<field index="1301118" srcIndex="117" formatType="1" />
+						<field index="1301119" srcIndex="118" formatType="1" />
+						<field index="1301120" srcIndex="119" formatType="1" />
+						<field index="1301121" srcIndex="120" formatType="1" />
+						<field index="1301122" srcIndex="121" formatType="1" />
+						<field index="1301123" srcIndex="122" formatType="1" />
+						<field index="1301124" srcIndex="123" formatType="1" />
+						<field index="1301125" srcIndex="124" formatType="1" />
+						<field index="1301126" srcIndex="125" formatType="1" />
+						<field index="1301127" srcIndex="126" formatType="1" />
+						<field index="1301128" srcIndex="127" formatType="1" />
+						<field index="1301129" srcIndex="128" formatType="1" />
+						<field index="1301130" srcIndex="129" formatType="1" />
+						<field index="1301131" srcIndex="130" formatType="1" />
+						<field index="1301132" srcIndex="131" formatType="1" />
+						<field index="1301133" srcIndex="132" formatType="1" />
+						<field index="1301134" srcIndex="133" formatType="1" />
+						<field index="1301135" srcIndex="134" formatType="1" />
+						<field index="1301136" srcIndex="135" formatType="1" />
+						<field index="1301137" srcIndex="136" formatType="1" />
+						<field index="1301138" srcIndex="137" formatType="1" />
+						<field index="1301139" srcIndex="138" formatType="1" />
+						<field index="1301140" srcIndex="139" formatType="1" />
+						<field index="1301141" srcIndex="140" formatType="1" />
+						<field index="1301142" srcIndex="141" formatType="1" />
+						<field index="1301143" srcIndex="142" formatType="1" />
+						<field index="1301144" srcIndex="143" formatType="1" />
+						<field index="1301145" srcIndex="144" formatType="1" />
+						<field index="1301146" srcIndex="145" formatType="1" />
+						<field index="1301147" srcIndex="146" formatType="1" />
+						<field index="1301148" srcIndex="147" formatType="1" />
+						<field index="1301149" srcIndex="148" formatType="1" />
+						<field index="1301150" srcIndex="149" formatType="1" />
+						<field index="1301151" srcIndex="150" formatType="1" />
+						<field index="1301152" srcIndex="151" formatType="1" />
+						<field index="1301153" srcIndex="152" formatType="1" />
+						<field index="1301154" srcIndex="153" formatType="1" />
+						<field index="1301155" srcIndex="154" formatType="1" />
+						<field index="1301156" srcIndex="155" formatType="1" />
+						<field index="1301157" srcIndex="156" formatType="1" />
+						<field index="1301158" srcIndex="157" formatType="1" />
+						<field index="1301159" srcIndex="158" formatType="1" />
+						<field index="1301160" srcIndex="159" formatType="1" />
+						<field index="1301161" srcIndex="160" formatType="1" />
+						<field index="1301162" srcIndex="161" formatType="1" />
+						<field index="1301163" srcIndex="162" formatType="1" />
+						<field index="1301164" srcIndex="163" formatType="1" />
+						<field index="1301165" srcIndex="164" formatType="1" />
+						<field index="1301166" srcIndex="165" formatType="1" />
+						<field index="1301167" srcIndex="166" formatType="1" />
+						<field index="1301168" srcIndex="167" formatType="1" />
+						<field index="1301169" srcIndex="168" formatType="1" />
+						<field index="1301170" srcIndex="169" formatType="1" />
+						<field index="1301171" srcIndex="170" formatType="1" />
+						<field index="1301172" srcIndex="171" formatType="1" />
+						<field index="1301173" srcIndex="172" formatType="1" />
+						<field index="1301174" srcIndex="173" formatType="1" />
+						<field index="1301175" srcIndex="174" formatType="1" />
+						<field index="1301176" srcIndex="175" formatType="1" />
+						<field index="1301177" srcIndex="176" formatType="1" />
+						<field index="1301178" srcIndex="177" formatType="1" />
+						<field index="1301179" srcIndex="178" formatType="1" />
+						<field index="1301180" srcIndex="179" formatType="1" />
+						<field index="1301181" srcIndex="180" formatType="1" />
+						<field index="1301182" srcIndex="181" formatType="1" />
+						<field index="1301183" srcIndex="182" formatType="1" />
+						<field index="1301184" srcIndex="183" formatType="1" />
+						<field index="1301185" srcIndex="184" formatType="1" />
+						<field index="1301186" srcIndex="185" formatType="1" />
+						<field index="1301187" srcIndex="186" formatType="1" />
+						<field index="1301188" srcIndex="187" formatType="1" />
+						<field index="1301189" srcIndex="188" formatType="1" />
+						<field index="1301190" srcIndex="189" formatType="1" />
+						<field index="1301191" srcIndex="190" formatType="1" />
+						<field index="1301192" srcIndex="191" formatType="1" />
+						<field index="1301193" srcIndex="192" formatType="1" />
+						<field index="1301194" srcIndex="193" formatType="1" />
+						<field index="1301195" srcIndex="194" formatType="1" />
+						<field index="1301196" srcIndex="195" formatType="1" />
+						<field index="1301197" srcIndex="196" formatType="1" />
+						<field index="1301198" srcIndex="197" formatType="1" />
+						<field index="1301199" srcIndex="198" formatType="1" />
+						<field index="1301200" srcIndex="199" formatType="1" />
+						<field index="1301201" srcIndex="200" formatType="1" />
+						<field index="1301202" srcIndex="201" formatType="1" />
+						<field index="1301203" srcIndex="202" formatType="1" />
+						<field index="1301204" srcIndex="203" formatType="1" />
+						<field index="1301205" srcIndex="204" formatType="1" />
+						<field index="1301206" srcIndex="205" formatType="1" />
+						<field index="1301207" srcIndex="206" formatType="1" />
+						<field index="1301208" srcIndex="207" formatType="1" />
+						<field index="1301209" srcIndex="208" formatType="1" />
+						<field index="1301210" srcIndex="209" formatType="1" />
+						<field index="1301211" srcIndex="210" formatType="1" />
+						<field index="1301212" srcIndex="211" formatType="1" />
+						<field index="1301213" srcIndex="212" formatType="1" />
+						<field index="1301214" srcIndex="213" formatType="1" />
+						<field index="1301215" srcIndex="214" formatType="1" />
+						<field index="1301216" srcIndex="215" formatType="1" />
+						<field index="1301217" srcIndex="216" formatType="1" />
+						<field index="1301218" srcIndex="217" formatType="1" />
+						<field index="1301219" srcIndex="218" formatType="1" />
+						<field index="1301220" srcIndex="219" formatType="1" />
+						<field index="1301221" srcIndex="220" formatType="1" />
+						<field index="1301222" srcIndex="221" formatType="1" />
+						<field index="1301223" srcIndex="222" formatType="1" />
+						<field index="1301224" srcIndex="223" formatType="1" />
+						<field index="1301225" srcIndex="224" formatType="1" />
+						<field index="1301226" srcIndex="225" formatType="1" />
+						<field index="1301227" srcIndex="226" formatType="1" />
+						<field index="1301228" srcIndex="227" formatType="1" />
+						<field index="1301229" srcIndex="228" formatType="1" />
+						<field index="1301230" srcIndex="229" formatType="1" />
+						<field index="1301231" srcIndex="230" formatType="1" />
+						<field index="1301232" srcIndex="231" formatType="1" />
+						<field index="1301233" srcIndex="232" formatType="1" />
+						<field index="1301234" srcIndex="233" formatType="1" />
+						<field index="1301235" srcIndex="234" formatType="1" />
+						<field index="1301236" srcIndex="235" formatType="1" />
+						<field index="1301237" srcIndex="236" formatType="1" />
+						<field index="1301238" srcIndex="237" formatType="1" />
+						<field index="1301239" srcIndex="238" formatType="1" />
+						<field index="1301240" srcIndex="239" formatType="1" />
+						<field index="1301241" srcIndex="240" formatType="1" />
+						<field index="1301242" srcIndex="241" formatType="1" />
+						<field index="1301243" srcIndex="242" formatType="1" />
+						<field index="1301244" srcIndex="243" formatType="1" />
+						<field index="1301245" srcIndex="244" formatType="1" />
+						<field index="1301246" srcIndex="245" formatType="1" />
+						<field index="1301247" srcIndex="246" formatType="1" />
+						<field index="1301248" srcIndex="247" formatType="1" />
+						<field index="1301249" srcIndex="248" formatType="1" />
+						<field index="1301250" srcIndex="249" formatType="1" />
+						<field index="1301251" srcIndex="250" formatType="1" />
+						<field index="1301252" srcIndex="251" formatType="1" />
+						<field index="1301253" srcIndex="252" formatType="1" />
+						<field index="1301254" srcIndex="253" formatType="1" />
+						<field index="1301255" srcIndex="254" formatType="1" />
+						<field index="1301256" srcIndex="255" formatType="1" />
+						<field index="1301257" srcIndex="256" formatType="1" />
+						<field index="1301258" srcIndex="257" formatType="1" />
+						<field index="1301259" srcIndex="258" formatType="1" />
+						<field index="1301260" srcIndex="259" formatType="1" />
+						<field index="1301261" srcIndex="260" formatType="1" />
+						<field index="1301262" srcIndex="261" formatType="1" />
+						<field index="1301263" srcIndex="262" formatType="1" />
+						<field index="1301264" srcIndex="263" formatType="1" />
+						<field index="1301265" srcIndex="264" formatType="1" />
+						<field index="1301266" srcIndex="265" formatType="1" />
+						<field index="1301267" srcIndex="266" formatType="1" />
+						<field index="1301268" srcIndex="267" formatType="1" />
+						<field index="1301269" srcIndex="268" formatType="1" />
+						<field index="1301270" srcIndex="269" formatType="1" />
+						<field index="1301271" srcIndex="270" formatType="1" />
+						<field index="1301272" srcIndex="271" formatType="1" />
+						<field index="1301273" srcIndex="272" formatType="1" />
+						<field index="1301274" srcIndex="273" formatType="1" />
+						<field index="1301275" srcIndex="274" formatType="1" />
+						<field index="1301276" srcIndex="275" formatType="1" />
+						<field index="1301277" srcIndex="276" formatType="1" />
+						<field index="1301278" srcIndex="277" formatType="1" />
+						<field index="1301279" srcIndex="278" formatType="1" />
+						<field index="1301280" srcIndex="279" formatType="1" />
+						<field index="1301281" srcIndex="280" formatType="1" />
+						<field index="1301282" srcIndex="281" formatType="1" />
+						<field index="1301283" srcIndex="282" formatType="1" />
+						<field index="1301284" srcIndex="283" formatType="1" />
+						<field index="1301285" srcIndex="284" formatType="1" />
+						<field index="1301286" srcIndex="285" formatType="1" />
+						<field index="1301287" srcIndex="286" formatType="1" />
+						<field index="1301288" srcIndex="287" formatType="1" />
+						<field index="1301289" srcIndex="288" formatType="1" />
+						<field index="1301290" srcIndex="289" formatType="1" />
+						<field index="1301291" srcIndex="290" formatType="1" />
+						<field index="1301292" srcIndex="291" formatType="1" />
+						<field index="1301293" srcIndex="292" formatType="1" />
+						<field index="1301294" srcIndex="293" formatType="1" />
+						<field index="1301295" srcIndex="294" formatType="1" />
+						<field index="1301296" srcIndex="295" formatType="1" />
+						<field index="1301297" srcIndex="296" formatType="1" />
+						<field index="1301298" srcIndex="297" formatType="1" />
+						<field index="1301299" srcIndex="298" formatType="1" />
+						<field index="1301300" srcIndex="299" formatType="1" />
+						<field index="1301301" srcIndex="300" formatType="1" />
+						<field index="1301302" srcIndex="301" formatType="1" />
+						<field index="1301303" srcIndex="302" formatType="1" />
+						<field index="1301304" srcIndex="303" formatType="1" />
+						<field index="1301305" srcIndex="304" formatType="1" />
+						<field index="1301306" srcIndex="305" formatType="1" />
+						<field index="1301307" srcIndex="306" formatType="1" />
+						<field index="1301308" srcIndex="307" formatType="1" />
+						<field index="1301309" srcIndex="308" formatType="1" />
+						<field index="1301310" srcIndex="309" formatType="1" />
+						<field index="1301311" srcIndex="310" formatType="1" />
+						<field index="1301312" srcIndex="311" formatType="1" />
+						<field index="1301313" srcIndex="312" formatType="1" />
+						<field index="1301314" srcIndex="313" formatType="1" />
+						<field index="1301315" srcIndex="314" formatType="1" />
+						<field index="1301316" srcIndex="315" formatType="1" />
+						<field index="1301317" srcIndex="316" formatType="1" />
+						<field index="1301318" srcIndex="317" formatType="1" />
+						<field index="1301319" srcIndex="318" formatType="1" />
+						<field index="1301320" srcIndex="319" formatType="1" />
+						<field index="1301321" srcIndex="320" formatType="1" />
+						<field index="1301322" srcIndex="321" formatType="1" />
+						<field index="1301323" srcIndex="322" formatType="1" />
+						<field index="1301324" srcIndex="323" formatType="1" />
+						<field index="1301325" srcIndex="324" formatType="1" />
+						<field index="1301326" srcIndex="325" formatType="1" />
+						<field index="1301327" srcIndex="326" formatType="1" />
+						<field index="1301328" srcIndex="327" formatType="1" />
+						<field index="1301329" srcIndex="328" formatType="1" />
+						<field index="1301330" srcIndex="329" formatType="1" />
+						<field index="1301331" srcIndex="330" formatType="1" />
+						<field index="1301332" srcIndex="331" formatType="1" />
+						<field index="1301333" srcIndex="332" formatType="1" />
+						<field index="1301334" srcIndex="333" formatType="1" />
+						<field index="1301335" srcIndex="334" formatType="1" />
+						<field index="1301336" srcIndex="335" formatType="1" />
+						<field index="1301337" srcIndex="336" formatType="1" />
+						<field index="1301338" srcIndex="337" formatType="1" />
+						<field index="1301339" srcIndex="338" formatType="1" />
+						<field index="1301340" srcIndex="339" formatType="1" />
+						<field index="1301341" srcIndex="340" formatType="1" />
+						<field index="1301342" srcIndex="341" formatType="1" />
+						<field index="1301343" srcIndex="342" formatType="1" />
+						<field index="1301344" srcIndex="343" formatType="1" />
+						<field index="1301345" srcIndex="344" formatType="1" />
+					</fields>
+				</templet>
+			</templet>
+
+			<!--   CDMA-PAF-CARR-L     -->
+			<templet id="131" startRegex=" CDMA-PAF-CARR-L$" num="n"
+				endRegex="CDMA-SUBCELL|CL\d" ignore="true">
+
+				<templet id="1311" startRegex="SECT \d\d" num="n"
+					endRegex="CDMA-SUBCELL|CL\d" ignore="false">
+					<!-- sect-->
+					<publicFields startRegex="SECT \d\d" fieldSize="2"
+						num="1">
+						<field index="1311001" srcIndex="1" formatType="1" />
+					</publicFields>
+
+					<fields startRegex="CARR " fieldSize="155" num="n"
+						endRegex="CDMA-SUBCELL|CL\d|SECT">
+						<!-- carr -->
+						<field index="1311002" srcIndex="1" formatType="1" />
+
+						<!--  -->
+						<field index="1311003" srcIndex="2" formatType="1" />
+						<field index="1311004" srcIndex="3" formatType="1" />
+						<field index="1311005" srcIndex="4" formatType="1" />
+						<field index="1311006" srcIndex="5" formatType="1" />
+						<field index="1311007" srcIndex="6" formatType="1" />
+						<field index="1311008" srcIndex="7" formatType="1" />
+						<field index="1311009" srcIndex="8" formatType="1" />
+						<field index="1311010" srcIndex="9" formatType="1" />
+						<field index="1311011" srcIndex="10" formatType="1" />
+						<field index="1311012" srcIndex="11" formatType="1" />
+						<field index="1311013" srcIndex="12" formatType="1" />
+						<field index="1311014" srcIndex="13" formatType="1" />
+						<field index="1311015" srcIndex="14" formatType="1" />
+						<field index="1311016" srcIndex="15" formatType="1" />
+						<field index="1311017" srcIndex="16" formatType="1" />
+						<field index="1311018" srcIndex="17" formatType="1" />
+						<field index="1311019" srcIndex="18" formatType="1" />
+						<field index="1311020" srcIndex="19" formatType="1" />
+						<field index="1311021" srcIndex="20" formatType="1" />
+						<field index="1311022" srcIndex="21" formatType="1" />
+						<field index="1311023" srcIndex="22" formatType="1" />
+						<field index="1311024" srcIndex="23" formatType="1" />
+						<field index="1311025" srcIndex="24" formatType="1" />
+						<field index="1311026" srcIndex="25" formatType="1" />
+						<field index="1311027" srcIndex="26" formatType="1" />
+						<field index="1311028" srcIndex="27" formatType="1" />
+						<field index="1311029" srcIndex="28" formatType="1" />
+						<field index="1311030" srcIndex="29" formatType="1" />
+						<field index="1311031" srcIndex="30" formatType="1" />
+						<field index="1311032" srcIndex="31" formatType="1" />
+						<field index="1311033" srcIndex="32" formatType="1" />
+						<field index="1311034" srcIndex="33" formatType="1" />
+						<field index="1311035" srcIndex="34" formatType="1" />
+						<field index="1311036" srcIndex="35" formatType="1" />
+						<field index="1311037" srcIndex="36" formatType="1" />
+						<field index="1311038" srcIndex="37" formatType="1" />
+						<field index="1311039" srcIndex="38" formatType="1" />
+						<field index="1311040" srcIndex="39" formatType="1" />
+						<field index="1311041" srcIndex="40" formatType="1" />
+						<field index="1311042" srcIndex="41" formatType="1" />
+						<field index="1311043" srcIndex="42" formatType="1" />
+						<field index="1311044" srcIndex="43" formatType="1" />
+						<field index="1311045" srcIndex="44" formatType="1" />
+						<field index="1311046" srcIndex="45" formatType="1" />
+						<field index="1311047" srcIndex="46" formatType="1" />
+						<field index="1311048" srcIndex="47" formatType="1" />
+						<field index="1311049" srcIndex="48" formatType="1" />
+						<field index="1311050" srcIndex="49" formatType="1" />
+						<field index="1311051" srcIndex="50" formatType="1" />
+						<field index="1311052" srcIndex="51" formatType="1" />
+						<field index="1311053" srcIndex="52" formatType="1" />
+						<field index="1311054" srcIndex="53" formatType="1" />
+						<field index="1311055" srcIndex="54" formatType="1" />
+						<field index="1311056" srcIndex="55" formatType="1" />
+						<field index="1311057" srcIndex="56" formatType="1" />
+						<field index="1311058" srcIndex="57" formatType="1" />
+						<field index="1311059" srcIndex="58" formatType="1" />
+						<field index="1311060" srcIndex="59" formatType="1" />
+						<field index="1311061" srcIndex="60" formatType="1" />
+						<field index="1311062" srcIndex="61" formatType="1" />
+						<field index="1311063" srcIndex="62" formatType="1" />
+						<field index="1311064" srcIndex="63" formatType="1" />
+						<field index="1311065" srcIndex="64" formatType="1" />
+						<field index="1311066" srcIndex="65" formatType="1" />
+						<field index="1311067" srcIndex="66" formatType="1" />
+						<field index="1311068" srcIndex="67" formatType="1" />
+						<field index="1311069" srcIndex="68" formatType="1" />
+						<field index="1311070" srcIndex="69" formatType="1" />
+						<field index="1311071" srcIndex="70" formatType="1" />
+						<field index="1311072" srcIndex="71" formatType="1" />
+						<field index="1311073" srcIndex="72" formatType="1" />
+						<field index="1311074" srcIndex="73" formatType="1" />
+						<field index="1311075" srcIndex="74" formatType="1" />
+						<field index="1311076" srcIndex="75" formatType="1" />
+						<field index="1311077" srcIndex="76" formatType="1" />
+						<field index="1311078" srcIndex="77" formatType="1" />
+						<field index="1311079" srcIndex="78" formatType="1" />
+						<field index="1311080" srcIndex="79" formatType="1" />
+						<field index="1311081" srcIndex="80" formatType="1" />
+						<field index="1311082" srcIndex="81" formatType="1" />
+						<field index="1311083" srcIndex="82" formatType="1" />
+						<field index="1311084" srcIndex="83" formatType="1" />
+						<field index="1311085" srcIndex="84" formatType="1" />
+						<field index="1311086" srcIndex="85" formatType="1" />
+						<field index="1311087" srcIndex="86" formatType="1" />
+						<field index="1311088" srcIndex="87" formatType="1" />
+						<field index="1311089" srcIndex="88" formatType="1" />
+						<field index="1311090" srcIndex="89" formatType="1" />
+						<field index="1311091" srcIndex="90" formatType="1" />
+						<field index="1311092" srcIndex="91" formatType="1" />
+						<field index="1311093" srcIndex="92" formatType="1" />
+						<field index="1311094" srcIndex="93" formatType="1" />
+						<field index="1311095" srcIndex="94" formatType="1" />
+						<field index="1311096" srcIndex="95" formatType="1" />
+						<field index="1311097" srcIndex="96" formatType="1" />
+						<field index="1311098" srcIndex="97" formatType="1" />
+						<field index="1311099" srcIndex="98" formatType="1" />
+						<field index="1311100" srcIndex="99" formatType="1" />
+						<field index="1311101" srcIndex="100" formatType="1" />
+						<field index="1311102" srcIndex="101" formatType="1" />
+						<field index="1311103" srcIndex="102" formatType="1" />
+						<field index="1311104" srcIndex="103" formatType="1" />
+						<field index="1311105" srcIndex="104" formatType="1" />
+						<field index="1311106" srcIndex="105" formatType="1" />
+						<field index="1311107" srcIndex="106" formatType="1" />
+						<field index="1311108" srcIndex="107" formatType="1" />
+						<field index="1311109" srcIndex="108" formatType="1" />
+						<field index="1311110" srcIndex="109" formatType="1" />
+						<field index="1311111" srcIndex="110" formatType="1" />
+						<field index="1311112" srcIndex="111" formatType="1" />
+						<field index="1311113" srcIndex="112" formatType="1" />
+						<field index="1311114" srcIndex="113" formatType="1" />
+						<field index="1311115" srcIndex="114" formatType="1" />
+						<field index="1311116" srcIndex="115" formatType="1" />
+						<field index="1311117" srcIndex="116" formatType="1" />
+						<field index="1311118" srcIndex="117" formatType="1" />
+						<field index="1311119" srcIndex="118" formatType="1" />
+						<field index="1311120" srcIndex="119" formatType="1" />
+						<field index="1311121" srcIndex="120" formatType="1" />
+						<field index="1311122" srcIndex="121" formatType="1" />
+						<field index="1311123" srcIndex="122" formatType="1" />
+						<field index="1311124" srcIndex="123" formatType="1" />
+						<field index="1311125" srcIndex="124" formatType="1" />
+						<field index="1311126" srcIndex="125" formatType="1" />
+						<field index="1311127" srcIndex="126" formatType="1" />
+						<field index="1311128" srcIndex="127" formatType="1" />
+						<field index="1311129" srcIndex="128" formatType="1" />
+						<field index="1311130" srcIndex="129" formatType="1" />
+						<field index="1311131" srcIndex="130" formatType="1" />
+						<field index="1311132" srcIndex="131" formatType="1" />
+						<field index="1311133" srcIndex="132" formatType="1" />
+						<field index="1311134" srcIndex="133" formatType="1" />
+						<field index="1311135" srcIndex="134" formatType="1" />
+						<field index="1311136" srcIndex="135" formatType="1" />
+						<field index="1311137" srcIndex="136" formatType="1" />
+						<field index="1311138" srcIndex="137" formatType="1" />
+						<field index="1311139" srcIndex="138" formatType="1" />
+						<field index="1311140" srcIndex="139" formatType="1" />
+						<field index="1311141" srcIndex="140" formatType="1" />
+						<field index="1311142" srcIndex="141" formatType="1" />
+						<field index="1311143" srcIndex="142" formatType="1" />
+						<field index="1311144" srcIndex="143" formatType="1" />
+						<field index="1311145" srcIndex="144" formatType="1" />
+						<field index="1311146" srcIndex="145" formatType="1" />
+						<field index="1311147" srcIndex="146" formatType="1" />
+						<field index="1311148" srcIndex="147" formatType="1" />
+						<field index="1311149" srcIndex="148" formatType="1" />
+						<field index="1311150" srcIndex="149" formatType="1" />
+						<field index="1311151" srcIndex="150" formatType="1" />
+						<field index="1311152" srcIndex="151" formatType="1" />
+						<field index="1311153" srcIndex="152" formatType="1" />
+						<field index="1311154" srcIndex="153" formatType="1" />
+						<field index="1311155" srcIndex="154" formatType="1" />
+					</fields>
+				</templet>
+			</templet>
+
+
+			<!--  CDMA-PAF-CARR-VO     -->
+			<templet id="132" startRegex=" CDMA-PAF-CARR-VO$" num="n"
+				endRegex="CDMA-PAF-CARR-SC|CL\d" ignore="true">
+				<!-- sect  -->
+				<templet id="1321" startRegex="SECT \d\d" num="n"
+					endRegex="CDMA-PAF-CARR-SC|CL\d" ignore="true">
+					<!-- sect-->
+					<publicFields startRegex="SECT \d\d" fieldSize="2"
+						num="1">
+						<field index="13211001" srcIndex="1" formatType="1" />
+					</publicFields>
+					<!-- carr -->
+					<templet id="13211" startRegex="CARR \d\d" num="n"
+						endRegex="CDMA-PAF-CARR-SC|CL\d|  SECT" ignore="true">
+						<!-- sect-->
+						<publicFields startRegex="CARR \d\d" fieldSize="2"
+							num="1">
+							<field index="13211002" srcIndex="1" formatType="1" />
+						</publicFields>
+
+						<templet id="132111" startRegex="8K+SMV|8K+SMV+EVRC-B+EVRC-NW|8K|13K|EVRC|CMDATA|PMDATA"
+							num="n" endRegex="CDMA-PAF-CARR-SC|CL\d|  SECT|  CARR" ignore="false">
+
+							<fields startRegex="8K+SMV|8K+SMV+EVRC-B+EVRC-NW|8K|13K|EVRC|CMDATA|PMDATA" fieldSize="51"
+								num="n" endRegex="CDMA-PAF-CARR-SC|CL\d|  SECT|  CARR">
+								<!-- category -->
+								<field index="13211003" srcIndex="0" />
+
+								<!--  -->
+								<field index="13211004" srcIndex="1" formatType="1" />
+								<field index="13211005" srcIndex="2" formatType="1" />
+								<field index="13211006" srcIndex="3" formatType="1" />
+								<field index="13211007" srcIndex="4" formatType="1" />
+								<field index="13211008" srcIndex="5" formatType="1" />
+								<field index="13211009" srcIndex="6" formatType="1" />
+								<field index="13211010" srcIndex="7" formatType="1" />
+								<field index="13211011" srcIndex="8" formatType="1" />
+								<field index="13211012" srcIndex="9" formatType="1" />
+								<field index="13211013" srcIndex="10" formatType="1" />
+								<field index="13211014" srcIndex="11" formatType="1" />
+								<field index="13211015" srcIndex="12" formatType="1" />
+								<field index="13211016" srcIndex="13" formatType="1" />
+								<field index="13211017" srcIndex="14" formatType="1" />
+								<field index="13211018" srcIndex="15" formatType="1" />
+								<field index="13211019" srcIndex="16" formatType="1" />
+								<field index="13211020" srcIndex="17" formatType="1" />
+								<field index="13211021" srcIndex="18" formatType="1" />
+								<field index="13211022" srcIndex="19" formatType="1" />
+								<field index="13211023" srcIndex="20" formatType="1" />
+								<field index="13211024" srcIndex="21" formatType="1" />
+								<field index="13211025" srcIndex="22" formatType="1" />
+								<field index="13211026" srcIndex="23" formatType="1" />
+								<field index="13211027" srcIndex="24" formatType="1" />
+								<field index="13211028" srcIndex="25" formatType="1" />
+								<field index="13211029" srcIndex="26" formatType="1" />
+								<field index="13211030" srcIndex="27" formatType="1" />
+								<field index="13211031" srcIndex="28" formatType="1" />
+								<field index="13211032" srcIndex="29" formatType="1" />
+								<field index="13211033" srcIndex="30" formatType="1" />
+								<field index="13211034" srcIndex="31" formatType="1" />
+								<field index="13211035" srcIndex="32" formatType="1" />
+								<field index="13211036" srcIndex="33" formatType="1" />
+								<field index="13211037" srcIndex="34" formatType="1" />
+								<field index="13211038" srcIndex="35" formatType="1" />
+								<field index="13211039" srcIndex="36" formatType="1" />
+								<field index="13211040" srcIndex="37" formatType="1" />
+								<field index="13211041" srcIndex="38" formatType="1" />
+								<field index="13211042" srcIndex="39" formatType="1" />
+								<field index="13211043" srcIndex="40" formatType="1" />
+								<field index="13211044" srcIndex="41" formatType="1" />
+								<field index="13211045" srcIndex="42" formatType="1" />
+								<field index="13211046" srcIndex="43" formatType="1" />
+								<field index="13211047" srcIndex="44" formatType="1" />
+								<field index="13211048" srcIndex="45" formatType="1" />
+								<field index="13211049" srcIndex="46" formatType="1" />
+								<field index="13211050" srcIndex="47" formatType="1" />
+								<field index="13211051" srcIndex="48" formatType="1" />
+								<field index="13211052" srcIndex="49" formatType="1" />
+								<field index="13211053" srcIndex="50" formatType="1" />
+							</fields>
+						</templet>
+					</templet>
+				</templet>
+			</templet>
+
+			<!--   CDMA-PAF-CARR-RC    -->
+			<!--   CDMA-PAF-CARR-SC     -->
+			<templet id="133" startRegex=" CDMA-PAF-CARR-SC$" num="n"
+				endRegex="CDMA-PAF-CARR-RC|CL\d" ignore="true">
+				<!-- sect  -->
+				<templet id="1331" startRegex="SECT \d\d" num="n"
+					endRegex="CDMA-PAF-CARR-RC|CL\d" ignore="true">
+					<!-- sect-->
+					<publicFields startRegex="SECT \d\d" fieldSize="2"
+						num="1">
+						<field index="13311001" srcIndex="1" formatType="1" />
+					</publicFields>
+					<!-- carr -->
+					<templet id="13311" startRegex="CARR \d\d" num="n"
+						endRegex="CDMA-PAF-CARR-RC|CL\d|  SECT" ignore="true">
+						<!-- sect-->
+						<publicFields startRegex="CARR \d\d" fieldSize="2"
+							num="1">
+							<field index="13311002" srcIndex="1" formatType="1" />
+						</publicFields>
+
+						<templet id="133111" startRegex="8K+SMV|8K+SMV+EVRC-B+EVRC-NW|8K|13K|EVRC|CMDATA|PMDATA"
+							num="n" endRegex="CDMA-PAF-CARR-RC|CL\d|  SECT|  CARR" ignore="false">
+
+							<fields startRegex="8K+SMV|8K+SMV+EVRC-B+EVRC-NW|8K|13K|EVRC|CMDATA|PMDATA" fieldSize="210"
+								num="n" endRegex="CDMA-PAF-CARR-RC|CL\d|  SECT|  CARR">
+								<!-- category -->
+								<field index="13311003" srcIndex="0" />
+
+								<field index="13311004" srcIndex="1" formatType="1" />
+								<field index="13311005" srcIndex="2" formatType="1" />
+								<field index="13311006" srcIndex="3" formatType="1" />
+								<field index="13311007" srcIndex="4" formatType="1" />
+								<field index="13311008" srcIndex="5" formatType="1" />
+								<field index="13311009" srcIndex="6" formatType="1" />
+								<field index="13311010" srcIndex="7" formatType="1" />
+								<field index="13311011" srcIndex="8" formatType="1" />
+								<field index="13311012" srcIndex="9" formatType="1" />
+								<field index="13311013" srcIndex="10" formatType="1" />
+								<field index="13311014" srcIndex="11" formatType="1" />
+								<field index="13311015" srcIndex="12" formatType="1" />
+								<field index="13311016" srcIndex="13" formatType="1" />
+								<field index="13311017" srcIndex="14" formatType="1" />
+								<field index="13311018" srcIndex="15" formatType="1" />
+								<field index="13311019" srcIndex="16" formatType="1" />
+								<field index="13311020" srcIndex="17" formatType="1" />
+								<field index="13311021" srcIndex="18" formatType="1" />
+								<field index="13311022" srcIndex="19" formatType="1" />
+								<field index="13311023" srcIndex="20" formatType="1" />
+								<field index="13311024" srcIndex="21" formatType="1" />
+								<field index="13311025" srcIndex="22" formatType="1" />
+								<field index="13311026" srcIndex="23" formatType="1" />
+								<field index="13311027" srcIndex="24" formatType="1" />
+								<field index="13311028" srcIndex="25" formatType="1" />
+								<field index="13311029" srcIndex="26" formatType="1" />
+								<field index="13311030" srcIndex="27" formatType="1" />
+								<field index="13311031" srcIndex="28" formatType="1" />
+								<field index="13311032" srcIndex="29" formatType="1" />
+								<field index="13311033" srcIndex="30" formatType="1" />
+								<field index="13311034" srcIndex="31" formatType="1" />
+								<field index="13311035" srcIndex="32" formatType="1" />
+								<field index="13311036" srcIndex="33" formatType="1" />
+								<field index="13311037" srcIndex="34" formatType="1" />
+								<field index="13311038" srcIndex="35" formatType="1" />
+								<field index="13311039" srcIndex="36" formatType="1" />
+								<field index="13311040" srcIndex="37" formatType="1" />
+								<field index="13311041" srcIndex="38" formatType="1" />
+								<field index="13311042" srcIndex="39" formatType="1" />
+								<field index="13311043" srcIndex="40" formatType="1" />
+								<field index="13311044" srcIndex="41" formatType="1" />
+								<field index="13311045" srcIndex="42" formatType="1" />
+								<field index="13311046" srcIndex="43" formatType="1" />
+								<field index="13311047" srcIndex="44" formatType="1" />
+								<field index="13311048" srcIndex="45" formatType="1" />
+								<field index="13311049" srcIndex="46" formatType="1" />
+								<field index="13311050" srcIndex="47" formatType="1" />
+								<field index="13311051" srcIndex="48" formatType="1" />
+								<field index="13311052" srcIndex="49" formatType="1" />
+								<field index="13311053" srcIndex="50" formatType="1" />
+								<field index="13311054" srcIndex="51" formatType="1" />
+								<field index="13311055" srcIndex="52" formatType="1" />
+								<field index="13311056" srcIndex="53" formatType="1" />
+								<field index="13311057" srcIndex="54" formatType="1" />
+								<field index="13311058" srcIndex="55" formatType="1" />
+								<field index="13311059" srcIndex="56" formatType="1" />
+								<field index="13311060" srcIndex="57" formatType="1" />
+								<field index="13311061" srcIndex="58" formatType="1" />
+								<field index="13311062" srcIndex="59" formatType="1" />
+								<field index="13311063" srcIndex="60" formatType="1" />
+								<field index="13311064" srcIndex="61" formatType="1" />
+								<field index="13311065" srcIndex="62" formatType="1" />
+								<field index="13311066" srcIndex="63" formatType="1" />
+								<field index="13311067" srcIndex="64" formatType="1" />
+								<field index="13311068" srcIndex="65" formatType="1" />
+								<field index="13311069" srcIndex="66" formatType="1" />
+								<field index="13311070" srcIndex="67" formatType="1" />
+								<field index="13311071" srcIndex="68" formatType="1" />
+								<field index="13311072" srcIndex="69" formatType="1" />
+								<field index="13311073" srcIndex="70" formatType="1" />
+								<field index="13311074" srcIndex="71" formatType="1" />
+								<field index="13311075" srcIndex="72" formatType="1" />
+								<field index="13311076" srcIndex="73" formatType="1" />
+								<field index="13311077" srcIndex="74" formatType="1" />
+								<field index="13311078" srcIndex="75" formatType="1" />
+								<field index="13311079" srcIndex="76" formatType="1" />
+								<field index="13311080" srcIndex="77" formatType="1" />
+								<field index="13311081" srcIndex="78" formatType="1" />
+								<field index="13311082" srcIndex="79" formatType="1" />
+								<field index="13311083" srcIndex="80" formatType="1" />
+								<field index="13311084" srcIndex="81" formatType="1" />
+								<field index="13311085" srcIndex="82" formatType="1" />
+								<field index="13311086" srcIndex="83" formatType="1" />
+								<field index="13311087" srcIndex="84" formatType="1" />
+								<field index="13311088" srcIndex="85" formatType="1" />
+								<field index="13311089" srcIndex="86" formatType="1" />
+								<field index="13311090" srcIndex="87" formatType="1" />
+								<field index="13311091" srcIndex="88" formatType="1" />
+								<field index="13311092" srcIndex="89" formatType="1" />
+								<field index="13311093" srcIndex="90" formatType="1" />
+								<field index="13311094" srcIndex="91" formatType="1" />
+								<field index="13311095" srcIndex="92" formatType="1" />
+								<field index="13311096" srcIndex="93" formatType="1" />
+								<field index="13311097" srcIndex="94" formatType="1" />
+								<field index="13311098" srcIndex="95" formatType="1" />
+								<field index="13311099" srcIndex="96" formatType="1" />
+								<field index="13311100" srcIndex="97" formatType="1" />
+								<field index="13311101" srcIndex="98" formatType="1" />
+								<field index="13311102" srcIndex="99" formatType="1" />
+								<field index="13311103" srcIndex="100" formatType="1" />
+								<field index="13311104" srcIndex="101" formatType="1" />
+								<field index="13311105" srcIndex="102" formatType="1" />
+								<field index="13311106" srcIndex="103" formatType="1" />
+								<field index="13311107" srcIndex="104" formatType="1" />
+								<field index="13311108" srcIndex="105" formatType="1" />
+								<field index="13311109" srcIndex="106" formatType="1" />
+								<field index="13311110" srcIndex="107" formatType="1" />
+								<field index="13311111" srcIndex="108" formatType="1" />
+								<field index="13311112" srcIndex="109" formatType="1" />
+								<field index="13311113" srcIndex="110" formatType="1" />
+								<field index="13311114" srcIndex="111" formatType="1" />
+								<field index="13311115" srcIndex="112" formatType="1" />
+								<field index="13311116" srcIndex="113" formatType="1" />
+								<field index="13311117" srcIndex="114" formatType="1" />
+								<field index="13311118" srcIndex="115" formatType="1" />
+								<field index="13311119" srcIndex="116" formatType="1" />
+								<field index="13311120" srcIndex="117" formatType="1" />
+								<field index="13311121" srcIndex="118" formatType="1" />
+								<field index="13311122" srcIndex="119" formatType="1" />
+								<field index="13311123" srcIndex="120" formatType="1" />
+								<field index="13311124" srcIndex="121" formatType="1" />
+								<field index="13311125" srcIndex="122" formatType="1" />
+								<field index="13311126" srcIndex="123" formatType="1" />
+								<field index="13311127" srcIndex="124" formatType="1" />
+								<field index="13311128" srcIndex="125" formatType="1" />
+								<field index="13311129" srcIndex="126" formatType="1" />
+								<field index="13311130" srcIndex="127" formatType="1" />
+								<field index="13311131" srcIndex="128" formatType="1" />
+								<field index="13311132" srcIndex="129" formatType="1" />
+								<field index="13311133" srcIndex="130" formatType="1" />
+								<field index="13311134" srcIndex="131" formatType="1" />
+								<field index="13311135" srcIndex="132" formatType="1" />
+								<field index="13311136" srcIndex="133" formatType="1" />
+								<field index="13311137" srcIndex="134" formatType="1" />
+								<field index="13311138" srcIndex="135" formatType="1" />
+								<field index="13311139" srcIndex="136" formatType="1" />
+								<field index="13311140" srcIndex="137" formatType="1" />
+								<field index="13311141" srcIndex="138" formatType="1" />
+								<field index="13311142" srcIndex="139" formatType="1" />
+								<field index="13311143" srcIndex="140" formatType="1" />
+								<field index="13311144" srcIndex="141" formatType="1" />
+								<field index="13311145" srcIndex="142" formatType="1" />
+								<field index="13311146" srcIndex="143" formatType="1" />
+								<field index="13311147" srcIndex="144" formatType="1" />
+								<field index="13311148" srcIndex="145" formatType="1" />
+								<field index="13311149" srcIndex="146" formatType="1" />
+								<field index="13311150" srcIndex="147" formatType="1" />
+								<field index="13311151" srcIndex="148" formatType="1" />
+								<field index="13311152" srcIndex="149" formatType="1" />
+								<field index="13311153" srcIndex="150" formatType="1" />
+								<field index="13311154" srcIndex="151" formatType="1" />
+								<field index="13311155" srcIndex="152" formatType="1" />
+								<field index="13311156" srcIndex="153" formatType="1" />
+								<field index="13311157" srcIndex="154" formatType="1" />
+								<field index="13311158" srcIndex="155" formatType="1" />
+								<field index="13311159" srcIndex="156" formatType="1" />
+								<field index="13311160" srcIndex="157" formatType="1" />
+								<field index="13311161" srcIndex="158" formatType="1" />
+								<field index="13311162" srcIndex="159" formatType="1" />
+								<field index="13311163" srcIndex="160" formatType="1" />
+								<field index="13311164" srcIndex="161" formatType="1" />
+								<field index="13311165" srcIndex="162" formatType="1" />
+								<field index="13311166" srcIndex="163" formatType="1" />
+								<field index="13311167" srcIndex="164" formatType="1" />
+								<field index="13311168" srcIndex="165" formatType="1" />
+								<field index="13311169" srcIndex="166" formatType="1" />
+								<field index="13311170" srcIndex="167" formatType="1" />
+								<field index="13311171" srcIndex="168" formatType="1" />
+								<field index="13311172" srcIndex="169" formatType="1" />
+								<field index="13311173" srcIndex="170" formatType="1" />
+								<field index="13311174" srcIndex="171" formatType="1" />
+								<field index="13311175" srcIndex="172" formatType="1" />
+								<field index="13311176" srcIndex="173" formatType="1" />
+								<field index="13311177" srcIndex="174" formatType="1" />
+								<field index="13311178" srcIndex="175" formatType="1" />
+								<field index="13311179" srcIndex="176" formatType="1" />
+								<field index="13311180" srcIndex="177" formatType="1" />
+								<field index="13311181" srcIndex="178" formatType="1" />
+								<field index="13311182" srcIndex="179" formatType="1" />
+								<field index="13311183" srcIndex="180" formatType="1" />
+								<field index="13311184" srcIndex="181" formatType="1" />
+								<field index="13311185" srcIndex="182" formatType="1" />
+								<field index="13311186" srcIndex="183" formatType="1" />
+								<field index="13311187" srcIndex="184" formatType="1" />
+								<field index="13311188" srcIndex="185" formatType="1" />
+								<field index="13311189" srcIndex="186" formatType="1" />
+								<field index="13311190" srcIndex="187" formatType="1" />
+								<field index="13311191" srcIndex="188" formatType="1" />
+								<field index="13311192" srcIndex="189" formatType="1" />
+								<field index="13311193" srcIndex="190" formatType="1" />
+								<field index="13311194" srcIndex="191" formatType="1" />
+								<field index="13311195" srcIndex="192" formatType="1" />
+								<field index="13311196" srcIndex="193" formatType="1" />
+								<field index="13311197" srcIndex="194" formatType="1" />
+								<field index="13311198" srcIndex="195" formatType="1" />
+								<field index="13311199" srcIndex="196" formatType="1" />
+								<field index="13311200" srcIndex="197" formatType="1" />
+								<field index="13311201" srcIndex="198" formatType="1" />
+								<field index="13311202" srcIndex="199" formatType="1" />
+								<field index="13311203" srcIndex="200" formatType="1" />
+								<field index="13311204" srcIndex="201" formatType="1" />
+								<field index="13311205" srcIndex="202" formatType="1" />
+								<field index="13311206" srcIndex="203" formatType="1" />
+								<field index="13311207" srcIndex="204" formatType="1" />
+								<field index="13311208" srcIndex="205" formatType="1" />
+								<field index="13311209" srcIndex="206" formatType="1" />
+								<field index="13311210" srcIndex="207" formatType="1" />
+								<field index="13311211" srcIndex="208" formatType="1" />
+								<field index="13311212" srcIndex="209" formatType="1" />
+							</fields>
+						</templet>
+					</templet>
+				</templet>
+			</templet>
+
+
+
+			<!--    CDMA-PAF-CARR-RC     -->
+			<templet id="134" startRegex=" CDMA-PAF-CARR-RC$" num="n"
+				endRegex=" CDMA-MCA$|CL\d" ignore="true">
+				<!-- sect  -->
+				<templet id="1341" startRegex="SECT \d\d" num="n"
+					endRegex=" CDMA-MCA$|CL\d" ignore="true">
+					<!-- sect-->
+					<publicFields startRegex="SECT \d\d" fieldSize="2"
+						num="1">
+						<field index="13411001" srcIndex="1" formatType="1" />
+					</publicFields>
+					<!-- carr -->
+					<templet id="13411" startRegex="CARR \d\d" num="n"
+						endRegex=" CDMA-MCA$|CL\d|  SECT" ignore="true">
+						<!-- sect-->
+						<publicFields startRegex="CARR \d\d" fieldSize="2"
+							num="1">
+							<field index="13411002" srcIndex="1" formatType="1" />
+						</publicFields>
+
+						<templet id="134111" startRegex="  RC \d+" num="n"
+							endRegex=" CDMA|CL\d|  SECT|  CARR" ignore="false">
+
+							<fields startRegex="RC \d" fieldSize="14" num="n"
+								endRegex=" CDMA|CL\d|  SECT|  CARR">
+								<!-- category -->
+								<field index="13411003" srcIndex="1" />
+
+								<field index="13411004" srcIndex="2" formatType="1" />
+								<field index="13411005" srcIndex="3" formatType="1" />
+								<field index="13411006" srcIndex="4" formatType="1" />
+								<field index="13411007" srcIndex="5" formatType="1" />
+								<field index="13411008" srcIndex="6" formatType="1" />
+								<field index="13411009" srcIndex="7" formatType="1" />
+								<field index="13411010" srcIndex="8" formatType="1" />
+								<field index="13411011" srcIndex="9" formatType="1" />
+								<field index="13411012" srcIndex="10" formatType="1" />
+								<field index="13411013" srcIndex="11" formatType="1" />
+								<field index="13411014" srcIndex="12" formatType="1" />
+								<field index="13411015" srcIndex="13" formatType="1" />
+							</fields>
+						</templet>
+					</templet>
+				</templet>
+			</templet>
+
+
+
+			<!--ECP-PAF-CARR CDMA-->
+			<!--  ECP-PAF-CARR CDMA  minIndex =1570  maxIndex = 1372   -->
+			<templet id="126" startRegex="ECP-PAF-CARR CDMA$" num="n"
+				endRegex="ECP-PAF-CARR-SC CDMA|CL\d" ignore="true">
+
+				<templet id="1261" startRegex="  SECT \d\d" num="n"
+					endRegex="ECP-PAF-CARR-SC CDMA|CL\d">
+
+					<publicFields startRegex="  SECT \d\d" fieldSize="2"
+						num="1">
+						<!-- sect -->
+						<field index="1570" srcIndex="1" formatType="1" />
+					</publicFields>
+
+					<fields startRegex="  CARR \d\d" fieldSize="33" num="n"
+						endRegex="ECP-PAF-CARR-SC CDMA|CL\d|  SECT \d\d">
+
+						<!-- carr -->
+						<field index="1571" srcIndex="1" formatType="1" />
+						<field index="1572" srcIndex="2" formatType="1" />
+						<field index="1573" srcIndex="3" formatType="1" />
+						<field index="1574" srcIndex="4" formatType="1" />
+						<field index="1575" srcIndex="5" formatType="1" />
+						<field index="1576" srcIndex="6" formatType="1" />
+						<field index="1577" srcIndex="7" formatType="1" />
+						<field index="1578" srcIndex="8" formatType="1" />
+						<field index="1579" srcIndex="9" formatType="1" />
+						<field index="1580" srcIndex="10" formatType="1" />
+						<field index="1581" srcIndex="11" formatType="1" />
+						<field index="1582" srcIndex="12" formatType="1" />
+						<field index="1583" srcIndex="13" formatType="1" />
+						<field index="1584" srcIndex="14" formatType="1" />
+						<field index="1585" srcIndex="15" formatType="1" />
+						<field index="1586" srcIndex="16" formatType="1" />
+						<field index="1587" srcIndex="17" formatType="1" />
+						<field index="1588" srcIndex="18" formatType="1" />
+						<field index="1589" srcIndex="19" formatType="1" />
+						<field index="1590" srcIndex="20" formatType="1" />
+						<field index="1591" srcIndex="21" formatType="1" />
+						<field index="1592" srcIndex="22" formatType="1" />
+						<field index="1593" srcIndex="23" formatType="1" />
+						<field index="1594" srcIndex="24" formatType="1" />
+						<field index="1595" srcIndex="25" formatType="1" />
+						<field index="1596" srcIndex="26" formatType="1" />
+						<field index="1597" srcIndex="27" formatType="1" />
+						<field index="1598" srcIndex="28" formatType="1" />
+						<field index="1599" srcIndex="29" formatType="1" />
+						<field index="1600" srcIndex="30" formatType="1" />
+						<field index="1601" srcIndex="31" formatType="1" />
+						<field index="1602" srcIndex="32" formatType="1" />
+					</fields>
+				</templet>
+			</templet>
+
+
+			<!-- ECP-PAF-CARR-SC CDMA -->
+			<!--  ECP-PAF-CARR-SC CDMA  minIndex =1603  maxIndex = 1372   -->
+			<templet id="127" startRegex="ECP-PAF-CARR-SC CDMA" num="n"
+				endRegex="MPCG-LAF AMPS$|CL\d" ignore="true">
+
+				<templet id="1271" startRegex="SECT \d\d" num="n"
+					endRegex=" MPCG-LAF AMPS$|CL\d" ignore="true">
+					<!-- sect-->
+					<publicFields startRegex="SECT \d\d" fieldSize="2"
+						num="1">
+						<field index="1603" srcIndex="1" formatType="1" />
+					</publicFields>
+
+					<templet id="12711" startRegex="CARR \d\d" num="n"
+						endRegex=" MPCG-LAF AMPS$|CL\d|SECT">
+						<!-- carr-->
+						<publicFields startRegex="CARR \d\d" fieldSize="2"
+							num="1">
+							<field index="1604" srcIndex="1" formatType="1" />
+						</publicFields>
+
+						<fields startRegex="8K+SMV|8K+SMV+EVRC-B+EVRC-NW|8K|13K|EVRC|CMDATA|PMDATA" fieldSize="72"
+							num="n" endRegex=" MPCG-LAF AMPS$|CL\d|  SECT \d\d|CARR \d\d">
+							<!-- category -->
+							<field index="1605" srcIndex="0" />
+							<!--  -->
+							<field index="1606" srcIndex="1" formatType="1" />
+							<field index="1607" srcIndex="2" formatType="1" />
+							<field index="1608" srcIndex="3" formatType="1" />
+							<field index="1609" srcIndex="4" formatType="1" />
+							<field index="1610" srcIndex="5" formatType="1" />
+							<field index="1611" srcIndex="6" formatType="1" />
+							<field index="1612" srcIndex="7" formatType="1" />
+							<field index="1613" srcIndex="8" formatType="1" />
+							<field index="1614" srcIndex="9" formatType="1" />
+							<field index="1615" srcIndex="10" formatType="1" />
+							<field index="1616" srcIndex="11" formatType="1" />
+							<field index="1617" srcIndex="12" formatType="1" />
+							<field index="1618" srcIndex="13" formatType="1" />
+							<field index="1619" srcIndex="14" formatType="1" />
+							<field index="1620" srcIndex="15" formatType="1" />
+							<field index="1621" srcIndex="16" formatType="1" />
+							<field index="1622" srcIndex="17" formatType="1" />
+							<field index="1623" srcIndex="18" formatType="1" />
+							<field index="1624" srcIndex="19" formatType="1" />
+							<field index="1625" srcIndex="20" formatType="1" />
+							<field index="1626" srcIndex="21" formatType="1" />
+							<field index="1627" srcIndex="22" formatType="1" />
+							<field index="1628" srcIndex="23" formatType="1" />
+							<field index="1629" srcIndex="24" formatType="1" />
+							<field index="1630" srcIndex="25" formatType="1" />
+							<field index="1631" srcIndex="26" formatType="1" />
+							<field index="1632" srcIndex="27" formatType="1" />
+							<field index="1633" srcIndex="28" formatType="1" />
+							<field index="1634" srcIndex="29" formatType="1" />
+							<field index="1635" srcIndex="30" formatType="1" />
+							<field index="1636" srcIndex="31" formatType="1" />
+							<field index="1637" srcIndex="32" formatType="1" />
+							<field index="1638" srcIndex="33" formatType="1" />
+							<field index="1639" srcIndex="34" formatType="1" />
+							<field index="1640" srcIndex="35" formatType="1" />
+							<field index="1641" srcIndex="36" formatType="1" />
+							<field index="1642" srcIndex="37" formatType="1" />
+							<field index="1643" srcIndex="38" formatType="1" />
+							<field index="1644" srcIndex="39" formatType="1" />
+							<field index="1645" srcIndex="40" formatType="1" />
+							<field index="1646" srcIndex="41" formatType="1" />
+							<field index="1647" srcIndex="42" formatType="1" />
+							<field index="1648" srcIndex="43" formatType="1" />
+							<field index="1649" srcIndex="44" formatType="1" />
+							<field index="1650" srcIndex="45" formatType="1" />
+							<field index="1651" srcIndex="46" formatType="1" />
+							<field index="1652" srcIndex="47" formatType="1" />
+							<field index="1653" srcIndex="48" formatType="1" />
+							<field index="1654" srcIndex="49" formatType="1" />
+							<field index="1655" srcIndex="50" formatType="1" />
+							<field index="1656" srcIndex="51" formatType="1" />
+							<field index="1657" srcIndex="52" formatType="1" />
+							<field index="1658" srcIndex="53" formatType="1" />
+							<field index="1659" srcIndex="54" formatType="1" />
+							<field index="1660" srcIndex="55" formatType="1" />
+							<field index="1661" srcIndex="56" formatType="1" />
+							<field index="1662" srcIndex="57" formatType="1" />
+							<field index="1663" srcIndex="58" formatType="1" />
+							<field index="1664" srcIndex="59" formatType="1" />
+							<field index="1665" srcIndex="60" formatType="1" />
+							<field index="1666" srcIndex="61" formatType="1" />
+							<field index="1667" srcIndex="62" formatType="1" />
+							<field index="1668" srcIndex="63" formatType="1" />
+							<field index="1669" srcIndex="64" formatType="1" />
+							<field index="1670" srcIndex="65" formatType="1" />
+							<field index="1671" srcIndex="66" formatType="1" />
+							<field index="1672" srcIndex="67" formatType="1" />
+							<field index="1673" srcIndex="68" formatType="1" />
+							<field index="1674" srcIndex="69" formatType="1" />
+							<field index="1675" srcIndex="70" formatType="1" />
+							<field index="1676" srcIndex="71" formatType="1" />
+
+						</fields>
+					</templet>
+				</templet>
+			</templet>
+
+			<!--  AR  minIndex =1677  maxIndex = 1569   -->
+			<templet id="128" startRegex=" AR " num="n" endRegex="IMS |CL\d" ignore="false">
+				<fields startRegex=" AR " fieldSize="14" num="n" endRegex="IMS |CL\d">
+					<field index="1677" srcIndex="1" formatType="1" />
+					<field index="1678" srcIndex="2" formatType="1" />
+					<field index="1679" srcIndex="3" formatType="1" />
+					<field index="1680" srcIndex="4" formatType="1" />
+					<field index="1681" srcIndex="5" formatType="1" />
+					<field index="1682" srcIndex="6" formatType="1" />
+					<field index="1683" srcIndex="7" formatType="1" />
+					<field index="1684" srcIndex="8" formatType="1" />
+					<field index="1685" srcIndex="9" formatType="1" />
+					<field index="1686" srcIndex="10" formatType="1" />
+					<field index="1687" srcIndex="11" formatType="1" />
+					<field index="1688" srcIndex="12" formatType="1" />
+					<field index="1689" srcIndex="13" formatType="1" />
+					<field index="1690" srcIndex="14" formatType="1" />
+				</fields>
+			</templet>
+
+			<!-- <templet id="3" startRegex="CL" -->
+		</templet>
+
+	</templet>
+</templets>

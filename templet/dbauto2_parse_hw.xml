@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+
+    <templet id="1" fromTable="tbl_Log" toTable="clt_cm_tbl_log_hw" used="1" condition=" sFinishTime like 'Y%%YM%%MD%%D%' and iFinished=1 and sOpCmd like '%CN=%' ">     
+    	<mapping special="1">
+    		<column src="sOpCmd" substr=":" split="," >
+	    		<col src="CN" dest="CN" split="=" datatype="number"/> 
+	    		<col src="SCTID" dest="SCTID" split="=" datatype="number"/> 
+	    		<col src="CRRID" dest="CRRID" split="=" datatype="number"/> 
+	    		<col src="check" check="CN_SCTID_CRRID" split="," checksign="_" index="=" field="PARA_NAME"  modedValue = "PARA_VALUE"/>
+    		</column>
+    	</mapping>
+    </templet>
+
+</templets>

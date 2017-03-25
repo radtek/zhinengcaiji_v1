@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_CM_HWV9R11_GSMCELL" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="ACTGENE" index="2"/>
+			<column name="ACTSTATUS" index="3"/>
+			<column name="BCC" index="4"/>
+			<column name="BCCHNO" index="5"/>
+			<column name="BSPAGBLKSRES" index="6"/>
+			<column name="BSPBCCHBLKS" index="7"/>
+			<column name="BSPRACHBLKS" index="8"/>
+			<column name="BTSID" index="9"/>
+			<column name="CELLID" index="10"/>
+			<column name="CELLINEXTP" index="11"/>
+			<column name="CELLNAME" index="12"/>
+			<column name="CGI" index="13"/>
+			<column name="CI" index="14"/>
+			<column name="CSDSP" index="15"/>
+			<column name="CSVSP" index="16"/>
+			<column name="DBFREQBCCHIUO" index="17"/>
+			<column name="DBLFREQADJCID" index="18"/>
+			<column name="DBLFREQADJCNAME" index="19"/>
+			<column name="DBLFREQADJIDTYPE" index="20"/>
+			<column name="ENIUO" index="21"/>
+			<column name="EXTTP" index="22"/>
+			<column name="FLEXMAIO" index="23"/>
+			<column name="HSNSW" index="24"/>
+			<column name="IDTYPE" index="25"/>
+			<column name="IUOTP" index="26"/>
+			<column name="LAC" index="27"/>
+			<column name="MCC" index="28"/>
+			<column name="MNC" index="29"/>
+			<column name="MOINDEX" index="30"/>
+			<column name="NCC" index="31"/>
+			<column name="NEWCELLNAME" index="32"/>
+			<column name="OPNAME" index="33"/>
+			<column name="PSHPSP" index="34"/>
+			<column name="PSLPSVP" index="35"/>
+			<column name="TYPE" index="36"/>
+			<column name="CLASSNAME" index="37"/>
+			<column name="NAME" index="38"/>
+			<column name="NEID" index="39"/>
+			<column name="EXTEND1" index="40"/>
+			<column name="EXTEND2" index="41"/>
+			<column name="EXTEND3" index="42"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_CM_HWV9R11_2GNCELL" split="|">
+			<column name="OBJECTID" index="0"/>
+			<column name="BQMARGIN" index="1"/>
+			<column name="DRHOLEVRANGE" index="2"/>
+			<column name="IBCADYNCMEASURENCELLALLOWED" index="3"/>
+			<column name="IBCANCELLFLAG" index="4"/>
+			<column name="IBCARXLEVOFFSET" index="5"/>
+			<column name="IDTYPE" index="6"/>
+			<column name="INTELEVHOHYST" index="7"/>
+			<column name="INTERCELLHYST" index="8"/>
+			<column name="ISCHAINNCELL" index="9"/>
+			<column name="MINOFFSET" index="10"/>
+			<column name="MOINDEX" index="11"/>
+			<column name="NBR2GNCELLID" index="12"/>
+			<column name="NBR2GNCELLNAME" index="13"/>
+			<column name="NBRCI" index="14"/>
+			<column name="NBRLAC" index="15"/>
+			<column name="NBRMCC" index="16"/>
+			<column name="NBRMNC" index="17"/>
+			<column name="PBGTMARGIN" index="18"/>
+			<column name="SRC2GNCELLID" index="19"/>
+			<column name="SRC2GNCELLNAME" index="20"/>
+			<column name="SRCCI" index="21"/>
+			<column name="SRCHOCTRLSWITCH" index="22"/>
+			<column name="SRCLAC" index="23"/>
+			<column name="SRCMCC" index="24"/>
+			<column name="SRCMNC" index="25"/>
+			<column name="CLASSNAME" index="26"/>
+			<column name="NAME" index="27"/>
+			<column name="NEID" index="28"/>
+			<column name="EXTEND1" index="29"/>
+			<column name="EXTEND2" index="30"/>
+			<column name="EXTEND3" index="31"/>
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="CLT_CM_HWV9R11_3GNCELL" split="|">
+			<column name="OBJECTID" index="0"/>
+			<column name="ECNOOFF" index="1"/>
+			<column name="IDTYPE" index="2"/>
+			<column name="MOINDEX" index="3"/>
+			<column name="NBR3GNCELLID" index="4"/>
+			<column name="NBR3GNCELLNAME" index="5"/>
+			<column name="RSCPOFF" index="6"/>
+			<column name="SRC3GNCELLID" index="7"/>
+			<column name="SRC3GNCELLNAME" index="8"/>
+			<column name="CLASSNAME" index="9"/>
+			<column name="NAME" index="10"/>
+			<column name="NEID" index="11"/>
+			<column name="EXTEND1" index="12"/>
+			<column name="EXTEND2" index="13"/>
+			<column name="EXTEND3" index="14"/>
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="CLT_CM_HWV9R11_CELLBASICPARA" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="BFEDGEMTX" index="2"/>
+			<column name="BTSADJUST" index="3"/>
+			<column name="CALLRESTABDIS" index="4"/>
+		<!--	<column name="CELL8PSKPOWERLEVEL" index="5"/>-->
+			<column name="CELLID" index="6"/>
+			<!--	<column name="CELLLAYER" index="7"/>-->
+			<column name="CELLNAME" index="8"/>
+			<!--	<column name="CELLPRIOR" index="9"/>-->
+			<column name="DIRECTRYEN" index="10"/>
+			<column name="DIVERT8PSKDELAY" index="11"/>
+			<column name="DNPCEN" index="12"/>
+			<column name="DYNOPENTRXPOWER" index="13"/>
+			<column name="ENCRY" index="14"/>
+			<column name="FRDLDTX" index="15"/>
+			<column name="FRULDTX" index="16"/>
+			<column name="GMSKDELAY" index="17"/>
+			<column name="HRDLDTX" index="18"/>
+			<column name="HRULDTX" index="19"/>
+			<column name="ICBALLOW" index="20"/>
+			<column name="IDTYPE" index="21"/>
+			<!--	<column name="IMMASSCBB" index="22"/>-->
+			<column name="IMMASSEN" index="23"/>
+			<column name="LEVELRPT" index="24"/>
+			<column name="MAXTA" index="25"/>
+			<column name="MOINDEX" index="26"/>
+			<column name="RXMIN" index="27"/>
+			<column name="SDDYN" index="28"/>
+			<column name="TIMESLOTVOLADJALLOW" index="29"/>
+			<column name="UPPCEN" index="30"/>
+			<column name="CLASSNAME" index="31"/>
+			<column name="NAME" index="32"/>
+			<column name="NEID" index="33"/>
+			<column name="EXTEND1" index="34"/>
+			<column name="EXTEND2" index="35"/>
+			<column name="EXTEND3" index="36"/>
+		</table>
+	</templet>
+	<templet id="4">
+		<table id="0" name="CLT_CM_HWV9R11_CELLCCACCESS" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="BHPREPOLICY" index="2"/>
+			<column name="CELLID" index="3"/>
+			<column name="CELLNAME" index="4"/>
+			<column name="IDTYPE" index="5"/>
+			<column name="MOINDEX" index="6"/>
+			<column name="PWRDIV" index="7"/>
+			<column name="PWRDIVIND" index="8"/>
+			<column name="RACHACCLEV" index="9"/>
+			<column name="RANERRTHRED" index="10"/>
+			<column name="TRXAIDSWITCH" index="11"/>
+			<column name="VOICEVER" index="12"/>
+			<column name="CLASSNAME" index="13"/>
+			<column name="NAME" index="14"/>
+			<column name="NEID" index="15"/>
+			<column name="EXTEND1" index="16"/>
+			<column name="EXTEND2" index="17"/>
+			<column name="EXTEND3" index="18"/>
+		</table>
+	</templet>
+	<templet id="5">
+		<table id="0" name="CLT_CM_HWV9R11_CELLCCBASIC" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="ABISRESADJTCHHEN" index="2"/>
+			<column name="AFRDSBLCNT" index="3"/>
+			<column name="AFRSAMULFRM" index="4"/>
+			<column name="AHRDSBLCNT" index="5"/>
+			<column name="AHRSAMULFRM" index="6"/>
+			<column name="ASSLOADJUDGEEN" index="7"/>
+			<column name="CELLID" index="8"/>
+			<column name="CELLNAME" index="9"/>
+			<column name="COMMACC" index="10"/>
+			<column name="DTLOADTHRED" index="11"/>
+			<column name="ECSC" index="12"/>
+			<column name="EMLPPEN" index="13"/>
+			<column name="ERGCALLDIS" index="14"/>
+			<column name="IDTYPE" index="15"/>
+			<column name="MBR" index="16"/>
+			<column name="MOINDEX" index="17"/>
+			<column name="MSMAXRETRAN" index="18"/>
+			<column name="PAGTIMES" index="19"/>
+			<column name="RACHBUSYTHRED" index="20"/>
+			<column name="REASSEN" index="21"/>
+			<column name="REPEATDLFASET" index="22"/>
+			<column name="REPEATDLFATHRED" index="23"/>
+			<column name="REPEATSASET" index="24"/>
+			<column name="RLT" index="25"/>
+			<column name="SAMULFRM" index="26"/>
+			<column name="SPECACC" index="27"/>
+			<column name="CLASSNAME" index="28"/>
+			<column name="NAME" index="29"/>
+			<column name="NEID" index="30"/>
+			<column name="EXTEND1" index="31"/>
+			<column name="EXTEND2" index="32"/>
+			<column name="EXTEND3" index="33"/>
+		</table>
+	</templet>
+	<templet id="6">
+		<table id="0" name="CLT_CM_HWV9R11_CELLCCCH" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="ABISFCEN" index="2"/>
+			<column name="CANPC" index="3"/>
+			<column name="CCCHLOADINDPRD" index="4"/>
+			<column name="CCCHLOADTHRES" index="5"/>
+			<column name="CELLID" index="6"/>
+			<column name="CELLNAME" index="7"/>
+			<column name="FMSMAXOPCC" index="8"/>
+			<column name="HRATESPT" index="9"/>
+			<column name="IDTYPE" index="10"/>
+			<column name="MOINDEX" index="11"/>
+			<column name="OVERLOADINTV" index="12"/>
+			<column name="RACHLDAVERSLOT" index="13"/>
+			<column name="RFRESINDPRD" index="14"/>
+			<column name="CLASSNAME" index="15"/>
+			<column name="NAME" index="16"/>
+			<column name="NEID" index="17"/>
+			<column name="EXTEND1" index="18"/>
+			<column name="EXTEND2" index="19"/>
+			<column name="EXTEND3" index="20"/>
+		</table>
+	</templet>
+	<templet id="7">
+		<table id="0" name="CLT_CM_HWV9R11_CELLFREQ" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="CELLID" index="2"/>
+			<column name="CELLNAME" index="3"/>
+			<column name="FREQ1" index="4"/>
+			<column name="FREQ10" index="5"/>
+			<column name="FREQ11" index="6"/>
+			<column name="FREQ12" index="7"/>
+			<column name="FREQ13" index="8"/>
+			<column name="FREQ14" index="9"/>
+			<column name="FREQ15" index="10"/>
+			<column name="FREQ16" index="11"/>
+			<column name="FREQ17" index="12"/>
+			<column name="FREQ18" index="13"/>
+			<column name="FREQ19" index="14"/>
+			<column name="FREQ2" index="15"/>
+			<column name="FREQ20" index="16"/>
+			<column name="FREQ21" index="17"/>
+			<column name="FREQ22" index="18"/>
+			<column name="FREQ23" index="19"/>
+			<column name="FREQ24" index="20"/>
+			<column name="FREQ25" index="21"/>
+			<column name="FREQ26" index="22"/>
+			<column name="FREQ27" index="23"/>
+			<column name="FREQ28" index="24"/>
+			<column name="FREQ29" index="25"/>
+			<column name="FREQ3" index="26"/>
+			<column name="FREQ30" index="27"/>
+			<column name="FREQ31" index="28"/>
+			<column name="FREQ32" index="29"/>
+			<column name="FREQ33" index="30"/>
+			<column name="FREQ34" index="31"/>
+			<column name="FREQ35" index="32"/>
+			<column name="FREQ36" index="33"/>
+			<column name="FREQ37" index="34"/>
+			<column name="FREQ38" index="35"/>
+			<column name="FREQ39" index="36"/>
+			<column name="FREQ4" index="37"/>
+			<column name="FREQ40" index="38"/>
+			<column name="FREQ41" index="39"/>
+			<column name="FREQ42" index="40"/>
+			<column name="FREQ43" index="41"/>
+			<column name="FREQ44" index="42"/>
+			<column name="FREQ45" index="43"/>
+			<column name="FREQ46" index="44"/>
+			<column name="FREQ47" index="45"/>
+			<column name="FREQ48" index="46"/>
+			<column name="FREQ49" index="47"/>
+			<column name="FREQ5" index="48"/>
+			<column name="FREQ50" index="49"/>
+			<column name="FREQ51" index="50"/>
+			<column name="FREQ52" index="51"/>
+			<column name="FREQ53" index="52"/>
+			<column name="FREQ54" index="53"/>
+			<column name="FREQ55" index="54"/>
+			<column name="FREQ56" index="55"/>
+			<column name="FREQ57" index="56"/>
+			<column name="FREQ58" index="57"/>
+			<column name="FREQ59" index="58"/>
+			<column name="FREQ6" index="59"/>
+			<column name="FREQ60" index="60"/>
+			<column name="FREQ61" index="61"/>
+			<column name="FREQ62" index="62"/>
+			<column name="FREQ63" index="63"/>
+			<column name="FREQ64" index="64"/>
+			<column name="FREQ7" index="65"/>
+			<column name="FREQ8" index="66"/>
+			<column name="FREQ9" index="67"/>
+			<column name="IDTYPE" index="68"/>
+			<column name="MOINDEX" index="69"/>
+			<column name="CLASSNAME" index="70"/>
+			<column name="NAME" index="71"/>
+			<column name="NEID" index="72"/>
+			<column name="EXTEND1" index="73"/>
+			<column name="EXTEND2" index="74"/>
+			<column name="EXTEND3" index="75"/>
+		</table>
+	</templet>
+	<templet id="8">
+		<table id="0" name="CLT_CM_HWV9R11_CELLHOBASIC" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="AMRFULLTOHALFHOALLOW" index="2"/>
+			<column name="AMRFULLTOHALFHOATCBADJSTEP" index="3"/>
+			<column name="AMRFULLTOHALFHOATCBTHRESH" index="4"/>
+			<column name="AMRFULLTOHALFHOPATHADJSTEP" index="5"/>
+			<column name="AMRFULLTOHALFHOPATHTHRESH" index="6"/>
+			<column name="AMRFULLTOHALFHOQUALTHRESH" index="7"/>
+			<column name="AMRFULLTOHALFHOTHRESH" index="8"/>
+			<column name="AMRHALFTOFULLHOATCBTHRESH" index="9"/>
+			<column name="AMRHALFTOFULLHOPATHTHRESH" index="10"/>
+			<column name="AMRHALFTOFULLHOQUALALLOW" index="11"/>
+			<column name="AMRHALFTOFULLHOQUALTHRESH" index="12"/>
+			<column name="AMRHALFTOFULLHOTHRESH" index="13"/>
+			<column name="ATCBHOEN" index="14"/>
+			<column name="BETTERCELLHOEN" index="15"/>
+			<column name="BETTERCELLLASTTIME" index="16"/>
+			<column name="BETTERCELLSTATTIME" index="17"/>
+			<column name="BQHOEN" index="18"/>
+			<column name="BQLASTTIME" index="19"/>
+			<column name="BQSTATTIME" index="20"/>
+			<column name="CELLID" index="21"/>
+			<column name="CELLNAME" index="22"/>
+			<column name="COBSCMSCADJEN" index="23"/>
+			<column name="CONHOEN" index="24"/>
+			<column name="DLEDGETHRES" index="25"/>
+			<column name="EDGEADJLASTTIME" index="26"/>
+			<column name="EDGEADJLASTTIME1" index="27"/>
+			<column name="EDGEADJSTATTIME" index="28"/>
+			<column name="EDGEADJSTATTIME1" index="29"/>
+			<column name="EDGELAST" index="30"/>
+			<column name="EDGELAST1" index="31"/>
+			<column name="EDGESTAT" index="32"/>
+			<column name="EDGESTAT1" index="33"/>
+			<column name="FRINGEHOEN" index="34"/>
+			<column name="FULLTOHALFHOATCBOFFSET" index="35"/>
+			<column name="FULLTOHALFHODURATION" index="36"/>
+			<column name="FULLTOHALFHOLASTTIME" index="37"/>
+			<column name="FULLTOHALFHOPATHOFFSET" index="38"/>
+			<column name="FULLTOHALFHOPERIOD" index="39"/>
+			<column name="FULLTOHALFHOSTATTIME" index="40"/>
+			<column name="HALFTOFULLATCBOFFSET" index="41"/>
+			<column name="HALFTOFULLHODURATION" index="42"/>
+			<column name="HALFTOFULLHOLASTTIME" index="43"/>
+			<column name="HALFTOFULLHOPATHOFFSET" index="44"/>
+			<column name="HALFTOFULLHOSTATTIME" index="45"/>
+			<column name="HCSLASTTIME" index="46"/>
+			<column name="HCSSTATTIME" index="47"/>
+			<column name="HOCDCMINDWPWR" index="48"/>
+			<column name="HOCDCMINUPPWR" index="49"/>
+			<column name="HOCTRLSWITCH" index="50"/>
+			<column name="HOTHRES" index="51"/>
+			<column name="IDTYPE" index="52"/>
+			<column name="INFHHOLAST" index="53"/>
+			<column name="INFHHOSTAT" index="54"/>
+			<column name="INHOF2HTH" index="55"/>
+			<column name="INHOH2FTH" index="56"/>
+			<column name="INTERFERELASTTIME" index="57"/>
+			<column name="INTERFERESTATTIME" index="58"/>
+			<column name="INTERFHOEN" index="59"/>
+			<column name="INTERRATCELLRESELEN" index="60"/>
+			<column name="INTERRATINBSCHOEN" index="61"/>
+			<column name="INTERRATOUTBSCHOEN" index="62"/>
+			<column name="INTRACELLFHHOEN" index="63"/>
+			<column name="INTRACELLHOEN" index="64"/>
+			<column name="LEVHOEN" index="65"/>
+			<column name="LEVHOHYST" index="66"/>
+			<column name="LEVLAST" index="67"/>
+			<column name="LEVSTAT" index="68"/>
+			<column name="LOADHOEN" index="69"/>
+			<column name="MOINDEX" index="70"/>
+			<column name="NOAMRFULLTOHALFHOALLOW" index="71"/>
+			<column name="NOAMRFULLTOHALFHOATCBADJSTEP" index="72"/>
+			<column name="NOAMRFULLTOHALFHOATCBTHRESH" index="73"/>
+			<column name="NOAMRFULLTOHALFHOPATHADJSTEP" index="74"/>
+			<column name="NOAMRFULLTOHALFHOPATHTHRESH" index="75"/>
+			<column name="NOAMRFULLTOHALFHOQUALTHRESH" index="76"/>
+			<column name="NOAMRFULLTOHALFTHRESH" index="77"/>
+			<column name="NOAMRHALFTOFULLHOATCBTHRESH" index="78"/>
+			<column name="NOAMRHALFTOFULLHOPATHTHRESH" index="79"/>
+			<column name="NOAMRHALFTOFULLHOQUALALLOW" index="80"/>
+			<column name="NOAMRHALFTOFULLHOQUALTHRESH" index="81"/>
+			<column name="NOAMRHALFTOFULLTHRESH" index="82"/>
+			<column name="PATHLOSSHOEN" index="83"/>
+			<column name="PBGTHOEN" index="84"/>
+			<column name="PBGTLAST" index="85"/>
+			<column name="PBGTSTAT" index="86"/>
+			<column name="PWRBOOST" index="87"/>
+			<column name="QCKMVHOEN" index="88"/>
+			<column name="QUICKHOEN" index="89"/>
+			<column name="RXQCKFALLHOEN" index="90"/>
+			<column name="SIGCHANHOEN" index="91"/>
+			<column name="TAHOEN" index="92"/>
+			<column name="TALASTTIME" index="93"/>
+			<column name="TASTATTIME" index="94"/>
+			<column name="TIGHTBCCHHOLASTTIME" index="95"/>
+			<column name="TIGHTBCCHHOSTATTIME" index="96"/>
+			<column name="ULBQLASTTIME" index="97"/>
+			<column name="ULBQSTATTIME" index="98"/>
+			<column name="ULEDGETHRES" index="99"/>
+			<column name="CLASSNAME" index="100"/>
+			<column name="NAME" index="101"/>
+			<column name="NEID" index="102"/>
+			<column name="EXTEND1" index="103"/>
+			<column name="EXTEND2" index="104"/>
+			<column name="EXTEND3" index="105"/>
+		</table>
+	</templet>
+	<templet id="9">
+		<table id="0" name="CLT_CM_HWV9R11_CELLHOEMG" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="CELLID" index="2"/>
+			<column name="CELLNAME" index="3"/>
+			<column name="DLQUALIMIT" index="4"/>
+			<column name="FLTPARAA1" index="5"/>
+			<column name="FLTPARAA2" index="6"/>
+			<column name="FLTPARAA3" index="7"/>
+			<column name="FLTPARAA4" index="8"/>
+			<column name="FLTPARAA5" index="9"/>
+			<column name="FLTPARAA6" index="10"/>
+			<column name="FLTPARAA7" index="11"/>
+			<column name="FLTPARAA8" index="12"/>
+			<column name="FLTPARAB" index="13"/>
+			<column name="HOCTRLSWITCH" index="14"/>
+			<column name="IDTYPE" index="15"/>
+			<column name="MOINDEX" index="16"/>
+			<column name="NODLMRHOALLOWLIMIT" index="17"/>
+			<column name="NODLMRHOEN" index="18"/>
+			<column name="NODLMRHOQUALLIMIT" index="19"/>
+			<column name="TALIMIT" index="20"/>
+			<column name="ULQUALIMIT" index="21"/>
+			<column name="CLASSNAME" index="22"/>
+			<column name="NAME" index="23"/>
+			<column name="NEID" index="24"/>
+			<column name="EXTEND1" index="25"/>
+			<column name="EXTEND2" index="26"/>
+			<column name="EXTEND3" index="27"/>
+		</table>
+	</templet>
+	<templet id="10">
+		<table id="0" name="CLT_CM_HWV9R11_CELLHOPTP" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="CELLID" index="2"/>
+			<column name="CELLNAME" index="3"/>
+			<column name="FHMODE" index="4"/>
+			<column name="IDTYPE" index="5"/>
+			<column name="MOINDEX" index="6"/>
+			<column name="CLASSNAME" index="7"/>
+			<column name="NAME" index="8"/>
+			<column name="NEID" index="9"/>
+			<column name="EXTEND1" index="10"/>
+			<column name="EXTEND2" index="11"/>
+			<column name="EXTEND3" index="12"/>
+		</table>
+	</templet>
+	<templet id="11">
+		<table id="0" name="CLT_CM_HWV9R11_CELLIDLEAD" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="ACS" index="2"/>
+			<column name="CELLID" index="3"/>
+			<column name="CELLNAME" index="4"/>
+			<column name="IDTYPE" index="5"/>
+			<column name="MOINDEX" index="6"/>
+			<column name="OFFSET" index="7"/>
+			<column name="PT" index="8"/>
+			<column name="CLASSNAME" index="9"/>
+			<column name="NAME" index="10"/>
+			<column name="NEID" index="11"/>
+			<column name="EXTEND1" index="12"/>
+			<column name="EXTEND2" index="13"/>
+			<column name="EXTEND3" index="14"/>
+		</table>
+	</templet>
+	<templet id="12">
+		<table id="0" name="CLT_CM_HWV9R11_CELLIDLEBASC" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="ATT" index="2"/>
+			<column name="BSAGBLKSRES" index="3"/>
+			<column name="BSPAMFRAMS" index="4"/>
+			<column name="CBA" index="5"/>
+			<column name="CBQ" index="6"/>
+			<column name="CELLID" index="7"/>
+			<column name="CELLNAME" index="8"/>
+			<column name="CRH" index="9"/>
+			<column name="CRO" index="10"/>
+			<column name="IDTYPE" index="11"/>
+			<column name="MOINDEX" index="12"/>
+			<column name="NCCPERMIT" index="13"/>
+			<column name="PI" index="14"/>
+			<column name="T3212" index="15"/>
+			<column name="TX" index="16"/>
+			<column name="CLASSNAME" index="17"/>
+			<column name="NAME" index="18"/>
+			<column name="NEID" index="19"/>
+			<column name="EXTEND1" index="20"/>
+			<column name="EXTEND2" index="21"/>
+			<column name="EXTEND3" index="22"/>
+		</table>
+	</templet>
+	<templet id="13">
+		<table id="0" name="CLT_CM_HWV9R11_CELLMAGRP" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="CELLID" index="2"/>
+			<column name="CELLNAME" index="3"/>
+			<column name="FREQ1" index="4"/>
+			<column name="FREQ10" index="5"/>
+			<column name="FREQ11" index="6"/>
+			<column name="FREQ12" index="7"/>
+			<column name="FREQ13" index="8"/>
+			<column name="FREQ14" index="9"/>
+			<column name="FREQ15" index="10"/>
+			<column name="FREQ16" index="11"/>
+			<column name="FREQ17" index="12"/>
+			<column name="FREQ18" index="13"/>
+			<column name="FREQ19" index="14"/>
+			<column name="FREQ2" index="15"/>
+			<column name="FREQ20" index="16"/>
+			<column name="FREQ21" index="17"/>
+			<column name="FREQ22" index="18"/>
+			<column name="FREQ23" index="19"/>
+			<column name="FREQ24" index="20"/>
+			<column name="FREQ25" index="21"/>
+			<column name="FREQ26" index="22"/>
+			<column name="FREQ27" index="23"/>
+			<column name="FREQ28" index="24"/>
+			<column name="FREQ29" index="25"/>
+			<column name="FREQ3" index="26"/>
+			<column name="FREQ30" index="27"/>
+			<column name="FREQ31" index="28"/>
+			<column name="FREQ32" index="29"/>
+			<column name="FREQ33" index="30"/>
+			<column name="FREQ34" index="31"/>
+			<column name="FREQ35" index="32"/>
+			<column name="FREQ36" index="33"/>
+			<column name="FREQ37" index="34"/>
+			<column name="FREQ38" index="35"/>
+			<column name="FREQ39" index="36"/>
+			<column name="FREQ4" index="37"/>
+			<column name="FREQ40" index="38"/>
+			<column name="FREQ41" index="39"/>
+			<column name="FREQ42" index="40"/>
+			<column name="FREQ43" index="41"/>
+			<column name="FREQ44" index="42"/>
+			<column name="FREQ45" index="43"/>
+			<column name="FREQ46" index="44"/>
+			<column name="FREQ47" index="45"/>
+			<column name="FREQ48" index="46"/>
+			<column name="FREQ49" index="47"/>
+			<column name="FREQ5" index="48"/>
+			<column name="FREQ50" index="49"/>
+			<column name="FREQ51" index="50"/>
+			<column name="FREQ52" index="51"/>
+			<column name="FREQ53" index="52"/>
+			<column name="FREQ54" index="53"/>
+			<column name="FREQ55" index="54"/>
+			<column name="FREQ56" index="55"/>
+			<column name="FREQ57" index="56"/>
+			<column name="FREQ58" index="57"/>
+			<column name="FREQ59" index="58"/>
+			<column name="FREQ6" index="59"/>
+			<column name="FREQ60" index="60"/>
+			<column name="FREQ61" index="61"/>
+			<column name="FREQ62" index="62"/>
+			<column name="FREQ63" index="63"/>
+			<column name="FREQ64" index="64"/>
+			<column name="FREQ7" index="65"/>
+			<column name="FREQ8" index="66"/>
+			<column name="FREQ9" index="67"/>
+			<column name="HOPINDEX" index="68"/>
+			<column name="HOPMODE" index="69"/>
+			<column name="HSN" index="70"/>
+			<column name="IDTYPE" index="71"/>
+			<column name="MOINDEX" index="72"/>
+			<column name="TSC" index="73"/>
+			<column name="CLASSNAME" index="74"/>
+			<column name="NAME" index="75"/>
+			<column name="NEID" index="76"/>
+			<column name="EXTEND1" index="77"/>
+			<column name="EXTEND2" index="78"/>
+			<column name="EXTEND3" index="79"/>
+		</table>
+	</templet>
+	<templet id="14">
+		<table id="0" name="CLT_CM_HWV9R11_CELLOTHEXT" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="CDRTTRYFBDTHRES" index="2"/>
+			<column name="CELLID" index="3"/>
+			<column name="CELLNAME" index="4"/>
+			<column name="CELLOVERCVGRXLEVDLTH" index="5"/>
+			<column name="CELLOVERCVGTALTH" index="6"/>
+			<column name="CELLWEAKCVGRXLEVDLTH" index="7"/>
+			<column name="CELLWEAKCVGTALTH" index="8"/>
+			<column name="DATATRAFFSET" index="9"/>
+			<column name="DCDIVTHRES" index="10"/>
+			<column name="DRXEN" index="11"/>
+			<column name="FRAMEOFFSET" index="12"/>
+			<column name="FREQADJ" index="13"/>
+			<column name="FREQADJVALUE" index="14"/>
+			<column name="IDTYPE" index="15"/>
+			<column name="INTERFTHRES0" index="16"/>
+			<column name="INTERFTHRES1" index="17"/>
+			<column name="INTERFTHRES2" index="18"/>
+			<column name="INTERFTHRES3" index="19"/>
+			<column name="INTERFTHRES4" index="20"/>
+			<column name="INTERFTHRES5" index="21"/>
+			<column name="INTERPERIOD" index="22"/>
+			<column name="MAINBCCHPWDTACTCHEN" index="23"/>
+			<column name="MAINBCCHPWRDTEN" index="24"/>
+			<column name="MAINBCCHPWRDTETIME" index="25"/>
+			<column name="MAINBCCHPWRDTRANGE" index="26"/>
+			<column name="MAINBCCHPWRDTSTIME" index="27"/>
+			<column name="MOINDEX" index="28"/>
+			<column name="PODECTHRES" index="29"/>
+			<column name="POERRTHRES" index="30"/>
+			<column name="RESERVEDIDLECH" index="31"/>
+			<column name="RFMAXPWRDEC" index="32"/>
+			<column name="SDDROPSTATDLLEV" index="33"/>
+			<column name="SDDROPSTATDLQUAL" index="34"/>
+			<column name="SDDROPSTATULLEV" index="35"/>
+			<column name="SDDROPSTATULQUAL" index="36"/>
+			<column name="TFRMSTARTTIME" index="37"/>
+			<column name="VSWRERRTHRES" index="38"/>
+			<column name="VSWRUNJUSTTHRES" index="39"/>
+			<column name="CLASSNAME" index="40"/>
+			<column name="NAME" index="41"/>
+			<column name="NEID" index="42"/>
+			<column name="EXTEND1" index="43"/>
+			<column name="EXTEND2" index="44"/>
+			<column name="EXTEND3" index="45"/>
+		</table>
+	</templet>
+	<templet id="15">
+		<table id="0" name="CLT_CM_HWV9R11_CELLPWRBASIC" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="AMRSADLUPGRADE" index="2"/>
+			<column name="CELLID" index="3"/>
+			<column name="CELLNAME" index="4"/>
+			<column name="COMBINERLOSS" index="5"/>
+			<column name="DLQHIGHTHRED" index="6"/>
+			<column name="DLQLOWTHRED" index="7"/>
+			<column name="DLSSHIGHTHRED" index="8"/>
+			<column name="DLSSLOWTHRED" index="9"/>
+			<column name="DOUBLEANTENNAGAIN" index="10"/>
+			<column name="EXPDLRXLEV" index="11"/>
+			<column name="EXPULRXLEV" index="12"/>
+			<column name="IDTYPE" index="13"/>
+			<column name="MOINDEX" index="14"/>
+			<column name="PATHLOSS" index="15"/>
+			<column name="PCADJPERIOD" index="16"/>
+			<column name="PWRBCDALLOWD" index="17"/>
+			<column name="PWRCTRLSW" index="18"/>
+			<column name="SAICALLOWED" index="19"/>
+			<column name="ULQHIGHTHRED" index="20"/>
+			<column name="ULQLOWTHRED" index="21"/>
+			<column name="ULSSHIGHTHRED" index="22"/>
+			<column name="ULSSLOWTHRED" index="23"/>
+			<column name="CLASSNAME" index="24"/>
+			<column name="NAME" index="25"/>
+			<column name="NEID" index="26"/>
+			<column name="EXTEND1" index="27"/>
+			<column name="EXTEND2" index="28"/>
+			<column name="EXTEND3" index="29"/>
+		</table>
+	</templet>
+	<templet id="16">
+		<table id="0" name="CLT_CM_HWV9R11_EXT2GCELL" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="BCC" index="2"/>
+			<column name="BCCH" index="3"/>
+			<column name="BSCIDX" index="4"/>
+			<column name="BSCN2GCELLNAME" index="5"/>
+			<column name="CELLLAYER" index="6"/>
+			<column name="CELLPRIOR" index="7"/>
+			<column name="CGI" index="8"/>
+			<column name="CI" index="9"/>
+			<column name="COMSC" index="10"/>
+			<column name="EXT2GCELLID" index="11"/>
+			<column name="EXT2GCELLNAME" index="12"/>
+			<column name="HOOFFSET" index="13"/>
+			<column name="HOPUNISHVALUE" index="14"/>
+			<column name="HOTHRES" index="15"/>
+			<column name="IDTYPE" index="16"/>
+			<column name="ISEDGESUPPORT" index="17"/>
+			<column name="ISGPRSSUPPORT" index="18"/>
+			<column name="ISNC2SUPPORT" index="19"/>
+			<column name="LAC" index="20"/>
+			<column name="LOADACCTHRES" index="21"/>
+			<column name="LOADHOEN" index="22"/>
+			<column name="MCC" index="23"/>
+			<column name="MNC" index="24"/>
+			<column name="MOINDEX" index="25"/>
+			<column name="MSRXMIN" index="26"/>
+			<column name="NCC" index="27"/>
+			<column name="OPNAME" index="28"/>
+			<column name="RA" index="29"/>
+			<column name="SDPUNTIME" index="30"/>
+			<column name="SDPUNVAL" index="31"/>
+			<column name="SRCCI" index="32"/>
+			<column name="SRCLAC" index="33"/>
+			<column name="SRCMCC" index="34"/>
+			<column name="SRCMNC" index="35"/>
+			<column name="TIMEPUNISH" index="36"/>
+			<column name="CLASSNAME" index="37"/>
+			<column name="NAME" index="38"/>
+			<column name="NEID" index="39"/>
+			<column name="EXTEND1" index="40"/>
+			<column name="EXTEND2" index="41"/>
+			<column name="EXTEND3" index="42"/>
+		</table>
+	</templet>
+	<templet id="17">
+		<table id="0" name="CLT_CM_HWV9R11_EXT3GCELL" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="BSCN3GCELLNAME" index="2"/>
+			<column name="CELLLAYER" index="3"/>
+			<column name="CI" index="4"/>
+			<column name="DF" index="5"/>
+			<column name="DIVERSITY" index="6"/>
+			<column name="ECNOTHRES" index="7"/>
+			<column name="EXT3GCELLID" index="8"/>
+			<column name="EXT3GCELLNAME" index="9"/>
+			<column name="FDDECQUALTHRSH" index="10"/>
+			<column name="FDDRSCPQUALTHRSH" index="11"/>
+			<column name="IDTYPE" index="12"/>
+			<column name="LAC" index="13"/>
+			<column name="LOADACCTHRES" index="14"/>
+			<column name="LOADHOEN" index="15"/>
+			<column name="MCC" index="16"/>
+			<column name="MINECNOTHRES" index="17"/>
+			<column name="MINRSCPTHRES" index="18"/>
+			<column name="MNC" index="19"/>
+			<column name="MOINDEX" index="20"/>
+			<column name="OPNAME" index="21"/>
+			<column name="RNCID" index="22"/>
+			<column name="RSCPTHRES" index="23"/>
+			<column name="SCRAMBLE" index="24"/>
+			<column name="SYNCCASE" index="25"/>
+			<column name="TDDRSCPQUALTHRSH" index="26"/>
+			<column name="UTRANCELLTYPE" index="27"/>
+			<column name="CLASSNAME" index="28"/>
+			<column name="NAME" index="29"/>
+			<column name="NEID" index="30"/>
+			<column name="EXTEND1" index="31"/>
+			<column name="EXTEND2" index="32"/>
+			<column name="EXTEND3" index="33"/>
+		</table>
+	</templet>
+	<templet id="18">
+		<table id="0" name="CLT_CM_HWV9R11_TRX" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="ACTSTATUS" index="2"/>
+			<column name="CABINETNO" index="3"/>
+			<column name="CELLID" index="4"/>
+			<column name="CELLNAME" index="5"/>
+			<column name="FREQ" index="6"/>
+			<column name="IDTYPE" index="7"/>
+			<column name="ISMAINBCCH" index="8"/>
+			<column name="MOINDEX" index="9"/>
+			<column name="SN" index="10"/>
+			<column name="SRN" index="11"/>
+			<column name="TEI" index="12"/>
+			<column name="TRXID" index="13"/>
+			<column name="TRXNO" index="14"/>
+			<column name="UPRSLLOGICNO" index="15"/>
+			<column name="CLASSNAME" index="16"/>
+			<column name="NAME" index="17"/>
+			<column name="NEID" index="18"/>
+			<column name="EXTEND1" index="19"/>
+			<column name="EXTEND2" index="20"/>
+			<column name="EXTEND3" index="21"/>
+		</table>
+	</templet>
+	<templet id="19">
+		<table id="0" name="CLT_CM_HWV9R11_TRXCHANHOP" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="CHNO" index="2"/>
+			<column name="MOINDEX" index="3"/>
+			<column name="TRXHOPINDEX" index="4"/>
+			<column name="TRXID" index="5"/>
+			<column name="TRXMAIO" index="6"/>
+			<column name="CLASSNAME" index="7"/>
+			<column name="NAME" index="8"/>
+			<column name="NEID" index="9"/>
+			<column name="EXTEND1" index="10"/>
+			<column name="EXTEND2" index="11"/>
+			<column name="EXTEND3" index="12"/>
+		</table>
+	</templet>
+	<templet id="20">
+		<table id="0" name="CLT_CM_HWV9R11_GSMNE" split="|">
+			<column name="FDN" index="0"/>
+			<column name="OBJECTID" index="1"/>
+			<column name="DAYLIGHTSAVEINFO" index="2"/>
+			<column name="IP" index="3"/>
+			<column name="MOINDEX" index="4"/>
+			<column name="TIMEZONE" index="5"/>
+			<column name="CLASSNAME" index="6"/>
+			<column name="DISTRICT" index="7"/>
+			<column name="ISOFFLINE" index="8"/>
+			<column name="LATITUDE" index="9"/>
+			<column name="LOCATIONNAME" index="10"/>
+			<column name="LONGITUDE" index="11"/>
+			<column name="MATCHVERSION" index="12"/>
+			<column name="MEMO" index="13"/>
+			<column name="NAME" index="14"/>
+			<column name="NEID" index="15"/>
+			<column name="NETYPE" index="16"/>
+			<column name="NEVERSION" index="17"/>
+			<column name="REALLATITUDE" index="18"/>
+			<column name="REALLONGITUDE" index="19"/>
+			<column name="USERLABEL" index="20"/>
+			<column name="VENDORNAME" index="21"/>
+			<column name="EXTEND1" index="22"/>
+			<column name="EXTEND2" index="23"/>
+			<column name="EXTEND3" index="24"/>
+		</table>
+	</templet>
+</templets>

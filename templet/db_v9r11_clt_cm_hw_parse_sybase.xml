@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+
+     <templet id="1" fromTable="BSC6000R11GTRX" toTable="CLT_CM_HWV9R11_TRX" used="1" condition=""><sql>select * from BSC6000R11GTRX</sql></templet>
+     <templet id="1" fromTable="BSC6000R11Cell" toTable="CLT_CM_HWV9R11_GSMCELL" used="1" condition=""><sql>select * from BSC6000R11Cell</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLFREQ" toTable="CLT_CM_HWV9R11_CELLFREQ" used="1" condition=""><sql>select * from BSC6000R11GCELLFREQ</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLHOPTP" toTable="CLT_CM_HWV9R11_CELLHOPTP" used="1" condition=""><sql>select * from BSC6000R11GCELLHOPTP</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLMAGRP" toTable="CLT_CM_HWV9R11_CELLMAGRP" used="1" condition=""><sql>select * from BSC6000R11GCELLMAGRP</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GTRXCHANHOP" toTable="CLT_CM_HWV9R11_TRXCHANHOP" used="1" condition=""><sql>select * from BSC6000R11GTRXCHANHOP</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLIDLEBASIC" toTable="CLT_CM_HWV9R11_CELLIDLEBASC" used="1" condition=""><sql>select * from BSC6000R11GCELLIDLEBASIC</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLOTHEXT" toTable="CLT_CM_HWV9R11_CELLOTHEXT" used="1" condition=""><sql>select * from BSC6000R11GCELLOTHEXT</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLBASICPARA" toTable="CLT_CM_HWV9R11_CELLBASICPAR" used="1" condition=""><sql>select * from BSC6000R11GCELLBASICPARA</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLCCBASIC" toTable="CLT_CM_HWV9R11_CELLCCBASIC" used="1" condition=""><sql>select * from BSC6000R11GCELLCCBASIC</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLCCACCESS" toTable="CLT_CM_HWV9R11_CELLCCACCESS" used="1" condition=""><sql>select * from BSC6000R11GCELLCCACCESS</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLIDLEAD" toTable="CLT_CM_HWV9R11_CELLIDLEAD" used="1" condition=""><sql>select * from BSC6000R11GCELLIDLEAD </sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLCCCH" toTable="CLT_CM_HWV9R11_CELLCCCH" used="1" condition=""><sql>select * from BSC6000R11GCELLCCCH </sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLPWRBASIC" toTable="CLT_CM_HWV9R11_CELLPWRBASIC" used="1" condition=""><sql>select * from BSC6000R11GCELLPWRBASIC </sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLHOBASIC" toTable="CLT_CM_HWV9R11_CELLHOBASIC" used="1" condition=""><sql>select * from BSC6000R11GCELLHOBASIC  </sql></templet>
+     <templet id="1" fromTable="BSC6000R11GCELLHOEMG" toTable="CLT_CM_HWV9R11_CELLHOEMG" used="1" condition=""><sql>select * from BSC6000R11GCELLHOEMG </sql></templet>
+     <templet id="1" fromTable="BSC6000R11GEXT2GCELL" toTable="CLT_CM_HWV9R11_EXT2GCELL" used="1" condition=""><sql>select * from BSC6000R11GEXT2GCELL</sql></templet>
+     <templet id="1" fromTable="BSC6000R11GEXT3GCELL" toTable="CLT_CM_HWV9R11_EXT3GCELL" used="1" condition=""><sql>select * from BSC6000R11GEXT3GCELL </sql></templet>
+     <templet id="1" fromTable="BSC6000R11G2GNCELL" toTable="CLT_CM_HWV9R11_2GNCELL" used="1" condition=""><sql>select * from BSC6000R11G2GNCELL</sql></templet>
+     <templet id="1" fromTable="BSC6000R11G3GNCELL" toTable="CLT_CM_HWV9R11_3GNCELL" used="1" condition=""><sql>select * from BSC6000R11G3GNCELL</sql></templet>
+     <templet id="1" fromTable="BSC6000R11NE" toTable="CLT_CM_HWV9R11_GSMNE" used="1" condition=""><sql>select * from BSC6000R11NE</sql></templet>
+</templets>  

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gbk"?>
+<!-- timeModif的意思，两条或两条以上同类型的测量记录，如果测量时间相等，则后一条在前一条基础上加20毫秒 -->
+<!-- timezone的意思，配置为"8"，表示将file_date中的值加8小时，也可配成负数，表示减多少小时。 -->
+<templet timeModif="20" timezone="0">
+	<collect key="DM" table="clt_dt_dingli_201_dm" />
+	<collect key="SC" table="clt_dt_dingli_201_sc" />
+	<!--<collect key="HOP" table="clt_dt_dingli_201_hop" />-->
+	<!--<collect key="PSM" table="clt_dt_dingli_201_psm" />-->
+	<!--<collect key="AP" table="clt_dt_dingli_201_ap" />-->
+	<!--<collect key="PCP" table="clt_dt_dingli_201_pcp" />-->
+	<!--<collect key="CL3" table="clt_dt_dingli_201_cl3" />-->
+	<!--<collect key="UI" table="clt_dt_dingli_201_ui" />-->
+	<!--<collect key="ASFI" table="clt_dt_dingli_201_asfi" />-->
+	<collect key="C1XQI" table="clt_dt_dingli_201_c1xqi" />
+	<collect key="GPS" table="clt_dt_dingli_201_gps" />
+	<!--<collect key="C1XFMI" table="clt_dt_dingli_201_c1xfmi" />-->
+	<!--<collect key="C1XSMI" table="clt_dt_dingli_201_c1xsmi" />-->
+	<collect key="EVT" table="clt_dt_dingli_201_evt" />
+	<!--	<collect key="LAB" table="clt_dt_dingli_201_lab" />-->
+	<collect key="ENT" table="clt_dt_dingli_201_ent" />
+	<collect key="VOT" table="clt_dt_dingli_201_vot" />
+</templet>

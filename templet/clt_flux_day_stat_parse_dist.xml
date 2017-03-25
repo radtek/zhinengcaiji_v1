@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" fromTable="flux_day_stat_%%Y_%%NZM" toTable="clt_flux_day_stat" used="1" condition="">
+		<sql>SELECT * 
+FROM   flux_day_stat_%%Y_%%NZM</sql>
+	</templet>
+</templets>

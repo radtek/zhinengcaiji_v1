@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	* C网华为MML数据采集 采集方式:telnet 命令=命令模板+命令参数
+	* event:事件,一个命令就是一个事件
+	* commandTemplate:命令模板
+	* para:命令参数,如果有参数
+	* commandExceple:一条完整的命令,供参考
+	* engineEventId:引擎事件ID,即启动该事件的引擎事件ID.引擎事件B执行完后,所返回的数据作为事件A的参数,触发事件A
+	* period:采集周期,单位为分钟.一般有两种：一天（1440分钟）和10分钟，配置任务的周期取最小值，即10分钟
+	* arrangement:{row:属性按行排列,column:属性按列排列}，属性的排列方式不同，决定了读取的方式
+	* table:{name:采集表即入库表,dataType:数据类型}
+	* column:{name:采集表字段名称,from:来自于数据源属性(同上面arrangement中的属性)的值}
+-->
+<templates>
+	<template id="0">
+		<event id="0">
+			<commandTemplate>DSP DUALSTAT:;</commandTemplate>
+			<para></para>
+			<commandExceple>DSP DUALSTAT:;</commandExceple>
+			<engineEventId></engineEventId>
+			<period>1440</period>
+			<arrangement>column</arrangement>
+			<table id="0" name="CLT_MML_DUALSTAT_HW" dataType="3691">
+				<column name="BAM_MASTER" from="主用BAM"/>
+				<column name="BAM_SLAVE" from="备用BAM"/>
+				<column name="NETWORK_CNN_STATUS" from="内网连接状态"/>
+				<column name="EXT_NETWORK_CNN_STATUS" from="外网连接状态"/>
+				<column name="FILE_SYN_STATUS" from="文件同步状态"/>
+				<column name="DATA_SYN_ESTABLISHED_STATUS" from="数据同步建立状态"/>
+				<column name="DATA_TRANSFER_STATUS" from="数据传送状态"/>
+				<column name="IS_FAULT_AUTO_SWITCHED" from="是否可以自动故障倒换"/>
+			</table>
+		</event>
+		<event id="1">
+			<commandTemplate>DSP RES:STRFLTR=STR,CONFIRM=Y;</commandTemplate>
+			<para></para>
+			<commandExceple>DSP RES:STRFLTR=STR,CONFIRM=Y;</commandExceple>
+			<engineEventId></engineEventId>
+			<period>1440</period>
+			<arrangement>row</arrangement>
+			<table id="0" name="CLT_MML_RES_HW" dataType="3692">
+				<column name="BTS_ID" from="基站编号"/>
+				<column name="BTS_NAME" from="基站名称"/>
+				<column name="LOCAL_CELL_ID" from="小区号"/>
+				<column name="CELL_ID" from="扇区号"/>
+				<column name="CARR_SEQ" from="载频号"/>
+				<column name="TYP" from="系统类型"/>
+				<column name="MANAGEMENT_STATUS" from="管理状态"/>
+				<column name="OPERATION_STATUS" from="操作状态"/>
+				<column name="USING_STATUS" from="使用状态"/>
+			</table>
+		</event>
+		<event id="2">
+			<commandTemplate>LST N7OPC:;</commandTemplate>
+			<para></para>
+			<commandExceple>LST N7OPC:;</commandExceple>
+			<engineEventId></engineEventId>
+			<period>1440</period>
+			<arrangement>row</arrangement>
+			<table id="0" name="CLT_MML_N70PC_HW" dataType="3693">
+				<column name="ORIGINAL_POINT_INDEX" from="源信令点索引"/>
+				<column name="POINT_NETWORK_INDICATOR" from="信令点网络指示语"/>
+				<column name="ORIGINAL_POINT_CODE" from="源信令点编码"/>
+				<column name="POINT_RESTART_FUN_ENABLED" from="信令点重启动功能使能"/>
+				<column name="CONGESTION_LEVEL_PERCENT" from="拥塞级别百分比"/>
+				<column name="FIRST_SEARCH" from="第一搜索网络"/>
+				<column name="SECOND_SEARCH" from="第二搜索网络"/>
+				<column name="THIRD_SEARCH" from="第三搜索网络"/>
+				<column name="FOURTH_SEARCH" from="第四搜索网络"/>
+				<column name="ORIGINAL_POINT_SP_FLAG" from="源信令点SP功能标志"/>
+				<column name="ORIGINAL_POINT_STP_FLAG" from="源信令点STP功能标志"/>
+				<column name="ORIGINAL_POINT_NAME" from="源信令点名称"/>
+			</table>
+		</event>
+		<event id="3">
+			<commandTemplate>DSP N7LNK:OPT=OPC,OPC="OPC?";</commandTemplate>
+			<para>OPC?=CLT_MML_N70PC_HW.ORIGINAL_POINT_CODE</para>
+			<commandExceple>DSP N7LNK:OPT=OPC,OPC="0x094173";</commandExceple>
+			<engineEventId>2</engineEventId>
+			<period>1440</period>
+			<arrangement>row</arrangement>
+			<table id="0" name="CLT_MML_N70PC_OPC_HW" dataType="3694">
+				<column name="FRAME_NO" from="框号"/>
+				<column name="SLOT_NO" from="槽号"/>
+				<column name="SUBSYS_NO" from="子系统号"/>
+				<column name="LINKNO" from="链路号"/>
+				<column name="TRANSPORT_SERVICE" from="传输服务"/>
+				<column name="LINK_ACTIVATION" from="链路激活"/>
+				<column name="LINK_BLOCK" from="链路阻断"/>
+				<column name="LINK_FAILURE" from="链路故障"/>
+				<column name="PROHIBIT_LOCAL_MANAGEMENT" from="本地管理禁止"/>
+				<column name="REMOTE_MANAGEMENT_BAN" from="远端管理禁止"/>
+				<column name="LINK_CONGESTION" from="链路拥塞"/>
+				<column name="SWITCHOVER_UNDERWAY" from="正进行倒换"/>
+				<column name="REWIND_UNDERWAY" from="正进行倒回"/>
+				<column name="SLS" from="SLS"/>
+			</table>
+		</event>
+		<event id="4">
+			<commandTemplate>LST SUBSYSTEM:SSTP=SSTP?;</commandTemplate>
+			<para>SSTP?=AMUO,PMUO,SMUO,RPUO</para>
+			<commandExceple>LST SUBSYSTEM:SSTP=AMUO;</commandExceple>
+			<engineEventId></engineEventId>
+			<period>1440</period>
+			<arrangement>row</arrangement>
+			<table id="0" name="CLT_MML_SUBSYSTEM_HW" dataType="3695">
+				<column name="FRAME_NO" from="框号"/>
+				<column name="SLOT_NO" from="槽号"/>
+				<column name="SUBSYS_NO" from="子系统号"/>
+				<column name="SUBSYS_TYPE" from="子系统类型"/>
+				<column name="FRAME_TYPE" from="框类型"/>
+				<column name="LOGIC_BOARD_TYPE" from="逻辑板类型"/>
+				<column name="SUBSYS_CPUID" from="子系统CPUID"/>
+			</table>
+		</event>
+		<event id="5">
+			<commandTemplate>DSP CPUUSAGE:FN=FN?,SN=SN?,SSN=SSN?;</commandTemplate>
+			<para>FN?=CLT_MML_SUBSYSTEM_HW.FRAME_NO;SN?=CLT_MML_SUBSYSTEM_HW.SLOT_NO;SSN?=CLT_MML_SUBSYSTEM_HW.SUBSYS_NO</para>
+			<commandExceple>DSP CPUUSAGE:FN=2,SN=8,SSN=1;</commandExceple>
+			<engineEventId>4</engineEventId>
+			<period>10</period>
+			<arrangement>column</arrangement>
+			<table id="0" name="CLT_MML_SUBSYSTEM_CPUUSAGE_HW" dataType="3696">
+				<column name="CPUUSAGE_RATE" from="CPU占用率(%)"/>
+			</table>
+		</event>
+		<event id="6">
+			<commandTemplate>LST BRD:BTP=BTP?;</commandTemplate>
+			<para>BTP?=SCUOa,DPUDb,DPUSb,ECUOa,GOUXa,AO1Ba,FG1Ba,PO1Ba,OIUAa,GCUOa,POUBc</para>
+			<commandExceple>LST BRD:BTP=SCUOa;</commandExceple>
+			<engineEventId></engineEventId>
+			<period>1440</period>
+			<arrangement>row</arrangement>
+			<table id="0" name="CLT_MML_SLOT_HW" dataType="3697">
+				<column name="FRAME_NO" from="框号"/>
+				<column name="SLOT_NO" from="槽号"/>
+				<column name="LOGIC_BOARD_TYPE" from="逻辑板类型"/>
+				<column name="FRAME_TYPE" from="框类型"/>
+				<column name="PHYSICS_BOARD_TYPE" from="物理板类型"/>
+				<column name="OPERATION_MODE" from="工作模式"/>
+			</table>
+		</event>
+		<event id="7">
+			<commandTemplate>DSP CPUUSAGE:FN=FN?,SN=SN?;</commandTemplate>
+			<para>FN?=CLT_MML_SLOT_HW.FRAME_NO;SN?=CLT_MML_SLOT_HW.SLOT_NO</para>
+			<commandExceple>DSP CPUUSAGE:FN=2,SN=6;</commandExceple>
+			<engineEventId>6</engineEventId>
+			<period>10</period>
+			<arrangement>column</arrangement>
+			<table id="0" name="CLT_MML_SLOT_CPUUSAGE_HW" dataType="3698">
+				<column name="CPUUSAGE_RATE" from="CPU占用率(%)"/>
+			</table>
+		</event>
+		<event id="8">
+			<commandTemplate>LST PCF:;</commandTemplate>
+			<para></para>
+			<commandExceple>LST PCF:;</commandExceple>
+			<engineEventId></engineEventId>
+			<period>1440</period>
+			<arrangement>row</arrangement>
+			<table id="0" name="CLT_MML_PCF_HW" dataType="3699">
+				<column name="FRAME_NO" from="框号"/>
+				<column name="SLOT_NO" from="槽号"/>
+				<column name="LOGIC_BOARD_TYPE" from="逻辑板类型"/>
+				<column name="PCF_IP" from="PCF IP地址"/>
+				<column name="PCF_SUBNET_MASK" from="PCF子网掩码"/>
+			</table>
+		</event>
+	</template>
+</templates>

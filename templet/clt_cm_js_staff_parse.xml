@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/js/JS_STAFF_%%Y%%M.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="省份"        index="0" />
+				<field name="地市"        index="1" />
+				<field name="姓名"        index="2" />
+				<field name="性别"        index="3" />
+				<field name="年龄"        index="4" />
+				<field name="岗位"        index="5" />
+				<field name="学历"        index="6" />
+				<field name="手机"        index="7" />
+				<field name="email"       index="8" />
+				<field name="职称"        index="9" />
+				<field name="资质"        index="10" />
+				<field name="内训师"      index="11" />
+				<field name="专项接口"    index="12" />
+				<field name="网优奖项"    index="13" />
+				<field name="网优技能认证级别"    index="14" />
+				<field name="时间戳"    index="15" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

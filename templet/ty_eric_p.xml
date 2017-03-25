@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="/eric/%%Y%%M%%D/%%H_00/BSCGPRS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="PAGCSCONG" index="6"/>
+				<field name="DISCDL" index="7"/>
+				<field name="DISCUL" index="8"/>
+				<field name="PAGCSBSC" index="9"/>
+				<field name="PAGPSBSC" index="10"/>
+				<field name="ALLPDCHPCUFAIL" index="11"/>
+				<field name="FAILMOVECELL" index="12"/>
+				<field name="NACCPCO" index="13"/>
+				<field name="ESUTONRM" index="14"/>
+				<field name="ESUDLTBF" index="15"/>
+				<field name="DELRELTONRM" index="16"/>
+				<field name="DELRELDLTBF" index="17"/>
+				<field name="EXULTIP" index="18"/>
+				<field name="EXULNRM" index="19"/>
+				<field name="GSL0040" index="20"/>
+				<field name="GSL4160" index="21"/>
+				<field name="GSL6180" index="22"/>
+				<field name="GSL8190" index="23"/>
+				<field name="GSL9100" index="24"/>
+				<field name="GSLMAX" index="25"/>
+				<field name="GSLUTIL" index="26"/>
+				<field name="GSLSCAN" index="27"/>
+				<field name="ALLPDCHPCUATT" index="28"/>
+				<field name="AQMDELIVDATA" index="29"/>
+				<field name="AQMRECDATA" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/eric/%%Y%%M%%D/%%H_00/CELEVENTD.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ID1" index="6"/>
+				<field name="DISNORM" index="7"/>
+				<field name="DISBQA" index="8"/>
+				<field name="DISETA" index="9"/>
+				<field name="DISBSS" index="10"/>
+				<field name="DISFER" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="/eric/%%Y%%M%%D/%%H_00/CELEVENTI.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ID1" index="6"/>
+				<field name="HOINUQA" index="7"/>
+				<field name="HOINSUC" index="8"/>
+				<field name="HOINBQA" index="9"/>
+				<field name="HOINDQA" index="10"/>
+				<field name="HOINBOCH" index="11"/>
+				<field name="BCDTCBCOM" index="12"/>
+				<field name="BCLOSSCOM" index="13"/>
+				<field name="BCDTCBSUC" index="14"/>
+				<field name="BCLOSSSUC" index="15"/>
+				<field name="HOSUCTCHOPT" index="16"/>
+				<field name="HOATTHRPACK" index="17"/>
+				<field name="HOSUCHRPACK" index="18"/>
+				<field name="HOINSRTL2BOCH" index="19"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="3" file="/eric/%%Y%%M%%D/%%H_00/CELLCCHDR.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="CDISSSSUB" index="6"/>
+				<field name="CDISQA" index="7"/>
+				<field name="CDISSS" index="8"/>
+				<field name="CDISSS1" index="9"/>
+				<field name="CDISSS2" index="10"/>
+				<field name="CDISSS3" index="11"/>
+				<field name="CDISSS4" index="12"/>
+				<field name="CDISSS5" index="13"/>
+				<field name="CDISTA" index="14"/>
+				<field name="CDISQASUB" index="15"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="4" file="/eric/%%Y%%M%%D/%%H_00/CELLCCHHO.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ID1" index="6"/>
+				<field name="CCHHOTOCH" index="7"/>
+				<field name="CCHHOCNT" index="8"/>
+				<field name="CCHHOSUC" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="5" file="/eric/%%Y%%M%%D/%%H_00/CELLGPRS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="RETRANSDL" index="6"/>
+				<field name="ALLPDCHACTACC" index="7"/>
+				<field name="ALLPDCHSCAN" index="8"/>
+				<field name="RETRANSUL" index="9"/>
+				<field name="PCHALLATT" index="10"/>
+				<field name="PDRAC" index="11"/>
+				<field name="PAGCSBVCI" index="12"/>
+				<field name="PPAGCSBVCI" index="13"/>
+				<field name="RBCDL" index="14"/>
+				<field name="PREEMPTPDCH" index="15"/>
+				<field name="RBCUL" index="16"/>
+				<field name="ALLPDCHACC" index="17"/>
+				<field name="PCHALLFAIL" index="18"/>
+				<field name="ALLPDCHPEAK" index="19"/>
+				<field name="PDPRAC" index="20"/>
+				<field name="MC19ULSCHED" index="21"/>
+				<field name="MC19ULACK" index="22"/>
+				<field name="DLTBFEST" index="23"/>
+				<field name="FAILDLTBFEST" index="24"/>
+				<field name="TBFPREEMPEST" index="25"/>
+				<field name="PREEMPTTBF" index="26"/>
+				<field name="MOVECELLTBF" index="27"/>
+				<field name="CELLMOVED" index="28"/>
+				<field name="CS12ULSCHED" index="29"/>
+				<field name="CS12DLSCHED" index="30"/>
+				<field name="CS12ULACK" index="31"/>
+				<field name="CS12DLACK" index="32"/>
+				<field name="MC19QULSCHED" index="33"/>
+				<field name="MC19QULACK" index="34"/>
+				<field name="MSESTDLTBF" index="35"/>
+				<field name="LDISEST" index="36"/>
+				<field name="FAILDLANSW" index="37"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="6" file="/eric/%%Y%%M%%D/%%H_00/CELLGPRS2.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="LDISTFI" index="6"/>
+				<field name="IAULREL" index="7"/>
+				<field name="LDISRR" index="8"/>
+				<field name="PREJOTH" index="9"/>
+				<field name="LDISOTH" index="10"/>
+				<field name="PREJTFI" index="11"/>
+				<field name="FLUDISC" index="12"/>
+				<field name="PSCHREQ" index="13"/>
+				<field name="FLUMOVE" index="14"/>
+				<field name="PCHRREQ" index="15"/>
+				<field name="PCHRZRETRY" index="16"/>
+				<field name="PCHROPRETRY" index="17"/>
+				<field name="PCHRSCAN" index="18"/>
+				<field name="PAGDISCPPCH" index="19"/>
+				<field name="PAGCSONPPCH" index="20"/>
+				<field name="PAGPSONPPCH" index="21"/>
+				<field name="PMTATT" index="22"/>
+				<field name="PMTREF" index="23"/>
+				<field name="CS14DLSCHED" index="24"/>
+				<field name="MC19DLSCHED" index="25"/>
+				<field name="PREEMPTULREL" index="26"/>
+				<field name="OTHULREL" index="27"/>
+				<field name="MSESTULTBF" index="28"/>
+				<field name="MC19DLACK" index="29"/>
+				<field name="CS14DLACK" index="30"/>
+				<field name="CS14QDLSCHED" index="31"/>
+				<field name="CS14QDLACK" index="32"/>
+				<field name="MC19QDLSCHED" index="33"/>
+				<field name="MC19QDLACK" index="34"/>
+				<field name="CRSULREL" index="35"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="7" file="/eric/%%Y%%M%%D/%%H_00/CELLQOSEG.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ULTHP2EGDATA" index="6"/>
+				<field name="DLBGEGDATA" index="7"/>
+				<field name="ULBGEGDATA" index="8"/>
+				<field name="DLTHP1EGDATA" index="9"/>
+				<field name="ULTHP1EGDATA" index="10"/>
+				<field name="DLTHP3EGDATA" index="11"/>
+				<field name="ULTHP3EGDATA" index="12"/>
+				<field name="DLTHP2EGDATA" index="13"/>
+				<field name="ULTHP1EGTHR" index="14"/>
+				<field name="DLTHP1EGTHR" index="15"/>
+				<field name="ULTHP2EGTHR" index="16"/>
+				<field name="DLTHP2EGTHR" index="17"/>
+				<field name="ULTHP3EGTHR" index="18"/>
+				<field name="DLTHP3EGTHR" index="19"/>
+				<field name="ULBGEGTHR" index="20"/>
+				<field name="DLBGEGTHR" index="21"/>
+				<field name="ULTHP1EGPFC" index="22"/>
+				<field name="DLTHP1EGPFC" index="23"/>
+				<field name="ULTHP2EGPFC" index="24"/>
+				<field name="DLTHP2EGPFC" index="25"/>
+				<field name="ULTHP3EGPFC" index="26"/>
+				<field name="DLTHP3EGPFC" index="27"/>
+				<field name="ULBGEGPFC" index="28"/>
+				<field name="DLBGEGPFC" index="29"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="8" file="/eric/%%Y%%M%%D/%%H_00/CELLQOSG.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ULTHP1GDATA" index="6"/>
+				<field name="ULBGGDATA" index="7"/>
+				<field name="DLTHP2GDATA" index="8"/>
+				<field name="ULTHP3GDATA" index="9"/>
+				<field name="DLTHP1GDATA" index="10"/>
+				<field name="ULTHP2GDATA" index="11"/>
+				<field name="DLBGGDATA" index="12"/>
+				<field name="DLTHP3GDATA" index="13"/>
+				<field name="ULTHP1GTHR" index="14"/>
+				<field name="DLTHP1GTHR" index="15"/>
+				<field name="ULTHP2GTHR" index="16"/>
+				<field name="DLTHP2GTHR" index="17"/>
+				<field name="ULTHP3GTHR" index="18"/>
+				<field name="DLTHP3GTHR" index="19"/>
+				<field name="ULBGGTHR" index="20"/>
+				<field name="DLBGGTHR" index="21"/>
+				<field name="ULTHP1GPFC" index="22"/>
+				<field name="DLTHP1GPFC" index="23"/>
+				<field name="ULTHP2GPFC" index="24"/>
+				<field name="DLTHP2GPFC" index="25"/>
+				<field name="ULTHP3GPFC" index="26"/>
+				<field name="DLTHP3GPFC" index="27"/>
+				<field name="ULBGGPFC" index="28"/>
+				<field name="DLBGGPFC" index="29"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="9" file="/eric/%%Y%%M%%D/%%H_00/CELLSQI.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="TSQIGOODSUB" index="6"/>
+				<field name="TSQIACCPTSUB" index="7"/>
+				<field name="TSQIBAD" index="8"/>
+				<field name="TSQIGOOD" index="9"/>
+				<field name="TSQIBADSUB" index="10"/>
+				<field name="TSQIACCPT" index="11"/>
+				<field name="TSQIGOODAF" index="12"/>
+				<field name="TSQIGOODAH" index="13"/>
+				<field name="TSQIGOODSUBAF" index="14"/>
+				<field name="TSQIGOODSUBAH" index="15"/>
+				<field name="TSQIACCPTAF" index="16"/>
+				<field name="TSQIACCPTAH" index="17"/>
+				<field name="TSQIACCPTSUBAF" index="18"/>
+				<field name="TSQIACCPTSUBAH" index="19"/>
+				<field name="TSQIBADAF" index="20"/>
+				<field name="TSQIBADAH" index="21"/>
+				<field name="TSQIBADSUBAF" index="22"/>
+				<field name="TSQIBADSUBAH" index="23"/>
+				<field name="TSQIGOODAW" index="24"/>
+				<field name="TSQIGOODSUBAW" index="25"/>
+				<field name="TSQIACCPTAW" index="26"/>
+				<field name="TSQIACCPTSUBAW" index="27"/>
+				<field name="TSQIBADAW" index="28"/>
+				<field name="TSQIBADSUBAW" index="29"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="10" file="/eric/%%Y%%M%%D/%%H_00/CELTCHF.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="TFMSESTB" index="6"/>
+				<field name="TFCONGSHO" index="7"/>
+				<field name="TFCASSALL" index="8"/>
+				<field name="TFCASSALLSUB" index="9"/>
+				<field name="TFCALLSSUB" index="10"/>
+				<field name="TFTRALSUB" index="11"/>
+				<field name="TFTCONGS" index="12"/>
+				<field name="TFTHARDCONGSSUB" index="13"/>
+				<field name="TFCONGSAS" index="14"/>
+				<field name="TFNDROP" index="15"/>
+				<field name="TFCONGSASSUB" index="16"/>
+				<field name="TFTCONSUB" index="17"/>
+				<field name="TFCALLS" index="18"/>
+				<field name="TFMSESTBSUB" index="19"/>
+				<field name="TFNSCAN" index="20"/>
+				<field name="TFCONGSHOSUB" index="21"/>
+				<field name="TFTRALACC" index="22"/>
+				<field name="TFTHARDCONGS" index="23"/>
+				<field name="TFNRELCONG" index="24"/>
+				<field name="TFNRELCONGSUB" index="25"/>
+				<field name="TFNDROPSUB" index="26"/>
+				<field name="TFNCEDROP" index="27"/>
+				<field name="TFNCEDROPSUB" index="28"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="11" file="/eric/%%Y%%M%%D/%%H_00/CELTCHFP.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="TFTRALPACC" index="6"/>
+				<field name="TFDROPPGSMSUB" index="7"/>
+				<field name="TFDROPPGSM" index="8"/>
+				<field name="TFCONGPGSMSUB" index="9"/>
+				<field name="TFNSCAN" index="10"/>
+				<field name="TFCONGPGSM" index="11"/>
+				<field name="TFTRALPACCSUB" index="12"/>
+				<field name="TFESTPGSM" index="13"/>
+				<field name="TFESTPGSMSUB" index="14"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="12" file="/eric/%%Y%%M%%D/%%H_00/CELTCHH.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="THTRALACC" index="6"/>
+				<field name="THCONGSHOSUB" index="7"/>
+				<field name="THNDROP" index="8"/>
+				<field name="THCONGSAS" index="9"/>
+				<field name="THNRELCONG" index="10"/>
+				<field name="THCALLS" index="11"/>
+				<field name="THTCONSUB" index="12"/>
+				<field name="THMSESTB" index="13"/>
+				<field name="THNDROPSUB" index="14"/>
+				<field name="THCONGSHO" index="15"/>
+				<field name="THCONGSASSUB" index="16"/>
+				<field name="THNRELCONGSUB" index="17"/>
+				<field name="THCASSALL" index="18"/>
+				<field name="THNSCAN" index="19"/>
+				<field name="THTCONGS" index="20"/>
+				<field name="THMSESTBSUB" index="21"/>
+				<field name="THTRALSUB" index="22"/>
+				<field name="THCALLSSUB" index="23"/>
+				<field name="THCASSALLSUB" index="24"/>
+				<field name="THTHARDCONGS" index="25"/>
+				<field name="THTHARDCONSUB" index="26"/>
+				<field name="THNCEDROP" index="27"/>
+				<field name="THNCEDROPSUB" index="28"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="13" file="/eric/%%Y%%M%%D/%%H_00/CLSDCCH.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="CNRELCONG" index="6"/>
+				<field name="CNDROP" index="7"/>
+				<field name="CCALLS" index="8"/>
+				<field name="CTRALACC" index="9"/>
+				<field name="CAVAACC" index="10"/>
+				<field name="CNSCAN" index="11"/>
+				<field name="CNUCHCNT" index="12"/>
+				<field name="CTCONGS" index="13"/>
+				<field name="CCONGS" index="14"/>
+				<field name="CMSESTAB" index="15"/>
+				<field name="CAVASCAN" index="16"/>
+				<field name="CSCSTCONG" index="17"/>
+				<field name="CSCSOPTCONG" index="18"/>
+				<field name="CESTCHACTIV" index="19"/>
+				<field name="CESTIMMASS" index="20"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="14" file="/eric/%%Y%%M%%D/%%H_00/CLSDCCHO.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="CAVASUB" index="6"/>
+				<field name="CAVASCANSUB" index="7"/>
+				<field name="CNRELCONGSUB" index="8"/>
+				<field name="CTCONSUB" index="9"/>
+				<field name="CNSCANSUB" index="10"/>
+				<field name="CMSESTABSUB" index="11"/>
+				<field name="CCALLSSUB" index="12"/>
+				<field name="CCONGSSUB" index="13"/>
+				<field name="CTRALSUB" index="14"/>
+				<field name="CNUCHSUB" index="15"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="15" file="/eric/%%Y%%M%%D/%%H_00/CLSMS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="CSMSUP" index="6"/>
+				<field name="CSMSDWN" index="7"/>
+				<field name="TSMSUP" index="8"/>
+				<field name="TSMSDWN" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="16" file="/eric/%%Y%%M%%D/%%H_00/CLTCH.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="NONAVHCH" index="6"/>
+				<field name="TCHSIG" index="7"/>
+				<field name="TAVASCAN" index="8"/>
+				<field name="TNUCHSUB" index="9"/>
+				<field name="TCASSALL" index="10"/>
+				<field name="TAVASUB" index="11"/>
+				<field name="TAVASCANSUB" index="12"/>
+				<field name="TASSATT" index="13"/>
+				<field name="TASSALL" index="14"/>
+				<field name="TNUCHCNT" index="15"/>
+				<field name="NONAVFCH" index="16"/>
+				<field name="TAVAACC" index="17"/>
+				<field name="OVERLOADREJCON" index="18"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="17" file="/eric/%%Y%%M%%D/%%H_00/CLTCHDRF.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="TFDISSS1" index="6"/>
+				<field name="TFDISSS2" index="7"/>
+				<field name="TFDISSS3" index="8"/>
+				<field name="TFDISSS4" index="9"/>
+				<field name="TFDISSS5" index="10"/>
+				<field name="TFDISQADL" index="11"/>
+				<field name="TFDISQADLSUB" index="12"/>
+				<field name="TFDISQAULSUB" index="13"/>
+				<field name="TFDISQABLSUB" index="14"/>
+				<field name="TFDISSDLSUB" index="15"/>
+				<field name="TFSUDLOSSUB" index="16"/>
+				<field name="TFDISSBLSUB" index="17"/>
+				<field name="TFDISSULSUB" index="18"/>
+				<field name="TFDISQAUL" index="19"/>
+				<field name="TFDISQA" index="20"/>
+				<field name="TFDISQABL" index="21"/>
+				<field name="TFDISSBL" index="22"/>
+				<field name="TFDISSDL" index="23"/>
+				<field name="TFDISSUL" index="24"/>
+				<field name="TFSUDLOS" index="25"/>
+				<field name="TFDISTA" index="26"/>
+				<field name="TFDISFERUL" index="27"/>
+				<field name="TFDISFERDL" index="28"/>
+				<field name="TFDISFERBL" index="29"/>
+				<field name="TFDISFERULSUB" index="30"/>
+				<field name="TFDISFERDLSUB" index="31"/>
+				<field name="TFDISFERBLSUB" index="32"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="18" file="/eric/%%Y%%M%%D/%%H_00/CLTCHDRH.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="THDISQADLSUB" index="6"/>
+				<field name="THDISQABLSUB" index="7"/>
+				<field name="THDISQAULSUB" index="8"/>
+				<field name="THDISSULSUB" index="9"/>
+				<field name="THDISSBLSUB" index="10"/>
+				<field name="THDISSDLSUB" index="11"/>
+				<field name="THSUDLOSSUB" index="12"/>
+				<field name="THDISSS1" index="13"/>
+				<field name="THDISSS2" index="14"/>
+				<field name="THDISSS3" index="15"/>
+				<field name="THDISSS4" index="16"/>
+				<field name="THDISSS5" index="17"/>
+				<field name="THDISQABL" index="18"/>
+				<field name="THDISQADL" index="19"/>
+				<field name="THDISQAUL" index="20"/>
+				<field name="THDISQA" index="21"/>
+				<field name="THDISTA" index="22"/>
+				<field name="THDISSBL" index="23"/>
+				<field name="THDISSDL" index="24"/>
+				<field name="THDISSUL" index="25"/>
+				<field name="THSUDLOS" index="26"/>
+				<field name="THDISFERUL" index="27"/>
+				<field name="THDISFERDL" index="28"/>
+				<field name="THDISFERBL" index="29"/>
+				<field name="THDISFERULSUB" index="30"/>
+				<field name="THDISFERDLSUB" index="31"/>
+				<field name="THDISFERBLSUB" index="32"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="19" file="/eric/%%Y%%M%%D/%%H_00/IDLEOTCHF.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ITFOSIB1" index="6"/>
+				<field name="ITFOSIB2" index="7"/>
+				<field name="ITFOSIB3" index="8"/>
+				<field name="ITFOSIB4" index="9"/>
+				<field name="ITFOSIB5" index="10"/>
+				<field name="NOACCOF" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="20" file="/eric/%%Y%%M%%D/%%H_00/IDLEOTCHH.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ITHOSIB1" index="6"/>
+				<field name="ITHOSIB2" index="7"/>
+				<field name="ITHOSIB3" index="8"/>
+				<field name="ITHOSIB4" index="9"/>
+				<field name="ITHOSIB5" index="10"/>
+				<field name="NOACCOH" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="21" file="/eric/%%Y%%M%%D/%%H_00/IDLEUTCHF.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ITFUSIB1" index="6"/>
+				<field name="ITFUSIB2" index="7"/>
+				<field name="ITFUSIB3" index="8"/>
+				<field name="ITFUSIB4" index="9"/>
+				<field name="ITFUSIB5" index="10"/>
+				<field name="NOACCUF" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="22" file="/eric/%%Y%%M%%D/%%H_00/IDLEUTCHH.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ITHUSIB1" index="6"/>
+				<field name="ITHUSIB2" index="7"/>
+				<field name="ITHUSIB3" index="8"/>
+				<field name="ITHUSIB4" index="9"/>
+				<field name="ITHUSIB5" index="10"/>
+				<field name="NOACCUH" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="23" file="/eric/%%Y%%M%%D/%%H_00/LAPD.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="CPROCOLERR" index="6"/>
+				<field name="CRECIFRAME" index="7"/>
+				<field name="CLINKFAIL" index="8"/>
+				<field name="CBADFRAME" index="9"/>
+				<field name="CRETRANSM" index="10"/>
+				<field name="CTRIFRAME" index="11"/>
+				<field name="COVERLOAD" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="24" file="/eric/%%Y%%M%%D/%%H_00/LOAS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="NOFFMHI" index="6"/>
+				<field name="NFTDORG" index="7"/>
+				<field name="NFTDIEX" index="8"/>
+				<field name="NOFFMLO" index="9"/>
+				<field name="NCAPREQCNT" index="10"/>
+				<field name="NOFFORG" index="11"/>
+				<field name="ACCLOAD" index="12"/>
+				<field name="NOFFIEX" index="13"/>
+				<field name="NFTDMHI" index="14"/>
+				<field name="NSCAN" index="15"/>
+				<field name="NFTDMLO" index="16"/>
+				<field name="NCAPREJCNT" index="17"/>
+				<field name="NOFFPRIO" index="18"/>
+				<field name="NOFFNPRIO" index="19"/>
+				<field name="NFTDPRIO" index="20"/>
+				<field name="NFTDNPRIO" index="21"/>
+				<field name="NOFFTCAP" index="22"/>
+				<field name="NFTDTCAP" index="23"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="25" file="/eric/%%Y%%M%%D/%%H_00/MOTS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="ID1" index="6"/>
+				<field name="ID2" index="7"/>
+				<field name="CONCNT" index="8"/>
+				<field name="CONERRCNT" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="26" file="/eric/%%Y%%M%%D/%%H_00/NCELLREL.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOVERCNT" index="6"/>
+				<field name="HOVERSUC" index="7"/>
+				<field name="HORTTOCH" index="8"/>
+				<field name="HOSRTL2TOCH" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="27" file="/eric/%%Y%%M%%D/%%H_00/NECELASS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOASBCL" index="6"/>
+				<field name="HOSUCBCL" index="7"/>
+				<field name="HOASWCL" index="8"/>
+				<field name="HOSUCWCL" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="28" file="/eric/%%Y%%M%%D/%%H_00/NECELHO.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOEXCTA" index="6"/>
+				<field name="HOUPLQA" index="7"/>
+				<field name="HOTOKCL" index="8"/>
+				<field name="HODWNQA" index="9"/>
+				<field name="HOTOHCS" index="10"/>
+				<field name="HOTOLCL" index="11"/>
+				<field name="HODUPFT" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="29" file="/eric/%%Y%%M%%D/%%H_00/NECELHOEX.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOSUCHR" index="6"/>
+				<field name="HOATTHSS" index="7"/>
+				<field name="HOATTLSS" index="8"/>
+				<field name="HOATTHR" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="30" file="/eric/%%Y%%M%%D/%%H_00/NECELLREL.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOVERCNT" index="6"/>
+				<field name="HOVERSUC" index="7"/>
+				<field name="HORTTOCH" index="8"/>
+				<field name="HOSRTL2TOCH" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="31" file="/eric/%%Y%%M%%D/%%H_00/NICELASS.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOASBCL" index="6"/>
+				<field name="HOSUCBCL" index="7"/>
+				<field name="HOASWCL" index="8"/>
+				<field name="HOSUCWCL" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="32" file="/eric/%%Y%%M%%D/%%H_00/NICELHO.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOEXCTA" index="6"/>
+				<field name="HOUPLQA" index="7"/>
+				<field name="HOTOKCL" index="8"/>
+				<field name="HODWNQA" index="9"/>
+				<field name="HOTOHCS" index="10"/>
+				<field name="HOTOLCL" index="11"/>
+				<field name="HODUPFT" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="33" file="/eric/%%Y%%M%%D/%%H_00/NICELHOEX.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="HOSUCHR" index="6"/>
+				<field name="HOATTHSS" index="7"/>
+				<field name="HOATTLSS" index="8"/>
+				<field name="HOATTHR" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="34" file="/eric/%%Y%%M%%D/%%H_00/RANDOMACC.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="RAOTHER" index="6"/>
+				<field name="RATRHFAOTHER" index="7"/>
+				<field name="CNROCNT" index="8"/>
+				<field name="RAANPAG" index="9"/>
+				<field name="RATRHFAREG" index="10"/>
+				<field name="RACALRE" index="11"/>
+				<field name="RAEMCAL" index="12"/>
+				<field name="RAACCFA" index="13"/>
+				<field name="RATRHFAEMCAL" index="14"/>
+				<field name="RAOSREQ" index="15"/>
+				<field name="RATRHFAANPAG" index="16"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="35" file="/eric/%%Y%%M%%D/%%H_00/TRAPCOM.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;"/>
+			</meta>
+			<fields splitSign="&#009;">
+				<field name="NODEID" index="0"/>
+				<field name="START_DATE" index="1"/>
+				<field name="START_TIME" index="2"/>
+				<field name="END_TIME" index="3"/>
+				<field name="COLLECTION_INTERVAL_MINS" index="4"/>
+				<field name="OBJ_ID" index="5"/>
+				<field name="FRV3UNATT" index="6"/>
+				<field name="HRV1UNATT" index="7"/>
+				<field name="HRV3UNATT" index="8"/>
+				<field name="FRV2UNATT" index="9"/>
+				<field name="HRV2UNATT" index="10"/>
+				<field name="FRV1UNATT" index="11"/>
+				<field name="FRV5UNATT" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/ssmd/blindpoint_%%Y%%M%%D_001.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+			</meta>
+			<fields splitSign="|">
+				<field name="#本地网" index="0" />
+				<field name="盲点地址" index="1" />
+				<field name="经度" index="2" />
+				<field name="纬度" index="3" />
+				<field name="区域类型" index="4" />
+				<field name="室内细分" index="5" />
+				<field name="网络类型" index="6" />
+				<field name="盲点来源" index="7" />
+				<field name="盲点状态" index="8" />
+				<field name="盲点类型" index="9" />
+				<field name="定位时间" index="10" />
+				<field name="定位途径" index="11" />
+				<field name="解决时间" index="12" />
+				<field name="形成原因" index="13" />
+				<field name="解决方案" index="14" />
+				<field name="最终解决方案" index="15" />
+				<field name="生成时间" index="16" />
+				<field name="投诉次数" index="17" />
+				<field name="网优工单编号" index="18" />
+				<field name="开始时间" index="19" />
+				<field name="结束时间" index="20" />
+				<field name="审核人" index="21" />
+				<field name="审核时限" index="22" />
+				<field name="审核历时" index="23" />
+				<field name="接单时限" index="24" />
+				<field name="接单历时" index="25" />
+				<field name="处理人" index="26" />
+				<field name="处理时限" index="27" />
+				<field name="处理历时" index="28" />
+				<field name="回访人" index="29" />
+				<field name="回访时限" index="30" />
+				<field name="回访历时" index="31" />
+				<field name="工单状态" index="32" />
+				<field name="操作类型" index="33" />
+				<field name="需求来源" index="34" />
+				<field name="受理时间" index="35" />
+				<field name="归档时间" index="36" />
+				<field name="工单等级" index="37" />
+				<field name="工单备注" index="38" />
+				<field name="关联附件数" index="39" />
+				<field name="序号" index="40" />
+				<field name="盲点所属县市" index="41" />
+				<field name="盲点所属乡镇" index="42" />
+				<field name="受影响成为TOPn小区的id号" index="43" />
+				<field name="TOPn小区上榜次数" index="44" />
+				<field name="是否1x盲区" index="45" />
+				<field name="1x盲点理由简述" index="46" />
+				<field name="是否DO盲区" index="47" />
+				<field name="DO盲点理由简述" index="48" />
+				<field name="是否有规划" index="49" />
+				<field name="规划站名" index="50" />
+				<field name="规划站经度" index="51" />
+				<field name="规划站纬度" index="52" />
+				<field name="规划详细地址" index="53" />
+				<field name="室内站/室外站" index="54" />
+				<field name="设备类型" index="55" />
+				<field name="1x配置" index="56" />
+				<field name="DO配置" index="57" />
+				<field name="建站理由简述" index="58" />
+				<field name="列入几期规划" index="59" />
+				<field name="计划建站时间" index="60" />
+				<field name="填报人" index="61" />
+				<field name="填报时间" index="62" />
+				<field name="解决进度" index="63" />
+				<field name="预留字段1" index="64" />
+				<field name="预留字段2" index="65" />
+				<field name="预留字段3" index="66" />
+				<field name="预留字段4" index="67" />
+				<field name="预留字段5" index="68" />
+				<field name="预留字段6" index="69" />
+				<field name="预留字段7" index="70" />
+				<field name="预留字段8" index="71" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/ssmd/faultorder_%%Y%%M%%D_001.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+			</meta>
+			<fields splitSign="|">
+				<field name="#投诉流水号" index="0" />
+				<field name="受理时间" index="1" />
+				<field name="办结时间" index="2" />
+				<field name="投诉手机号码" index="3" />
+				<field name="投诉用户姓名" index="4" />
+				<field name="联系人" index="5" />
+				<field name="联系电话" index="6" />
+				<field name="投诉等级" index="7" />
+				<field name="投诉用户类别" index="8" />
+				<field name="投诉详细内容" index="9" />
+				<field name="投诉本地网" index="10" />
+				<field name="投诉工单类型" index="11" />
+				<field name="投诉地点类型" index="12" />
+				<field name="投诉区域类型" index="13" />
+				<field name="投诉详细地点" index="14" />
+				<field name="申告现象代码" index="15" />
+				<field name="派单时间" index="16" type="3" format="yyyy-mm-dd hh24:mi:ss" />
+				<field name="工单时限" index="17" />
+				<field name="归档时间" index="18"  type="3" format="yyyy-mm-dd hh24:mi:ss"  />
+				<field name="处理时长" index="19" />
+				<field name="重复故障数" index="20" />
+				<field name="投诉地点经度" index="21" />
+				<field name="投诉地点纬度" index="22" />
+				<field name="投诉处理结果" index="23" />
+				<field name="投诉原因类型" index="24" />
+				<field name="解决情况" index="25" />
+				<field name="呼叫类型" index="26" />
+				<field name="预留字段1" index="27" />
+				<field name="预留字段2" index="28" />
+				<field name="预留字段3" index="29" />
+				<field name="预留字段4" index="30" />
+				<field name="预留字段5" index="31" />
+				<field name="预留字段6" index="32" />
+				<field name="预留字段7" index="33" />
+				<field name="预留字段8" index="34" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

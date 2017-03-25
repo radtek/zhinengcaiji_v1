@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" fromTable="uv_BTS_Interface" toTable="clt_uv_BTS_Interface" used="1" condition="">
+	</templet>
+	<templet id="0" fromTable="uv_Distribution_Interface" toTable="clt_uv_Distribution_Interface" used="1" condition="">
+	</templet>
+	<templet id="0" fromTable="uv_Sector_Interface" toTable="clt_uv_Sector_Interface" used="1" condition="">
+	</templet>
+	<templet id="0" fromTable="uv_DirectBTS_Interface" toTable="clt_uv_DirectBTS_Interface" used="1" condition="">
+	</templet>
+</templets>

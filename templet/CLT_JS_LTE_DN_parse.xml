@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<templets>
+	<templet id="0" file="ENODEB_%%Y%%M%%D.csv" encoding="gbk">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+        <field name="ENODEB_NAME"   index="1"/>
+        <field name="ENODEB_ID"   index="2"/>
+        <field name="RELATED_OMC"   index="3"/>
+        <field name="CITY_NAME"   index="4"/>
+        <field name="VENDER"   index="5"/>
+        <field name="NE_DN"   index="6"/>
+        <field name="ENBID"   index="7"/>
+        
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="EUTRANCELL_%%Y%%M%%D.csv" encoding="gbk">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+        <field name="OBJECT_RDN"   index="1"/>
+        <field name="EUTRANCELL_NAME"   index="2"/>
+        <field name="CELLUNIID"   index="3"/>
+        <field name="CELLMODEFLAG"   index="4"/>
+        <field name="EARFCNDL"   index="5"/>
+        <field name="BANDWIDTHDL"   index="6"/>
+        <field name="BANDWIDTHUL"   index="7"/>
+        <field name="BANDWIDTH"   index="8"/>
+        <field name="ADMINSTATE"   index="9"/>
+        <field name="OPTSTATE"   index="10"/>
+        <field name="CELL_SIZE"   index="11"/>
+        <field name="PLMNIDLIST"   index="12"/>
+        <field name="TAC"   index="13"/>
+        <field name="PCI"   index="14"/>
+        <field name="CELLLOCALID"   index="15"/>
+        <field name="ENBID"   index="16"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

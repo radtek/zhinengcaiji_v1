@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/home/basedate/file/BSC_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@"  />
+			</meta>
+			<fields multiSplitSign="#@"  >
+				<field name="所属地市" index="0"/>
+				<field name="所属行政区域" index="1"/>
+				<field name="所属网格化区域" index="2"/>
+				<field name="所属机房编号" index="3"/>
+				<field name="网元类型" index="4"/>
+				<field name="生产厂商" index="5"/>
+				<field name="名称" index="6"/>
+				<field name="设备ID后缀" index="7"/>
+				<field name="网元编号" index="8"/>
+				<field name="使用状态" index="9"/>
+				<field name="经度" index="10"/>
+				<field name="纬度" index="11"/>
+				<field name="安装详细地址" index="12"/>
+				<field name="软件版本" index="13"/>
+				<field name="工程编码" index="14"/>
+				<field name="工程状态" index="15"/>
+				<field name="投产时间" index="16"/>
+				<field name="保修期开始时间" index="17"/>
+				<field name="保修期结束时间" index="18"/>
+				<field name="信令点编码" index="19"/>
+				<field name="所属营销中心" index="20"/>
+				<field name="A接口传输设备型号" index="21"/>
+				<field name="Abis接口传输设备型号" index="22"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/home/basedate/file/BTS_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">
+				<field name="所属地市" index="0" />
+				<field name="所属行政区域" index="1" />
+				<field name="所属机房" index="2" />
+				<field name="所属机房或安装点编号" index="3" />
+				<field name="网元类型" index="4" />
+				<field name="生产厂商" index="5" />
+				<field name="BTS名称" index="6" />
+				<field name="所属BSC" index="7" />
+				<field name="设备ID后缀" index="8" />
+				<field name="BTS网元编号" index="9" />
+				<field name="使用状态" index="10" />
+				<field name="经度" index="11" />
+				<field name="纬度" index="12" />
+				<field name="安装详细地址" index="13" />
+				<field name="软件版本" index="14" />
+				<field name="工程编码" index="15" />
+				<field name="工程状态" index="16" />
+				<field name="投产时间" index="17" />
+				<field name="保修期开始时间" index="18" />
+				<field name="保修期结束时间" index="19" />
+				<field name="设备安装方式" index="20" />
+				<field name="是否自维" index="21" />
+				<field name="设备来源" index="22" />
+				<field name="基站设备类型" index="23" />
+				<field name="基站种类" index="24" />
+				<field name="基站等级" index="25" />
+				<field name="站型" index="26" />
+				<field name="1X基站站型" index="27" />
+				<field name="EV-DO基站站型" index="28" />
+				<field name="是否边界" index="29" />
+				<field name="交界分公司" index="30" />
+				<field name="是否室内分布专建站" index="31" />
+				<field name="传输方式" index="32" />
+				<field name="传输属性" index="33" />
+				<field name="电路编码" index="34" />
+				<field name="传输设备型号" index="35" />
+				<field name="2M用于1X数量" index="36" />
+				<field name="2M用于DO数量" index="37" />
+				<field name="1XDO混用2M数量" index="38" />
+				<field name="已用GE数量" index="39" />
+				<field name="已用FE数量" index="40" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="/home/basedate/file/RRU_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">
+				<field name="地市" index="0" />
+				<field name="所属行政区域" index="1" />
+				<field name="所属机房或安装点编号" index="2" />
+				<field name="网元类型" index="3" />
+				<field name="生产厂商" index="4" />
+				<field name="名称" index="5" />
+				<field name="所属基站名称" index="6" />
+				<field name="所属基站网元号" index="7" />
+				<field name="RRU网元编号" index="8" />
+				<field name="使用状态" index="9" />
+				<field name="工程编码" index="10" />
+				<field name="投产时间" index="11" />
+				<field name="设备安装方式" index="12" />
+				<field name="设备安装位置" index="13" />
+				<field name="载频数目" index="14" />
+				<field name="设备级联级别" index="15" />
+				<field name="覆盖属性" index="16" />
+				<field name="覆盖区域类型" index="17" />
+				<field name="覆盖道路类型" index="18" />
+				<field name="光路编号" index="19" />
+				<field name="光纤长度" index="20" />
+				<field name="网格化区域" index="21" />
+				<field name="所属营销中心" index="22" />
+				<field name="承载传输设备型号" index="23" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="3" file="/home/basedate/file/CELL_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">
+				<field name="网元号" index="0" />
+				<field name="基站网元号" index="1" />
+				<field name="BSC编号" index="2" />
+				<field name="基站编号" index="3" />
+				<field name="扇区编号" index="4" />
+				<field name="载频数目" index="5" />
+				<field name="扇区1X载频数目" index="6" />
+				<field name="扇区DO载频数目" index="7" />
+				<field name="扇区1X载频号" index="8" />
+				<field name="扇区DO载频号" index="9" />
+				<field name="扇区伪导频号" index="10" />
+				<field name="是否是微蜂窝小区" index="11" />
+				<field name="是否室分信源" index="12" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="4" file="/home/basedate/file/Antenna_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">
+				<field name="天馈ID"  index="0" />
+				<field name="关联网元类型"  index="1" />
+				<field name="关联网元ID"  index="2" />
+				<field name="关联扇区ID"  index="3" />
+				<field name="小区类型"  index="4" />
+				<field name="天馈编号"  index="5" />
+				<field name="天馈铁塔ID"  index="6" />
+				<field name="是否共用信息"  index="7" />
+				<field name="地市"  index="8" />
+				<field name="所属行政区域"  index="9" />
+				<field name="名称"  index="10" />
+				<field name="关联设备"  index="11" />
+				<field name="经度"  index="12" />
+				<field name="纬度"  index="13" />
+				<field name="安装详细地址"  index="14" />
+				<field name="工程编码"  index="15" />
+				<field name="投产时间"  index="16" />
+				<field name="是否带有塔放"  index="17" />
+				<field name="是否美化、隐蔽天线"  index="18" />
+				<field name="受益网络"  index="19" />
+				<field name="运营商"  index="20" />
+				<field name="天线类别"  index="21" />
+				<field name="天线类型"  index="22" />
+				<field name="天馈-天线型号"  index="23" />
+				<field name="天馈-天线方向角"  index="24" />
+				<field name="天馈-天线极化方式"  index="25" />
+				<field name="天馈-天线倾角调整方式"  index="26" />
+				<field name="天馈-天线机械倾角"  index="27" />
+				<field name="天馈-天线电调倾角"  index="28" />
+				<field name="天馈-天线增益"  index="29" />
+				<field name="天馈-水平半功率角"  index="30" />
+				<field name="天馈-垂直半功率角"  index="31" />
+				<field name="天馈-天线挂高"  index="32" />
+				<field name="天线厂家"  index="33" />
+				<field name="定向天线前后比"  index="34" />
+				<field name="天馈-馈线类型"  index="35" />
+				<field name="天馈-馈线长度"  index="36" />
+				<field name="馈线频带"  index="37" />
+				<field name="馈线厂家"  index="38" />
+				<field name="馈线型号"  index="39" />
+				<field name="馈线数量"  index="40" />
+				<field name="塔桅类型"  index="41" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="5" file="/home/basedate/file/HotPoint_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">
+				<field name="网元号"  index="0"  />
+				<field name="网元类型"  index="1"  />
+				<field name="热点编号"  index="2"  />
+				<field name="地市"  index="3"  />
+				<field name="所属区域"  index="4"  />
+				<field name="营销中心ID"  index="5"  />
+				<field name="网格编号"  index="6"  />
+				<field name="服务提供商"  index="7"  />
+				<field name="热点小类"  index="8"  />
+				<field name="支持C上网"  index="9"  />
+				<field name="传输方式"  index="10"  />
+				<field name="附近地标"  index="11"  />
+				<field name="时区"  index="12"  />
+				<field name="开始IP地址"  index="13"  />
+				<field name="结束IP地址"  index="14"  />
+				<field name="完成时间"  index="15"  />
+				<field name="热点的索引"  index="16"  />
+				<field name="热点的名称"  index="17"  />
+				<field name="详细地址"  index="18"  />
+				<field name="经度"  index="19"  />
+				<field name="纬度"  index="20"  />
+				<field name="热点类别"  index="21"  />
+				<field name="建筑层数"  index="22"  />
+				<field name="是否室内覆盖"  index="23"  />
+				<field name="原室分集成商"  index="24"  />
+				<field name="WLAN覆盖区域"  index="25"  />
+				<field name="WLAN覆盖面积"  index="26"  />
+				<field name="覆盖技术"  index="27"  />
+				<field name="AP类型"  index="28"  />
+				<field name="AP数量"  index="29"  />
+				<field name="物业联系人"  index="30"  />
+				<field name="物业联系人电话"  index="31"  />
+				<field name="热点维护属性"  index="32"  />
+				<field name="客户经理"  index="33"  />
+				<field name="客户经理电话"  index="34"  />
+				<field name="洽谈人"  index="35"  />
+				<field name="洽谈人电话"  index="36"  />
+				<field name="用户协议"  index="37"  />
+				<field name="电费结算方式"  index="38"  />
+				<field name="设计单位"  index="39"  />
+				<field name="施工单位"  index="40"  />
+				<field name="设计文档编号"  index="41"  />
+				<field name="工程初验日期"  index="42"  />
+				<field name="造价"  index="43"  />
+				<field name="工程终验日期"  index="44"  />
+				<field name="网元状态"  index="45"  />
+				<field name="周一开放时间"  index="46"  />
+				<field name="周二开放时间"  index="47"  />
+				<field name="周三开放时间"  index="48"  />
+				<field name="周四开放时间"  index="49"  />
+				<field name="周五开放时间"  index="50"  />
+				<field name="周六开放时间"  index="51"  />
+				<field name="周日开放时间"  index="52"  />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="6" file="/home/basedate/file/AP_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">
+				<field name="地市" index="0"  />
+				<field name="所属区域" index="1"  />
+				<field name="网元号" index="2"  />
+				<field name="网元类型" index="3"  />
+				<field name="所属机房或安装点" index="4"  />
+				<field name="所属机房或安装点编号" index="5"  />
+				<field name="营销中心ID" index="6"  />
+				<field name="网格编号" index="7"  />
+				<field name="AP编号" index="8"  />
+				<field name="AP名称" index="9"  />
+				<field name="关联热点索引" index="10"  />
+				<field name="关联热点名称" index="11"  />
+				<field name="安装位置" index="12"  />
+				<field name="AP等级" index="13"  />
+				<field name="AP厂商" index="14"  />
+				<field name="IP地址" index="15"  />
+				<field name="IP掩码" index="16"  />
+				<field name="IP网关" index="17"  />
+				<field name="是否瘦AP" index="18"  />
+				<field name="AP设备型号" index="19"  />
+				<field name="AP覆盖楼层" index="20"  />
+				<field name="SSID" index="21"  />
+				<field name="AP覆盖方式" index="22"  />
+				<field name="AP覆盖区域" index="23"  />
+				<field name="当前频点" index="24"  />
+				<field name="工程状态" index="25"  />
+				<field name="考核状态" index="26"  />
+				<field name="运营状态" index="27"  />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="7" file="/home/basedate/file/AC_%%Y%%M%%D.txt" encoding="utf-8" >
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="#@" />
+			</meta>
+			<fields multiSplitSign="#@">
+				<field name="网元号"  index="0"  />
+				<field name="网元类型"  index="1"  />
+				<field name="地市"  index="2"  />
+				<field name="城市编号"  index="3"  />
+				<field name="所属区域"  index="4"  />
+				<field name="所属机房或者安装点"  index="5"  />
+				<field name="营销中心ID"  index="6"  />
+				<field name="网格编号"  index="7"  />
+				<field name="所属机房或者安装点编号"  index="8"  />
+				<field name="AC编号"  index="9"  />
+				<field name="所属分局"  index="10"  />
+				<field name="所属分公司名称"  index="11"  />
+				<field name="IP地址"  index="12"  />
+				<field name="关联热点的索引"  index="13"  />
+				<field name="关联热点的名称"  index="14"  />
+				<field name="AC设备名称"  index="15"  />
+				<field name="AC名称"  index="16"  />
+				<field name="AC序号"  index="17"  />
+				<field name="安装位置"  index="18"  />
+				<field name="创建时间"  index="19"  />
+				<field name="AC等级"  index="20"  />
+				<field name="ACmac地址"  index="21"  />
+				<field name="AC厂商"  index="22"  />
+				<field name="型号"  index="23"  />
+				<field name="版本号"  index="24"  />
+				<field name="Lan号"  index="25"  />
+				<field name="掩码"  index="26"  />
+				<field name="网关"  index="27"  />
+				<field name="用户名"  index="28"  />
+				<field name="密码"  index="29"  />
+				<field name="只读团体串"  index="30"  />
+				<field name="写团体串"  index="31"  />
+			</fields>
+		</ds>
+	</templet>
+</templets>

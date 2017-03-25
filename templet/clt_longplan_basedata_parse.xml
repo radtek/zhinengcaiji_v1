@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templets>
+	<templet id="0" file="CONF_BSC_%%Y%%M%%D.csv" encoding="gbk">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+		    <field name="时间戳" index="1"/>
+		    <field name="BSC标识" index="2"/>
+		    <field name="省份" index="3"/>
+		    <field name="城市列表" index="4"/>
+		    <field name="厂家名称" index="5"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="CONF_BTS_%%Y%%M%%D.csv" encoding="gbk">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+		    <field name="时间戳" index="1"/>
+		    <field name="基站标识" index="2"/>
+		    <field name="站号" index="3"/>
+		    <field name="基站设备名称" index="4"/>
+		    <field name="基站中文名" index="5"/>
+		    <field name="省份" index="6"/>
+		    <field name="城市" index="7"/>
+		    <field name="BSC标识" index="8"/>
+		    <field name="厂家名称" index="9"/>
+		    <field name="经度" index="10"/>
+		    <field name="纬度" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="CONF_SECTOR_%%Y%%M%%D.csv" encoding="gbk">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+		    <field name="时间戳" index="1"/>
+		    <field name="扇区标识" index="2"/>
+		    <field name="省份" index="3"/>
+		    <field name="地市" index="4"/>
+		    <field name="基站中文名" index="5"/>
+		    <field name="厂商侧Sector编号" index="6"/>
+		    <field name="扇区中文名" index="7"/>
+		    <field name="经度" index="8"/>
+		    <field name="纬度" index="9"/>
+		    <field name="PN" index="10"/>
+		    <field name="BSC标识" index="11"/>
+		    <field name="BTS标识" index="12"/>
+		    <field name="天线经度" index="13"/>
+		    <field name="天线纬度" index="14"/>
+		    <field name="天线方向角" index="15"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

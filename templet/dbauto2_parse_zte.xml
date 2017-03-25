@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	
+	   <templet id="0" fromTable="Log_Cmd_Table" toTable="clt_cm_para_change_zte" used="1" condition=" logdate &gt;= '%%Y-%%M-%%D' and logdate &lt; '%%Y-%%M-%%D 23:59:59.999' and cmdCode=39012 and isSuccess=0  and para like '%修改%Table:%Key:%Field:%' ">
+    	<mapping special="1">   		
+    		<column src="para" split=";" > 
+    			<col dest="paraDescription" split=""/>
+    			<col src="SourceNode" dest="SourceNode" split=":"/>
+    			<col src="Table" dest="tableaname" split=":"/>
+    			<col src="Key" substr=":" split=",">
+	    			<colson src="anid" srcor="bssid" dest="BSC" split="="/>
+	    			<colson src="system" dest="bts" split="="/>
+	    			<colson src="cellid" dest="cell" split="="/>
+	    			<colson src="carrierid" dest="carrier" split="="/>
+    			</col>
+   				<col src="Field" substr=":" split="," field="PARA_NAME" modValue= "modValue" modedValue = "modedValue">
+   					<Field index="="/>
+   					<Field index="->" spilt=":"/>
+   				</col>
+    		</column>   		
+    	</mapping>
+    </templet>
+    
+</templets>

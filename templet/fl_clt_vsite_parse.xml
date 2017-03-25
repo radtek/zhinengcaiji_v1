@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/VERGESITE/BJ_VERGESITE_VBTSCONF_%%Y%%M%%D.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="时间戳" index="0" />
+				<field name="基站标识" index="1" />
+				<field name="外部网元标识" index="2" />
+				<field name="站号" index="3" />
+				<field name="基站设备名称" index="4" />
+				<field name="基站中文名" index="5" />
+				<field name="基站拼音" index="6" />
+				<field name="基站别名" index="7" />
+				<field name="省份" index="8" />
+				<field name="城市" index="9" />
+				<field name="行政归属" index="10" />
+				<field name="地理归属" index="11" />
+				<field name="MSC标识" index="12" />
+				<field name="MGW标识" index="13" />
+				<field name="BSC标识" index="14" />
+				<field name="厂家名称" index="15" />
+				<field name="软件版本" index="16" />
+				<field name="设备型号" index="17" />
+				<field name="基站等级" index="18" />
+				<field name="LAC" index="19" />
+				<field name="REG_ZONE" index="20" />
+				<field name="BSID" index="21" />
+				<field name="NID" index="22" />
+				<field name="SID" index="23" />
+				<field name="扇区数量" index="24" />
+				<field name="1X载扇数量" index="25" />
+				<field name="DO载扇数量" index="26" />
+				<field name="1XCE数量" index="27" />
+				<field name="DOCE数量" index="28" />
+				<field name="分配ABIS口E1电路数量" index="29" />
+				<field name="基站类型" index="30" />
+				<field name="系统类型" index="31" />
+				<field name="延伸覆盖类型" index="32" />
+				<field name="天线方向类型" index="33" />
+				<field name="1X站型配置" index="34" />
+				<field name="DO站型配置" index="35" />
+				<field name="工程状态" index="36" />
+				<field name="运行状态" index="37" />
+				<field name="运行状态判断时间" index="38" />
+				<field name="基站开通日期" index="39" />
+				<field name="设计院" index="40" />
+				<field name="设计期别" index="41" />
+				<field name="代维单位" index="42" />
+				<field name="维护人" index="43" />
+				<field name="维护人电话" index="44" />
+				<field name="营销区域" index="45" />
+				<field name="覆盖区域描述" index="46" />
+				<field name="共站情况" index="47" />
+				<field name="站址" index="48" />
+				<field name="带室外直放站数量" index="49" />
+				<field name="经度" index="50" />
+				<field name="纬度" index="51" />
+				<field name="边界基站类型" index="52" />
+				<field name="塔桅类型" index="53" />
+				<field name="机柜类型" index="54" />
+				<field name="无线容量" index="55" />
+				<field name="设计无线容量" index="56" />
+				<field name="最大发射功率" index="57" />
+				<field name="环境类型" index="58" />
+				<field name="建筑类型" index="59" />
+				<field name="电源" index="60" />
+				<field name="传输方式" index="61" />
+				<field name="传输设备" index="62" />
+				<field name="是否级联" index="63" />
+				<field name="是否室内" index="64" />
+				<field name="厂商侧BSC编号" index="65" />
+				<field name="厂商侧SITE编号" index="66" />
+				<field name="备注" index="67" />
+				<field name="预留字段1" index="68" />
+				<field name="预留字段2" index="69" />
+				<field name="预留字段3" index="70" />
+				<field name="预留字段4" index="71" />
+				<field name="预留字段5" index="72" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/VERGESITE/BJ_VERGESITE_VSECTORCONF_%%Y%%M%%D.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="时间戳"                     index="1"  />   
+				<field name="扇区标识"                   index="2"  />   
+				<field name="外部网元标识"               index="3"  />   
+				<field name="省份"                       index="4"  />   
+				<field name="地市"                       index="5"  />   
+				<field name="行政区"                     index="6"  />   
+				<field name="乡镇"                       index="7"  />   
+				<field name="地理归属"                   index="8"  />   
+				<field name="OMCOID"                     index="9"  />   
+				<field name="所属RNC标识"                index="10"  />  
+				<field name="所属SM标识"                 index="11"  />  
+				<field name="基站中文名"                 index="12"  />  
+				<field name="厂商侧基站标识"             index="13"  />  
+				<field name="厂商侧扇区标识"             index="14"  />  
+				<field name="厂商侧sector编号"           index="15"  />  
+				<field name="扇区标识_1X"                index="16"  />  
+				<field name="扇区标识_DO"                index="17"  />  
+				<field name="扇区中文名"                 index="18"  />  
+				<field name="扇区BSID_1X"                index="19"  />  
+				<field name="扇区BSID_DO"                index="20"  />  
+				<field name="经度"                       index="21"  />  
+				<field name="纬度"                       index="22"  />  
+				<field name="PN"                         index="23"  />  
+				<field name="扇区类型"                   index="24"  />  
+				<field name="是否室内"                   index="25"  />  
+				<field name="是否RRU扇区"                index="26"  />  
+				<field name="是否为多RRU共PN扇区"        index="27"  />  
+				<field name="是否功分扇区"               index="28"  />  
+				<field name="扇区等级"                   index="29"  />  
+				<field name="语音设计无线容量(Erl)"      index="30"  />  
+				<field name="1X数据设计无线容量(Erl)"    index="31"  />  
+				<field name="设计无线容量"               index="32"  />  
+				<field name="MSC标识"                    index="33"  />  
+				<field name="MGW标识"                    index="34"  />  
+				<field name="BSC标识"                    index="35"  />  
+				<field name="BTS标识"                    index="36"  />  
+				<field name="LAC"                        index="37"  />  
+				<field name="Totzones"                   index="38"  />  
+				<field name="Zone_tmr"                   index="39"  />  
+				<field name="开通日期"                   index="40"  />  
+				<field name="运行状态"                   index="41"  />  
+				<field name="工程状态"                   index="42"  />  
+				<field name="天线经度"                   index="43"  />  
+				<field name="天线纬度"                   index="44"  />  
+				<field name="天线海拔高度"               index="45"  />  
+				<field name="山高或楼高(米)"             index="46"  />  
+				<field name="天线挂高(米)"               index="47"  />  
+				<field name="天线总挂高"                 index="48"  />  
+				<field name="天线方向角"                 index="49"  />  
+				<field name="天线俯仰角"                 index="50"  />  
+				<field name="预置电下倾角（度）"         index="51"  />  
+				<field name="可调电下倾角（度）"         index="52"  />  
+				<field name="电子下倾角"                 index="53"  />  
+				<field name="机械倾角"                   index="54"  />  
+				<field name="天线是否可以电调"           index="55"  />  
+				<field name="天线方向类型"               index="56"  />  
+				<field name="天线型号"                   index="57"  />  
+				<field name="天线制造厂商"               index="58"  />  
+				<field name="天线数量"                   index="59"  />  
+				<field name="天线分集方式"               index="60"  />  
+				<field name="天线极化方式"               index="61"  />  
+				<field name="天线功率(dBm)"              index="62"  />  
+				<field name="天线增益(dBi)"              index="63"  />  
+				<field name="天线架设方式"               index="64"  />  
+				<field name="天线平台"                   index="65"  />  
+				<field name="天线水平3db波瓣宽度"        index="66"  />  
+				<field name="天线垂直3db波瓣宽度"        index="67"  />  
+				<field name="是否扇区分裂"               index="68"  />  
+				<field name="天馈共用方式"               index="69"  />  
+				<field name="馈线类型"                   index="70"  />  
+				<field name="馈线长度"                   index="71"  />  
+				<field name="基站型号"                   index="72"  />  
+				<field name="基站扇区数"                 index="73"  />  
+				<field name="所属厂家"                   index="74"  />  
+				<field name="软件版本"                   index="75"  />  
+				<field name="1X载扇数量"                 index="76"  />  
+				<field name="1X信道板配置类型"           index="77"  />  
+				<field name="1X信道板数量"               index="78"  />  
+				<field name="1X信道配置数"               index="79"  />  
+				<field name="1X站型配置"                 index="80"  />  
+				<field name="系统类型"                   index="81"  />  
+				<field name="是否DO扇区"                 index="82"  />  
+				<field name="DO载扇数量"                 index="83"  />  
+				<field name="DO信道板配置类型"           index="84"  />  
+				<field name="DO信道板配置数量"           index="85"  />  
+				<field name="DO信道配置数"               index="86"  />  
+				<field name="DO站型配置"                 index="87"  />  
+				<field name="是否分频待机"               index="88"  />  
+				<field name="是否多载波边界"             index="89"  />  
+				<field name="边界扇区类型"               index="90"  />  
+				<field name="边界免漫游扇区类型"         index="91"  />  
+				<field name="免漫游对端地市"             index="92"  />  
+				<field name="接壤省份名称"               index="93"  />  
+				<field name="接壤城市名称"               index="94"  />  
+				<field name="所带直放站数量"             index="95"  />  
+				<field name="到边界线的距离"             index="96"  />  
+				<field name="所带分布系统数量"           index="97"  />  
+				<field name="是否使用伪导频"             index="98"  />  
+				<field name="伪导频频点"                 index="99"  />  
+				<field name="37载频配置"                 index="100"  /> 
+				<field name="283载频配置"                index="101"  /> 
+				<field name="78载频配置"                 index="102"  /> 
+				<field name="119载频配置"                index="103"  /> 
+				<field name="160载频配置"                index="104"  /> 
+				<field name="201载频配置"                index="105"  /> 
+				<field name="242载频配置"                index="106"  /> 
+				<field name="是否安装塔顶放大器"         index="107"  /> 
+				<field name="是否安装基站放大器"         index="108"  /> 
+				<field name="环境类型"                   index="109"  /> 
+				<field name="环境描述"                   index="110"  /> 
+				<field name="场景类型1"                  index="111"  /> 
+				<field name="场景类型2"                  index="112"  /> 
+				<field name="场景类型3"                  index="113"  /> 
+				<field name="场景描述"                   index="114"  /> 
+				<field name="建筑类型"                   index="115"  /> 
+				<field name="所属机房名称"               index="116"  /> 
+				<field name="机房所在楼层"               index="117"  /> 
+				<field name="所属营业部名称"             index="118"  /> 
+				<field name="扇区地址"                   index="119"  /> 
+				<field name="网元负责人"                 index="120"  /> 
+				<field name="网元负责人联系手机号码"     index="121"  /> 
+				<field name="网元负责人邮箱"             index="122"  /> 
+				<field name="地址"                       index="123"  /> 
+				<field name="数据最后更新时间"           index="124"  /> 
+				<field name="备注"                       index="125"  /> 
+				<field name="预留1"                      index="126"  /> 
+				<field name="预留2"                      index="127"  /> 
+				<field name="预留3"                      index="128"  /> 
+				<field name="预留4"                      index="129"  /> 
+				<field name="预留5"                      index="130"  /> 
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="/VERGESITE/BJ_VERGESITE_VSECTORFREE_%%Y%%M%%D.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="省际边界扇区标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="省际边界扇区名称" index="2" />
+				<field name="省份" index="3" />
+				<field name="城市" index="4" />
+				<field name="扇区所属MSC标识" index="5" />
+				<field name="扇区所属MGW标识" index="6" />
+				<field name="扇区所属BSC标识" index="7" />
+				<field name="扇区所属BTS标识" index="8" />
+				<field name="扇区编号" index="9" />
+				<field name="归属cellid" index="10" />
+				<field name="接壤省份名称" index="11" />
+				<field name="接壤城市名称" index="12" />
+				<field name="预留字段1" index="13" />
+				<field name="预留字段2" index="14" />
+				<field name="预留字段3" index="15" />
+				<field name="预留字段4" index="16" />
+				<field name="预留字段5" index="17" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="3"
+		file="/VERGESITE/BJ_VERGESITE_VCARRNBRDF_HW_1X_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界载扇标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="省份" index="2" />
+				<field name="城市" index="3" />
+				<field name="源载扇所属MSC标识" index="4" />
+				<field name="源载扇所属MGW标识" index="5" />
+				<field name="源载扇所属BSC标识" index="6" />
+				<field name="源载扇所属BTS标识" index="7" />
+				<field name="源载扇所属扇区标识" index="8" />
+				<field name="源载扇所属扇区名称" index="9" />
+				<field name="源载扇所属扇区编号" index="10" />
+				<field name="源载波编号" index="11" />
+				<field name="源载波频点" index="12" />
+				<field name="源pn" index="13" />
+				<field name="邻区顺序" index="14" />
+				<field name="切换方法" index="15" />
+				<field name="邻载扇标识" index="16" />
+				<field name="邻载扇行政区" index="17" />
+				<field name="邻载扇所属ＭＳＣ标识" index="18" />
+				<field name="邻载扇所属ＭＧＷ标识" index="19" />
+				<field name="邻载扇所属ＢＳＣ标识" index="20" />
+				<field name="邻载扇所属ＢＴＳ标识" index="21" />
+				<field name="邻载扇所属扇区标识" index="22" />
+				<field name="邻扇区名称" index="23" />
+				<field name="邻扇区编号" index="24" />
+				<field name="邻载波标识" index="25" />
+				<field name="邻载波频点" index="26" />
+				<field name="邻pn" index="27" />
+				<field name="邻扇区所属省" index="28" />
+				<field name="邻扇区所属城市" index="29" />
+				<field name="邻区关系类型" index="30" />
+				<field name="邻扇区所属厂家" index="31" />
+				<field name="是否为外部邻区" index="32" />
+				<field name="中心载频" index="33" />
+				<field name="相邻载频" index="34" />
+				<field name="异频优先级" index="35" />
+				<field name="中心载频" index="36" />
+				<field name="相邻载频" index="37" />
+				<field name="搜索集" index="38" />
+				<field name="相邻集分支搜索窗口大小" index="39" />
+				<field name="是否包含相邻集分支搜索窗口偏置" index="40" />
+				<field name="相邻集分支搜索窗口偏置" index="41" />
+				<field name="搜索优先级" index="42" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="4"
+		file="/VERGESITE/BJ_VERGESITE_VCARRNBRDF_HW_DO_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界载扇标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="省份" index="2" />
+				<field name="城市" index="3" />
+				<field name="源载扇所属MSC标识" index="4" />
+				<field name="源载扇所属MGW标识" index="5" />
+				<field name="源载扇所属BSC标识" index="6" />
+				<field name="源载扇所属BTS标识" index="7" />
+				<field name="源载扇所属扇区标识" index="8" />
+				<field name="源载扇所属扇区名称" index="9" />
+				<field name="源载扇所属扇区编号" index="10" />
+				<field name="源载波编号" index="11" />
+				<field name="源载波频点" index="12" />
+				<field name="源pn" index="13" />
+				<field name="邻区顺序" index="14" />
+				<field name="切换方法" index="15" />
+				<field name="邻载扇标识" index="16" />
+				<field name="邻载扇行政区" index="17" />
+				<field name="邻载扇所属ＭＳＣ标识" index="18" />
+				<field name="邻载扇所属ＭＧＷ标识" index="19" />
+				<field name="邻载扇所属ＢＳＣ标识" index="20" />
+				<field name="邻载扇所属ＢＴＳ标识" index="21" />
+				<field name="邻载扇所属扇区标识" index="22" />
+				<field name="邻扇区名称" index="23" />
+				<field name="邻扇区编号" index="24" />
+				<field name="邻载波标识" index="25" />
+				<field name="邻载波频点" index="26" />
+				<field name="邻pn" index="27" />
+				<field name="邻扇区所属省" index="28" />
+				<field name="邻扇区所属城市" index="29" />
+				<field name="邻区关系类型" index="30" />
+				<field name="邻扇区所属厂家" index="31" />
+				<field name="是否为外部邻区" index="32" />
+				<field name="中心载频" index="33" />
+				<field name="相邻载频" index="34" />
+				<field name="异频优先级" index="35" />
+				<field name="中心载频" index="36" />
+				<field name="相邻载频" index="37" />
+				<field name="搜索集" index="38" />
+				<field name="相邻集分支搜索窗口大小" index="39" />
+				<field name="是否包含相邻集分支搜索窗口偏置" index="40" />
+				<field name="相邻集分支搜索窗口偏置" index="41" />
+				<field name="搜索优先级" index="42" />
+				<field name="中心载频" index="43" />
+				<field name="相邻载频" index="44" />
+				<field name="是否包含相邻集分支搜索窗口大小" index="45" />
+				<field name="相邻集分支搜索窗口大小" index="46" />
+				<field name="是否包含相邻集分支搜索窗口偏置" index="47" />
+				<field name="相邻集分支搜索窗口偏置" index="48" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="5"
+		file="/VERGESITE/BJ_VERGESITE_VCARRNBRSF_HW_1X_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界载扇标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="省份" index="2" />
+				<field name="城市" index="3" />
+				<field name="源载扇所属MSC标识" index="4" />
+				<field name="源载扇所属MGW标识" index="5" />
+				<field name="源载扇所属BSC标识" index="6" />
+				<field name="源载扇所属BTS标识" index="7" />
+				<field name="源载扇所属扇区标识" index="8" />
+				<field name="源载扇所属扇区名称" index="9" />
+				<field name="源载扇所属扇区编号" index="10" />
+				<field name="源载波编号" index="11" />
+				<field name="源载波频点" index="12" />
+				<field name="源pn" index="13" />
+				<field name="邻区顺序" index="14" />
+				<field name="切换方法" index="15" />
+				<field name="邻载扇标识" index="16" />
+				<field name="邻载扇行政区" index="17" />
+				<field name="邻载扇所属ＭＳＣ标识" index="18" />
+				<field name="邻载扇所属ＭＧＷ标识" index="19" />
+				<field name="邻载扇所属ＢＳＣ标识" index="20" />
+				<field name="邻载扇所属ＢＴＳ标识" index="21" />
+				<field name="邻载扇所属扇区标识" index="22" />
+				<field name="邻扇区名称" index="23" />
+				<field name="邻扇区编号" index="24" />
+				<field name="邻载波标识" index="25" />
+				<field name="邻载波频点" index="26" />
+				<field name="邻pn" index="27" />
+				<field name="邻扇区所属省" index="28" />
+				<field name="邻扇区所属城市" index="29" />
+				<field name="邻区关系类型" index="30" />
+				<field name="邻扇区所属厂家" index="31" />
+				<field name="是否为外部邻区" index="32" />
+				<field name="中心载频" index="33" />
+				<field name="相邻载频" index="34" />
+				<field name="同频优先级" index="35" />
+				<field name="中心载频" index="36" />
+				<field name="相邻载频" index="37" />
+				<field name="是否包含相邻集分支搜索窗口大小" index="38" />
+				<field name="相邻集分支搜索窗口大小" index="39" />
+				<field name="是否包含相邻集分支搜索窗口偏置" index="40" />
+				<field name="相邻集分支搜索窗口偏置" index="41" />
+				<field name="搜索优先级" index="42" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="6"
+		file="/VERGESITE/BJ_VERGESITE_VCARRNBRSF_HW_DO_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界载扇标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="省份" index="2" />
+				<field name="城市" index="3" />
+				<field name="源载扇所属MSC标识" index="4" />
+				<field name="源载扇所属MGW标识" index="5" />
+				<field name="源载扇所属BSC标识" index="6" />
+				<field name="源载扇所属BTS标识" index="7" />
+				<field name="源载扇所属扇区标识" index="8" />
+				<field name="源载扇所属扇区名称" index="9" />
+				<field name="源载扇所属扇区编号" index="10" />
+				<field name="源载波编号" index="11" />
+				<field name="源载波频点" index="12" />
+				<field name="源pn" index="13" />
+				<field name="邻区顺序" index="14" />
+				<field name="切换方法" index="15" />
+				<field name="邻载扇标识" index="16" />
+				<field name="邻载扇行政区" index="17" />
+				<field name="邻载扇所属ＭＳＣ标识" index="18" />
+				<field name="邻载扇所属ＭＧＷ标识" index="19" />
+				<field name="邻载扇所属ＢＳＣ标识" index="20" />
+				<field name="邻载扇所属ＢＴＳ标识" index="21" />
+				<field name="邻载扇所属扇区标识" index="22" />
+				<field name="邻扇区名称" index="23" />
+				<field name="邻扇区编号" index="24" />
+				<field name="邻载波标识" index="25" />
+				<field name="邻载波频点" index="26" />
+				<field name="邻pn" index="27" />
+				<field name="邻扇区所属省" index="28" />
+				<field name="邻扇区所属城市" index="29" />
+				<field name="邻区关系类型" index="30" />
+				<field name="邻扇区所属厂家" index="31" />
+				<field name="是否为外部邻区" index="32" />
+				<field name="中心载频" index="33" />
+				<field name="相邻载频" index="34" />
+				<field name="同频优先级" index="35" />
+				<field name="中心载频" index="36" />
+				<field name="相邻载频" index="37" />
+				<field name="是否包含相邻集分支搜索窗口大小" index="38" />
+				<field name="相邻集分支搜索窗口大小" index="39" />
+				<field name="是否包含相邻集分支搜索窗口偏置" index="40" />
+				<field name="相邻集分支搜索窗口偏置" index="41" />
+				<field name="搜索优先级" index="42" />
+				<field name="中心载频" index="43" />
+				<field name="相邻载频" index="44" />
+				<field name="是否包含相邻集分支搜索窗口大小" index="45" />
+				<field name="相邻集分支搜索窗口大小" index="46" />
+				<field name="是否包含相邻集分支搜索窗口偏置" index="47" />
+				<field name="相邻集分支搜索窗口偏置" index="48" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="7"
+		file="/VERGESITE/BJ_VERGESITE_VCARRNBR_ZTE_1X_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界载扇标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="省份" index="2" />
+				<field name="城市" index="3" />
+				<field name="源载扇所属MSC标识" index="4" />
+				<field name="源载扇所属MGW标识" index="5" />
+				<field name="源载扇所属BSC标识" index="6" />
+				<field name="源载扇所属BTS标识" index="7" />
+				<field name="源载扇所属扇区标识" index="8" />
+				<field name="源载扇所属扇区名称" index="9" />
+				<field name="源载扇所属扇区编号" index="10" />
+				<field name="源载波编号" index="11" />
+				<field name="源载波频点" index="12" />
+				<field name="源pn" index="13" />
+				<field name="邻区顺序" index="14" />
+				<field name="切换方法" index="15" />
+				<field name="邻载扇标识" index="16" />
+				<field name="邻载扇行政区" index="17" />
+				<field name="邻载扇所属ＭＳＣ标识" index="18" />
+				<field name="邻载扇所属ＭＧＷ标识" index="19" />
+				<field name="邻载扇所属ＢＳＣ标识" index="20" />
+				<field name="邻载扇所属ＢＴＳ标识" index="21" />
+				<field name="邻载扇所属扇区标识" index="22" />
+				<field name="邻扇区名称" index="23" />
+				<field name="邻扇区编号" index="24" />
+				<field name="邻载波标识" index="25" />
+				<field name="邻载波频点" index="26" />
+				<field name="邻pn" index="27" />
+				<field name="邻扇区所属省" index="28" />
+				<field name="邻扇区所属城市" index="29" />
+				<field name="邻区关系类型" index="30" />
+				<field name="邻扇区所属厂家" index="31" />
+				<field name="是否为外部邻区" index="32" />
+				<field name="bssid" index="33" />
+				<field name="system" index="34" />
+				<field name="cellid" index="35" />
+				<field name="pilot_pn" index="36" />
+				<field name="carrierid" index="37" />
+				<field name="mscid" index="38" />
+				<field name="ci" index="39" />
+				<field name="officeid" index="40" />
+				<field name="邻区载频配置" index="41" />
+				<field name="邻区导频搜索优先级" index="42" />
+				<field name="导频搜索窗大小" index="43" />
+				<field name="频率包含指示" index="44" />
+				<field name="邻区频带类别" index="45" />
+				<field name="邻区频率" index="46" />
+				<field name="可否接入入口切换" index="47" />
+				<field name="可否接入切换" index="48" />
+				<field name="邻区时间信息包含指示长" index="49" />
+				<field name="邻区发送时间偏置" index="50" />
+				<field name="邻区发送在每个周期的时长" index="51" />
+				<field name="邻区发送时长" index="52" />
+				<field name="邻区导频附加信息包含指示" index="53" />
+				<field name="邻区导频信息记录类型" index="54" />
+				<field name="邻区导频搜索窗大小的偏置" index="55" />
+				<field name="sequence_b" index="56" />
+				<field name="locked_b" index="57" />
+				<field name="alias_b" index="58" />
+				<field name="ncell_bs_id" index="59" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="8"
+		file="/VERGESITE/BJ_VERGESITE_VCARRNBR_ZTE_DO_%%Y%%M%%D.csv" skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界载扇标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="省份" index="2" />
+				<field name="城市" index="3" />
+				<field name="源载扇所属MSC标识" index="4" />
+				<field name="源载扇所属MGW标识" index="5" />
+				<field name="源载扇所属BSC标识" index="6" />
+				<field name="源载扇所属BTS标识" index="7" />
+				<field name="源载扇所属扇区标识" index="8" />
+				<field name="源载扇所属扇区名称" index="9" />
+				<field name="源载扇所属扇区编号" index="10" />
+				<field name="源载波编号" index="11" />
+				<field name="源载波频点" index="12" />
+				<field name="源pn" index="13" />
+				<field name="邻区顺序" index="14" />
+				<field name="切换方法" index="15" />
+				<field name="邻载扇标识" index="16" />
+				<field name="邻载扇行政区" index="17" />
+				<field name="邻载扇所属ＭＳＣ标识" index="18" />
+				<field name="邻载扇所属ＭＧＷ标识" index="19" />
+				<field name="邻载扇所属ＢＳＣ标识" index="20" />
+				<field name="邻载扇所属ＢＴＳ标识" index="21" />
+				<field name="邻载扇所属扇区标识" index="22" />
+				<field name="邻扇区名称" index="23" />
+				<field name="邻扇区编号" index="24" />
+				<field name="邻载波标识" index="25" />
+				<field name="邻载波频点" index="26" />
+				<field name="邻pn" index="27" />
+				<field name="邻扇区所属省" index="28" />
+				<field name="邻扇区所属城市" index="29" />
+				<field name="邻区关系类型" index="30" />
+				<field name="邻扇区所属厂家" index="31" />
+				<field name="是否为外部邻区" index="32" />
+				<field name="PILOTPN" index="33" />
+				<field name="SYSTEMTYPE" index="34" />
+				<field name="BANDCLASS" index="35" />
+				<field name="ChannelNumber" index="36" />
+				<field name="SEARCHWINDOWSIZE" index="37" />
+				<field name="SEARCHWINDOWOFFSET" index="38" />
+				<field name="BCSubnet" index="39" />
+				<field name="sequence_b" index="40" />
+				<field name="CI" index="41" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="9"
+		file="/VERGESITE/BJ_VERGESITE_VSECTORNBR_ZTE_1X_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界扇区标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="源省际边界扇区名称" index="2" />
+				<field name="省份" index="3" />
+				<field name="城市" index="4" />
+				<field name="源扇区所属MSC标识" index="5" />
+				<field name="源扇区所属MGW标识" index="6" />
+				<field name="源扇区所属BSC标识" index="7" />
+				<field name="源扇区所属BTS标识" index="8" />
+				<field name="源扇区编号" index="9" />
+				<field name="源pn" index="10" />
+				<field name="邻区顺序" index="11" />
+				<field name="切换方法" index="12" />
+				<field name="邻扇区标识" index="13" />
+				<field name="邻扇区行政区" index="14" />
+				<field name="邻扇区所属ＭＳＣ标识" index="15" />
+				<field name="邻扇区所属ＭＧＷ标识" index="16" />
+				<field name="邻扇区所属ＢＳＣ标识" index="17" />
+				<field name="邻扇区所属ＢＴＳ标识" index="18" />
+				<field name="邻扇区编号" index="19" />
+				<field name="邻扇区名称" index="20" />
+				<field name="邻pn" index="21" />
+				<field name="邻扇区所属省" index="22" />
+				<field name="邻扇区所属城市" index="23" />
+				<field name="邻区关系类型" index="24" />
+				<field name="邻扇区所属厂家" index="25" />
+				<field name="是否为外部邻区" index="26" />
+				<field name="导频PN序列偏置" index="27" />
+				<field name="相邻小区类型" index="28" />
+				<field name="相邻小区局向号" index="29" />
+				<field name="相邻小区BTS号" index="30" />
+				<field name="相邻小区Cell号" index="31" />
+				<field name="邻区全局标示" index="32" />
+				<field name="小区识别鉴别方式" index="33" />
+				<field name="所在位置区域编码" index="34" />
+				<field name="小区识别" index="35" />
+				<field name="市场号" index="36" />
+				<field name="交换号" index="37" />
+				<field name="协议版本号" index="38" />
+				<field name="小区模式" index="39" />
+				<field name="PTT调度服务区ID号" index="40" />
+				<field name="ncell_bs_id" index="41" />
+				<field name="alias别名" index="42" />
+				<field name="sequence_b" index="43" />
+				<field name="bssid" index="44" />
+				<field name="基站的系统号" index="45" />
+				<field name="小区序号" index="46" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="10"
+		file="/VERGESITE/BJ_VERGESITE_VCARRNBR_ALU_1X_%%Y%%M%%D.csv" skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界载扇标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="源省际边界扇区名称" index="2" />
+				<field name="省份" index="3" />
+				<field name="城市" index="4" />
+				<field name="源扇区所属MSC标识" index="5" />
+				<field name="源扇区所属MGW标识" index="6" />
+				<field name="源扇区所属BSC标识" index="7" />
+				<field name="源扇区所属BTS标识" index="8" />
+				<field name="源扇区编号" index="9" />
+				<field name="源pn" index="10" />
+				<field name="邻区顺序" index="11" />
+				<field name="切换方法" index="12" />
+				<field name="邻扇区标识" index="13" />
+				<field name="邻扇区行政区" index="14" />
+				<field name="邻扇区所属ＭＳＣ标识" index="15" />
+				<field name="邻扇区所属ＭＧＷ标识" index="16" />
+				<field name="邻扇区所属ＢＳＣ标识" index="17" />
+				<field name="邻扇区所属ＢＴＳ标识" index="18" />
+				<field name="邻扇区编号" index="19" />
+				<field name="邻扇区名称" index="20" />
+				<field name="邻pn" index="21" />
+				<field name="邻扇区所属省" index="22" />
+				<field name="邻扇区所属城市" index="23" />
+				<field name="邻区关系类型" index="24" />
+				<field name="邻扇区所属厂家" index="25" />
+				<field name="是否为外部邻区" index="26" />
+				<field name="cdll_site" index="27" />
+				<field name="ant_face" index="28" />
+				<field name="analog_srv_grp" index="29" />
+				<field name="pilot_pn_offset" index="30" />
+				<field name="dsc" index="31" />
+				<field name="ecp" index="32" />
+				<field name="sid" index="33" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="11"
+		file="/VERGESITE/BJ_VERGESITE_VSECTORNBR_ALU_1X_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界扇区标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="源省际边界扇区名称" index="2" />
+				<field name="省份" index="3" />
+				<field name="城市" index="4" />
+				<field name="源扇区所属MSC标识" index="5" />
+				<field name="源扇区所属MGW标识" index="6" />
+				<field name="源扇区所属BSC标识" index="7" />
+				<field name="源扇区所属BTS标识" index="8" />
+				<field name="源扇区编号" index="9" />
+				<field name="源pn" index="10" />
+				<field name="邻区顺序" index="11" />
+				<field name="切换方法" index="12" />
+				<field name="邻扇区标识" index="13" />
+				<field name="邻扇区行政区" index="14" />
+				<field name="邻扇区所属ＭＳＣ标识" index="15" />
+				<field name="邻扇区所属ＭＧＷ标识" index="16" />
+				<field name="邻扇区所属ＢＳＣ标识" index="17" />
+				<field name="邻扇区所属ＢＴＳ标识" index="18" />
+				<field name="邻扇区编号" index="19" />
+				<field name="邻扇区名称" index="20" />
+				<field name="邻pn" index="21" />
+				<field name="邻扇区所属省" index="22" />
+				<field name="邻扇区所属城市" index="23" />
+				<field name="邻区关系类型" index="24" />
+				<field name="邻扇区所属厂家" index="25" />
+				<field name="是否为外部邻区" index="26" />
+				<field name="ncs_c" index="27" />
+				<field name="nghbrantf" index="28" />
+				<field name="pilot_pn" index="29" />
+				<field name="pgn_c" index="30" />
+				<field name="nghb_conf" index="31" />
+				<field name="hdhandoff" index="32" />
+				<field name="dcs_c" index="33" />
+				<field name="ecp_c" index="34" />
+				<field name="sid_c" index="35" />
+			</fields>
+		</ds>
+	</templet>
+	<templet id="12"
+		file="/VERGESITE/BJ_VERGESITE_VSECTORNBR_ALU_DO_%%Y%%M%%D.csv"
+		skipLine="1">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="源省际边界扇区标识" index="0" />
+				<field name="时间戳" index="1" />
+				<field name="源省际边界扇区名称" index="2" />
+				<field name="省份" index="3" />
+				<field name="城市" index="4" />
+				<field name="源扇区所属MSC标识" index="5" />
+				<field name="源扇区所属MGW标识" index="6" />
+				<field name="源扇区所属BSC标识" index="7" />
+				<field name="源扇区所属BTS标识" index="8" />
+				<field name="源扇区编号" index="9" />
+				<field name="源pn" index="10" />
+				<field name="邻区顺序" index="11" />
+				<field name="切换方法" index="12" />
+				<field name="邻扇区标识" index="13" />
+				<field name="邻扇区行政区" index="14" />
+				<field name="邻扇区所属ＭＳＣ标识" index="15" />
+				<field name="邻扇区所属ＭＧＷ标识" index="16" />
+				<field name="邻扇区所属ＢＳＣ标识" index="17" />
+				<field name="邻扇区所属ＢＴＳ标识" index="18" />
+				<field name="邻扇区编号" index="19" />
+				<field name="邻扇区名称" index="20" />
+				<field name="邻pn" index="21" />
+				<field name="邻扇区所属省" index="22" />
+				<field name="邻扇区所属城市" index="23" />
+				<field name="邻区关系类型" index="24" />
+				<field name="邻扇区所属厂家" index="25" />
+				<field name="是否为外部邻区" index="26" />
+				<field name="hdrsnid" index="27" />
+				<field name="fmsframeid" index="28" />
+				<field name="cellsiteid" index="29" />
+				<field name="sectorid" index="30" />
+				<field name="nbrid" index="31" />
+				<field name="nbrnbrhdrcellsiteid" index="32" />
+				<field name="nbrnbrsectorid" index="33" />
+				<field name="nbrwithinsn" index="34" />
+				<field name="nbrpnoff" index="35" />
+				<field name="nbrsystemtype" index="36" />
+				<field name="nbrbandclass" index="37" />
+				<field name="nbrbandsubclass" index="38" />
+				<field name="nbrchannelnumber" index="39" />
+				<field name="nbrsearchwindowsize" index="40" />
+				<field name="nbrsearchwindowsizecarrier" index="41" />
+				<field name="nbrsearchwindowsizecarrier2" index="42" />
+				<field name="nbrsearchwindowsizecarrier3" index="43" />
+				<field name="nbrsearchwindowsizecarrier4" index="44" />
+				<field name="nbrsearchwindowsizecarrier5" index="45" />
+				<field name="nbrsectorasocactiveapipaddress" index="46" />
+				<field name="nbrsectorasocbackupapipaddress" index="47" />
+				<field name="nbrchannelnumber2" index="48" />
+				<field name="nbrchannelnumber3" index="49" />
+				<field name="nbrchannelnumber4" index="50" />
+				<field name="nbrchannelnumber5" index="51" />
+				<field name="nbrbandclass2" index="52" />
+				<field name="nbrbandclass3" index="53" />
+				<field name="nbrbandclass4" index="54" />
+				<field name="nbrbandclass5" index="55" />
+				<field name="nbrbandsubclass2" index="56" />
+				<field name="nbrbandsubclass3" index="57" />
+				<field name="nbrbandsubclass4" index="58" />
+				<field name="nbrbandsubclass5" index="59" />
+				<field name="directedifhotarget" index="60" />
+				<field name="directedifhotarget2" index="61" />
+				<field name="directedifhotarget3" index="62" />
+				<field name="directedifhotarget4" index="63" />
+				<field name="directedifhotarget5" index="64" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

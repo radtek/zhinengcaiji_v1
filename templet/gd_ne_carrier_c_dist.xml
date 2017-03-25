@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="NE_CARRIER_C" split=",">
+			<column name="BSC_ID" index="0"/>
+			<column name="BTS_ID" index="1" />
+			<column name="CELL_ID" index="2" />
+			<column name="SECTOR_ID" index="3" />
+			<column name="CITY_ID" index="4" />
+			<column name="MSC_ID" index="5" />
+			<column name="BTS_NAME" index="6" />
+			<column name="SECTOR_NAME" index="7" />
+			<column name="PROVINCE" index="8" />
+			<column name="AREANAME" index="9" />
+			<column name="SALE_CENTER" index="10" />
+			<column name="VENDOR" index="11" />
+			<column name="DATA_TYPE" index="12" />
+			<column name="LONGITUDE" index="13" />
+			<column name="LATITUDE" index="14" />
+			<column name="AREA_TYPE" index="15" />
+			<column name="ANT_AZIMUTH" index="16" />
+			<column name="CARRIER_1X_NUM" index="17" />
+			<column name="CARRIER_1X_LIST" index="18" />
+			<column name="IS_DO_CARRIER" index="19" />
+			<column name="CARRIER_EVDO_NUM" index="20" />
+			<column name="CARRIER_EVDI_LIST" index="21" />
+			<column name="IS_COVER_GT" index="22" />
+			<column name="IS_COVER_KYTL" index="23" />
+			<column name="IS_COVER_GS" index="24" />
+			<column name="IS_COVER_GD" index="25" />
+			<column name="IS_COVER_SD" index="26" />
+			<column name="IS_COVER_XD" index="27" />
+			<column name="IS_COVER_XZ" index="28" />
+			<column name="IS_COVER_XZC" index="29" />
+			<column name="IS_COVER_DT" index="30" />
+			<column name="IS_COVER_LYJD" index="31" />
+			<column name="IS_COVER_GYY" index="32" />
+			<column name="IS_COVER_GX" index="33" />
+			<column name="IS_COVER_GK" index="34" />
+			<column name="IS_COVER_HY" index="35" />
+			<column name="IS_COVER_JD" index="36" />
+			<column name="IS_COVER_SUID" index="37" />
+			<column name="IS_COVER_GCXQ" index="38" />
+			<column name="IS_COVER_TYC" index="39" />
+		</table>
+	</templet>
+</templets>

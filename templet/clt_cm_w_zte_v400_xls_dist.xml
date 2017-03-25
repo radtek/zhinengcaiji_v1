@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_CM_W_ZTE_AC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="EFFUNLDCNTTHR" index="4"/>
+			<column name="DLCACSWITCH" index="5"/>
+			<column name="BCKNOIUPFACTOR" index="6"/>
+			<column name="ORIBCKNOISE" index="7"/>
+			<column name="DRTLIGHTLDTHR" index="8"/>
+			<column name="DELTATHR" index="9"/>
+			<column name="UNLDTHRESH" index="10"/>
+			<column name="RRCSIGUSRNUMTHR" index="11"/>
+			<column name="BCKNOIDNFACTOR" index="12"/>
+			<column name="ULINTERFACTOR" index="13"/>
+			<column name="BGNOIUPTSRVNUM" index="14"/>
+			<column name="MINORTHOGFACTOR" index="15"/>
+			<column name="NOIOFFSETTHR" index="16"/>
+			<column name="BCKNOIMAXADJAST" index="17"/>
+			<column name="RACHCACTHRESH" index="18"/>
+			<column name="BCKNOIMAXSTEP" index="19"/>
+			<column name="CPICHECN0" index="20"/>
+			<column name="STAWINNUM" index="21"/>
+			<column name="BCKNOITHR" index="22"/>
+			<column name="PATHLOSS" index="23"/>
+			<column name="REFSFLAYER" index="24"/>
+			<column name="ULCACSWITCH" index="25"/>
+			<column name="LDFACTCALSRVNUM" index="26"/>
+			<column name="MAXORTHOGFACTOR" index="27"/>
+			<column name="BCKNOISEADJSWH" index="28"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_CM_W_ZTE_AICH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="STTDIND" index="5"/>
+			<column name="PRACHCPCID" index="6"/>
+			<column name="AICHTRANTIME" index="7"/>
+			<column name="CHCODE" index="8"/>
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="CLT_CM_W_ZTE_APPPRI" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="APPPRIINDEX" index="3"/>
+			<column name="BPSEG" index="4"/>
+			<column name="BEARERTYPE" index="5"/>
+			<column name="DIRECTION" index="6"/>
+			<column name="RATESEG" index="7"/>
+			<column name="APPPRI" index="8"/>
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="CLT_CM_W_ZTE_BPRIAC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="BPRIACINDEX" index="3"/>
+			<column name="BASICPRIO" index="4"/>
+			<column name="EDCHACTHRESH" index="5"/>
+			<column name="MBMSACTHRESH" index="6"/>
+			<column name="HSDPAACTHRESH" index="7"/>
+			<column name="CODETREERESRTO" index="8"/>
+			<column name="DCHDLACTHRESH" index="9"/>
+			<column name="THRESHREFCOUNT" index="10"/>
+			<column name="SAFEPWROFST" index="11"/>
+			<column name="DCHULACTHRESH" index="12"/>
+		</table>
+	</templet>
+	<templet id="4">
+		<table id="0" name="CLT_CM_W_ZTE_BASPRI" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="ARPSEG" index="3"/>
+			<column name="TRAFFICCLASS" index="4"/>
+			<column name="BASICPRIO" index="5"/>
+		</table>
+	</templet>
+	<templet id="5">
+		<table id="0" name="CLT_CM_W_ZTE_BCH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CTCID" index="3"/>
+			<column name="BCHPWR" index="4"/>
+			<column name="CID" index="5"/>
+		</table>
+	</templet>
+	<templet id="6">
+		<table id="0" name="CLT_CM_W_ZTE_CHSPA" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="MINNUMOFHSPDSCH" index="4"/>
+			<column name="EDCHTRAFLIMIT" index="5"/>
+			<column name="MAXNUMOFHSPDSCH" index="6"/>
+			<column name="NUMOFHSPDSCH" index="7"/>
+			<column name="HSDSCHTRAFLIMIT" index="8"/>
+			<column name="HSDPASCRAMCODE" index="9"/>
+			<column name="CODEUPTHYA" index="10"/>
+			<column name="MAXHSPAPWRRTO" index="11"/>
+			<column name="HSSHAREIND" index="12"/>
+			<column name="NUMOFHSSCCH" index="13"/>
+			<column name="DPCHCODEHY" index="14"/>
+			<column name="NUMOFEAGCH" index="15"/>
+			<column name="HSPAPWRRATIO" index="16"/>
+			<column name="MEASPWROFFSET" index="17"/>
+			<column name="NSERVTOTOTALPWR" index="18"/>
+			<column name="HSPDSCHBITRATE" index="19"/>
+			<column name="NUMOFERGHICH" index="20"/>
+			<column name="ESTMINHSDPAPWR" index="21"/>
+			<column name="MINHSPAPWRRTO" index="22"/>
+			<column name="MAXRTWP" index="23"/>
+		</table>
+	</templet>
+	<templet id="7">
+		<table id="0" name="CLT_CM_W_ZTE_CINTER" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TRFCATINTERMIDX" index="3"/>
+			<column name="TRFCATEGORY" index="4"/>
+			<column name="PRDMEASECNO" index="5"/>
+			<column name="PRDMEASRSCP" index="6"/>
+			<column name="EVTMEASRSCP" index="7"/>
+			<column name="EVTMEASECNO" index="8"/>
+		</table>
+	</templet>
+	<templet id="8">
+		<table id="0" name="CLT_CM_W_ZTE_CINTRA" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TRFCATINTRAMIDX" index="3"/>
+			<column name="TRFCATEGORY" index="4"/>
+			<column name="PRDMEASECNO" index="5"/>
+			<column name="PRDMEASRSCP" index="6"/>
+			<column name="EVTMEASDCTRSCP" index="7"/>
+			<column name="EVTMEASRSCP" index="8"/>
+			<column name="EVTMEASECNO" index="9"/>
+			<column name="EVTMEASDCTECNO" index="10"/>
+		</table>
+	</templet>
+	<templet id="9">
+		<table id="0" name="CLT_CM_W_ZTE_CMBMS" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="CELLCNTSWCH" index="4"/>
+			<column name="MBMSSCCPCHRESNUM" index="5"/>
+			<column name="APFCONN" index="6"/>
+			<column name="TOAWE" index="7"/>
+			<column name="TFSINDEX" index="8"/>
+			<column name="MBMSTRAFLIMIT" index="9"/>
+			<column name="APFNUM" index="10"/>
+			<column name="MBMSTHRPUTTHRESH" index="11"/>
+			<column name="HCSOFFMBMS" index="12"/>
+			<column name="TOAWS" index="13"/>
+			<column name="QOFFMBMS" index="14"/>
+			<column name="APFIDLE" index="15"/>
+		</table>
+	</templet>
+	<templet id="10">
+		<table id="0" name="CLT_CM_W_ZTE_CRAT" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TRFCATRATMIDX" index="3"/>
+			<column name="TRFCATEGORY" index="4"/>
+			<column name="PRDMEASECNO" index="5"/>
+			<column name="PRDMEASRSCP" index="6"/>
+			<column name="EVTMEASRSCP" index="7"/>
+			<column name="EVTMEASECNO" index="8"/>
+		</table>
+	</templet>
+	<templet id="11">
+		<table id="0" name="CLT_CM_W_ZTE_CUETRV" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="DRBCFACHUP" index="4"/>
+			<column name="DRBCDCHUEPRD" index="5"/>
+			<column name="DRBCRACHUEEVT" index="6"/>
+			<column name="DRBCEDCHUPTHPT" index="7"/>
+			<column name="ETTIUPTHPT" index="8"/>
+			<column name="DRBCRACHUEPRD" index="9"/>
+			<column name="DRBCSHSUP" index="10"/>
+			<column name="DRBCDCHUP" index="11"/>
+			<column name="DRBCIBHSUP" index="12"/>
+			<column name="DRBCDCHUEEVT" index="13"/>
+		</table>
+	</templet>
+	<templet id="12">
+		<table id="0" name="CLT_CM_W_ZTE_CELSEL" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="SIB3ORSIB4" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="TCRMAXHYST" index="5"/>
+			<column name="QHYST2S" index="6"/>
+			<column name="DLTAQRXLEVMINPR" index="7"/>
+			<column name="SSEARCHHCSPRE" index="8"/>
+			<column name="INTERFREQSFPRE" index="9"/>
+			<column name="SPSF" index="10"/>
+			<column name="SINTRASEARCHPRE" index="11"/>
+			<column name="QHYST2SFACH" index="12"/>
+			<column name="QHYST1SFACH" index="13"/>
+			<column name="QUALMEAS" index="14"/>
+			<column name="QQUALMIN" index="15"/>
+			<column name="SINTERSEARCHPRE" index="16"/>
+			<column name="TBARRED" index="17"/>
+			<column name="QRXLEVMIN" index="18"/>
+			<column name="NOHCSTCRMAX" index="19"/>
+			<column name="INTERRATSFPRE" index="20"/>
+			<column name="OTHERRATINFOPRE" index="21"/>
+			<column name="SSEARCHHCS" index="22"/>
+			<column name="NOHCSTCRMAXHYST" index="23"/>
+			<column name="DLTAQRXLEVMIN" index="24"/>
+			<column name="SHCSRAT" index="25"/>
+			<column name="QHYST1S" index="26"/>
+			<column name="NCR" index="27"/>
+			<column name="SINTERSEARCH" index="28"/>
+			<column name="SSEARCHRAT" index="29"/>
+			<column name="OPERATORUSEIND" index="30"/>
+			<column name="INFREQRESELIND" index="31"/>
+			<column name="QHYST2SPCH" index="32"/>
+			<column name="SHCSRATPRE" index="33"/>
+			<column name="TRESELECTIONPCH" index="34"/>
+			<column name="TRESELECTION" index="35"/>
+			<column name="NOHCSNCR" index="36"/>
+			<column name="INTERRATSF" index="37"/>
+			<column name="QHYST1SPCH" index="38"/>
+			<column name="TRESELECTIONFACH" index="39"/>
+			<column name="HCSSRVCELINFOPRE" index="40"/>
+			<column name="SINTRASEARCH" index="41"/>
+			<column name="QHCSECNO" index="42"/>
+			<column name="SLIMITRAT" index="43"/>
+			<column name="SPSFPRE" index="44"/>
+			<column name="ACBARREDOMCR" index="45"/>
+			<column name="CELLRSVEXT" index="46"/>
+			<column name="CELLBARREDIND" index="47"/>
+			<column name="TCRMAX" index="48"/>
+			<column name="QHCSRSCP" index="49"/>
+			<column name="INTERFREQSF" index="50"/>
+		</table>
+	</templet>
+	<templet id="13">
+		<table id="0" name="CLT_CM_W_ZTE_DIVPC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="DIVPCINDEX" index="3"/>
+			<column name="SRVTYPE" index="4"/>
+			<column name="TXDIVMOD" index="5"/>
+			<column name="MAXULDPCHPWR" index="6"/>
+			<column name="EHICHPOTTI2" index="7"/>
+			<column name="PWRFORHALFISD" index="8"/>
+			<column name="MAXDLDPCHPWR" index="9"/>
+			<column name="ERGCHPOTTI10" index="10"/>
+			<column name="ULINITSIR" index="11"/>
+			<column name="ERGCHPOTTI2" index="12"/>
+			<column name="EHICHPOTTI10" index="13"/>
+			<column name="EAGCHPOTTI10" index="14"/>
+			<column name="ULMAXSIR" index="15"/>
+			<column name="DPCHPO2" index="16"/>
+			<column name="DPCHPO3" index="17"/>
+			<column name="DPCHPO1" index="18"/>
+			<column name="PWRFORSGLCELL" index="19"/>
+			<column name="MINDLDPCHPWR" index="20"/>
+			<column name="ULMINSIR" index="21"/>
+			<column name="EAGCHPOTTI2" index="22"/>
+			<column name="DPCCHPILOTEBN0" index="23"/>
+		</table>
+	</templet>
+	<templet id="14">
+		<table id="0" name="CLT_CM_W_ZTE_DLTFCS" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TFCSINDEX" index="3"/>
+			<column name="CTFC" index="4"/>
+			<column name="CTFCNUM" index="5"/>
+		</table>
+	</templet>
+	<templet id="15">
+		<table id="0" name="CLT_CM_W_ZTE_EDCHRC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="EDCHREFCONFIGIDX" index="3"/>
+			<column name="EPLTTI10T1" index="4"/>
+			<column name="EPLTTI10T0" index="5"/>
+			<column name="RETFCNUMTTI10T1" index="6"/>
+			<column name="RETFCNUMTTI2T0" index="7"/>
+			<column name="RETFCNUMTTI10T0" index="8"/>
+			<column name="RETFCIPOTTI2T0" index="9"/>
+			<column name="RETFCNUMTTI2T1" index="10"/>
+			<column name="RETFCIPOTTI10T1" index="11"/>
+			<column name="EPLTTI2T0" index="12"/>
+			<column name="RETFCIPOTTI10T0" index="13"/>
+			<column name="EPLTTI2T1" index="14"/>
+			<column name="RETFCIPOTTI2T1" index="15"/>
+			<column name="RETFCITTI10T1" index="16"/>
+			<column name="RETFCITTI2T0" index="17"/>
+			<column name="RETFCITTI10T0" index="18"/>
+			<column name="RETFCITTI2T1" index="19"/>
+		</table>
+	</templet>
+	<templet id="16">
+		<table id="0" name="CLT_CM_W_ZTE_FACH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CTCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="TFSINDEX" index="5"/>
+			<column name="CTCHIND" index="6"/>
+			<column name="BMCSCHMSGPRD" index="7"/>
+			<column name="CBSFRAMEOFFSET" index="8"/>
+			<column name="CTCHALLOCPRD" index="9"/>
+			<column name="TOAWE" index="10"/>
+			<column name="BMCSCHMSGPRDPRE" index="11"/>
+			<column name="SIGNALFACH" index="12"/>
+			<column name="SCCPCHCPCID" index="13"/>
+			<column name="TOAWS" index="14"/>
+		</table>
+	</templet>
+	<templet id="17">
+		<table id="0" name="CLT_CM_W_ZTE_GLOAC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TTRUEQFORCED" index="3"/>
+			<column name="FORCQUESWIAMR" index="4"/>
+			<column name="FORCQUESWICS64" index="5"/>
+			<column name="TTRUEQ" index="6"/>
+			<column name="QLENGTH" index="7"/>
+			<column name="ECNOVALIDTIMEWIN" index="8"/>
+			<column name="TTRUEQRELOC" index="9"/>
+		</table>
+	</templet>
+	<templet id="18">
+		<table id="0" name="CLT_CM_W_ZTE_GPSCFG" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="GPSCARDTYPE" index="3"/>
+			<column name="GPSINFOROOT" index="4"/>
+		</table>
+	</templet>
+	<templet id="19">
+		<table id="0" name="CLT_CM_W_ZTE_HSPA" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="NONHSCODEDNTIMER" index="3"/>
+			<column name="MAXMACDSIZE" index="4"/>
+			<column name="MACRODIVGAIN" index="5"/>
+			<column name="T1D" index="6"/>
+			<column name="CQICYCLE" index="7"/>
+			<column name="LICENSEMIMOIND" index="8"/>
+			<column name="INTERNACKPWROFST" index="9"/>
+			<column name="ACKPWROFFSET" index="10"/>
+			<column name="RLCSIZESUPTTYPE" index="11"/>
+			<column name="INTERCQIPWROFST" index="12"/>
+			<column name="CQIPWROFFSET" index="13"/>
+			<column name="LICENSE64QAMIND" index="14"/>
+			<column name="EDPCCHPOTTI10" index="15"/>
+			<column name="PBPENDTIMETHD" index="16"/>
+			<column name="NACKPWROFFSET" index="17"/>
+			<column name="HARQRVCONFIG" index="18"/>
+			<column name="INTERACKPWROFST" index="19"/>
+			<column name="MAXNUMOFEDCHACT" index="20"/>
+			<column name="SCHEINFOPOTTI10" index="21"/>
+			<column name="HSCODEDNTIMER" index="22"/>
+			<column name="EDPCCHPOTTI2" index="23"/>
+			<column name="CODEUPTPRDUNIT" index="24"/>
+			<column name="LICENSEENL2IND" index="25"/>
+			<column name="HSDPACMASSOMODE" index="26"/>
+			<column name="EDCHREFPO" index="27"/>
+			<column name="CODEUPTPRD" index="28"/>
+			<column name="SCHEINFOPOTTI2" index="29"/>
+			<column name="TPCERRTARGET" index="30"/>
+			<column name="HSDSCHTOTPWRMETH" index="31"/>
+			<column name="CQIREPFACTOR" index="32"/>
+			<column name="HSUPACMASSOMODE" index="33"/>
+			<column name="ANACKREPFACTOR" index="34"/>
+		</table>
+	</templet>
+	<templet id="20">
+		<table id="0" name="CLT_CM_W_ZTE_INTER" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="INTERMEASCFGNO" index="3"/>
+			<column name="HYSTERESIS" index="4"/>
+			<column name="WUSED" index="5"/>
+			<column name="FREQQUALEST" index="6"/>
+			<column name="MEAEVTID" index="7"/>
+			<column name="MEASEVTNUM" index="8"/>
+			<column name="RPTCRT" index="9"/>
+			<column name="FILTERCOEFF" index="10"/>
+			<column name="THRESHUSEDFREQ" index="11"/>
+			<column name="PRDRPTINTERVAL" index="12"/>
+			<column name="THRESHNOUSEDFREQ" index="13"/>
+			<column name="UTRACARRIERRSSI" index="14"/>
+			<column name="CIDRPTIND" index="15"/>
+			<column name="TRIGTIME" index="16"/>
+			<column name="MEASRPTTRMOD" index="17"/>
+			<column name="PATHLOSSRPTIND" index="18"/>
+			<column name="ECN0RPTIND" index="19"/>
+			<column name="MEASQUANTITY" index="20"/>
+			<column name="WNOUSED" index="21"/>
+			<column name="INTERMEASCFGNOTE" index="22"/>
+			<column name="RSCPRPTIND" index="23"/>
+			<column name="PRDRPTAMOUNT" index="24"/>
+			<column name="CELLSYNRPTIND" index="25"/>
+		</table>
+	</templet>
+	<templet id="21">
+		<table id="0" name="CLT_CM_W_ZTE_INTRA" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="INTRAMEASCFGNO" index="3"/>
+			<column name="HYSTERESIS" index="4"/>
+			<column name="EVTRPTAMOUNT" index="5"/>
+			<column name="RPTDEACTTHR" index="6"/>
+			<column name="RPTRANGE" index="7"/>
+			<column name="EVTRPTINTERVAL" index="8"/>
+			<column name="MEAEVTID" index="9"/>
+			<column name="THRESHUSEDFREQ" index="10"/>
+			<column name="PRDRPTINTERVAL" index="11"/>
+			<column name="ECN0RPTIND" index="12"/>
+			<column name="RPLCACTTHR" index="13"/>
+			<column name="W" index="14"/>
+			<column name="TRIGTIME" index="15"/>
+			<column name="INTRAMEASCFGNOTE" index="16"/>
+			<column name="MEASEVTNUM" index="17"/>
+			<column name="RPTCRT" index="18"/>
+			<column name="MEASQUANTITY" index="19"/>
+			<column name="MEASRPTTRMOD" index="20"/>
+			<column name="PRDRPTAMOUNT" index="21"/>
+			<column name="RSCPRPTIND" index="22"/>
+			<column name="PATHLOSSRPTIND" index="23"/>
+			<column name="FILTERCOEFF" index="24"/>
+		</table>
+	</templet>
+	<templet id="22">
+		<table id="0" name="CLT_CM_W_ZTE_LDCTRL" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="DLDECRATESW" index="4"/>
+			<column name="MAXNUMUEOFDECRAT" index="5"/>
+			<column name="ULFORCEHANDOFFSW" index="6"/>
+			<column name="NODEBSAFETHR" index="7"/>
+			<column name="ULMAXDRPURNUM" index="8"/>
+			<column name="FORCERABTOFASWIT" index="9"/>
+			<column name="DLOVERLD" index="10"/>
+			<column name="DLMAXDRPURNUM" index="11"/>
+			<column name="FORCEDRABRELSWIT" index="12"/>
+			<column name="MAXGBRDECNUM" index="13"/>
+			<column name="DLDROPSW" index="14"/>
+			<column name="HSDSOVERLDTHR" index="15"/>
+			<column name="DLMAXDELRLNUM" index="16"/>
+			<column name="DLALRMLD" index="17"/>
+			<column name="SWITCHTOFACH" index="18"/>
+			<column name="NFACH" index="19"/>
+			<column name="ULMAXFORHONUM" index="20"/>
+			<column name="DLFORCEHANDOFFSW" index="21"/>
+			<column name="ULDECRATESW" index="22"/>
+			<column name="DECGBRSW" index="23"/>
+			<column name="ULDROPSW" index="24"/>
+			<column name="ULALRMLD" index="25"/>
+			<column name="DLSERIOUSOVERLD" index="26"/>
+			<column name="FORCEDHOSWIT" index="27"/>
+			<column name="ULOVERLD" index="28"/>
+			<column name="ULSERIOUSOVERLD" index="29"/>
+			<column name="DLMAXFORHONUM" index="30"/>
+			<column name="DLDNMAXSTG" index="31"/>
+			<column name="HSDSRECOVERTHR" index="32"/>
+			<column name="ULDNMAXSTG" index="33"/>
+			<column name="DLADJUSTMFPSW" index="34"/>
+			<column name="AGLLDDEC" index="35"/>
+			<column name="REQUIREDRDSWIT" index="36"/>
+		</table>
+	</templet>
+	<templet id="23">
+		<table id="0" name="CLT_CM_W_ZTE_MBMS" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="REPPRDCOEFF" index="3"/>
+			<column name="PWRFORSOFTCOM" index="4"/>
+			<column name="NUMRECNTTIMER" index="5"/>
+			<column name="R6MBMSLOADHY" index="6"/>
+			<column name="DLMBMSDROPSW" index="7"/>
+			<column name="URAPCHCOUNT" index="8"/>
+			<column name="APFUPTINTERVAL" index="9"/>
+			<column name="R99MBMSLOADHY" index="10"/>
+			<column name="SONPTP" index="11"/>
+			<column name="MBMSLCNUM" index="12"/>
+			<column name="MCCHOSDSWTH" index="13"/>
+			<column name="BONPTP" index="14"/>
+			<column name="WINSIZEOSD" index="15"/>
+			<column name="PWRFORSELCOM" index="16"/>
+			<column name="MSCHSCHPRD" index="17"/>
+			<column name="MBMSMINRATE" index="18"/>
+			<column name="CELLFACHCOUNT" index="19"/>
+			<column name="SFREQCONVSWCH" index="20"/>
+			<column name="MBMSIUBMULTSWCH" index="21"/>
+			<column name="PRDISDSTAT" index="22"/>
+			<column name="PTHREUENUM" index="23"/>
+			<column name="ACCINFOPRDCOEFF" index="24"/>
+			<column name="DESYNDETPRD" index="25"/>
+			<column name="THRESHFORISD" index="26"/>
+			<column name="MFPDECSTEP" index="27"/>
+			<column name="BFREQCONVSWCH" index="28"/>
+			<column name="THRESHFORHALFISD" index="29"/>
+			<column name="MFPINCSTEP" index="30"/>
+			<column name="MAXMFPLC" index="31"/>
+			<column name="MSCHSPTSWITCH" index="32"/>
+			<column name="MSCHOFFSTEP" index="33"/>
+			<column name="T318" index="34"/>
+			<column name="CELLPCHCOUNT" index="35"/>
+		</table>
+	</templet>
+	<templet id="24">
+		<table id="0" name="CLT_CM_W_ZTE_MBMSSA" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MCC" index="3"/>
+			<column name="MNC" index="4"/>
+			<column name="MBMSSAC" index="5"/>
+			<column name="FREQBANDIND" index="6"/>
+			<column name="DUARFCN" index="7"/>
+			<column name="CELLNUM" index="8"/>
+			<column name="CID" index="9"/>
+			<column name="FREQPLIND" index="10"/>
+		</table>
+	</templet>
+	<templet id="25">
+		<table id="0" name="CLT_CM_W_ZTE_MICH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="STTDIND" index="5"/>
+			<column name="MICHPWR" index="6"/>
+			<column name="SCCPCHCPCID" index="7"/>
+			<column name="NINUMPERFRAME" index="8"/>
+			<column name="MICHCHCODE" index="9"/>
+		</table>
+	</templet>
+	<templet id="26">
+		<table id="0" name="CLT_CM_W_ZTE_PC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="DPCMODE" index="4"/>
+			<column name="PCPIPWRDNSTEPTM" index="5"/>
+			<column name="DPCCHPCPLEN" index="6"/>
+			<column name="PCPIPWRDNTMWIN" index="7"/>
+			<column name="ULINTERUPDTTH" index="8"/>
+			<column name="SRBDELAY" index="9"/>
+			<column name="PCPIPWRDNSTEP" index="10"/>
+			<column name="AICHPWR" index="11"/>
+			<column name="PICHPWR" index="12"/>
+			<column name="COVERPRD" index="13"/>
+		</table>
+	</templet>
+	<templet id="27">
+		<table id="0" name="CLT_CM_W_ZTE_PCCPCH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="STTDIND" index="5"/>
+		</table>
+	</templet>
+	<templet id="28">
+		<table id="0" name="CLT_CM_W_ZTE_PCH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CTCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="TFSINDEX" index="5"/>
+			<column name="PCHPWR" index="6"/>
+			<column name="TOAWE" index="7"/>
+			<column name="TOAWS" index="8"/>
+			<column name="SCCPCHCPCID" index="9"/>
+		</table>
+	</templet>
+	<templet id="29">
+		<table id="0" name="CLT_CM_W_ZTE_PCPICH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="PCPICHPWR" index="4"/>
+			<column name="CID" index="5"/>
+			<column name="STTDIND" index="6"/>
+		</table>
+	</templet>
+	<templet id="30">
+		<table id="0" name="CLT_CM_W_ZTE_PICH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="STTDIND" index="5"/>
+			<column name="NP" index="6"/>
+			<column name="CHCODE" index="7"/>
+			<column name="PCHCTCID" index="8"/>
+		</table>
+	</templet>
+	<templet id="31">
+		<table id="0" name="CLT_CM_W_ZTE_PRACH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="PUNCTLIMIT" index="5"/>
+			<column name="PERMITMAXASC" index="6"/>
+			<column name="AVAILABLESF" index="7"/>
+			<column name="NB01MAX" index="8"/>
+			<column name="DYNPSTLEVELINIT" index="9"/>
+			<column name="PSFNUM" index="10"/>
+			<column name="CONSTVAL" index="11"/>
+			<column name="NB01MIN" index="12"/>
+			<column name="TFCSINDEX" index="13"/>
+			<column name="ASUBCHNUM" index="14"/>
+			<column name="MAXRACHTXPWR" index="15"/>
+			<column name="AVAILSUBCHANNUM" index="16"/>
+			<column name="ASIGENDIDX" index="17"/>
+			<column name="PREAMTHS" index="18"/>
+			<column name="SIB5ORSIB6" index="19"/>
+			<column name="ASIGSTIDX" index="20"/>
+			<column name="MAXPREAMRETRANS" index="21"/>
+			<column name="SIGNATURE" index="22"/>
+			<column name="PSF" index="23"/>
+			<column name="MMAX" index="24"/>
+			<column name="PREAMSCRACODE" index="25"/>
+			<column name="PRSTEP" index="26"/>
+			<column name="AC2ASCMAP" index="27"/>
+		</table>
+	</templet>
+	<templet id="32">
+		<table id="0" name="CLT_CM_W_ZTE_PSCH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="PSCHPWR" index="4"/>
+			<column name="CID" index="5"/>
+			<column name="TSTDIND" index="6"/>
+		</table>
+	</templet>
+	<templet id="33">
+		<table id="0" name="CLT_CM_W_ZTE_QOSSEG" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MAXULDPCHPO" index="3"/>
+			<column name="THPSEGNUM" index="4"/>
+			<column name="THPTHRESH" index="5"/>
+			<column name="ARPSEGNUM" index="6"/>
+			<column name="ARPTHRESH" index="7"/>
+			<column name="MAXDLDPCHPO" index="8"/>
+			<column name="ULRATEADJLEVNUM" index="9"/>
+			<column name="BPSEGNUM" index="10"/>
+			<column name="BPTHRESH" index="11"/>
+			<column name="DLNORMBITRATE" index="12"/>
+			<column name="DLRATEADJLEVNUM" index="13"/>
+			<column name="ULNORMBITRATE" index="14"/>
+			<column name="ULRATEADJLEV" index="15"/>
+			<column name="DLRATEADJLEV" index="16"/>
+		</table>
+	</templet>
+	<templet id="34">
+		<table id="0" name="CLT_CM_W_ZTE_RACH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CTCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="PRACHCPCID" index="5"/>
+			<column name="TFSINDEX" index="6"/>
+		</table>
+	</templet>
+	<templet id="35">
+		<table id="0" name="CLT_CM_W_ZTE_RAT" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="INTERRATCFGNO" index="3"/>
+			<column name="RPTCRT" index="4"/>
+			<column name="HYSTERESIS" index="5"/>
+			<column name="EVENTID" index="6"/>
+			<column name="GSMFILTERCOEFF" index="7"/>
+			<column name="OWNMEASQUANTITY" index="8"/>
+			<column name="THRESHSYS" index="9"/>
+			<column name="PRDRPTINTERVAL" index="10"/>
+			<column name="W" index="11"/>
+			<column name="TRIGTIME" index="12"/>
+			<column name="FILTERCOEFF" index="13"/>
+			<column name="BSICVERIREQ" index="14"/>
+			<column name="EVENTNUM" index="15"/>
+			<column name="MEASRPTTRMOD" index="16"/>
+			<column name="THRESH" index="17"/>
+			<column name="INTERRATCFGNOTE" index="18"/>
+			<column name="GSMCARRRSSIIND" index="19"/>
+			<column name="PRDRPTAMOUNT" index="20"/>
+			<column name="UTRANESTQUAL" index="21"/>
+		</table>
+	</templet>
+	<templet id="36">
+		<table id="0" name="CLT_CM_W_ZTE_SCCPCH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="MPLEXPOS" index="5"/>
+			<column name="PCHIND" index="6"/>
+			<column name="SLOTFMT" index="7"/>
+			<column name="FLOWCONSWT" index="8"/>
+			<column name="TFCSINDEX" index="9"/>
+			<column name="MAXFACHPWR" index="10"/>
+			<column name="DLCHCODENO" index="11"/>
+			<column name="PO3" index="12"/>
+			<column name="PO1" index="13"/>
+			<column name="PICHCPCID" index="14"/>
+			<column name="SCCPCHUSAGE" index="15"/>
+			<column name="STTDIND" index="16"/>
+			<column name="SIB5ORSIB6" index="17"/>
+			<column name="SCCPCHOFFSET" index="18"/>
+			<column name="DLSCRACODE" index="19"/>
+		</table>
+	</templet>
+	<templet id="37">
+		<table id="0" name="CLT_CM_W_ZTE_SCHPRI" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="SCHPRIINDEX" index="3"/>
+			<column name="BASICPRIO" index="4"/>
+			<column name="BEARERTYPE" index="5"/>
+			<column name="SCHPRIO" index="6"/>
+		</table>
+	</templet>
+	<templet id="38">
+		<table id="0" name="CLT_CM_W_ZTE_SCPICH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="STTDIND" index="5"/>
+			<column name="DLSCRACODE" index="6"/>
+			<column name="SCPICHPWR" index="7"/>
+			<column name="CHCODE" index="8"/>
+		</table>
+	</templet>
+	<templet id="39">
+		<table id="0" name="CLT_CM_W_ZTE_SRVPHY" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="SIGSRVNO" index="3"/>
+			<column name="EDCHREFCONFIGIDX" index="4"/>
+			<column name="SRVTYPE" index="5"/>
+		</table>
+	</templet>
+	<templet id="40">
+		<table id="0" name="CLT_CM_W_ZTE_SSCH" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CPCID" index="3"/>
+			<column name="SSCHPWR" index="4"/>
+			<column name="CID" index="5"/>
+		</table>
+	</templet>
+	<templet id="41">
+		<table id="0" name="CLT_CM_W_ZTE_SUBSRV" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="SRVTYPE" index="3"/>
+			<column name="DIRECTION" index="4"/>
+			<column name="UPTHRESSAMPLENUM" index="5"/>
+			<column name="BLERACCPPERIOD" index="6"/>
+			<column name="MAXBITRATE" index="7"/>
+			<column name="BLERTARGET" index="8"/>
+			<column name="BLERTARGETFORDC" index="9"/>
+			<column name="STATWINSIZETTI2" index="10"/>
+			<column name="RLCMODE" index="11"/>
+			<column name="PERIODSING" index="12"/>
+			<column name="ERRORTHRESH" index="13"/>
+			<column name="PERIODSIG" index="14"/>
+			<column name="DOMAIN" index="15"/>
+			<column name="NHRTHRUP" index="16"/>
+			<column name="HAPPYBITDELCOND" index="17"/>
+			<column name="CORRNUMHARQTONHR" index="18"/>
+			<column name="STATWINSIZETTI10" index="19"/>
+			<column name="BLERTARGETFORSF" index="20"/>
+			<column name="MACHSWINSIZE" index="21"/>
+			<column name="NHRTHRDOWN" index="22"/>
+			<column name="T1" index="23"/>
+			<column name="VALIDTIMEWIN" index="24"/>
+			<column name="DWTHRESSAMPLENUM" index="25"/>
+			<column name="DISCARDTIMER" index="26"/>
+			<column name="MAXRETRANSEDCH" index="27"/>
+			<column name="PTMRLSPERM" index="28"/>
+			<column name="EDCHHARQPOFDD" index="29"/>
+			<column name="TRAFFICCLASS" index="30"/>
+			<column name="ETTI" index="31"/>
+			<column name="EDCHTRGRANTTYPE" index="32"/>
+			<column name="DISCARDTIMERPRE" index="33"/>
+			<column name="MBMSIND" index="34"/>
+		</table>
+	</templet>
+	<templet id="42">
+		<table id="0" name="CLT_CM_W_ZTE_SYSMC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="SIB11ORSIB12" index="3"/>
+			<column name="CID" index="4"/>
+			<column name="INTRARACHRPTQPRE" index="5"/>
+			<column name="FACHMEASK" index="6"/>
+			<column name="RPTQUAN" index="7"/>
+			<column name="RACHMAXRPTCELL" index="8"/>
+			<column name="INTERRATMINDPRE" index="9"/>
+			<column name="RACHMAXRPTCELPRE" index="10"/>
+			<column name="OTDRPTIND" index="11"/>
+			<column name="FDDINTERFMEASIND" index="12"/>
+		</table>
+	</templet>
+	<templet id="43">
+		<table id="0" name="CLT_CM_W_ZTE_TFS" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TFSINDEX" index="3"/>
+			<column name="RLCSIZE" index="4"/>
+			<column name="TRBLKNUM" index="5"/>
+			<column name="CRCSIZE" index="6"/>
+			<column name="CODINGRATE" index="7"/>
+			<column name="CHTYPE" index="8"/>
+			<column name="TTI" index="9"/>
+			<column name="TFNUM" index="10"/>
+			<column name="RATEMATCHATTR" index="11"/>
+		</table>
+	</templet>
+	<templet id="44">
+		<table id="0" name="CLT_CM_W_ZTE_TRFPC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TRFPCINDEX" index="3"/>
+			<column name="SRVTYPE" index="4"/>
+			<column name="ULSIRTARGDNSTEP" index="5"/>
+			<column name="TPCSTEPSIZE" index="6"/>
+			<column name="ULSIRTARGUPSTEP" index="7"/>
+			<column name="ULILPCALG" index="8"/>
+			<column name="TPCDLSTEP" index="9"/>
+			<column name="BLERtarget" index="10"/>
+		</table>
+	</templet>
+	<templet id="45">
+		<table id="0" name="CLT_CM_W_ZTE_UETRV" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="UETRVMCFGNO" index="3"/>
+			<column name="RPTTHRES4" index="4"/>
+			<column name="RPTTHRES5" index="5"/>
+			<column name="RPTTHRES2" index="6"/>
+			<column name="RPTTHRES3" index="7"/>
+			<column name="RPTTHRES0" index="8"/>
+			<column name="RPTTHRES1" index="9"/>
+			<column name="MEASOBJ" index="10"/>
+			<column name="RPTRLCBUFIND" index="11"/>
+			<column name="RPTRLCVARIND" index="12"/>
+			<column name="TRIGTIME" index="13"/>
+			<column name="PENDINGTIME" index="14"/>
+			<column name="MEASRPTTRMOD" index="15"/>
+			<column name="RPTCRT" index="16"/>
+			<column name="TXINTERCFGPRE" index="17"/>
+			<column name="MEASEVTNUM" index="18"/>
+			<column name="AVERAGETIME" index="19"/>
+			<column name="MEAEVTID" index="20"/>
+			<column name="PRDRPTINTERVAL" index="21"/>
+			<column name="RPTTHRES6" index="22"/>
+			<column name="RPTTHRES" index="23"/>
+			<column name="MEASQUANTITY" index="24"/>
+			<column name="TXINTERRUPTION" index="25"/>
+			<column name="THOUGHTHRES" index="26"/>
+			<column name="UETRVMCFGNOTE" index="27"/>
+			<column name="PRDRPTAMOUNT" index="28"/>
+			<column name="RPTRLCAVEIND" index="29"/>
+		</table>
+	</templet>
+	<templet id="46">
+		<table id="0" name="CLT_CM_W_ZTE_ULTFCS" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TFCSINDEX" index="3"/>
+			<column name="CTFC" index="4"/>
+			<column name="BETAC" index="5"/>
+			<column name="POPPM" index="6"/>
+			<column name="CTFCNUM" index="7"/>
+			<column name="BETAD" index="8"/>
+		</table>
+	</templet>
+	<templet id="47">
+		<table id="0" name="CLT_CM_W_ZTE_CNINFO" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MCC" index="3"/>
+			<column name="MNC" index="4"/>
+			<column name="ATTINDCS" index="5"/>
+			<column name="NMOPS" index="6"/>
+			<column name="CNDOMAIN" index="7"/>
+			<column name="KPS" index="8"/>
+			<column name="KCS" index="9"/>
+			<column name="T3212CS" index="10"/>
+			<column name="MBMSMODPRDCOEFF" index="11"/>
+		</table>
+	</templet>
+	<templet id="48">
+		<table id="0" name="CLT_CM_W_ZTE_DRBC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="DTCPEBTHD" index="3"/>
+			<column name="DCHE4BTHD" index="4"/>
+			<column name="SCHQSWCH" index="5"/>
+			<column name="PCHHOLDTIMETHR" index="6"/>
+			<column name="PCHSWCH" index="7"/>
+			<column name="FACHSWCH" index="8"/>
+			<column name="HSTOFTIMESTHR" index="9"/>
+			<column name="UETRFRPTMED" index="10"/>
+			<column name="FTOPCHTHD" index="11"/>
+			<column name="ULPWRDASF" index="12"/>
+			<column name="DTOPCHTHD" index="13"/>
+			<column name="DRBCSWCH" index="14"/>
+			<column name="ETTITRAFFVOLSWCH" index="15"/>
+			<column name="FTOIDLETHD" index="16"/>
+			<column name="DTCPEATHD" index="17"/>
+			<column name="ETTIEBTHD" index="18"/>
+			<column name="CRATETHRD" index="19"/>
+			<column name="PSRATELMTLOWC" index="20"/>
+			<column name="ETTIEATHD" index="21"/>
+			<column name="DCHADJRATESWCH" index="22"/>
+			<column name="DLPWRDASF" index="23"/>
+			<column name="FACHE4ATHD" index="24"/>
+			<column name="IBCHQSWCH" index="25"/>
+			<column name="RFACH" index="26"/>
+			<column name="VOIPCHQSWCH" index="27"/>
+			<column name="PSRATELMTHIGHC" index="28"/>
+			<column name="SRBONEDCHSWCH" index="29"/>
+			<column name="DCHE4ATHD" index="30"/>
+			<column name="RRACH" index="31"/>
+			<column name="DTOIDLETHD" index="32"/>
+			<column name="DRBCSTRAGYCFGNO" index="33"/>
+		</table>
+	</templet>
+	<templet id="49">
+		<table id="0" name="CLT_CM_W_ZTE_EXTERNALGSMCELL" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MCC" index="3"/>
+			<column name="MNC" index="4"/>
+			<column name="LAC" index="5"/>
+			<column name="CI" index="6"/>
+			<column name="SNAC" index="7"/>
+			<column name="BCC" index="8"/>
+			<column name="NCC" index="9"/>
+			<column name="MNCBCDCODELEN" index="10"/>
+			<column name="BSCID" index="11"/>
+			<column name="SNACNUM" index="12"/>
+			<column name="BANDINDICATOR" index="13"/>
+			<column name="BCCHARFCN" index="14"/>
+			<column name="CELLINDIVOFFSET" index="15"/>
+			<column name="HCSPRIO" index="16"/>
+			<column name="DTQRXLVMNSIB12PR" index="17"/>
+			<column name="QRXLEVMINSIB12" index="18"/>
+			<column name="MAXULTXPWR" index="19"/>
+			<column name="QRXLEVMINSIB11" index="20"/>
+			<column name="DTQRXLVMNSIB11PR" index="21"/>
+			<column name="DTQRXLVMNSIB11" index="22"/>
+			<column name="DTQRXLVMNSIB12" index="23"/>
+		</table>
+	</templet>
+	<templet id="50">
+		<table id="0" name="CLT_CM_W_ZTE_EXTERNALUTRANCELL" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MCC" index="3"/>
+			<column name="MNC" index="4"/>
+			<column name="RNCID" index="5"/>
+			<column name="CID" index="6"/>
+			<column name="ANTELATITUDESIGN" index="7"/>
+			<column name="LATITUDE" index="8"/>
+			<column name="INNERANGLE" index="9"/>
+			<column name="ANTEALTITUDEDIR" index="10"/>
+			<column name="ANTETYPE" index="11"/>
+			<column name="HSPASPTMETH" index="12"/>
+			<column name="POLYLATITUDESIGN" index="13"/>
+			<column name="URANUM" index="14"/>
+			<column name="RAC" index="15"/>
+			<column name="CELLDESCRIPTYPE" index="16"/>
+			<column name="PRIMSCRACODE" index="17"/>
+			<column name="LATITUDESIGN" index="18"/>
+			<column name="SNAC" index="19"/>
+			<column name="CELLRADIUS" index="20"/>
+			<column name="PCPICHPWRPRE" index="21"/>
+			<column name="SACBPRE" index="22"/>
+			<column name="DUARFCN" index="23"/>
+			<column name="POLYGONPOINTNUM" index="24"/>
+			<column name="ANTELATITUDE" index="25"/>
+			<column name="URA" index="26"/>
+			<column name="ALTITUDE" index="27"/>
+			<column name="OFFSETANGLE" index="28"/>
+			<column name="LAC" index="29"/>
+			<column name="ALTITUDEACC" index="30"/>
+			<column name="ANTEALTITUDE" index="31"/>
+			<column name="SACPC" index="32"/>
+			<column name="POLYLATITUDE" index="33"/>
+			<column name="POLYLONGITUDE" index="34"/>
+			<column name="ANTELONGITUDE" index="35"/>
+			<column name="ALTITUDEDIR" index="36"/>
+			<column name="SNACNUM" index="37"/>
+			<column name="SACB" index="38"/>
+			<column name="LONGITUDE" index="39"/>
+			<column name="PCPICHPWR" index="40"/>
+			<column name="UUARFCN" index="41"/>
+			<column name="CONFIDENCE" index="42"/>
+			<column name="FREQBANDIND" index="43"/>
+			<column name="RTMAXDLRATEDCHD" index="44"/>
+			<column name="HCSPRIO" index="45"/>
+			<column name="QRXLEVMINSIB12" index="46"/>
+			<column name="QRXLEVMINSIB11" index="47"/>
+			<column name="ADJCS64SWITCH" index="48"/>
+			<column name="NRTMAXRATEEDCHD" index="49"/>
+			<column name="TXDIVIND" index="50"/>
+			<column name="EDCHHARQCOMBCAP" index="51"/>
+			<column name="RTTMEASSPTIND" index="52"/>
+			<column name="STTDSUPTIND" index="53"/>
+			<column name="NRTMAXULRATEDCHD" index="54"/>
+			<column name="DTQRXLVMNSIB12PR" index="55"/>
+			<column name="FDPCHSUPTIND" index="56"/>
+			<column name="DTQRXLVMNSIB11PR" index="57"/>
+			<column name="FLEXMACDSUPTIND" index="58"/>
+			<column name="QQUALMINSIB11" index="59"/>
+			<column name="QQUALMINSIB12" index="60"/>
+			<column name="DIURCMBIND" index="61"/>
+			<column name="TUTRANGPSSPTIND" index="62"/>
+			<column name="KUTRAN" index="63"/>
+			<column name="MAXRACHTXPWR" index="64"/>
+			<column name="HOSWITCH" index="65"/>
+			<column name="ATIMEDELAY" index="66"/>
+			<column name="SUPTCGTDETIND" index="67"/>
+			<column name="NRTMAXDLRATEDCHD" index="68"/>
+			<column name="EDCHSFCAP" index="69"/>
+			<column name="RTMAXRATEEDCHD" index="70"/>
+			<column name="CLM1SUPTIND" index="71"/>
+			<column name="EDCHTTI2SUPTIND" index="72"/>
+			<column name="TIMADJABI" index="73"/>
+			<column name="RTMAXULRATEDCHD" index="74"/>
+			<column name="ATIMEDELAYJITTER" index="75"/>
+			<column name="DTQRXLVMNSIB11" index="76"/>
+			<column name="DTQRXLVMNSIB12" index="77"/>
+			<column name="DIVCTRLFLD" index="78"/>
+			<column name="DL64QAMSUPTIND" index="79"/>
+			<column name="CLM2SUPTIND" index="80"/>
+			<column name="NCID" index="81"/>
+		</table>
+	</templet>
+	<templet id="51">
+		<table id="0" name="CLT_CM_W_ZTE_GSMRELATION" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MCC" index="3"/>
+			<column name="MNC" index="4"/>
+			<column name="LAC" index="5"/>
+			<column name="CI" index="6"/>
+			<column name="GSMSTATEMODE" index="7"/>
+			<column name="MEASPRIO" index="8"/>
+			<column name="GSMSHARECOVER" index="9"/>
+			<column name="CID" index="10"/>
+			<column name="GSMSIB11ORSIB11BIS" index="11"/>
+			<column name="USEOFHCS" index="12"/>
+			<column name="TEMPOFFSET1SIB11" index="13"/>
+			<column name="TEMPOFFSET1SIB12" index="14"/>
+			<column name="PENALTYTIMESIB12" index="15"/>
+			<column name="QHCSSIB12" index="16"/>
+			<column name="QOFFSET1SNSIB11" index="17"/>
+			<column name="QOFFSET1SNSIB12" index="18"/>
+			<column name="PENALTYTIMESIB11" index="19"/>
+			<column name="QHCSSIB11" index="20"/>
+		</table>
+	</templet>
+	<templet id="52">
+		<table id="0" name="CLT_CM_W_ZTE_IUCNST" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="TRELOCOVERALL" index="3"/>
+			<column name="TIGOR" index="4"/>
+			<column name="TINTR" index="5"/>
+			<column name="TRELOCPREP" index="6"/>
+			<column name="TDATAFWD" index="7"/>
+			<column name="TQUEUING" index="8"/>
+		</table>
+	</templet>
+	<templet id="53">
+		<table id="0" name="CLT_CM_W_ZTE_NODEB" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="NODEBNO" index="3"/>
+			<column name="SIBIUBCODEIND" index="4"/>
+			<column name="HSSHARMETHOD" index="5"/>
+			<column name="NODEBTYPE" index="6"/>
+			<column name="TIMEDELAY" index="7"/>
+			<column name="DIVCONTRLFIELD" index="8"/>
+			<column name="ADJRATIO" index="9"/>
+			<column name="ADJTYPE" index="10"/>
+			<column name="TIMADJABI" index="11"/>
+			<column name="ADJPERIOD" index="12"/>
+			<column name="HSSHARUPTPRD" index="13"/>
+			<column name="AUDITTIMER" index="14"/>
+			<column name="TIMEDELAYJITTER" index="15"/>
+			<column name="MAXADJSTEP" index="16"/>
+			<column name="SUPTCGTDETIND" index="17"/>
+			<column name="DLREFPOWUPDTTH" index="18"/>
+		</table>
+	</templet>
+	<templet id="54">
+		<table id="0" name="CLT_CM_W_ZTE_PLBAL" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="RABASSSBSW" index="4"/>
+			<column name="DLLOADNEEDBAL2G" index="5"/>
+			<column name="EXTRACDELTACDTRD" index="6"/>
+			<column name="ULLOADNEEDBAL2U" index="7"/>
+			<column name="INITRRCLBSW" index="8"/>
+			<column name="EXTRACDELTATRD" index="9"/>
+			<column name="DLCDLDNEEDBAL2U" index="10"/>
+			<column name="LDBALCDWEIGHT" index="11"/>
+			<column name="ULLDBALPWRSWCH" index="12"/>
+			<column name="DLLDBALPWRWEIGHT" index="13"/>
+			<column name="DLLDBALPWRSWCH" index="14"/>
+			<column name="CSBALSWCH" index="15"/>
+			<column name="ULLOADNEEDBAL2G" index="16"/>
+			<column name="EXTRACDELTATRU" index="17"/>
+			<column name="INITRRCSBSW" index="18"/>
+			<column name="ULLDBALPWRWEIGHT" index="19"/>
+			<column name="RABASSLBSW" index="20"/>
+			<column name="DLLOADNEEDBAL2U" index="21"/>
+			<column name="LDBALCDSWCH" index="22"/>
+			<column name="CALLHOLDLBSW" index="23"/>
+			<column name="CALLHOLDSBSW" index="24"/>
+		</table>
+	</templet>
+	<templet id="55">
+		<table id="0" name="CLT_CM_W_ZTE_RCPSC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MODULE" index="3"/>
+			<column name="RCPSCRENDID" index="4"/>
+			<column name="RCPSCRSTARTID" index="5"/>
+			<column name="MBMSRCPIND" index="6"/>
+		</table>
+	</templet>
+	<templet id="56">
+		<table id="0" name="CLT_CM_W_ZTE_RNCBRNC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="ALMINASSISTIND" index="3"/>
+			<column name="ASSISTDATAIND" index="4"/>
+			<column name="FASTRECFGSPTIND" index="5"/>
+		</table>
+	</templet>
+	<templet id="57">
+		<table id="0" name="CLT_CM_W_ZTE_RNCFUNCTION" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="SIB153OCCNUM" index="3"/>
+			<column name="GSMLRANGE" index="4"/>
+			<column name="GSMURANGE" index="5"/>
+			<column name="SIB153OCCID" index="6"/>
+			<column name="CBSLICENSE" index="7"/>
+			<column name="GSMBARANGENUM" index="8"/>
+			<column name="LUARFCN" index="9"/>
+			<column name="UUARFCN" index="10"/>
+			<column name="FDDFREQRNGNUM" index="11"/>
+			<column name="CDTSWITCH" index="12"/>
+			<column name="MRSWITCH" index="13"/>
+			<column name="MRUEMEASRPTINT" index="14"/>
+			<column name="RTREDELAYTIMER" index="15"/>
+			<column name="AMRWBMODE3USETAG" index="16"/>
+			<column name="MAXNUMOFACT" index="17"/>
+			<column name="AMRNBMODE2USETAG" index="18"/>
+			<column name="AMRWBMODE2USETAG" index="19"/>
+			<column name="TWAIT" index="20"/>
+			<column name="AMRRNCADJUST" index="21"/>
+			<column name="AMRWBMODE7USETAG" index="22"/>
+			<column name="AMRNBMODE0USETAG" index="23"/>
+			<column name="AMRWBMODE4USETAG" index="24"/>
+			<column name="AMRWBMODE5USETAG" index="25"/>
+			<column name="CDTIMEIACQSWITCH" index="26"/>
+			<column name="AMRNBMODE1USETAG" index="27"/>
+			<column name="AMRNBMODE3USETAG" index="28"/>
+			<column name="AMRWBMODE1USETAG" index="29"/>
+			<column name="SHAREDNETMODE" index="30"/>
+			<column name="NEGGBRLEVNUM" index="31"/>
+			<column name="AMRWBMODE6USETAG" index="32"/>
+			<column name="N308" index="33"/>
+			<column name="ROHCTGTMODE" index="34"/>
+			<column name="INTEGRITYALG" index="35"/>
+			<column name="DLLOWLIMNEGGBR" index="36"/>
+			<column name="TNNSF" index="37"/>
+			<column name="AMRNBMODE7USETAG" index="38"/>
+			<column name="ENCRYALG" index="39"/>
+			<column name="KUTRAN" index="40"/>
+			<column name="ULLOWLIMNEGGBR" index="41"/>
+			<column name="QOSNEGRENEGSWI" index="42"/>
+			<column name="AMRNBMODE4USETAG" index="43"/>
+			<column name="REVEVTDETECTIME" index="44"/>
+			<column name="AMRWBMODE8USETAG" index="45"/>
+			<column name="MRUEMEASTYPESWIT" index="46"/>
+			<column name="RLREFTIMEAJTSWIT" index="47"/>
+			<column name="AMRNBMODE6USETAG" index="48"/>
+			<column name="INITRRCONDCH" index="49"/>
+			<column name="CIPHSERNUM" index="50"/>
+			<column name="MRUELOCMEARPTINT" index="51"/>
+			<column name="DESCIPHKEYFLAG" index="52"/>
+			<column name="NRETRAN" index="53"/>
+			<column name="CDTMROVDTHD" index="54"/>
+			<column name="AMRNBMODE5USETAG" index="55"/>
+			<column name="AMRWBMODE0USETAG" index="56"/>
+			<column name="MRUEMEASRPTTRMOD" index="57"/>
+			<column name="NRTREDELAYTIMER" index="58"/>
+			<column name="HarqRvConfig" index="59"/>
+			<column name="HsdschTotPwrMeth" index="60"/>
+		</table>
+	</templet>
+	<templet id="58">
+		<table id="0" name="CLT_CM_W_ZTE_RNCLCSNAC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MCC" index="3"/>
+			<column name="MNC" index="4"/>
+			<column name="LAC" index="5"/>
+			<column name="SNAC" index="6"/>
+		</table>
+	</templet>
+	<templet id="59">
+		<table id="0" name="CLT_CM_W_ZTE_RNCNEINFO" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="GLOPHYNEID" index="3"/>
+			<column name="COSVPNID" index="4"/>
+			<column name="CSDEFAULTFLAG" index="5"/>
+			<column name="PSDEFAULTFLAG" index="6"/>
+			<column name="ROUTETYPE" index="7"/>
+			<column name="CSNRI" index="8"/>
+			<column name="RNCRCPMODULE" index="9"/>
+			<column name="IUBNBAPBRSTYPE" index="10"/>
+			<column name="TRANSTYPE" index="11"/>
+			<column name="ANI" index="12"/>
+			<column name="IUIPDSCP3" index="13"/>
+			<column name="IUIPDSCP2" index="14"/>
+			<column name="IUIPDSCP1" index="15"/>
+			<column name="ISLINKMAPTOPORT" index="16"/>
+			<column name="BANDADJSWITCH" index="17"/>
+			<column name="IUIPDSCP0" index="18"/>
+			<column name="CSNRIBITNUM" index="19"/>
+			<column name="MNCBCDCODELEN" index="20"/>
+			<column name="BAAL2SERVER" index="21"/>
+			<column name="PROYEAR" index="22"/>
+			<column name="PSCAPWEIGHT" index="23"/>
+			<column name="IUBPATHPROSWIT" index="24"/>
+			<column name="IUBCCHIPDSCP" index="25"/>
+			<column name="NEID" index="26"/>
+			<column name="OFFICEID" index="27"/>
+			<column name="DCHIDOFFSET" index="28"/>
+			<column name="MCC" index="29"/>
+			<column name="RNCFEATSWITCH7" index="30"/>
+			<column name="RNCFEATSWITCH6" index="31"/>
+			<column name="RNCFEATSWITCH5" index="32"/>
+			<column name="RNCFEATSWITCH4" index="33"/>
+			<column name="RTPPAYLOADTYPE" index="34"/>
+			<column name="RNCFEATSWITCH3" index="35"/>
+			<column name="RNCFEATSWITCH2" index="36"/>
+			<column name="RNCFEATSWITCH1" index="37"/>
+			<column name="RNCFEATSWITCH0" index="38"/>
+			<column name="TRANSSYNCFLAG" index="39"/>
+			<column name="PSNRI" index="40"/>
+			<column name="NATURE" index="41"/>
+			<column name="CSNRINUM" index="42"/>
+			<column name="NODESYNCFLAG" index="43"/>
+			<column name="PSNRINUM" index="44"/>
+			<column name="TBTYPEINDEX" index="45"/>
+			<column name="CSCAPWEIGHT" index="46"/>
+			<column name="RESBWDINDEX" index="47"/>
+			<column name="PLANEX" index="48"/>
+			<column name="NETYPE" index="49"/>
+			<column name="KPRIADJUST" index="50"/>
+			<column name="PROMON" index="51"/>
+			<column name="PLMNNUM" index="52"/>
+			<column name="IUBSRVBRSTYPE" index="53"/>
+			<column name="IUBRSTYPE" index="54"/>
+			<column name="NDBALCMODULE" index="55"/>
+			<column name="IURBRSTYPE" index="56"/>
+			<column name="ADDTIMEDELAY" index="57"/>
+			<column name="MNC" index="58"/>
+			<column name="GT" index="59"/>
+			<column name="PROVER" index="60"/>
+			<column name="PREFEROFFICEFLAG" index="61"/>
+			<column name="GTTYPE" index="62"/>
+			<column name="PSNRIBITNUM" index="63"/>
+			<column name="ADDDELAYJITTER" index="64"/>
+			<column name="IUBCCHBRSTYPE" index="65"/>
+		</table>
+	</templet>
+	<templet id="60">
+		<table id="0" name="CLT_CM_W_ZTE_RNCPNSNAC" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="MCC" index="3"/>
+			<column name="MNC" index="4"/>
+			<column name="EXTINFODGTNUM" index="5"/>
+			<column name="EXTINFO" index="6"/>
+			<column name="SMCC" index="7"/>
+			<column name="SMNC" index="8"/>
+			<column name="SNAC" index="9"/>
+		</table>
+	</templet>
+	<templet id="61">
+		<table id="0" name="CLT_CM_W_ZTE_TRFCTL" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="FACHCACTOMINRATE" index="3"/>
+			<column name="EFFFACTORBOTHRSH" index="4"/>
+			<column name="PCTBOALLTHRSHFBD" index="5"/>
+		</table>
+	</templet>
+	<templet id="62">
+		<table id="0" name="CLT_CM_W_ZTE_UECNST" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="T309" index="3"/>
+			<column name="T314" index="4"/>
+			<column name="T305" index="5"/>
+			<column name="T315" index="6"/>
+			<column name="T307" index="7"/>
+			<column name="T313" index="8"/>
+			<column name="T308" index="9"/>
+			<column name="T312IDLE" index="10"/>
+			<column name="T302" index="11"/>
+			<column name="T316" index="12"/>
+			<column name="T317" index="13"/>
+			<column name="T304" index="14"/>
+			<column name="T300" index="15"/>
+			<column name="N302" index="16"/>
+			<column name="N315" index="17"/>
+			<column name="T312CONNECTED" index="18"/>
+			<column name="N312IDLE" index="19"/>
+			<column name="N300" index="20"/>
+			<column name="N304" index="21"/>
+			<column name="N313" index="22"/>
+			<column name="N312CONNECTED" index="23"/>
+		</table>
+	</templet>
+	<templet id="63">
+		<table id="0" name="CLT_CM_W_ZTE_UTRANCELL" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="CID" index="3"/>
+			<column name="ANTELATITUDESIGN" index="4"/>
+			<column name="RTTMEASSPTIND" index="5"/>
+			<column name="LCGID" index="6"/>
+			<column name="LATITUDE" index="7"/>
+			<column name="STTDSUPTIND" index="8"/>
+			<column name="INNERANGLE" index="9"/>
+			<column name="ANTEALTITUDEDIR" index="10"/>
+			<column name="ANTETYPE" index="11"/>
+			<column name="HSPASPTMETH" index="12"/>
+			<column name="POLYLATITUDESIGN" index="13"/>
+			<column name="RNCID" index="14"/>
+			<column name="URANUM" index="15"/>
+			<column name="MNC" index="16"/>
+			<column name="RAC" index="17"/>
+			<column name="OCNSCODE" index="18"/>
+			<column name="CELLDESCRIPTYPE" index="19"/>
+			<column name="CLM1SUPTIND" index="20"/>
+			<column name="TCELL" index="21"/>
+			<column name="MCC" index="22"/>
+			<column name="SCENARIOTYPE" index="23"/>
+			<column name="CLM2SUPTIND" index="24"/>
+			<column name="PRIMSCRACODE" index="25"/>
+			<column name="GARPTTYPE" index="26"/>
+			<column name="SUPTMULUSDETIND" index="27"/>
+			<column name="MAXDLTXPWR" index="28"/>
+			<column name="LATITUDESIGN" index="29"/>
+			<column name="CELLRADIUS" index="30"/>
+			<column name="NODEBNO" index="31"/>
+			<column name="SACBPRE" index="32"/>
+			<column name="MBMSSUPTIND" index="33"/>
+			<column name="RTTTYPEFLAG" index="34"/>
+			<column name="DUARFCN" index="35"/>
+			<column name="SECTORID" index="36"/>
+			<column name="POLYGONPOINTNUM" index="37"/>
+			<column name="ANTELATITUDE" index="38"/>
+			<column name="URA" index="39"/>
+			<column name="MODULE" index="40"/>
+			<column name="ALTITUDE" index="41"/>
+			<column name="CHANNELRECFGIND" index="42"/>
+			<column name="OFFSETANGLE" index="43"/>
+			<column name="LAC" index="44"/>
+			<column name="ALTITUDEACC" index="45"/>
+			<column name="LCID" index="46"/>
+			<column name="ANTEALTITUDE" index="47"/>
+			<column name="SACPC" index="48"/>
+			<column name="POLYLATITUDE" index="49"/>
+			<column name="OCNSCODENUMBER" index="50"/>
+			<column name="ADDRESS" index="51"/>
+			<column name="TUTRANGPSSPTIND" index="52"/>
+			<column name="POLYLONGITUDE" index="53"/>
+			<column name="ANTELONGITUDE" index="54"/>
+			<column name="ALTITUDEDIR" index="55"/>
+			<column name="CELLRECFGIND" index="56"/>
+			<column name="SACB" index="57"/>
+			<column name="MIMOIND" index="58"/>
+			<column name="LONGITUDE" index="59"/>
+			<column name="UUARFCN" index="60"/>
+			<column name="CONFIDENCE" index="61"/>
+			<column name="FREQBANDIND" index="62"/>
+			<column name="CELLINDIVOFFSET" index="63"/>
+			<column name="CGTCTLPRIINDEX" index="64"/>
+			<column name="SIB12IND" index="65"/>
+			<column name="FRECLSOPNTRIGTM" index="66"/>
+			<column name="PWRRAISLIM" index="67"/>
+			<column name="SOFTHOMTH" index="68"/>
+			<column name="NRTMAXRATEEDCH" index="69"/>
+			<column name="INTRAMEASQUAN" index="70"/>
+			<column name="STARTTIMETOCLSF" index="71"/>
+			<column name="TRFPCINDEX" index="72"/>
+			<column name="PCCPCHINFSIB5PRE" index="73"/>
+			<column name="CELLSCEN" index="74"/>
+			<column name="TSLOW" index="75"/>
+			<column name="DECRATEURNUM" index="76"/>
+			<column name="MRCELMRPTINTCOEF" index="77"/>
+			<column name="ULBLERHOSWCH" index="78"/>
+			<column name="EXPTIMFACTOR" index="79"/>
+			<column name="PAGINGSENDTIMES" index="80"/>
+			<column name="MRUEMEASSWIT" index="81"/>
+			<column name="INTRATHOMTH" index="82"/>
+			<column name="DIVPCINDEX" index="83"/>
+			<column name="CS64SWITCH" index="84"/>
+			<column name="USEOFHCS" index="85"/>
+			<column name="CELLREESTABIND" index="86"/>
+			<column name="INTERHOMTH" index="87"/>
+			<column name="HCSPRIO" index="88"/>
+			<column name="NRTMAXDLRATEDCH" index="89"/>
+			<column name="RTMAXRATEEDCH" index="90"/>
+			<column name="TRLFAILURE" index="91"/>
+			<column name="MAXRATEMD" index="92"/>
+			<column name="ENDTIMETOCLSF" index="93"/>
+			<column name="SCHPRIINDEX" index="94"/>
+			<column name="INTERHOTACTIC" index="95"/>
+			<column name="TFAST" index="96"/>
+			<column name="TRFCATRATMIDX" index="97"/>
+			<column name="SIB4IND" index="98"/>
+			<column name="NUMOUTSYNCIND" index="99"/>
+			<column name="MRCELLMEASSWIT" index="100"/>
+			<column name="SIB7ORIGINATOR" index="101"/>
+			<column name="DLPWRHOSWCH" index="102"/>
+			<column name="CLASSZONEIND" index="103"/>
+			<column name="NFAST" index="104"/>
+			<column name="UENUMTHRESHCLS" index="105"/>
+			<column name="CLOSEFREFUNSWIT" index="106"/>
+			<column name="DETSETHOSWCH" index="107"/>
+			<column name="TRFCATINTRAMIDX" index="108"/>
+			<column name="CHECKPERIOD" index="109"/>
+			<column name="DLTPCN" index="110"/>
+			<column name="NRTMAXULRATEDCH" index="111"/>
+			<column name="PCCPCHINFSIB6PRE" index="112"/>
+			<column name="RTMAXULRATEDCH" index="113"/>
+			<column name="RATHOTACTIC" index="114"/>
+			<column name="SIB6IND" index="115"/>
+			<column name="TSLOWJUDGE" index="116"/>
+			<column name="PREFTRAFTYPE" index="117"/>
+			<column name="ULPWRHOSWCH" index="118"/>
+			<column name="OPENFREALG" index="119"/>
+			<column name="NSLOW" index="120"/>
+			<column name="LDCTLPRIINDEX" index="121"/>
+			<column name="NONINTRAMEASQUAN" index="122"/>
+			<column name="TRFCATINTERMIDX" index="123"/>
+			<column name="RTMAXDLRATEDCH" index="124"/>
+			<column name="NUMINSYNCIND" index="125"/>
+			<column name="BPRIACINDEX" index="126"/>
+			<column name="PRACHSIB6PRE" index="127"/>
+			<column name="AichPwr" index="128"/>
+			<column name="BchPwr" index="129"/>
+			<column name="PcpichPwr" index="130"/>
+			<column name="PchPwr" index="131"/>
+			<column name="PichPwr" index="132"/>
+			<column name="PschPwr" index="133"/>
+			<column name="SschPwr" index="134"/>
+		</table>
+	</templet>
+	<templet id="64">
+		<table id="0" name="CLT_CM_W_ZTE_UTRANRELATION" split="|">
+			<column name="OMCRNCID" index="0"/>
+			<column name="CONFSETID" index="1"/>
+			<column name="USERLABEL" index="2"/>
+			<column name="NMCC" index="3"/>
+			<column name="NMNC" index="4"/>
+			<column name="NRNCID" index="5"/>
+			<column name="NCID" index="6"/>
+			<column name="STATEMODE" index="7"/>
+			<column name="MEASPRIO" index="8"/>
+			<column name="SIB11ORSIB11BIS" index="9"/>
+			<column name="CID" index="10"/>
+			<column name="SHARECOVER" index="11"/>
+			<column name="CELLINDIVOFFSET" index="12"/>
+			<column name="READSFNIND" index="13"/>
+			<column name="QHCSRSCPSIB11" index="14"/>
+			<column name="QOFFSET2SNSIB12" index="15"/>
+			<column name="QOFFSET1SNSIB11" index="16"/>
+			<column name="QOFFSET1SNSIB12" index="17"/>
+			<column name="FBDCELLIND" index="18"/>
+			<column name="QHCSRSCPSIB12" index="19"/>
+			<column name="QOFFSET2SNSIB11" index="20"/>
+			<column name="TEMPOFFSET2SIB11" index="21"/>
+			<column name="TEMPOFFSET2SIB12" index="22"/>
+			<column name="USEOFHCS" index="23"/>
+			<column name="TEMPOFFSET1SIB11" index="24"/>
+			<column name="TEMPOFFSET1SIB12" index="25"/>
+			<column name="PENALTYTIMESIB12" index="26"/>
+			<column name="PENALTYTIMESIB11" index="27"/>
+			<column name="QHCSECN0SIB11" index="28"/>
+			<column name="QHCSECN0SIB12" index="29"/>
+		</table>
+	</templet>
+
+	<templet id="65">
+		<table id="0" name="clt_cm_w_zte_gbrres" split="|">
+			<column name="OMCRNCID" index="0" />
+			<column name="CONFSETID" index="1" />
+			<column name="USERLABEL" index="2" />
+			<column name="HSGBRRESLIMITIDX" index="3" />
+			<column name="HSGBRLEVNUM" index="4" />
+			<column name="UEHSREQPWRUPLIM" index="5" />
+			<column name="HSGBRLEV" index="6" />
+		</table>
+	</templet>
+
+	<templet id="66">
+		<table id="0" name="clt_cm_w_zte_prisel" split="|">
+			<column name="OMCRNCID" index="0" />
+			<column name="CONFSETID" index="1" />
+			<column name="USERLABEL" index="2" />
+			<column name="CID" index="3" />
+			<column name="QQUALMINFDD" index="4" />
+			<column name="EUTRANINTERFNUM" index="5" />
+			<column name="GERANHIGHTHRESH" index="6" />
+			<column name="GERANPRIORITY" index="7" />
+			<column name="UTRANHIGHTHRESH" index="8" />
+			<column name="EUTRANHIGHTHRESH" index="9" />
+			<column name="UTRANLOWTHRESH" index="10" />
+			<column name="QRXLEVMINGSM" index="11" />
+			<column name="QRXLEVMINEUTRA" index="12" />
+			<column name="UTRANINTERFNUM" index="13" />
+			<column name="EUTRANLOWTHRESH" index="14" />
+			<column name="EUTRANPRIORITY" index="15" />
+			<column name="UTRANPRIORITY" index="16" />
+			<column name="UTRANUARFCN" index="17" />
+			<column name="QRXLEVMINFDD" index="18" />
+			<column name="GSMBANDINDICATOR" index="19" />
+			<column name="GSMCELLGROUPNUM" index="20" />
+			<column name="ALLOWMEASBAND" index="21" />
+			<column name="SERVCELPRIORITY" index="22" />
+			<column name="STARTARFCN" index="23" />
+		</table>
+	</templet>
+
+	<templet id="67">
+		<table id="0" name="clt_cm_w_zte_rncdtxdrx" split="|">
+			<column name="OMCRNCID" index="0" />
+			<column name="CONFSETID" index="1" />
+			<column name="USERLABEL" index="2" />
+			<column name="DTXDRXCONFIGIDX" index="3" />
+			<column name="DTXCYC2TTI10" index="4" />
+			<column name="DRXCYCLE" index="5" />
+			<column name="DTXCYC2INACTTRD10" index="6" />
+			<column name="DRXCYCINACTTRD" index="7" />
+			<column name="DTXCYC2INACTTRD2" index="8" />
+			<column name="DTXCYC1TTI2" index="9" />
+			<column name="DTXCYC2TTI2" index="10" />
+			<column name="DPCCHBURST1" index="11" />
+			<column name="DTXCYC1TTI10" index="12" />
+			<column name="DTXLONGPRELEGTH" index="13" />
+			<column name="DPCCHBURST2" index="14" />
+			<column name="GRANTMONINACTTRD" index="15" />
+			<column name="DRXGRANTMON" index="16" />
+			<column name="CQIDTXTIMER" index="17" />
+			<column name="MACDTXCYCTTI2" index="18" />
+			<column name="MACINACTTHRESH" index="19" />
+			<column name="MACDTXCYCTTI10" index="20" />
+		</table>
+	</templet>
+	<templet id="68" file="/ZTE/zte.xml&gt;ExtHspa.csv">
+		<table id="0" name="CLT_CM_W_ZTE_EXTHSPA" split="|">
+			<column name="OMCRNCID" index="0" />
+			<column name="CONFSETID" index="1" />
+			<column name="USERLABEL" index="2" />
+			<column name="CqiCycle" index="3" />
+			<column name="HspaType" index="4" />
+		</table>
+	</templet>
+	<templet id="69">
+		<table id="0" name="CLT_CM_W_ZTE_CelMPO" split="|">
+			<column name="rncid" index="0" />
+			<column name="cid" index="1" />
+			<column name="AppHsdpaEInd" index="2" />
+			<column name="MeasPwrOffset" index="3" />
+		</table>
+	</templet>
+	<templet id="70">
+		<table id="0" name="CLT_CM_W_ZTE_LocRnc" split="|">
+			<column name="rncid" index="0"  />
+			<column name="MCC" index="1"  />
+			<column name="MNC" index="2"  />
+			<column name="UlRateAdjLevNum" index="3"  />
+			<column name="UlRateAdjLev" index="4"  />
+			<column name="DlRateAdjLevNum" index="5"  />
+			<column name="DlRateAdjLev" index="6"  />
+			<column name="DrbcStragyCfgNo" index="7"  />
+		</table>
+	</templet>
+</templets>

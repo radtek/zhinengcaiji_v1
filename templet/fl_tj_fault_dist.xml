@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="clt_fault_tj" split="%" >
+			<column name="seq_no" index="0" />
+			<column name="start_time" index="1" type="3" format="yyyy-mm-dd hh24:mi:ss.#" />
+			<column name="end_time" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss.#"  />
+			<column name="tel_num" index="3" type="5" />
+			<column name="user_name" index="4" />
+			<column name="contact_person" index="5" />
+			<column name="contact_tel" index="6" type="5" />
+			<column name="fault_level" index="7" />
+			<column name="fault_type" index="8" />
+			<column name="fault_detail" index="9" type="2" format="4000"  />
+			<column name="fault_net" index="10" />
+			<column name="fault_form_type" index="11" type="2" format="4000"  />
+			<column name="fault_place_type" index="12" />
+			<column name="fault_area_type" index="13" />
+			<column name="fault_detail_place" index="14" />
+			<column name="fault_place_lon" index="15" />
+			<column name="fault_place_lat" index="16" />
+			<column name="fault_result" index="17" />
+			<column name="fault_reason" index="18" />
+			<column name="fault_reason_detail" index="19" type="2" format="4000"  />
+			<column name="resolve_result" index="20" />
+			<column name="call_type" index="21" />
+			<column name="is_add_to_blind" index="22" />
+		</table>
+	</templet>
+</templets>

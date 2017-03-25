@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ftpConfig>
+	<!-- 任务ID(task_id)-->
+	<task id="20110704">
+		<!-- 传输模式，port或pasv-->
+		<transMode>pasv</transMode>
+		<!-- 传输文件时的缓冲区大小（字节）-->
+		<bufferSize>1024</bufferSize>
+		<!-- 下载到本地的目录-->
+		<localPath>e:\aaa\</localPath>
+		<!-- 数据传输超时时间（秒）-->
+		<dataTimeout>300</dataTimeout>
+		<!-- 登录重试次数 -->
+		<loginTryTimes>3</loginTryTimes>
+		<!-- 登录重试间隔时间（秒） -->
+		<loginTryDelay>5</loginTryDelay>
+		<!-- 执行LIST命令的重试次数 -->
+		<listTryTimes>3</listTryTimes>
+		<!-- 执行LIST命令的重试间隔时间（秒) -->
+		<listTryDelay>5</listTryDelay>
+		<!-- 下载重试次数 -->
+		<downloadTryTimes>3</downloadTryTimes>
+		<!-- 下载重试间隔时间（秒） -->
+		<downloadTryDelay>5</downloadTryDelay>
+		<!-- 解析完成后，是否删除原始文件，true或false，true表示删除，false表示不删除 -->
+		<isDelete>true</isDelete>
+		<!-- 保留多少个小时的数据。 -->
+		<retentionTime>48</retentionTime>
+	</task>
+</ftpConfig>

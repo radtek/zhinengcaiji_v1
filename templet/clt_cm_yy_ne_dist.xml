@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_CM_YY_ALARM_NE" split="|" >
+			<column name="CEll_INT_ID" index="0" />
+			<column name="LAC" index="1" />
+			<column name="CID" index="2" />
+			<column name="SITE_INT_ID" index="3" />
+			<column name="CELL_USERLABEL" index="4" />
+			<column name="CELL_ZH_LABEL" index="5" />
+			<column name="SITE_USERLABEL" index="6" />
+			<column name="SITE_ZH_LABEL" index="7" />
+			<column name="CITY_NAME" index="8" />
+			<column name="VENDOR_NAME" index="9" />
+			<column name="NETWORK_TYPE" index="10" />
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_CM_YY_ALARM_NE" split="|" >
+			<column name="CEll_INT_ID" index="0" />
+			<column name="LAC" index="1" />
+			<column name="CID" index="2" />
+			<column name="SITE_INT_ID" index="3" />
+			<column name="CELL_USERLABEL" index="4" />
+			<column name="CELL_ZH_LABEL" index="5" />
+			<column name="SITE_USERLABEL" index="6" />
+			<column name="SITE_ZH_LABEL" index="7" />
+			<column name="CITY_NAME" index="8" />
+			<column name="VENDOR_NAME" index="9" />
+			<column name="NETWORK_TYPE" index="10" />
+		</table>
+	</templet>
+</templets>

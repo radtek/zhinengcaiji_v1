@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/g/zte/100001_RadioResourceAvailableMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901080001" index="4"/>
+				<field name="C901080002" index="5"/>
+				<field name="C901080003" index="6"/>
+				<field name="C901080004" index="7"/>
+				<field name="C901080005" index="8"/>
+				<field name="C901080006" index="9"/>
+				<field name="C901080007" index="10"/>
+				<field name="C901080008" index="11"/>
+				<field name="C901080009" index="12"/>
+				<field name="C901080010" index="13"/>
+				<field name="C901080011" index="14"/>
+				<field name="C901080012" index="15"/>
+				<field name="C901080013" index="16"/>
+				<field name="C901080014" index="17"/>
+				<field name="C901080015" index="18"/>
+				<field name="C901080016" index="19"/>
+				<field name="C901080017" index="20"/>
+				<field name="C901080018" index="21"/>
+				<field name="C901080019" index="22"/>
+				<field name="C901080020" index="23"/>
+				<field name="C901080021" index="24"/>
+				<field name="C901080022" index="25"/>
+				<field name="C901080023" index="26"/>
+				<field name="C901080024" index="27"/>
+				<field name="C901080025" index="28"/>
+				<field name="C901080026" index="29"/>
+				<field name="C901080027" index="30"/>
+				<field name="C901080028" index="31"/>
+				<field name="C901080029" index="32"/>
+				<field name="C901080030" index="33"/>
+				<field name="C901080031" index="34"/>
+				<field name="C901080032" index="35"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="1" file="/g/zte/100001_PSResourceUsedStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901040001" index="4"/>
+				<field name="C901040002" index="5"/>
+				<field name="C901040003" index="6"/>
+				<field name="C901040004" index="7"/>
+				<field name="C901040005" index="8"/>
+				<field name="C901040006" index="9"/>
+				<field name="C901040007" index="10"/>
+				<field name="C901040008" index="11"/>
+				<field name="C901040009" index="12"/>
+				<field name="C901040010" index="13"/>
+				<field name="C901040011" index="14"/>
+				<field name="C901040012" index="15"/>
+				<field name="C901040013" index="16"/>
+				<field name="C901040014" index="17"/>
+				<field name="C901040015" index="18"/>
+				<field name="C901040016" index="19"/>
+				<field name="C901040017" index="20"/>
+				<field name="C901040018" index="21"/>
+				<field name="C901040019" index="22"/>
+				<field name="C901040020" index="23"/>
+				<field name="C901040021" index="24"/>
+				<field name="C901040022" index="25"/>
+				<field name="C901040023" index="26"/>
+				<field name="C901040024" index="27"/>
+				<field name="C901040025" index="28"/>
+				<field name="C901040026" index="29"/>
+				<field name="C901040027" index="30"/>
+				<field name="C901040028" index="31"/>
+				<field name="C901040029" index="32"/>
+				<field name="C901040030" index="33"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="2" file="/g/zte/100001_SDCCHMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901250001" index="4"/>
+				<field name="C901250002" index="5"/>
+				<field name="C901250003" index="6"/>
+				<field name="C901250004" index="7"/>
+				<field name="C901250005" index="8"/>
+				<field name="C901250006" index="9"/>
+				<field name="C901250007" index="10"/>
+				<field name="C901250008" index="11"/>
+				<field name="C901250009" index="12"/>
+				<field name="C901250010" index="13"/>
+				<field name="C901250011" index="14"/>
+				<field name="C901250012" index="15"/>
+				<field name="C901250013" index="16"/>
+				<field name="C901250014" index="17"/>
+				<field name="C901250015" index="18"/>
+				<field name="C901250016" index="19"/>
+				<field name="C901250017" index="20"/>
+				<field name="C901250018" index="21"/>
+				<field name="C901250019" index="22"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="3" file="/g/zte/100001_TCHFMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901260001" index="4"/>
+				<field name="C901260002" index="5"/>
+				<field name="C901260003" index="6"/>
+				<field name="C901260004" index="7"/>
+				<field name="C901260005" index="8"/>
+				<field name="C901260006" index="9"/>
+				<field name="C901260007" index="10"/>
+				<field name="C901260008" index="11"/>
+				<field name="C901260009" index="12"/>
+				<field name="C901260010" index="13"/>
+				<field name="C901260011" index="14"/>
+				<field name="C901260012" index="15"/>
+				<field name="C901260013" index="16"/>
+				<field name="C901260014" index="17"/>
+				<field name="C901260015" index="18"/>
+				<field name="C901260016" index="19"/>
+				<field name="C901260017" index="20"/>
+				<field name="C901260018" index="21"/>
+				<field name="C901260019" index="22"/>
+				<field name="C901260020" index="23"/>
+				<field name="C901260021" index="24"/>
+				<field name="C901260022" index="25"/>
+				<field name="C901260023" index="26"/>
+				<field name="C901260024" index="27"/>
+				<field name="C901260025" index="28"/>
+				<field name="C901260026" index="29"/>
+				<field name="C901260027" index="30"/>
+				<field name="C901260028" index="31"/>
+				<field name="C901260029" index="32"/>
+				<field name="C901260030" index="33"/>
+				<field name="C901260031" index="34"/>
+				<field name="C901260032" index="35"/>
+				<field name="C901260033" index="36"/>
+				<field name="C901260034" index="37"/>
+				<field name="C901260035" index="38"/>
+				<field name="C901260036" index="39"/>
+				<field name="C901260037" index="40"/>
+				<field name="C901260038" index="41"/>
+				<field name="C901260039" index="42"/>
+				<field name="C901260040" index="43"/>
+				<field name="C901260041" index="44"/>
+				<field name="C901260042" index="45"/>
+				<field name="C901260043" index="46"/>
+				<field name="C901260044" index="47"/>
+				<field name="C901260045" index="48"/>
+				<field name="C901260046" index="49"/>
+				<field name="C901260047" index="50"/>
+				<field name="C901260048" index="51"/>
+				<field name="C901260049" index="52"/>
+				<field name="C901260050" index="53"/>
+				<field name="C901260051" index="54"/>
+				<field name="C901260052" index="55"/>
+				<field name="C901260053" index="56"/>
+				<field name="C901260054" index="57"/>
+				<field name="C901260055" index="58"/>
+				<field name="C901260056" index="59"/>
+				<field name="C901260057" index="60"/>
+				<field name="C901260058" index="61"/>
+				<field name="C901260059" index="62"/>
+				<field name="C901260060" index="63"/>
+				<field name="C901260061" index="64"/>
+				<field name="C901260062" index="65"/>
+				<field name="C901260063" index="66"/>
+				<field name="C901260064" index="67"/>
+				<field name="C901260065" index="68"/>
+				<field name="C901260066" index="69"/>
+				<field name="C901260067" index="70"/>
+				<field name="C901260068" index="71"/>
+				<field name="C901260069" index="72"/>
+				<field name="C901260070" index="73"/>
+				<field name="C901260071" index="74"/>
+				<field name="C901260072" index="75"/>
+				<field name="C901260073" index="76"/>
+				<field name="C901260074" index="77"/>
+				<field name="C901260075" index="78"/>
+				<field name="C901260076" index="79"/>
+				<field name="C901260077" index="80"/>
+				<field name="C901260078" index="81"/>
+				<field name="C901260079" index="82"/>
+				<field name="C901260080" index="83"/>
+				<field name="C901260081" index="84"/>
+				<field name="C901260082" index="85"/>
+				<field name="C901260083" index="86"/>
+				<field name="C901260084" index="87"/>
+				<field name="C901260085" index="88"/>
+				<field name="C901260086" index="89"/>
+				<field name="C901260087" index="90"/>
+				<field name="C901260088" index="91"/>
+				<field name="C901260089" index="92"/>
+				<field name="C901260090" index="93"/>
+				<field name="C901260091" index="94"/>
+				<field name="C901260092" index="95"/>
+				<field name="C901260093" index="96"/>
+				<field name="C901260094" index="97"/>
+				<field name="C901260095" index="98"/>
+				<field name="C901260096" index="99"/>
+				<field name="C901260097" index="100"/>
+				<field name="C901260098" index="101"/>
+				<field name="C901260099" index="102"/>
+				<field name="C901260100" index="103"/>
+				<field name="C901260101" index="104"/>
+				<field name="C901260102" index="105"/>
+				<field name="C901260103" index="106"/>
+				<field name="C901260104" index="107"/>
+				<field name="C901260105" index="108"/>
+				<field name="C901260106" index="109"/>
+				<field name="C901260107" index="110"/>
+				<field name="C901260108" index="111"/>
+				<field name="C901260109" index="112"/>
+				<field name="C901260110" index="113"/>
+				<field name="C901260111" index="114"/>
+				<field name="C901260112" index="115"/>
+				<field name="C901260113" index="116"/>
+				<field name="C901260114" index="117"/>
+				<field name="C901260115" index="118"/>
+				<field name="C901260116" index="119"/>
+				<field name="C901260117" index="120"/>
+				<field name="C901260118" index="121"/>
+				<field name="C901260119" index="122"/>
+				<field name="C901260120" index="123"/>
+				<field name="C901260121" index="124"/>
+				<field name="C901260122" index="125"/>
+				<field name="C901260123" index="126"/>
+				<field name="C901260124" index="127"/>
+				<field name="C901260125" index="128"/>
+				<field name="C901260126" index="129"/>
+				<field name="C901260127" index="130"/>
+				<field name="C901260128" index="131"/>
+				<field name="C901260129" index="132"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="4" file="/g/zte/100001_TCHHMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901270001" index="4"/>
+				<field name="C901270002" index="5"/>
+				<field name="C901270003" index="6"/>
+				<field name="C901270004" index="7"/>
+				<field name="C901270005" index="8"/>
+				<field name="C901270006" index="9"/>
+				<field name="C901270007" index="10"/>
+				<field name="C901270008" index="11"/>
+				<field name="C901270009" index="12"/>
+				<field name="C901270010" index="13"/>
+				<field name="C901270011" index="14"/>
+				<field name="C901270012" index="15"/>
+				<field name="C901270013" index="16"/>
+				<field name="C901270014" index="17"/>
+				<field name="C901270015" index="18"/>
+				<field name="C901270016" index="19"/>
+				<field name="C901270017" index="20"/>
+				<field name="C901270018" index="21"/>
+				<field name="C901270019" index="22"/>
+				<field name="C901270020" index="23"/>
+				<field name="C901270021" index="24"/>
+				<field name="C901270022" index="25"/>
+				<field name="C901270023" index="26"/>
+				<field name="C901270024" index="27"/>
+				<field name="C901270025" index="28"/>
+				<field name="C901270026" index="29"/>
+				<field name="C901270027" index="30"/>
+				<field name="C901270028" index="31"/>
+				<field name="C901270029" index="32"/>
+				<field name="C901270030" index="33"/>
+				<field name="C901270031" index="34"/>
+				<field name="C901270032" index="35"/>
+				<field name="C901270033" index="36"/>
+				<field name="C901270034" index="37"/>
+				<field name="C901270035" index="38"/>
+				<field name="C901270036" index="39"/>
+				<field name="C901270037" index="40"/>
+				<field name="C901270038" index="41"/>
+				<field name="C901270039" index="42"/>
+				<field name="C901270040" index="43"/>
+				<field name="C901270041" index="44"/>
+				<field name="C901270042" index="45"/>
+				<field name="C901270043" index="46"/>
+				<field name="C901270044" index="47"/>
+				<field name="C901270045" index="48"/>
+				<field name="C901270046" index="49"/>
+				<field name="C901270047" index="50"/>
+				<field name="C901270048" index="51"/>
+				<field name="C901270049" index="52"/>
+				<field name="C901270050" index="53"/>
+				<field name="C901270051" index="54"/>
+				<field name="C901270052" index="55"/>
+				<field name="C901270053" index="56"/>
+				<field name="C901270054" index="57"/>
+				<field name="C901270055" index="58"/>
+				<field name="C901270056" index="59"/>
+				<field name="C901270057" index="60"/>
+				<field name="C901270058" index="61"/>
+				<field name="C901270059" index="62"/>
+				<field name="C901270060" index="63"/>
+				<field name="C901270061" index="64"/>
+				<field name="C901270062" index="65"/>
+				<field name="C901270063" index="66"/>
+				<field name="C901270064" index="67"/>
+				<field name="C901270065" index="68"/>
+				<field name="C901270066" index="69"/>
+				<field name="C901270067" index="70"/>
+				<field name="C901270068" index="71"/>
+				<field name="C901270069" index="72"/>
+				<field name="C901270070" index="73"/>
+				<field name="C901270071" index="74"/>
+				<field name="C901270072" index="75"/>
+				<field name="C901270073" index="76"/>
+				<field name="C901270074" index="77"/>
+				<field name="C901270075" index="78"/>
+				<field name="C901270076" index="79"/>
+				<field name="C901270077" index="80"/>
+				<field name="C901270078" index="81"/>
+				<field name="C901270079" index="82"/>
+				<field name="C901270080" index="83"/>
+				<field name="C901270081" index="84"/>
+				<field name="C901270082" index="85"/>
+				<field name="C901270083" index="86"/>
+				<field name="C901270084" index="87"/>
+				<field name="C901270085" index="88"/>
+				<field name="C901270086" index="89"/>
+				<field name="C901270087" index="90"/>
+				<field name="C901270088" index="91"/>
+				<field name="C901270089" index="92"/>
+				<field name="C901270090" index="93"/>
+				<field name="C901270091" index="94"/>
+				<field name="C901270092" index="95"/>
+				<field name="C901270093" index="96"/>
+				<field name="C901270094" index="97"/>
+				<field name="C901270095" index="98"/>
+				<field name="C901270096" index="99"/>
+				<field name="C901270097" index="100"/>
+				<field name="C901270098" index="101"/>
+				<field name="C901270099" index="102"/>
+				<field name="C901270100" index="103"/>
+				<field name="C901270101" index="104"/>
+				<field name="C901270102" index="105"/>
+				<field name="C901270103" index="106"/>
+				<field name="C901270104" index="107"/>
+				<field name="C901270105" index="108"/>
+				<field name="C901270106" index="109"/>
+				<field name="C901270107" index="110"/>
+				<field name="C901270108" index="111"/>
+				<field name="C901270109" index="112"/>
+				<field name="C901270110" index="113"/>
+				<field name="C901270111" index="114"/>
+				<field name="C901270112" index="115"/>
+				<field name="C901270113" index="116"/>
+				<field name="C901270114" index="117"/>
+				<field name="C901270115" index="118"/>
+				<field name="C901270116" index="119"/>
+				<field name="C901270117" index="120"/>
+				<field name="C901270118" index="121"/>
+				<field name="C901270119" index="122"/>
+				<field name="C901270120" index="123"/>
+				<field name="C901270121" index="124"/>
+				<field name="C901270122" index="125"/>
+				<field name="C901270123" index="126"/>
+				<field name="C901270124" index="127"/>
+				<field name="C901270125" index="128"/>
+				<field name="C901270126" index="129"/>
+				<field name="C901270127" index="130"/>
+				<field name="C901270128" index="131"/>
+				<field name="C901270129" index="132"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="5" file="/g/zte/100001_RMMCallDropMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901070001" index="4"/>
+				<field name="C901070002" index="5"/>
+				<field name="C901070003" index="6"/>
+				<field name="C901070004" index="7"/>
+				<field name="C901070005" index="8"/>
+				<field name="C901070006" index="9"/>
+				<field name="C901070007" index="10"/>
+				<field name="C901070008" index="11"/>
+				<field name="C901070009" index="12"/>
+				<field name="C901070010" index="13"/>
+				<field name="C901070011" index="14"/>
+				<field name="C901070012" index="15"/>
+				<field name="C901070013" index="16"/>
+				<field name="C901070014" index="17"/>
+				<field name="C901070015" index="18"/>
+				<field name="C901070016" index="19"/>
+				<field name="C901070017" index="20"/>
+				<field name="C901070018" index="21"/>
+				<field name="C901070019" index="22"/>
+				<field name="C901070020" index="23"/>
+				<field name="C901070021" index="24"/>
+				<field name="C901070022" index="25"/>
+				<field name="C901070023" index="26"/>
+				<field name="C901070024" index="27"/>
+				<field name="C901070025" index="28"/>
+				<field name="C901070026" index="29"/>
+				<field name="C901070027" index="30"/>
+				<field name="C901070028" index="31"/>
+				<field name="C901070029" index="32"/>
+				<field name="C901070030" index="33"/>
+				<field name="C901070031" index="34"/>
+				<field name="C901070032" index="35"/>
+				<field name="C901070033" index="36"/>
+				<field name="C901070034" index="37"/>
+				<field name="C901070035" index="38"/>
+				<field name="C901070036" index="39"/>
+				<field name="C901070037" index="40"/>
+				<field name="C901070038" index="41"/>
+				<field name="C901070039" index="42"/>
+				<field name="C901070040" index="43"/>
+				<field name="C901070041" index="44"/>
+				<field name="C901070042" index="45"/>
+				<field name="C901070043" index="46"/>
+				<field name="C901070044" index="47"/>
+				<field name="C901070045" index="48"/>
+				<field name="C901070046" index="49"/>
+				<field name="C901070047" index="50"/>
+				<field name="C901070048" index="51"/>
+				<field name="C901070049" index="52"/>
+				<field name="C901070050" index="53"/>
+				<field name="C901070051" index="54"/>
+				<field name="C901070052" index="55"/>
+				<field name="C901070053" index="56"/>
+				<field name="C901070054" index="57"/>
+				<field name="C901070055" index="58"/>
+				<field name="C901070056" index="59"/>
+				<field name="C901070057" index="60"/>
+				<field name="C901070058" index="61"/>
+				<field name="C901070059" index="62"/>
+				<field name="C901070060" index="63"/>
+				<field name="C901070061" index="64"/>
+				<field name="C901070062" index="65"/>
+				<field name="C901070063" index="66"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="6" file="/g/zte/100001_GeneralHandoverMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901090001" index="4"/>
+				<field name="C901090002" index="5"/>
+				<field name="C901090003" index="6"/>
+				<field name="C901090004" index="7"/>
+				<field name="C901090005" index="8"/>
+				<field name="C901090006" index="9"/>
+				<field name="C901090007" index="10"/>
+				<field name="C901090008" index="11"/>
+				<field name="C901090009" index="12"/>
+				<field name="C901090010" index="13"/>
+				<field name="C901090011" index="14"/>
+				<field name="C901090012" index="15"/>
+				<field name="C901090013" index="16"/>
+				<field name="C901090014" index="17"/>
+				<field name="C901090015" index="18"/>
+				<field name="C901090016" index="19"/>
+				<field name="C901090017" index="20"/>
+				<field name="C901090018" index="21"/>
+				<field name="C901090019" index="22"/>
+				<field name="C901090020" index="23"/>
+				<field name="C901090021" index="24"/>
+				<field name="C901090022" index="25"/>
+				<field name="C901090023" index="26"/>
+				<field name="C901090024" index="27"/>
+				<field name="C901090025" index="28"/>
+				<field name="C901090026" index="29"/>
+				<field name="C901090027" index="30"/>
+				<field name="C901090028" index="31"/>
+				<field name="C901090029" index="32"/>
+				<field name="C901090030" index="33"/>
+				<field name="C901090031" index="34"/>
+				<field name="C901090032" index="35"/>
+				<field name="C901090033" index="36"/>
+				<field name="C901090034" index="37"/>
+				<field name="C901090035" index="38"/>
+				<field name="C901090036" index="39"/>
+				<field name="C901090037" index="40"/>
+				<field name="C901090038" index="41"/>
+				<field name="C901090039" index="42"/>
+				<field name="C901090040" index="43"/>
+				<field name="C901090041" index="44"/>
+				<field name="C901090042" index="45"/>
+				<field name="C901090043" index="46"/>
+				<field name="C901090044" index="47"/>
+				<field name="C901090045" index="48"/>
+				<field name="C901090046" index="49"/>
+				<field name="C901090047" index="50"/>
+				<field name="C901090048" index="51"/>
+				<field name="C901090049" index="52"/>
+				<field name="C901090050" index="53"/>
+				<field name="C901090051" index="54"/>
+				<field name="C901090052" index="55"/>
+				<field name="C901090053" index="56"/>
+				<field name="C901090054" index="57"/>
+				<field name="C901090055" index="58"/>
+				<field name="C901090056" index="59"/>
+				<field name="C901090057" index="60"/>
+				<field name="C901090058" index="61"/>
+				<field name="C901090059" index="62"/>
+				<field name="C901090060" index="63"/>
+				<field name="C901090061" index="64"/>
+				<field name="C901090062" index="65"/>
+				<field name="C901090063" index="66"/>
+				<field name="C901090064" index="67"/>
+				<field name="C901090065" index="68"/>
+				<field name="C901090066" index="69"/>
+				<field name="C901090067" index="70"/>
+				<field name="C901090068" index="71"/>
+				<field name="C901090069" index="72"/>
+				<field name="C901090070" index="73"/>
+				<field name="C901090071" index="74"/>
+				<field name="C901090072" index="75"/>
+				<field name="C901090073" index="76"/>
+				<field name="C901090074" index="77"/>
+				<field name="C901090075" index="78"/>
+				<field name="C901090076" index="79"/>
+				<field name="C901090077" index="80"/>
+				<field name="C901090078" index="81"/>
+				<field name="C901090079" index="82"/>
+				<field name="C901090080" index="83"/>
+				<field name="C901090081" index="84"/>
+				<field name="C901090082" index="85"/>
+				<field name="C901090083" index="86"/>
+				<field name="C901090084" index="87"/>
+				<field name="C901090085" index="88"/>
+				<field name="C901090086" index="89"/>
+				<field name="C901090087" index="90"/>
+				<field name="C901090088" index="91"/>
+				<field name="C901090089" index="92"/>
+				<field name="C901090090" index="93"/>
+				<field name="C901090091" index="94"/>
+				<field name="C901090092" index="95"/>
+				<field name="C901090093" index="96"/>
+				<field name="C901090094" index="97"/>
+				<field name="C901090095" index="98"/>
+				<field name="C901090096" index="99"/>
+				<field name="C901090097" index="100"/>
+				<field name="C901090098" index="101"/>
+				<field name="C901090099" index="102"/>
+				<field name="C901090100" index="103"/>
+				<field name="C901090101" index="104"/>
+				<field name="C901090102" index="105"/>
+				<field name="C901090103" index="106"/>
+				<field name="C901090104" index="107"/>
+				<field name="C901090105" index="108"/>
+				<field name="C901090106" index="109"/>
+				<field name="C901090107" index="110"/>
+				<field name="C901090108" index="111"/>
+				<field name="C901090109" index="112"/>
+				<field name="C901090110" index="113"/>
+				<field name="C901090111" index="114"/>
+				<field name="C901090112" index="115"/>
+				<field name="C901090113" index="116"/>
+				<field name="C901090114" index="117"/>
+				<field name="C901090115" index="118"/>
+				<field name="C901090116" index="119"/>
+				<field name="C901090117" index="120"/>
+				<field name="C901090118" index="121"/>
+				<field name="C901090119" index="122"/>
+				<field name="C901090120" index="123"/>
+				<field name="C901090121" index="124"/>
+				<field name="C901090122" index="125"/>
+				<field name="C901090123" index="126"/>
+				<field name="C901090124" index="127"/>
+				<field name="C901090125" index="128"/>
+				<field name="C901090126" index="129"/>
+				<field name="C901090127" index="130"/>
+				<field name="C901090128" index="131"/>
+				<field name="C901090129" index="132"/>
+				<field name="C901090130" index="133"/>
+				<field name="C901090131" index="134"/>
+				<field name="C901090132" index="135"/>
+				<field name="C901090133" index="136"/>
+				<field name="C901090134" index="137"/>
+				<field name="C901090135" index="138"/>
+				<field name="C901090136" index="139"/>
+				<field name="C901090137" index="140"/>
+				<field name="C901090138" index="141"/>
+				<field name="C901090139" index="142"/>
+				<field name="C901090140" index="143"/>
+				<field name="C901090141" index="144"/>
+				<field name="C901090142" index="145"/>
+				<field name="C901090143" index="146"/>
+				<field name="C901090144" index="147"/>
+				<field name="C901090145" index="148"/>
+				<field name="C901090146" index="149"/>
+				<field name="C901090147" index="150"/>
+				<field name="C901090148" index="151"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="7" file="/g/zte/100001_UplinkGPRSDataTBFStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901190001" index="4"/>
+				<field name="C901190002" index="5"/>
+				<field name="C901190003" index="6"/>
+				<field name="C901190004" index="7"/>
+				<field name="C901190005" index="8"/>
+				<field name="C901190006" index="9"/>
+				<field name="C901190007" index="10"/>
+				<field name="C901190008" index="11"/>
+				<field name="C901190009" index="12"/>
+				<field name="C901190010" index="13"/>
+				<field name="C901190011" index="14"/>
+				<field name="C901190012" index="15"/>
+				<field name="C901190013" index="16"/>
+				<field name="C901190014" index="17"/>
+				<field name="C901190015" index="18"/>
+				<field name="C901190016" index="19"/>
+				<field name="C901190017" index="20"/>
+				<field name="C901190018" index="21"/>
+				<field name="C901190019" index="22"/>
+				<field name="C901190020" index="23"/>
+				<field name="C901190021" index="24"/>
+				<field name="C901190022" index="25"/>
+				<field name="C901190023" index="26"/>
+				<field name="C901190024" index="27"/>
+				<field name="C901190025" index="28"/>
+				<field name="C901190026" index="29"/>
+				<field name="C901190027" index="30"/>
+				<field name="C901190028" index="31"/>
+				<field name="C901190029" index="32"/>
+				<field name="C901190030" index="33"/>
+				<field name="C901190031" index="34"/>
+				<field name="C901190032" index="35"/>
+				<field name="C901190033" index="36"/>
+				<field name="C901190034" index="37"/>
+				<field name="C901190035" index="38"/>
+				<field name="C901190036" index="39"/>
+				<field name="C901190037" index="40"/>
+				<field name="C901190038" index="41"/>
+				<field name="C901190039" index="42"/>
+				<field name="C901190040" index="43"/>
+				<field name="C901190041" index="44"/>
+				<field name="C901190042" index="45"/>
+				<field name="C901190043" index="46"/>
+				<field name="C901190044" index="47"/>
+				<field name="C901190045" index="48"/>
+				<field name="C901190046" index="49"/>
+				<field name="C901190047" index="50"/>
+				<field name="C901190048" index="51"/>
+				<field name="C901190049" index="52"/>
+				<field name="C901190050" index="53"/>
+				<field name="C901190051" index="54"/>
+				<field name="C901190052" index="55"/>
+				<field name="C901190053" index="56"/>
+				<field name="C901190054" index="57"/>
+				<field name="C901190055" index="58"/>
+				<field name="C901190056" index="59"/>
+				<field name="C901190057" index="60"/>
+				<field name="C901190058" index="61"/>
+				<field name="C901190059" index="62"/>
+				<field name="C901190060" index="63"/>
+				<field name="C901190061" index="64"/>
+				<field name="C901190062" index="65"/>
+				<field name="C901190063" index="66"/>
+				<field name="C901190064" index="67"/>
+				<field name="C901190065" index="68"/>
+				<field name="C901190066" index="69"/>
+				<field name="C901190067" index="70"/>
+				<field name="C901190068" index="71"/>
+				<field name="C901190069" index="72"/>
+				<field name="C901190070" index="73"/>
+				<field name="C901190071" index="74"/>
+				<field name="C901190072" index="75"/>
+				<field name="C901190073" index="76"/>
+				<field name="C901190074" index="77"/>
+				<field name="C901190075" index="78"/>
+				<field name="C901190076" index="79"/>
+				<field name="C901190077" index="80"/>
+				<field name="C901190078" index="81"/>
+				<field name="C901190079" index="82"/>
+				<field name="C901190080" index="83"/>
+				<field name="C901190081" index="84"/>
+				<field name="C901190082" index="85"/>
+				<field name="C901190083" index="86"/>
+				<field name="C901190084" index="87"/>
+				<field name="C901190085" index="88"/>
+				<field name="C901190086" index="89"/>
+				<field name="C901190087" index="90"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="8" file="/g/zte/100001_DownlinkDataTBFMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901000001" index="4"/>
+				<field name="C901000002" index="5"/>
+				<field name="C901000003" index="6"/>
+				<field name="C901000004" index="7"/>
+				<field name="C901000005" index="8"/>
+				<field name="C901000006" index="9"/>
+				<field name="C901000007" index="10"/>
+				<field name="C901000008" index="11"/>
+				<field name="C901000009" index="12"/>
+				<field name="C901000010" index="13"/>
+				<field name="C901000011" index="14"/>
+				<field name="C901000012" index="15"/>
+				<field name="C901000013" index="16"/>
+				<field name="C901000014" index="17"/>
+				<field name="C901000015" index="18"/>
+				<field name="C901000016" index="19"/>
+				<field name="C901000017" index="20"/>
+				<field name="C901000018" index="21"/>
+				<field name="C901000019" index="22"/>
+				<field name="C901000020" index="23"/>
+				<field name="C901000021" index="24"/>
+				<field name="C901000022" index="25"/>
+				<field name="C901000023" index="26"/>
+				<field name="C901000024" index="27"/>
+				<field name="C901000025" index="28"/>
+				<field name="C901000026" index="29"/>
+				<field name="C901000027" index="30"/>
+				<field name="C901000028" index="31"/>
+				<field name="C901000029" index="32"/>
+				<field name="C901000030" index="33"/>
+				<field name="C901000031" index="34"/>
+				<field name="C901000032" index="35"/>
+				<field name="C901000033" index="36"/>
+				<field name="C901000034" index="37"/>
+				<field name="C901000035" index="38"/>
+				<field name="C901000036" index="39"/>
+				<field name="C901000037" index="40"/>
+				<field name="C901000038" index="41"/>
+				<field name="C901000039" index="42"/>
+				<field name="C901000040" index="43"/>
+				<field name="C901000041" index="44"/>
+				<field name="C901000042" index="45"/>
+				<field name="C901000043" index="46"/>
+				<field name="C901000044" index="47"/>
+				<field name="C901000045" index="48"/>
+				<field name="C901000046" index="49"/>
+				<field name="C901000047" index="50"/>
+				<field name="C901000048" index="51"/>
+				<field name="C901000049" index="52"/>
+				<field name="C901000050" index="53"/>
+				<field name="C901000051" index="54"/>
+				<field name="C901000052" index="55"/>
+				<field name="C901000053" index="56"/>
+				<field name="C901000054" index="57"/>
+				<field name="C901000055" index="58"/>
+				<field name="C901000056" index="59"/>
+				<field name="C901000057" index="60"/>
+				<field name="C901000058" index="61"/>
+				<field name="C901000059" index="62"/>
+				<field name="C901000060" index="63"/>
+				<field name="C901000061" index="64"/>
+				<field name="C901000062" index="65"/>
+				<field name="C901000063" index="66"/>
+				<field name="C901000064" index="67"/>
+				<field name="C901000065" index="68"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="9" file="/g/zte/100001_DownlinkGPRSDataTBFStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901170001" index="4"/>
+				<field name="C901170002" index="5"/>
+				<field name="C901170003" index="6"/>
+				<field name="C901170004" index="7"/>
+				<field name="C901170005" index="8"/>
+				<field name="C901170006" index="9"/>
+				<field name="C901170007" index="10"/>
+				<field name="C901170008" index="11"/>
+				<field name="C901170009" index="12"/>
+				<field name="C901170010" index="13"/>
+				<field name="C901170011" index="14"/>
+				<field name="C901170012" index="15"/>
+				<field name="C901170013" index="16"/>
+				<field name="C901170014" index="17"/>
+				<field name="C901170015" index="18"/>
+				<field name="C901170016" index="19"/>
+				<field name="C901170017" index="20"/>
+				<field name="C901170018" index="21"/>
+				<field name="C901170019" index="22"/>
+				<field name="C901170020" index="23"/>
+				<field name="C901170021" index="24"/>
+				<field name="C901170022" index="25"/>
+				<field name="C901170023" index="26"/>
+				<field name="C901170024" index="27"/>
+				<field name="C901170025" index="28"/>
+				<field name="C901170026" index="29"/>
+				<field name="C901170027" index="30"/>
+				<field name="C901170028" index="31"/>
+				<field name="C901170029" index="32"/>
+				<field name="C901170030" index="33"/>
+				<field name="C901170031" index="34"/>
+				<field name="C901170032" index="35"/>
+				<field name="C901170033" index="36"/>
+				<field name="C901170034" index="37"/>
+				<field name="C901170035" index="38"/>
+				<field name="C901170036" index="39"/>
+				<field name="C901170037" index="40"/>
+				<field name="C901170038" index="41"/>
+				<field name="C901170039" index="42"/>
+				<field name="C901170040" index="43"/>
+				<field name="C901170041" index="44"/>
+				<field name="C901170042" index="45"/>
+				<field name="C901170043" index="46"/>
+				<field name="C901170044" index="47"/>
+				<field name="C901170045" index="48"/>
+				<field name="C901170046" index="49"/>
+				<field name="C901170047" index="50"/>
+				<field name="C901170048" index="51"/>
+				<field name="C901170049" index="52"/>
+				<field name="C901170050" index="53"/>
+				<field name="C901170051" index="54"/>
+				<field name="C901170052" index="55"/>
+				<field name="C901170053" index="56"/>
+				<field name="C901170054" index="57"/>
+				<field name="C901170055" index="58"/>
+				<field name="C901170056" index="59"/>
+				<field name="C901170057" index="60"/>
+				<field name="C901170058" index="61"/>
+				<field name="C901170059" index="62"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="10" file="/g/zte/100001_DownlinkEGPRSDataTBFStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901180001" index="4"/>
+				<field name="C901180002" index="5"/>
+				<field name="C901180003" index="6"/>
+				<field name="C901180004" index="7"/>
+				<field name="C901180005" index="8"/>
+				<field name="C901180006" index="9"/>
+				<field name="C901180007" index="10"/>
+				<field name="C901180008" index="11"/>
+				<field name="C901180009" index="12"/>
+				<field name="C901180010" index="13"/>
+				<field name="C901180011" index="14"/>
+				<field name="C901180012" index="15"/>
+				<field name="C901180013" index="16"/>
+				<field name="C901180014" index="17"/>
+				<field name="C901180015" index="18"/>
+				<field name="C901180016" index="19"/>
+				<field name="C901180017" index="20"/>
+				<field name="C901180018" index="21"/>
+				<field name="C901180019" index="22"/>
+				<field name="C901180020" index="23"/>
+				<field name="C901180021" index="24"/>
+				<field name="C901180022" index="25"/>
+				<field name="C901180023" index="26"/>
+				<field name="C901180024" index="27"/>
+				<field name="C901180025" index="28"/>
+				<field name="C901180026" index="29"/>
+				<field name="C901180027" index="30"/>
+				<field name="C901180028" index="31"/>
+				<field name="C901180029" index="32"/>
+				<field name="C901180030" index="33"/>
+				<field name="C901180031" index="34"/>
+				<field name="C901180032" index="35"/>
+				<field name="C901180033" index="36"/>
+				<field name="C901180034" index="37"/>
+				<field name="C901180035" index="38"/>
+				<field name="C901180036" index="39"/>
+				<field name="C901180037" index="40"/>
+				<field name="C901180038" index="41"/>
+				<field name="C901180039" index="42"/>
+				<field name="C901180040" index="43"/>
+				<field name="C901180041" index="44"/>
+				<field name="C901180042" index="45"/>
+				<field name="C901180043" index="46"/>
+				<field name="C901180044" index="47"/>
+				<field name="C901180045" index="48"/>
+				<field name="C901180046" index="49"/>
+				<field name="C901180047" index="50"/>
+				<field name="C901180048" index="51"/>
+				<field name="C901180049" index="52"/>
+				<field name="C901180050" index="53"/>
+				<field name="C901180051" index="54"/>
+				<field name="C901180052" index="55"/>
+				<field name="C901180053" index="56"/>
+				<field name="C901180054" index="57"/>
+				<field name="C901180055" index="58"/>
+				<field name="C901180056" index="59"/>
+				<field name="C901180057" index="60"/>
+				<field name="C901180058" index="61"/>
+				<field name="C901180059" index="62"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="11" file="/g/zte/100001_DataFlowMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901020001" index="4"/>
+				<field name="C901020002" index="5"/>
+				<field name="C901020003" index="6"/>
+				<field name="C901020004" index="7"/>
+				<field name="C901020005" index="8"/>
+				<field name="C901020006" index="9"/>
+				<field name="C901020007" index="10"/>
+				<field name="C901020008" index="11"/>
+				<field name="C901020009" index="12"/>
+				<field name="C901020010" index="13"/>
+				<field name="C901020011" index="14"/>
+				<field name="C901020012" index="15"/>
+				<field name="C901020013" index="16"/>
+				<field name="C901020014" index="17"/>
+				<field name="C901020015" index="18"/>
+				<field name="C901020016" index="19"/>
+				<field name="C901020017" index="20"/>
+				<field name="C901020018" index="21"/>
+				<field name="C901020019" index="22"/>
+				<field name="C901020020" index="23"/>
+				<field name="C901020021" index="24"/>
+				<field name="C901020022" index="25"/>
+				<field name="C901020023" index="26"/>
+				<field name="C901020024" index="27"/>
+				<field name="C901020025" index="28"/>
+				<field name="C901020026" index="29"/>
+				<field name="C901020027" index="30"/>
+				<field name="C901020028" index="31"/>
+				<field name="C901020029" index="32"/>
+				<field name="C901020030" index="33"/>
+				<field name="C901020031" index="34"/>
+				<field name="C901020032" index="35"/>
+				<field name="C901020033" index="36"/>
+				<field name="C901020034" index="37"/>
+				<field name="C901020035" index="38"/>
+				<field name="C901020036" index="39"/>
+				<field name="C901020037" index="40"/>
+				<field name="C901020038" index="41"/>
+				<field name="C901020039" index="42"/>
+				<field name="C901020040" index="43"/>
+				<field name="C901020041" index="44"/>
+				<field name="C901020042" index="45"/>
+				<field name="C901020043" index="46"/>
+				<field name="C901020044" index="47"/>
+				<field name="C901020045" index="48"/>
+				<field name="C901020046" index="49"/>
+				<field name="C901020047" index="50"/>
+				<field name="C901020048" index="51"/>
+				<field name="C901020049" index="52"/>
+				<field name="C901020050" index="53"/>
+				<field name="C901020051" index="54"/>
+				<field name="C901020052" index="55"/>
+				<field name="C901020053" index="56"/>
+				<field name="C901020054" index="57"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="12" file="/g/zte/100001_UpdownRLCStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901030001" index="4"/>
+				<field name="C901030002" index="5"/>
+				<field name="C901030003" index="6"/>
+				<field name="C901030004" index="7"/>
+				<field name="C901030005" index="8"/>
+				<field name="C901030006" index="9"/>
+				<field name="C901030007" index="10"/>
+				<field name="C901030008" index="11"/>
+				<field name="C901030009" index="12"/>
+				<field name="C901030010" index="13"/>
+				<field name="C901030011" index="14"/>
+				<field name="C901030012" index="15"/>
+				<field name="C901030013" index="16"/>
+				<field name="C901030014" index="17"/>
+				<field name="C901030015" index="18"/>
+				<field name="C901030016" index="19"/>
+				<field name="C901030017" index="20"/>
+				<field name="C901030018" index="21"/>
+				<field name="C901030019" index="22"/>
+				<field name="C901030020" index="23"/>
+				<field name="C901030021" index="24"/>
+				<field name="C901030022" index="25"/>
+				<field name="C901030023" index="26"/>
+				<field name="C901030024" index="27"/>
+				<field name="C901030025" index="28"/>
+				<field name="C901030026" index="29"/>
+				<field name="C901030027" index="30"/>
+				<field name="C901030028" index="31"/>
+				<field name="C901030029" index="32"/>
+				<field name="C901030030" index="33"/>
+				<field name="C901030031" index="34"/>
+				<field name="C901030032" index="35"/>
+				<field name="C901030033" index="36"/>
+				<field name="C901030034" index="37"/>
+				<field name="C901030035" index="38"/>
+				<field name="C901030036" index="39"/>
+				<field name="C901030037" index="40"/>
+				<field name="C901030038" index="41"/>
+				<field name="C901030039" index="42"/>
+				<field name="C901030040" index="43"/>
+				<field name="C901030041" index="44"/>
+				<field name="C901030042" index="45"/>
+				<field name="C901030043" index="46"/>
+				<field name="C901030044" index="47"/>
+				<field name="C901030045" index="48"/>
+				<field name="C901030046" index="49"/>
+				<field name="C901030047" index="50"/>
+				<field name="C901030048" index="51"/>
+				<field name="C901030049" index="52"/>
+				<field name="C901030050" index="53"/>
+				<field name="C901030051" index="54"/>
+				<field name="C901030052" index="55"/>
+				<field name="C901030053" index="56"/>
+				<field name="C901030054" index="57"/>
+				<field name="C901030055" index="58"/>
+				<field name="C901030056" index="59"/>
+				<field name="C901030057" index="60"/>
+				<field name="C901030058" index="61"/>
+				<field name="C901030059" index="62"/>
+				<field name="C901030060" index="63"/>
+				<field name="C901030061" index="64"/>
+				<field name="C901030062" index="65"/>
+				<field name="C901030063" index="66"/>
+				<field name="C901030064" index="67"/>
+				<field name="C901030065" index="68"/>
+				<field name="C901030066" index="69"/>
+				<field name="C901030067" index="70"/>
+				<field name="C901030068" index="71"/>
+				<field name="C901030069" index="72"/>
+				<field name="C901030070" index="73"/>
+				<field name="C901030071" index="74"/>
+				<field name="C901030072" index="75"/>
+				<field name="C901030073" index="76"/>
+				<field name="C901030074" index="77"/>
+				<field name="C901030075" index="78"/>
+				<field name="C901030076" index="79"/>
+				<field name="C901030077" index="80"/>
+				<field name="C901030078" index="81"/>
+				<field name="C901030079" index="82"/>
+				<field name="C901030080" index="83"/>
+				<field name="C901030081" index="84"/>
+				<field name="C901030082" index="85"/>
+				<field name="C901030083" index="86"/>
+				<field name="C901030084" index="87"/>
+				<field name="C901030085" index="88"/>
+				<field name="C901030086" index="89"/>
+				<field name="C901030087" index="90"/>
+				<field name="C901030088" index="91"/>
+				<field name="C901030089" index="92"/>
+				<field name="C901030090" index="93"/>
+				<field name="C901030091" index="94"/>
+				<field name="C901030092" index="95"/>
+				<field name="C901030093" index="96"/>
+				<field name="C901030094" index="97"/>
+				<field name="C901030095" index="98"/>
+				<field name="C901030096" index="99"/>
+				<field name="C901030097" index="100"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="13" file="/g/zte/100001_RadioAccessMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901110001" index="4"/>
+				<field name="C901110002" index="5"/>
+				<field name="C901110003" index="6"/>
+				<field name="C901110004" index="7"/>
+				<field name="C901110005" index="8"/>
+				<field name="C901110006" index="9"/>
+				<field name="C901110007" index="10"/>
+				<field name="C901110008" index="11"/>
+				<field name="C901110009" index="12"/>
+				<field name="C901110010" index="13"/>
+				<field name="C901110011" index="14"/>
+				<field name="C901110012" index="15"/>
+				<field name="C901110013" index="16"/>
+				<field name="C901110014" index="17"/>
+				<field name="C901110015" index="18"/>
+				<field name="C901110016" index="19"/>
+				<field name="C901110017" index="20"/>
+				<field name="C901110018" index="21"/>
+				<field name="C901110019" index="22"/>
+				<field name="C901110020" index="23"/>
+				<field name="C901110021" index="24"/>
+				<field name="C901110022" index="25"/>
+				<field name="C901110023" index="26"/>
+				<field name="C901110024" index="27"/>
+				<field name="C901110025" index="28"/>
+				<field name="C901110026" index="29"/>
+				<field name="C901110027" index="30"/>
+				<field name="C901110028" index="31"/>
+				<field name="C901110029" index="32"/>
+				<field name="C901110030" index="33"/>
+				<field name="C901110031" index="34"/>
+				<field name="C901110032" index="35"/>
+				<field name="C901110033" index="36"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="14" file="/g/zte/100001_RadioMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901120001" index="4"/>
+				<field name="C901120002" index="5"/>
+				<field name="C901120003" index="6"/>
+				<field name="C901120004" index="7"/>
+				<field name="C901120005" index="8"/>
+				<field name="C901120006" index="9"/>
+				<field name="C901120007" index="10"/>
+				<field name="C901120008" index="11"/>
+				<field name="C901120009" index="12"/>
+				<field name="C901120010" index="13"/>
+				<field name="C901120011" index="14"/>
+				<field name="C901120012" index="15"/>
+				<field name="C901120013" index="16"/>
+				<field name="C901120014" index="17"/>
+				<field name="C901120015" index="18"/>
+				<field name="C901120016" index="19"/>
+				<field name="C901120017" index="20"/>
+				<field name="C901120018" index="21"/>
+				<field name="C901120019" index="22"/>
+				<field name="C901120020" index="23"/>
+				<field name="C901120021" index="24"/>
+				<field name="C901120022" index="25"/>
+				<field name="C901120023" index="26"/>
+				<field name="C901120024" index="27"/>
+				<field name="C901120025" index="28"/>
+				<field name="C901120026" index="29"/>
+				<field name="C901120027" index="30"/>
+				<field name="C901120028" index="31"/>
+				<field name="C901120029" index="32"/>
+				<field name="C901120030" index="33"/>
+				<field name="C901120031" index="34"/>
+				<field name="C901120032" index="35"/>
+				<field name="C901120033" index="36"/>
+				<field name="C901120034" index="37"/>
+				<field name="C901120035" index="38"/>
+				<field name="C901120036" index="39"/>
+				<field name="C901120037" index="40"/>
+				<field name="C901120038" index="41"/>
+				<field name="C901120039" index="42"/>
+				<field name="C901120040" index="43"/>
+				<field name="C901120041" index="44"/>
+				<field name="C901120042" index="45"/>
+				<field name="C901120043" index="46"/>
+				<field name="C901120044" index="47"/>
+				<field name="C901120045" index="48"/>
+				<field name="C901120046" index="49"/>
+				<field name="C901120047" index="50"/>
+				<field name="C901120048" index="51"/>
+				<field name="C901120049" index="52"/>
+				<field name="C901120050" index="53"/>
+				<field name="C901120051" index="54"/>
+				<field name="C901120052" index="55"/>
+				<field name="C901120053" index="56"/>
+				<field name="C901120054" index="57"/>
+				<field name="C901120055" index="58"/>
+				<field name="C901120056" index="59"/>
+				<field name="C901120057" index="60"/>
+				<field name="C901120058" index="61"/>
+				<field name="C901120059" index="62"/>
+				<field name="C901120060" index="63"/>
+				<field name="C901120061" index="64"/>
+				<field name="C901120062" index="65"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="15" file="/g/zte/100001_UplinkEGPRSDataTBFStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901200001" index="4"/>
+				<field name="C901200002" index="5"/>
+				<field name="C901200003" index="6"/>
+				<field name="C901200004" index="7"/>
+				<field name="C901200005" index="8"/>
+				<field name="C901200006" index="9"/>
+				<field name="C901200007" index="10"/>
+				<field name="C901200008" index="11"/>
+				<field name="C901200009" index="12"/>
+				<field name="C901200010" index="13"/>
+				<field name="C901200011" index="14"/>
+				<field name="C901200012" index="15"/>
+				<field name="C901200013" index="16"/>
+				<field name="C901200014" index="17"/>
+				<field name="C901200015" index="18"/>
+				<field name="C901200016" index="19"/>
+				<field name="C901200017" index="20"/>
+				<field name="C901200018" index="21"/>
+				<field name="C901200019" index="22"/>
+				<field name="C901200020" index="23"/>
+				<field name="C901200021" index="24"/>
+				<field name="C901200022" index="25"/>
+				<field name="C901200023" index="26"/>
+				<field name="C901200024" index="27"/>
+				<field name="C901200025" index="28"/>
+				<field name="C901200026" index="29"/>
+				<field name="C901200027" index="30"/>
+				<field name="C901200028" index="31"/>
+				<field name="C901200029" index="32"/>
+				<field name="C901200030" index="33"/>
+				<field name="C901200031" index="34"/>
+				<field name="C901200032" index="35"/>
+				<field name="C901200033" index="36"/>
+				<field name="C901200034" index="37"/>
+				<field name="C901200035" index="38"/>
+				<field name="C901200036" index="39"/>
+				<field name="C901200037" index="40"/>
+				<field name="C901200038" index="41"/>
+				<field name="C901200039" index="42"/>
+				<field name="C901200040" index="43"/>
+				<field name="C901200041" index="44"/>
+				<field name="C901200042" index="45"/>
+				<field name="C901200043" index="46"/>
+				<field name="C901200044" index="47"/>
+				<field name="C901200045" index="48"/>
+				<field name="C901200046" index="49"/>
+				<field name="C901200047" index="50"/>
+				<field name="C901200048" index="51"/>
+				<field name="C901200049" index="52"/>
+				<field name="C901200050" index="53"/>
+				<field name="C901200051" index="54"/>
+				<field name="C901200052" index="55"/>
+				<field name="C901200053" index="56"/>
+				<field name="C901200054" index="57"/>
+				<field name="C901200055" index="58"/>
+				<field name="C901200056" index="59"/>
+				<field name="C901200057" index="60"/>
+				<field name="C901200058" index="61"/>
+				<field name="C901200059" index="62"/>
+				<field name="C901200060" index="63"/>
+				<field name="C901200061" index="64"/>
+				<field name="C901200062" index="65"/>
+				<field name="C901200063" index="66"/>
+				<field name="C901200064" index="67"/>
+				<field name="C901200065" index="68"/>
+				<field name="C901200066" index="69"/>
+				<field name="C901200067" index="70"/>
+				<field name="C901200068" index="71"/>
+				<field name="C901200069" index="72"/>
+				<field name="C901200070" index="73"/>
+				<field name="C901200071" index="74"/>
+				<field name="C901200072" index="75"/>
+				<field name="C901200073" index="76"/>
+				<field name="C901200074" index="77"/>
+				<field name="C901200075" index="78"/>
+				<field name="C901200076" index="79"/>
+				<field name="C901200077" index="80"/>
+				<field name="C901200078" index="81"/>
+				<field name="C901200079" index="82"/>
+				<field name="C901200080" index="83"/>
+				<field name="C901200081" index="84"/>
+				<field name="C901200082" index="85"/>
+				<field name="C901200083" index="86"/>
+				<field name="C901200084" index="87"/>
+				<field name="C901200085" index="88"/>
+				<field name="C901200086" index="89"/>
+				<field name="C901200087" index="90"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="16" file="/g/zte/100001_SAPI3Measurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901150001" index="4"/>
+				<field name="C901150002" index="5"/>
+				<field name="C901150003" index="6"/>
+				<field name="C901150004" index="7"/>
+				<field name="C901150005" index="8"/>
+				<field name="C901150006" index="9"/>
+				<field name="C901150007" index="10"/>
+				<field name="C901150008" index="11"/>
+				<field name="C901150009" index="12"/>
+				<field name="C901150010" index="13"/>
+				<field name="C901150011" index="14"/>
+				<field name="C901150012" index="15"/>
+				<field name="C901150013" index="16"/>
+				<field name="C901150014" index="17"/>
+				<field name="C901150015" index="18"/>
+				<field name="C901150016" index="19"/>
+				<field name="C901150017" index="20"/>
+				<field name="C901150018" index="21"/>
+				<field name="C901150019" index="22"/>
+				<field name="C901150020" index="23"/>
+				<field name="C901150021" index="24"/>
+				<field name="C901150022" index="25"/>
+				<field name="C901150023" index="26"/>
+				<field name="C901150024" index="27"/>
+				<field name="C901150025" index="28"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="17" file="/g/zte/100001_UplinkDataTBFMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901010001" index="4"/>
+				<field name="C901010002" index="5"/>
+				<field name="C901010003" index="6"/>
+				<field name="C901010004" index="7"/>
+				<field name="C901010005" index="8"/>
+				<field name="C901010006" index="9"/>
+				<field name="C901010007" index="10"/>
+				<field name="C901010008" index="11"/>
+				<field name="C901010009" index="12"/>
+				<field name="C901010010" index="13"/>
+				<field name="C901010011" index="14"/>
+				<field name="C901010012" index="15"/>
+				<field name="C901010013" index="16"/>
+				<field name="C901010014" index="17"/>
+				<field name="C901010015" index="18"/>
+				<field name="C901010016" index="19"/>
+				<field name="C901010017" index="20"/>
+				<field name="C901010018" index="21"/>
+				<field name="C901010019" index="22"/>
+				<field name="C901010020" index="23"/>
+				<field name="C901010021" index="24"/>
+				<field name="C901010022" index="25"/>
+				<field name="C901010023" index="26"/>
+				<field name="C901010024" index="27"/>
+				<field name="C901010025" index="28"/>
+				<field name="C901010026" index="29"/>
+				<field name="C901010027" index="30"/>
+				<field name="C901010028" index="31"/>
+				<field name="C901010029" index="32"/>
+				<field name="C901010030" index="33"/>
+				<field name="C901010031" index="34"/>
+				<field name="C901010032" index="35"/>
+				<field name="C901010033" index="36"/>
+				<field name="C901010034" index="37"/>
+				<field name="C901010035" index="38"/>
+				<field name="C901010036" index="39"/>
+				<field name="C901010037" index="40"/>
+				<field name="C901010038" index="41"/>
+				<field name="C901010039" index="42"/>
+				<field name="C901010040" index="43"/>
+				<field name="C901010041" index="44"/>
+				<field name="C901010042" index="45"/>
+				<field name="C901010043" index="46"/>
+				<field name="C901010044" index="47"/>
+				<field name="C901010045" index="48"/>
+				<field name="C901010046" index="49"/>
+				<field name="C901010047" index="50"/>
+				<field name="C901010048" index="51"/>
+				<field name="C901010049" index="52"/>
+				<field name="C901010050" index="53"/>
+				<field name="C901010051" index="54"/>
+				<field name="C901010052" index="55"/>
+				<field name="C901010053" index="56"/>
+				<field name="C901010054" index="57"/>
+				<field name="C901010055" index="58"/>
+				<field name="C901010056" index="59"/>
+				<field name="C901010057" index="60"/>
+				<field name="C901010058" index="61"/>
+				<field name="C901010059" index="62"/>
+				<field name="C901010060" index="63"/>
+				<field name="C901010061" index="64"/>
+				<field name="C901010062" index="65"/>
+				<field name="C901010063" index="66"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="18" file="/g/zte/100001_ABISMessageCountMeas_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901280001" index="4"/>
+				<field name="C901280002" index="5"/>
+				<field name="C901280003" index="6"/>
+				<field name="C901280004" index="7"/>
+				<field name="C901280005" index="8"/>
+				<field name="C901280006" index="9"/>
+				<field name="C901280007" index="10"/>
+				<field name="C901280008" index="11"/>
+				<field name="C901280009" index="12"/>
+				<field name="C901280010" index="13"/>
+				<field name="C901280011" index="14"/>
+				<field name="C901280012" index="15"/>
+				<field name="C901280013" index="16"/>
+				<field name="C901280014" index="17"/>
+				<field name="C901280015" index="18"/>
+				<field name="C901280016" index="19"/>
+				<field name="C901280017" index="20"/>
+				<field name="C901280018" index="21"/>
+				<field name="C901280019" index="22"/>
+				<field name="C901280020" index="23"/>
+				<field name="C901280021" index="24"/>
+				<field name="C901280022" index="25"/>
+				<field name="C901280023" index="26"/>
+				<field name="C901280024" index="27"/>
+				<field name="C901280025" index="28"/>
+				<field name="C901280026" index="29"/>
+				<field name="C901280027" index="30"/>
+				<field name="C901280028" index="31"/>
+				<field name="C901280029" index="32"/>
+				<field name="C901280030" index="33"/>
+				<field name="C901280031" index="34"/>
+				<field name="C901280032" index="35"/>
+				<field name="C901280033" index="36"/>
+				<field name="C901280034" index="37"/>
+				<field name="C901280035" index="38"/>
+				<field name="C901280036" index="39"/>
+				<field name="C901280037" index="40"/>
+				<field name="C901280038" index="41"/>
+				<field name="C901280039" index="42"/>
+				<field name="C901280040" index="43"/>
+				<field name="C901280041" index="44"/>
+				<field name="C901280042" index="45"/>
+				<field name="C901280043" index="46"/>
+				<field name="C901280044" index="47"/>
+				<field name="C901280045" index="48"/>
+				<field name="C901280046" index="49"/>
+				<field name="C901280047" index="50"/>
+				<field name="C901280048" index="51"/>
+				<field name="C901280049" index="52"/>
+				<field name="C901280050" index="53"/>
+				<field name="C901280051" index="54"/>
+				<field name="C901280052" index="55"/>
+				<field name="C901280053" index="56"/>
+				<field name="C901280054" index="57"/>
+				<field name="C901280055" index="58"/>
+				<field name="C901280056" index="59"/>
+				<field name="C901280057" index="60"/>
+				<field name="C901280058" index="61"/>
+				<field name="C901280059" index="62"/>
+				<field name="C901280060" index="63"/>
+				<field name="C901280061" index="64"/>
+				<field name="C901280062" index="65"/>
+				<field name="C901280063" index="66"/>
+				<field name="C901280064" index="67"/>
+				<field name="C901280065" index="68"/>
+				<field name="C901280066" index="69"/>
+				<field name="C901280067" index="70"/>
+				<field name="C901280068" index="71"/>
+				<field name="C901280069" index="72"/>
+				<field name="C901280070" index="73"/>
+				<field name="C901280071" index="74"/>
+				<field name="C901280072" index="75"/>
+				<field name="C901280073" index="76"/>
+				<field name="C901280074" index="77"/>
+				<field name="C901280075" index="78"/>
+				<field name="C901280076" index="79"/>
+				<field name="C901280077" index="80"/>
+				<field name="C901280078" index="81"/>
+				<field name="C901280079" index="82"/>
+				<field name="C901280080" index="83"/>
+				<field name="C901280081" index="84"/>
+				<field name="C901280082" index="85"/>
+				<field name="C901280083" index="86"/>
+				<field name="C901280084" index="87"/>
+				<field name="C901280085" index="88"/>
+				<field name="C901280086" index="89"/>
+				<field name="C901280087" index="90"/>
+				<field name="C901280088" index="91"/>
+				<field name="C901280089" index="92"/>
+				<field name="C901280090" index="93"/>
+				<field name="C901280091" index="94"/>
+				<field name="C901280092" index="95"/>
+				<field name="C901280093" index="96"/>
+				<field name="C901280094" index="97"/>
+				<field name="C901280095" index="98"/>
+				<field name="C901280096" index="99"/>
+				<field name="C901280097" index="100"/>
+				<field name="C901280098" index="101"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="19" file="/g/zte/100001_BSSGPFlowStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901210001" index="4"/>
+				<field name="C901210002" index="5"/>
+				<field name="C901210003" index="6"/>
+				<field name="C901210004" index="7"/>
+				<field name="C901210005" index="8"/>
+				<field name="C901210006" index="9"/>
+				<field name="C901210007" index="10"/>
+				<field name="C901210008" index="11"/>
+				<field name="C901210009" index="12"/>
+				<field name="C901210010" index="13"/>
+				<field name="C901210011" index="14"/>
+				<field name="C901210012" index="15"/>
+				<field name="C901210013" index="16"/>
+				<field name="C901210014" index="17"/>
+				<field name="C901210015" index="18"/>
+				<field name="C901210016" index="19"/>
+				<field name="C901210017" index="20"/>
+				<field name="C901210018" index="21"/>
+				<field name="C901210019" index="22"/>
+				<field name="C901210020" index="23"/>
+				<field name="C901210021" index="24"/>
+				<field name="C901210022" index="25"/>
+				<field name="C901210023" index="26"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="20" file="/g/zte/100001_GBMessageStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901220001" index="4"/>
+				<field name="C901220002" index="5"/>
+				<field name="C901220003" index="6"/>
+				<field name="C901220004" index="7"/>
+				<field name="C901220005" index="8"/>
+				<field name="C901220006" index="9"/>
+				<field name="C901220007" index="10"/>
+				<field name="C901220008" index="11"/>
+				<field name="C901220009" index="12"/>
+				<field name="C901220010" index="13"/>
+				<field name="C901220011" index="14"/>
+				<field name="C901220012" index="15"/>
+				<field name="C901220013" index="16"/>
+				<field name="C901220014" index="17"/>
+				<field name="C901220015" index="18"/>
+				<field name="C901220016" index="19"/>
+				<field name="C901220017" index="20"/>
+				<field name="C901220018" index="21"/>
+				<field name="C901220019" index="22"/>
+				<field name="C901220020" index="23"/>
+				<field name="C901220021" index="24"/>
+				<field name="C901220022" index="25"/>
+				<field name="C901220023" index="26"/>
+				<field name="C901220024" index="27"/>
+				<field name="C901220025" index="28"/>
+				<field name="C901220026" index="29"/>
+				<field name="C901220027" index="30"/>
+				<field name="C901220028" index="31"/>
+				<field name="C901220029" index="32"/>
+				<field name="C901220030" index="33"/>
+				<field name="C901220031" index="34"/>
+				<field name="C901220032" index="35"/>
+				<field name="C901220033" index="36"/>
+				<field name="C901220034" index="37"/>
+				<field name="C901220035" index="38"/>
+				<field name="C901220036" index="39"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="21" file="/g/zte/100001_HandoverCauseMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901060001" index="4"/>
+				<field name="C901060002" index="5"/>
+				<field name="C901060003" index="6"/>
+				<field name="C901060004" index="7"/>
+				<field name="C901060005" index="8"/>
+				<field name="C901060006" index="9"/>
+				<field name="C901060007" index="10"/>
+				<field name="C901060008" index="11"/>
+				<field name="C901060009" index="12"/>
+				<field name="C901060010" index="13"/>
+				<field name="C901060011" index="14"/>
+				<field name="C901060012" index="15"/>
+				<field name="C901060013" index="16"/>
+				<field name="C901060014" index="17"/>
+				<field name="C901060015" index="18"/>
+				<field name="C901060016" index="19"/>
+				<field name="C901060017" index="20"/>
+				<field name="C901060018" index="21"/>
+				<field name="C901060019" index="22"/>
+				<field name="C901060020" index="23"/>
+				<field name="C901060021" index="24"/>
+				<field name="C901060022" index="25"/>
+				<field name="C901060023" index="26"/>
+				<field name="C901060024" index="27"/>
+				<field name="C901060025" index="28"/>
+				<field name="C901060026" index="29"/>
+				<field name="C901060027" index="30"/>
+				<field name="C901060028" index="31"/>
+				<field name="C901060029" index="32"/>
+				<field name="C901060030" index="33"/>
+				<field name="C901060031" index="34"/>
+				<field name="C901060032" index="35"/>
+				<field name="C901060033" index="36"/>
+				<field name="C901060034" index="37"/>
+				<field name="C901060035" index="38"/>
+				<field name="C901060036" index="39"/>
+				<field name="C901060037" index="40"/>
+				<field name="C901060038" index="41"/>
+				<field name="C901060039" index="42"/>
+				<field name="C901060040" index="43"/>
+				<field name="C901060041" index="44"/>
+				<field name="C901060042" index="45"/>
+				<field name="C901060043" index="46"/>
+				<field name="C901060044" index="47"/>
+				<field name="C901060045" index="48"/>
+				<field name="C901060046" index="49"/>
+				<field name="C901060047" index="50"/>
+				<field name="C901060048" index="51"/>
+				<field name="C901060049" index="52"/>
+				<field name="C901060050" index="53"/>
+				<field name="C901060051" index="54"/>
+				<field name="C901060052" index="55"/>
+				<field name="C901060053" index="56"/>
+				<field name="C901060054" index="57"/>
+				<field name="C901060055" index="58"/>
+				<field name="C901060056" index="59"/>
+				<field name="C901060057" index="60"/>
+				<field name="C901060058" index="61"/>
+				<field name="C901060059" index="62"/>
+				<field name="C901060060" index="63"/>
+				<field name="C901060061" index="64"/>
+				<field name="C901060062" index="65"/>
+				<field name="C901060063" index="66"/>
+				<field name="C901060064" index="67"/>
+				<field name="C901060065" index="68"/>
+				<field name="C901060066" index="69"/>
+				<field name="C901060067" index="70"/>
+				<field name="C901060068" index="71"/>
+				<field name="C901060069" index="72"/>
+				<field name="C901060070" index="73"/>
+				<field name="C901060071" index="74"/>
+				<field name="C901060072" index="75"/>
+				<field name="C901060073" index="76"/>
+				<field name="C901060074" index="77"/>
+				<field name="C901060075" index="78"/>
+				<field name="C901060076" index="79"/>
+				<field name="C901060077" index="80"/>
+				<field name="C901060078" index="81"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="22" file="/g/zte/100001_MSTAMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901140001" index="4"/>
+				<field name="C901140002" index="5"/>
+				<field name="C901140003" index="6"/>
+				<field name="C901140004" index="7"/>
+				<field name="C901140005" index="8"/>
+				<field name="C901140006" index="9"/>
+				<field name="C901140007" index="10"/>
+				<field name="C901140008" index="11"/>
+				<field name="C901140009" index="12"/>
+				<field name="C901140010" index="13"/>
+				<field name="C901140011" index="14"/>
+				<field name="C901140012" index="15"/>
+				<field name="C901140013" index="16"/>
+				<field name="C901140014" index="17"/>
+				<field name="C901140015" index="18"/>
+				<field name="C901140016" index="19"/>
+				<field name="C901140017" index="20"/>
+				<field name="C901140018" index="21"/>
+				<field name="C901140019" index="22"/>
+				<field name="C901140020" index="23"/>
+				<field name="C901140021" index="24"/>
+				<field name="C901140022" index="25"/>
+				<field name="C901140023" index="26"/>
+				<field name="C901140024" index="27"/>
+				<field name="C901140025" index="28"/>
+				<field name="C901140026" index="29"/>
+				<field name="C901140027" index="30"/>
+				<field name="C901140028" index="31"/>
+				<field name="C901140029" index="32"/>
+				<field name="C901140030" index="33"/>
+				<field name="C901140031" index="34"/>
+				<field name="C901140032" index="35"/>
+				<field name="C901140033" index="36"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="23" file="/g/zte/100001_RMMAssignmentMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901050001" index="4"/>
+				<field name="C901050002" index="5"/>
+				<field name="C901050003" index="6"/>
+				<field name="C901050004" index="7"/>
+				<field name="C901050005" index="8"/>
+				<field name="C901050006" index="9"/>
+				<field name="C901050007" index="10"/>
+				<field name="C901050008" index="11"/>
+				<field name="C901050009" index="12"/>
+				<field name="C901050010" index="13"/>
+				<field name="C901050011" index="14"/>
+				<field name="C901050012" index="15"/>
+				<field name="C901050013" index="16"/>
+				<field name="C901050014" index="17"/>
+				<field name="C901050015" index="18"/>
+				<field name="C901050016" index="19"/>
+				<field name="C901050017" index="20"/>
+				<field name="C901050018" index="21"/>
+				<field name="C901050019" index="22"/>
+				<field name="C901050020" index="23"/>
+				<field name="C901050021" index="24"/>
+				<field name="C901050022" index="25"/>
+				<field name="C901050023" index="26"/>
+				<field name="C901050024" index="27"/>
+				<field name="C901050025" index="28"/>
+				<field name="C901050026" index="29"/>
+				<field name="C901050027" index="30"/>
+				<field name="C901050028" index="31"/>
+				<field name="C901050029" index="32"/>
+				<field name="C901050030" index="33"/>
+				<field name="C901050031" index="34"/>
+				<field name="C901050032" index="35"/>
+				<field name="C901050033" index="36"/>
+				<field name="C901050034" index="37"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="24" file="/g/zte/100001_SubCellStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901130001" index="4"/>
+				<field name="C901130002" index="5"/>
+				<field name="C901130003" index="6"/>
+				<field name="C901130004" index="7"/>
+				<field name="C901130005" index="8"/>
+				<field name="C901130006" index="9"/>
+				<field name="C901130007" index="10"/>
+				<field name="C901130008" index="11"/>
+				<field name="C901130009" index="12"/>
+				<field name="C901130010" index="13"/>
+				<field name="C901130011" index="14"/>
+				<field name="C901130012" index="15"/>
+				<field name="C901130013" index="16"/>
+				<field name="C901130014" index="17"/>
+				<field name="C901130015" index="18"/>
+				<field name="C901130016" index="19"/>
+				<field name="C901130017" index="20"/>
+				<field name="C901130018" index="21"/>
+				<field name="C901130019" index="22"/>
+				<field name="C901130020" index="23"/>
+				<field name="C901130021" index="24"/>
+				<field name="C901130022" index="25"/>
+				<field name="C901130023" index="26"/>
+				<field name="C901130024" index="27"/>
+				<field name="C901130025" index="28"/>
+				<field name="C901130026" index="29"/>
+				<field name="C901130027" index="30"/>
+				<field name="C901130028" index="31"/>
+				<field name="C901130029" index="32"/>
+				<field name="C901130030" index="33"/>
+				<field name="C901130031" index="34"/>
+				<field name="C901130032" index="35"/>
+				<field name="C901130033" index="36"/>
+				<field name="C901130034" index="37"/>
+				<field name="C901130035" index="38"/>
+				<field name="C901130036" index="39"/>
+				<field name="C901130037" index="40"/>
+				<field name="C901130038" index="41"/>
+				<field name="C901130039" index="42"/>
+				<field name="C901130040" index="43"/>
+				<field name="C901130041" index="44"/>
+				<field name="C901130042" index="45"/>
+				<field name="C901130043" index="46"/>
+				<field name="C901130044" index="47"/>
+				<field name="C901130045" index="48"/>
+				<field name="C901130046" index="49"/>
+				<field name="C901130047" index="50"/>
+				<field name="C901130048" index="51"/>
+				<field name="C901130049" index="52"/>
+				<field name="C901130050" index="53"/>
+				<field name="C901130051" index="54"/>
+				<field name="C901130052" index="55"/>
+				<field name="C901130053" index="56"/>
+				<field name="C901130054" index="57"/>
+				<field name="C901130055" index="58"/>
+				<field name="C901130056" index="59"/>
+				<field name="C901130057" index="60"/>
+				<field name="C901130058" index="61"/>
+				<field name="C901130059" index="62"/>
+				<field name="C901130060" index="63"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="25" file="/g/zte/100001_UpdownPACCHStatistic_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="SITEID" index="2"  occur="required" />
+				<field name="BTSID" index="3"  occur="required" />
+				<field name="C901160001" index="4"/>
+				<field name="C901160002" index="5"/>
+				<field name="C901160003" index="6"/>
+				<field name="C901160004" index="7"/>
+				<field name="C901160005" index="8"/>
+				<field name="C901160006" index="9"/>
+				<field name="C901160007" index="10"/>
+				<field name="C901160008" index="11"/>
+				<field name="C901160009" index="12"/>
+				<field name="C901160010" index="13"/>
+				<field name="C901160011" index="14"/>
+				<field name="C901160012" index="15"/>
+				<field name="C901160013" index="16"/>
+				<field name="C901160014" index="17"/>
+				<field name="C901160015" index="18"/>
+				<field name="C901160016" index="19"/>
+				<field name="C901160017" index="20"/>
+				<field name="C901160018" index="21"/>
+				<field name="C901160019" index="22"/>
+				<field name="C901160020" index="23"/>
+				<field name="C901160021" index="24"/>
+				<field name="C901160022" index="25"/>
+				<field name="C901160023" index="26"/>
+				<field name="C901160024" index="27"/>
+				<field name="C901160025" index="28"/>
+				<field name="C901160026" index="29"/>
+				<field name="C901160027" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="26" file="/g/zte/100001_BSCPSBasicMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="BSCID" index="2"  occur="required" />
+				<field name="C900030001" index="3"/>
+				<field name="C900030002" index="4"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="27" file="/g/zte/100001_CPULoadMeasurement_%%D%%EM%%Y_%%H00-*.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="COLLECTTIME" index="0"  occur="required" />
+				<field name="IBSCMEID" index="1"  occur="required" />
+				<field name="BSCID" index="2"  occur="required" />
+				<field name="C900050001" index="3"/>
+				<field name="C900050002" index="4"/>
+			</fields>
+		</ds>
+	</templet>
+
+</templets>

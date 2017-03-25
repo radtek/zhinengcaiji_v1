@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="clt_cm_gansu_complaint" split="|" >
+			<column name="order_id"   index="0"/>
+			<column name="accept_time"   index="1" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+			<column name="end_time"   index="2" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+			<column name="mobile_number"   index="3"/>
+			<column name="user_name"   index="4"/>
+			<column name="contact_name"   index="5"/>
+			<column name="contact_number"   index="6"/>
+			<column name="complaint_level"   index="7"/>
+			<column name="user_type"   index="8"/>
+			<column name="complaint_detail"   index="9" type="2" format="4000"/>
+			<column name="complaint_local_net"   index="10"/>
+			<column name="complaint_form_type"   index="11"/>
+			<column name="complaint_place_type"   index="12"/>
+			<column name="complaint_area_type"   index="13"/>
+			<column name="complaint_detail_place"   index="14"/>
+			<column name="complaint_place_lon"   index="15"/>
+			<column name="complaint_place_lat"   index="16"/>
+			<column name="complaint_result"   index="17"/>
+			<column name="complaint_reason_type"   index="18"/>
+			<column name="complaint_reason_detail"   index="19"/>
+			<column name="resolving_status"   index="20"/>
+			<column name="call_type"   index="21"/>
+			<column name="is_blind"   index="22"/>
+		</table>
+	</templet>
+</templets>

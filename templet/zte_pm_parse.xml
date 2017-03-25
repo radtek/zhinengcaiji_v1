@@ -1,0 +1,4041 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/w/zte/pm/100001_CellAccessAndDrop_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301230236" index="6"/>
+				<field name="C301230237" index="7"/>
+				<field name="C301230238" index="8"/>
+				<field name="C301230239" index="9"/>
+				<field name="C301230240" index="10"/>
+				<field name="C301230241" index="11"/>
+				<field name="C301230242" index="12"/>
+				<field name="C301230243" index="13"/>
+				<field name="C301230244" index="14"/>
+				<field name="C301230245" index="15"/>
+				<field name="C301230246" index="16"/>
+				<field name="C301230247" index="17"/>
+				<field name="C301230248" index="18"/>
+				<field name="C301230249" index="19"/>
+				<field name="C301230250" index="20"/>
+				<field name="C301230251" index="21"/>
+				<field name="C301230252" index="22"/>
+				<field name="C301230253" index="23"/>
+				<field name="C301230254" index="24"/>
+				<field name="C301230255" index="25"/>
+				<field name="C301230256" index="26"/>
+				<field name="C301230257" index="27"/>
+				<field name="C301230258" index="28"/>
+				<field name="C301230259" index="29"/>
+				<field name="C301230260" index="30"/>
+				<field name="C301230261" index="31"/>
+				<field name="C301230262" index="32"/>
+				<field name="C301230263" index="33"/>
+				<field name="C301230264" index="34"/>
+				<field name="C301230265" index="35"/>
+				<field name="C301230266" index="36"/>
+				<field name="C301230267" index="37"/>
+				<field name="C301230268" index="38"/>
+				<field name="C301230269" index="39"/>
+				<field name="C301230270" index="40"/>
+				<field name="C301230271" index="41"/>
+				<field name="C301230272" index="42"/>
+				<field name="C301230273" index="43"/>
+				<field name="C301230274" index="44"/>
+				<field name="C301230275" index="45"/>
+				<field name="C301230276" index="46"/>
+				<field name="C301230277" index="47"/>
+				<field name="C301230278" index="48"/>
+				<field name="C301230279" index="49"/>
+				<field name="C301230280" index="50"/>
+				<field name="C301230281" index="51"/>
+				<field name="C301230282" index="52"/>
+				<field name="C301230283" index="53"/>
+				<field name="C301230284" index="54"/>
+				<field name="C301230285" index="55"/>
+				<field name="C301230286" index="56"/>
+				<field name="C301230287" index="57"/>
+				<field name="C301230288" index="58"/>
+				<field name="C301230289" index="59"/>
+				<field name="C301230290" index="60"/>
+				<field name="C301230291" index="61"/>
+				<field name="C301230292" index="62"/>
+				<field name="C301230293" index="63"/>
+				<field name="C301230294" index="64"/>
+				<field name="C301230295" index="65"/>
+				<field name="C301230296" index="66"/>
+				<field name="C301230297" index="67"/>
+				<field name="C301230298" index="68"/>
+				<field name="C301230299" index="69"/>
+				<field name="C301230300" index="70"/>
+				<field name="C301230301" index="71"/>
+				<field name="C301230302" index="72"/>
+				<field name="C301230303" index="73"/>
+				<field name="C301230304" index="74"/>
+				<field name="C301230305" index="75"/>
+				<field name="C301230306" index="76"/>
+				<field name="C301230307" index="77"/>
+				<field name="C301230308" index="78"/>
+				<field name="C301230309" index="79"/>
+				<field name="C301230310" index="80"/>
+				<field name="C301230311" index="81"/>
+				<field name="C301230312" index="82"/>
+				<field name="C301230313" index="83"/>
+				<field name="C301230314" index="84"/>
+				<field name="C301230315" index="85"/>
+				<field name="C301230316" index="86"/>
+				<field name="C301230317" index="87"/>
+				<field name="C301230318" index="88"/>
+				<field name="C301230319" index="89"/>
+				<field name="C301230320" index="90"/>
+				<field name="C301230321" index="91"/>
+				<field name="C301230322" index="92"/>
+				<field name="C301230323" index="93"/>
+				<field name="C301230324" index="94"/>
+				<field name="C301230325" index="95"/>
+				<field name="C301230326" index="96"/>
+				<field name="C301230327" index="97"/>
+				<field name="C301230328" index="98"/>
+				<field name="C301230329" index="99"/>
+				<field name="C301230330" index="100"/>
+				<field name="C301230331" index="101"/>
+				<field name="C301230332" index="102"/>
+				<field name="C301230333" index="103"/>
+				<field name="C301230334" index="104"/>
+				<field name="C301230335" index="105"/>
+				<field name="C301230336" index="106"/>
+				<field name="C301230337" index="107"/>
+				<field name="C301230338" index="108"/>
+				<field name="C301230339" index="109"/>
+				<field name="C301230340" index="110"/>
+				<field name="C301230341" index="111"/>
+				<field name="C301230342" index="112"/>
+				<field name="C301230343" index="113"/>
+				<field name="C301230344" index="114"/>
+				<field name="C301230345" index="115"/>
+				<field name="C301230346" index="116"/>
+				<field name="C301230347" index="117"/>
+				<field name="C301230348" index="118"/>
+				<field name="C301230349" index="119"/>
+				<field name="C301230350" index="120"/>
+				<field name="C301230351" index="121"/>
+				<field name="C301230352" index="122"/>
+				<field name="C301230353" index="123"/>
+				<field name="C301230354" index="124"/>
+				<field name="C301230355" index="125"/>
+				<field name="C301230356" index="126"/>
+				<field name="C301230357" index="127"/>
+				<field name="C301230358" index="128"/>
+				<field name="C301230359" index="129"/>
+				<field name="C301230360" index="130"/>
+				<field name="C301230361" index="131"/>
+				<field name="C301230362" index="132"/>
+				<field name="C301230363" index="133"/>
+				<field name="C301230364" index="134"/>
+				<field name="C301230365" index="135"/>
+				<field name="C301230366" index="136"/>
+				<field name="C301230367" index="137"/>
+				<field name="C301230368" index="138"/>
+				<field name="C301230369" index="139"/>
+				<field name="C301230370" index="140"/>
+				<field name="C301230371" index="141"/>
+				<field name="C301230372" index="142"/>
+				<field name="C301230373" index="143"/>
+				<field name="C301230374" index="144"/>
+				<field name="C301230375" index="145"/>
+				<field name="C301230376" index="146"/>
+				<field name="C301230377" index="147"/>
+				<field name="C301230378" index="148"/>
+				<field name="C301230379" index="149"/>
+				<field name="C301230380" index="150"/>
+				<field name="C301230381" index="151"/>
+				<field name="C301230382" index="152"/>
+				<field name="C301230383" index="153"/>
+				<field name="C301230384" index="154"/>
+				<field name="C301230385" index="155"/>
+				<field name="C301230386" index="156"/>
+				<field name="C301230387" index="157"/>
+				<field name="C301230388" index="158"/>
+				<field name="C301230389" index="159"/>
+				<field name="C301230390" index="160"/>
+				<field name="C301230391" index="161"/>
+				<field name="C301230392" index="162"/>
+				<field name="C301230393" index="163"/>
+				<field name="C301230394" index="164"/>
+				<field name="C301230395" index="165"/>
+				<field name="C301230396" index="166"/>
+				<field name="C301230397" index="167"/>
+				<field name="C301230398" index="168"/>
+				<field name="C301230399" index="169"/>
+				<field name="C301230400" index="170"/>
+				<field name="C301230401" index="171"/>
+				<field name="C301230402" index="172"/>
+				<field name="C301230403" index="173"/>
+				<field name="C301230404" index="174"/>
+				<field name="C301230405" index="175"/>
+				<field name="C301230406" index="176"/>
+				<field name="C301230407" index="177"/>
+				<field name="C301230408" index="178"/>
+				<field name="C301230409" index="179"/>
+				<field name="C301230410" index="180"/>
+				<field name="C301230411" index="181"/>
+				<field name="C301230412" index="182"/>
+				<field name="C301230413" index="183"/>
+				<field name="C301230414" index="184"/>
+				<field name="C301230415" index="185"/>
+				<field name="C301230416" index="186"/>
+				<field name="C301230417" index="187"/>
+				<field name="C301230418" index="188"/>
+				<field name="C301230419" index="189"/>
+				<field name="C301230420" index="190"/>
+				<field name="C301230421" index="191"/>
+				<field name="C301230422" index="192"/>
+				<field name="C301230423" index="193"/>
+				<field name="C301230424" index="194"/>
+				<field name="C301231341" index="195"/>
+				<field name="C301231342" index="196"/>
+				<field name="C301231559" index="197"/>
+				<field name="C301231560" index="198"/>
+				<field name="C301231563" index="199"/>
+				<field name="C301231564" index="200"/>
+				<field name="C301231565" index="201"/>
+				<field name="C301231566" index="202"/>
+				<field name="C301231567" index="203"/>
+				<field name="C301231568" index="204"/>
+				<field name="C301231569" index="205"/>
+				<field name="C301231570" index="206"/>
+				<field name="C301231571" index="207"/>
+				<field name="C301231572" index="208"/>
+				<field name="C301231573" index="209"/>
+				<field name="C301231574" index="210"/>
+				<field name="C301231575" index="211"/>
+				<field name="C301231576" index="212"/>
+				<field name="C301231577" index="213"/>
+				<field name="C301231578" index="214"/>
+				<field name="C301231840" index="215"/>
+				<field name="C301231841" index="216"/>
+				<field name="C301231842" index="217"/>
+				<field name="C301231843" index="218"/>
+				<field name="C301231844" index="219"/>
+				<field name="C301231845" index="220"/>
+				<field name="C301231846" index="221"/>
+				<field name="C301231847" index="222"/>
+				<field name="C301231848" index="223"/>
+				<field name="C301231849" index="224"/>
+				<field name="C301231850" index="225"/>
+				<field name="C301231851" index="226"/>
+				<field name="C301231852" index="227"/>
+				<field name="C301231853" index="228"/>
+				<field name="C301231854" index="229"/>
+				<field name="C301231855" index="230"/>
+				<field name="C301231856" index="231"/>
+				<field name="C301231857" index="232"/>
+				<field name="C301231860" index="233"/>
+				<field name="C301231861" index="234"/>
+				<field name="C301231862" index="235"/>
+				<field name="C301231863" index="236"/>
+				<field name="C301231864" index="237"/>
+				<field name="C301231865" index="238"/>
+				<field name="C301231866" index="239"/>
+				<field name="C301231867" index="240"/>
+				<field name="C301231868" index="241"/>
+				<field name="C301231869" index="242"/>
+				<field name="C301231870" index="243"/>
+				<field name="C301231871" index="244"/>
+				<field name="C301231872" index="245"/>
+				<field name="C301231873" index="246"/>
+				<field name="C301231874" index="247"/>
+				<field name="C301231875" index="248"/>
+				<field name="C301231876" index="249"/>
+				<field name="C301231877" index="250"/>
+				<field name="C301231918" index="251"/>
+				<field name="C301231919" index="252"/>
+				<field name="C301231920" index="253"/>
+				<field name="C301231921" index="254"/>
+				<field name="C301231922" index="255"/>
+				<field name="C301231923" index="256"/>
+				<field name="C301231924" index="257"/>
+				<field name="C301231925" index="258"/>
+				<field name="C301231926" index="259"/>
+				<field name="C301231927" index="260"/>
+				<field name="C301231928" index="261"/>
+				<field name="C301231929" index="262"/>
+				<field name="C301231930" index="263"/>
+				<field name="C301231931" index="264"/>
+				<field name="C301231936" index="265"/>
+				<field name="C301231937" index="266"/>
+				<field name="C301231938" index="267"/>
+				<field name="C301231939" index="268"/>
+				<field name="C301232031" index="269"/>
+				<field name="C301232032" index="270"/>
+				<field name="C301232033" index="271"/>
+				<field name="C301232034" index="272"/>
+				<field name="C301232035" index="273"/>
+				<field name="C301232036" index="274"/>
+				<field name="C301232037" index="275"/>
+				<field name="C301232038" index="276"/>
+				<field name="C301232049" index="277"/>
+				<field name="C301232050" index="278"/>
+				<field name="C301232051" index="279"/>
+				<field name="C301232123" index="280"/>
+				<field name="C301232124" index="281"/>
+				<field name="C301232125" index="282"/>
+				<field name="C301232138" index="283"/>
+				<field name="C301232139" index="284"/>
+				<field name="C301232140" index="285"/>
+				<field name="C301232141" index="286"/>
+				<field name="C301232164" index="287"/>
+				<field name="C301232165" index="288"/>
+				<field name="C301232166" index="289"/>
+				<field name="C301232167" index="290"/>
+				<field name="C301232182" index="291"/>
+				<field name="C301232183" index="292"/>
+				<field name="C301232184" index="293"/>
+				<field name="C301232185" index="294"/>
+				<field name="C301232186" index="295"/>
+				<field name="C301232187" index="296"/>
+				<field name="C301232188" index="297"/>
+				<field name="C301232189" index="298"/>
+				<field name="C301232190" index="299"/>
+				<field name="C301232191" index="300"/>
+				<field name="C301232192" index="301"/>
+				<field name="C301232193" index="302"/>
+				<field name="C301232194" index="303"/>
+				<field name="C301232195" index="304"/>
+				<field name="C301232196" index="305"/>
+				<field name="C301232197" index="306"/>
+				<field name="C301232198" index="307"/>
+				<field name="C301232199" index="308"/>
+				<field name="C301232200" index="309"/>
+				<field name="C301232201" index="310"/>
+				<field name="C301232202" index="311"/>
+				<field name="C301232203" index="312"/>
+				<field name="C301232204" index="313"/>
+				<field name="C301232205" index="314"/>
+				<field name="C301232206" index="315"/>
+				<field name="C301232207" index="316"/>
+				<field name="C301232208" index="317"/>
+				<field name="C301232209" index="318"/>
+				<field name="C301232210" index="319"/>
+				<field name="C301232211" index="320"/>
+				<field name="C301232212" index="321"/>
+				<field name="C301232213" index="322"/>
+				<field name="C301232214" index="323"/>
+				<field name="C301232215" index="324"/>
+				<field name="C301232216" index="325"/>
+				<field name="C301232217" index="326"/>
+				<field name="C301232218" index="327"/>
+				<field name="C301232219" index="328"/>
+				<field name="C301232220" index="329"/>
+				<field name="C301232221" index="330"/>
+				<field name="C301232222" index="331"/>
+				<field name="C301232223" index="332"/>
+				<field name="C301232224" index="333"/>
+				<field name="C301232225" index="334"/>
+				<field name="C301232226" index="335"/>
+				<field name="LASTCCOLLECTTIME" index="336"/>
+				<field name="C301232242" index="337"/>
+				<field name="C301232231" index="338"/>
+				<field name="C301232232" index="339"/>
+				<field name="C301232233" index="340"/>
+				<field name="C301232234" index="341"/>
+				<field name="C301232235" index="342"/>
+				<field name="C301232236" index="343"/>
+				<field name="C301232237" index="344"/>
+				<field name="C301232238" index="345"/>
+				<field name="C301232239" index="346"/>
+				<field name="C301232240" index="347"/>
+				<field name="C301232241" index="348"/>
+				<field name="C301232243" index="349"/>
+				<field name="C301232244" index="350"/>
+				<field name="C301232245" index="351"/>
+				<field name="C301232246" index="352"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="1" file="/w/zte/pm/100001_CellCarrier_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301300071" index="6"/>
+				<field name="C301300072" index="7"/>
+				<field name="C301300073" index="8"/>
+				<field name="C301300074" index="9"/>
+				<field name="C301300075" index="10"/>
+				<field name="C301300076" index="11"/>
+				<field name="C301300077" index="12"/>
+				<field name="C301300078" index="13"/>
+				<field name="C301301823" index="14"/>
+				<field name="LASTCCOLLECTTIME" index="15"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="2" file="/w/zte/pm/100001_CellChannelSwitch_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301470868" index="6"/>
+				<field name="C301470869" index="7"/>
+				<field name="C301470870" index="8"/>
+				<field name="C301470871" index="9"/>
+				<field name="C301470872" index="10"/>
+				<field name="C301470873" index="11"/>
+				<field name="C301470874" index="12"/>
+				<field name="C301470875" index="13"/>
+				<field name="C301470876" index="14"/>
+				<field name="C301470877" index="15"/>
+				<field name="C301470878" index="16"/>
+				<field name="C301470879" index="17"/>
+				<field name="C301470880" index="18"/>
+				<field name="C301470881" index="19"/>
+				<field name="C301470882" index="20"/>
+				<field name="C301470883" index="21"/>
+				<field name="C301470884" index="22"/>
+				<field name="C301470885" index="23"/>
+				<field name="C301470886" index="24"/>
+				<field name="C301470887" index="25"/>
+				<field name="C301470888" index="26"/>
+				<field name="C301470889" index="27"/>
+				<field name="C301470890" index="28"/>
+				<field name="C301470891" index="29"/>
+				<field name="C301470892" index="30"/>
+				<field name="C301470893" index="31"/>
+				<field name="C301470894" index="32"/>
+				<field name="C301470895" index="33"/>
+				<field name="C301470896" index="34"/>
+				<field name="C301470897" index="35"/>
+				<field name="C301470898" index="36"/>
+				<field name="C301470899" index="37"/>
+				<field name="C301470900" index="38"/>
+				<field name="C301470901" index="39"/>
+				<field name="C301470902" index="40"/>
+				<field name="C301470903" index="41"/>
+				<field name="C301470904" index="42"/>
+				<field name="C301470905" index="43"/>
+				<field name="C301470906" index="44"/>
+				<field name="C301470907" index="45"/>
+				<field name="C301471222" index="46"/>
+				<field name="C301471223" index="47"/>
+				<field name="C301471224" index="48"/>
+				<field name="C301471225" index="49"/>
+				<field name="C301471226" index="50"/>
+				<field name="C301471227" index="51"/>
+				<field name="C301471228" index="52"/>
+				<field name="C301471229" index="53"/>
+				<field name="C301471230" index="54"/>
+				<field name="C301471231" index="55"/>
+				<field name="C301471232" index="56"/>
+				<field name="C301471233" index="57"/>
+				<field name="C301471234" index="58"/>
+				<field name="C301471235" index="59"/>
+				<field name="C301471236" index="60"/>
+				<field name="C301471237" index="61"/>
+				<field name="LASTCCOLLECTTIME" index="62"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="3" file="/w/zte/pm/100001_CellCodeResource_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301270047" index="6"/>
+				<field name="C301270048" index="7"/>
+				<field name="C301270049" index="8"/>
+				<field name="C301270050" index="9"/>
+				<field name="C301270051" index="10"/>
+				<field name="C301270052" index="11"/>
+				<field name="C301270053" index="12"/>
+				<field name="C301270054" index="13"/>
+				<field name="C301270055" index="14"/>
+				<field name="C301270056" index="15"/>
+				<field name="C301270057" index="16"/>
+				<field name="LASTCCOLLECTTIME" index="17"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="4" file="/w/zte/pm/100001_CellCommonChannel_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301821268" index="6"/>
+				<field name="C301821269" index="7"/>
+				<field name="C301821270" index="8"/>
+				<field name="C301821271" index="9"/>
+				<field name="C301821272" index="10"/>
+				<field name="C301821273" index="11"/>
+				<field name="C301821274" index="12"/>
+				<field name="C301821275" index="13"/>
+				<field name="C301821276" index="14"/>
+				<field name="C301821277" index="15"/>
+				<field name="C301821278" index="16"/>
+				<field name="C301821279" index="17"/>
+				<field name="C301821280" index="18"/>
+				<field name="C301821281" index="19"/>
+				<field name="C301821282" index="20"/>
+				<field name="C301821283" index="21"/>
+				<field name="C301821284" index="22"/>
+				<field name="C301821285" index="23"/>
+				<field name="LASTCCOLLECTTIME" index="24"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="5" file="/w/zte/pm/100001_CellDpa_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="SDRID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C304020000" index="5"/>
+				<field name="C304020001" index="6"/>
+				<field name="C304020002" index="7"/>
+				<field name="C304020003" index="8"/>
+				<field name="C304020004" index="9"/>
+				<field name="C304020005" index="10"/>
+				<field name="C304020006" index="11"/>
+				<field name="C304020007" index="12"/>
+				<field name="C304020008" index="13"/>
+				<field name="C304020009" index="14"/>
+				<field name="C304020010" index="15"/>
+				<field name="C304020011" index="16"/>
+				<field name="C304020012" index="17"/>
+				<field name="C304020013" index="18"/>
+				<field name="C304020014" index="19"/>
+				<field name="C304020015" index="20"/>
+				<field name="C304020016" index="21"/>
+				<field name="C304020017" index="22"/>
+				<field name="C304020018" index="23"/>
+				<field name="C304020019" index="24"/>
+				<field name="C304020020" index="25"/>
+				<field name="C304020021" index="26"/>
+				<field name="C304020022" index="27"/>
+				<field name="C304020023" index="28"/>
+				<field name="C304020024" index="29"/>
+				<field name="C304020025" index="30"/>
+				<field name="C304020026" index="31"/>
+				<field name="C304020027" index="32"/>
+				<field name="C304020028" index="33"/>
+				<field name="C304020029" index="34"/>
+				<field name="C304020030" index="35"/>
+				<field name="C304020031" index="36"/>
+				<field name="C304020032" index="37"/>
+				<field name="C304020033" index="38"/>
+				<field name="C304020034" index="39"/>
+				<field name="LASTCCOLLECTTIME" index="40"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="6" file="/w/zte/pm/100001_CellFlusHs_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301360549" index="6"/>
+				<field name="C301360550" index="7"/>
+				<field name="C301360551" index="8"/>
+				<field name="C301360552" index="9"/>
+				<field name="C301360553" index="10"/>
+				<field name="C301360554" index="11"/>
+				<field name="C301360555" index="12"/>
+				<field name="C301360556" index="13"/>
+				<field name="C301360557" index="14"/>
+				<field name="C301360558" index="15"/>
+				<field name="C301360559" index="16"/>
+				<field name="C301360560" index="17"/>
+				<field name="C301360561" index="18"/>
+				<field name="C301360562" index="19"/>
+				<field name="C301360563" index="20"/>
+				<field name="C301360564" index="21"/>
+				<field name="C301361182" index="22"/>
+				<field name="C301361183" index="23"/>
+				<field name="C301361184" index="24"/>
+				<field name="C301361185" index="25"/>
+				<field name="LASTCCOLLECTTIME" index="26"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="7" file="/w/zte/pm/100001_CellHardHandover_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301410616" index="6"/>
+				<field name="C301410617" index="7"/>
+				<field name="C301410618" index="8"/>
+				<field name="C301410619" index="9"/>
+				<field name="C301410620" index="10"/>
+				<field name="C301410621" index="11"/>
+				<field name="C301410622" index="12"/>
+				<field name="C301410623" index="13"/>
+				<field name="C301410624" index="14"/>
+				<field name="C301410625" index="15"/>
+				<field name="C301410626" index="16"/>
+				<field name="C301410627" index="17"/>
+				<field name="C301410628" index="18"/>
+				<field name="C301410629" index="19"/>
+				<field name="C301410630" index="20"/>
+				<field name="C301410631" index="21"/>
+				<field name="C301410632" index="22"/>
+				<field name="C301410633" index="23"/>
+				<field name="C301410634" index="24"/>
+				<field name="C301410635" index="25"/>
+				<field name="C301410636" index="26"/>
+				<field name="C301410637" index="27"/>
+				<field name="C301410638" index="28"/>
+				<field name="C301410639" index="29"/>
+				<field name="C301410640" index="30"/>
+				<field name="C301410641" index="31"/>
+				<field name="C301410642" index="32"/>
+				<field name="C301410643" index="33"/>
+				<field name="C301410644" index="34"/>
+				<field name="C301410645" index="35"/>
+				<field name="C301410646" index="36"/>
+				<field name="C301410647" index="37"/>
+				<field name="C301410648" index="38"/>
+				<field name="C301410649" index="39"/>
+				<field name="C301410650" index="40"/>
+				<field name="C301410651" index="41"/>
+				<field name="C301410652" index="42"/>
+				<field name="C301410653" index="43"/>
+				<field name="C301410654" index="44"/>
+				<field name="C301410655" index="45"/>
+				<field name="C301410656" index="46"/>
+				<field name="C301410657" index="47"/>
+				<field name="C301410658" index="48"/>
+				<field name="C301410659" index="49"/>
+				<field name="C301410660" index="50"/>
+				<field name="C301410661" index="51"/>
+				<field name="C301410662" index="52"/>
+				<field name="C301410663" index="53"/>
+				<field name="C301410664" index="54"/>
+				<field name="C301410665" index="55"/>
+				<field name="C301410666" index="56"/>
+				<field name="C301410667" index="57"/>
+				<field name="C301410668" index="58"/>
+				<field name="C301410669" index="59"/>
+				<field name="C301412089" index="60"/>
+				<field name="C301412090" index="61"/>
+				<field name="C301412091" index="62"/>
+				<field name="C301412092" index="63"/>
+				<field name="C301412093" index="64"/>
+				<field name="C301412094" index="65"/>
+				<field name="C301412095" index="66"/>
+				<field name="C301412096" index="67"/>
+				<field name="C301412097" index="68"/>
+				<field name="C301412098" index="69"/>
+				<field name="C301412099" index="70"/>
+				<field name="C301412100" index="71"/>
+				<field name="C301412101" index="72"/>
+				<field name="C301412102" index="73"/>
+				<field name="C301412103" index="74"/>
+				<field name="C301412104" index="75"/>
+				<field name="C301412105" index="76"/>
+				<field name="C301412106" index="77"/>
+				<field name="C301412107" index="78"/>
+				<field name="C301412108" index="79"/>
+				<field name="C301412109" index="80"/>
+				<field name="C301412110" index="81"/>
+				<field name="C301412111" index="82"/>
+				<field name="C301412112" index="83"/>
+				<field name="C301412113" index="84"/>
+				<field name="C301412114" index="85"/>
+				<field name="C301412115" index="86"/>
+				<field name="C301412116" index="87"/>
+				<field name="C301412117" index="88"/>
+				<field name="C301412118" index="89"/>
+				<field name="C301412119" index="90"/>
+				<field name="C301412120" index="91"/>
+				<field name="C301412156" index="92"/>
+				<field name="C301412157" index="93"/>
+				<field name="C301412158" index="94"/>
+				<field name="C301412159" index="95"/>
+				<field name="C301412160" index="96"/>
+				<field name="C301412161" index="97"/>
+				<field name="LASTCCOLLECTTIME" index="98"/>
+				<field name="C301412247" index="99"/>
+				<field name="C301412248" index="100"/>
+				<field name="C301412249" index="101"/>
+				<field name="C301412250" index="102"/>
+				<field name="C301412251" index="103"/>
+				<field name="C301412252" index="104"/>
+				<field name="C301412253" index="105"/>
+				<field name="C301412254" index="106"/>
+				<field name="C301412255" index="107"/>
+				<field name="C301412256" index="108"/>
+				<field name="C301412257" index="109"/>
+				<field name="C301412258" index="110"/>
+				<field name="C301412259" index="111"/>
+				<field name="C301412260" index="112"/>
+				<field name="C301412261" index="113"/>
+				<field name="C301412262" index="114"/>
+				<field name="C301412263" index="115"/>
+				<field name="C301412264" index="116"/>
+				<field name="C301412265" index="117"/>
+				<field name="C301412266" index="118"/>
+				<field name="C301412267" index="119"/>
+				<field name="C301412268" index="120"/>
+				<field name="C301412269" index="121"/>
+				<field name="C301412270" index="122"/>
+				<field name="C301412271" index="123"/>
+				<field name="C301412272" index="124"/>
+				<field name="C301412273" index="125"/>
+				<field name="C301412274" index="126"/>
+				<field name="C301412275" index="127"/>
+				<field name="C301412276" index="128"/>
+				<field name="C301412277" index="129"/>
+				<field name="C301412278" index="130"/>
+				<field name="C301412279" index="131"/>
+				<field name="C301412280" index="132"/>
+				<field name="C301412281" index="133"/>
+				<field name="C301412282" index="134"/>
+				<field name="C301412283" index="135"/>
+				<field name="C301412284" index="136"/>
+				<field name="C301412285" index="137"/>
+				<field name="C301412286" index="138"/>
+				<field name="C301412287" index="139"/>
+				<field name="C301412288" index="140"/>
+				<field name="C301412289" index="141"/>
+				<field name="C301412290" index="142"/>
+				<field name="C301412291" index="143"/>
+				<field name="C301412292" index="144"/>
+				<field name="C301412293" index="145"/>
+				<field name="C301412294" index="146"/>
+				<field name="C301412295" index="147"/>
+				<field name="C301412296" index="148"/>
+				<field name="C301412297" index="149"/>
+				<field name="C301412298" index="150"/>
+				<field name="C301412299" index="151"/>
+				<field name="C301412300" index="152"/>
+				<field name="C301412301" index="153"/>
+				<field name="C301412302" index="154"/>
+				<field name="C301412303" index="155"/>
+				<field name="C301412304" index="156"/>
+				<field name="C301412305" index="157"/>
+				<field name="C301412306" index="158"/>
+				<field name="C301412307" index="159"/>
+				<field name="C301412308" index="160"/>
+				<field name="C301412309" index="161"/>
+				<field name="C301412310" index="162"/>
+				<field name="C301412311" index="163"/>
+				<field name="C301412312" index="164"/>
+				<field name="C301412313" index="165"/>
+				<field name="C301412314" index="166"/>
+				<field name="C301412315" index="167"/>
+				<field name="C301412316" index="168"/>
+				<field name="C301412317" index="169"/>
+				<field name="C301412318" index="170"/>
+				<field name="C301412319" index="171"/>
+				<field name="C301412320" index="172"/>
+				<field name="C301412321" index="173"/>
+				<field name="C301412322" index="174"/>
+				<field name="C301412323" index="175"/>
+				<field name="C301412324" index="176"/>
+				<field name="C301412325" index="177"/>
+				<field name="C301412326" index="178"/>
+				<field name="C301412327" index="179"/>
+				<field name="C301412328" index="180"/>
+				<field name="C301412329" index="181"/>
+				<field name="C301412330" index="182"/>
+				<field name="C301412331" index="183"/>
+				<field name="C301412332" index="184"/>
+				<field name="C301412333" index="185"/>
+				<field name="C301412334" index="186"/>
+				<field name="C301412335" index="187"/>
+				<field name="C301412336" index="188"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="8" file="/w/zte/pm/100001_CellHSDPACarrier_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301310079" index="6"/>
+				<field name="C301310080" index="7"/>
+				<field name="C301310081" index="8"/>
+				<field name="C301310082" index="9"/>
+				<field name="C301310083" index="10"/>
+				<field name="C301310084" index="11"/>
+				<field name="C301310085" index="12"/>
+				<field name="C301310086" index="13"/>
+				<field name="LASTCCOLLECTTIME" index="14"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="9" file="/w/zte/pm/100001_CellHSDPACodeResource_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301280058" index="6"/>
+				<field name="C301280059" index="7"/>
+				<field name="C301280060" index="8"/>
+				<field name="C301280061" index="9"/>
+				<field name="C301280062" index="10"/>
+				<field name="C301280063" index="11"/>
+				<field name="LASTCCOLLECTTIME" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="10" file="/w/zte/pm/100001_CellHSDPANodeB_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301330174" index="6"/>
+				<field name="C301330175" index="7"/>
+				<field name="C301330176" index="8"/>
+				<field name="C301330177" index="9"/>
+				<field name="C301330178" index="10"/>
+				<field name="C301331550" index="11"/>
+				<field name="LASTCCOLLECTTIME" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="11" file="/w/zte/pm/100001_CellIncomingInterRATHandover_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301490941" index="6"/>
+				<field name="C301490942" index="7"/>
+				<field name="C301490943" index="8"/>
+				<field name="C301490944" index="9"/>
+				<field name="C301490945" index="10"/>
+				<field name="C301490946" index="11"/>
+				<field name="C301490947" index="12"/>
+				<field name="C301490948" index="13"/>
+				<field name="C301490949" index="14"/>
+				<field name="C301490950" index="15"/>
+				<field name="C301490951" index="16"/>
+				<field name="C301490952" index="17"/>
+				<field name="C301490953" index="18"/>
+				<field name="C301490954" index="19"/>
+				<field name="C301490955" index="20"/>
+				<field name="C301490956" index="21"/>
+				<field name="C301490957" index="22"/>
+				<field name="C301490958" index="23"/>
+				<field name="C301490959" index="24"/>
+				<field name="C301490960" index="25"/>
+				<field name="C301490961" index="26"/>
+				<field name="C301490962" index="27"/>
+				<field name="C301490963" index="28"/>
+				<field name="C301490964" index="29"/>
+				<field name="C301490965" index="30"/>
+				<field name="C301490966" index="31"/>
+				<field name="C301490967" index="32"/>
+				<field name="C301490968" index="33"/>
+				<field name="C301490969" index="34"/>
+				<field name="C301490970" index="35"/>
+				<field name="C301490971" index="36"/>
+				<field name="C301490972" index="37"/>
+				<field name="C301490973" index="38"/>
+				<field name="C301490974" index="39"/>
+				<field name="C301490975" index="40"/>
+				<field name="C301490976" index="41"/>
+				<field name="C301490977" index="42"/>
+				<field name="C301490978" index="43"/>
+				<field name="C301490979" index="44"/>
+				<field name="C301490980" index="45"/>
+				<field name="C301490981" index="46"/>
+				<field name="C301490982" index="47"/>
+				<field name="C301490983" index="48"/>
+				<field name="C301492065" index="49"/>
+				<field name="C301492066" index="50"/>
+				<field name="C301492067" index="51"/>
+				<field name="C301492068" index="52"/>
+				<field name="C301492069" index="53"/>
+				<field name="C301492070" index="54"/>
+				<field name="C301492071" index="55"/>
+				<field name="C301492072" index="56"/>
+				<field name="C301492073" index="57"/>
+				<field name="C301492074" index="58"/>
+				<field name="C301492075" index="59"/>
+				<field name="C301492076" index="60"/>
+				<field name="C301492077" index="61"/>
+				<field name="C301492078" index="62"/>
+				<field name="C301492079" index="63"/>
+				<field name="C301492080" index="64"/>
+				<field name="LASTCCOLLECTTIME" index="65"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="12" file="/w/zte/pm/100001_CellIubRadioLinkManagement_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301250000" index="6"/>
+				<field name="C301250001" index="7"/>
+				<field name="C301250002" index="8"/>
+				<field name="C301250003" index="9"/>
+				<field name="C301250004" index="10"/>
+				<field name="C301250005" index="11"/>
+				<field name="C301250006" index="12"/>
+				<field name="C301250007" index="13"/>
+				<field name="C301250008" index="14"/>
+				<field name="C301250009" index="15"/>
+				<field name="C301250010" index="16"/>
+				<field name="C301250011" index="17"/>
+				<field name="C301250012" index="18"/>
+				<field name="C301250013" index="19"/>
+				<field name="C301250014" index="20"/>
+				<field name="C301250015" index="21"/>
+				<field name="C301250016" index="22"/>
+				<field name="C301250017" index="23"/>
+				<field name="C301250018" index="24"/>
+				<field name="C301250019" index="25"/>
+				<field name="C301250020" index="26"/>
+				<field name="C301250021" index="27"/>
+				<field name="C301250022" index="28"/>
+				<field name="C301250023" index="29"/>
+				<field name="C301250024" index="30"/>
+				<field name="C301251970" index="31"/>
+				<field name="LASTCCOLLECTTIME" index="32"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="13" file="/w/zte/pm/100001_CellLoadCtrl_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301420744" index="6"/>
+				<field name="C301420745" index="7"/>
+				<field name="C301420746" index="8"/>
+				<field name="C301420747" index="9"/>
+				<field name="C301420748" index="10"/>
+				<field name="C301420749" index="11"/>
+				<field name="C301420750" index="12"/>
+				<field name="C301420751" index="13"/>
+				<field name="C301420752" index="14"/>
+				<field name="C301420753" index="15"/>
+				<field name="C301421336" index="16"/>
+				<field name="C301421820" index="17"/>
+				<field name="C301421821" index="18"/>
+				<field name="C301421822" index="19"/>
+				<field name="LASTCCOLLECTTIME" index="20"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="14" file="/w/zte/pm/100001_CellPaging_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301290064" index="6"/>
+				<field name="C301290065" index="7"/>
+				<field name="C301290066" index="8"/>
+				<field name="C301290067" index="9"/>
+				<field name="C301290068" index="10"/>
+				<field name="C301290069" index="11"/>
+				<field name="C301290070" index="12"/>
+				<field name="LASTCCOLLECTTIME" index="13"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="15" file="/w/zte/pm/100001_CellRabHs_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301340179" index="6"/>
+				<field name="C301340180" index="7"/>
+				<field name="C301340181" index="8"/>
+				<field name="C301340182" index="9"/>
+				<field name="C301340183" index="10"/>
+				<field name="C301340184" index="11"/>
+				<field name="C301340185" index="12"/>
+				<field name="C301340186" index="13"/>
+				<field name="C301340187" index="14"/>
+				<field name="C301340188" index="15"/>
+				<field name="C301340189" index="16"/>
+				<field name="C301340190" index="17"/>
+				<field name="C301340191" index="18"/>
+				<field name="C301340192" index="19"/>
+				<field name="C301340193" index="20"/>
+				<field name="C301340194" index="21"/>
+				<field name="C301340195" index="22"/>
+				<field name="C301340196" index="23"/>
+				<field name="C301340197" index="24"/>
+				<field name="C301340198" index="25"/>
+				<field name="C301340199" index="26"/>
+				<field name="C301340200" index="27"/>
+				<field name="C301340201" index="28"/>
+				<field name="C301340202" index="29"/>
+				<field name="C301340203" index="30"/>
+				<field name="C301340204" index="31"/>
+				<field name="C301340205" index="32"/>
+				<field name="C301340206" index="33"/>
+				<field name="C301340207" index="34"/>
+				<field name="C301340208" index="35"/>
+				<field name="C301340209" index="36"/>
+				<field name="C301340210" index="37"/>
+				<field name="C301340211" index="38"/>
+				<field name="C301340212" index="39"/>
+				<field name="C301340213" index="40"/>
+				<field name="C301340214" index="41"/>
+				<field name="C301340215" index="42"/>
+				<field name="C301340216" index="43"/>
+				<field name="C301340217" index="44"/>
+				<field name="C301340218" index="45"/>
+				<field name="C301340219" index="46"/>
+				<field name="C301340220" index="47"/>
+				<field name="C301340221" index="48"/>
+				<field name="C301340222" index="49"/>
+				<field name="C301340223" index="50"/>
+				<field name="C301340224" index="51"/>
+				<field name="C301340225" index="52"/>
+				<field name="C301340226" index="53"/>
+				<field name="C301340227" index="54"/>
+				<field name="C301340228" index="55"/>
+				<field name="C301340229" index="56"/>
+				<field name="C301340230" index="57"/>
+				<field name="C301340231" index="58"/>
+				<field name="C301340232" index="59"/>
+				<field name="C301340233" index="60"/>
+				<field name="C301340234" index="61"/>
+				<field name="C301340235" index="62"/>
+				<field name="C301341104" index="63"/>
+				<field name="C301341105" index="64"/>
+				<field name="C301341106" index="65"/>
+				<field name="C301341107" index="66"/>
+				<field name="C301341108" index="67"/>
+				<field name="C301341109" index="68"/>
+				<field name="C301341110" index="69"/>
+				<field name="C301341111" index="70"/>
+				<field name="C301341112" index="71"/>
+				<field name="C301341113" index="72"/>
+				<field name="C301341114" index="73"/>
+				<field name="C301341115" index="74"/>
+				<field name="C301341116" index="75"/>
+				<field name="C301341117" index="76"/>
+				<field name="C301341118" index="77"/>
+				<field name="C301341119" index="78"/>
+				<field name="C301341120" index="79"/>
+				<field name="C301341121" index="80"/>
+				<field name="C301341122" index="81"/>
+				<field name="C301341123" index="82"/>
+				<field name="C301341124" index="83"/>
+				<field name="C301341125" index="84"/>
+				<field name="C301341126" index="85"/>
+				<field name="C301341127" index="86"/>
+				<field name="C301341128" index="87"/>
+				<field name="C301341129" index="88"/>
+				<field name="C301341130" index="89"/>
+				<field name="C301341131" index="90"/>
+				<field name="C301341132" index="91"/>
+				<field name="C301341133" index="92"/>
+				<field name="C301341134" index="93"/>
+				<field name="C301341135" index="94"/>
+				<field name="C301341136" index="95"/>
+				<field name="C301341137" index="96"/>
+				<field name="C301341138" index="97"/>
+				<field name="C301341139" index="98"/>
+				<field name="C301341140" index="99"/>
+				<field name="C301341141" index="100"/>
+				<field name="C301341142" index="101"/>
+				<field name="C301341143" index="102"/>
+				<field name="C301341300" index="103"/>
+				<field name="C301341301" index="104"/>
+				<field name="C301341302" index="105"/>
+				<field name="C301341303" index="106"/>
+				<field name="C301341304" index="107"/>
+				<field name="C301341305" index="108"/>
+				<field name="C301341306" index="109"/>
+				<field name="C301341307" index="110"/>
+				<field name="C301341308" index="111"/>
+				<field name="C301341309" index="112"/>
+				<field name="C301341310" index="113"/>
+				<field name="C301341311" index="114"/>
+				<field name="C301341312" index="115"/>
+				<field name="C301341313" index="116"/>
+				<field name="C301341314" index="117"/>
+				<field name="C301341315" index="118"/>
+				<field name="C301341316" index="119"/>
+				<field name="C301341317" index="120"/>
+				<field name="C301341318" index="121"/>
+				<field name="C301341319" index="122"/>
+				<field name="C301341320" index="123"/>
+				<field name="C301341321" index="124"/>
+				<field name="C301341322" index="125"/>
+				<field name="C301341323" index="126"/>
+				<field name="C301341324" index="127"/>
+				<field name="C301341561" index="128"/>
+				<field name="C301341562" index="129"/>
+				<field name="C301342039" index="130"/>
+				<field name="C301342040" index="131"/>
+				<field name="C301342041" index="132"/>
+				<field name="C301342042" index="133"/>
+				<field name="C301342043" index="134"/>
+				<field name="C301342044" index="135"/>
+				<field name="C301342045" index="136"/>
+				<field name="C301342046" index="137"/>
+				<field name="C301342047" index="138"/>
+				<field name="C301342048" index="139"/>
+				<field name="C301342052" index="140"/>
+				<field name="C301342053" index="141"/>
+				<field name="C301342054" index="142"/>
+				<field name="C301342055" index="143"/>
+				<field name="C301342056" index="144"/>
+				<field name="C301342057" index="145"/>
+				<field name="C301342058" index="146"/>
+				<field name="C301342059" index="147"/>
+				<field name="LASTCCOLLECTTIME" index="148"/>
+				<field name="C301342227" index="149"/>
+				<field name="C301342228" index="150"/>
+				<field name="C301342229" index="151"/>
+				<field name="C301342230" index="152"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="16" file="/w/zte/pm/100001_CellRLCTraffic_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301370565" index="6"/>
+				<field name="C301370566" index="7"/>
+				<field name="C301370567" index="8"/>
+				<field name="C301370568" index="9"/>
+				<field name="C301370569" index="10"/>
+				<field name="C301370570" index="11"/>
+				<field name="C301370571" index="12"/>
+				<field name="C301370572" index="13"/>
+				<field name="C301370573" index="14"/>
+				<field name="C301370574" index="15"/>
+				<field name="C301370575" index="16"/>
+				<field name="C301370576" index="17"/>
+				<field name="C301371932" index="18"/>
+				<field name="C301371933" index="19"/>
+				<field name="C301371934" index="20"/>
+				<field name="C301371935" index="21"/>
+				<field name="C301371940" index="22"/>
+				<field name="C301371941" index="23"/>
+				<field name="C301371942" index="24"/>
+				<field name="LASTCCOLLECTTIME" index="25"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="17" file="/w/zte/pm/100001_CellRRCConnectionManagement_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301480445" index="6"/>
+				<field name="C301480446" index="7"/>
+				<field name="C301480447" index="8"/>
+				<field name="C301480448" index="9"/>
+				<field name="C301480449" index="10"/>
+				<field name="C301480450" index="11"/>
+				<field name="C301480451" index="12"/>
+				<field name="C301480452" index="13"/>
+				<field name="C301480453" index="14"/>
+				<field name="C301480454" index="15"/>
+				<field name="C301480455" index="16"/>
+				<field name="C301480456" index="17"/>
+				<field name="C301480457" index="18"/>
+				<field name="C301480458" index="19"/>
+				<field name="C301480459" index="20"/>
+				<field name="C301480460" index="21"/>
+				<field name="C301480461" index="22"/>
+				<field name="C301480462" index="23"/>
+				<field name="C301480463" index="24"/>
+				<field name="C301480464" index="25"/>
+				<field name="C301480465" index="26"/>
+				<field name="C301480466" index="27"/>
+				<field name="C301480467" index="28"/>
+				<field name="C301480468" index="29"/>
+				<field name="C301480469" index="30"/>
+				<field name="C301480470" index="31"/>
+				<field name="C301480471" index="32"/>
+				<field name="C301480472" index="33"/>
+				<field name="C301480473" index="34"/>
+				<field name="C301480474" index="35"/>
+				<field name="C301480475" index="36"/>
+				<field name="C301480476" index="37"/>
+				<field name="C301480477" index="38"/>
+				<field name="C301480478" index="39"/>
+				<field name="C301480479" index="40"/>
+				<field name="C301480480" index="41"/>
+				<field name="C301480481" index="42"/>
+				<field name="C301480482" index="43"/>
+				<field name="C301480483" index="44"/>
+				<field name="C301480484" index="45"/>
+				<field name="C301480485" index="46"/>
+				<field name="C301480486" index="47"/>
+				<field name="C301480487" index="48"/>
+				<field name="C301480488" index="49"/>
+				<field name="C301480489" index="50"/>
+				<field name="C301480490" index="51"/>
+				<field name="C301480491" index="52"/>
+				<field name="C301481288" index="53"/>
+				<field name="C301481289" index="54"/>
+				<field name="C301481337" index="55"/>
+				<field name="C301481338" index="56"/>
+				<field name="C301481339" index="57"/>
+				<field name="C301481340" index="58"/>
+				<field name="C301481403" index="59"/>
+				<field name="C301481404" index="60"/>
+				<field name="C301481405" index="61"/>
+				<field name="C301481406" index="62"/>
+				<field name="C301481407" index="63"/>
+				<field name="C301481408" index="64"/>
+				<field name="C301481497" index="65"/>
+				<field name="C301481498" index="66"/>
+				<field name="C301481551" index="67"/>
+				<field name="C301481552" index="68"/>
+				<field name="C301481553" index="69"/>
+				<field name="C301481554" index="70"/>
+				<field name="C301482001" index="71"/>
+				<field name="C301482002" index="72"/>
+				<field name="C301482003" index="73"/>
+				<field name="C301482004" index="74"/>
+				<field name="C301482005" index="75"/>
+				<field name="C301482006" index="76"/>
+				<field name="C301482007" index="77"/>
+				<field name="C301482008" index="78"/>
+				<field name="C301482009" index="79"/>
+				<field name="C301482010" index="80"/>
+				<field name="C301482011" index="81"/>
+				<field name="C301482012" index="82"/>
+				<field name="C301482013" index="83"/>
+				<field name="C301482014" index="84"/>
+				<field name="C301482015" index="85"/>
+				<field name="C301482016" index="86"/>
+				<field name="C301482017" index="87"/>
+				<field name="C301482018" index="88"/>
+				<field name="C301482019" index="89"/>
+				<field name="C301482020" index="90"/>
+				<field name="C301482021" index="91"/>
+				<field name="C301482022" index="92"/>
+				<field name="C301482023" index="93"/>
+				<field name="C301482024" index="94"/>
+				<field name="C301482025" index="95"/>
+				<field name="C301482026" index="96"/>
+				<field name="C301482027" index="97"/>
+				<field name="C301482028" index="98"/>
+				<field name="C301482029" index="99"/>
+				<field name="C301482030" index="100"/>
+				<field name="C301482121" index="101"/>
+				<field name="C301482122" index="102"/>
+				<field name="C301482126" index="103"/>
+				<field name="C301482127" index="104"/>
+				<field name="C301482128" index="105"/>
+				<field name="C301482129" index="106"/>
+				<field name="C301482130" index="107"/>
+				<field name="C301482131" index="108"/>
+				<field name="C301482132" index="109"/>
+				<field name="C301482133" index="110"/>
+				<field name="C301482134" index="111"/>
+				<field name="C301482135" index="112"/>
+				<field name="C301482136" index="113"/>
+				<field name="C301482137" index="114"/>
+				<field name="LASTCCOLLECTTIME" index="115"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="18" file="/w/zte/pm/100001_CellRRCConnectionRelease_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301240926" index="6"/>
+				<field name="C301240927" index="7"/>
+				<field name="C301240928" index="8"/>
+				<field name="C301240929" index="9"/>
+				<field name="C301240930" index="10"/>
+				<field name="C301240931" index="11"/>
+				<field name="C301240932" index="12"/>
+				<field name="C301240933" index="13"/>
+				<field name="C301240934" index="14"/>
+				<field name="C301240935" index="15"/>
+				<field name="C301240936" index="16"/>
+				<field name="C301240937" index="17"/>
+				<field name="C301240938" index="18"/>
+				<field name="C301240939" index="19"/>
+				<field name="C301240940" index="20"/>
+				<field name="LASTCCOLLECTTIME" index="21"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="19" file="/w/zte/pm/100001_CellSoftHandover_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301390586" index="6"/>
+				<field name="C301390587" index="7"/>
+				<field name="C301390588" index="8"/>
+				<field name="C301390589" index="9"/>
+				<field name="C301390590" index="10"/>
+				<field name="C301390591" index="11"/>
+				<field name="C301390592" index="12"/>
+				<field name="C301390593" index="13"/>
+				<field name="C301390594" index="14"/>
+				<field name="C301390595" index="15"/>
+				<field name="C301390596" index="16"/>
+				<field name="C301390597" index="17"/>
+				<field name="C301390598" index="18"/>
+				<field name="C301390599" index="19"/>
+				<field name="C301390600" index="20"/>
+				<field name="C301390601" index="21"/>
+				<field name="C301390602" index="22"/>
+				<field name="C301390603" index="23"/>
+				<field name="C301390604" index="24"/>
+				<field name="C301390605" index="25"/>
+				<field name="C301390606" index="26"/>
+				<field name="C301390607" index="27"/>
+				<field name="C301390608" index="28"/>
+				<field name="C301390609" index="29"/>
+				<field name="C301390610" index="30"/>
+				<field name="C301390611" index="31"/>
+				<field name="C301390612" index="32"/>
+				<field name="C301390613" index="33"/>
+				<field name="C301390614" index="34"/>
+				<field name="C301390615" index="35"/>
+				<field name="C301391098" index="36"/>
+				<field name="C301391099" index="37"/>
+				<field name="C301391100" index="38"/>
+				<field name="C301391101" index="39"/>
+				<field name="C301391102" index="40"/>
+				<field name="C301391103" index="41"/>
+				<field name="C301391156" index="42"/>
+				<field name="C301391157" index="43"/>
+				<field name="C301391158" index="44"/>
+				<field name="C301391159" index="45"/>
+				<field name="C301391160" index="46"/>
+				<field name="C301391161" index="47"/>
+				<field name="C301391162" index="48"/>
+				<field name="C301391163" index="49"/>
+				<field name="C301391164" index="50"/>
+				<field name="C301391165" index="51"/>
+				<field name="C301391166" index="52"/>
+				<field name="C301391167" index="53"/>
+				<field name="C301391168" index="54"/>
+				<field name="C301391169" index="55"/>
+				<field name="C301391250" index="56"/>
+				<field name="C301391251" index="57"/>
+				<field name="C301391252" index="58"/>
+				<field name="C301391253" index="59"/>
+				<field name="C301391254" index="60"/>
+				<field name="C301391255" index="61"/>
+				<field name="C301391256" index="62"/>
+				<field name="C301391257" index="63"/>
+				<field name="C301391258" index="64"/>
+				<field name="C301391332" index="65"/>
+				<field name="C301391333" index="66"/>
+				<field name="C301391334" index="67"/>
+				<field name="C301391335" index="68"/>
+				<field name="C301391509" index="69"/>
+				<field name="C301391510" index="70"/>
+				<field name="C301391511" index="71"/>
+				<field name="C301391512" index="72"/>
+				<field name="C301391513" index="73"/>
+				<field name="C301391514" index="74"/>
+				<field name="C301391515" index="75"/>
+				<field name="C301391516" index="76"/>
+				<field name="C301391517" index="77"/>
+				<field name="C301391518" index="78"/>
+				<field name="C301391519" index="79"/>
+				<field name="C301391520" index="80"/>
+				<field name="C301391521" index="81"/>
+				<field name="C301391522" index="82"/>
+				<field name="C301391523" index="83"/>
+				<field name="C301391524" index="84"/>
+				<field name="C301391525" index="85"/>
+				<field name="C301391526" index="86"/>
+				<field name="C301391527" index="87"/>
+				<field name="C301391528" index="88"/>
+				<field name="C301391529" index="89"/>
+				<field name="C301391530" index="90"/>
+				<field name="C301391531" index="91"/>
+				<field name="C301391532" index="92"/>
+				<field name="C301391533" index="93"/>
+				<field name="C301391534" index="94"/>
+				<field name="C301391536" index="95"/>
+				<field name="C301391537" index="96"/>
+				<field name="C301391538" index="97"/>
+				<field name="C301391539" index="98"/>
+				<field name="C301391540" index="99"/>
+				<field name="C301391541" index="100"/>
+				<field name="C301391542" index="101"/>
+				<field name="C301391543" index="102"/>
+				<field name="C301391544" index="103"/>
+				<field name="C301391545" index="104"/>
+				<field name="C301391546" index="105"/>
+				<field name="C301391547" index="106"/>
+				<field name="C301391548" index="107"/>
+				<field name="C301391549" index="108"/>
+				<field name="C301391971" index="109"/>
+				<field name="C301391972" index="110"/>
+				<field name="C301391973" index="111"/>
+				<field name="C301391974" index="112"/>
+				<field name="C301391975" index="113"/>
+				<field name="C301391976" index="114"/>
+				<field name="C301391977" index="115"/>
+				<field name="C301391978" index="116"/>
+				<field name="C301391979" index="117"/>
+				<field name="C301391980" index="118"/>
+				<field name="C301391981" index="119"/>
+				<field name="C301391982" index="120"/>
+				<field name="C301391983" index="121"/>
+				<field name="C301391984" index="122"/>
+				<field name="C301391985" index="123"/>
+				<field name="C301391986" index="124"/>
+				<field name="C301391987" index="125"/>
+				<field name="C301391988" index="126"/>
+				<field name="C301391989" index="127"/>
+				<field name="C301391990" index="128"/>
+				<field name="C301391991" index="129"/>
+				<field name="C301391992" index="130"/>
+				<field name="C301391993" index="131"/>
+				<field name="C301391994" index="132"/>
+				<field name="C301391995" index="133"/>
+				<field name="C301391996" index="134"/>
+				<field name="C301391997" index="135"/>
+				<field name="C301391998" index="136"/>
+				<field name="C301391999" index="137"/>
+				<field name="C301392000" index="138"/>
+				<field name="C301392144" index="139"/>
+				<field name="C301392145" index="140"/>
+				<field name="C301392146" index="141"/>
+				<field name="C301392147" index="142"/>
+				<field name="C301392148" index="143"/>
+				<field name="C301392149" index="144"/>
+				<field name="C301392150" index="145"/>
+				<field name="C301392151" index="146"/>
+				<field name="C301392152" index="147"/>
+				<field name="C301392153" index="148"/>
+				<field name="C301392154" index="149"/>
+				<field name="C301392155" index="150"/>
+				<field name="LASTCCOLLECTTIME" index="151"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="20" file="/w/zte/pm/100001_CellTraffic_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301350496" index="6"/>
+				<field name="C301350497" index="7"/>
+				<field name="C301350498" index="8"/>
+				<field name="C301350499" index="9"/>
+				<field name="C301350500" index="10"/>
+				<field name="C301350501" index="11"/>
+				<field name="C301350502" index="12"/>
+				<field name="C301350503" index="13"/>
+				<field name="C301350504" index="14"/>
+				<field name="C301350505" index="15"/>
+				<field name="C301350506" index="16"/>
+				<field name="C301350507" index="17"/>
+				<field name="C301350508" index="18"/>
+				<field name="C301350509" index="19"/>
+				<field name="C301350510" index="20"/>
+				<field name="C301350511" index="21"/>
+				<field name="C301350512" index="22"/>
+				<field name="C301350513" index="23"/>
+				<field name="C301350514" index="24"/>
+				<field name="C301350515" index="25"/>
+				<field name="C301350516" index="26"/>
+				<field name="C301350517" index="27"/>
+				<field name="C301350518" index="28"/>
+				<field name="C301350519" index="29"/>
+				<field name="C301350520" index="30"/>
+				<field name="C301350521" index="31"/>
+				<field name="C301350522" index="32"/>
+				<field name="C301350523" index="33"/>
+				<field name="C301350524" index="34"/>
+				<field name="C301350525" index="35"/>
+				<field name="C301350526" index="36"/>
+				<field name="C301350527" index="37"/>
+				<field name="C301350528" index="38"/>
+				<field name="C301350529" index="39"/>
+				<field name="C301350530" index="40"/>
+				<field name="C301350531" index="41"/>
+				<field name="C301350532" index="42"/>
+				<field name="C301350533" index="43"/>
+				<field name="C301350534" index="44"/>
+				<field name="C301350535" index="45"/>
+				<field name="C301350536" index="46"/>
+				<field name="C301350537" index="47"/>
+				<field name="C301350538" index="48"/>
+				<field name="C301350539" index="49"/>
+				<field name="C301350540" index="50"/>
+				<field name="C301350541" index="51"/>
+				<field name="C301350542" index="52"/>
+				<field name="C301350543" index="53"/>
+				<field name="C301350544" index="54"/>
+				<field name="C301350545" index="55"/>
+				<field name="C301350546" index="56"/>
+				<field name="C301350547" index="57"/>
+				<field name="C301350548" index="58"/>
+				<field name="C301351359" index="59"/>
+				<field name="C301351360" index="60"/>
+				<field name="C301351361" index="61"/>
+				<field name="C301351362" index="62"/>
+				<field name="C301351363" index="63"/>
+				<field name="C301351364" index="64"/>
+				<field name="C301351365" index="65"/>
+				<field name="C301351366" index="66"/>
+				<field name="C301351367" index="67"/>
+				<field name="C301351368" index="68"/>
+				<field name="C301351369" index="69"/>
+				<field name="C301351370" index="70"/>
+				<field name="C301351371" index="71"/>
+				<field name="C301351372" index="72"/>
+				<field name="C301351373" index="73"/>
+				<field name="C301351374" index="74"/>
+				<field name="C301351391" index="75"/>
+				<field name="C301351392" index="76"/>
+				<field name="C301351501" index="77"/>
+				<field name="C301351502" index="78"/>
+				<field name="C301351503" index="79"/>
+				<field name="C301351504" index="80"/>
+				<field name="C301351505" index="81"/>
+				<field name="C301351506" index="82"/>
+				<field name="C301351507" index="83"/>
+				<field name="C301351508" index="84"/>
+				<field name="C301351943" index="85"/>
+				<field name="C301351944" index="86"/>
+				<field name="C301351945" index="87"/>
+				<field name="C301352168" index="88"/>
+				<field name="C301352169" index="89"/>
+				<field name="C301352170" index="90"/>
+				<field name="C301352171" index="91"/>
+				<field name="C301352172" index="92"/>
+				<field name="C301352173" index="93"/>
+				<field name="LASTCCOLLECTTIME" index="94"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="21" file="/w/zte/pm/100001_CellTransmissionQuality_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301430754" index="6"/>
+				<field name="C301430755" index="7"/>
+				<field name="C301430756" index="8"/>
+				<field name="C301430757" index="9"/>
+				<field name="C301430758" index="10"/>
+				<field name="C301430759" index="11"/>
+				<field name="C301430760" index="12"/>
+				<field name="C301430761" index="13"/>
+				<field name="C301430762" index="14"/>
+				<field name="C301430763" index="15"/>
+				<field name="C301430764" index="16"/>
+				<field name="C301430765" index="17"/>
+				<field name="C301430766" index="18"/>
+				<field name="C301430767" index="19"/>
+				<field name="C301430768" index="20"/>
+				<field name="C301430769" index="21"/>
+				<field name="C301430770" index="22"/>
+				<field name="C301430771" index="23"/>
+				<field name="C301430772" index="24"/>
+				<field name="C301430773" index="25"/>
+				<field name="C301430774" index="26"/>
+				<field name="C301430775" index="27"/>
+				<field name="C301430776" index="28"/>
+				<field name="C301430777" index="29"/>
+				<field name="C301430778" index="30"/>
+				<field name="C301430779" index="31"/>
+				<field name="C301430780" index="32"/>
+				<field name="C301430781" index="33"/>
+				<field name="C301430782" index="34"/>
+				<field name="C301430783" index="35"/>
+				<field name="C301430784" index="36"/>
+				<field name="C301430785" index="37"/>
+				<field name="C301430786" index="38"/>
+				<field name="C301430787" index="39"/>
+				<field name="C301430788" index="40"/>
+				<field name="C301430789" index="41"/>
+				<field name="C301430790" index="42"/>
+				<field name="C301430791" index="43"/>
+				<field name="C301430792" index="44"/>
+				<field name="C301430793" index="45"/>
+				<field name="C301430794" index="46"/>
+				<field name="C301430795" index="47"/>
+				<field name="C301430796" index="48"/>
+				<field name="C301430797" index="49"/>
+				<field name="C301430798" index="50"/>
+				<field name="C301430799" index="51"/>
+				<field name="C301430800" index="52"/>
+				<field name="C301430801" index="53"/>
+				<field name="C301430802" index="54"/>
+				<field name="C301430803" index="55"/>
+				<field name="C301430804" index="56"/>
+				<field name="C301430805" index="57"/>
+				<field name="C301430806" index="58"/>
+				<field name="C301430807" index="59"/>
+				<field name="C301431393" index="60"/>
+				<field name="C301431394" index="61"/>
+				<field name="C301431395" index="62"/>
+				<field name="C301431396" index="63"/>
+				<field name="C301431397" index="64"/>
+				<field name="C301431398" index="65"/>
+				<field name="C301431952" index="66"/>
+				<field name="C301431953" index="67"/>
+				<field name="C301431954" index="68"/>
+				<field name="C301431955" index="69"/>
+				<field name="C301431956" index="70"/>
+				<field name="C301431957" index="71"/>
+				<field name="C301431958" index="72"/>
+				<field name="C301431959" index="73"/>
+				<field name="C301431960" index="74"/>
+				<field name="C301431961" index="75"/>
+				<field name="C301431962" index="76"/>
+				<field name="C301431963" index="77"/>
+				<field name="C301431964" index="78"/>
+				<field name="C301431965" index="79"/>
+				<field name="C301431966" index="80"/>
+				<field name="C301431967" index="81"/>
+				<field name="C301431968" index="82"/>
+				<field name="C301431969" index="83"/>
+				<field name="LASTCCOLLECTTIME" index="84"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="22" file="/w/zte/pm/100001_CellUpdate_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301941612" index="6"/>
+				<field name="C301941613" index="7"/>
+				<field name="C301941614" index="8"/>
+				<field name="C301941615" index="9"/>
+				<field name="C301941616" index="10"/>
+				<field name="C301941617" index="11"/>
+				<field name="C301941618" index="12"/>
+				<field name="C301941619" index="13"/>
+				<field name="C301941620" index="14"/>
+				<field name="C301941621" index="15"/>
+				<field name="C301941622" index="16"/>
+				<field name="C301941623" index="17"/>
+				<field name="C301941624" index="18"/>
+				<field name="C301941625" index="19"/>
+				<field name="C301941626" index="20"/>
+				<field name="C301941627" index="21"/>
+				<field name="C301941628" index="22"/>
+				<field name="C301941629" index="23"/>
+				<field name="C301942162" index="24"/>
+				<field name="C301942163" index="25"/>
+				<field name="LASTCCOLLECTTIME" index="26"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="23" file="/w/zte/pm/100001_CellUserNumber_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301380577" index="6"/>
+				<field name="C301380578" index="7"/>
+				<field name="C301380579" index="8"/>
+				<field name="C301380580" index="9"/>
+				<field name="C301380581" index="10"/>
+				<field name="C301380582" index="11"/>
+				<field name="C301380583" index="12"/>
+				<field name="C301380584" index="13"/>
+				<field name="C301381179" index="14"/>
+				<field name="C301381180" index="15"/>
+				<field name="C301381181" index="16"/>
+				<field name="C301381286" index="17"/>
+				<field name="C301381353" index="18"/>
+				<field name="C301381354" index="19"/>
+				<field name="C301381355" index="20"/>
+				<field name="C301381491" index="21"/>
+				<field name="C301381492" index="22"/>
+				<field name="C301381493" index="23"/>
+				<field name="C301381494" index="24"/>
+				<field name="C301381495" index="25"/>
+				<field name="C301381496" index="26"/>
+				<field name="LASTCCOLLECTTIME" index="27"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="24" file="/w/zte/pm/100001_gsmRelation_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="CELLID" index="5"/>
+				<field name="OBJECTID" index="6"/>
+				<field name="C301510000" index="7"/>
+				<field name="C301510001" index="8"/>
+				<field name="C301510002" index="9"/>
+				<field name="C301510003" index="10"/>
+				<field name="C301510004" index="11"/>
+				<field name="C301510005" index="12"/>
+				<field name="C301510006" index="13"/>
+				<field name="C301510007" index="14"/>
+				<field name="C301510008" index="15"/>
+				<field name="C301510009" index="16"/>
+				<field name="C301510010" index="17"/>
+				<field name="C301510011" index="18"/>
+				<field name="C301510012" index="19"/>
+				<field name="C301510013" index="20"/>
+				<field name="C301510014" index="21"/>
+				<field name="C301510015" index="22"/>
+				<field name="C301510016" index="23"/>
+				<field name="C301510017" index="24"/>
+				<field name="C301510018" index="25"/>
+				<field name="C301510019" index="26"/>
+				<field name="C301510020" index="27"/>
+				<field name="C301510021" index="28"/>
+				<field name="C301510022" index="29"/>
+				<field name="C301510023" index="30"/>
+				<field name="C301510024" index="31"/>
+				<field name="C301510025" index="32"/>
+				<field name="C301510026" index="33"/>
+				<field name="C301510027" index="34"/>
+				<field name="C301510028" index="35"/>
+				<field name="C301510029" index="36"/>
+				<field name="C301510030" index="37"/>
+				<field name="C301510031" index="38"/>
+				<field name="C301510032" index="39"/>
+				<field name="C301510033" index="40"/>
+				<field name="C301510034" index="41"/>
+				<field name="C301510035" index="42"/>
+				<field name="C301510036" index="43"/>
+				<field name="C301510037" index="44"/>
+				<field name="C301510038" index="45"/>
+				<field name="C301510039" index="46"/>
+				<field name="C301510040" index="47"/>
+				<field name="C301510041" index="48"/>
+				<field name="C301510042" index="49"/>
+				<field name="C301510043" index="50"/>
+				<field name="C301510044" index="51"/>
+				<field name="C301510045" index="52"/>
+				<field name="C301510046" index="53"/>
+				<field name="C301510047" index="54"/>
+				<field name="C301510048" index="55"/>
+				<field name="C301510049" index="56"/>
+				<field name="C301510050" index="57"/>
+				<field name="C301510051" index="58"/>
+				<field name="C301510052" index="59"/>
+				<field name="C301510053" index="60"/>
+				<field name="C301510054" index="61"/>
+				<field name="C301510055" index="62"/>
+				<field name="C301510056" index="63"/>
+				<field name="C301510057" index="64"/>
+				<field name="C301510058" index="65"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="25" file="/w/zte/pm/100001_HSPAServingCellChange_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301440808" index="6"/>
+				<field name="C301440809" index="7"/>
+				<field name="C301440810" index="8"/>
+				<field name="C301440811" index="9"/>
+				<field name="C301440812" index="10"/>
+				<field name="C301440813" index="11"/>
+				<field name="C301440814" index="12"/>
+				<field name="C301440815" index="13"/>
+				<field name="C301440816" index="14"/>
+				<field name="C301440817" index="15"/>
+				<field name="C301440818" index="16"/>
+				<field name="C301440819" index="17"/>
+				<field name="C301440820" index="18"/>
+				<field name="C301440821" index="19"/>
+				<field name="C301440822" index="20"/>
+				<field name="C301440823" index="21"/>
+				<field name="C301440824" index="22"/>
+				<field name="C301440825" index="23"/>
+				<field name="C301441144" index="24"/>
+				<field name="C301441145" index="25"/>
+				<field name="C301441146" index="26"/>
+				<field name="C301441147" index="27"/>
+				<field name="C301441148" index="28"/>
+				<field name="C301441149" index="29"/>
+				<field name="C301441150" index="30"/>
+				<field name="C301441151" index="31"/>
+				<field name="C301441152" index="32"/>
+				<field name="C301441259" index="33"/>
+				<field name="C301441260" index="34"/>
+				<field name="C301441261" index="35"/>
+				<field name="C301441262" index="36"/>
+				<field name="C301441263" index="37"/>
+				<field name="C301441264" index="38"/>
+				<field name="C301441265" index="39"/>
+				<field name="C301441266" index="40"/>
+				<field name="C301441267" index="41"/>
+				<field name="LASTCCOLLECTTIME" index="42"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="26" file="/w/zte/pm/100001_IubTraffic_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301210000" index="5"/>
+				<field name="C301210001" index="6"/>
+				<field name="C301210002" index="7"/>
+				<field name="C301210003" index="8"/>
+				<field name="C301210004" index="9"/>
+				<field name="C301210005" index="10"/>
+				<field name="C301210014" index="11"/>
+				<field name="C301210015" index="12"/>
+				<field name="C301210020" index="13"/>
+				<field name="C301210021" index="14"/>
+				<field name="C301210022" index="15"/>
+				<field name="C301210023" index="16"/>
+				<field name="C301210024" index="17"/>
+				<field name="C301210025" index="18"/>
+				<field name="C301210026" index="19"/>
+				<field name="C301210027" index="20"/>
+				<field name="C301210036" index="21"/>
+				<field name="LASTCCOLLECTTIME" index="22"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="27" file="/w/zte/pm/100001_IurTraffic_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301200000" index="5"/>
+				<field name="C301200001" index="6"/>
+				<field name="C301200002" index="7"/>
+				<field name="C301200003" index="8"/>
+				<field name="C301200004" index="9"/>
+				<field name="C301200005" index="10"/>
+				<field name="C301200006" index="11"/>
+				<field name="C301200007" index="12"/>
+				<field name="C301200012" index="13"/>
+				<field name="C301200013" index="14"/>
+				<field name="LASTCCOLLECTTIME" index="15"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="28" file="/w/zte/pm/100001_NodebCe_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301830006" index="5"/>
+				<field name="C301830007" index="6"/>
+				<field name="C301830008" index="7"/>
+				<field name="C301830009" index="8"/>
+				<field name="C301830010" index="9"/>
+				<field name="C301830011" index="10"/>
+				<field name="C301830012" index="11"/>
+				<field name="C301830013" index="12"/>
+				<field name="LASTCCOLLECTTIME" index="13"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="29" file="/w/zte/pm/100001_RNCAccessAndDrop_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301050000" index="5"/>
+				<field name="C301050001" index="6"/>
+				<field name="C301050002" index="7"/>
+				<field name="C301050003" index="8"/>
+				<field name="C301050004" index="9"/>
+				<field name="C301050005" index="10"/>
+				<field name="C301050006" index="11"/>
+				<field name="C301050007" index="12"/>
+				<field name="C301050008" index="13"/>
+				<field name="C301050009" index="14"/>
+				<field name="C301050010" index="15"/>
+				<field name="C301050011" index="16"/>
+				<field name="C301050012" index="17"/>
+				<field name="C301050013" index="18"/>
+				<field name="C301050014" index="19"/>
+				<field name="C301050015" index="20"/>
+				<field name="C301050016" index="21"/>
+				<field name="C301050017" index="22"/>
+				<field name="C301050018" index="23"/>
+				<field name="C301050019" index="24"/>
+				<field name="C301050020" index="25"/>
+				<field name="C301050021" index="26"/>
+				<field name="C301050022" index="27"/>
+				<field name="C301050023" index="28"/>
+				<field name="C301050024" index="29"/>
+				<field name="C301050025" index="30"/>
+				<field name="C301050026" index="31"/>
+				<field name="C301050027" index="32"/>
+				<field name="C301050028" index="33"/>
+				<field name="C301050029" index="34"/>
+				<field name="C301050030" index="35"/>
+				<field name="C301050031" index="36"/>
+				<field name="C301050032" index="37"/>
+				<field name="C301050033" index="38"/>
+				<field name="C301050034" index="39"/>
+				<field name="C301050035" index="40"/>
+				<field name="C301050036" index="41"/>
+				<field name="C301050037" index="42"/>
+				<field name="C301050038" index="43"/>
+				<field name="C301050039" index="44"/>
+				<field name="C301050040" index="45"/>
+				<field name="C301050041" index="46"/>
+				<field name="C301050042" index="47"/>
+				<field name="C301050043" index="48"/>
+				<field name="C301050044" index="49"/>
+				<field name="C301050045" index="50"/>
+				<field name="C301050046" index="51"/>
+				<field name="C301050047" index="52"/>
+				<field name="C301050048" index="53"/>
+				<field name="C301050049" index="54"/>
+				<field name="C301050050" index="55"/>
+				<field name="C301050051" index="56"/>
+				<field name="C301050052" index="57"/>
+				<field name="C301050053" index="58"/>
+				<field name="C301050054" index="59"/>
+				<field name="C301050055" index="60"/>
+				<field name="C301050056" index="61"/>
+				<field name="C301050057" index="62"/>
+				<field name="C301050058" index="63"/>
+				<field name="C301050059" index="64"/>
+				<field name="C301050060" index="65"/>
+				<field name="C301050061" index="66"/>
+				<field name="C301050062" index="67"/>
+				<field name="C301050063" index="68"/>
+				<field name="C301050064" index="69"/>
+				<field name="C301050065" index="70"/>
+				<field name="C301050066" index="71"/>
+				<field name="C301050067" index="72"/>
+				<field name="C301050068" index="73"/>
+				<field name="C301050069" index="74"/>
+				<field name="C301050070" index="75"/>
+				<field name="C301050071" index="76"/>
+				<field name="C301050072" index="77"/>
+				<field name="C301050073" index="78"/>
+				<field name="C301050074" index="79"/>
+				<field name="C301050075" index="80"/>
+				<field name="C301050076" index="81"/>
+				<field name="C301050077" index="82"/>
+				<field name="C301050078" index="83"/>
+				<field name="C301050079" index="84"/>
+				<field name="C301050080" index="85"/>
+				<field name="C301050081" index="86"/>
+				<field name="C301050082" index="87"/>
+				<field name="C301050083" index="88"/>
+				<field name="C301050084" index="89"/>
+				<field name="C301050085" index="90"/>
+				<field name="C301050086" index="91"/>
+				<field name="C301050087" index="92"/>
+				<field name="C301050088" index="93"/>
+				<field name="C301050089" index="94"/>
+				<field name="C301050090" index="95"/>
+				<field name="C301050091" index="96"/>
+				<field name="C301050092" index="97"/>
+				<field name="C301050093" index="98"/>
+				<field name="C301050094" index="99"/>
+				<field name="C301050095" index="100"/>
+				<field name="C301050096" index="101"/>
+				<field name="C301050097" index="102"/>
+				<field name="C301050098" index="103"/>
+				<field name="C301050099" index="104"/>
+				<field name="C301050100" index="105"/>
+				<field name="C301050101" index="106"/>
+				<field name="C301050102" index="107"/>
+				<field name="C301050103" index="108"/>
+				<field name="C301050104" index="109"/>
+				<field name="C301050105" index="110"/>
+				<field name="C301050106" index="111"/>
+				<field name="C301050107" index="112"/>
+				<field name="C301050108" index="113"/>
+				<field name="C301050109" index="114"/>
+				<field name="C301050110" index="115"/>
+				<field name="C301050111" index="116"/>
+				<field name="C301050112" index="117"/>
+				<field name="C301050113" index="118"/>
+				<field name="C301050114" index="119"/>
+				<field name="C301050115" index="120"/>
+				<field name="C301050116" index="121"/>
+				<field name="C301050117" index="122"/>
+				<field name="C301050118" index="123"/>
+				<field name="C301050119" index="124"/>
+				<field name="C301050120" index="125"/>
+				<field name="C301050121" index="126"/>
+				<field name="C301050122" index="127"/>
+				<field name="C301050123" index="128"/>
+				<field name="C301050124" index="129"/>
+				<field name="C301050125" index="130"/>
+				<field name="C301050126" index="131"/>
+				<field name="C301050127" index="132"/>
+				<field name="C301050128" index="133"/>
+				<field name="C301050129" index="134"/>
+				<field name="C301050130" index="135"/>
+				<field name="C301050131" index="136"/>
+				<field name="C301050132" index="137"/>
+				<field name="C301050133" index="138"/>
+				<field name="C301050134" index="139"/>
+				<field name="C301050135" index="140"/>
+				<field name="C301050136" index="141"/>
+				<field name="C301050137" index="142"/>
+				<field name="C301050138" index="143"/>
+				<field name="C301050139" index="144"/>
+				<field name="C301050140" index="145"/>
+				<field name="C301050141" index="146"/>
+				<field name="C301050142" index="147"/>
+				<field name="C301050143" index="148"/>
+				<field name="C301050144" index="149"/>
+				<field name="C301050145" index="150"/>
+				<field name="C301050146" index="151"/>
+				<field name="C301050147" index="152"/>
+				<field name="C301050148" index="153"/>
+				<field name="C301050149" index="154"/>
+				<field name="C301050150" index="155"/>
+				<field name="C301050151" index="156"/>
+				<field name="C301050152" index="157"/>
+				<field name="C301050153" index="158"/>
+				<field name="C301050154" index="159"/>
+				<field name="C301050155" index="160"/>
+				<field name="C301050156" index="161"/>
+				<field name="C301050157" index="162"/>
+				<field name="C301050158" index="163"/>
+				<field name="C301050159" index="164"/>
+				<field name="C301050160" index="165"/>
+				<field name="C301050161" index="166"/>
+				<field name="C301050162" index="167"/>
+				<field name="C301050163" index="168"/>
+				<field name="C301050164" index="169"/>
+				<field name="C301050165" index="170"/>
+				<field name="C301050166" index="171"/>
+				<field name="C301050167" index="172"/>
+				<field name="C301050168" index="173"/>
+				<field name="C301050169" index="174"/>
+				<field name="C301050170" index="175"/>
+				<field name="C301050171" index="176"/>
+				<field name="C301050172" index="177"/>
+				<field name="C301050173" index="178"/>
+				<field name="C301050174" index="179"/>
+				<field name="C301050175" index="180"/>
+				<field name="C301050176" index="181"/>
+				<field name="C301050177" index="182"/>
+				<field name="C301050178" index="183"/>
+				<field name="C301050179" index="184"/>
+				<field name="C301050180" index="185"/>
+				<field name="C301050181" index="186"/>
+				<field name="C301050182" index="187"/>
+				<field name="C301050183" index="188"/>
+				<field name="C301050184" index="189"/>
+				<field name="C301050185" index="190"/>
+				<field name="C301050186" index="191"/>
+				<field name="C301050187" index="192"/>
+				<field name="C301050188" index="193"/>
+				<field name="C301050189" index="194"/>
+				<field name="C301050190" index="195"/>
+				<field name="C301050191" index="196"/>
+				<field name="C301050192" index="197"/>
+				<field name="C301050193" index="198"/>
+				<field name="C301050194" index="199"/>
+				<field name="C301050195" index="200"/>
+				<field name="C301050196" index="201"/>
+				<field name="C301050197" index="202"/>
+				<field name="C301050198" index="203"/>
+				<field name="C301050199" index="204"/>
+				<field name="C301050200" index="205"/>
+				<field name="C301050201" index="206"/>
+				<field name="C301050202" index="207"/>
+				<field name="C301050203" index="208"/>
+				<field name="C301050204" index="209"/>
+				<field name="C301050205" index="210"/>
+				<field name="C301050206" index="211"/>
+				<field name="C301050207" index="212"/>
+				<field name="C301050208" index="213"/>
+				<field name="C301050209" index="214"/>
+				<field name="C301050210" index="215"/>
+				<field name="C301050211" index="216"/>
+				<field name="C301050212" index="217"/>
+				<field name="C301050213" index="218"/>
+				<field name="C301050214" index="219"/>
+				<field name="C301050215" index="220"/>
+				<field name="C301050216" index="221"/>
+				<field name="C301050217" index="222"/>
+				<field name="C301050218" index="223"/>
+				<field name="C301050219" index="224"/>
+				<field name="C301050220" index="225"/>
+				<field name="C301050221" index="226"/>
+				<field name="C301050222" index="227"/>
+				<field name="C301050223" index="228"/>
+				<field name="C301050224" index="229"/>
+				<field name="C301050225" index="230"/>
+				<field name="C301050226" index="231"/>
+				<field name="C301050227" index="232"/>
+				<field name="C301050228" index="233"/>
+				<field name="C301050229" index="234"/>
+				<field name="C301050891" index="235"/>
+				<field name="C301050892" index="236"/>
+				<field name="C301050893" index="237"/>
+				<field name="C301050894" index="238"/>
+				<field name="C301050895" index="239"/>
+				<field name="C301050896" index="240"/>
+				<field name="C301050897" index="241"/>
+				<field name="C301051052" index="242"/>
+				<field name="C301051053" index="243"/>
+				<field name="C301051054" index="244"/>
+				<field name="C301051055" index="245"/>
+				<field name="C301051056" index="246"/>
+				<field name="C301051057" index="247"/>
+				<field name="C301051058" index="248"/>
+				<field name="C301051059" index="249"/>
+				<field name="C301051060" index="250"/>
+				<field name="C301051061" index="251"/>
+				<field name="C301051083" index="252"/>
+				<field name="C301051084" index="253"/>
+				<field name="C301051111" index="254"/>
+				<field name="C301051112" index="255"/>
+				<field name="C301051113" index="256"/>
+				<field name="C301051114" index="257"/>
+				<field name="C301051115" index="258"/>
+				<field name="C301051116" index="259"/>
+				<field name="C301051117" index="260"/>
+				<field name="C301051118" index="261"/>
+				<field name="C301051119" index="262"/>
+				<field name="C301051120" index="263"/>
+				<field name="C301051121" index="264"/>
+				<field name="C301051122" index="265"/>
+				<field name="C301051123" index="266"/>
+				<field name="C301051124" index="267"/>
+				<field name="C301051125" index="268"/>
+				<field name="C301051126" index="269"/>
+				<field name="C301051127" index="270"/>
+				<field name="C301051128" index="271"/>
+				<field name="C301051129" index="272"/>
+				<field name="C301051130" index="273"/>
+				<field name="C301051131" index="274"/>
+				<field name="C301051132" index="275"/>
+				<field name="C301051133" index="276"/>
+				<field name="C301051134" index="277"/>
+				<field name="C301051135" index="278"/>
+				<field name="C301051136" index="279"/>
+				<field name="C301051137" index="280"/>
+				<field name="C301051138" index="281"/>
+				<field name="C301051139" index="282"/>
+				<field name="C301051140" index="283"/>
+				<field name="C301051141" index="284"/>
+				<field name="C301051142" index="285"/>
+				<field name="C301051143" index="286"/>
+				<field name="C301051144" index="287"/>
+				<field name="C301051145" index="288"/>
+				<field name="C301051146" index="289"/>
+				<field name="C301051203" index="290"/>
+				<field name="C301051204" index="291"/>
+				<field name="C301051205" index="292"/>
+				<field name="C301051206" index="293"/>
+				<field name="C301051207" index="294"/>
+				<field name="C301051208" index="295"/>
+				<field name="C301051209" index="296"/>
+				<field name="C301051210" index="297"/>
+				<field name="C301051211" index="298"/>
+				<field name="C301051227" index="299"/>
+				<field name="C301051228" index="300"/>
+				<field name="C301051229" index="301"/>
+				<field name="C301051230" index="302"/>
+				<field name="C301051231" index="303"/>
+				<field name="C301051232" index="304"/>
+				<field name="C301051233" index="305"/>
+				<field name="C301051234" index="306"/>
+				<field name="C301051235" index="307"/>
+				<field name="C301051236" index="308"/>
+				<field name="LASTCCOLLECTTIME" index="309"/>
+				<field name="C301051267" index="310"/>
+				<field name="C301051268" index="311"/>
+				<field name="C301051269" index="312"/>
+				<field name="C301051271" index="313"/>
+				<field name="C301051259" index="314"/>
+				<field name="C301051260" index="315"/>
+				<field name="C301051264" index="316"/>
+				<field name="C301051265" index="317"/>
+				<field name="C301051266" index="318"/>
+				<field name="C301051272" index="319"/>
+				<field name="C301051257" index="320"/>
+				<field name="C301051258" index="321"/>
+				<field name="C301051261" index="322"/>
+				<field name="C301051262" index="323"/>
+				<field name="C301051263" index="324"/>
+				<field name="C301051270" index="325"/>
+				<field name="C301051303" index="326"/>
+				<field name="C301051295" index="327"/>
+				<field name="C301051296" index="328"/>
+				<field name="C301051297" index="329"/>
+				<field name="C301051298" index="330"/>
+				<field name="C301051299" index="331"/>
+				<field name="C301051300" index="332"/>
+				<field name="C301051301" index="333"/>
+				<field name="C301051302" index="334"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="30" file="/w/zte/pm/100001_RNCAvailableCells_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301180853" index="5"/>
+				<field name="C301180906" index="6"/>
+				<field name="C301180907" index="7"/>
+				<field name="C301180908" index="8"/>
+				<field name="C301180909" index="9"/>
+				<field name="C301180910" index="10"/>
+				<field name="C301180911" index="11"/>
+				<field name="C301180912" index="12"/>
+				<field name="LASTCCOLLECTTIME" index="13"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="31" file="/w/zte/pm/100001_RNCCpu_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="RACK" index="4"/>
+				<field name="SHELF" index="5"/>
+				<field name="BOARD" index="6"/>
+				<field name="CPU" index="7"/>
+				<field name="C301220000" index="8"/>
+				<field name="C301220001" index="9"/>
+				<field name="C301220002" index="10"/>
+				<field name="C301220003" index="11"/>
+				<field name="C301220004" index="12"/>
+				<field name="C301220005" index="13"/>
+				<field name="C301220006" index="14"/>
+				<field name="C301220007" index="15"/>
+				<field name="C301220008" index="16"/>
+				<field name="C301220009" index="17"/>
+				<field name="LASTCCOLLECTTIME" index="18"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="32" file="/w/zte/pm/100001_RNCHardHandover_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301110488" index="5"/>
+				<field name="C301110489" index="6"/>
+				<field name="C301110490" index="7"/>
+				<field name="C301110491" index="8"/>
+				<field name="C301110492" index="9"/>
+				<field name="C301110493" index="10"/>
+				<field name="C301110494" index="11"/>
+				<field name="C301110495" index="12"/>
+				<field name="C301110496" index="13"/>
+				<field name="C301110497" index="14"/>
+				<field name="C301110498" index="15"/>
+				<field name="C301110499" index="16"/>
+				<field name="C301110500" index="17"/>
+				<field name="C301110501" index="18"/>
+				<field name="C301110502" index="19"/>
+				<field name="C301110503" index="20"/>
+				<field name="C301110504" index="21"/>
+				<field name="C301110505" index="22"/>
+				<field name="C301110506" index="23"/>
+				<field name="C301110507" index="24"/>
+				<field name="C301110508" index="25"/>
+				<field name="C301110509" index="26"/>
+				<field name="C301110510" index="27"/>
+				<field name="C301110511" index="28"/>
+				<field name="C301110512" index="29"/>
+				<field name="C301110513" index="30"/>
+				<field name="C301110514" index="31"/>
+				<field name="C301110515" index="32"/>
+				<field name="C301110516" index="33"/>
+				<field name="C301110517" index="34"/>
+				<field name="C301110518" index="35"/>
+				<field name="C301110519" index="36"/>
+				<field name="C301110520" index="37"/>
+				<field name="C301110521" index="38"/>
+				<field name="C301110522" index="39"/>
+				<field name="C301110523" index="40"/>
+				<field name="LASTCCOLLECTTIME" index="41"/>
+				<field name="C301111304" index="42"/>
+				<field name="C301111305" index="43"/>
+				<field name="C301111306" index="44"/>
+				<field name="C301111307" index="45"/>
+				<field name="C301111308" index="46"/>
+				<field name="C301111309" index="47"/>
+				<field name="C301111310" index="48"/>
+				<field name="C301111311" index="49"/>
+				<field name="C301111312" index="50"/>
+				<field name="C301111313" index="51"/>
+				<field name="C301111314" index="52"/>
+				<field name="C301111315" index="53"/>
+				<field name="C301111316" index="54"/>
+				<field name="C301111317" index="55"/>
+				<field name="C301111318" index="56"/>
+				<field name="C301111319" index="57"/>
+				<field name="C301111424" index="58"/>
+				<field name="C301111425" index="59"/>
+				<field name="C301111426" index="60"/>
+				<field name="C301111427" index="61"/>
+				<field name="C301111428" index="62"/>
+				<field name="C301111429" index="63"/>
+				<field name="C301111430" index="64"/>
+				<field name="C301111431" index="65"/>
+				<field name="C301111432" index="66"/>
+				<field name="C301111433" index="67"/>
+				<field name="C301111434" index="68"/>
+				<field name="C301111435" index="69"/>
+				<field name="C301111436" index="70"/>
+				<field name="C301111437" index="71"/>
+				<field name="C301111438" index="72"/>
+				<field name="C301111439" index="73"/>
+				<field name="C301111440" index="74"/>
+				<field name="C301111441" index="75"/>
+				<field name="C301111442" index="76"/>
+				<field name="C301111443" index="77"/>
+				<field name="C301111444" index="78"/>
+				<field name="C301111445" index="79"/>
+				<field name="C301111446" index="80"/>
+				<field name="C301111447" index="81"/>
+				<field name="C301111448" index="82"/>
+				<field name="C301111449" index="83"/>
+				<field name="C301111450" index="84"/>
+				<field name="C301111451" index="85"/>
+				<field name="C301111452" index="86"/>
+				<field name="C301111453" index="87"/>
+				<field name="C301111454" index="88"/>
+				<field name="C301111455" index="89"/>
+				<field name="C301111456" index="90"/>
+				<field name="C301111457" index="91"/>
+				<field name="C301111458" index="92"/>
+				<field name="C301111459" index="93"/>
+				<field name="C301111460" index="94"/>
+				<field name="C301111461" index="95"/>
+				<field name="C301111462" index="96"/>
+				<field name="C301111463" index="97"/>
+				<field name="C301111464" index="98"/>
+				<field name="C301111465" index="99"/>
+				<field name="C301111466" index="100"/>
+				<field name="C301111467" index="101"/>
+				<field name="C301111468" index="102"/>
+				<field name="C301111469" index="103"/>
+				<field name="C301111470" index="104"/>
+				<field name="C301111471" index="105"/>
+				<field name="C301111472" index="106"/>
+				<field name="C301111473" index="107"/>
+				<field name="C301111474" index="108"/>
+				<field name="C301111475" index="109"/>
+				<field name="C301111476" index="110"/>
+				<field name="C301111477" index="111"/>
+				<field name="C301111478" index="112"/>
+				<field name="C301111479" index="113"/>
+				<field name="C301111480" index="114"/>
+				<field name="C301111481" index="115"/>
+				<field name="C301111482" index="116"/>
+				<field name="C301111483" index="117"/>
+				<field name="C301111484" index="118"/>
+				<field name="C301111485" index="119"/>
+				<field name="C301111486" index="120"/>
+				<field name="C301111487" index="121"/>
+				<field name="C301111488" index="122"/>
+				<field name="C301111489" index="123"/>
+				<field name="C301111490" index="124"/>
+				<field name="C301111491" index="125"/>
+				<field name="C301111492" index="126"/>
+				<field name="C301111493" index="127"/>
+				<field name="C301111494" index="128"/>
+				<field name="C301111495" index="129"/>
+				<field name="C301111496" index="130"/>
+				<field name="C301111497" index="131"/>
+				<field name="C301111498" index="132"/>
+				<field name="C301111499" index="133"/>
+				<field name="C301111500" index="134"/>
+				<field name="C301111321" index="135"/>
+				<field name="C301111322" index="136"/>
+				<field name="C301111323" index="137"/>
+				<field name="C301111324" index="138"/>
+				<field name="C301111325" index="139"/>
+				<field name="C301111326" index="140"/>
+				<field name="C301111327" index="141"/>
+				<field name="C301111328" index="142"/>
+				<field name="C301111329" index="143"/>
+				<field name="C301111330" index="144"/>
+				<field name="C301111331" index="145"/>
+				<field name="C301111332" index="146"/>
+				<field name="C301111333" index="147"/>
+				<field name="C301111334" index="148"/>
+				<field name="C301111335" index="149"/>
+				<field name="C301111336" index="150"/>
+				<field name="C301111337" index="151"/>
+				<field name="C301111338" index="152"/>
+				<field name="C301111339" index="153"/>
+				<field name="C301111340" index="154"/>
+				<field name="C301111341" index="155"/>
+				<field name="C301111342" index="156"/>
+				<field name="C301111343" index="157"/>
+				<field name="C301111344" index="158"/>
+				<field name="C301111345" index="159"/>
+				<field name="C301111346" index="160"/>
+				<field name="C301111347" index="161"/>
+				<field name="C301111348" index="162"/>
+				<field name="C301111349" index="163"/>
+				<field name="C301111350" index="164"/>
+				<field name="C301111351" index="165"/>
+				<field name="C301111352" index="166"/>
+				<field name="C301111353" index="167"/>
+				<field name="C301111354" index="168"/>
+				<field name="C301111355" index="169"/>
+				<field name="C301111356" index="170"/>
+				<field name="C301111357" index="171"/>
+				<field name="C301111358" index="172"/>
+				<field name="C301111359" index="173"/>
+				<field name="C301111360" index="174"/>
+				<field name="C301111361" index="175"/>
+				<field name="C301111362" index="176"/>
+				<field name="C301111363" index="177"/>
+				<field name="C301111364" index="178"/>
+				<field name="C301111365" index="179"/>
+				<field name="C301111366" index="180"/>
+				<field name="C301111367" index="181"/>
+				<field name="C301111368" index="182"/>
+				<field name="C301111369" index="183"/>
+				<field name="C301111370" index="184"/>
+				<field name="C301111371" index="185"/>
+				<field name="C301111372" index="186"/>
+				<field name="C301111373" index="187"/>
+				<field name="C301111374" index="188"/>
+				<field name="C301111375" index="189"/>
+				<field name="C301111376" index="190"/>
+				<field name="C301111377" index="191"/>
+				<field name="C301111378" index="192"/>
+				<field name="C301111379" index="193"/>
+				<field name="C301111380" index="194"/>
+				<field name="C301111381" index="195"/>
+				<field name="C301111382" index="196"/>
+				<field name="C301111383" index="197"/>
+				<field name="C301111384" index="198"/>
+				<field name="C301111385" index="199"/>
+				<field name="C301111386" index="200"/>
+				<field name="C301111387" index="201"/>
+				<field name="C301111388" index="202"/>
+				<field name="C301111389" index="203"/>
+				<field name="C301111390" index="204"/>
+				<field name="C301111391" index="205"/>
+				<field name="C301111392" index="206"/>
+				<field name="C301111393" index="207"/>
+				<field name="C301111394" index="208"/>
+				<field name="C301111395" index="209"/>
+				<field name="C301111396" index="210"/>
+				<field name="C301111397" index="211"/>
+				<field name="C301111398" index="212"/>
+				<field name="C301111399" index="213"/>
+				<field name="C301111400" index="214"/>
+				<field name="C301111401" index="215"/>
+				<field name="C301111402" index="216"/>
+				<field name="C301111403" index="217"/>
+				<field name="C301111404" index="218"/>
+				<field name="C301111405" index="219"/>
+				<field name="C301111406" index="220"/>
+				<field name="C301111407" index="221"/>
+				<field name="C301111408" index="222"/>
+				<field name="C301111409" index="223"/>
+				<field name="C301111410" index="224"/>
+				<field name="C301111411" index="225"/>
+				<field name="C301111412" index="226"/>
+				<field name="C301111413" index="227"/>
+				<field name="C301111414" index="228"/>
+				<field name="C301111415" index="229"/>
+				<field name="C301111416" index="230"/>
+				<field name="C301111417" index="231"/>
+				<field name="C301111418" index="232"/>
+				<field name="C301111419" index="233"/>
+				<field name="C301111420" index="234"/>
+				<field name="C301111421" index="235"/>
+				<field name="C301111422" index="236"/>
+				<field name="C301111423" index="237"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="33" file="/w/zte/pm/100001_RNCInterRATHandover_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301130660" index="5"/>
+				<field name="C301130661" index="6"/>
+				<field name="C301130662" index="7"/>
+				<field name="C301130663" index="8"/>
+				<field name="C301130664" index="9"/>
+				<field name="C301130665" index="10"/>
+				<field name="C301130666" index="11"/>
+				<field name="C301130667" index="12"/>
+				<field name="C301130668" index="13"/>
+				<field name="C301130669" index="14"/>
+				<field name="C301130670" index="15"/>
+				<field name="C301130671" index="16"/>
+				<field name="C301130672" index="17"/>
+				<field name="C301130673" index="18"/>
+				<field name="C301130674" index="19"/>
+				<field name="C301130675" index="20"/>
+				<field name="C301130676" index="21"/>
+				<field name="C301130677" index="22"/>
+				<field name="C301130678" index="23"/>
+				<field name="C301130679" index="24"/>
+				<field name="C301130680" index="25"/>
+				<field name="C301130681" index="26"/>
+				<field name="C301130682" index="27"/>
+				<field name="C301130683" index="28"/>
+				<field name="C301130684" index="29"/>
+				<field name="C301130685" index="30"/>
+				<field name="C301130686" index="31"/>
+				<field name="C301130687" index="32"/>
+				<field name="C301130688" index="33"/>
+				<field name="C301130689" index="34"/>
+				<field name="C301130690" index="35"/>
+				<field name="C301130691" index="36"/>
+				<field name="C301130692" index="37"/>
+				<field name="C301130693" index="38"/>
+				<field name="C301130694" index="39"/>
+				<field name="C301130695" index="40"/>
+				<field name="C301130696" index="41"/>
+				<field name="C301130697" index="42"/>
+				<field name="C301130698" index="43"/>
+				<field name="C301130699" index="44"/>
+				<field name="C301130700" index="45"/>
+				<field name="C301130701" index="46"/>
+				<field name="C301130702" index="47"/>
+				<field name="LASTCCOLLECTTIME" index="48"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="34" file="/w/zte/pm/100001_RNCIuConnection_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301080397" index="5"/>
+				<field name="C301080398" index="6"/>
+				<field name="C301080399" index="7"/>
+				<field name="C301080400" index="8"/>
+				<field name="C301080401" index="9"/>
+				<field name="C301080402" index="10"/>
+				<field name="C301080403" index="11"/>
+				<field name="C301080404" index="12"/>
+				<field name="C301080405" index="13"/>
+				<field name="C301080406" index="14"/>
+				<field name="C301080407" index="15"/>
+				<field name="C301080408" index="16"/>
+				<field name="C301080409" index="17"/>
+				<field name="C301080410" index="18"/>
+				<field name="C301080411" index="19"/>
+				<field name="C301080412" index="20"/>
+				<field name="C301080413" index="21"/>
+				<field name="C301080414" index="22"/>
+				<field name="C301080415" index="23"/>
+				<field name="C301080416" index="24"/>
+				<field name="C301080417" index="25"/>
+				<field name="C301080418" index="26"/>
+				<field name="C301080419" index="27"/>
+				<field name="C301080420" index="28"/>
+				<field name="C301080421" index="29"/>
+				<field name="C301080422" index="30"/>
+				<field name="C301080423" index="31"/>
+				<field name="C301080424" index="32"/>
+				<field name="C301080425" index="33"/>
+				<field name="C301080426" index="34"/>
+				<field name="C301080427" index="35"/>
+				<field name="C301080428" index="36"/>
+				<field name="C301080429" index="37"/>
+				<field name="C301080430" index="38"/>
+				<field name="C301080898" index="39"/>
+				<field name="C301080899" index="40"/>
+				<field name="C301080900" index="41"/>
+				<field name="C301080901" index="42"/>
+				<field name="C301080902" index="43"/>
+				<field name="C301080903" index="44"/>
+				<field name="C301080904" index="45"/>
+				<field name="C301080905" index="46"/>
+				<field name="LASTCCOLLECTTIME" index="47"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="35" file="/w/zte/pm/100001_RNCIuFlux_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301140703" index="5"/>
+				<field name="C301140704" index="6"/>
+				<field name="C301140705" index="7"/>
+				<field name="C301140706" index="8"/>
+				<field name="C301140707" index="9"/>
+				<field name="C301140708" index="10"/>
+				<field name="C301140709" index="11"/>
+				<field name="C301140710" index="12"/>
+				<field name="C301140711" index="13"/>
+				<field name="C301140712" index="14"/>
+				<field name="C301140713" index="15"/>
+				<field name="C301140714" index="16"/>
+				<field name="C301140715" index="17"/>
+				<field name="C301140716" index="18"/>
+				<field name="C301140717" index="19"/>
+				<field name="C301140718" index="20"/>
+				<field name="C301140719" index="21"/>
+				<field name="C301140720" index="22"/>
+				<field name="C301140721" index="23"/>
+				<field name="C301140722" index="24"/>
+				<field name="C301140723" index="25"/>
+				<field name="C301140724" index="26"/>
+				<field name="C301140725" index="27"/>
+				<field name="C301140726" index="28"/>
+				<field name="C301140727" index="29"/>
+				<field name="C301140728" index="30"/>
+				<field name="C301140729" index="31"/>
+				<field name="C301140730" index="32"/>
+				<field name="C301140731" index="33"/>
+				<field name="C301140732" index="34"/>
+				<field name="C301140733" index="35"/>
+				<field name="C301140734" index="36"/>
+				<field name="C301140735" index="37"/>
+				<field name="C301140736" index="38"/>
+				<field name="C301140737" index="39"/>
+				<field name="C301140738" index="40"/>
+				<field name="C301140739" index="41"/>
+				<field name="C301140740" index="42"/>
+				<field name="C301140741" index="43"/>
+				<field name="C301140742" index="44"/>
+				<field name="C301140743" index="45"/>
+				<field name="C301140744" index="46"/>
+				<field name="C301140745" index="47"/>
+				<field name="C301140746" index="48"/>
+				<field name="C301140747" index="49"/>
+				<field name="C301140748" index="50"/>
+				<field name="C301140749" index="51"/>
+				<field name="C301140750" index="52"/>
+				<field name="C301140751" index="53"/>
+				<field name="C301140752" index="54"/>
+				<field name="C301140753" index="55"/>
+				<field name="C301140754" index="56"/>
+				<field name="C301140755" index="57"/>
+				<field name="C301140756" index="58"/>
+				<field name="C301140757" index="59"/>
+				<field name="C301140758" index="60"/>
+				<field name="C301140759" index="61"/>
+				<field name="C301140760" index="62"/>
+				<field name="C301140879" index="63"/>
+				<field name="C301140880" index="64"/>
+				<field name="C301140881" index="65"/>
+				<field name="C301140882" index="66"/>
+				<field name="C301140883" index="67"/>
+				<field name="C301140884" index="68"/>
+				<field name="C301140885" index="69"/>
+				<field name="C301140886" index="70"/>
+				<field name="C301140887" index="71"/>
+				<field name="C301140888" index="72"/>
+				<field name="C301140889" index="73"/>
+				<field name="C301140890" index="74"/>
+				<field name="C301140968" index="75"/>
+				<field name="C301140969" index="76"/>
+				<field name="C301140970" index="77"/>
+				<field name="C301140971" index="78"/>
+				<field name="C301140972" index="79"/>
+				<field name="C301140973" index="80"/>
+				<field name="C301140974" index="81"/>
+				<field name="C301140975" index="82"/>
+				<field name="C301141237" index="83"/>
+				<field name="C301141238" index="84"/>
+				<field name="C301141239" index="85"/>
+				<field name="C301141240" index="86"/>
+				<field name="C301141241" index="87"/>
+				<field name="C301141242" index="88"/>
+				<field name="LASTCCOLLECTTIME" index="89"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="36" file="/w/zte/pm/100001_RNCIuInterfaceAbnormity_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301090431" index="5"/>
+				<field name="C301090432" index="6"/>
+				<field name="C301090433" index="7"/>
+				<field name="C301090434" index="8"/>
+				<field name="C301090435" index="9"/>
+				<field name="C301090436" index="10"/>
+				<field name="C301090437" index="11"/>
+				<field name="C301090438" index="12"/>
+				<field name="C301090439" index="13"/>
+				<field name="C301090440" index="14"/>
+				<field name="C301090441" index="15"/>
+				<field name="C301090442" index="16"/>
+				<field name="C301090443" index="17"/>
+				<field name="C301090444" index="18"/>
+				<field name="C301090445" index="19"/>
+				<field name="C301090446" index="20"/>
+				<field name="C301090447" index="21"/>
+				<field name="C301090448" index="22"/>
+				<field name="C301090449" index="23"/>
+				<field name="C301090450" index="24"/>
+				<field name="C301090451" index="25"/>
+				<field name="C301090452" index="26"/>
+				<field name="C301090453" index="27"/>
+				<field name="C301090454" index="28"/>
+				<field name="C301090455" index="29"/>
+				<field name="C301090456" index="30"/>
+				<field name="C301090457" index="31"/>
+				<field name="C301090458" index="32"/>
+				<field name="C301090459" index="33"/>
+				<field name="C301090460" index="34"/>
+				<field name="C301090461" index="35"/>
+				<field name="C301090462" index="36"/>
+				<field name="C301090463" index="37"/>
+				<field name="C301090464" index="38"/>
+				<field name="C301090465" index="39"/>
+				<field name="C301090466" index="40"/>
+				<field name="C301090467" index="41"/>
+				<field name="C301090468" index="42"/>
+				<field name="C301090469" index="43"/>
+				<field name="C301090470" index="44"/>
+				<field name="C301090471" index="45"/>
+				<field name="C301090472" index="46"/>
+				<field name="C301090473" index="47"/>
+				<field name="C301090474" index="48"/>
+				<field name="C301090475" index="49"/>
+				<field name="C301090476" index="50"/>
+				<field name="C301090477" index="51"/>
+				<field name="C301090478" index="52"/>
+				<field name="C301091048" index="53"/>
+				<field name="C301091049" index="54"/>
+				<field name="C301091050" index="55"/>
+				<field name="C301091051" index="56"/>
+				<field name="LASTCCOLLECTTIME" index="57"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="37" file="/w/zte/pm/100001_RNCLCS_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301170839" index="5"/>
+				<field name="C301170840" index="6"/>
+				<field name="C301170841" index="7"/>
+				<field name="C301170842" index="8"/>
+				<field name="C301170843" index="9"/>
+				<field name="C301170844" index="10"/>
+				<field name="C301170845" index="11"/>
+				<field name="C301170846" index="12"/>
+				<field name="C301170847" index="13"/>
+				<field name="C301170848" index="14"/>
+				<field name="C301170849" index="15"/>
+				<field name="C301170850" index="16"/>
+				<field name="C301170851" index="17"/>
+				<field name="C301170852" index="18"/>
+				<field name="LASTCCOLLECTTIME" index="19"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="38" file="/w/zte/pm/100001_RNCRABAssignmentModification_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301060230" index="5"/>
+				<field name="C301060231" index="6"/>
+				<field name="C301060232" index="7"/>
+				<field name="C301060233" index="8"/>
+				<field name="C301060234" index="9"/>
+				<field name="C301060235" index="10"/>
+				<field name="C301060236" index="11"/>
+				<field name="C301060237" index="12"/>
+				<field name="C301060238" index="13"/>
+				<field name="C301060239" index="14"/>
+				<field name="C301060240" index="15"/>
+				<field name="C301060241" index="16"/>
+				<field name="C301060242" index="17"/>
+				<field name="C301060243" index="18"/>
+				<field name="C301060244" index="19"/>
+				<field name="C301060245" index="20"/>
+				<field name="C301060246" index="21"/>
+				<field name="C301060247" index="22"/>
+				<field name="C301060248" index="23"/>
+				<field name="C301060249" index="24"/>
+				<field name="C301060250" index="25"/>
+				<field name="C301060251" index="26"/>
+				<field name="C301060252" index="27"/>
+				<field name="C301060253" index="28"/>
+				<field name="C301060254" index="29"/>
+				<field name="C301060255" index="30"/>
+				<field name="C301060256" index="31"/>
+				<field name="C301060257" index="32"/>
+				<field name="C301060258" index="33"/>
+				<field name="C301060259" index="34"/>
+				<field name="C301060260" index="35"/>
+				<field name="C301060261" index="36"/>
+				<field name="C301060262" index="37"/>
+				<field name="C301060263" index="38"/>
+				<field name="C301060264" index="39"/>
+				<field name="C301060265" index="40"/>
+				<field name="C301060266" index="41"/>
+				<field name="C301060267" index="42"/>
+				<field name="C301060268" index="43"/>
+				<field name="C301060269" index="44"/>
+				<field name="C301060270" index="45"/>
+				<field name="C301060271" index="46"/>
+				<field name="C301060272" index="47"/>
+				<field name="C301060273" index="48"/>
+				<field name="C301060274" index="49"/>
+				<field name="C301060275" index="50"/>
+				<field name="C301060276" index="51"/>
+				<field name="C301060277" index="52"/>
+				<field name="C301060278" index="53"/>
+				<field name="C301060279" index="54"/>
+				<field name="C301060280" index="55"/>
+				<field name="C301060281" index="56"/>
+				<field name="C301060282" index="57"/>
+				<field name="C301060283" index="58"/>
+				<field name="C301060284" index="59"/>
+				<field name="C301060285" index="60"/>
+				<field name="C301060286" index="61"/>
+				<field name="C301060287" index="62"/>
+				<field name="C301060288" index="63"/>
+				<field name="C301060289" index="64"/>
+				<field name="C301060290" index="65"/>
+				<field name="C301060291" index="66"/>
+				<field name="C301060292" index="67"/>
+				<field name="C301060293" index="68"/>
+				<field name="C301060294" index="69"/>
+				<field name="C301060295" index="70"/>
+				<field name="C301060296" index="71"/>
+				<field name="C301060297" index="72"/>
+				<field name="C301060298" index="73"/>
+				<field name="C301060299" index="74"/>
+				<field name="C301060300" index="75"/>
+				<field name="C301060301" index="76"/>
+				<field name="C301060302" index="77"/>
+				<field name="C301060303" index="78"/>
+				<field name="C301060304" index="79"/>
+				<field name="C301060305" index="80"/>
+				<field name="C301060306" index="81"/>
+				<field name="C301060307" index="82"/>
+				<field name="C301060308" index="83"/>
+				<field name="C301060309" index="84"/>
+				<field name="C301060310" index="85"/>
+				<field name="C301060311" index="86"/>
+				<field name="C301060312" index="87"/>
+				<field name="C301060313" index="88"/>
+				<field name="C301060314" index="89"/>
+				<field name="C301060315" index="90"/>
+				<field name="C301060316" index="91"/>
+				<field name="C301060317" index="92"/>
+				<field name="C301060318" index="93"/>
+				<field name="C301060319" index="94"/>
+				<field name="C301060320" index="95"/>
+				<field name="C301060321" index="96"/>
+				<field name="C301060322" index="97"/>
+				<field name="C301060323" index="98"/>
+				<field name="C301060324" index="99"/>
+				<field name="C301060325" index="100"/>
+				<field name="C301060326" index="101"/>
+				<field name="C301060327" index="102"/>
+				<field name="C301060328" index="103"/>
+				<field name="C301060329" index="104"/>
+				<field name="C301060330" index="105"/>
+				<field name="C301060331" index="106"/>
+				<field name="C301060332" index="107"/>
+				<field name="C301060333" index="108"/>
+				<field name="C301060334" index="109"/>
+				<field name="C301060335" index="110"/>
+				<field name="C301060336" index="111"/>
+				<field name="C301061212" index="112"/>
+				<field name="C301061213" index="113"/>
+				<field name="C301061214" index="114"/>
+				<field name="C301061215" index="115"/>
+				<field name="C301061216" index="116"/>
+				<field name="C301061217" index="117"/>
+				<field name="C301061218" index="118"/>
+				<field name="C301061219" index="119"/>
+				<field name="C301061220" index="120"/>
+				<field name="LASTCCOLLECTTIME" index="121"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="39" file="/w/zte/pm/100001_RNCRABAssignmentRelease_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301070337" index="5"/>
+				<field name="C301070338" index="6"/>
+				<field name="C301070339" index="7"/>
+				<field name="C301070340" index="8"/>
+				<field name="C301070341" index="9"/>
+				<field name="C301070342" index="10"/>
+				<field name="C301070343" index="11"/>
+				<field name="C301070344" index="12"/>
+				<field name="C301070345" index="13"/>
+				<field name="C301070346" index="14"/>
+				<field name="C301070347" index="15"/>
+				<field name="C301070348" index="16"/>
+				<field name="C301070349" index="17"/>
+				<field name="C301070350" index="18"/>
+				<field name="C301070351" index="19"/>
+				<field name="C301070352" index="20"/>
+				<field name="C301070353" index="21"/>
+				<field name="C301070354" index="22"/>
+				<field name="C301070355" index="23"/>
+				<field name="C301070356" index="24"/>
+				<field name="C301070357" index="25"/>
+				<field name="C301070358" index="26"/>
+				<field name="C301070359" index="27"/>
+				<field name="C301070360" index="28"/>
+				<field name="C301070361" index="29"/>
+				<field name="C301070362" index="30"/>
+				<field name="C301070363" index="31"/>
+				<field name="C301070364" index="32"/>
+				<field name="C301070365" index="33"/>
+				<field name="C301070366" index="34"/>
+				<field name="C301070367" index="35"/>
+				<field name="C301070368" index="36"/>
+				<field name="C301070369" index="37"/>
+				<field name="C301070370" index="38"/>
+				<field name="C301070371" index="39"/>
+				<field name="C301070372" index="40"/>
+				<field name="C301070373" index="41"/>
+				<field name="C301070374" index="42"/>
+				<field name="C301070375" index="43"/>
+				<field name="C301070376" index="44"/>
+				<field name="C301070377" index="45"/>
+				<field name="C301070378" index="46"/>
+				<field name="C301070379" index="47"/>
+				<field name="C301070380" index="48"/>
+				<field name="C301070381" index="49"/>
+				<field name="C301070382" index="50"/>
+				<field name="C301070383" index="51"/>
+				<field name="C301070384" index="52"/>
+				<field name="C301070385" index="53"/>
+				<field name="C301070386" index="54"/>
+				<field name="C301070387" index="55"/>
+				<field name="C301070388" index="56"/>
+				<field name="C301070389" index="57"/>
+				<field name="C301070390" index="58"/>
+				<field name="C301070391" index="59"/>
+				<field name="C301070392" index="60"/>
+				<field name="C301070393" index="61"/>
+				<field name="C301070394" index="62"/>
+				<field name="C301070395" index="63"/>
+				<field name="C301070396" index="64"/>
+				<field name="C301071221" index="65"/>
+				<field name="C301071222" index="66"/>
+				<field name="C301071223" index="67"/>
+				<field name="C301071224" index="68"/>
+				<field name="C301071225" index="69"/>
+				<field name="C301071226" index="70"/>
+				<field name="LASTCCOLLECTTIME" index="71"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="40" file="/w/zte/pm/100001_RNCRelocation_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301120524" index="5"/>
+				<field name="C301120525" index="6"/>
+				<field name="C301120526" index="7"/>
+				<field name="C301120527" index="8"/>
+				<field name="C301120528" index="9"/>
+				<field name="C301120529" index="10"/>
+				<field name="C301120530" index="11"/>
+				<field name="C301120531" index="12"/>
+				<field name="C301120532" index="13"/>
+				<field name="C301120533" index="14"/>
+				<field name="C301120534" index="15"/>
+				<field name="C301120535" index="16"/>
+				<field name="C301120536" index="17"/>
+				<field name="C301120537" index="18"/>
+				<field name="C301120538" index="19"/>
+				<field name="C301120539" index="20"/>
+				<field name="C301120540" index="21"/>
+				<field name="C301120541" index="22"/>
+				<field name="C301120542" index="23"/>
+				<field name="C301120543" index="24"/>
+				<field name="C301120544" index="25"/>
+				<field name="C301120545" index="26"/>
+				<field name="C301120546" index="27"/>
+				<field name="C301120547" index="28"/>
+				<field name="C301120548" index="29"/>
+				<field name="C301120549" index="30"/>
+				<field name="C301120550" index="31"/>
+				<field name="C301120551" index="32"/>
+				<field name="C301120552" index="33"/>
+				<field name="C301120553" index="34"/>
+				<field name="C301120554" index="35"/>
+				<field name="C301120555" index="36"/>
+				<field name="C301120556" index="37"/>
+				<field name="C301120557" index="38"/>
+				<field name="C301120558" index="39"/>
+				<field name="C301120559" index="40"/>
+				<field name="C301120560" index="41"/>
+				<field name="C301120561" index="42"/>
+				<field name="C301120562" index="43"/>
+				<field name="C301120563" index="44"/>
+				<field name="C301120564" index="45"/>
+				<field name="C301120565" index="46"/>
+				<field name="C301120566" index="47"/>
+				<field name="C301120567" index="48"/>
+				<field name="C301120568" index="49"/>
+				<field name="C301120569" index="50"/>
+				<field name="C301120570" index="51"/>
+				<field name="C301120571" index="52"/>
+				<field name="C301120572" index="53"/>
+				<field name="C301120573" index="54"/>
+				<field name="C301120574" index="55"/>
+				<field name="C301120575" index="56"/>
+				<field name="C301120576" index="57"/>
+				<field name="C301120577" index="58"/>
+				<field name="C301120578" index="59"/>
+				<field name="C301120579" index="60"/>
+				<field name="C301120580" index="61"/>
+				<field name="C301120581" index="62"/>
+				<field name="C301120582" index="63"/>
+				<field name="C301120583" index="64"/>
+				<field name="C301120584" index="65"/>
+				<field name="C301120585" index="66"/>
+				<field name="C301120586" index="67"/>
+				<field name="C301120587" index="68"/>
+				<field name="C301120588" index="69"/>
+				<field name="C301120589" index="70"/>
+				<field name="C301120590" index="71"/>
+				<field name="C301120591" index="72"/>
+				<field name="C301120592" index="73"/>
+				<field name="C301120593" index="74"/>
+				<field name="C301120594" index="75"/>
+				<field name="C301120595" index="76"/>
+				<field name="C301120596" index="77"/>
+				<field name="C301120597" index="78"/>
+				<field name="C301120598" index="79"/>
+				<field name="C301120599" index="80"/>
+				<field name="C301120600" index="81"/>
+				<field name="C301120601" index="82"/>
+				<field name="C301120602" index="83"/>
+				<field name="C301120603" index="84"/>
+				<field name="C301120604" index="85"/>
+				<field name="C301120605" index="86"/>
+				<field name="C301120606" index="87"/>
+				<field name="C301120607" index="88"/>
+				<field name="C301120608" index="89"/>
+				<field name="C301120609" index="90"/>
+				<field name="C301120610" index="91"/>
+				<field name="C301120611" index="92"/>
+				<field name="C301120612" index="93"/>
+				<field name="C301120613" index="94"/>
+				<field name="C301120614" index="95"/>
+				<field name="C301120615" index="96"/>
+				<field name="C301120616" index="97"/>
+				<field name="C301120617" index="98"/>
+				<field name="C301120618" index="99"/>
+				<field name="C301120619" index="100"/>
+				<field name="C301120620" index="101"/>
+				<field name="C301120621" index="102"/>
+				<field name="C301120622" index="103"/>
+				<field name="C301120623" index="104"/>
+				<field name="C301120624" index="105"/>
+				<field name="C301120625" index="106"/>
+				<field name="C301120626" index="107"/>
+				<field name="C301120627" index="108"/>
+				<field name="C301120628" index="109"/>
+				<field name="C301120629" index="110"/>
+				<field name="C301120630" index="111"/>
+				<field name="C301120631" index="112"/>
+				<field name="C301120632" index="113"/>
+				<field name="C301120633" index="114"/>
+				<field name="C301120634" index="115"/>
+				<field name="C301120635" index="116"/>
+				<field name="C301120636" index="117"/>
+				<field name="C301120637" index="118"/>
+				<field name="C301120638" index="119"/>
+				<field name="C301120639" index="120"/>
+				<field name="C301120640" index="121"/>
+				<field name="C301120641" index="122"/>
+				<field name="C301120642" index="123"/>
+				<field name="C301120643" index="124"/>
+				<field name="C301120644" index="125"/>
+				<field name="C301120645" index="126"/>
+				<field name="C301120646" index="127"/>
+				<field name="C301120647" index="128"/>
+				<field name="C301120648" index="129"/>
+				<field name="C301120649" index="130"/>
+				<field name="C301120650" index="131"/>
+				<field name="C301120651" index="132"/>
+				<field name="C301120652" index="133"/>
+				<field name="C301120653" index="134"/>
+				<field name="C301120654" index="135"/>
+				<field name="C301120655" index="136"/>
+				<field name="C301120656" index="137"/>
+				<field name="C301120657" index="138"/>
+				<field name="C301120658" index="139"/>
+				<field name="C301120659" index="140"/>
+				<field name="LASTCCOLLECTTIME" index="141"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="41" file="/w/zte/pm/100001_RNCRLCTraffic_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301150761" index="5"/>
+				<field name="C301150762" index="6"/>
+				<field name="C301150763" index="7"/>
+				<field name="C301150764" index="8"/>
+				<field name="C301150765" index="9"/>
+				<field name="C301150766" index="10"/>
+				<field name="C301150767" index="11"/>
+				<field name="C301150768" index="12"/>
+				<field name="C301150769" index="13"/>
+				<field name="C301150770" index="14"/>
+				<field name="C301150771" index="15"/>
+				<field name="C301150772" index="16"/>
+				<field name="C301150773" index="17"/>
+				<field name="C301150774" index="18"/>
+				<field name="C301150775" index="19"/>
+				<field name="C301150776" index="20"/>
+				<field name="C301150777" index="21"/>
+				<field name="LASTCCOLLECTTIME" index="22"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="42" file="/w/zte/pm/100001_RNCRRCConnectionManagement_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301861019" index="5"/>
+				<field name="C301861020" index="6"/>
+				<field name="C301861021" index="7"/>
+				<field name="C301861022" index="8"/>
+				<field name="C301861023" index="9"/>
+				<field name="C301861024" index="10"/>
+				<field name="C301861025" index="11"/>
+				<field name="C301861026" index="12"/>
+				<field name="C301861027" index="13"/>
+				<field name="C301861028" index="14"/>
+				<field name="C301861029" index="15"/>
+				<field name="C301861030" index="16"/>
+				<field name="C301861031" index="17"/>
+				<field name="C301861032" index="18"/>
+				<field name="C301861033" index="19"/>
+				<field name="C301861034" index="20"/>
+				<field name="C301861035" index="21"/>
+				<field name="C301861036" index="22"/>
+				<field name="C301861037" index="23"/>
+				<field name="C301861038" index="24"/>
+				<field name="C301861039" index="25"/>
+				<field name="C301861081" index="26"/>
+				<field name="C301861082" index="27"/>
+				<field name="LASTCCOLLECTTIME" index="28"/>
+				<field name="C301861273" index="29"/>
+				<field name="C301861274" index="30"/>
+				<field name="C301861275" index="31"/>
+				<field name="C301861276" index="32"/>
+				<field name="C301861277" index="33"/>
+				<field name="C301861278" index="34"/>
+				<field name="C301861279" index="35"/>
+				<field name="C301861280" index="36"/>
+				<field name="C301861281" index="37"/>
+				<field name="C301861282" index="38"/>
+				<field name="C301861283" index="39"/>
+				<field name="C301861284" index="40"/>
+				<field name="C301861285" index="41"/>
+				<field name="C301861286" index="42"/>
+				<field name="C301861287" index="43"/>
+				<field name="C301861288" index="44"/>
+				<field name="C301861289" index="45"/>
+				<field name="C301861290" index="46"/>
+				<field name="C301861291" index="47"/>
+				<field name="C301861292" index="48"/>
+				<field name="C301861293" index="49"/>
+				<field name="C301861294" index="50"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="43" file="/w/zte/pm/100001_RNCSoftHandover_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301100479" index="5"/>
+				<field name="C301100480" index="6"/>
+				<field name="C301100481" index="7"/>
+				<field name="C301100482" index="8"/>
+				<field name="C301100483" index="9"/>
+				<field name="C301100484" index="10"/>
+				<field name="C301100485" index="11"/>
+				<field name="C301100486" index="12"/>
+				<field name="C301100487" index="13"/>
+				<field name="C301100931" index="14"/>
+				<field name="C301100932" index="15"/>
+				<field name="C301100933" index="16"/>
+				<field name="C301100934" index="17"/>
+				<field name="C301100935" index="18"/>
+				<field name="C301100936" index="19"/>
+				<field name="C301100937" index="20"/>
+				<field name="C301100938" index="21"/>
+				<field name="C301100939" index="22"/>
+				<field name="C301100940" index="23"/>
+				<field name="C301100941" index="24"/>
+				<field name="C301100942" index="25"/>
+				<field name="C301100943" index="26"/>
+				<field name="C301100944" index="27"/>
+				<field name="C301100945" index="28"/>
+				<field name="C301100946" index="29"/>
+				<field name="C301100947" index="30"/>
+				<field name="C301100948" index="31"/>
+				<field name="C301100949" index="32"/>
+				<field name="C301100950" index="33"/>
+				<field name="C301100951" index="34"/>
+				<field name="C301100952" index="35"/>
+				<field name="C301100953" index="36"/>
+				<field name="C301100954" index="37"/>
+				<field name="C301100955" index="38"/>
+				<field name="C301100956" index="39"/>
+				<field name="C301100957" index="40"/>
+				<field name="C301100958" index="41"/>
+				<field name="C301100959" index="42"/>
+				<field name="C301100960" index="43"/>
+				<field name="C301100961" index="44"/>
+				<field name="C301100962" index="45"/>
+				<field name="C301100963" index="46"/>
+				<field name="C301100964" index="47"/>
+				<field name="C301100965" index="48"/>
+				<field name="C301100966" index="49"/>
+				<field name="C301100967" index="50"/>
+				<field name="C301101040" index="51"/>
+				<field name="C301101041" index="52"/>
+				<field name="C301101042" index="53"/>
+				<field name="C301101043" index="54"/>
+				<field name="C301101044" index="55"/>
+				<field name="C301101045" index="56"/>
+				<field name="C301101046" index="57"/>
+				<field name="C301101047" index="58"/>
+				<field name="LASTCCOLLECTTIME" index="59"/>
+				<field name="C301101501" index="60"/>
+				<field name="C301101502" index="61"/>
+				<field name="C301101503" index="62"/>
+				<field name="C301101504" index="63"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="44" file="/w/zte/pm/100001_RNCTraffic_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301160778" index="5"/>
+				<field name="C301160779" index="6"/>
+				<field name="C301160780" index="7"/>
+				<field name="C301160781" index="8"/>
+				<field name="C301160782" index="9"/>
+				<field name="C301160783" index="10"/>
+				<field name="C301160784" index="11"/>
+				<field name="C301160785" index="12"/>
+				<field name="C301160786" index="13"/>
+				<field name="C301160787" index="14"/>
+				<field name="C301160788" index="15"/>
+				<field name="C301160789" index="16"/>
+				<field name="C301160790" index="17"/>
+				<field name="C301160791" index="18"/>
+				<field name="C301160792" index="19"/>
+				<field name="C301160793" index="20"/>
+				<field name="C301160794" index="21"/>
+				<field name="C301160795" index="22"/>
+				<field name="C301160796" index="23"/>
+				<field name="C301160797" index="24"/>
+				<field name="C301160798" index="25"/>
+				<field name="C301160799" index="26"/>
+				<field name="C301160800" index="27"/>
+				<field name="C301160801" index="28"/>
+				<field name="C301160802" index="29"/>
+				<field name="C301160803" index="30"/>
+				<field name="C301160804" index="31"/>
+				<field name="C301160805" index="32"/>
+				<field name="C301160806" index="33"/>
+				<field name="C301160807" index="34"/>
+				<field name="C301160808" index="35"/>
+				<field name="C301160809" index="36"/>
+				<field name="C301160810" index="37"/>
+				<field name="C301160811" index="38"/>
+				<field name="C301160812" index="39"/>
+				<field name="C301160813" index="40"/>
+				<field name="C301160814" index="41"/>
+				<field name="C301160815" index="42"/>
+				<field name="C301160816" index="43"/>
+				<field name="C301160817" index="44"/>
+				<field name="C301160818" index="45"/>
+				<field name="C301160819" index="46"/>
+				<field name="C301160820" index="47"/>
+				<field name="C301160821" index="48"/>
+				<field name="C301160822" index="49"/>
+				<field name="C301160823" index="50"/>
+				<field name="C301160824" index="51"/>
+				<field name="C301160825" index="52"/>
+				<field name="C301160826" index="53"/>
+				<field name="C301160827" index="54"/>
+				<field name="C301160828" index="55"/>
+				<field name="C301160829" index="56"/>
+				<field name="C301160830" index="57"/>
+				<field name="C301160831" index="58"/>
+				<field name="C301160832" index="59"/>
+				<field name="C301160833" index="60"/>
+				<field name="C301160834" index="61"/>
+				<field name="C301160835" index="62"/>
+				<field name="C301160836" index="63"/>
+				<field name="C301160837" index="64"/>
+				<field name="C301160838" index="65"/>
+				<field name="C301160976" index="66"/>
+				<field name="C301160977" index="67"/>
+				<field name="C301160978" index="68"/>
+				<field name="C301160979" index="69"/>
+				<field name="C301160980" index="70"/>
+				<field name="C301160981" index="71"/>
+				<field name="C301160982" index="72"/>
+				<field name="C301160983" index="73"/>
+				<field name="C301160984" index="74"/>
+				<field name="C301160985" index="75"/>
+				<field name="C301160986" index="76"/>
+				<field name="C301160987" index="77"/>
+				<field name="C301160988" index="78"/>
+				<field name="C301160989" index="79"/>
+				<field name="C301160990" index="80"/>
+				<field name="C301160991" index="81"/>
+				<field name="C301161008" index="82"/>
+				<field name="C301161012" index="83"/>
+				<field name="C301161013" index="84"/>
+				<field name="C301161078" index="85"/>
+				<field name="C301161079" index="86"/>
+				<field name="C301161080" index="87"/>
+				<field name="C301161243" index="88"/>
+				<field name="C301161244" index="89"/>
+				<field name="C301161245" index="90"/>
+				<field name="C301161246" index="91"/>
+				<field name="C301161247" index="92"/>
+				<field name="C301161248" index="93"/>
+				<field name="C301161249" index="94"/>
+				<field name="C301161250" index="95"/>
+				<field name="C301161251" index="96"/>
+				<field name="C301161252" index="97"/>
+				<field name="C301161253" index="98"/>
+				<field name="C301161254" index="99"/>
+				<field name="C301161255" index="100"/>
+				<field name="LASTCCOLLECTTIME" index="101"/>
+				<field name="C301161256" index="102"/>
+				<field name="C301161320" index="103"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="45" file="/w/zte/pm/100001_RNCUserNumber_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="OBJECTID" index="4"/>
+				<field name="C301840878" index="5"/>
+				<field name="C301840913" index="6"/>
+				<field name="C301840914" index="7"/>
+				<field name="C301840915" index="8"/>
+				<field name="C301840916" index="9"/>
+				<field name="C301840917" index="10"/>
+				<field name="C301840918" index="11"/>
+				<field name="C301840919" index="12"/>
+				<field name="C301840920" index="13"/>
+				<field name="C301841018" index="14"/>
+				<field name="C301841062" index="15"/>
+				<field name="C301841063" index="16"/>
+				<field name="C301841064" index="17"/>
+				<field name="C301841065" index="18"/>
+				<field name="C301841066" index="19"/>
+				<field name="C301841067" index="20"/>
+				<field name="C301841068" index="21"/>
+				<field name="C301841069" index="22"/>
+				<field name="C301841070" index="23"/>
+				<field name="C301841071" index="24"/>
+				<field name="C301841072" index="25"/>
+				<field name="C301841073" index="26"/>
+				<field name="C301841074" index="27"/>
+				<field name="C301841075" index="28"/>
+				<field name="C301841076" index="29"/>
+				<field name="C301841077" index="30"/>
+				<field name="C301841200" index="31"/>
+				<field name="C301841201" index="32"/>
+				<field name="C301841202" index="33"/>
+				<field name="LASTCCOLLECTTIME" index="34"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="46" file="/w/zte/pm/100001_utranRelation1_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="CELLID" index="5"/>
+				<field name="OBJECTID" index="6"/>
+				<field name="C301770072" index="7"/>
+				<field name="C301770073" index="8"/>
+				<field name="C301770074" index="9"/>
+				<field name="C301770075" index="10"/>
+				<field name="C301770076" index="11"/>
+				<field name="C301770077" index="12"/>
+				<field name="C301770078" index="13"/>
+				<field name="C301770079" index="14"/>
+				<field name="C301770080" index="15"/>
+				<field name="C301770081" index="16"/>
+				<field name="C301770082" index="17"/>
+				<field name="C301770083" index="18"/>
+				<field name="C301770084" index="19"/>
+				<field name="C301770085" index="20"/>
+				<field name="C301770086" index="21"/>
+				<field name="C301770087" index="22"/>
+				<field name="C301770088" index="23"/>
+				<field name="C301770089" index="24"/>
+				<field name="C301770090" index="25"/>
+				<field name="C301770091" index="26"/>
+				<field name="C301770092" index="27"/>
+				<field name="C301770093" index="28"/>
+				<field name="C301770094" index="29"/>
+				<field name="C301770095" index="30"/>
+				<field name="C301770096" index="31"/>
+				<field name="C301770097" index="32"/>
+				<field name="C301770098" index="33"/>
+				<field name="C301770099" index="34"/>
+				<field name="C301770100" index="35"/>
+				<field name="C301770101" index="36"/>
+				<field name="C301770103" index="37"/>
+				<field name="C301770104" index="38"/>
+				<field name="C301770105" index="39"/>
+				<field name="C301770106" index="40"/>
+				<field name="C301770107" index="41"/>
+				<field name="C301770108" index="42"/>
+				<field name="C301770109" index="43"/>
+				<field name="C301770110" index="44"/>
+				<field name="C301770111" index="45"/>
+				<field name="C301770112" index="46"/>
+				<field name="C301770113" index="47"/>
+				<field name="C301770114" index="48"/>
+				<field name="C301770115" index="49"/>
+				<field name="C301770116" index="50"/>
+				<field name="C301770117" index="51"/>
+				<field name="C301770118" index="52"/>
+				<field name="C301770119" index="53"/>
+				<field name="C301770120" index="54"/>
+				<field name="C301770121" index="55"/>
+				<field name="C301770122" index="56"/>
+				<field name="C301770123" index="57"/>
+				<field name="C301770124" index="58"/>
+				<field name="C301770125" index="59"/>
+				<field name="C301770126" index="60"/>
+				<field name="C301770127" index="61"/>
+				<field name="C301770128" index="62"/>
+				<field name="C301770129" index="63"/>
+				<field name="C301770130" index="64"/>
+				<field name="C301770131" index="65"/>
+				<field name="C301770132" index="66"/>
+				<field name="C301770133" index="67"/>
+				<field name="C301770134" index="68"/>
+				<field name="C301770135" index="69"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="47" file="/w/zte/pm/100001_utranRelation2_20101018_%%H*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="CELLID" index="5"/>
+				<field name="OBJECTID" index="6"/>
+				<field name="C301500000" index="7"/>
+				<field name="C301500001" index="8"/>
+				<field name="C301500002" index="9"/>
+				<field name="C301500003" index="10"/>
+				<field name="C301500004" index="11"/>
+				<field name="C301500005" index="12"/>
+				<field name="C301500006" index="13"/>
+				<field name="C301500007" index="14"/>
+				<field name="C301500008" index="15"/>
+				<field name="C301500009" index="16"/>
+				<field name="C301500010" index="17"/>
+				<field name="C301500011" index="18"/>
+				<field name="C301500012" index="19"/>
+				<field name="C301500013" index="20"/>
+				<field name="C301500014" index="21"/>
+				<field name="C301500015" index="22"/>
+				<field name="C301500016" index="23"/>
+				<field name="C301500017" index="24"/>
+				<field name="C301500018" index="25"/>
+				<field name="C301500019" index="26"/>
+				<field name="C301500020" index="27"/>
+				<field name="C301500021" index="28"/>
+				<field name="C301500022" index="29"/>
+				<field name="C301500023" index="30"/>
+				<field name="C301500024" index="31"/>
+				<field name="C301500025" index="32"/>
+				<field name="C301500026" index="33"/>
+				<field name="C301500027" index="34"/>
+				<field name="C301500028" index="35"/>
+				<field name="C301500029" index="36"/>
+				<field name="C301500030" index="37"/>
+				<field name="C301500031" index="38"/>
+				<field name="C301500032" index="39"/>
+				<field name="C301500033" index="40"/>
+				<field name="C301500034" index="41"/>
+				<field name="C301500035" index="42"/>
+				<field name="C301500036" index="43"/>
+				<field name="C301500037" index="44"/>
+				<field name="C301500038" index="45"/>
+				<field name="C301500039" index="46"/>
+				<field name="C301500040" index="47"/>
+				<field name="C301500041" index="48"/>
+				<field name="C301500042" index="49"/>
+				<field name="C301500043" index="50"/>
+				<field name="C301500044" index="51"/>
+				<field name="C301500045" index="52"/>
+				<field name="C301500046" index="53"/>
+				<field name="C301500047" index="54"/>
+				<field name="C301500048" index="55"/>
+				<field name="C301500049" index="56"/>
+				<field name="C301500050" index="57"/>
+				<field name="C301500051" index="58"/>
+				<field name="C301500052" index="59"/>
+				<field name="C301500053" index="60"/>
+				<field name="C301500054" index="61"/>
+				<field name="C301500055" index="62"/>
+				<field name="C301500056" index="63"/>
+				<field name="C301500057" index="64"/>
+				<field name="C301500058" index="65"/>
+				<field name="C301500059" index="66"/>
+				<field name="C301500060" index="67"/>
+				<field name="C301500061" index="68"/>
+				<field name="C301500062" index="69"/>
+				<field name="C301500063" index="70"/>
+				<field name="C301500064" index="71"/>
+				<field name="C301500065" index="72"/>
+				<field name="C301500066" index="73"/>
+				<field name="C301500067" index="74"/>
+				<field name="C301500068" index="75"/>
+				<field name="C301500069" index="76"/>
+				<field name="C301500070" index="77"/>
+				<field name="C301500071" index="78"/>
+				<field name="C301500136" index="79"/>
+				<field name="C301500137" index="80"/>
+				<field name="C301500138" index="81"/>
+				<field name="C301500139" index="82"/>
+				<field name="C301500140" index="83"/>
+				<field name="C301500141" index="84"/>
+				<field name="C301500142" index="85"/>
+				<field name="C301500143" index="86"/>
+				<field name="C301500144" index="87"/>
+				<field name="C301500145" index="88"/>
+				<field name="C301500146" index="89"/>
+				<field name="C301500147" index="90"/>
+				<field name="C301500148" index="91"/>
+				<field name="C301500149" index="92"/>
+				<field name="C301500150" index="93"/>
+				<field name="C301500151" index="94"/>
+				<field name="C301500152" index="95"/>
+				<field name="C301500153" index="96"/>
+				<field name="C301500154" index="97"/>
+				<field name="C301500155" index="98"/>
+				<field name="C301500156" index="99"/>
+				<field name="C301500157" index="100"/>
+				<field name="C301500158" index="101"/>
+				<field name="C301500159" index="102"/>
+				<field name="C301500160" index="103"/>
+				<field name="C301500161" index="104"/>
+				<field name="C301500162" index="105"/>
+				<field name="C301500163" index="106"/>
+				<field name="C301500164" index="107"/>
+				<field name="C301500165" index="108"/>
+				<field name="C301500166" index="109"/>
+				<field name="C301500167" index="110"/>
+				<field name="C301500168" index="111"/>
+				<field name="C301500169" index="112"/>
+				<field name="C301500170" index="113"/>
+				<field name="C301500171" index="114"/>
+				<field name="C301500172" index="115"/>
+				<field name="C301500173" index="116"/>
+				<field name="C301500174" index="117"/>
+				<field name="C301500175" index="118"/>
+				<field name="C301500176" index="119"/>
+				<field name="C301500177" index="120"/>
+				<field name="C301500178" index="121"/>
+				<field name="C301500179" index="122"/>
+				<field name="C301500180" index="123"/>
+				<field name="C301500181" index="124"/>
+				<field name="C301500182" index="125"/>
+				<field name="C301500183" index="126"/>
+				<field name="C301500184" index="127"/>
+				<field name="C301500185" index="128"/>
+				<field name="C301500186" index="129"/>
+				<field name="C301500187" index="130"/>
+				<field name="C301500188" index="131"/>
+				<field name="C301500189" index="132"/>
+				<field name="C301500190" index="133"/>
+				<field name="C301500191" index="134"/>
+				<field name="C301500192" index="135"/>
+				<field name="C301500193" index="136"/>
+				<field name="C301500194" index="137"/>
+				<field name="C301500195" index="138"/>
+				<field name="C301500196" index="139"/>
+				<field name="C301500197" index="140"/>
+				<field name="C301500198" index="141"/>
+				<field name="C301500199" index="142"/>
+			</fields>
+		</ds>
+	</templet>
+	
+	<templet id="48" file="/w/zte/pm/100001_CellIurRadioLinkManagement_20101018_%%H*.csv " >
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+				<endSign>============================</endSign>
+			</meta>
+			<fields splitSign="|">
+				<field name="GRANULARITY" index="0"  occur="required" />
+				<field name="STATUS" index="1"  occur="required" />
+				<field name="RNSSUBNETID" index="2"  occur="required" />
+				<field name="RNCID" index="3"/>
+				<field name="NODEBID" index="4"/>
+				<field name="OBJECTID" index="5"/>
+				<field name="C301260025" index="6"/>
+				<field name="C301260026" index="7"/>
+				<field name="C301260027" index="8"/>
+				<field name="C301260028" index="9"/>
+				<field name="C301260029" index="10"/>
+				<field name="C301260030" index="11"/>
+				<field name="C301260031" index="12"/>
+				<field name="C301260032" index="13"/>
+				<field name="C301260033" index="14"/>
+				<field name="C301260034" index="15"/>
+				<field name="C301260035" index="16"/>
+				<field name="C301260036" index="17"/>
+				<field name="C301260037" index="18"/>
+				<field name="C301260038" index="19"/>
+				<field name="C301260039" index="20"/>
+				<field name="C301260040" index="21"/>
+				<field name="C301260041" index="22"/>
+				<field name="C301260042" index="23"/>
+				<field name="C301260043" index="24"/>
+				<field name="C301260044" index="25"/>
+				<field name="C301260045" index="26"/>
+				<field name="C301260046" index="27"/>
+				<field name="LASTCCOLLECTTIME" index="28"/>
+			</fields>
+		</ds>
+	</templet>
+
+</templets>

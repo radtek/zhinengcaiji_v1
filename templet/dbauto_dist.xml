@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="dest0" split=";" >
+			<column name="STARTTIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="DEST0COL1" index="1" />
+			<column name="DEST0COL2" index="2" />
+			<column name="DEST0COL3" index="3" />
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="dest1" split=";" >
+			<column name="STARTTIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="DEST1COL1" index="1" />
+			<column name="DEST1COL2" index="2" />
+			<column name="DEST1COL3" index="3" />
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="dest2" split=";" >
+			<column name="STARTTIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="DEST2COL1" index="1" />
+			<column name="DEST2COL2" index="2" />
+			<column name="DEST2COL3" index="3" />
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="dest3" split=";" >
+			<column name="STARTTIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="DEST3COL1" index="1" />
+			<column name="DEST3COL2" index="2" />
+			<column name="DEST3COL3" index="3" />
+		</table>
+	</templet>
+</templets>                                                                   

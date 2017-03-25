@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--build_jar打包igp1.jar包，build_full是构建整个程序。 -->
+<project name="igp" default="build_full" basedir=".">
+	<property name="dist_dir" value="dist/IGP1.2.6.4" />
+	<property name="jar_name" value="igp1.jar" />
+	<fileset id="igp_jar_libs" dir="lib">
+		<include name="alarmbox.jar" />
+		<include name="ant-1.6.5.jar" />
+		<include name="avalon-framework-4.1.5.jar" />
+		<include name="classes12.jar" />
+		<include name="commons-beanutils-1.7.jar" />
+		<include name="commons-collections-3.1.jar" />
+		<include name="commons-dbcp-1.2.1.jar" />
+		<include name="commons-fileupload-1.2.1.jar" />
+		<include name="commons-io-1.4.jar" />
+		<include name="commons-net-2.0.jar" />
+		<include name="commons-pool-1.3.jar" />
+		<include name="commons_console_1.0.jar" />
+		<include name="CorbaMNQ.jar" />
+		<include name="corba_nms_idl_classes.jar" />
+		<include name="dom4j-1.6.1.jar" />
+		<include name="ifxjdbc.jar" />
+		<include name="ifxjdbcx.jar" />
+		<include name="jacorb.jar" />
+		<include name="javadbf.jar" />
+		<include name="jaxen-1.1-beta-6.jar" />
+		<include name="jconn3.jar" />
+		<include name="jsch-0.1.51.jar" />
+		<include name="jep-2.4.1.jar" />
+		<include name="jetty-6.1.14.jar" />
+		<include name="jetty-util-6.1.14.jar" />
+		<include name="jsp-2.1.jar" />
+		<include name="jsp-api-2.1.jar" />
+		<include name="jxl.jar" />
+		<include name="log4j-1.2.15.jar" />
+		<include name="logkit-1.2.jar" />
+		<include name="mail.jar" />
+		<include name="MRFile.jar" />
+		<include name="mr_cal.jar" />
+		<include name="servlet-api-2.5-6.1.14.jar" />
+		<include name="sqljdbc.jar" />
+		<include name="tools.jar" />
+		<include name="uway_des_decryptor.jar" />
+		<include name="ehcache-1.6.1.jar" />
+		<include name="axis.jar" />
+		<include name="commons-discovery-0.2.jar" />
+		<include name="commons-logging-1.0.4.jar" />
+		<include name="jaxrpc.jar" />
+		<include name="wsdl4j-1.5.1.jar" />
+		<include name="jackson-annotations-2.0.4.jar" />
+		<include name="jackson-databind-2.0.4.jar" />
+		<include name="jackson-core-2.0.4.jar" />
+		<include name="poi-ooxml-schemas-3.8-20120326.jar" />
+		<include name="poi-ooxml-3.8-20120326.jar" />
+		<include name="poi-3.8-20120326.jar" />
+		<include name="xmlbeans-2.3.0.jar" />
+		<include name="msbase.jar" />
+		<include name="mssqlserver.jar" />
+		<include name="msutil.jar" />
+		<include name="jtds-1.2.2.jar" />
+		<include name="ftplet-api-1.0.6.jar" />
+		<include name="ftpserver-core-1.0.6.jar" />
+		<include name="mina-core-2.0.4.jar" />
+		<include name="slf4j-api-1.5.2.jar" />
+		<include name="slf4j-log4j12-1.5.2.jar" />
+		<include name="htmllexer.jar" />
+		<include name="htmlparser.jar" />
+	</fileset>
+	<path id="igp_classpath">
+		<fileset refid="igp_jar_libs" />
+	</path>
+	<target name="init">
+		<delete dir="${dist_dir}" />
+		<mkdir dir="${dist_dir}" />
+		<mkdir dir="${dist_dir}/lib" />
+		<mkdir dir="${dist_dir}/log" />
+		<mkdir dir="${dist_dir}/conf" />
+		<mkdir dir="${dist_dir}/bin" />
+		<mkdir dir="${dist_dir}/templet" />
+		<mkdir dir="${dist_dir}/data" />
+		<mkdir dir="${dist_dir}/classes" />
+		<mkdir dir="${dist_dir}/tool" />
+	</target>
+	<target name="compile" depends="init">
+		<javac srcdir="src" destdir="${dist_dir}/classes">
+			<!--给编译器指定编码，防止出现："警告： 编码 GBK 的不可映射字符"-->
+   			<compilerarg line="-encoding UTF-8"/>
+			<classpath refid="igp_classpath" />
+		</javac>
+	</target>
+	<target name="build" depends="compile">
+		<copy file="src/log4j.properties" todir="${dist_dir}/classes" />
+		<jar jarfile="${dist_dir}/lib/${jar_name}" basedir="${dist_dir}/classes" />
+	</target>
+	<target name="clean" depends="build">
+		<delete dir="${dist_dir}/classes" />
+	</target>
+	<target name="build_jar" depends="build,clean">
+	</target>
+	<target name="copy_files" depends="build">
+		<copy file="dist/igp.sh" todir="${dist_dir}/bin" />
+		<copy file="dist/igp.bat" todir="${dist_dir}/bin" />
+		<copy file="conf/config.xml" todir="${dist_dir}/conf" />
+		<copy file="conf/ehcache.xml" todir="${dist_dir}/conf" />
+		<copy file="conf/ftpConfig.xml" todir="${dist_dir}/conf" />
+		<copy file="conf/pbean.xml" todir="${dist_dir}/conf" />
+		<copy file="conf/SqlLdrLogAnalyseTemplet.xml" todir="${dist_dir}/conf" />
+		<copy file="conf/SqlLdrLogAnalyseTemplet_en.xml" todir="${dist_dir}/conf" />
+		<copy todir="${dist_dir}/templet/">
+			<fileset dir="templet/" />
+		</copy>
+		<copy todir="${dist_dir}/lib">
+			<fileset refid="igp_jar_libs" />
+		</copy>
+		<copy todir="${dist_dir}/WebRoot">
+			<fileset dir="WebRoot" />
+		</copy>
+		<copy file="tool/TraceFilter2.exe" todir="${dist_dir}/tool" />
+		<copy file="tool/readme.txt" todir="${dist_dir}/tool" />
+	</target>
+	<target name="build_full" depends="copy_files,clean">
+	</target>
+</project>

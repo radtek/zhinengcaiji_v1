@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+
+	<templet id="0" fromTable="R_H_Gcall" toTable="CLT_PM_C_ZTE_151" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="1" fromTable="R_H_GSrcANHo" toTable="CLT_PM_C_ZTE_152" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="2" fromTable="R_H_GRls" toTable="CLT_PM_C_ZTE_153" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="3" fromTable="R_H_GAccAuthen" toTable="CLT_PM_C_ZTE_154" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="4" fromTable="R_H_GSessionSetup" toTable="CLT_PM_C_ZTE_155" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="5" fromTable="R_H_GSessionNego" toTable="CLT_PM_C_ZTE_156" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="6" fromTable="R_H_GsessionHo" toTable="CLT_PM_C_ZTE_158" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="7" fromTable="R_H_GPCFCall" toTable="CLT_PM_C_ZTE_159" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="8" fromTable="R_H_GPCFHo" toTable="CLT_PM_C_ZTE_160" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="9" fromTable="R_H_GPCFRls" toTable="CLT_PM_C_ZTE_161" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="10" fromTable="R_H_GaccAuthFlow" toTable="CLT_PM_C_ZTE_163" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="11" fromTable="R_H_A8DataFlow" toTable="CLT_PM_C_ZTE_164" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="12" fromTable="R_H_AbistDataFlow" toTable="CLT_PM_C_ZTE_165" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="13" fromTable="R_H_GVirtualHo" toTable="CLT_PM_C_ZTE_166" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="14" fromTable="R_H_GPageResp" toTable="CLT_PM_C_ZTE_167" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="15" fromTable="R_H_GAssignSoft" toTable="CLT_PM_C_ZTE_168" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="16" fromTable="R_H_GPCFBlkRsn" toTable="CLT_PM_C_ZTE_169" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="17" fromTable="R_H_GHardHo" toTable="CLT_PM_C_ZTE_170" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="18" fromTable="R_H_GTgtANHo" toTable="CLT_PM_C_ZTE_171" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="19" fromTable="R_H_GCallII" toTable="CLT_PM_C_ZTE_172" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="20" fromTable="R_H_GAssignSoftII" toTable="CLT_PM_C_ZTE_173" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="21" fromTable="R_H_GHardHoII" toTable="CLT_PM_C_ZTE_174" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="22" fromTable="R_H_GTgtANHoII" toTable="CLT_PM_C_ZTE_175" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="23" fromTable="R_H_GSrcANHoII" toTable="CLT_PM_C_ZTE_176" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="24" fromTable="R_H_GRlsII" toTable="CLT_PM_C_ZTE_177" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="25" fromTable="R_H_GQoS" toTable="CLT_PM_C_ZTE_181" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="26" fromTable="R_H_GQoSSession" toTable="CLT_PM_C_ZTE_182" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="27" fromTable="R_H_CCE" toTable="CLT_PM_C_ZTE_401" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="28" fromTable="R_H_BTSCE" toTable="CLT_PM_C_ZTE_406" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="29" fromTable="R_H_CSessionSetup" toTable="CLT_PM_C_ZTE_601" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="30" fromTable="R_H_CSessionNego" toTable="CLT_PM_C_ZTE_602" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="31" fromTable="R_H_CSessionRls" toTable="CLT_PM_C_ZTE_603" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="32" fromTable="R_H_CSessionHo" toTable="CLT_PM_C_ZTE_604" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="33" fromTable="R_H_CSessionSetupFailRsn" toTable="CLT_PM_C_ZTE_605" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="34" fromTable="R_H_CSessionNegoFailRsn" toTable="CLT_PM_C_ZTE_606" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="35" fromTable="R_H_CA13DormHoFailRsn" toTable="CLT_PM_C_ZTE_607" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="36" fromTable="R_H_CDormantHoFailRsn" toTable="CLT_PM_C_ZTE_608" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="37" fromTable="R_H_CSessionRlsFailRsn" toTable="CLT_PM_C_ZTE_609" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="38" fromTable="R_H_CSessionAuthFailRsn" toTable="CLT_PM_C_ZTE_611" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="39" fromTable="R_H_CActiveHoFailRsn" toTable="CLT_PM_C_ZTE_612" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="40" fromTable="R_H_CCall" toTable="CLT_PM_C_ZTE_801" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="41" fromTable="R_H_CSrcANHo" toTable="CLT_PM_C_ZTE_802" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="42" fromTable="R_H_CRls" toTable="CLT_PM_C_ZTE_803" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="43" fromTable="R_H_CFCHErl" toTable="CLT_PM_C_ZTE_804" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="44" fromTable="R_H_CFwdFlux" toTable="CLT_PM_C_ZTE_806" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="45" fromTable="R_H_CRevFlux" toTable="CLT_PM_C_ZTE_807" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="46" fromTable="R_H_COverLoad" toTable="CLT_PM_C_ZTE_808" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="47" fromTable="R_H_CCCHMessageStat" toTable="CLT_PM_C_ZTE_809" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="48" fromTable="R_H_CCallFailRsn" toTable="CLT_PM_C_ZTE_811" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="49" fromTable="R_H_CHoFailRsn" toTable="CLT_PM_C_ZTE_812" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="50" fromTable="R_H_CNormrlsRsn" toTable="CLT_PM_C_ZTE_813" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="51" fromTable="R_H_CserviceBlockRsn" toTable="CLT_PM_C_ZTE_814" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="52" fromTable="R_H_CESLinkData" toTable="CLT_PM_C_ZTE_815" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="53" fromTable="R_H_CrlsFailRsn" toTable="CLT_PM_C_ZTE_816" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="54" fromTable="R_H_CVirtualHo" toTable="CLT_PM_C_ZTE_818" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="55" fromTable="R_H_CAssignSoft" toTable="CLT_PM_C_ZTE_819" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="56" fromTable="R_H_ClcSessionSetup" toTable="CLT_PM_C_ZTE_820" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="57" fromTable="R_H_ClcRLPInfo" toTable="CLT_PM_C_ZTE_821" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="58" fromTable="R_H_ClcBssApCallFail" toTable="CLT_PM_C_ZTE_822" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="59" fromTable="R_H_ClcRedirectCall" toTable="CLT_PM_C_ZTE_823" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="60" fromTable="R_H_ClcRTDInfo" toTable="CLT_PM_C_ZTE_824" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="61" fromTable="R_H_CHardHo" toTable="CLT_PM_C_ZTE_825" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="62" fromTable="R_H_CTgtANHo" toTable="CLT_PM_C_ZTE_826" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="63" fromTable="R_H_CReverseFrameStat" toTable="CLT_PM_C_ZTE_827" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="64" fromTable="R_H_ExtInterruptRsn" toTable="CLT_PM_C_ZTE_828" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="65" fromTable="R_H_CAccAuthen" toTable="CLT_PM_C_ZTE_829" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="66" fromTable="R_H_CSessionNegotiation" toTable="CLT_PM_C_ZTE_830" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="67" fromTable="R_H_CDRCFwdReqRate" toTable="CLT_PM_C_ZTE_840" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="68" fromTable="R_H_GPCFMediaFluxReport" toTable="CLT_PM_C_ZTE_841" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="69" fromTable="R_H_CHoResAllocFailRsn" toTable="CLT_PM_C_ZTE_845" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="70" fromTable="R_H_CQoS" toTable="CLT_PM_C_ZTE_851" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="71" fromTable="R_H_PCFCE" toTable="CLT_PM_C_ZTE_1401" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="72" fromTable="R_H_RLPFlowStats" toTable="CLT_PM_C_ZTE_1412" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="73" fromTable="R_H_GPCFStatus" toTable="CLT_PM_C_ZTE_1414" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="74" fromTable="R_H_SE" toTable="CLT_PM_C_ZTE_1501" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="75" fromTable="R_H_GSSetAndCon" toTable="CLT_PM_C_ZTE_1503" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="76" fromTable="R_B_GSM" toTable="CLT_PM_C_ZTE_2151" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="77" fromTable="R_B_GReg" toTable="CLT_PM_C_ZTE_2152" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="78" fromTable="R_B_GVocMOCall" toTable="CLT_PM_C_ZTE_2153" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="79" fromTable="R_B_GDataMoCall" toTable="CLT_PM_C_ZTE_2154" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="80" fromTable="R_B_GVocMtCall" toTable="CLT_PM_C_ZTE_2155" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="81" fromTable="R_B_GDataMtCall" toTable="CLT_PM_C_ZTE_2156" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="82" fromTable="R_B_GVocTgtBSSHo" toTable="CLT_PM_C_ZTE_2157" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="83" fromTable="R_B_GDataTgtBSSHo" toTable="CLT_PM_C_ZTE_2158" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="84" fromTable="R_B_GHardTgtBSSHo" toTable="CLT_PM_C_ZTE_2160" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="85" fromTable="R_B_GVocSrcBSSHo" toTable="CLT_PM_C_ZTE_2161" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="86" fromTable="R_B_GDataSrcBSSHo" toTable="CLT_PM_C_ZTE_2162" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="87" fromTable="R_B_GVocRls" toTable="CLT_PM_C_ZTE_2164" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="88" fromTable="R_B_GDataRls" toTable="CLT_PM_C_ZTE_2165" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="89" fromTable="R_B_GPCFCall" toTable="CLT_PM_C_ZTE_2166" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="90" fromTable="R_B_GPCFHo" toTable="CLT_PM_C_ZTE_2167" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="91" fromTable="R_B_GPCFRls" toTable="CLT_PM_C_ZTE_2168" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="92" fromTable="R_B_GShtDat" toTable="CLT_PM_C_ZTE_2170" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="93" fromTable="R_B_GSmsMO" toTable="CLT_PM_C_ZTE_2171" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="94" fromTable="R_B_GSmsMt" toTable="CLT_PM_C_ZTE_2172" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="95" fromTable="R_B_GSmsRls" toTable="CLT_PM_C_ZTE_2173" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="96" fromTable="R_B_GBssApVocErl" toTable="CLT_PM_C_ZTE_2174" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="97" fromTable="R_B_GBssApSmsErl" toTable="CLT_PM_C_ZTE_2175" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="98" fromTable="R_B_GBssApDataErl" toTable="CLT_PM_C_ZTE_2176" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="99" fromTable="R_B_GDspmVocErl" toTable="CLT_PM_C_ZTE_2177" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="100" fromTable="R_B_GDspmSmsErl" toTable="CLT_PM_C_ZTE_2178" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="101" fromTable="R_B_GDspmDataErl" toTable="CLT_PM_C_ZTE_2179" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="102" fromTable="R_B_GconVocMoCall" toTable="CLT_PM_C_ZTE_2180" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="103" fromTable="R_B_GconDataMoCall" toTable="CLT_PM_C_ZTE_2181" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="104" fromTable="R_B_GconVocMtCall" toTable="CLT_PM_C_ZTE_2182" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="105" fromTable="R_B_GconDataMtCall" toTable="CLT_PM_C_ZTE_2183" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="106" fromTable="R_B_GConRls" toTable="CLT_PM_C_ZTE_2184" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="107" fromTable="R_B_GVocTgtBssHoErl" toTable="CLT_PM_C_ZTE_2185" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="108" fromTable="R_B_GDataTgtBssHoErl" toTable="CLT_PM_C_ZTE_2186" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="109" fromTable="R_B_GHardTgtBssHoDrop" toTable="CLT_PM_C_ZTE_2187" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="110" fromTable="R_B_GConErl" toTable="CLT_PM_C_ZTE_2188" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="111" fromTable="R_B_GBSSAPVocBlockRsn" toTable="CLT_PM_C_ZTE_2189" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="112" fromTable="R_B_GBSSAPDataBlockRsn" toTable="CLT_PM_C_ZTE_2190" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="113" fromTable="R_B_GBSSAPSMSBlockRsn" toTable="CLT_PM_C_ZTE_2191" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="114" fromTable="R_B_GDSMPVocBlockRsn" toTable="CLT_PM_C_ZTE_2192" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="115" fromTable="R_B_GDSMPDataBlockRsn" toTable="CLT_PM_C_ZTE_2193" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="116" fromTable="R_B_GDSMPSMSBlockRsn" toTable="CLT_PM_C_ZTE_2194" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="117" fromTable="R_B_GRLPFluxReport" toTable="CLT_PM_C_ZTE_2195" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="118" fromTable="R_B_GPCFBlkRsn" toTable="CLT_PM_C_ZTE_2196" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="119" fromTable="R_B_GPCFMacFluxReport" toTable="CLT_PM_C_ZTE_2197" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="120" fromTable="R_B_No7FluxReport" toTable="CLT_PM_C_ZTE_2198" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="121" fromTable="R_B_GRTPDelayReport" toTable="CLT_PM_C_ZTE_2199" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="122" fromTable="R_B_GPCFSignalFluxReport" toTable="CLT_PM_C_ZTE_2202" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="123" fromTable="R_B_GRTPFluxReport" toTable="CLT_PM_C_ZTE_2203" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="124" fromTable="R_B_GIwfMOCall" toTable="CLT_PM_C_ZTE_2207" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="125" fromTable="R_B_GIwfMTCall" toTable="CLT_PM_C_ZTE_2208" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="126" fromTable="R_B_GIwfRls" toTable="CLT_PM_C_ZTE_2209" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="127" fromTable="R_B_GBSSAPVocMOCall" toTable="CLT_PM_C_ZTE_2210" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="128" fromTable="R_B_GBSSAPVocMtCall" toTable="CLT_PM_C_ZTE_2211" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="129" fromTable="R_B_GBSSAPSmsMOCall" toTable="CLT_PM_C_ZTE_2212" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="130" fromTable="R_B_GBSSAPSmsMtCall" toTable="CLT_PM_C_ZTE_2213" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="131" fromTable="R_B_GBSSAPDataMOCall" toTable="CLT_PM_C_ZTE_2214" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="132" fromTable="R_B_GBSSAPDataMtCall" toTable="CLT_PM_C_ZTE_2215" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="133" fromTable="R_B_GDSMPVocMOCall" toTable="CLT_PM_C_ZTE_2216" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="134" fromTable="R_B_GDSMPVocMtCall" toTable="CLT_PM_C_ZTE_2217" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="135" fromTable="R_B_GDSMPSmsMOCall" toTable="CLT_PM_C_ZTE_2218" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="136" fromTable="R_B_GDSMPSmsMtCall" toTable="CLT_PM_C_ZTE_2219" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="137" fromTable="R_B_GDSMPDataMOCall" toTable="CLT_PM_C_ZTE_2220" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="138" fromTable="R_B_GDSMPDataMtCall" toTable="CLT_PM_C_ZTE_2221" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="139" fromTable="R_B_GExterInterrupt" toTable="CLT_PM_C_ZTE_2222" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="140" fromTable="R_B_GPCFMediaFluxReport" toTable="CLT_PM_C_ZTE_2223" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="141" fromTable="R_B_GExterInterruptExt" toTable="CLT_PM_C_ZTE_2300" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="142" fromTable="R_B_GFSCHTgtBSSHo" toTable="CLT_PM_C_ZTE_2301" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="143" fromTable="R_B_GRSCHTgtBSSHo" toTable="CLT_PM_C_ZTE_2302" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="144" fromTable="R_B_GFSCHSrcBSSHo" toTable="CLT_PM_C_ZTE_2303" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="145" fromTable="R_B_GRSCHSrcBSSHo" toTable="CLT_PM_C_ZTE_2304" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="146" fromTable="R_B_GReloSrcBSSHoDrop" toTable="CLT_PM_C_ZTE_2305" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="147" fromTable="R_B_95TCCE" toTable="CLT_PM_C_ZTE_2405" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="148" fromTable="R_B_BTS95CE" toTable="CLT_PM_C_ZTE_2407" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="149" fromTable="R_B_BTSFCE" toTable="CLT_PM_C_ZTE_2408" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="150" fromTable="R_B_BTSRCE" toTable="CLT_PM_C_ZTE_2409" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="151" fromTable="R_B_CReg" toTable="CLT_PM_C_ZTE_2801" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="152" fromTable="R_B_CVocMOCall" toTable="CLT_PM_C_ZTE_2802" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="153" fromTable="R_B_CVocMtCall" toTable="CLT_PM_C_ZTE_2803" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="154" fromTable="R_B_CDataMOCall" toTable="CLT_PM_C_ZTE_2804" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="155" fromTable="R_B_CDataMtCall" toTable="CLT_PM_C_ZTE_2805" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="156" fromTable="R_B_CVocTgtBSSHo" toTable="CLT_PM_C_ZTE_2806" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="157" fromTable="R_B_CDataTgtBSSHo" toTable="CLT_PM_C_ZTE_2807" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="158" fromTable="R_B_CHardHo" toTable="CLT_PM_C_ZTE_2809" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="159" fromTable="R_B_CVocSrcBSSHo" toTable="CLT_PM_C_ZTE_2810" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="160" fromTable="R_B_CDataSrcBSSHo" toTable="CLT_PM_C_ZTE_2811" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="161" fromTable="R_B_CVocRls" toTable="CLT_PM_C_ZTE_2815" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="162" fromTable="R_B_CDataRls" toTable="CLT_PM_C_ZTE_2816" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="163" fromTable="R_B_CTgtBssFSCHSetup" toTable="CLT_PM_C_ZTE_2819" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="164" fromTable="R_B_CTgtBssRSCHSetup" toTable="CLT_PM_C_ZTE_2820" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="165" fromTable="R_B_CSrcBssFSCHSetup" toTable="CLT_PM_C_ZTE_2823" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="166" fromTable="R_B_CSrcBssRSCHSetup" toTable="CLT_PM_C_ZTE_2824" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="167" fromTable="R_B_COverload" toTable="CLT_PM_C_ZTE_2827" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="168" fromTable="R_B_TCH" toTable="CLT_PM_C_ZTE_2832" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="169" fromTable="R_B_CSmsMO" toTable="CLT_PM_C_ZTE_2833" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="170" fromTable="R_B_CSmsMt" toTable="CLT_PM_C_ZTE_2834" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="171" fromTable="R_B_CSmsRls" toTable="CLT_PM_C_ZTE_2835" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="172" fromTable="R_B_CbssApVocErl" toTable="CLT_PM_C_ZTE_2836" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="173" fromTable="R_B_CBssApSmsErl" toTable="CLT_PM_C_ZTE_2837" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="174" fromTable="R_B_CBssApDataErl" toTable="CLT_PM_C_ZTE_2838" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="175" fromTable="R_B_CdspmVocErl" toTable="CLT_PM_C_ZTE_2839" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="176" fromTable="R_B_CDspmSmsErl" toTable="CLT_PM_C_ZTE_2840" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="177" fromTable="R_B_CdspmDataErl" toTable="CLT_PM_C_ZTE_2841" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="178" fromTable="R_B_CconVocMoCall" toTable="CLT_PM_C_ZTE_2848" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="179" fromTable="R_B_CconDataMoCall" toTable="CLT_PM_C_ZTE_2849" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="180" fromTable="R_B_CConVocMtCall" toTable="CLT_PM_C_ZTE_2850" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="181" fromTable="R_B_CConDataMtCall" toTable="CLT_PM_C_ZTE_2851" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="182" fromTable="R_B_CConRls" toTable="CLT_PM_C_ZTE_2852" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="183" fromTable="R_B_CVocTgtBssHoErl" toTable="CLT_PM_C_ZTE_2853" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="184" fromTable="R_B_CDataTgtBssHoErl" toTable="CLT_PM_C_ZTE_2854" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="185" fromTable="R_B_CHardTgtBssHoDrop" toTable="CLT_PM_C_ZTE_2855" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="186" fromTable="R_B_CConErl" toTable="CLT_PM_C_ZTE_2856" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="187" fromTable="R_B_CESLinkData" toTable="CLT_PM_C_ZTE_2857" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="188" fromTable="R_B_RegFailRsn" toTable="CLT_PM_C_ZTE_2858" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="189" fromTable="R_B_VocCallFailRsn" toTable="CLT_PM_C_ZTE_2859" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="190" fromTable="R_B_SMSCallFailRsn" toTable="CLT_PM_C_ZTE_2860" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="191" fromTable="R_B_DCallFRsn" toTable="CLT_PM_C_ZTE_2861" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="192" fromTable="R_B_VocDropRsn" toTable="CLT_PM_C_ZTE_2862" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="193" fromTable="R_B_SMSDropRsn" toTable="CLT_PM_C_ZTE_2863" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="194" fromTable="R_B_DataDropRsn" toTable="CLT_PM_C_ZTE_2864" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="195" fromTable="R_B_HoFailRsn" toTable="CLT_PM_C_ZTE_2865" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="196" fromTable="R_B_ConVCallFRsn" toTable="CLT_PM_C_ZTE_2866" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="197" fromTable="R_B_ConDCallFRsn" toTable="CLT_PM_C_ZTE_2867" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="198" fromTable="R_B_ConRlsFailRsn" toTable="CLT_PM_C_ZTE_2868" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="199" fromTable="R_B_HardHoFailRsn" toTable="CLT_PM_C_ZTE_2869" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="200" fromTable="R_B_FwdSCHSetupFailRsn" toTable="CLT_PM_C_ZTE_2870" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="201" fromTable="R_B_RevSCHSetupFailRsn" toTable="CLT_PM_C_ZTE_2871" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="202" fromTable="R_B_FwdSCHRlsFailRsn" toTable="CLT_PM_C_ZTE_2872" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="203" fromTable="R_B_RevSCHRlsFailRsn" toTable="CLT_PM_C_ZTE_2873" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="204" fromTable="R_B_CBSSAPVocBlockRsn" toTable="CLT_PM_C_ZTE_2874" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="205" fromTable="R_B_CBSSAPDataBlockRsn" toTable="CLT_PM_C_ZTE_2875" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="206" fromTable="R_B_CBSSAPSMSBlockRsn" toTable="CLT_PM_C_ZTE_2876" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="207" fromTable="R_B_CDSMPVocBlockRsn" toTable="CLT_PM_C_ZTE_2877" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="208" fromTable="R_B_CDSMPDataBlockRsn" toTable="CLT_PM_C_ZTE_2878" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="209" fromTable="R_B_CDSMPSMSBlockRsn" toTable="CLT_PM_C_ZTE_2879" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="210" fromTable="R_B_CBSSAPVocMOCall" toTable="CLT_PM_C_ZTE_2880" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="211" fromTable="R_B_CBSSAPVocMtCall" toTable="CLT_PM_C_ZTE_2881" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="212" fromTable="R_B_CBSSAPSmsMOCall" toTable="CLT_PM_C_ZTE_2882" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="213" fromTable="R_B_CBSSAPSmsMtCall" toTable="CLT_PM_C_ZTE_2883" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="214" fromTable="R_B_CBSSAPDataMOCall" toTable="CLT_PM_C_ZTE_2884" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="215" fromTable="R_B_CBSSAPDataMtCall" toTable="CLT_PM_C_ZTE_2885" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="216" fromTable="R_B_CDSMPVocMOCall" toTable="CLT_PM_C_ZTE_2886" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="217" fromTable="R_B_CDSMPVocMtCall" toTable="CLT_PM_C_ZTE_2887" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="218" fromTable="R_B_CDSMPSmsMOCall" toTable="CLT_PM_C_ZTE_2888" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="219" fromTable="R_B_CDSMPSmsMtCall" toTable="CLT_PM_C_ZTE_2889" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="220" fromTable="R_B_CDSMPDataMOCall" toTable="CLT_PM_C_ZTE_2890" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="221" fromTable="R_B_CDSMPDataMtCall" toTable="CLT_PM_C_ZTE_2891" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="222" fromTable="R_B_CRCCall" toTable="CLT_PM_C_ZTE_2893" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="223" fromTable="R_B_CExterInterrupt" toTable="CLT_PM_C_ZTE_2894" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="224" fromTable="R_B_CDataFlux" toTable="CLT_PM_C_ZTE_2895" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="225" fromTable="R_B_CPCHUsage" toTable="CLT_PM_C_ZTE_2896" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="226" fromTable="R_B_CACHUsage" toTable="CLT_PM_C_ZTE_2897" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="227" fromTable="R_B_CReloTgtBSSHoAdd" toTable="CLT_PM_C_ZTE_2898" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="228" fromTable="R_B_CFwdFrameStat" toTable="CLT_PM_C_ZTE_2899" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="229" fromTable="R_B_CExterInterruptExt" toTable="CLT_PM_C_ZTE_2900" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="230" fromTable="R_B_ExtInterruptRsn" toTable="CLT_PM_C_ZTE_2901" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="231" fromTable="R_P_IPE1Flux" toTable="CLT_PM_C_ZTE_3051" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="232" fromTable="R_P_HIRSE1Flux" toTable="CLT_PM_C_ZTE_3052" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="233" fromTable="R_P_FEFlux" toTable="CLT_PM_C_ZTE_3053" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="234" fromTable="R_P_MACPortFlux" toTable="CLT_PM_C_ZTE_3056" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="235" fromTable="R_HIRS_RFS" toTable="CLT_PM_C_ZTE_3201" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="236" fromTable="R_HIRS_ARIRRFS" toTable="CLT_PM_C_ZTE_3202" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="237" fromTable="R_B_PCFCE" toTable="CLT_PM_C_ZTE_3401" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="238" fromTable="R_P_PPPActiveMaxNum" toTable="CLT_PM_C_ZTE_3406" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="239" fromTable="R_B_GPCFStatus" toTable="CLT_PM_C_ZTE_3408" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="240" fromTable="R_B_RFS" toTable="CLT_PM_C_ZTE_3409" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="241" fromTable="R_B_ARIRRFS" toTable="CLT_PM_C_ZTE_3410" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="242" fromTable="R_B_SE" toTable="CLT_PM_C_ZTE_3501" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="243" fromTable="R_B_VE" toTable="CLT_PM_C_ZTE_3503" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="244" fromTable="R_B_CIC" toTable="CLT_PM_C_ZTE_3504" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="245" fromTable="R_B_DSPM" toTable="CLT_PM_C_ZTE_3505" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="246" fromTable="R_P_MPCpuInfo" toTable="CLT_PM_C_ZTE_4806" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="247" fromTable="R_P_PPCpuInfo" toTable="CLT_PM_C_ZTE_4807" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="248" fromTable="R_P_BTSCpuInfo" toTable="CLT_PM_C_ZTE_4808" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="249" fromTable="R_T_GReg" toTable="CLT_PM_C_ZTE_15101" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="250" fromTable="R_T_GgrpOriCall" toTable="CLT_PM_C_ZTE_15102" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="251" fromTable="R_T_GgrpPagingCall" toTable="CLT_PM_C_ZTE_15103" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="252" fromTable="R_T_GPrvOriCall" toTable="CLT_PM_C_ZTE_15104" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="253" fromTable="R_T_GPrvPagingCall" toTable="CLT_PM_C_ZTE_15105" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="254" fromTable="R_T_GgrpRls" toTable="CLT_PM_C_ZTE_15106" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="255" fromTable="R_T_GPrvRls" toTable="CLT_PM_C_ZTE_15107" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="256" fromTable="R_T_GBSSAPgrpErl" toTable="CLT_PM_C_ZTE_15108" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="257" fromTable="R_T_GBSSAPprvErl" toTable="CLT_PM_C_ZTE_15109" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="258" fromTable="R_T_GDSPMGrpErl" toTable="CLT_PM_C_ZTE_15110" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="259" fromTable="R_T_GDSPMPrvErl" toTable="CLT_PM_C_ZTE_15111" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="260" fromTable="R_T_GGrpTgtBSSHo" toTable="CLT_PM_C_ZTE_15112" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="261" fromTable="R_T_GPrvTgtBSSHo" toTable="CLT_PM_C_ZTE_15113" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="262" fromTable="R_T_GGrpSrcBSSHo" toTable="CLT_PM_C_ZTE_15114" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="263" fromTable="R_T_GPrvSrcBSSHo" toTable="CLT_PM_C_ZTE_15115" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="264" fromTable="R_T_GgrpTgtBSSHoErl" toTable="CLT_PM_C_ZTE_15116" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="265" fromTable="R_T_GprvTgtBSSHoErl" toTable="CLT_PM_C_ZTE_15117" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="266" fromTable="R_T_GTgtBSSHardHoAdd" toTable="CLT_PM_C_ZTE_15118" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="267" fromTable="R_T_GTgtBSSHardHoDrop" toTable="CLT_PM_C_ZTE_15119" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="268" fromTable="R_T_GBroadcastCall" toTable="CLT_PM_C_ZTE_15120" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="269" fromTable="R_T_GBroadcastRls" toTable="CLT_PM_C_ZTE_15121" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="270" fromTable="R_T_GBroadcastErl" toTable="CLT_PM_C_ZTE_15122" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="271" fromTable="R_T_PTTGloBloRsn" toTable="CLT_PM_C_ZTE_15125" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="272" fromTable="R_T_GCallSetup" toTable="CLT_PM_C_ZTE_15127" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="273" fromTable="R_T_GCellNum" toTable="CLT_PM_C_ZTE_15128" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="274" fromTable="R_T_CReg" toTable="CLT_PM_C_ZTE_15601" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="275" fromTable="R_T_CgrpOriCall" toTable="CLT_PM_C_ZTE_15602" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="276" fromTable="R_T_CgrpPagingCall" toTable="CLT_PM_C_ZTE_15603" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="277" fromTable="R_T_CPrvOriCall" toTable="CLT_PM_C_ZTE_15604" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="278" fromTable="R_T_CPrvPagingCall" toTable="CLT_PM_C_ZTE_15605" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="279" fromTable="R_T_CgrpRls" toTable="CLT_PM_C_ZTE_15606" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="280" fromTable="R_T_CPrvRls" toTable="CLT_PM_C_ZTE_15607" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="281" fromTable="R_T_CbssApGrpErl" toTable="CLT_PM_C_ZTE_15608" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="282" fromTable="R_T_CBssApPrvErl" toTable="CLT_PM_C_ZTE_15609" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="283" fromTable="R_T_CdspmGrpErl" toTable="CLT_PM_C_ZTE_15610" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="284" fromTable="R_T_CDspmPrvErl" toTable="CLT_PM_C_ZTE_15611" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="285" fromTable="R_T_CGrpTgtBSSHo" toTable="CLT_PM_C_ZTE_15612" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="286" fromTable="R_T_CPrvTgtBSSHo" toTable="CLT_PM_C_ZTE_15613" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="287" fromTable="R_T_CGrpSrcBSSHo" toTable="CLT_PM_C_ZTE_15614" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="288" fromTable="R_T_CPrvSrcBSSHo" toTable="CLT_PM_C_ZTE_15615" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="289" fromTable="R_T_CgrpTgtBSSHoErl" toTable="CLT_PM_C_ZTE_15616" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="290" fromTable="R_T_CprvTgtBSSHoErl" toTable="CLT_PM_C_ZTE_15617" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="291" fromTable="R_T_CTgtBSSHardHoAdd" toTable="CLT_PM_C_ZTE_15618" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="292" fromTable="R_T_CTgtBSSHardHoDrop" toTable="CLT_PM_C_ZTE_15619" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="293" fromTable="R_T_RegFailRsn" toTable="CLT_PM_C_ZTE_15620" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="294" fromTable="R_T_GrpCallFailRsn" toTable="CLT_PM_C_ZTE_15621" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="295" fromTable="R_T_PrvCallFailRsn" toTable="CLT_PM_C_ZTE_15622" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="296" fromTable="R_T_GrpRlsDropRsn" toTable="CLT_PM_C_ZTE_15623" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="297" fromTable="R_T_PrvRlsDropRsn" toTable="CLT_PM_C_ZTE_15624" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="298" fromTable="R_T_PTTHoFailRsn" toTable="CLT_PM_C_ZTE_15625" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="299" fromTable="R_T_PTTHHoFRsn" toTable="CLT_PM_C_ZTE_15626" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="300" fromTable="R_T_CBCResourceSetup" toTable="CLT_PM_C_ZTE_15627" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="301" fromTable="R_T_CBroadcastRls" toTable="CLT_PM_C_ZTE_15628" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="302" fromTable="R_T_CBroadcastErl" toTable="CLT_PM_C_ZTE_15629" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="303" fromTable="R_T_ExtInterruptRsn" toTable="CLT_PM_C_ZTE_15635" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="304" fromTable="R_T_CBroadcastCall" toTable="CLT_PM_C_ZTE_15636" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="305" fromTable="R_T_CBroadcastRepeat" toTable="CLT_PM_C_ZTE_15637" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="306" fromTable="R_T_CBroadcastLatePage" toTable="CLT_PM_C_ZTE_15638" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+	<templet id="307" fromTable="R_T_CRAccessResend" toTable="CLT_PM_C_ZTE_15640" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+  <templet id="308" fromTable="H_B_CErl" toTable="CLT_PM_C_ZTE_15641" used="1" occur="0" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+  <templet id="309" fromTable="H_B_CSch" toTable="CLT_PM_C_ZTE_15642" used="1" occur="0" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+
+ <templet id="310" fromTable="R_B_CVoiceServiceOption"  toTable="CLT_PM_C_ZTE_2902" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="311" fromTable="R_H_GeHRPDA8DataFlow"  toTable="CLT_PM_C_ZTE_1504" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="312" fromTable="R_H_GeHRPDPCFCall"  toTable="CLT_PM_C_ZTE_1505" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="313" fromTable="R_H_GeHRPDPCFRls"  toTable="CLT_PM_C_ZTE_1506" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="314" fromTable="R_H_GeHRPDRLPFlowStats"  toTable="CLT_PM_C_ZTE_1507" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="315" fromTable="R_H_GeHRPDSSetAndCon"  toTable="CLT_PM_C_ZTE_1508" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="316" fromTable="R_H_GeHRPDCall"  toTable="CLT_PM_C_ZTE_1509" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="317" fromTable="R_H_GeHRPDSrcANHo"  toTable="CLT_PM_C_ZTE_1510" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="318" fromTable="R_H_GeHRPDRls"  toTable="CLT_PM_C_ZTE_1511" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="319" fromTable="R_H_GeHRPDHardHo"  toTable="CLT_PM_C_ZTE_1512" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="320" fromTable="R_H_GPCFQosPara"  toTable="CLT_PM_C_ZTE_1513" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="321" fromTable="R_H_GQosIPConfig"  toTable="CLT_PM_C_ZTE_1514" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="322" fromTable="R_H_GQosPCFAuxA10Conn"  toTable="CLT_PM_C_ZTE_1515" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="323" fromTable="R_H_GQosPCFMediaFlux"  toTable="CLT_PM_C_ZTE_1516" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="324" fromTable="R_H_GQosCall"  toTable="CLT_PM_C_ZTE_1517" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="325" fromTable="R_H_GQosPageResp"  toTable="CLT_PM_C_ZTE_1518" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="326" fromTable="R_H_GSEErl"  toTable="CLT_PM_C_ZTE_1519" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="327" fromTable="R_H_GUserLevelRLPFlowStats"  toTable="CLT_PM_C_ZTE_1520" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="328" fromTable="R_H_Cell1X2DO"  toTable="CLT_PM_C_ZTE_1521" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="329" fromTable="R_H_CQosRelease"  toTable="CLT_PM_C_ZTE_1522" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="330" fromTable="R_H_CQosResource"  toTable="CLT_PM_C_ZTE_1523" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="331" fromTable="R_H_CellPagRes"  toTable="CLT_PM_C_ZTE_1524" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="332" fromTable="R_T_CCCHUsage"  toTable="CLT_PM_C_ZTE_15639" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="333" fromTable="R_P_BCM5615Port"  toTable="CLT_PM_C_ZTE_4809" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="334" fromTable="R_P_BCM56XXXPort"  toTable="CLT_PM_C_ZTE_4810" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="335" fromTable="R_P_FEFlux"  toTable="CLT_PM_C_ZTE_4811" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="336" fromTable="R_H_ClceHRPDandLTEInter"  toTable="CLT_PM_C_ZTE_905" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="337" fromTable="R_H_ClceHRPDandLTEInterII"  toTable="CLT_PM_C_ZTE_906" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+<templet id="338" fromTable="R_H_GeHRPDandLTEInter"  toTable="CLT_PM_C_ZTE_1413" used="1" occur="1" condition="(BeginTime ='%%Y-%%M-%%d %%H:00:00' or BeginTime ='%%Y-%%M-%%d %%H:30:00')"></templet>
+
+
+</templets>

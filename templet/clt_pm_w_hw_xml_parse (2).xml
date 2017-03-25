@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="GB2312"?>
+<templet>
+	<!-- <collect measInfoId="67109466"  tableName="CLT_PM_W_HW_X_67109466"  /> -->
+	<collect measInfoId="67109486"  tableName="CLT_PM_W_HW_X_67109486"  />
+	<!-- <collect measInfoId="67109481"  tableName="CLT_PM_W_HW_X_67109481"  /> -->
+	<!-- <collect measInfoId="67109500"  tableName="CLT_PM_W_HW_X_67109500"  /> -->
+	<!-- <collect measInfoId="67109419"  tableName="CLT_PM_W_HW_X_67109419"  /> -->
+	<!-- <collect measInfoId="67109479"  tableName="CLT_PM_W_HW_X_67109479"  /> -->
+	<!-- <collect measInfoId="67109480"  tableName="CLT_PM_W_HW_X_67109480"  /> -->
+	<!-- <collect measInfoId="67109518"  tableName="CLT_PM_W_HW_X_67109518"  /> -->
+	<!-- <collect measInfoId="82834001"  tableName="CLT_PM_W_HW_X_82834001"  /> -->
+	<!-- <collect measInfoId="67109519"  tableName="CLT_PM_W_HW_X_67109519"  /> -->
+	<!-- <collect measInfoId="67109553"  tableName="CLT_PM_W_HW_X_67109553"  /> -->
+	<!-- <collect measInfoId="67109554"  tableName="CLT_PM_W_HW_X_67109554"  /> -->
+	<!-- <collect measInfoId="82833952"  tableName="CLT_PM_W_HW_X_82833952"  /> -->
+	<!-- <collect measInfoId="67109453"  tableName="CLT_PM_W_HW_X_67109453"  /> -->
+	<!-- <collect measInfoId="67109516"  tableName="CLT_PM_W_HW_X_67109516"  /> -->
+	<!-- <collect measInfoId="67109488"  tableName="CLT_PM_W_HW_X_67109488"  /> -->
+	<!-- <collect measInfoId="67109493"  tableName="CLT_PM_W_HW_X_67109493"  /> -->
+	<!-- <collect measInfoId="67109400"  tableName="CLT_PM_W_HW_X_67109400"  /> -->
+	<!-- <collect measInfoId="67109402"  tableName="CLT_PM_W_HW_X_67109402"  /> -->
+	<!-- <collect measInfoId="67109403"  tableName="CLT_PM_W_HW_X_67109403"  /> -->
+	<!-- <collect measInfoId="82833961"  tableName="CLT_PM_W_HW_X_82833961"  /> -->
+	<!-- <collect measInfoId="67109457"  tableName="CLT_PM_W_HW_X_67109457"  /> -->
+	<!-- <collect measInfoId="67109467"  tableName="CLT_PM_W_HW_X_67109467"  /> -->
+	<collect measInfoId="67109495"  tableName="CLT_PM_W_HW_X_67109495"  />
+	<collect measInfoId="67109405"  tableName="CLT_PM_W_HW_X_67109405"  />
+	<collect measInfoId="67109406"  tableName="CLT_PM_W_HW_X_67109406"  />
+	<collect measInfoId="67109407"  tableName="CLT_PM_W_HW_X_67109407"  />
+	<collect measInfoId="67109408"  tableName="CLT_PM_W_HW_X_67109408"  />
+	<!-- <collect measInfoId="67109478"  tableName="CLT_PM_W_HW_X_67109478"  /> -->
+	<!-- <collect measInfoId="67109526"  tableName="CLT_PM_W_HW_X_67109526"  /> -->
+	<collect measInfoId="67109535"  tableName="CLT_PM_W_HW_X_67109535"  />
+	<collect measInfoId="67109410"  tableName="CLT_PM_W_HW_X_67109410"  />
+	<collect measInfoId="67109411"  tableName="CLT_PM_W_HW_X_67109411"  />
+	<collect measInfoId="67109412"  tableName="CLT_PM_W_HW_X_67109412"  />
+	<!-- <collect measInfoId="67109536"  tableName="CLT_PM_W_HW_X_67109536"  /> -->
+	<!-- <collect measInfoId="67109484"  tableName="CLT_PM_W_HW_X_67109484"  /> -->
+	<!-- <collect measInfoId="67109482"  tableName="CLT_PM_W_HW_X_67109482"  /> -->
+	<!-- <collect measInfoId="67109483"  tableName="CLT_PM_W_HW_X_67109483"  /> -->
+	<!-- <collect measInfoId="67109537"  tableName="CLT_PM_W_HW_X_67109537"  /> -->
+	<!-- <collect measInfoId="67109550"  tableName="CLT_PM_W_HW_X_67109550"  /> -->
+	<!-- <collect measInfoId="67109551"  tableName="CLT_PM_W_HW_X_67109551"  /> -->
+	<!-- <collect measInfoId="67109552"  tableName="CLT_PM_W_HW_X_67109552"  /> -->
+	<!-- <collect measInfoId="67109473"  tableName="CLT_PM_W_HW_X_67109473"  /> -->
+	<!-- <collect measInfoId="82834002"  tableName="CLT_PM_W_HW_X_82834002"  /> -->
+	<!-- <collect measInfoId="82834003"  tableName="CLT_PM_W_HW_X_82834003"  /> -->
+	<!-- <collect measInfoId="67109420"  tableName="CLT_PM_W_HW_X_67109420"  /> -->
+	<!-- <collect measInfoId="67109421"  tableName="CLT_PM_W_HW_X_67109421"  /> -->
+	<!-- <collect measInfoId="67109422"  tableName="CLT_PM_W_HW_X_67109422"  /> -->
+	<!-- <collect measInfoId="67109424"  tableName="CLT_PM_W_HW_X_67109424"  /> -->
+	<!-- <collect measInfoId="67109425"  tableName="CLT_PM_W_HW_X_67109425"  /> -->
+	<!-- <collect measInfoId="67109426"  tableName="CLT_PM_W_HW_X_67109426"  /> -->
+	<!-- <collect measInfoId="67109428"  tableName="CLT_PM_W_HW_X_67109428"  /> -->
+	<!-- <collect measInfoId="67109429"  tableName="CLT_PM_W_HW_X_67109429"  /> -->
+	<!-- <collect measInfoId="67109430"  tableName="CLT_PM_W_HW_X_67109430"  /> -->
+	<!-- <collect measInfoId="67109431"  tableName="CLT_PM_W_HW_X_67109431"  /> -->
+	<collect measInfoId="67109432"  tableName="CLT_PM_W_HW_X_67109432"  />
+	<!-- <collect measInfoId="67109433"  tableName="CLT_PM_W_HW_X_67109433"  /> -->
+	<!-- <collect measInfoId="67109434"  tableName="CLT_PM_W_HW_X_67109434"  /> -->
+	<!-- <collect measInfoId="67109435"  tableName="CLT_PM_W_HW_X_67109435"  /> -->
+	<!-- <collect measInfoId="67109437"  tableName="CLT_PM_W_HW_X_67109437"  /> -->
+	<collect measInfoId="67109438"  tableName="CLT_PM_W_HW_X_67109438"  />
+	<!-- <collect measInfoId="67109440"  tableName="CLT_PM_W_HW_X_67109440"  /> -->
+	<!-- <collect measInfoId="67109443"  tableName="CLT_PM_W_HW_X_67109443"  /> -->
+	<!-- <collect measInfoId="67109444"  tableName="CLT_PM_W_HW_X_67109444"  /> -->
+	<!-- <collect measInfoId="67109445"  tableName="CLT_PM_W_HW_X_67109445"  /> -->
+	<!-- <collect measInfoId="67109446"  tableName="CLT_PM_W_HW_X_67109446"  /> -->
+	<!-- <collect measInfoId="67109447"  tableName="CLT_PM_W_HW_X_67109447"  /> -->
+	<!-- <collect measInfoId="67109448"  tableName="CLT_PM_W_HW_X_67109448"  /> -->
+	<!-- <collect measInfoId="67109449"  tableName="CLT_PM_W_HW_X_67109449"  /> -->
+	<!-- <collect measInfoId="67109450"  tableName="CLT_PM_W_HW_X_67109450"  /> -->
+	<!-- <collect measInfoId="67109460"  tableName="CLT_PM_W_HW_X_67109460"  /> -->
+	<!-- <collect measInfoId="67109451"  tableName="CLT_PM_W_HW_X_67109451"  /> -->
+	<collect measInfoId="67109517"  tableName="CLT_PM_W_HW_X_67109517"  />
+	<!-- <collect measInfoId="67109452"  tableName="CLT_PM_W_HW_X_67109452"  /> -->
+	<!-- <collect measInfoId="67109468"  tableName="CLT_PM_W_HW_X_67109468"  /> -->
+	<!-- <collect measInfoId="67109469"  tableName="CLT_PM_W_HW_X_67109469"  /> -->
+	<collect measInfoId="67109485"  tableName="CLT_PM_W_HW_X_67109485"  />
+	<!-- <collect measInfoId="67109515"  tableName="CLT_PM_W_HW_X_67109515"  /> -->
+	<!-- <collect measInfoId="67109496"  tableName="CLT_PM_W_HW_X_67109496"  /> -->
+	<collect measInfoId="67109365"  tableName="CLT_PM_W_HW_X_67109365"  />
+	<collect measInfoId="67109366"  tableName="CLT_PM_W_HW_X_67109366"  />
+	<!-- <collect measInfoId="67109367"  tableName="CLT_PM_W_HW_X_67109367"  /> -->
+	<collect measInfoId="67109368"  tableName="CLT_PM_W_HW_X_67109368"  />
+	<collect measInfoId="67109369"  tableName="CLT_PM_W_HW_X_67109369"  />
+	<collect measInfoId="67109370"  tableName="CLT_PM_W_HW_X_67109370"  />
+	<!-- <collect measInfoId="67109371"  tableName="CLT_PM_W_HW_X_67109371"  /> -->
+	<collect measInfoId="67109372"  tableName="CLT_PM_W_HW_X_67109372"  />
+	<collect measInfoId="67109373"  tableName="CLT_PM_W_HW_X_67109373"  />
+	<collect measInfoId="67109374"  tableName="CLT_PM_W_HW_X_67109374"  />
+	<!-- <collect measInfoId="67109375"  tableName="CLT_PM_W_HW_X_67109375"  /> -->
+	<collect measInfoId="67109376"  tableName="CLT_PM_W_HW_X_67109376"  />
+	<collect measInfoId="67109377"  tableName="CLT_PM_W_HW_X_67109377"  />
+	<collect measInfoId="67109378"  tableName="CLT_PM_W_HW_X_67109378"  />
+	<collect measInfoId="67109379"  tableName="CLT_PM_W_HW_X_67109379"  />
+	<collect measInfoId="67109380"  tableName="CLT_PM_W_HW_X_67109380"  />
+	<collect measInfoId="67109381"  tableName="CLT_PM_W_HW_X_67109381"  />
+	<collect measInfoId="67109382"  tableName="CLT_PM_W_HW_X_67109382"  />
+	<collect measInfoId="67109383"  tableName="CLT_PM_W_HW_X_67109383"  />
+	<!-- <collect measInfoId="67109384"  tableName="CLT_PM_W_HW_X_67109384"  /> -->
+	<collect measInfoId="67109385"  tableName="CLT_PM_W_HW_X_67109385"  />
+	<collect measInfoId="67109386"  tableName="CLT_PM_W_HW_X_67109386"  />
+	<collect measInfoId="67109387"  tableName="CLT_PM_W_HW_X_67109387"  />
+	<!-- <collect measInfoId="67109389"  tableName="CLT_PM_W_HW_X_67109389"  /> -->
+	<collect measInfoId="67109390"  tableName="CLT_PM_W_HW_X_67109390"  />
+	<collect measInfoId="67109391"  tableName="CLT_PM_W_HW_X_67109391"  />
+	<collect measInfoId="67109392"  tableName="CLT_PM_W_HW_X_67109392"  />
+	<collect measInfoId="67109393"  tableName="CLT_PM_W_HW_X_67109393"  />
+	<!-- <collect measInfoId="67109413"  tableName="CLT_PM_W_HW_X_67109413"  /> -->
+	<collect measInfoId="67109471"  tableName="CLT_PM_W_HW_X_67109471"  />
+	<!-- <collect measInfoId="67109474"  tableName="CLT_PM_W_HW_X_67109474"  /> -->
+	<!-- <collect measInfoId="67109505"  tableName="CLT_PM_W_HW_X_67109505"  /> -->
+	<collect measInfoId="67109508"  tableName="CLT_PM_W_HW_X_67109508"  />
+	<collect measInfoId="67109509"  tableName="CLT_PM_W_HW_X_67109509"  />
+	<!-- <collect measInfoId="67109510"  tableName="CLT_PM_W_HW_X_67109510"  /> -->
+	<!-- <collect measInfoId="67109523"  tableName="CLT_PM_W_HW_X_67109523"  /> -->
+	<!-- <collect measInfoId="67109545"  tableName="CLT_PM_W_HW_X_67109545"  /> -->
+	<!-- <collect measInfoId="82834952"  tableName="CLT_PM_W_HW_X_82834952"  /> -->
+	<!-- <collect measInfoId="82863914"  tableName="CLT_PM_W_HW_X_82863914"  /> -->
+	<!-- <collect measInfoId="67109394"  tableName="CLT_PM_W_HW_X_67109394"  /> -->
+	<!-- <collect measInfoId="67109546"  tableName="CLT_PM_W_HW_X_67109546"  /> -->
+	<collect measInfoId="82833917"  tableName="CLT_PM_W_HW_X_82833917"  />
+	<collect measInfoId="50331648"  tableName="CLT_PM_W_HW_X_50331648"  />
+	<!-- <collect measInfoId="50331650"  tableName="CLT_PM_W_HW_X_50331650"  /> -->
+	<collect measInfoId="50331651"  tableName="CLT_PM_W_HW_X_50331651"  />
+	<!-- <collect measInfoId="50331653"  tableName="CLT_PM_W_HW_X_50331653"  /> -->
+	<!-- <collect measInfoId="50331649"  tableName="CLT_PM_W_HW_X_50331649"  /> -->
+	<!-- <collect measInfoId="50331654"  tableName="CLT_PM_W_HW_X_50331654"  /> -->
+	<!-- <collect measInfoId="50331652"  tableName="CLT_PM_W_HW_X_50331652"  /> -->
+
+
+
+	<collect measInfoId="67109395"  tableName="clt_pm_w_hw_x_67109395"  />
+	<collect measInfoId="67109394"  tableName="clt_pm_w_hw_x_67109394"  />
+	<collect measInfoId="50331652"  tableName="clt_pm_w_hw_x_50331652"  />
+</templet>
+

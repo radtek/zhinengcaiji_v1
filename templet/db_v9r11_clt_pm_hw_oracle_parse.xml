@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+
+<templet id="20" fromTable="tbl_objectinstance" toTable="CLT_PM_HW_V9R11_TBLOBJINS" used="1" condition=""><sql>select * from tbl_objectinstance</sql></templet>
+ 
+ 
+</templets>       

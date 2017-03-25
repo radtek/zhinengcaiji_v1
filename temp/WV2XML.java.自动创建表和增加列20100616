@@ -1,0 +1,580 @@
+package parser.eric.pm;
+
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.Map.Entry;
+
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+import parser.Parser;
+import task.CollectObjInfo;
+import task.DevInfo;
+import util.Util;
+
+/**
+ * 联通二期W爱立信性能文件解析
+ * 
+ * @author YangJian
+ * @since 1.0
+ */
+public class WV2XML extends Parser
+{
+	private XmlDefaultHandler saxHandler;
+
+	public int omcID;
+	public Timestamp dataTime;
+	public int taskID;
+
+	public WV2XML()
+	{
+		super();
+	}
+
+	public WV2XML(CollectObjInfo obj)
+	{
+		super(obj);
+	}
+
+	@Override
+	public boolean parseData()
+	{
+		omcID = this.collectObjInfo.getDevInfo().getOmcID();
+		dataTime = this.collectObjInfo.getLastCollectTime();
+		taskID = this.collectObjInfo.getTaskID();
+
+		boolean ret = false;
+		SAXParserFactory sf = SAXParserFactory.newInstance();
+		SAXParser sp = null;
+		try
+		{
+			sp = sf.newSAXParser();
+			saxHandler = new XmlDefaultHandler();
+			sp.getXMLReader().setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+			sp.getXMLReader().setFeature("http://xml.org/sax/features/validation", false);
+			sp.parse(new InputSource(this.getFileName()), saxHandler);
+			sqlldr();
+			ret = true;
+		}
+		catch (Exception e)
+		{
+			log.error("解析文件失败,原因:", e);
+		}
+		finally
+		{
+			if ( saxHandler != null )
+				saxHandler.clear();
+		}
+
+		return ret;
+	}
+
+	/**
+	 * Sqlldr入库数据
+	 */
+	private void sqlldr()
+	{
+		Data data = saxHandler.getData();
+		if ( data == null )
+			return;
+
+		Map<String, ArrayList<MD>> tableRecords = data.getMdsMap();
+		// 遍历处理每个表
+		Set<Entry<String, ArrayList<MD>>> entries = tableRecords.entrySet();
+		for (Entry<String, ArrayList<MD>> entry : entries) // 开始遍历每个表
+		{
+			String tbName = entry.getKey();
+			ArrayList<MD> mds = entry.getValue();
+
+			// ---------- 处理单个表中的md数据 -------------------------
+
+			// 第一步：合并所有md中mt，使不重复,变成我们需要的表的表头（字段列表）,并且带上字段的索引以方便查找A字段是第几个字段
+			Map<String, Integer> columnMap = new HashMap<String, Integer>(); // <字段,字段的索引>
+			for (MD md : mds)
+			{
+				List<String> mts = md.getMtNames();
+				for (int i = 0; i < mts.size(); i++)
+				{
+					String mt = mts.get(i);
+					if ( !columnMap.containsKey(mt) )
+					{
+						int index = columnMap.size();
+						columnMap.put(mt, index);
+					}
+				}
+			}
+			// 并且取出其中的一个(只取一个，因为我们假定在一个表中每个moid有相同的结构)moid进行分析，得出moid相关的字段
+			for (MD md : mds)
+			{
+				Set<String> moids = md.getMv().keySet();
+				for (String strMoid : moids)
+				{
+					if ( Util.isNotNull(strMoid) )
+					{
+						String[] moidFields = strMoid.split(",");
+						for (String moidField : moidFields)
+						{
+							String[] strs = moidField.split("=");
+							String fieldName = strs[0]; // 第1个为字段名，序号为0
+
+							// 把分析moid中得到的字段加到字段映射中
+							int fieldIndex = columnMap.size();
+							if ( !columnMap.containsKey(fieldName) )
+								columnMap.put(fieldName, fieldIndex);
+						}
+						break;
+					}
+				}
+			}
+
+			int columnCount = columnMap.size();
+
+			// 第二步: 形成一个行列矩阵保存此表中的数据, 方法为：遍历mv中moid和r的值,也就是取字段对应的值并填充到矩阵当中
+			/** 表示此表中所有的记录 <moid,r值列表> records为一个表最终数据 */
+			Map<String, ArrayList<String>> records = new HashMap<String, ArrayList<String>>();
+			for (MD md : mds)
+			{
+				List<String> mts = md.getMtNames();
+				// 会出现没有mt或者mt没内容的情况，则跳过
+				if ( mts.size() == 0 )
+					continue;
+				Set<Entry<String, ArrayList<String>>> mvs = md.getMv().entrySet();
+				// <moid,r值列表>
+				for (Entry<String, ArrayList<String>> mvEntry : mvs)
+				{
+					String moid = mvEntry.getKey();
+					// 分析r列表，加入到矩阵中
+					ArrayList<String> rList = mvEntry.getValue();
+					for (int i = 0; i < rList.size(); i++)
+					{
+						String mt = mts.get(i); // 获取字段名
+						int columnIndex = columnMap.get(mt); // 获取字段对应的索引
+						String r = rList.get(i); // 获取对应的r值
+
+						// 把r值填到对应的矩阵位置上
+						if ( !records.containsKey(moid) )
+						{
+							ArrayList<String> rValues = new ArrayList<String>(columnCount);
+							// 必须初始化
+							for (int j = 0; j < columnCount; j++)
+								rValues.add(null);
+							records.put(moid, rValues);
+						}
+						records.get(moid).set(columnIndex, r);
+					}
+					// 分析moid中包含的字段值，加入矩阵中
+					String[] moidFields = moid.split(",");
+					for (String moidField : moidFields)
+					{
+						String[] strs = moidField.split("=");
+						String fieldName = strs[0]; // 字段名
+						String fieldValue = strs[1]; // 第2个为字段值，序号为1
+
+						// 把分析moid中得到的字段值加到矩阵中
+						int cIndex = columnMap.get(fieldName);
+						records.get(moid).set(cIndex, fieldValue);
+					}
+				}
+			}
+
+			// 第三步: 针对形成的表数据矩阵 records，把他交由sqlldrTool进行生成数据和提交入库
+			SqlldrParam param = new SqlldrParam();
+			param.columnMap = columnMap;
+			param.records = records;
+			param.tbName = tbName;
+			param.commonFields = data.commonFields;
+			param.omcID = this.omcID;
+			param.dataTime = this.dataTime;
+			param.taskID = this.taskID;
+
+			// 第四步; 根据一定的规则调整表的元数据,比如字段名过长的映射和表名过程的映射等等
+			adjustTableMeta(param);
+
+			// 第五步: 执行sqlldr
+			SqlldrTool sqlldr = new SqlldrTool(param);
+			sqlldr.execute();
+
+		} // 处理所有表的循环结束
+	}
+
+	/**
+	 * 根据一定的规则调整表的元数据,比如字段名过长的映射和表名过程的映射等等
+	 * 
+	 * @param param
+	 */
+	private void adjustTableMeta(SqlldrParam param)
+	{
+		TableMetaAdjuster adjuster = new TableMetaAdjuster(param);
+		adjuster.adjust();
+	}
+
+	// 单元测试
+	public static void main(String[] args)
+	{
+		CollectObjInfo obj = new CollectObjInfo(755123);
+		DevInfo dev = new DevInfo();
+		dev.setOmcID(111);
+		obj.setDevInfo(dev);
+		obj.setLastCollectTime(new Timestamp(new Date().getTime()));
+
+		WV2XML xml = new WV2XML();
+		xml.collectObjInfo = obj;
+		xml.setFileName("C:\\Users\\yangjian\\Desktop\\eric\\A20100610.0830+0800-0845+0800_SubNetwork=ONRM_ROOT_MO,SubNetwork=DGRNC07,MeContext=DGRNC07_statsfile.xml");
+		xml.parseData();
+	}
+
+	/**
+	 * 自定义XML文件SAX方式处理类
+	 * 
+	 * @author YangJian
+	 * @since 1.0
+	 */
+	class XmlDefaultHandler extends DefaultHandler
+	{
+		private MD currMD; // 当前处理的MD对象
+		private String currMOID = null; // 最近一个moid
+
+		private boolean isSnTag = false; // 是否是SN标签
+		private boolean isMdTagPresent = false; // 是否出现md标签
+		private boolean isMtTagPresent = false; // 是否出现mt标签
+		private boolean isMoidTagPresent = false; // 是否出现moid标签
+		private boolean isRTagPresent = false; // 是否出现r标签
+
+		private Data mds = null; // 解析后最终的数据
+
+		@Override
+		public void characters(char[] ch, int start, int length) throws SAXException
+		{
+			String content = new String(ch, start, length);
+			if ( Util.isNull(content) )
+				return;
+
+			// r 标签
+			if ( isRTagPresent )
+			{
+				handleR(content);
+			}
+			// moid 标签
+			else if ( isMoidTagPresent )
+			{
+				handleMOID(content);
+			}
+			// mt 标签
+			else if ( isMtTagPresent )
+			{
+				handleMT(content);
+			}
+			// md 标签
+			else if ( isMdTagPresent )
+			{
+				handleMD(content);
+			}
+			// sn 标签
+			else if ( isSnTag )
+				handleSN(content);
+		}
+
+		@Override
+		public void startElement(String uri, String localName, String qName, Attributes attrs) throws SAXException
+		{
+			if ( qName.equalsIgnoreCase("r") )
+			{
+				isRTagPresent = true;
+			}
+			else if ( qName.equalsIgnoreCase("moid") )
+			{
+				isMoidTagPresent = true;
+			}
+			else if ( qName.equalsIgnoreCase("mt") )
+			{
+				isMtTagPresent = true;
+			}
+			else if ( qName.equalsIgnoreCase("md") )
+			{
+				isMdTagPresent = true;
+			}
+			else if ( qName.equalsIgnoreCase("sn") )
+				isSnTag = true;
+		}
+
+		@Override
+		public void endElement(String uri, String localName, String qName) throws SAXException
+		{
+			if ( qName.equalsIgnoreCase("r") )
+			{
+				isRTagPresent = false;
+			}
+			else if ( qName.equalsIgnoreCase("moid") )
+			{
+				isMoidTagPresent = false;
+			}
+			else if ( qName.equalsIgnoreCase("mt") )
+			{
+				isMtTagPresent = false;
+			}
+			else if ( qName.equalsIgnoreCase("md") )
+			{
+				isMdTagPresent = false;
+				if ( currMD != null )
+					mds.addMD(currMD);
+				currMOID = null;
+				// currMD = null;
+				currMD.setCurrent(false);
+			}
+			else if ( qName.equalsIgnoreCase("sn") )
+				isSnTag = false;
+		}
+
+		@Override
+		public void startDocument() throws SAXException
+		{
+			log.debug("开始读取XML文件");
+			mds = new Data();
+		}
+
+		@Override
+		public void endDocument() throws SAXException
+		{
+			log.debug("XML文件读取结束");
+			mds.print();
+		}
+
+		/** 处理SN标签中的内容 */
+		private void handleSN(String snContent)
+		{
+			// log.debug(snContent);
+			String[] fields = snContent.split(",");
+			String subnetwork = fields[1].substring(fields[1].indexOf("=") + 1);
+
+			mds.commonFields.add(new Field("SUBNETWORKROOT", fields[0].substring(fields[0].indexOf("=") + 1)));
+			mds.commonFields.add(new Field("SUBNETWORK", subnetwork));
+			mds.commonFields.add(new Field("MECONTEXT", fields[2].substring(fields[2].indexOf("=") + 1)));
+			mds.commonFields.add(new Field("RNC_NAME", subnetwork));
+		}
+
+		/** 处理mt标签中的内容 */
+		private void handleMT(String content)
+		{
+			// log.debug("mt:" + content);
+			if ( currMD == null || !currMD.isCurrent() )
+				return;
+			currMD.addMT(content);
+		}
+
+		/** 处理moid标签中的内容 */
+		private void handleMOID(String content)
+		{
+			// log.debug("moid:" + content);
+			currMOID = content;
+			if ( currMD == null || !currMD.isCurrent() )
+				return;
+			currMD.addMOID(content);
+		}
+
+		/** 处理r标签中的内容 */
+		private void handleR(String content)
+		{
+			// log.debug("r:" + content);
+			if ( currMD == null || !currMD.isCurrent() || Util.isNull(currMOID) )
+				return;
+			currMD.addR(content, currMOID);
+		}
+
+		/** 处理md标签中的内容 */
+		private void handleMD(String content)
+		{
+			currMD = new MD();
+		}
+
+		public Data getData()
+		{
+			return this.mds;
+		}
+
+		public void clear()
+		{
+			currMD = null;
+			currMOID = null;
+			mds.clear();
+		}
+	}
+
+	/**
+	 * 对应文件中一个md节点
+	 * 
+	 * @author YangJian
+	 * @since 1.0
+	 */
+	class MD
+	{
+		private List<String> mtNames = new ArrayList<String>(); // mt值集
+		private String tableName; // 此MD所属表名
+		/** <moid,r值数组> */
+		private Map<String, ArrayList<String>> mv = new HashMap<String, ArrayList<String>>();
+		private boolean currFlag = true; // 是否是当前正在处理的MD
+
+		public String getTableName()
+		{
+			return this.tableName;
+		}
+
+		public void setTabelName(String tbName)
+		{
+			this.tableName = tbName;
+		}
+
+		public void addMT(String mtValue)
+		{
+			this.mtNames.add(mtValue);
+		}
+
+		public List<String> getMtNames()
+		{
+			return this.mtNames;
+		}
+
+		public Map<String, ArrayList<String>> getMv()
+		{
+			return mv;
+		}
+
+		public void addMOID(String moid)
+		{
+			this.tableName = moid.substring(moid.lastIndexOf(",") + 1, moid.lastIndexOf("="));
+			mv.put(moid, new ArrayList<String>());
+		}
+
+		public void addR(String rValue, String moid)
+		{
+			if ( mv.containsKey(moid) )
+			{
+				mv.get(moid).add(rValue);
+			}
+			else
+			{
+				ArrayList<String> lst = new ArrayList<String>();
+				lst.add(rValue);
+				mv.put(moid, lst);
+			}
+		}
+
+		public boolean isCurrent()
+		{
+			return this.currFlag;
+		}
+
+		public void setCurrent(boolean b)
+		{
+			this.currFlag = b;
+		}
+
+		public void clear()
+		{
+			this.mtNames.clear();
+			this.tableName = null;
+			this.mv.clear();
+		}
+	}
+
+	/**
+	 * 解析一个XML后的所有数据存放在此结构中
+	 * 
+	 * @author YangJian
+	 * @since 1.0
+	 */
+	class Data
+	{
+		// 为公共字段
+		public List<Field> commonFields;
+
+		/** <表名,MD对象集合> */
+		private Map<String, ArrayList<MD>> mdsMap = new HashMap<String, ArrayList<MD>>();
+
+		public Data()
+		{
+			commonFields = new ArrayList<Field>();
+		}
+
+		public Map<String, ArrayList<MD>> getMdsMap()
+		{
+			return mdsMap;
+		}
+
+		public void addMD(MD md)
+		{
+			if ( md == null )
+				return;
+
+			String tbName = md.getTableName();
+			if ( Util.isNull(tbName) )
+				return;
+
+			ArrayList<MD> mdList = mdsMap.get(tbName);
+			if ( mdList == null )
+				mdList = new ArrayList<MD>();
+
+			mdList.add(md);
+			mdsMap.put(tbName, mdList);
+		}
+
+		public int size()
+		{
+			return this.mdsMap.size();
+		}
+
+		public int getMDCount()
+		{
+			int count = 0;
+			Collection<ArrayList<MD>> values = mdsMap.values();
+			for (ArrayList<MD> mdList : values)
+			{
+				count = count + mdList.size();
+			}
+			return count;
+		}
+
+		public void print()
+		{
+			StringBuffer sb = new StringBuffer("\n----------------------------------\n");
+			for (Field field : commonFields)
+			{
+				sb.append(field.value).append(" ");
+			}
+			sb.append("\n");
+			sb.append("md count:").append(this.getMDCount()).append(",table count:").append(this.size()).append("\n");
+			Set<Entry<String, ArrayList<MD>>> entrys = mdsMap.entrySet();
+			for (Entry<String, ArrayList<MD>> entry : entrys)
+			{
+				sb.append("表名:" + entry.getKey());
+				sb.append(" 对应的md个数:" + entry.getValue().size()).append("\n");
+			}
+			sb.append("----------------------------------");
+			log.debug(sb.toString());
+		}
+
+		public void clear()
+		{
+			Collection<ArrayList<MD>> values = mdsMap.values();
+			for (ArrayList<MD> mdList : values)
+			{
+				for (MD md : mdList)
+				{
+					md.clear();
+				}
+				mdList.clear();
+			}
+			mdsMap.clear();
+		}
+	}
+}

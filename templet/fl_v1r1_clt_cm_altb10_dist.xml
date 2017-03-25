@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_CM_ALTB10_ADJ2GTO3G" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="ADJACENCY2GTO3GINSTANCEID" index="1" />
+			<column name="ADJACENCYTYPE" index="2" />
+			<column name="RELATEDTARGETCELL" index="3" />
+			<column name="USERLABEL" index="4" />
+		</table>
+	</templet>
+
+	<templet id="1">
+		<table id="0" name="CLT_CM_ALTB10_ADJACENCY" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="ADJACENCYINSTANCEID" index="1" type="2" format="300" />
+			<column name="AGPRSNCRESELECTHYST" index="2" />
+			<column name="ADJACENCYTYPE" index="3" />
+			<column name="CSVGCSCHAR" index="4" />
+			<column name="ENABLETRAFFICLOADHO" index="5" />
+			<column name="HOMARGIN" index="6" />
+			<column name="HOMARGINALTDIST" index="7" />
+			<column name="HOMARGINLEVEL" index="8" />
+			<column name="HOMARGINQUAL" index="9" />
+			<column name="HOPRIORITYLEVEL" index="10" />
+			<column name="L_RXLEV_CPT_HO" index="11" />
+			<column name="LINKFACTOR0N" index="12" />
+			<column name="LOCATIONNAME" index="13" />
+			<column name="MAXRXLEVNCELLHO" index="14" />
+			<column name="OUTDOOR_UMB_LEV" index="15" />
+			<column name="RELATEDTARGETCELL" index="16" />
+			<column name="USERLABEL" index="17" />
+		</table>
+	</templet>
+
+	<templet id="2">
+		<table id="0" name="CLT_CM_ALTB10_CELL" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="CELLINSTANCEID" index="1" />
+			<column name="ACMBBSCVMAX" index="2" />
+			<column name="ACMBFDD_QMIN" index="3" />
+			<column name="ACMBFDD_QOFFSET" index="4" />
+			<column name="ACMBLSA_ID_I" index="5" />
+			<column name="ACMBNEXTRAABISTSMAIN" index="6" />
+			<column name="ACMBNEXTRAABISTSSECONDARY" index="7" />
+			<column name="ACMBNBTSMPDCH" index="8" />
+			<column name="ACMBPANDEC" index="9" />
+			<column name="ACMBPANINC" index="10" />
+			<column name="ACMBPANMAX" index="11" />
+			<column name="ACMBPRIORITYACCTHRESHOLD" index="12" />
+			<column name="ACMBQSEARCH" index="13" />
+			<column name="ACMBRACODE" index="14" />
+			<column name="ACMBT3168" index="15" />
+			<column name="ACMBT3192" index="16" />
+			<column name="ACMBTPAGCS" index="17" />
+			<column name="ACMBTPAGPS" index="18" />
+			<column name="ADDITIONAL_RESELECT_PARAM" index="19" />
+			<column name="AECNOHO" index="20" />
+			<column name="AG_PREMPT_PCH" index="21" />
+			<column name="AGPRSACCBURSTTYPE" index="22" />
+			<column name="AGPRSBEPPERIOD" index="23" />
+			<column name="AGPRSBSPAGBLKSRES" index="24" />
+			<column name="AGPRSBSPBCCHBLKS" index="25" />
+			<column name="AGPRSBSPRACHBLKS" index="26" />
+			<column name="AGPRSC31HYST" index="27" />
+			<column name="AGPRSC32QUAL" index="28" />
+			<column name="AGPRSCSMAXIDLEPERIOD" index="29" />
+			<column name="AGPRSEGPRSN3105LIMIT" index="30" />
+			<column name="AGPRSEGPRSN3105LIMITSATELLITE" index="31" />
+			<column name="AGPRSENCONVGPS" index="32" />
+			<column name="AGPRSENCSADAPTATIONACK" index="33" />
+			<column name="AGPRSENCSADAPTATIONNACK" index="34" />
+			<column name="AGPRSENEDA" index="35" />
+			<column name="AGPRSENEXTENDEDULTBF" index="36" />
+			<column name="AGPRSENFASTINITIALGPRSACC" index="37" />
+			<column name="AGPRSENFULLIRDLPERCELL" index="38" />
+			<column name="AGPRSENIRULPERCELL" index="39" />
+			<column name="AGPRSENMCS1INCRP" index="40" />
+			<column name="AGPRSENMSASSISTEDAGPS" index="41" />
+			<column name="AGPRSENMSBASEDAGPS" index="42" />
+			<column name="AGPRSENMULTISLOTCLASS3033" index="43" />
+			<column name="AGPRSENNACC" index="44" />
+			<column name="AGPRSENOUTGOINGGPRSREDIR" index="45" />
+			<column name="AGPRSENPSISTATUS" index="46" />
+			<column name="AGPRSENRESEGMENTATIONULPERCELL" index="47" />
+			<column name="AGPRSENSOLSA" index="48" />
+			<column name="AGPRSENSTREAMING" index="49" />
+			<column name="AGPRSFDDGPRSQOFFSET" index="50" />
+			<column name="AGPRSGCHREDFACTORHATERUSAGE" index="51" />
+			<column name="AGPRSGPRSCELLRESELECTHYST" index="52" type="2" format="300" />
+			<column name="AGPRSGPRSHCSTHR" index="53" />
+			<column name="AGPRSGPRSPENALTYTIME" index="54" />
+			<column name="AGPRSGPRSPRIORITYCLASS" index="55" />
+			<column name="AGPRSGPRSRESELECTIONOFFSET" index="56" />
+			<column name="AGPRSGPRSRXLEVACCMIN" index="57" />
+			<column name="AGPRSGPRSTEMPORARYOFFSET" index="58" />
+			<column name="AGPRSHALFPWRBEAMWIDTH" index="59" />
+			<column name="AGPRSKAVGL" index="60" />
+			<column name="AGPRSKAVGQ" index="61" />
+			<column name="AGPRSMAXDLTBFSPDCH" index="62" />
+			<column name="AGPRSMAXEGPRSMCS" index="63" />
+			<column name="AGPRSMAXGPRSASSIGNAGCHRETRANS" index="64" />
+			<column name="AGPRSMAXGPRSASSIGNPCHRETRANS" index="65" />
+			<column name="AGPRSMAXPDCH" index="66" />
+			<column name="AGPRSMAXPDCHHLOAD" index="67" />
+			<column name="AGPRSMAXPDCHPERTBF" index="68" />
+			<column name="AGPRSMAXRETRANS1" index="69" />
+			<column name="AGPRSMAXRETRANS2" index="70" />
+			<column name="AGPRSMAXRETRANS3" index="71" />
+			<column name="AGPRSMAXRETRANS4" index="72" />
+			<column name="AGPRSMAXULTBFSPDCH" index="73" />
+			<column name="AGPRSMINPDCH" index="74" />
+			<column name="AGPRSMINRLFTIMEDL" index="75" />
+			<column name="AGPRSN3105LIMIT" index="76" />
+			<column name="AGPRSN3105LIMITSATELLITE" index="77" />
+			<column name="AGPRSNBBONUSANDPSCAPABLETRX" index="78" />
+			<column name="AGPRSNC2DEACTIVATIONMODE" index="79" />
+			<column name="AGPRSNCDLRXLEVLIMITTHR" index="80" />
+			<column name="AGPRSNCDLRXLEVTHR" index="81" />
+			<column name="AGPRSNCDLRXQUALTHR" index="82" />
+			<column name="AGPRSNCPINGPONGOFFSET" index="83" />
+			<column name="AGPRSNCREPORTINGPERIODT" index="84" />
+			<column name="AGPRSNCRXLEVFORGETTINGFACTOR" index="85" />
+			<column name="AGPRSNCRXQUALAVGPERIOD" index="86" />
+			<column name="AGPRSNCULRXQUALTHR" index="87" />
+			<column name="AGPRSNETWORKCONTROLORDER" index="88" />
+			<column name="AGPRSPERSISTENCELEVEL1" index="89" />
+			<column name="AGPRSPERSISTENCELEVEL2" index="90" />
+			<column name="AGPRSPERSISTENCELEVEL3" index="91" />
+			<column name="AGPRSPERSISTENCELEVEL4" index="92" />
+			<column name="AGPRSPRACHBUSYTHRES" index="93" />
+			<column name="AGPRSQOSSAFETYMARGIN" index="94" />
+			<column name="AGPRSQSEARCHPPTM" index="95" />
+			<column name="AGPRSRAVERAGEEGPRS" index="96" />
+			<column name="AGPRSRAVERAGEGPRS" index="97" />
+			<column name="AGPRSRARESELECTHYST" index="98" />
+			<column name="AGPRSRMINEGPRS" index="99" />
+			<column name="AGPRSRMINGPRS" index="100" />
+			<column name="AGPRSROUNDTRIPDELAY" index="101" />
+			<column name="AGPRSS" index="102" />
+			<column name="AGPRSTCORR" index="103" />
+			<column name="AGPRSTDLASSIGNCCCH" index="104" />
+			<column name="AGPRSTDLEGPRSMEASREPORT" index="105" />
+			<column name="AGPRSTDLGPRSMEASREPORT" index="106" />
+			<column name="AGPRSTMAXEXTENDEDUL" index="107" />
+			<column name="AGPRSTNCPINGPONG" index="108" />
+			<column name="AGPRSTNCREJCELL" index="109" />
+			<column name="AGPRSTRESEL" index="110" />
+			<column name="AGPRSTULASSIGNCCCH" index="111" />
+			<column name="AGPRSTULASSIGNPCCCH" index="112" />
+			<column name="AGPRSTULRLSEUTM" index="113" />
+			<column name="AGPRSTBFDLINITCS" index="114" />
+			<column name="AGPRSTBFDLINITMCS" index="115" />
+			<column name="AGPRSTBFULINITCS" index="116" />
+			<column name="AGPRSTBFULINITMCS" index="117" />
+			<column name="AGPRSTESTAB" index="118" />
+			<column name="AGPRSTHRNC2LOADRANKING" index="119" />
+			<column name="AGPRSTXEFFICIENCYACKTHR" index="120" />
+			<column name="AGPRSTXEFFICIENCYNACKTHR" index="121" />
+			<column name="AGPRSTXINT" index="122" />
+			<column name="AGPRSWIPR" index="123" />
+			<column name="AGPRSWIPRCPUOVERLOAD" index="124" />
+			<column name="AMR_FR_HYST" index="125" />
+			<column name="AMR_FR_THR1" index="126" />
+			<column name="AMR_FR_THR2" index="127" />
+			<column name="AMR_FR_THR3" index="128" />
+			<column name="AMR_HR_HYST" index="129" />
+			<column name="AMR_HR_THR1" index="130" />
+			<column name="AMR_HR_THR2" index="131" />
+			<column name="AMR_HR_THR3" index="132" />
+			<column name="ARFN_CU_MAPPING" index="133" type="2" format="1000" />
+			<column name="ACCCLASSBARRINGTHRESHOLD" index="134" />
+			<column name="ACTIVERADIOCONFIG" index="135" />
+			<column name="ADMINISTRATIVESTATE" index="136" />
+			<column name="ALARMSTATUS" index="137" />
+			<column name="ALARMSACKSTATUS" index="138" />
+			<column name="ALIGNMENTSTATUS" index="139" />
+			<column name="ALIGNMENTSTATUSCAUSE" index="140" />
+			<column name="ALLOWIMSIATTACHDETACH" index="141" />
+			<column name="AMRWBGMSKHYST1" index="142" />
+			<column name="AMRWBGMSKHYST2" index="143" />
+			<column name="AMRWBGMSKTHR1" index="144" />
+			<column name="AMRWBGMSKTHR2" index="145" />
+			<column name="AVAILABILITYSTATUS" index="146" />
+			<column name="AZIMUTH" index="147" />
+			<column name="BBTSPERCELLNUMBER" index="148" />
+			<column name="BCCHFREQ" index="149" />
+			<column name="BSS_RELEASE" index="150" />
+			<column name="BTS_Q_LENGTH" index="151" />
+			<column name="BSIDENTITYCODE" index="152" />
+			<column name="BSCGSMGENERALOBJECTID" index="153" />
+			<column name="BTSSITEMANAGERIDSECONDARY" index="154" />
+			<column name="CCCH_CONF" index="155" type="2" format="1000" />
+			<column name="CELL_BAR_QUALIFY" index="156" type="2" format="1000" />
+			<column name="CELL_RESELECT_OFFSET" index="157" />
+			<column name="CELL_RESELECT_PARAM_IND" index="158" type="2" format="1000" />
+			<column name="CALLREESTABLISHMENTALLOWED" index="159" type="2" format="1000" />
+			<column name="CELLALLOCATION" index="160" type="2" format="1000" />
+			<column name="CELLALLOCATIONDCS" index="161" type="2" format="1000" />
+			<column name="CELLBARRED" index="162" type="2" format="1000" />
+			<column name="CELLCAPACITYCLASS" index="163" />
+			<column name="CELLGLOBALIDENTITY" index="164" />
+			<column name="CELLRESELECTHYST" index="165" />
+			<column name="CHECKACTIVATIONERRORLIST" index="166" />
+			<column name="DTMCAPABILITY" index="167" />
+			<column name="DTXINDICATORSACCHAMRWBGMSK" index="168" type="2" format="1000" />
+			<column name="DTXUPLINK" index="169" />
+			<column name="DTXUPLINKAMR" index="170" />
+			<column name="DTXUPLINKAMR_HR" index="171" />
+			<column name="DTXUPLINKHR" index="172" />
+			<column name="EFR_ENABLED" index="173" />
+			<column name="EN_AMR_FR" index="174" />
+			<column name="EN_AMR_HR" index="175" />
+			<column name="EN_EXTENDED_CBCH" index="176" />
+			<column name="EN_IPE_PREF_CODEC_TYPE" index="177" />
+			<column name="EN_RL_RECOV" index="178" />
+			<column name="EN_TFO" index="179" />
+			<column name="EN_TFO_MATCH" index="180" />
+			<column name="EN_TFO_OPT" index="181" />
+			<column name="EXT_BCCH" index="182" />
+			<column name="EMERGENCYCALLRESTRICTED" index="183" />
+			<column name="EN2G3GHONOSERVICEHO" index="184" />
+			<column name="EN2GTO3GCELLRESELECTION" index="185" />
+			<column name="EN2GTO3GTDDCELLRESELECTION" index="186" />
+			<column name="EN3GHO" index="187" />
+			<column name="ENAMRWBGMSK" index="188" />
+			<column name="ENCPICH2G3GRESELECTION" index="189" />
+			<column name="ENDTM" index="190" />
+			<column name="ENEGPRS" index="191" />
+			<column name="ENFAST3GRESELECTION" index="192" />
+			<column name="ENGPRS" index="193" />
+			<column name="ENRETURNCSZONEHO" index="194" />
+			<column name="ENTFOAMRWB" index="195" />
+			<column name="ENUNBALANCEDOUTPUTPOWER" index="196" />
+			<column name="ENVGCS" index="197" />
+			<column name="ENABLELOADMNGTACCCLASSBARRING" index="198" type="2" format="300" />
+			<column name="ENABLEMASELECTION" index="199" />
+			<column name="ENABLEPAGINGBARRING" index="200" />
+			<column name="FORCE_TFO_HR_WHEN_LOADED" index="201" />
+			<column name="FORCE_TFO_VS_AMR" index="202" />
+			<column name="FDDMRATREPORTING" index="203" />
+			<column name="FDDQMINOFFSET" index="204" />
+			<column name="FDDREPORTINGOFFSET" index="205" />
+			<column name="FDDREPORTINGTHRESHOLD" index="206" />
+			<column name="FDDRSCPMIN" index="207" />
+			<column name="FINALADMINISTRATIVESTATE" index="208" />
+			<column name="FORCETRXRSLRESHUFFLING" index="209" />
+			<column name="FREQRANGE" index="210" />
+			<column name="GEOGRAPHICALCOORDINATES" index="211" />
+			<column name="HR_ENABLED" index="212" />
+			<column name="HOPPINGTYPE" index="213" />
+			<column name="INACTIVEHOPPINGTYPE" index="214" />
+			<column name="INBANDPAGINGTHR" index="215" />
+			<column name="ISREFLEXIVERESELECTION" index="216" />
+			<column name="KEEP_CODEC_HO" index="217" />
+			<column name="LSA_OFFSET" index="218" />
+			<column name="LOADEVPERIODGPRS" index="219" />
+			<column name="LOCATIONNAME" index="220" />
+			<column name="MSTXPWRMAXCCH" index="221" />
+			<column name="MATECELLID" index="222" />
+			<column name="MAXGPRSCS" index="223" />
+			<column name="MAXNUMBERRETRANSMISSION" index="224" />
+			<column name="MAXVGCSTS" index="225" />
+			<column name="MFSADMINISTRATIVESTATE" index="226" type="2" format="1000" />
+			<column name="MFSALARMSTATUS" index="227" type="2" format="1000" />
+			<column name="MFSALARMSACKSTATUS" index="228" type="2" format="1000" />
+			<column name="MFSALIGNMENTSTATUS" index="229" type="2" format="1000" />
+			<column name="MFSALIGNMENTSTATUSCAUSE" index="230" type="2" format="1000" />
+			<column name="MFSAVAILABILITYSTATUS" index="231" type="2" format="1000" />
+			<column name="MFSOPERATIONALSTATE" index="232" type="2" format="1000" />
+			<column name="MINVGCSTS" index="233" />
+			<column name="MBANDREPORTING" index="234" />
+			<column name="N_BSTXPWR_M" index="235" />
+			<column name="NB_TS_FOR_BASIC_CBCH" index="236" />
+			<column name="NB_TS_FOR_E_CBCH" index="237" />
+			<column name="NBRSDCCH" index="238" />
+			<column name="NBRSDCCHAVAILABLE" index="239" />
+			<column name="NBRTCH" index="240" />
+			<column name="NBRTCHAVAILABLE" index="241" />
+			<column name="NOOFBLOCKSFORACCGRANT" index="242" />
+			<column name="NOOFMFRAMESBETWEENPAGING" index="243" />
+			<column name="NOTALLOWEDACCCLASSES" index="244" />
+			<column name="NOTIFFACCHOTHERVGCSCALLTHR" index="245" />
+			<column name="NOTIFFACCHPTPCALLTHR" index="246" />
+			<column name="NOTIFPCHTHR" index="247" />
+			<column name="NUMBERNCHBLOCKS" index="248" />
+			<column name="NUMBEROFSLOTSSPREADTRANS" index="249" />
+			<column name="NY1" index="250" />
+			<column name="NY2" index="251" />
+			<column name="OPERATIONALSTATE" index="252" />
+			<column name="PENALTY_TIME" index="253" />
+			<column name="PRIO_THR" index="254" />
+			<column name="PWRC" index="255" />
+			<column name="PERCENTAGESDCCHAVAILABLE" index="256" />
+			<column name="PERCENTAGETCHAVAILABLE" index="257" />
+			<column name="PERIODCCCHLOADIND" index="258" />
+			<column name="PLMNPERMITTED" index="259" />
+			<column name="PROCEDURALSTATUS" index="260" />
+			<column name="PSPREFBCCHTRX" index="261" />
+			<column name="QSEARCHC" index="262" />
+			<column name="QSEARCHI" index="263" />
+			<column name="QSEARCHP" index="264" />
+			<column name="RACHBUSYTHRESHOLD" index="265" />
+			<column name="RACHLOADAVERAGINGSLOTS" index="266" />
+			<column name="RADIOLINK_TIMEOUT_BS" index="267" />
+			<column name="RMS_EN_EXT_MEAS_REP" index="268" />
+			<column name="RMS_EXT_MEAS_REP_LIST" index="269" />
+			<column name="RMS_TEMPLATE" index="270" />
+			<column name="RMS_TA_STAT" index="271" />
+			<column name="RACOLOR" index="272" />
+			<column name="RADIOLINKTIMEOUT" index="273" />
+			<column name="RADIOLINKTIMEOUTAMR" index="274" />
+			<column name="RADIOLINKTIMEOUTBSAMR" index="275" />
+			<column name="RELATEDSECONDARYSECTOR" index="276" />
+			<column name="RNLADJWHERETARGET" index="277" type="4" />
+			<column name="RNLCELLTYPE" index="278" />
+			<column name="RNLGPRSMSTXPWRMAXCCH" index="279" />
+			<column name="RNLNETWORKCELLID" index="280" />
+			<column name="RNLSUPPORTINGSECTOR" index="281" />
+			<column name="RXLEVACCMIN" index="282" />
+			<column name="SCHEDULE_PERIOD" index="283" />
+			<column name="SCHEDULE_PERIOD_E_CBCH" index="284" />
+			<column name="SOLSAFUNCTLEVEL" index="285" />
+			<column name="STARTUPLINKREPLY" index="286" />
+			<column name="T200TF" index="287" />
+			<column name="T200TH" index="288" />
+			<column name="T3105_D" index="289" />
+			<column name="T3105_D_STOP" index="290" />
+			<column name="T3105_F_FR" index="291" />
+			<column name="T3105_F_HR" index="292" />
+			<column name="T3105_F_STOP" index="293" />
+			<column name="T3106_D" index="294" />
+			<column name="T3106_D_STOP" index="295" />
+			<column name="T3106_F" index="296" />
+			<column name="T3106_F_STOP" index="297" />
+			<column name="T3115" index="298" />
+			<column name="TEMPORARY_OFFSET" index="299" />
+			<column name="THR_FR_LOAD_L_SV1" index="300" />
+			<column name="THR_FR_LOAD_L_SV3" index="301" />
+			<column name="THR_FR_LOAD_U_SV1" index="302" />
+			<column name="THR_FR_LOAD_U_SV3" index="303" />
+			<column name="TREPETITIONCHANNELRELEASE" index="304" />
+			<column name="TREPETITIONUPLINKFREE" index="305" />
+			<column name="T_FILTER" index="306" />
+			<column name="T_INTRF_L3" index="307" />
+			<column name="TDDQOFFSET" index="308" />
+			<column name="THRCELLLOAD3GREJECT" index="309" />
+			<column name="THRCELLLOAD3GREQ" index="310" />
+			<column name="THRECNOHO" index="311" />
+			<column name="THRESHOLDCCCHLOADIND" index="312" />
+			<column name="TIMEADVANCEFILTER" index="313" />
+			<column name="TIMERPERIODICUPDATEMS" index="314" />
+			<column name="TIMERTIA" index="315" />
+			<column name="TIMERTPDA" index="316" />
+			<column name="TIMERTPUA" index="317" />
+			<column name="TSCVALUE" index="318" />
+			<column name="UNKNOWNSTATUS" index="319" />
+			<column name="USAGESTATE" index="320" />
+			<column name="USERLABEL" index="321" />
+			<column name="WAITINDFORCALLREESTABLISHMENT" index="322" type="2" format="255" />
+			<column name="WAITINDFOREMERGENCYCALL" index="323" />
+			<column name="WAITINDFORORIGINATINGCALL" index="324" type="2" format="255" />
+			<column name="WAITINDFOROTHERPROCEDURES" index="325" type="2" format="255" />
+			<column name="WAITUPLINKACC" index="326" />
+			<column name="WARNINGLIST" index="327" />
+		</table>
+	</templet>
+
+	<templet id="3">
+		<table id="0" name="CLT_CM_ALTB10_EXTOMC3GCELL" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="EXOMC3GCELLINSTANCEID" index="1" />
+			<column name="CI3G" index="2" />
+			<column name="EN3GDIVERSITY" index="3" />
+			<column name="FDD_ARFCN" index="4" />
+			<column name="GLOBAL3GCELLIDENTITY" index="5" />
+			<column name="LAC3G" index="6" />
+			<column name="LOCATIONNAME" index="7" />
+			<column name="RNCID" index="8" />
+			<column name="RNLADJWHERETARGET" index="9" type="4" />
+			<column name="SCRAMBLINGCODE3G" index="10" />
+			<column name="USERLABEL" index="11" />
+		</table>
+	</templet>
+
+	<templet id="4">
+		<table id="0" name="CLT_CM_ALTB10_EXTOMCCELL" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="EXOMCCELLINSTANCEID" index="1" />
+			<column name="ACMBLSA_ID_I" index="2" />
+			<column name="ACMBRACODE" index="3" />
+			<column name="AGPRSENOUTGOINGGPRSREDIR" index="4" />
+			<column name="AGPRSENSOLSA" index="5" />
+			<column name="AGPRSGPRSHCSTHR" index="6" />
+			<column name="AGPRSGPRSPENALTYTIME" index="7" />
+			<column name="AGPRSGPRSPRIORITYCLASS" index="8" />
+			<column name="AGPRSGPRSRESELECTIONOFFSET" index="9" />
+			<column name="AGPRSGPRSRXLEVACCMIN" index="10" />
+			<column name="AGPRSGPRSTEMPORARYOFFSET" index="11" />
+			<column name="AGPRSNCREPORTINGPERIODT" index="12" />
+			<column name="AGPRSNETWORKCONTROLORDER" index="13" />
+			<column name="BCCHFREQ" index="14" />
+			<column name="BSIDENTITYCODE" index="15" />
+			<column name="CELL_RESELECT_OFFSET" index="16" />
+			<column name="CELLGLOBALIDENTITY" index="17" />
+			<column name="CELLRESELECTHYST" index="18" />
+			<column name="ENABLEBIBANDMS" index="19" />
+			<column name="FREELEVELDRN" index="20" />
+			<column name="FREQRANGE" index="21" />
+			<column name="L_RXLEV_NCELL_DRN" index="22" />
+			<column name="LOCATIONNAME" index="23" />
+			<column name="MSTXPWRMAXCCH" index="24" />
+			<column name="MS_TXPWR_MAX" index="25" />
+			<column name="PENALTY_TIME" index="26" />
+			<column name="RNLADJWHERETARGET" index="27" type="4" />
+			<column name="RNLCELLTYPE" index="28" />
+			<column name="RNLGPRSMSTXPWRMAXCCH" index="29" />
+			<column name="RXLEVACCMIN" index="30" />
+			<column name="RXLEVMINCELL" index="31" />
+			<column name="TEMPORARY_OFFSET" index="32" />
+			<column name="USERLABEL" index="33" />
+		</table>
+	</templet>
+
+	<templet id="5">
+		<table id="0" name="CLT_CM_ALTB10_HOCONTROL" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="HOCONTROLINSTANCEID" index="1" />
+			<column name="ALLOC_ANYWAY" index="2" />
+			<column name="ATRAFFICLOAD" index="3" />
+			<column name="A_LEV_MCHO" index="4" />
+			<column name="A_PBGT_DR" index="5" />
+			<column name="A_QUAL_CA_FR_HR" index="6" />
+			<column name="A_QUAL_CA_HR_FR" index="7" />
+			<column name="CELL_EV" index="8" />
+			<column name="EN_AMR_CA" index="9" />
+			<column name="EN_DR" index="10" />
+			<column name="EN_FAST_TRAFFIC_HO" index="11" />
+			<column name="EN_FORCED_DR" index="12" />
+			<column name="EN_IC_HO" index="13" />
+			<column name="EN_INTRACELL_REPEATED" index="14" />
+			<column name="EN_INTRA_DL" index="15" />
+			<column name="EN_INTRA_DL_AMR" index="16" />
+			<column name="EN_INTRA_UL" index="17" />
+			<column name="EN_INTRA_UL_AMR" index="18" />
+			<column name="EN_LOAD_BALANCE" index="19" />
+			<column name="EN_LOAD_ORDER" index="20" />
+			<column name="EN_MCHO_H_DL" index="21" />
+			<column name="EN_MCHO_H_UL" index="22" />
+			<column name="EN_MCHO_NCELL" index="23" />
+			<column name="EN_MCHO_RESCUE" index="24" />
+			<column name="EN_MULTIBAND_PBGT_HO" index="25" />
+			<column name="EN_PREFERRED_BAND_HO" index="26" />
+			<column name="EN_RESCUE_UM" index="27" />
+			<column name="EN_RXLEV_DL" index="28" />
+			<column name="EN_RXLEV_UL" index="29" />
+			<column name="EN_RXQUAL_DL" index="30" />
+			<column name="EN_RXQUAL_UL" index="31" />
+			<column name="EN_SPEED_DISC" index="32" />
+			<column name="EXT_HO_FORCED" index="33" />
+			<column name="ENAMRCAFRHR" index="34" />
+			<column name="ENAMRCAHRFR" index="35" />
+			<column name="ENGANHO" index="36" />
+			<column name="ENINTRADLAMRWBGMSK" index="37" />
+			<column name="ENINTRAULAMRWBGMSK" index="38" />
+			<column name="ENABLEBETTERZONEHO" index="39" />
+			<column name="ENABLEBIBANDMS" index="40" />
+			<column name="ENABLEGENERALCAPTUREHO" index="41" />
+			<column name="ENABLEOPTHANDOVERPROCESSING" index="42" />
+			<column name="ENABLEPRIORITYORDERING" index="43" />
+			<column name="ENABLEPWBUDGETFILTERING" index="44" />
+			<column name="FREELEVELDRN" index="45" />
+			<column name="FREEFACTOR_1" index="46" />
+			<column name="FREEFACTOR_2" index="47" />
+			<column name="FREEFACTOR_3" index="48" />
+			<column name="FREEFACTOR_4" index="49" />
+			<column name="FREEFACTOR_5" index="50" />
+			<column name="FREELEVEL_1" index="51" />
+			<column name="FREELEVEL_2" index="52" />
+			<column name="FREELEVEL_3" index="53" />
+			<column name="FREELEVEL_4" index="54" />
+			<column name="GENERALCAPTUREHOTLCONDITION" index="55" />
+			<column name="HO_INTERCELL_ALLOWED" index="56" />
+			<column name="HO_INTRACELL_ALLOWED" index="57" />
+			<column name="HO_SDCCH_INHIBIT" index="58" />
+			<column name="H_LOAD_OBJ" index="59" />
+			<column name="HTRAFFICLOADGPRS" index="60" />
+			<column name="HOAVERAGINGADJCELLPARAM" index="61" />
+			<column name="HOAVERAGINGDISTPARAM" index="62" />
+			<column name="HOAVERAGINGLEVPARAM" index="63" />
+			<column name="HOAVERAGINGQUALPARAM" index="64" />
+			<column name="HOHYSTCONCENTRICCELLDL" index="65" />
+			<column name="HOHYSTCONCENTRICCELLUL" index="66" />
+			<column name="HOMARGINALTINNEROFFSET" index="67" />
+			<column name="HOMARGINDEF" index="68" />
+			<column name="HOOFFSETQUALPARAM" index="69" />
+			<column name="HOTHRESHOLDDISTPARAM" index="70" />
+			<column name="HOTHRESHOLDINTERFERENCEPARAM" index="71" />
+			<column name="HOTHRESHOLDLEVPARAM" index="72" />
+			<column name="HOTHRESHOLDQUALPARAM" index="73" />
+			<column name="INTERFERENCEAVERAGINGPARAM" index="74" type="2" format="1000" />
+			<column name="LRXQUALDLHAMRWBGMSK" index="75" />
+			<column name="LRXQUALULHAMRWBGMSK" index="76" />
+			<column name="L_LOAD_OBJ" index="77" />
+			<column name="L_RXLEV_NCELL_DRN" index="78" />
+			<column name="L_RXQUAL_DL_H_AMR" index="79" />
+			<column name="L_RXQUAL_UL_H_AMR" index="80" />
+			<column name="LOADEVPERIOD" index="81" />
+			<column name="LOADFACTOR_1" index="82" />
+			<column name="LOADFACTOR_2" index="83" />
+			<column name="LOADFACTOR_3" index="84" />
+			<column name="LOADFACTOR_4" index="85" />
+			<column name="LOADFACTOR_5" index="86" />
+			<column name="LOADLEVEL_1" index="87" />
+			<column name="LOADLEVEL_2" index="88" />
+			<column name="LOADLEVEL_3" index="89" />
+			<column name="LOADLEVEL_4" index="90" />
+			<column name="LOCATIONNAME" index="91" />
+			<column name="MIN_CONNECT_TIME" index="92" />
+			<column name="MINTIMINGADVANCEEXTOUTERHO" index="93" />
+			<column name="MSTXPWRMAXCELLDEF" index="94" />
+			<column name="MSMTPROCPARAMLOC" index="95" />
+			<column name="MBANDTRAFFICLOADHOCONDITION" index="96" />
+			<column name="NTRAFFICLOAD" index="97" />
+			<column name="NUM_TCH_EGNCY_HO" index="98" />
+			<column name="N_BAD_SACCH" index="99" />
+			<column name="N_TCH_HO" index="100" />
+			<column name="OFFSET_CA_H" index="101" />
+			<column name="OFFSET_CA_NORMAL" index="102" />
+			<column name="PING_PONG_HCP" index="103" />
+			<column name="RXLEV_DL_ZONE" index="104" />
+			<column name="RXLEV_UL_ZONE" index="105" />
+			<column name="RXLEVMINCELL" index="106" />
+			<column name="RXLEVMINCELLDEF" index="107" />
+			<column name="RXLEVPWBUDGETHOTHRESHOLD" index="108" />
+			<column name="SDCCH_COUNTER" index="109" />
+			<column name="THR_RXQUAL_CA_H" index="110" />
+			<column name="THR_RXQUAL_CA_NORMAL" index="111" />
+			<column name="T_HCP" index="112" />
+			<column name="T_INHIBIT_CPT" index="113" />
+			<column name="TRAFFICLOADHOMARGINS" index="114" />
+			<column name="TRAFFICLOADTHRESHOLDS" index="115" />
+			<column name="U_RXLEV_DL_MCHO" index="116" />
+			<column name="U_RXLEV_UL_MCHO" index="117" />
+			<column name="USERLABEL" index="118" />
+			<column name="WITH_SYNCHRONISED_HANDOVER" index="119" />
+			<column name="W_LEV_MCHO" index="120" />
+			<column name="W_QUAL_CA" index="121" />
+		</table>
+	</templet>
+
+	<templet id="6">
+		<table id="0" name="CLT_CM_ALTB10_RNLALCATELMFS" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="RNLALTMFSINSTANCEID" index="1" />
+			<column name="ACTIVATIONSTATUS" index="2" />
+			<column name="ALARMSACKSYNTHESIS" index="3" />
+			<column name="MFSALIGNMENTSTATUS" index="4" />
+			<column name="MFSALIGNMENTSTATUSCAUSE" index="5" />
+			<column name="MFSGENERATION" index="6" />
+			<column name="NEALARMSTATUS" index="7" />
+			<column name="NETWORKADDRESS" index="8" />
+			<column name="NODEID" index="9" />
+			<column name="RESERVATIONSTATUS" index="10" />
+			<column name="SUPERVISIONSTATE" index="11" />
+			<column name="UNKNOWNSTATUS" index="12" />
+			<column name="USERLABEL" index="13" />
+			<column name="VERSION" index="14" />
+		</table>
+	</templet>
+
+	<templet id="7">
+		<table id="0" name="CLT_CM_ALTB10_RNLBASTRA" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="RNLBASEBANDTRXINSTANCEID" index="1" />
+			<column name="CHANNELSELECTIONPREFMARK" index="2" />
+			<column name="INACTIVELISTOFFREQUSAGE" index="3" type="2" format="255" />
+			<column name="LISTOFRADIOCHANNELS" index="4" type="4" />
+			<column name="LOCATIONNAME" index="5" />
+			<column name="OPERATIONALSTATE" index="6" />
+			<column name="PRESERVECALLS" index="7" />
+			<column name="RANK" index="8" />
+			<column name="SHAREDSECTORTYPE" index="9" />
+			<column name="TEI" index="10" />
+			<column name="USERLABEL" index="11" />
+			<column name="ZONE_TYPE" index="12" />
+		</table>
+	</templet>
+
+	<templet id="8">
+		<table id="0" name="CLT_CM_ALTB10_RNLBSC" split="|" >
+			<column name="MODE1" index="0" type="2" format="255" />
+			<column name="RNLALTBSCINSTANCEID" index="1" type="2" format="255" />
+			<column name="AC_PRIORITY_LIST" index="2" />
+			<column name="ACMBDRXTIMERMAX" index="3" />
+			<column name="ACMBEN2GTO3GCELLRESELECTION" index="4" />
+			<column name="ACMBENLCS" index="5" />
+			<column name="ACMBMSCR" index="6" />
+			<column name="ACMBNETWORKOPERATIONMODE" index="7" />
+			<column name="ACMBPLMNFREQBANDS" index="8" />
+			<column name="AGPRSALLOWDTMEDACOMBINATION" index="9" />
+			<column name="AGPRSARCSIZEFACTOR" index="10" />
+			<column name="AGPRSATERUSAGETHRESHOLD" index="11" />
+			<column name="AGPRSBESTEFFORTPRIORITY" index="12" />
+			<column name="AGPRSCSAVGPERIODLT" index="13" />
+			<column name="AGPRSCSAVGPERIODST" index="14" />
+			<column name="AGPRSCSBLERDL34" index="15" />
+			<column name="AGPRSCSBLERDL43" index="16" />
+			<column name="AGPRSCSHSTDLLT" index="17" />
+			<column name="AGPRSCSHSTDLST" index="18" />
+			<column name="AGPRSCSHSTULLT" index="19" />
+			<column name="AGPRSCSHSTULST" index="20" />
+			<column name="AGPRSCSQUALDL12FHACK" index="21" />
+			<column name="AGPRSCSQUALDL12FHNACK" index="22" />
+			<column name="AGPRSCSQUALDL12NFHACK" index="23" />
+			<column name="AGPRSCSQUALDL12NFHNACK" index="24" />
+			<column name="AGPRSCSQUALDL23FHACK" index="25" />
+			<column name="AGPRSCSQUALDL23FHNACK" index="26" />
+			<column name="AGPRSCSQUALDL23NFHACK" index="27" />
+			<column name="AGPRSCSQUALDL23NFHNACK" index="28" />
+			<column name="AGPRSCSQUALDL34FHACK" index="29" />
+			<column name="AGPRSCSQUALDL34FHNACK" index="30" />
+			<column name="AGPRSCSQUALDL34NFHACK" index="31" />
+			<column name="AGPRSCSQUALDL34NFHNACK" index="32" />
+			<column name="AGPRSCSQUALUL12FHACK" index="33" />
+			<column name="AGPRSCSQUALUL12FHNACK" index="34" />
+			<column name="AGPRSCSQUALUL12NFHACK" index="35" />
+			<column name="AGPRSCSQUALUL12NFHNACK" index="36" />
+			<column name="AGPRSCSQUALUL23FHACK" index="37" />
+			<column name="AGPRSCSQUALUL23FHNACK" index="38" />
+			<column name="AGPRSCSQUALUL23NFHACK" index="39" />
+			<column name="AGPRSCSQUALUL23NFHNACK" index="40" />
+			<column name="AGPRSCSQUALUL34FHACK" index="41" />
+			<column name="AGPRSCSQUALUL34FHNACK" index="42" />
+			<column name="AGPRSCSQUALUL34NFHACK" index="43" />
+			<column name="AGPRSCSQUALUL34NFHNACK" index="44" />
+			<column name="AGPRSCSSIRDL34FHACK" index="45" />
+			<column name="AGPRSCSSIRDL34FHNACK" index="46" />
+			<column name="AGPRSCSSIRDL34NFHACK" index="47" />
+			<column name="AGPRSCSSIRDL34NFHNACK" index="48" />
+			<column name="AGPRSCSSIRHSTDL" index="49" />
+			<column name="AGPRSETXEFFICIENCYPERIOD" index="50" />
+			<column name="AGPRSEDAMSACTIVATIONLEVEL" index="51" />
+			<column name="AGPRSENDLLLCPDUREROUTING" index="52" />
+			<column name="AGPRSENFASTUSFULEXTENDED" index="53" />
+			<column name="AGPRSENFULLIRDL" index="54" />
+			<column name="AGPRSENIRUL" index="55" />
+			<column name="AGPRSENPFCFEATURE" index="56" />
+			<column name="AGPRSENRACAPUPDATE" index="57" />
+			<column name="AGPRSENRESEGMENTATIONUL" index="58" />
+			<column name="AGPRSENSAGI" index="59" />
+			<column name="AGPRSGBTRANSPORTMODE" index="60" />
+			<column name="AGPRSGPRSMSLOTCLASSDEFVALUE" index="61" type="2" format="255" />
+			<column name="AGPRSHPRECEDENCEBGPRIORITY" index="62" type="2" format="255" />
+			<column name="AGPRSHPRECEDENCETHP1PRIORITY" index="63" type="2" format="255" />
+			<column name="AGPRSHPRECEDENCETHP2PRIORITY" index="64" type="2" format="255" />
+			<column name="AGPRSHPRECEDENCETHP3PRIORITY" index="65" type="2" format="255" />
+			<column name="AGPRSLPRECEDENCEBGPRIORITY" index="66" type="2" format="255" />
+			<column name="AGPRSLPRECEDENCETHP1PRIORITY" index="67" type="2" format="255" />
+			<column name="AGPRSLPRECEDENCETHP2PRIORITY" index="68" type="2" format="255" />
+			<column name="AGPRSLPRECEDENCETHP3PRIORITY" index="69" type="2" format="255" />
+			<column name="AGPRSMAXPAGINGQUEUE" index="70" />
+			<column name="AGPRSMAXRADIUSFACTOR" index="71" />
+			<column name="AGPRSMINRADIUSFACTOR" index="72" />
+			<column name="AGPRSN3101LIMIT" index="73" />
+			<column name="AGPRSN3101POLLINGTHR" index="74" />
+			<column name="AGPRSN3103LIMIT" index="75" />
+			<column name="AGPRSNATERTSMARGINGPU" index="76" />
+			<column name="AGPRSNSTAGNATINGWINDOWDLLIMIT" index="77" />
+			<column name="AGPRSNSTAGNATINGWINDOWULLIMIT" index="78" />
+			<column name="AGPRSNULBIASFOREDA" index="79" />
+			<column name="AGPRSNPRECEDENCEBGPRIORITY" index="80" type="2" format="255" />
+			<column name="AGPRSNPRECEDENCETHP1PRIORITY" index="81" type="2" format="255" />
+			<column name="AGPRSNPRECEDENCETHP2PRIORITY" index="82" type="2" format="255" />
+			<column name="AGPRSNPRECEDENCETHP3PRIORITY" index="83" type="2" format="255" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR1" index="84" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR2" index="85" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR3" index="86" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR4" index="87" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR5" index="88" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR6" index="89" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR7" index="90" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR8" index="91" />
+			<column name="AGPRSPDDLPDCHUNITALLOCTHR9" index="92" />
+			<column name="AGPRSPDDLTBFDURATIONTHR1" index="93" />
+			<column name="AGPRSPDDLTBFDURATIONTHR2" index="94" />
+			<column name="AGPRSPDDLTBFDURATIONTHR3" index="95" />
+			<column name="AGPRSPDDLTBFDURATIONTHR4" index="96" />
+			<column name="AGPRSPDDLTBFDURATIONTHR5" index="97" />
+			<column name="AGPRSPDDLTBFDURATIONTHR6" index="98" />
+			<column name="AGPRSPDDLTBFDURATIONTHR7" index="99" />
+			<column name="AGPRSPDDLTBFDURATIONTHR8" index="100" />
+			<column name="AGPRSPDDLTBFDURATIONTHR9" index="101" />
+			<column name="AGPRSPDDLTBFVOLUMETHR1" index="102" />
+			<column name="AGPRSPDDLTBFVOLUMETHR2" index="103" />
+			<column name="AGPRSPDDLTBFVOLUMETHR3" index="104" />
+			<column name="AGPRSPDDLTBFVOLUMETHR4" index="105" />
+			<column name="AGPRSPDDLTBFVOLUMETHR5" index="106" />
+			<column name="AGPRSPDDLTBFVOLUMETHR6" index="107" />
+			<column name="AGPRSPDDLTBFVOLUMETHR7" index="108" />
+			<column name="AGPRSPDDLTBFVOLUMETHR8" index="109" />
+			<column name="AGPRSPDDLTBFVOLUMETHR9" index="110" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR1" index="111" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR2" index="112" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR3" index="113" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR4" index="114" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR5" index="115" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR6" index="116" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR7" index="117" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR8" index="118" />
+			<column name="AGPRSPDULPDCHUNITALLOCTHR9" index="119" />
+			<column name="AGPRSPDULTBFDURATIONTHR1" index="120" />
+			<column name="AGPRSPDULTBFDURATIONTHR2" index="121" />
+			<column name="AGPRSPDULTBFDURATIONTHR3" index="122" />
+			<column name="AGPRSPDULTBFDURATIONTHR4" index="123" />
+			<column name="AGPRSPDULTBFDURATIONTHR5" index="124" />
+			<column name="AGPRSPDULTBFDURATIONTHR6" index="125" />
+			<column name="AGPRSPDULTBFDURATIONTHR7" index="126" />
+			<column name="AGPRSPDULTBFDURATIONTHR8" index="127" />
+			<column name="AGPRSPDULTBFDURATIONTHR9" index="128" />
+			<column name="AGPRSPDULTBFVOLUMETHR1" index="129" />
+			<column name="AGPRSPDULTBFVOLUMETHR2" index="130" />
+			<column name="AGPRSPDULTBFVOLUMETHR3" index="131" />
+			<column name="AGPRSPDULTBFVOLUMETHR4" index="132" />
+			<column name="AGPRSPDULTBFVOLUMETHR5" index="133" />
+			<column name="AGPRSPDULTBFVOLUMETHR6" index="134" />
+			<column name="AGPRSPDULTBFVOLUMETHR7" index="135" />
+			<column name="AGPRSPDULTBFVOLUMETHR8" index="136" />
+			<column name="AGPRSPDULTBFVOLUMETHR9" index="137" />
+			<column name="AGPRSPFCT6" index="138" />
+			<column name="AGPRSPFCT8" index="139" />
+			<column name="AGPRSSGSNR" index="140" />
+			<column name="AGPRSSMSPRIORITY" index="141" />
+			<column name="AGPRSTDELAYEDFINALPUAN" index="142" />
+			<column name="AGPRSTFLOWCTRLCELL" index="143" />
+			<column name="AGPRSTFLOWCTRLMS" index="144" />
+			<column name="AGPRSTGCHINACTIVITY" index="145" />
+			<column name="AGPRSTGCHINACTIVITYLAST" index="146" />
+			<column name="AGPRSTLCSDELAYTOLERANT" index="147" />
+			<column name="AGPRSTLCSLOWDELAY" index="148" />
+			<column name="AGPRSTMAXSTREAMINGBUFFERING" index="149" />
+			<column name="AGPRSTNETWORKRESPONSETIME" index="150" />
+			<column name="AGPRSTPSIPACCH" index="151" />
+			<column name="AGPRSTRRLPDELAYTOLERANT" index="152" />
+			<column name="AGPRSTRRLPLOWDELAY" index="153" />
+			<column name="AGPRSTBFCS3BLERPERIOD" index="154" />
+			<column name="AGPRSTBFCS4BLERPERIOD" index="155" />
+			<column name="AGPRSTBFCSDL" index="156" />
+			<column name="AGPRSTBFCSUL" index="157" />
+			<column name="AGPRSTBFMCSDL" index="158" />
+			<column name="AGPRSTBFMCSUL" index="159" />
+			<column name="AGPRSTOM8PRIORITY" index="160" />
+			<column name="AGPRSTXEFFICIENCYPERIOD" index="161" />
+			<column name="AGPRSWEIGHTP10" index="162" />
+			<column name="AGPRSWEIGHTP11" index="163" />
+			<column name="AGPRSWEIGHTP12" index="164" />
+			<column name="AGPRSWEIGHTP13" index="165" />
+			<column name="AGPRSWEIGHTP14" index="166" />
+			<column name="AGPRSWEIGHTP15" index="167" />
+			<column name="AGPRSWEIGHTP4" index="168" />
+			<column name="AGPRSWEIGHTP5" index="169" />
+			<column name="AGPRSWEIGHTP6" index="170" />
+			<column name="AGPRSWEIGHTP7" index="171" />
+			<column name="AGPRSWEIGHTP8" index="172" />
+			<column name="AGPRSWEIGHTP9" index="173" />
+			<column name="AMR_FR_SUBSET" index="174" />
+			<column name="AMR_HR_SUBSET" index="175" />
+			<column name="AMR_START_MODE_FR" index="176" />
+			<column name="AMR_START_MODE_HR" index="177" />
+			<column name="AUT_BAR" index="178" />
+			<column name="ADMINISTRATIVESTATE" index="179" />
+			<column name="ALARMSEVERITYASSPROFILEPOINTER" index="180" type="2" format="255" />
+			<column name="ALARMSTATUS" index="181" />
+			<column name="ALARMSTATUSSYNTHESIS" index="182" />
+			<column name="ALARMSACKSTATUS" index="183" />
+			<column name="ALARMSACKSYNTHESIS" index="184" />
+			<column name="ALIGNMENTSTATUS" index="185" />
+			<column name="ALIGNMENTSTATUSCAUSE" index="186" />
+			<column name="BSC_GENERATION" index="187" />
+			<column name="BSC_HW_CONFIG" index="188" />
+			<column name="BSS_CIPH_LIST" index="189" />
+			<column name="BSS_RELEASE" index="190" />
+			<column name="BANDALLOCATIONRANGE" index="191" />
+			<column name="BSSFUNCTIONALIGNMENTSTATUS" index="192" />
+			<column name="BSSMAPT1" index="193" />
+			<column name="BSSMAPT10" index="194" />
+			<column name="BSSMAPT13" index="195" />
+			<column name="BSSMAPT17" index="196" />
+			<column name="BSSMAPT18" index="197" />
+			<column name="BSSMAPT19" index="198" />
+			<column name="BSSMAPT20" index="199" />
+			<column name="BSSMAPT4" index="200" />
+			<column name="BSSMAPT7" index="201" />
+			<column name="BSSMAPT8" index="202" />
+			<column name="BSSMAPTIMERT11FORCED" index="203" />
+			<column name="BSSTOTALSDHLINKS" index="204" />
+			<column name="CBC_CALLUSERDATASEL" index="205" />
+			<column name="CBC_OPERATOR" index="206" />
+			<column name="CBC_PASSWORD" index="207" />
+			<column name="CBC_WINDOW" index="208" />
+			<column name="CGI_REQD" index="209" />
+			<column name="CGI3GREQD" index="210" />
+			<column name="CURRENTSESSIONSTATUS" index="211" />
+			<column name="DWELL_TIME_STEP" index="212" />
+			<column name="DLDTXAMRWBGMSK" index="213" />
+			<column name="DTXDOWNLINK" index="214" />
+			<column name="DTXDOWNLINKAMR_FR" index="215" />
+			<column name="DTXDOWNLINKAMR_HR" index="216" />
+			<column name="DTXDOWNLINKHR" index="217" />
+			<column name="EC_BAR" index="218" />
+			<column name="EN_BSS_OVRL_CLASS_BAR" index="219" />
+			<column name="EN_CIRCUIT_GROUP" index="220" />
+			<column name="EN_INTERBAND_NEIGH" index="221" />
+			<column name="EN_LOAD_OUTER" index="222" />
+			<column name="EN_SEND_CHAN_MODE" index="223" />
+			<column name="EN_SEND_CM3" index="224" />
+			<column name="EN_SEND_SPEECH_VERSION" index="225" />
+			<column name="EDRASSFAILUREAFTERHOREQ" index="226" />
+			<column name="EDRASSIGNMENTFAILURECAUSE" index="227" />
+			<column name="EDRKEEPASSREQINQUEUE" index="228" />
+			<column name="EDRSENDASSFAILURE" index="229" />
+			<column name="EGSMRRALLOCSTRATEGY" index="230" />
+			<column name="EN4DRTREPERTCU" index="231" />
+			<column name="ENCOMPRESSEDINTERRATINFO" index="232" />
+			<column name="ENINBANDNOTIF" index="233" />
+			<column name="ENINBANDPAGING" index="234" />
+			<column name="ENUPLINKREPLY" index="235" />
+			<column name="ENABLEEDR" index="236" />
+			<column name="ENABLEHOREQREJECT" index="237" />
+			<column name="ENABLEIMMEDIATEASSREJECT" index="238" type="2" format="255" />
+			<column name="ENABLEUNEQUIPPEDCIRCUIT" index="239" />
+			<column name="FDD_ARFCN_LIST" index="240" />
+			<column name="FORBID_AMR_NS" index="241" />
+			<column name="FORBID_DTXDOWNLINK_NH_BCCH_F" index="242" />
+			<column name="FORCEASSREQQUEUING" index="243" />
+			<column name="GSM_PHASE" index="244" />
+			<column name="H_MIN_DWELL_TIME" index="245" />
+			<column name="IGNORE_2MBIT_FAILURE" index="246" />
+			<column name="IPHOSUPPORTED" index="247" />
+			<column name="L_MIN_DWELL_TIME" index="248" />
+			<column name="LOCATIONNAME" index="249" />
+			<column name="M1" index="250" />
+			<column name="M2" index="251" />
+			<column name="MTP3_WB_INTERWORKING" index="252" />
+			<column name="MAXLAPDM" index="253" />
+			<column name="MFSADMINISTRATIVESTATE" index="254" />
+			<column name="MFSALARMSTATUS" index="255" />
+			<column name="MFSALARMSACKSTATUS" index="256" />
+			<column name="MFSALIGNMENTSTATUS" index="257" />
+			<column name="MFSALIGNMENTSTATUSCAUSE" index="258" />
+			<column name="MFSAVAILABILITYSTATUS" index="259" />
+			<column name="MFSOPERATIONALSTATE" index="260" />
+			<column name="MLUMODESTATUS" index="261" />
+			<column name="MLUPROGRESSIONSTATUS" index="262" />
+			<column name="N1" index="263" />
+			<column name="N2" index="264" />
+			<column name="NCI" index="265" />
+			<column name="NBRPREFERREDCELLSFORHANDOVER" index="266" />
+			<column name="NBRRESETREP" index="267" />
+			<column name="NBR_BLK_UNBLK" index="268" />
+			<column name="NBR_CLR_REQ" index="269" />
+			<column name="NBR_RESET_CIC_REP" index="270" />
+			<column name="NODEID" index="271" />
+			<column name="OPERATIONALSTATE" index="272" />
+			<column name="PREFERRED_BAND" index="273" />
+			<column name="PROCEDURALSTATUS" index="274" />
+			<column name="RMS_TEMPLATE_1" index="275" type="4" />
+			<column name="RMS_TEMPLATE_10" index="276" type="4" />
+			<column name="RMS_TEMPLATE_11" index="277" type="4" />
+			<column name="RMS_TEMPLATE_12" index="278" type="4" />
+			<column name="RMS_TEMPLATE_13" index="279" type="4" />
+			<column name="RMS_TEMPLATE_14" index="280" type="4" />
+			<column name="RMS_TEMPLATE_15" index="281" type="4" />
+			<column name="RMS_TEMPLATE_16" index="282" type="4" />
+			<column name="RMS_TEMPLATE_2" index="283" type="4" />
+			<column name="RMS_TEMPLATE_3" index="284" type="4" />
+			<column name="RMS_TEMPLATE_4" index="285" type="4" />
+			<column name="RMS_TEMPLATE_5" index="286" type="4" />
+			<column name="RMS_TEMPLATE_6" index="287" type="4" />
+			<column name="RMS_TEMPLATE_7" index="288" type="4" />
+			<column name="RMS_TEMPLATE_8" index="289" type="4" />
+			<column name="RMS_TEMPLATE_9" index="290" type="4" />
+			<column name="RMS_TEMPLATE_NAME_1" index="291" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_10" index="292" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_11" index="293" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_12" index="294" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_13" index="295" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_14" index="296" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_15" index="297" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_16" index="298" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_2" index="299" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_3" index="300" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_4" index="301" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_5" index="302" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_6" index="303" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_7" index="304" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_8" index="305" type="2" format="1000" />
+			<column name="RMS_TEMPLATE_NAME_9" index="306" type="2" format="1000" />
+			<column name="ROT" index="307" type="2" format="1000" />
+			<column name="RELATEDEMLOBJECT" index="308" type="2" format="1000" />
+			<column name="REPLACEMENTJOBSTATUS" index="309" type="2" format="1000" />
+			<column name="RESERVATIONSTATUS" index="310" type="2" format="1000" />
+			<column name="RNLRELATEDMFS" index="311" type="2" format="1000" />
+			<column name="SMSCB_MODE" index="312" type="2" format="1000" />
+			<column name="SMSCB_PHASE" index="313" type="2" format="1000" />
+			<column name="SMSCB_RECOVERY" index="314" type="2" format="1000" />
+			<column name="SMSCB_STATE" index="315" type="2" format="1000" />
+			<column name="SMSCB_FEATURESET" index="316" type="2" format="1000" />
+			<column name="SENDCLASSMARKENQUIRY" index="317" type="2" format="1000" />
+			<column name="STRIPBYTE5FROMCLASSMARK2" index="318" type="2" format="1000" />
+			<column name="SUPPORTEDOWNMCC" index="319" type="2" format="1000" />
+			<column name="SUPPORTEDOWNMNC" index="320" type="2" format="1000" />
+			<column name="SWPACKAGEPRODUCTIONSTATUS" index="321" type="2" format="1000" />
+			<column name="T14" index="322" />
+			<column name="T18_OVERLOAD" index="323" />
+			<column name="T3101" index="324" />
+			<column name="T3103" index="325" />
+			<column name="T3107" index="326" />
+			<column name="T3109" index="327" />
+			<column name="T3111" index="328" />
+			<column name="T3121" index="329" />
+			<column name="T9104" index="330" />
+			<column name="T9105" index="331" />
+			<column name="T9110" index="332" />
+			<column name="T9112" index="333" />
+			<column name="T9113" index="334" />
+			<column name="TCH_PREMPT" index="335" />
+			<column name="TNOTIFRESPONSEDELAY" index="336" />
+			<column name="TWAITUPLINKACC" index="337" />
+			<column name="TWAITUPLINKREQUESTACK" index="338" />
+			<column name="T_AUTOCLEANING_MEAS_REP" index="339" />
+			<column name="T_BIND_CNF" index="340" />
+			<column name="T_LOC_ABORT" index="341" />
+			<column name="T_LOCATION" index="342" />
+			<column name="T_LOCATION_LONGER" index="343" />
+			<column name="T_MS_CELL_REJ" index="344" />
+			<column name="TCHUSAGEINFOPERIOD" index="345" />
+			<column name="TDDARFCNLIST" index="346" />
+			<column name="TIMELIMITCALL" index="347" />
+			<column name="TIMELIMITHANDOVER" index="348" />
+			<column name="TIMERTBURST" index="349" />
+			<column name="TIMERTCONNEST" index="350" />
+			<column name="TIMERTHOREQDLOST" index="351" />
+			<column name="TIMERTSTATINFO" index="352" />
+			<column name="TIMERTI" index="353" />
+			<column name="TIMERTIAR" index="354" />
+			<column name="TIMERTIAS" index="355" />
+			<column name="TIMERTREL" index="356" />
+			<column name="TRANSCODINGCAPABILITY" index="357" type="2" format="500" />
+			<column name="TRAUCONNECTIONTIMEOUT" index="358" type="2" format="500" />
+			<column name="UNACKNOWLEDGEDALARM" index="359" />
+			<column name="UNKNOWNSTATUS" index="360" />
+			<column name="USERLABEL" index="361" />
+			<column name="VERSIONOFOMC_BSCINTERFACE" index="362" />
+			<column name="VGCSFIXAMRFRCODEC" index="363" />
+			<column name="VGCSFIXAMRHRCODEC" index="364" />
+		</table>
+	</templet>
+
+	<templet id="9">
+		<table id="0" name="CLT_CM_ALTB10_RNLFREHOPSYS" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="RNLFREQHOPPINGSYSTEMINSTANCEID" index="1" />
+			<column name="HOPPINGSEQUENCENUMBER" index="2" />
+			<column name="LOCATIONNAME" index="3" />
+			<column name="MOBILEALLOCATION" index="4" />
+			<column name="USERLABEL" index="5" />
+		</table>
+	</templet>
+
+	<templet id="10">
+		<table id="0" name="CLT_CM_ALTB10_RNLPOWER" split="|" >
+			<column name="MODE1" index="0" type="2" format="255" />
+			<column name="RNLPOWERCONTROLINSTANCEID" index="1" type="2" format="255" />
+			<column name="ACMBALPHA" index="2" />
+			<column name="ACMBNAVGI" index="3" />
+			<column name="ACMBPCMEASCHAN" index="4" />
+			<column name="ACMBTAVGT" index="5" />
+			<column name="ACMBTAVGW" index="6" />
+			<column name="AGPRSGAMMATNX" index="7" />
+			<column name="BS_P_CON_ACK" index="8" />
+			<column name="BS_P_CON_INT" index="9" />
+			<column name="BS_TXPWR_MAX" index="10" />
+			<column name="BS_TXPWR_MAX_INNER" index="11" />
+			<column name="BS_TXPWR_MIN" index="12" />
+			<column name="EN_BS_PC" index="13" />
+			<column name="EN_MS_PC" index="14" />
+			<column name="EMEPWRMAXDCS" index="15" />
+			<column name="EMEPWRMAXGSM" index="16" />
+			<column name="LOCATIONNAME" index="17" />
+			<column name="MS_P_CON_ACK" index="18" />
+			<column name="MS_P_CON_INT" index="19" />
+			<column name="MS_TXPWR_MAX" index="20" />
+			<column name="MS_TXPWR_MAX_INNER" index="21" />
+			<column name="MS_TXPWR_MIN" index="22" />
+			<column name="MSMTPROCPARAMLOC" index="23" />
+			<column name="PCAVERAGINGLEV" index="24" />
+			<column name="PCAVERAGINGQUAL" index="25" />
+			<column name="PCLOWEROFFSETQUALPARAM" index="26" />
+			<column name="PCLOWERTHRESHOLDLEVPARAM" index="27" />
+			<column name="PCLOWERTHRESHOLDQUALPARAM" index="28" />
+			<column name="PCSDCCHSTOPDURATION" index="29" />
+			<column name="PCUPPERTHRESHOLDLEVPARAM" index="30" />
+			<column name="PCUPPERTHRESHOLDQUALPARAM" index="31" />
+			<column name="POWERCONTROLINTERVAL" index="32" />
+			<column name="POWERINCRFACTOR" index="33" />
+			<column name="POWERINCRMAX" index="34" />
+			<column name="POWERINCRSTEPSIZE" index="35" />
+			<column name="POWERREDFACTOR" index="36" />
+			<column name="POWERREDMAX" index="37" />
+			<column name="POWERREDSTEPSIZE" index="38" />
+			<column name="USERLABEL" index="39" />
+		</table>
+	</templet>
+
+	<templet id="11">
+		<table id="0" name="CLT_CM_ALTB10_RNLSECTOR" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="RNLALTSECTORINSTANCEID" index="1" />
+			<column name="ACMBNEXTRAABISTSMAIN" index="2" />
+			<column name="ACMBNEXTRAABISTSSECONDARY" index="3" />
+			<column name="ALIGNMENTSTATUS" index="4" type="2" format="1000" />
+			<column name="ALIGNMENTSTATUSCAUSE" index="5" type="2" format="1000" />
+			<column name="BTSSITEMANAGERIDSECONDARY" index="6" />
+			<column name="COMBINERTYPE" index="7" type="2" format="1000" />
+			<column name="FREQRANGE" index="8" type="2" format="1000" />
+			<column name="GPRSCAPABILITY" index="9" type="2" format="1000" />
+			<column name="HOPPINGMODE" index="10" type="2" format="1000" />
+			<column name="LOCATIONNAME" index="11" type="2" format="1000" />
+			<column name="MFSALIGNMENTSTATUS" index="12" type="2" format="1000" />
+			<column name="MFSALIGNMENTSTATUSCAUSE" index="13" type="2" format="1000" />
+			<column name="NBBASEBANDTRANSCEIVER" index="14" />
+			<column name="NBOFEDGETRESPERSECTOR" index="15" />
+			<column name="NBRDR_GSM1800_1900_TRE" index="16" />
+			<column name="NBRDR_GSM900_TRE" index="17" />
+			<column name="NODEID" index="18" />
+			<column name="PWRMAXDCSCAPABILITYPERSECTOR" index="19" />
+			<column name="PWRMAXGSMCAPABILITYPERSECTOR" index="20" />
+			<column name="RELATEDCELLSHARED" index="21" type="2" format="1000" />
+			<column name="RELATEDEMLOBJECT" index="22" type="2" format="1000" />
+			<column name="RNLRELATEDCELL" index="23" type="2" format="1000" />
+			<column name="TXDIVTRENUMBER" index="24" />
+			<column name="USERLABEL" index="25" type="2" format="1000" />
+		</table>
+	</templet>
+
+	<templet id="12">
+		<table id="0" name="CLT_CM_ALTB10_RNLSITEMANAGER" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="RNLALTSITEMANAGERINSTANCEID" index="1" />
+			<column name="ACMBCOMMERCIALUSE" index="2" />
+			<column name="ADMINISTRATIVESTATE" index="3" />
+			<column name="ALARMSTATUS" index="4" />
+			<column name="ALARMSACKSTATUS" index="5" />
+			<column name="ALLOW_EXTENDEDCELL" index="6" />
+			<column name="AVAILABILITYSTATUS" index="7" />
+			<column name="BTS_GENERATION" index="8" />
+			<column name="LOCATIONNAME" index="9" />
+			<column name="MAX_BASEBANDTRX_PERSECTOR" index="10" />
+			<column name="MAX_BTS_SECTOR" index="11" />
+			<column name="MAX_FHS_PERSECTOR" index="12" />
+			<column name="MFSALIGNMENTSTATUS" index="13" />
+			<column name="MFSALIGNMENTSTATUSCAUSE" index="14" />
+			<column name="MUXRATE" index="15" />
+			<column name="MUXRULE" index="16" />
+			<column name="NODEID" index="17" />
+			<column name="OPERATIONALSTATE" index="18" />
+			<column name="RSLS12PERBTSNUMBER" index="19" />
+			<column name="RADIOCARRIERTYPE" index="20" />
+			<column name="RELATEDEMLOBJECT" index="21" />
+			<column name="RELATEDSYNCHRONIZEDBTS" index="22" />
+			<column name="USERLABEL" index="23" />
+		</table>
+	</templet>
+
+	<templet id="13">
+		<table id="0" name="CLT_CM_ALTB10_SUBNETWORK" split="|" >
+			<column name="MODE1" index="0" />
+			<column name="SUBNETWORKINSTANCEID" index="1" />
+			<column name="ACMBPLMNFREQBANDS" index="2" />
+			<column name="ACTIVATIONMODE" index="3" />
+			<column name="AMRFRCELLSNUMBER" index="4" />
+			<column name="AMRHRCELLSNUMBER" index="5" />
+			<column name="BBTSTOTALNUMBER" index="6" />
+			<column name="CELLSTOBEDELETED" index="7" />
+			<column name="CS3CS4CELLSNUMBER" index="8" />
+			<column name="CURRENTSESSIONSTATUS" index="9" />
+			<column name="CURRENTTOTALSOFCFGUNITS" index="10" type="4" />
+			<column name="DRTRENUMBER" index="11" />
+			<column name="EGPRSCELLSNUMBER" index="12" />
+			<column name="EGSMCELLSNUMBER" index="13" />
+			<column name="EXTARGETVGCSLINKWARNLEVEL" index="14" />
+			<column name="FOREIGNMCC_1" index="15" />
+			<column name="FOREIGNMCC_2" index="16" />
+			<column name="FOREIGNMCC_3" index="17" />
+			<column name="FOREIGNMCC_4" index="18" />
+			<column name="FOREIGNMNC_1" index="19" />
+			<column name="FOREIGNMNC_2" index="20" />
+			<column name="FOREIGNMNC_3" index="21" />
+			<column name="FOREIGNMNC_4" index="22" />
+			<column name="FOREIGNPLMNNAME_1" index="23" />
+			<column name="FOREIGNPLMNNAME_2" index="24" />
+			<column name="FOREIGNPLMNNAME_3" index="25" />
+			<column name="FOREIGNPLMNNAME_4" index="26" />
+			<column name="LISTOFDEFINEDLSA" index="27" />
+			<column name="LOCATIONNAME" index="28" />
+			<column name="NODEID" index="29" />
+			<column name="OMC3INSTANCENAME" index="30" />
+			<column name="OWNMCC_1" index="31" />
+			<column name="OWNMCC_2" index="32" />
+			<column name="OWNMCC_3" index="33" />
+			<column name="OWNMCC_4" index="34" />
+			<column name="OWNMNC_1" index="35" />
+			<column name="OWNMNC_2" index="36" />
+			<column name="OWNMNC_3" index="37" />
+			<column name="OWNMNC_4" index="38" />
+			<column name="OWNPLMNNAME_1" index="39" />
+			<column name="OWNPLMNNAME_2" index="40" />
+			<column name="OWNPLMNNAME_3" index="41" />
+			<column name="OWNPLMNNAME_4" index="42" />
+			<column name="OWNTARGETVGCSLINKWARNLEVEL" index="43" />
+			<column name="PRCACCRIGHT" index="44" />
+			<column name="PRCACTIVATOR" index="45" />
+			<column name="PRCCREATOR" index="46" />
+			<column name="PRCFREEDESCRIPTION" index="47" />
+			<column name="PRCLASTMODIFGTIME" index="48" />
+			<column name="PROCEDURALSTATUS" index="49" />
+			<column name="RESERVATIONSTATUS" index="50" />
+			<column name="SDCCHTEMPLATENAME_1" index="51" />
+			<column name="SDCCHTEMPLATENAME_10" index="52" />
+			<column name="SDCCHTEMPLATENAME_2" index="53" />
+			<column name="SDCCHTEMPLATENAME_3" index="54" />
+			<column name="SDCCHTEMPLATENAME_4" index="55" />
+			<column name="SDCCHTEMPLATENAME_5" index="56" />
+			<column name="SDCCHTEMPLATENAME_6" index="57" />
+			<column name="SDCCHTEMPLATENAME_7" index="58" />
+			<column name="SDCCHTEMPLATENAME_8" index="59" />
+			<column name="SDCCHTEMPLATENAME_9" index="60" />
+			<column name="SDCCHTEMPLATE_1" index="61" type="4" />
+			<column name="SDCCHTEMPLATE_10" index="62" type="4" />
+			<column name="SDCCHTEMPLATE_2" index="63" type="4" />
+			<column name="SDCCHTEMPLATE_3" index="64" type="4" />
+			<column name="SDCCHTEMPLATE_4" index="65" type="4" />
+			<column name="SDCCHTEMPLATE_5" index="66" type="4" />
+			<column name="SDCCHTEMPLATE_6" index="67" type="4" />
+			<column name="SDCCHTEMPLATE_7" index="68" type="4" />
+			<column name="SDCCHTEMPLATE_8" index="69" type="4" />
+			<column name="SDCCHTEMPLATE_9" index="70" type="4" />
+			<column name="TXDIVTRETOTALNUMBER" index="71" />
+			<column name="USERLABEL" index="72" />
+			<column name="WTC" index="73" />
+			<column name="WARNINGTHRESLTDFEATURES" index="74" />
+		</table>
+	</templet>
+
+</templets>

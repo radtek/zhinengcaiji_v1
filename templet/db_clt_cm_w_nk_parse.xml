@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+     <templet id="1" fromTable="C_ADJG" toTable="CLT_CM_W_SIE_C_ADJG" used="1" condition=""><sql>SELECT * FROM C_ADJG</sql></templet>
+     <templet id="1" fromTable="C_ADJI" toTable="CLT_CM_W_SIE_C_ADJI" used="1" condition=""><sql>SELECT * FROM C_ADJI</sql></templet>
+     <templet id="1" fromTable="C_RNC_IUCS" toTable="CLT_CM_W_SIE_C_RNC_IUCS" used="1" condition=""><sql>SELECT * FROM C_RNC_IUCS</sql></templet>
+     <templet id="1" fromTable="C_WBTS" toTable="CLT_CM_W_SIE_C_WBTS" used="1" condition=""><sql>SELECT * FROM C_WBTS</sql></templet>
+     <templet id="1" fromTable="C_FMCG" toTable="CLT_CM_W_SIE_C_FMCG" used="1" condition=""><sql>SELECT * FROM C_FMCG</sql></templet>
+     <templet id="1" fromTable="C_HOPS" toTable="CLT_CM_W_SIE_C_HOPS" used="1" condition=""><sql>SELECT * FROM C_HOPS</sql></templet>
+     <templet id="1" fromTable="C_RNC" toTable="CLT_CM_W_SIE_C_RNC" used="1" condition=""><sql>SELECT * FROM C_RNC</sql></templet>
+     <templet id="1" fromTable="C_FMCI" toTable="CLT_CM_W_SIE_C_FMCI" used="1" condition=""><sql>SELECT * FROM C_FMCI</sql></templet>
+     <templet id="1" fromTable="C_FMCS" toTable="CLT_CM_W_SIE_C_FMCS" used="1" condition=""><sql>SELECT * FROM C_FMCS</sql></templet>
+     <templet id="1" fromTable="C_RNC_CMOB" toTable="CLT_CM_W_SIE_C_RNC_CMOB" used="1" condition=""><sql>SELECT * FROM C_RNC_CMOB</sql></templet>
+     <templet id="1" fromTable="C_RNC_WRAB" toTable="CLT_CM_W_SIE_C_RNC_WRAB" used="1" condition=""><sql>SELECT * FROM C_RNC_WRAB</sql></templet>
+     <templet id="1" fromTable="C_HOPG" toTable="CLT_CM_W_SIE_C_HOPG" used="1" condition=""><sql>SELECT * FROM C_HOPG</sql></templet>
+     <templet id="1" fromTable="OBJECTS" toTable="CLT_CM_W_SIE_OBJECTS" used="1" condition=""><sql>SELECT * FROM OBJECTS</sql></templet>
+     <templet id="1" fromTable="C_ADJS" toTable="CLT_CM_W_SIE_C_ADJS" used="1" condition=""><sql>SELECT * FROM C_ADJS</sql></templet>
+     <templet id="1" fromTable="C_HOPI" toTable="CLT_CM_W_SIE_C_HOPI" used="1" condition=""><sql>SELECT * FROM C_HOPI</sql></templet>
+     <templet id="1" fromTable="C_WCEL" toTable="CLT_CM_W_SIE_C_WCEL" used="1" condition=""><sql>SELECT * FROM C_WCEL</sql></templet>
+</templets>                     
+                                
+                                
+                                
+                                
+                                
+                                
+                                

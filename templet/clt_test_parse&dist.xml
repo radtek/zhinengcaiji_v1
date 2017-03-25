@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+    <templet id="0" fromTable="cnoap.cfg_perf_formula_luc" toTable="clt_test_perf_formula_luc" used="1" occur="1"  condition="">
+    </templet>
+   <templet id="0" fromTable="cnoap.cfg_perf_evdo_item" toTable="clt_test_perf_evdo_item" used="1" occur="1"  condition="">
+    </templet>
+      <templet id="0" fromTable="cnoap.cfg_perf_luc" toTable="clt_test_perf_luc" used="1" occur="1"  condition="">
+    </templet>
+     <templet id="0" fromTable="cnoap.cfg_perf_luaac" toTable="clt_test_perf_luc" used="1" occur="1"  condition="">
+    </templet>
+    <templet id="0" fromTable="cnoap.cfg_perf_alys_module" toTable="clt_test_perf_alys_module" used="1" occur="1"  condition="">
+    </templet>
+</templets>

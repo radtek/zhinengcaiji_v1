@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" elementType="DOCarrierFreq">
+		<field name="DOCarrierFreqConnMeas.DRCRate1" index="0"/>
+		<field name="DOCarrierFreqConnMeas.DRCRate2" index="1"/>
+		<field name="DOCarrierFreqConnMeas.DRCRate3" index="2"/>
+		<field name="DOCarrierFreqConnMeas.PDSNRelease" index="3"/>
+		<field name="DOCarrierFreqConnMeas.attANRadioCall" index="4"/>
+		<field name="DOCarrierFreqConnMeas.attATRadioCall" index="5"/>
+		<field name="DOCarrierFreqConnMeas.avgSetupTime" index="6"/>
+		<field name="DOCarrierFreqConnMeas.earlyRelease" index="7"/>
+		<field name="DOCarrierFreqConnMeas.failByNoCaptureTCH" index="8"/>
+		<field name="DOCarrierFreqConnMeas.failByNoResource" index="9"/>
+		<field name="DOCarrierFreqConnMeas.failByNoTCC" index="10"/>
+		<field name="DOCarrierFreqConnMeas.radioDropByHHOFail" index="11"/>
+		<field name="DOCarrierFreqConnMeas.radioDropByOtherCause" index="12"/>
+		<field name="DOCarrierFreqConnMeas.radioDropByRFLost" index="13"/>
+		<field name="DOCarrierFreqConnMeas.radioRelease" index="14"/>
+		<field name="DOCarrierFreqConnMeas.succANNetCall" index="15"/>
+		<field name="DOCarrierFreqConnMeas.succANRadioCall" index="16"/>
+		<field name="DOCarrierFreqConnMeas.succATNetCall" index="17"/>
+		<field name="DOCarrierFreqConnMeas.succATRadioCall" index="18"/>
+		<field name="DOCarrierFreqFluxMeas.forwardCCHSlotUsage" index="19"/>
+		<field name="DOCarrierFreqFluxMeas.forwardPhyAvgThroughput" index="20"/>
+		<field name="DOCarrierFreqFluxMeas.forwardPhyBurstThroughput" index="21"/>
+		<field name="DOCarrierFreqFluxMeas.forwardRLPReTx" index="22"/>
+		<field name="DOCarrierFreqFluxMeas.forwardRLPThroughput" index="23"/>
+		<field name="DOCarrierFreqFluxMeas.forwardTCHSlotUsage" index="24"/>
+		<field name="DOCarrierFreqFluxMeas.reverseACHSlotUsage" index="25"/>
+		<field name="DOCarrierFreqFluxMeas.reverseLinkBusy" index="26"/>
+		<field name="DOCarrierFreqFluxMeas.reversePhyAvgThroughput" index="27"/>
+		<field name="DOCarrierFreqFluxMeas.reversePhyBurstThroughput" index="28"/>
+		<field name="DOCarrierFreqFluxMeas.reverseRLPReRx" index="29"/>
+		<field name="DOCarrierFreqFluxMeas.reverseRLPThroughput" index="30"/>
+		<field name="DOCarrierFreqHOMeas.InterANAttHHO" index="31"/>
+		<field name="DOCarrierFreqHOMeas.InterANAttSHO" index="32"/>
+		<field name="DOCarrierFreqHOMeas.InterANSuccHHO" index="33"/>
+		<field name="DOCarrierFreqHOMeas.InterANSuccSHO" index="34"/>
+		<field name="DOCarrierFreqHOMeas.IntraANAttHHO" index="35"/>
+		<field name="DOCarrierFreqHOMeas.IntraANAttSHO" index="36"/>
+		<field name="DOCarrierFreqHOMeas.IntraANSuccHHO" index="37"/>
+		<field name="DOCarrierFreqHOMeas.IntraANSuccSHO" index="38"/>
+		<field name="DOCarrierFreqSessMeas.attUATIAssign" index="39"/>
+		<field name="DOCarrierFreqSessMeas.avgUATISetupTime" index="40"/>
+		<field name="DOCarrierFreqSessMeas.succUATIAssign" index="41"/>
+		<field name="DOCarrierFreqSysResMeas.maxForwardMacIndex" index="42"/>
+		<field name="DOCarrierFreqTrafficMeas.ceTraffic" index="43"/>
+		<field name="DOCarrierFreqTrafficMeas.conntionTraffic" index="44"/>
+		<field name="DOCarrierFreqTrafficMeas.numEquUser" index="45"/>
+		<field name="SubNetwork" index="46" />
+		<field name="ManagedElement" index="47" />
+		<field name="BscFunction" index="48" />
+		<field name="DOSector" index="49" />
+		<field name="DOCarrierFreq" index="50" />
+	</templet>
+	<templet id="1" elementType="CarrierFreq">
+		<field name="carrierFreqTraffic.carrierTraffic" index="0"/>
+		<field name="SubNetwork" index="1" />
+		<field name="ManagedElement" index="2" />
+		<field name="BscFunction" index="3" />
+		<field name="Sector" index="4" />
+		<field name="CarrierFreq" index="5" />
+	</templet>
+	<templet id="2" elementType="BtsFunction">
+		<field name="btsDOSysResMeas.avgBandABis" index="0"/>
+		<field name="btsDOSysResMeas.numReverseCeMax" index="1"/>
+		<field name="btsHOMeas.IntraBTSattSofterHoAdditionPd" index="2"/>
+		<field name="btsHOMeas.IntraBTSattSofterHoAdditionVce" index="3"/>
+		<field name="btsHOMeas.IntraBTSsuccSofterHoAdditionPd" index="4"/>
+		<field name="btsHOMeas.IntraBTSsuccSofterHoAdditionVce" index="5"/>
+		<field name="btsSysResMeas.durCeSeizure" index="6"/>
+		<field name="btsSysResMeas.failCallsByBlock" index="7"/>
+		<field name="btsSysResMeas.nbrAvailCe" index="8"/>
+		<field name="btsSysResMeas.trafficPch" index="9"/>
+		<field name="btsTrafficMeas.trafficCarrier1" index="10"/>
+		<field name="btsTrafficMeas.trafficCarrier2" index="11"/>
+		<field name="SubNetwork" index="12" />
+		<field name="ManagedElement" index="13" />
+		<field name="BtsFunction" index="14" />
+	</templet>
+	<templet id="3" elementType="BscFunction">
+		<field name="bscCsTrafficMeas.attCalls" index="0"/>
+		<field name="bscCsTrafficMeas.attTchSeizureCallee" index="1"/>
+		<field name="bscCsTrafficMeas.attTchSeizureCaller" index="2"/>
+		<field name="bscCsTrafficMeas.attTchSeizureHo" index="3"/>
+		<field name="bscCsTrafficMeas.attTchSeizureSms" index="4"/>
+		<field name="bscCsTrafficMeas.failCallsByBlock" index="5"/>
+		<field name="bscCsTrafficMeas.nbrRadioDropCs" index="6"/>
+		<field name="bscCsTrafficMeas.sucTchSeizureCallee" index="7"/>
+		<field name="bscCsTrafficMeas.sucTchSeizureCaller" index="8"/>
+		<field name="bscCsTrafficMeas.sucTchSeizureHo" index="9"/>
+		<field name="bscCsTrafficMeas.sucTchSeizureSms" index="10"/>
+		<field name="bscCsTrafficMeas.succCalls" index="11"/>
+		<field name="bscCsTrafficMeas.trafficExcludeSoftHo" index="12"/>
+		<field name="bscDOHOMeas.attSHO" index="13"/>
+		<field name="bscDOHOMeas.succSHO" index="14"/>
+		<field name="bscDOSessMeas.attInterANDormantHO" index="15"/>
+		<field name="bscDOSessMeas.attSessionAuth" index="16"/>
+		<field name="bscDOSessMeas.failSessionAuth" index="17"/>
+		<field name="bscDOSessMeas.failSessionNego" index="18"/>
+		<field name="bscDOSessMeas.numActiveSession" index="19"/>
+		<field name="bscDOSessMeas.numNotActiveSession" index="20"/>
+		<field name="bscDOSessMeas.numSession" index="21"/>
+		<field name="bscDOSessMeas.rejectSessionAuth" index="22"/>
+		<field name="bscDOSessMeas.succInterANDormantHO" index="23"/>
+		<field name="bscDOSessMeas.succSessionAuth" index="24"/>
+		<field name="bscDOSessMeas.succSessionNego" index="25"/>
+		<field name="bscDOTrafficMeas.attPaging" index="26"/>
+		<field name="bscDOTrafficMeas.avgConnectionTime" index="27"/>
+		<field name="bscDOTrafficMeas.rspPaging" index="28"/>
+		<field name="bscHOMeas.IntraBSCattSoftHoAddition" index="29"/>
+		<field name="bscHOMeas.IntraBSCsuccSoftHoAddition" index="30"/>
+		<field name="bscHOMeas.attIncHardHo" index="31"/>
+		<field name="bscHOMeas.attSoftHoAddition" index="32"/>
+		<field name="bscHOMeas.succIncHardHo" index="33"/>
+		<field name="bscHOMeas.succSoftHoAddition" index="34"/>
+		<field name="bscPsTrafficMeas.attCallsPs" index="35"/>
+		<field name="bscPsTrafficMeas.attFschAssign" index="36"/>
+		<field name="bscPsTrafficMeas.attHoPs" index="37"/>
+		<field name="bscPsTrafficMeas.attRschAssign" index="38"/>
+		<field name="bscPsTrafficMeas.fchCeTraffic" index="39"/>
+		<field name="bscPsTrafficMeas.fchCeTrafficExcludeSoftHo" index="40"/>
+		<field name="bscPsTrafficMeas.nbrCallDropPs" index="41"/>
+		<field name="bscPsTrafficMeas.nbrCongestionRadioPart" index="42"/>
+		<field name="bscPsTrafficMeas.nbrForwardRlpPkts" index="43"/>
+		<field name="bscPsTrafficMeas.nbrResendedForwardRlpPkts" index="44"/>
+		<field name="bscPsTrafficMeas.nbrResendedReverseRlpPkts" index="45"/>
+		<field name="bscPsTrafficMeas.nbrReverseRlpPkts" index="46"/>
+		<field name="bscPsTrafficMeas.schCeTraffic" index="47"/>
+		<field name="bscPsTrafficMeas.succFschAssign" index="48"/>
+		<field name="bscPsTrafficMeas.succHoPs" index="49"/>
+		<field name="bscPsTrafficMeas.succRschAssign" index="50"/>
+		<field name="bscPsTrafficMeas.trafficByWalshPsFch" index="51"/>
+		<field name="bscPsTrafficMeas.trafficByWalshPsSch" index="52"/>
+		<field name="bscSysResMeas.durACircuitsSeizure" index="53"/>
+		<field name="bscSysResMeas.meanCpuUsage" index="54"/>
+		<field name="bscSysResMeas.nbrAvailACircuits" index="55"/>
+		<field name="SubNetwork" index="56" />
+		<field name="ManagedElement" index="57" />
+		<field name="BscFunction" index="58" />
+	</templet>
+</templets>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="gbk"?>
+<templets>
+
+	<templet id="1" fromTable="TELECOM.V_T_HS_COMPLAIN,TELECOM.V_T_COMPLAIN" toTable="CLT_BJ_COMPLAINT" used="1" condition="">
+		<sql>
+			
+			<![CDATA[ 
+			
+		select V_T_HS_COMPLAIN.CRM_NO as SVC_ID, --  申告流水号
+       '北京' as SVC_CITY_NAME, --  城市
+       V_T_COMPLAIN.KEYONE as DISTRICT, --  行政区
+       V_T_HS_COMPLAIN.SI_NUMBER as SVC_MOBILE, --  申告手机号码
+       V_T_HS_COMPLAIN.CONTACT as SVC_CUSTOMER, --  申告用户姓名
+       V_T_HS_COMPLAIN.CONTACT as SVC_CONTACTER, --  联系人
+       V_T_HS_COMPLAIN.CONTACT_PHONE as SVC_CONTACT_PHONE, --  联系电话
+       V_T_HS_COMPLAIN.CONTACTADDRESS as SVC_BUG_ADDRESS, --  障碍地址
+       V_T_HS_COMPLAIN.ACCOUNT_CLASS as SVC_MEMBER_ATT, --  会员属性
+       V_T_HS_COMPLAIN.order_type as SVC_COMPLAINT_CATEGORY, --  业务类别
+       V_T_HS_COMPLAIN.description as SVC_DETAILED_DESCRIPTION, --  详细描述
+       V_T_COMPLAIN.TELHANDLERESULT as SVC_PRO_INFORMATION, --  预处理信息
+       
+       V_T_COMPLAIN.STATUS as SVC_COMPLAINT_STATE, ----申告单状态                             
+       V_T_HS_COMPLAIN.ORDER_SORT as SVC_PHENOMENA_TYPE, ----客服现象大类                   
+       V_T_HS_COMPLAIN.ORDER_SORT as SVC_PHENOMENA_SUBTYPE, ----客服现象小类        
+       
+       TO_DATE('1970-01-01','YYYY-MM-DD')+(V_T_COMPLAIN.COMPLAINTIME/(3600*24)/1000)  as SVC_ACCEPT_TIME,  --受理时间
+       TO_DATE('1970-01-01','YYYY-MM-DD')+(V_T_COMPLAIN.RESTORETIME/(3600*24)/1000)   as SVC_CLOSED_TIME ,   ----结案时间    
+                           
+                            
+       V_T_COMPLAIN.RESTOREPERSON as SVC_CLOSER, ----结案人                           
+       V_T_COMPLAIN.TESTSESULT as SVC_CLOSED_DESCRIPTION, ----结案描述 
+                                  
+       V_T_HS_COMPLAIN.ORDER_SORT as SVC_ORDER_SORT_TYPE, ----现象大类                         
+       V_T_HS_COMPLAIN.ORDER_SORT as SVC_ORDER_SORT_SUBTYPE, ---- 现象小类                                  
+       V_T_COMPLAIN.COMPLAINSORT as SVC_COMPLAINSORT, ----问题归属网络类型                  
+       V_T_COMPLAIN.LOUYUSHUXING as SVC_LOUYUSHUXING, ----申告地点环境类型                  
+       concat(concat(V_T_COMPLAIN.KEYONE , V_T_COMPLAIN.KEYTWO),V_T_COMPLAIN.KEYTHREE) as SVC_DETAIL_AREA, ----申告详细地点       
+       V_T_COMPLAIN.LONGITUDE as SVC_LONGITUDE, ----申告地点经度                         
+       V_T_COMPLAIN.LATITUDE as SVC_LATITUDE, ----申告地点维度                            
+       V_T_COMPLAIN.TELHANDLERESULT as SVC_TELHANDLERESULT, ----初步处理信息                    
+       V_T_COMPLAIN.PROBLEMORIENTATION as SVC_PROBLEMORIENTATION, ----问题描述                     
+       V_T_COMPLAIN.SUGGEST as SVC_SUGGEST, ----解决方案分类                            
+       V_T_COMPLAIN.TESTSESULT as SVC_TESTSESULT, ----处理结果                              
+       ''   as SVC_SOLVE_CONDITION, --解决情况                                                
+       V_T_COMPLAIN.RESTORETIME as SVC_RESTORETIME, ----实际解决完成时间                   
+       V_T_COMPLAIN.STATEMENT2 as SVC_STATEMENT_TYPE, ----原因大类                           
+       concat(concat(concat( V_T_COMPLAIN.STATEMENT3,V_T_COMPLAIN.STATEMENT4),V_T_COMPLAIN.STATEMENT5),V_T_COMPLAIN.STATEMENT6) as SVC_STATEMENT_SUBTYPE ----原因小类                               
+
+  FROM TELECOM.V_T_HS_COMPLAIN, TELECOM.V_T_COMPLAIN
+ WHERE TELECOM.V_T_HS_COMPLAIN.COMPLAIN_ID = TELECOM.V_T_COMPLAIN."ID"
+   AND TELECOM.V_T_HS_COMPLAIN.ORDER_TYPE = '投诉工单'
+   AND TELECOM.V_T_COMPLAIN.STATUS like 'succ%'
+   AND TELECOM.V_T_COMPLAIN.COMPLAINTIME >=
+       (select ((to_date('%%Y-%%M-%%D %%H:%%m:%%S', 'yyyy-mm-dd hh24:mi:ss') -
+               to_date('1970-1-1', 'yyyy-mm-dd')) * 86400 -
+               TO_NUMBER(SUBSTR(TZ_OFFSET(sessiontimezone), 1, 3)) * 3600) * 1000
+          from dual)
+   and TELECOM.V_T_COMPLAIN.COMPLAINTIME <
+       (select ((to_date('2015-10-21 00:00:00', 'yyyy-mm-dd hh24:mi:ss') + 1 -
+               to_date('1970-1-1', 'yyyy-mm-dd')) * 86400 -
+               TO_NUMBER(SUBSTR(TZ_OFFSET(sessiontimezone), 1, 3)) * 3600) * 1000
+          from dual)
+   AND RUNNINGNO NOT LIKE '%DW%'
+   AND (TELECOM.V_T_COMPLAIN.PROBLEMORIENTATION IN
+       ('高层导频污染',
+         '传输资源不足',
+         '边界漫游',
+         '无线资源不足',
+         '伪导频问题',
+         '弱覆盖',
+         '基站故障',
+         '参数设置问题',
+         '断站',
+         'WIFI故障',
+         '网内干扰',
+         '越区覆盖',
+         '室分故障',
+         '网外干扰',
+         '割接甩站'))
+
+
+         
+         ]]>
+		</sql>
+	</templet>
+
+</templets>

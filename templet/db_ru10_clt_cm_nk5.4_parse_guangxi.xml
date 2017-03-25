@@ -1,0 +1,2407 @@
+﻿<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+     <templet id="1" fromTable="C_RNC_ADJG" toTable="CLT_CM_W_SIE_C_ADJG" used="1" condition=""><sql>select  * from  C_RNC_ADJG</sql>  
+      <mapping>
+      <column dest="OBJ_GID"             src="OBJ_GID" />
+      <column dest="CONF_ID"             src="CONF_ID" />
+      <column dest="LAST_MODIFIED"       src="LAST_MODIFIED" />
+      <column dest="LAST_MODIFIER"       src="LAST_MODIFIER" />
+      <column dest="ADJG_ADJG_TYPE"      src="ADJG_ADJG_TYPE" />
+      <column dest="ADJG_BAND_INDICATOR" src="ADJG_ADJG_B_N_INDIC" />
+      <column dest="ADJG_BCC"            src="ADJG_ADJG_BCC" />
+      <column dest="ADJG_BCCH"           src="ADJG_ADJG_BCCH" />
+      <column dest="ADJG_CHANGE_ORIGIN"  src="ADJG_ACO_5" />
+      <column dest="ADJG_CI"             src="ADJG_ADJG_CI" />
+      <column dest="ADJG_LAC"            src="ADJG_ADJG_LAC" />
+      <column dest="ADJG_MCC"            src="ADJG_ADJG_MCC" />
+      <column dest="ADJG_MNC"            src="ADJG_ADJG_MNC" />
+      <column dest="ADJG_NCC"            src="ADJG_ADJG_NCC" />
+      <column dest="ADJG_NRT_HOPG_ID"    src="ADJG_NRT_HOPG_ID" />
+      <column dest="ADJG_RT_HOPG_ID"     src="ADJG_RT_HOPG_ID" />
+      <column dest="ADJG_SIB"            src="ADJG_ADJG_SIB" />
+      <column dest="ADJG_TARGET_GID"     src="ADJG_TARGET_GID" />
+      <column dest="ADJG_TXPWR_MAX_RACH" src="ADJG_ATPMR_14" />
+      <column dest="ADJG_TXPWR_MAX_TCH"  src="ADJG_ATPMT_15" />
+      </mapping> 
+     </templet>	     
+     <templet id="2" fromTable="C_RNC_ADJI" toTable="CLT_CM_W_SIE_C_ADJI" used="1" condition=""><sql>select  * from  C_RNC_ADJI</sql>
+      <mapping>                                                    
+      <column dest="OBJ_GID" src="OBJ_GID" />
+      <column dest="CONF_ID" src="CONF_ID" />
+      <column dest="LAST_MODIFIED" src="LAST_MODIFIED" />
+      <column dest="LAST_MODIFIER" src="LAST_MODIFIER" />
+      <column dest="ADJI_ADJI_CLM_DRNC_CELL_NCHO" src="ADJI_ACDCN_8" />
+      <column dest="ADJI_ADJI_EC_NO_OFFS_NCHO" src="ADJI_AENON_9" />
+      <column dest="ADJI_ADJI_HAND_BLO_CELL_SLHO"  src="ADJI_AHNLBCS_10" />
+      <column dest="ADJI_ADJI_NCHOHSPA_SUP" src="ADJI_ANS_12" />
+      <column dest="ADJI_CHANGE_ORIGIN" src="ADJI_ACO_5" />
+      <column dest="ADJI_CI" src="ADJI_ADJI_CI" />
+      <column dest="ADJI_CPICH_TXPWR" src="ADJI_ACTP_7" />
+      <column dest="ADJI_LAC" src="ADJI_ADJI_LAC" />
+      <column dest="ADJI_MCC" src="ADJI_ADJI_MCC" />
+      <column dest="ADJI_MNC" src="ADJI_ADJI_MNC" />
+      <column dest="ADJI_NRT_HOPI_ID" src="ADJI_NRT_HOPI_ID" />
+      <column dest="ADJI_RAC" src="ADJI_ADJI_RAC" />
+      <column dest="ADJI_RNC_ID" src="ADJI_ADJI_RN_CID" />
+      <column dest="ADJI_RT_HOPI_ID" src="ADJI_RT_HOPI_ID" />
+      <column dest="ADJI_SCR_CODE" src="ADJI_ADJI_SCR_CODE" />
+      <column dest="ADJI_SIB" src="ADJI_ADJI_SIB" />
+      <column dest="ADJI_TARGET_GID" src="ADJI_TARGET_GID" />
+      <column dest="ADJI_TX_DIV" src="ADJI_ADJI_TX_DIV" />
+      <column dest="ADJI_TXPWR_DPCH" src="ADJI_ATPD_18" />
+      <column dest="ADJI_TXPWR_RACH" src="ADJI_ATPR_19" />
+      <column dest="ADJI_UARFCN" src="ADJI_ADJI_UARFCN" />
+      </mapping>
+      </templet>
+     <templet id="3" fromTable="C_RNC_IUCS" toTable="CLT_CM_W_SIE_C_RNC_IUCS" used="1" condition=""><sql>select  * from  C_RNC_IUCS</sql>
+      <mapping>
+      <column dest="OBJ_GID" src="OBJ_GID"/>
+      <column dest="CONF_ID" src="CONF_ID"/>
+      <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+      <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+      <column dest="IUCS_CADAL_8" src="IUCS_CADAL_8"/>
+      <column dest="IUCS_CN_DOMAIN_VER" src="IUCS_CN_DOMAIN_VER"/>
+      <column dest="IUCS_CN_ID" src="IUCS_CN_ID"/>
+      <column dest="IUCS_CNDRX_LENGTH" src="IUCS_CNDRX_LENGTH"/>
+      <column dest="IUCS_CS_T_3212" src="IUCS_CS_T_3212"/>
+      <column dest="IUCS_DEFAULT_CN" src="IUCS_DEFAULT_CN"/>
+      <column dest="IUCS_IBDTC_26" src="IUCS_IBDTC_12"/>
+      <column dest="IUCS_IBRGC_28" src="IUCS_IBRGC_13"/>
+      <column dest="IUCS_IU_BARRING_RECOV_TMR" src="IUCS_IBRT_14"/>
+      <column dest="IUCS_IU_STATE" src="IUCS_IU_STATE"/>
+      <column dest="IUCS_IUCS_CHANGE_ORIGIN" src="IUCS_ICO_11"/>
+      <column dest="IUCS_IUFAILURE" src="IUCS_IUFAILURE"/>
+      <column dest="IUCS_MCC" src="IUCS_MCC"/>
+      <column dest="IUCS_MIN_UDP_PORT_CS" src="IUCS_MIN_UDP_PORT_CS"/>
+      <column dest="IUCS_MNC" src="IUCS_MNC"/>
+      <column dest="IUCS_NW_IND" src="IUCS_NW_IND"/>
+      <column dest="IUCS_R_TCP_ACT" src="IUCS_R_TCP_ACT"/>
+      <column dest="IUCS_RE_LOC_SUP" src="IUCS_RE_LOC_SUP"/>
+      <column dest="IUCS_SIGN_PNT_CODE" src="IUCS_SIGN_PNT_CODE"/>
+      <column dest="IUCS_T_RAF_C" src="IUCS_T_RAF_C"/>
+      <column dest="IUCS_T_RAT_C" src="IUCS_T_RAT_C"/>
+      <column dest="IUCS_TIG_OR" src="IUCS_TIG_OR"/>
+      <column dest="IUCS_TIN_TR" src="IUCS_TIN_TR"/>    
+      </mapping>   
+     </templet> 
+     <templet id="4" fromTable="C_RNC_WBTS" toTable="CLT_CM_W_SIE_C_WBTS" used="1" condition=""><sql>select  * from  C_RNC_WBTS</sql>
+     <mapping>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="WBTS_ATM_IF_ID" src="WBTS_ATM_IF_ID"/>
+     <column dest="WBTS_BLIND_TF_DETECTION_USAGE" src="WBTS_BTFU_29"/>
+     <column dest="WBTS_BTS_ADDITIONAL_INFO" src="WBTS_BTS_A_DN_L_INFO"/>
+     <column dest="WBTS_BTS_SUP_FOR_HSPACM" src="WBTS_BSFH_27"/>
+     <column dest="WBTS_BTSIP_ADDRESS" src="WBTS_BTSIP_ADDRESS"/>
+     <column dest="WBTS_CHANGE_ORIGIN" src="WBTS_WCO_128"/>
+     <column dest="WBTS_COCO_ID" src="WBTS_COCO_ID"/>
+     <column dest="WBTS_DCH_NUMBER_RL" src="WBTS_DC_H_NBR_RL"/>
+     <column dest="WBTS_DCN_LINK_STAT" src="WBTS_DCN_LINK_STAT"/>
+     <column dest="WBTS_DCN_SECURITY_STAT" src="WBTS_DSS_36"/>
+     <column dest="WBTS_DEDI_MEAS_REP_PER_CSDATA" src="WBTS_DMRPCS_42"/>
+     <column dest="WBTS_DEDI_MEAS_REP_PER_PSDATA" src="WBTS_DMRPPS_43"/>
+     <column dest="WBTS_DEDICATED_MEAS_REP_PER" src="WBTS_DMRP_44"/>
+     <column dest="WBTS_DLORL_AVERAGING_WIN_SIZE" src="WBTS_DAWS_37"/>
+     <column dest="WBTS_H14MPU_44" src="WBTS_H14MPU_52"/>
+     <column dest="WBTS_HARQRV_CONF" src="WBTS_HARQRV_CONF"/>
+     <column dest="WBTS_HSDPA_CC_ENA" src="WBTS_HSDPA_CC_ENA"/>
+     <column dest="WBTS_HSDPA_ULC_TO_DSCP" src="WBTS_HUTD_55"/>
+     <column dest="WBTS_HSUPADLC_TO_DSCP" src="WBTS_HTD_58"/>
+     <column dest="WBTS_HSUPAX_USR_S_ENA" src="WBTS_HUSE_59"/>
+     <column dest="WBTS_IBRII_54" src="WBTS_IBRII_61"/>
+     <column dest="WBTS_IPNB_ID" src="WBTS_IPNB_ID"/>
+     <column dest="WBTS_IUB_TRANSPORT_MEDIA" src="WBTS_ITM_69"/>
+     <column dest="WBTS_LOAD_CONTROL_PERIOD_PS" src="WBTS_LCPP_70"/>
+     <column dest="WBTS_MANAGED_BY" src="WBTS_MANAGED_BY"/>
+     <column dest="WBTS_MAX_DCH_USER_RATE_RLDL" src="WBTS_MDHURR_72"/>
+     <column dest="WBTS_MAX_DCH_USER_RATE_RLUL" src="WBTS_MDHURR_73"/>
+     <column dest="WBTS_MAX_NBR_EDCHLCG" src="WBTS_MAX_NBR_EDCHLCG"/>
+     <column dest="WBTS_MEAS_FILT_COEFF" src="WBTS_MEAS_FILT_COEFF"/>
+     <column dest="WBTS_MIN_UDP_PORT_IUB" src="WBTS_MUPI_76"/>
+     <column dest="WBTS_MO_POS" src="WBTS_MO_POS"/>
+     <column dest="WBTS_NBAP_COMM_MODE" src="WBTS_NBAP_COMM_MODE"/>
+     <column dest="WBTS_NBR_OF_OVERB_HSDPA_USERS" src="WBTS_NOHUS_80"/>
+     <column dest="WBTS_NBRS_84" src="WBTS_NBRS_81"/>
+     <column dest="WBTS_NE_TYPE" src="WBTS_NE_TYPE"/>
+     <column dest="WBTS_NW_NAME" src="WBTS_WBTS_NAME"/>
+     <column dest="WBTS_OLD_DN" src="WBTS_OLD_DN"/>
+     <column dest="WBTS_OVERBOOKING_SWI" src="WBTS_OVERBOOKING_SWI"/>
+     <column dest="WBTS_PDU_SIZE_656_WITH_HSDSCH" src="WBTS_PS656WH_83"/>
+     <column dest="WBTS_PRX_ALPHA" src="WBTS_PRX_ALPHA"/>
+     <column dest="WBTS_PRX_MEAS_AVE_WIN" src="WBTS_PMAW_99"/>
+     <column dest="WBTS_PRX_TGT_PS_ADJUST_PERIOD" src="WBTS_PTPAP_100"/>
+     <column dest="WBTS_PS_AVERAGING_WIN_SIZE" src="WBTS_PAWS_84"/>
+     <column dest="WBTS_PSRL_AVERAGING_WIN_SIZE" src="WBTS_PAWS_85"/>
+     <column dest="WBTS_PTX_ALPHA" src="WBTS_PTX_ALPHA"/>
+     <column dest="WBTS_PTX_DPCH_MAX" src="WBTS_PTX_DPC_HMAX"/>
+     <column dest="WBTS_PTX_DPCH_MIN" src="WBTS_PTX_DPC_HMIN"/>
+     <column dest="WBTS_PTX_MEAS_AVE_WIN" src="WBTS_PMAW_104"/>
+     <column dest="WBTS_RACH_LOAD_INDIC_PERIOD" src="WBTS_RHIP_105"/>
+     <column dest="WBTS_REL_TMR_SHRD_HSDPA_ALLOC" src="WBTS_RTSHAL_116"/>
+     <column dest="WBTS_RR_IND_PERIOD" src="WBTS_RR_IND_PERIOD"/>
+     <column dest="WBTS_RRMULDCH_CS_AMR" src="WBTS_RRMULDCH_CS_AMR"/>
+     <column dest="WBTS_RRMULDCH_CSNT_DATA" src="WBTS_RCD_108"/>
+     <column dest="WBTS_RRMULDCH_CST_DATA" src="WBTS_RCD_109"/>
+     <column dest="WBTS_RRMULDCH_PS_BACKGR" src="WBTS_RPB_110"/>
+     <column dest="WBTS_RRMULDCH_PS_STREAM" src="WBTS_RPS_111"/>
+     <column dest="WBTS_RRMULDCH_PSTHP1" src="WBTS_RP1_112"/>
+     <column dest="WBTS_RRMULDCH_PSTHP2" src="WBTS_RP2_113"/>
+     <column dest="WBTS_RRMULDCH_PSTHP3" src="WBTS_RP3_114"/>
+     <column dest="WBTS_RRMULDCH_SRB" src="WBTS_RRMULDCH_SRB"/>
+     <column dest="WBTS_SATELLITE_IUB_USG" src="WBTS_SIU_117"/>
+     <column dest="WBTS_SCHEDULING_PERIOD" src="WBTS_SCHED_PERIOD"/>
+     <column dest="WBTS_SHRD_HSDPA_ALLOC" src="WBTS_SHAL_120"/>
+     <column dest="WBTS_SHRD_HSDPAVCC_SEL_METHOD" src="WBTS_SHVSM_119"/>
+     <column dest="WBTS_TO_AWE_OFFS_NRTDCHIP" src="WBTS_TAON_122"/>
+     <column dest="WBTS_TO_AWE_OFFS_RTDCHIP" src="WBTS_TAOR_123"/>
+     <column dest="WBTS_TO_AWS_OFFS_NRTDCHIP" src="WBTS_TAON_124"/>
+     <column dest="WBTS_TO_AWS_OFFS_RTDCHIP" src="WBTS_TAOR_125"/>
+     <column dest="WBTS_TQM_ID" src="WBTS_TQM_ID"/>
+     <column dest="WBTS_USER_DEFINED_STATE" src="WBTS_USR_DEF_STATE"/>
+     <column dest="WBTS_VCI" src="WBTS_VCI"/>
+     <column dest="WBTS_VPI" src="WBTS_VPI"/>
+     <column dest="WBTS_WIN_ACRAB_SETUP_DL" src="WBTS_WABD_130"/>
+     <column dest="WBTS_WIN_ACRAB_SETUP_UL" src="WBTS_WABU_131"/>
+     <column dest="WBTS_WIN_LCHSDPA" src="WBTS_WIN_LC_HSDPA"/>
+     <column dest="WBTS_WIN_LCHSUPA" src="WBTS_WIN_LCHSUPA"/>
+     <column dest="WBTS_BBURRU_FLAG" src="WBTS_BBURRU_FLAG"/>
+     <column dest="WBTS_DLCE_CAPACITY" src="WBTS_DLCE_CAPACITY"/>
+     <column dest="WBTS_HSDPA_CODE_CAPACITY" src="WBTS_HCC_4"/>
+     <column dest="WBTS_NBR_REPEATER" src="WBTS_NBR_REPEATER"/>
+     <column dest="WBTS_NUM_FA" src="WBTS_NUM_FA"/>
+     <column dest="WBTS_TYPE" src="WBTS_TYPE"/>
+     <column dest="WBTS_ULCE_CAPACITY" src="WBTS_ULCE_CAPACITY"/>
+     <column dest="WBTS_ADMIN_WBTS_STATE" src="WBTS_AWS_23"/>
+     <column dest="WBTS_AUTO_CONF_MODE" src="WBTS_AUTO_CONF_MODE"/>
+     <column dest="WBTS_AUTO_CONF_PLAN_NAME" src="WBTS_ACPN_9"/>
+     <column dest="WBTS_AUTO_CONF_PLAN_READY" src="WBTS_ACPR_10"/>
+     <column dest="WBTS_AUTO_CONF_STAT" src="WBTS_AUTO_CONF_STAT"/>
+     <column dest="WBTS_AUTO_CONF_SW_PACKAGE" src="WBTS_ACSP_11"/>
+     <column dest="WBTS_AUTO_CONN_HWID" src="WBTS_AUTO_CONN_HWID"/>
+     <column dest="WBTS_AUTO_CONN_SITE_ID" src="WBTS_ACSI_2"/>
+     <column dest="WBTS_BROADCAST_SIB_15" src="WBTS_BS15_30"/>
+     <column dest="WBTS_BROADCAST_SIB_15_2" src="WBTS_BS152_31"/>
+     <column dest="WBTS_BROADCAST_SIB_15_3" src="WBTS_BS153_32"/>
+     <column dest="WBTS_BTS_FALLBACK_ENA" src="WBTS_BFE_25"/>
+     <column dest="WBTS_DELAY_THLD_MAX" src="WBTS_DELAY_THLD_MAX"/>
+     <column dest="WBTS_DELAY_THLD_MID" src="WBTS_DELAY_THLD_MID"/>
+     <column dest="WBTS_DELAY_THLD_MIN" src="WBTS_DELAY_THLD_MIN"/>
+     <column dest="WBTS_DSCP_HIGH" src="WBTS_DSCP_HIGH"/>
+     <column dest="WBTS_DSCP_L" src="WBTS_DSCP_L"/>
+     <column dest="WBTS_DSCP_MED_DCH" src="WBTS_DSCP_MED_DCH"/>
+     <column dest="WBTS_DSCP_MED_HSPA" src="WBTS_DSCP_MED_HSPA"/>
+     <column dest="WBTS_DTM2MT_84" src="WBTS_DTM2MT_46"/>
+     <column dest="WBTS_DTM2MT_88" src="WBTS_DTM2MT_48"/>
+     <column dest="WBTS_DTM2MT_92" src="WBTS_DTM2MT_50"/>
+     <column dest="WBTS_INACT_CAC_THLD_ATM" src="WBTS_ICTA_64"/>
+     <column dest="WBTS_INACT_CAC_THLD_IP" src="WBTS_ICTI_65"/>
+     <column dest="WBTS_INACT_USR_S_CID_THLD" src="WBTS_IUSCT_66"/>
+     <column dest="WBTS_INT_SD_PRIO_HO" src="WBTS_INT_SD_PRIO_HO"/>
+     <column dest="WBTS_ITF_118" src="WBTS_ITF_68"/>
+     <column dest="WBTS_PFM2MT_174" src="WBTS_PFM2MT_97"/>
+     <column dest="WBTS_PRCSBH_154" src="WBTS_PRCSBH_87"/>
+     <column dest="WBTS_PRCSBM_156" src="WBTS_PRCSBM_88"/>
+     <column dest="WBTS_PRCSEH_158" src="WBTS_PRCSEH_89"/>
+     <column dest="WBTS_PRCSEM_160" src="WBTS_PRCSEM_90"/>
+     <column dest="WBTS_PROBABILITY_FACT_MAX" src="WBTS_PFM_96"/>
+     <column dest="WBTS_PSBH_162" src="WBTS_PSBH_91"/>
+     <column dest="WBTS_PSBM_164" src="WBTS_PSBM_92"/>
+     <column dest="WBTS_PSEH_166" src="WBTS_PSEH_93"/>
+     <column dest="WBTS_PSEM_168" src="WBTS_PSEM_94"/>
+     <column dest="WBTS_PWSM_IN_USE" src="WBTS_PWSM_IN_USE"/>
+     <column dest="WBTS_PWSM_WEEKDAY" src="WBTS_PWSM_WEEKDAY"/>
+     </mapping> 
+     </templet>
+     <templet id="5" fromTable="C_RNC_FMCG" toTable="CLT_CM_W_SIE_C_FMCG" used="1" condition=""><sql>select  * from  C_RNC_FMCG</sql>
+     <mapping>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="FMCG_AMR_DIR_RE_CELL" src="FMCG_AMR_DIR_RE_CELL"/>
+     <column dest="FMCG_CHANGE_ORIGIN" src="FMCG_FCO_4"/>
+     <column dest="FMCG_DDTPCO_6" src="FMCG_DDTPCO_3"/>
+     <column dest="FMCG_GSM_CAUSE_CPICH_ECNO" src="FMCG_GMCEN_5"/>
+     <column dest="FMCG_GSM_CAUSE_CPICH_RSCP" src="FMCG_GMCH_6"/>
+     <column dest="FMCG_GSM_CAUSE_TXPWR_DL" src="FMCG_GMTPD_7"/>
+     <column dest="FMCG_GSM_CAUSE_TXPWR_UL" src="FMCG_GMTPU_8"/>
+     <column dest="FMCG_GSM_CAUSE_UL_QUAL" src="FMCG_GMUQ_9"/>
+     <column dest="FMCG_GSM_DL_TXPWR_THR_AMR" src="FMCG_GDTPTA_10"/>
+     <column dest="FMCG_GSM_DL_TXPWR_THR_CS" src="FMCG_GDTPTC_11"/>
+     <column dest="FMCG_GSM_DL_TXPWR_THR_NRT_PS" src="FMCG_GDTPTNP_12"/>
+     <column dest="FMCG_GSM_DL_TXPWR_THR_RT_PS" src="FMCG_GDTPTRP_13"/>
+     <column dest="FMCG_GSM_MAX_MEAS_PERIOD" src="FMCG_GMMP_14"/>
+     <column dest="FMCG_GSM_MEAS_AVE_WIN" src="FMCG_GMAW_15"/>
+     <column dest="FMCG_GSM_MEAS_REP_INTERVAL" src="FMCG_GMRI_16"/>
+     <column dest="FMCG_GSM_MIN_HO_INTERVAL" src="FMCG_GSM_MIN_HO_INT"/>
+     <column dest="FMCG_GMMI_18" src="FMCG_GMMI_18"/>
+     <column dest="FMCG_GSM_MIN_SLHO_INT" src="FMCG_GMSI_19"/>
+     <column dest="FMCG_GSM_NCELL_SEARCH_PERIOD" src="FMCG_GNCSP_20"/>
+     <column dest="FMCG_GSM_UE_TXPWR_FILTER_COEFF" src="FMCG_GUTPFC_21"/>
+     <column dest="FMCG_GSM_UE_TXPWR_THR_AMR" src="FMCG_GUTPTA_22"/>
+     <column dest="FMCG_GSM_UE_TXPWR_THR_CS" src="FMCG_GUTPTC_23"/>
+     <column dest="FMCG_GSM_UE_TXPWR_THR_NRT_PS" src="FMCG_GUTPTNP_24"/>
+     <column dest="FMCG_GSM_UE_TXPWR_THR_RT_PS" src="FMCG_GUTPTRP_25"/>
+     <column dest="FMCG_GSM_UE_TXPWR_TIME_HYST" src="FMCG_GUTPTH_26"/>
+     <column dest="FMCG_ICCEN_56" src="FMCG_ICCEN_28"/>
+     <column dest="FMCG_ICCH_58" src="FMCG_ICCH_29"/>
+     <column dest="FMCG_ICTPD_60" src="FMCG_ICTPD_30"/>
+     <column dest="FMCG_ICTPU_62" src="FMCG_ICTPU_31"/>
+     <column dest="FMCG_IMSI_BASED_GSM_HO" src="FMCG_IIGH_27"/>
+     </mapping>
+     </templet>
+     <templet id="6" fromTable="C_RNC_HOPS" toTable="CLT_CM_W_SIE_C_HOPS" used="1" condition=""><sql>select  * from  C_RNC_HOPS</sql>
+     <mapping>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="HOPS_ADJS_HCS_PRIO" src="HOPS_ADJS_HC_S_PRIO"/>
+     <column dest="HOPS_ADJS_HCS_THRESHOLD" src="HOPS_ADJS_HC_S_THLD"/>
+     <column dest="HOPS_ADJS_PENALTY_TIME" src="HOPS_APT_4"/>
+     <column dest="HOPS_ADJS_QOFFSET1" src="HOPS_ADJS_Q_OFFS_1"/>
+     <column dest="HOPS_ADJS_QOFFSET2" src="HOPS_ADJS_Q_OFFS_2"/>
+     <column dest="HOPS_ADJS_QQUAL_MIN" src="HOPS_ADJS_QQUAL_MIN"/>
+     <column dest="HOPS_ADJS_QRXLEV_MIN" src="HOPS_ADJS_QRXLEV_MIN"/>
+     <column dest="HOPS_ADJS_TEMP_OFFS_1" src="HOPS_ATO1_9"/>
+     <column dest="HOPS_ADJS_TEMP_OFFS_2" src="HOPS_ATO2_10"/>
+     <column dest="HOPS_CHANGE_ORIGIN" src="HOPS_HCO_16"/>
+     <column dest="HOPS_ECNO_AVERAGING_WIN" src="HOPS_ENAW_11"/>
+     <column dest="HOPS_ENABLE_INTER_RNCS_HO" src="HOPS_EIRC_12"/>
+     <column dest="HOPS_ENABLE_RRC_REL" src="HOPS_ENABLE_RRC_REL"/>
+     <column dest="HOPS_HHO_MARGIN_AVERAGE_ECNO" src="HOPS_HMAEN_14"/>
+     <column dest="HOPS_HHO_MARGIN_PEAK_ECNO" src="HOPS_HMPEN_15"/>
+     <column dest="HOPS_REL_MARGIN_AVERAGE_ECNO" src="HOPS_RMAEN_19"/>
+     <column dest="HOPS_REL_MARGIN_PEAK_ECNO" src="HOPS_RMPEN_20"/>
+     </mapping> 
+     </templet>
+     
+     <templet id="7" fromTable="C_RNC_RNC" toTable="CLT_CM_W_SIE_C_RNC" used="1" condition=""><sql>
+     
+     select null RNC_AHPP_172,
+       null RNC_AHPS_173,
+       null RNC_AHPW_174,
+       null RNC_AHTS_175,
+       null RNC_ALMBU100_82,
+       null RNC_ALMBU150_83,
+       null RNC_ALMBU200_85,
+       null RNC_ALMBU50_87,
+       null RNC_ALWSS2_221,
+       null RNC_ALWSS3_222,
+       null RNC_ALWSS4_223,
+       null RNC_AMR_LOAD_TX_PWR,
+       null RNC_ANR_225,
+       null RNC_ARTWR1_188,
+       null RNC_ARTWR1S_189,
+       null RNC_ARTWR2_190,
+       null RNC_ARTWR2S_191,
+       null RNC_ARTWR3_192,
+       null RNC_ARTWR3S_193,
+       null RNC_ARTWR4_194,
+       null RNC_ARTWR4S_195,
+       null RNC_ARTWR5_196,
+       null RNC_ARTWR5S_197,
+       null RNC_ARTWR6_198,
+       null RNC_ARTWR6S_199,
+       null RNC_ARTWR7_200,
+       null RNC_ARTWR7S_201,
+       null RNC_ARTWR8_202,
+       null RNC_ARTWR8S_203,
+       null RNC_ARDRH_207,
+       null RNC_AMR_RES_DCH_10,
+       null RNC_AMR_RES_DCH_20,
+       null RNC_AMR_RES_DCH_40,
+       null RNC_AMR_RES_EDCH,
+       null RNC_ARFNR_210,
+       null RNC_ARHRD_211,
+       null RNC_ARHRE_212,
+       null RNC_AMR_WITH_EDCH,
+       null RNC_AMR_WITH_HSDSCH,
+       null RNC_ANCHOR_FMCI_ID,
+       null RNC_ANCHOR_FMCS_ID,
+       null RNC_ANCHOR_HOPI_ID,
+       null RNC_ANCHOR_HOPS_ID,
+       null RNC_BRSP_306,
+       null RNC_CHCCAL_307,
+       null RNC_CCPHDHAL_391,
+       null RNC_CDHT_393,
+       null RNC_CRSOT_394,
+       null RNC_RCO_28,
+       null RNC_C_MMASTER_SWI,
+       t1.RNC_COMMON_MCC,
+       t1.RNC_COMMON_MNC,
+       null RNC_CML_10,
+       null RNC_CR_QUE_TIME_DL,
+       null RNC_CR_QUE_TIME_UL,
+       null RNC_CUIISCR_392,
+       null RNC_DRFHS_451,
+       null RNC_DSTC_399,
+       null RNC_DUBLDT_400,
+       null RNC_DUHNDT_402,
+       null RNC_DUHAW_401,
+       null RNC_DUHT_403,
+       null RNC_DULAW128_404,
+       null RNC_DULAW256_405,
+       null RNC_DULAW32_406,
+       null RNC_DULAW384_407,
+       null RNC_DULAW64_408,
+       null RNC_DULDT128_409,
+       null RNC_DULDT256_410,
+       null RNC_DULDT32_411,
+       null RNC_DULDT384_412,
+       null RNC_DULDT64_413,
+       null RNC_DULT128_414,
+       null RNC_DULT256_415,
+       null RNC_DULT32_416,
+       null RNC_DULT384_417,
+       null RNC_DULT64_418,
+       null RNC_DUMGT_419,
+       null RNC_DURAW_420,
+       null RNC_DURTD_421,
+       null RNC_DURTU_422,
+       null RNC_DURT_423,
+       null RNC_DUUAW128_424,
+       null RNC_DUUAW256_425,
+       null RNC_DUUAW32_426,
+       null RNC_DUUAW384_427,
+       null RNC_DUUAW64_428,
+       null RNC_DUUDT128_429,
+       null RNC_DUUDT256_430,
+       null RNC_DUUDT32_431,
+       null RNC_DUUDT384_432,
+       null RNC_DUUDT64_433,
+       null RNC_DUUT128_434,
+       null RNC_DUUT256_435,
+       null RNC_DUUT32_436,
+       null RNC_DUUT384_437,
+       null RNC_DUUT64_438,
+       null RNC_DRFHE_453,
+       null RNC_DANI_452,
+       null RNC_DPIHD_454,
+       null RNC_DBCI_12,
+       null RNC_DILPSS_456,
+       null RNC_DL_LOAD_SRC,
+       null RNC_DLBRS128_445,
+       null RNC_DLBRS16_446,
+       null RNC_DLBRS256_447,
+       null RNC_DLBRS32_448,
+       null RNC_DLBRS64_449,
+       null RNC_DOPT_442,
+       null RNC_DL_OPT_PWR_OFFS,
+       null RNC_DL_OPT_USG,
+       null RNC_D_L_PUNCT_LIM,
+       null RNC_DUHRC_457,
+       null RNC_ERS_470,
+       null RNC_ECLTSTT_462,
+       null RNC_EDT_471,
+       null RNC_EMNHRT_466,
+       null RNC_ESTC_468,
+       null RNC_EDCH_STR_PS_CNT,
+       null RNC_ESPMD_140,
+       null RNC_ESPMM_141,
+       null RNC_ESPMR_142,
+       null RNC_ESPPP_145,
+       null RNC_ESPPS_146,
+       null RNC_ESPPW_147,
+       null RNC_ESPTS_148,
+       null RNC_ESGT_458,
+       null RNC_ETPAW_459,
+       null RNC_ETPRT_460,
+       null RNC_ETPTT_461,
+       null RNC_EDCHQOS_CLS_ES,
+       null RNC_ECR_473,
+       null RNC_ECRT_13,
+       null RNC_ECIS_472,
+       null RNC_EMHRTS_463,
+       null RNC_EUQDR_476,
+       null RNC_ESPDT_139,
+       null RNC_ESPPM_143,
+       null RNC_ESPPM_144,
+       null RNC_ERP_477,
+       null RNC_EULAT_14,
+       null RNC_FEMBR_483,
+       null RNC_FMPSI_486,
+       null RNC_FAST_UE_CANCEL,
+       null RNC_FAST_UE_PERIOD,
+       null RNC_FAST_UE_THLD,
+       null RNC_FEMBR2N_484,
+       null RNC_FEMBR3N_485,
+       null RNC_FEMBS_482,
+       null RNC_FLEX_UPGR_USG,
+       null RNC_FPP_491,
+       null RNC_FMAX_TIME_PDCP,
+       null RNC_FPSMS_493,
+       null RNC_GA_NETW_ARFCN,
+       null RNC_GA_NETW_BCC,
+       null RNC_GA_NETW_NCC,
+       null RNC_GPSF_505,
+       null RNC_GHNOA_506,
+       null RNC_GSM_H_N_OVER_CS,
+       null RNC_GHNONP_508,
+       null RNC_GHNORP_509,
+       null RNC_HBDCE_577,
+       null RNC_HCM_578,
+       null RNC_HIBSN_526,
+       null RNC_HIRM_548,
+       null RNC_HLS_MODE_SEL,
+       null RNC_HMBSN_529,
+       null RNC_HRIEO_547,
+       null RNC_HRCS_511,
+       null RNC_H16KRC_512,
+       null RNC_H48USE_513,
+       null RNC_HCMI_518,
+       null RNC_HCRT_519,
+       null RNC_HCTSW_520,
+       null RNC_HCAW_514,
+       null RNC_HCCRP_515,
+       null RNC_HCENT_516,
+       null RNC_HCRP_517,
+       null RNC_HDRAL_521,
+       null RNC_HFLTD_522,
+       null RNC_HFLTS_523,
+       null RNC_HFTDD_524,
+       null RNC_HFTDS_525,
+       null RNC_HAIBU_541,
+       null RNC_HLST_527,
+       null RNC_HMCR_528,
+       null RNC_HAALBU_542,
+       null RNC_HSDPA_MOBILITY,
+       null RNC_HPRLRM_531,
+       null RNC_HSDPA_PRIO,
+       null RNC_HRC_533,
+       null RNC_HSAW_534,
+       null RNC_HSFC_535,
+       null RNC_HSRP_536,
+       null RNC_HSSC_537,
+       null RNC_HSTC_538,
+       null RNC_HSCW_540,
+       null RNC_HGTH_579,
+       null RNC_HGTLTP_544,
+       null RNC_HQSCE_545,
+       null RNC_HSDT_176,
+       null RNC_HSPC_177,
+       null RNC_HSPTS_187,
+       null RNC_HSGT_543,
+       null RNC_HDENO_546,
+       null RNC_HAP_575,
+       null RNC_HSPFRT_178,
+       null RNC_TANDT10_57,
+       null RNC_TANDT20_58,
+       null RNC_TANDT40_59,
+       null RNC_TAOFO_749,
+       null RNC_TARDT10_60,
+       null RNC_TARDT20_61,
+       null RNC_TARDT40_62,
+       t1.RNC_TO_AWE_SPEECH,
+       null RNC_TANDT10_64,
+       null RNC_TANDT20_65,
+       null RNC_TANDT40_66,
+       null RNC_TAOFO_750,
+       null RNC_TARDT10_67,
+       null RNC_TARDT20_68,
+       null RNC_TARDT40_69,
+       t1.RNC_TO_AWS_SPEECH,
+       null RNC_TCFHT_751,
+       null RNC_TPTD_752,
+       null RNC_TPTU_753,
+       null RNC_TV_THLD_DL_HIGH,
+       null RNC_TV_THLD_UL_HIGH,
+       null RNC_TV_THLD_UL_L,
+       null RNC_TV_TTT_DL,
+       null RNC_TV_TTT_UL,
+       null RNC_TTDHD128_755,
+       null RNC_TTDHD16_756,
+       null RNC_TTDHD256_757,
+       null RNC_TTDHD32_758,
+       null RNC_TTDHD64_759,
+       null RNC_TTDHD8_760,
+       null RNC_TTUHD128_762,
+       null RNC_TTUHD16_763,
+       null RNC_TTUHD256_764,
+       null RNC_TTUHD32_765,
+       null RNC_TTUHD64_766,
+       null RNC_TTUHD8_767,
+       null RNC_UQRI_771,
+       null RNC_UBCI_75,
+       t1.RNC_UL_DL_ACT_TMR,
+       null RNC_UDLRW_77,
+       null RNC_ULITPM_785,
+       null RNC_ULBRS128_775,
+       null RNC_ULBRS16_776,
+       null RNC_ULBRS256_777,
+       null RNC_ULBRS32_778,
+       null RNC_ULBRS64_779,
+       null RNC_ULBRS8_780,
+       null RNC_U_L_PUNCT_LIM,
+       null RNC_UQDRT_774,
+       null RNC_ULRPPM_786,
+       null RNC_ULCAC_SWI,
+       null RNC_URICDW_783,
+       null RNC_URTTD_787,
+       null RNC_USED_SRBALC_SET,
+       t1.RNC_USR_DEF_STATE,
+       null RNC_WTRCB_790,
+       null RNC_WTRCC_791,
+       null RNC_WTRCE_792,
+       null RNC_WTRCPS_793,
+       null RNC_WTRCRTS_794,
+       null RNC_WTRCI_795,
+       null RNC_WTRCLPS_796,
+       null RNC_WTRC_797,
+       null RNC_WTRCR_798,
+       null RNC_WTRCR_799,
+       null RNC_WTRC_800,
+       null RNC_WFA1_229,
+       null RNC_WFA2_230,
+       null RNC_WFA3_231,
+       null RNC_WCR_789,
+       null RNC_DSOI_398,
+       null RNC_IRCS_580,
+       null RNC_IIIM_583,
+       null RNC_IUR_PRIO,
+       null RNC_MCC_5,
+       t1.RNC_MAX_TROU_PUT,
+       null RNC_ADPUE_305,
+       null RNC_AF_SRB_ON_HSDPA,
+       null RNC_AF_SRB_ON_HSUPA,
+       null RNC_ALCMBU400_90,
+       null RNC_ALMBU1K_84,
+       null RNC_ALMBU300_86,
+       null RNC_ALMBU500_88,
+       null RNC_ALMBU750_89,
+       null RNC_ALMD_214,
+       null RNC_ALPM_215,
+       null RNC_ALPM_216,
+       null RNC_ALPP_217,
+       null RNC_ALPS_218,
+       null RNC_ALPW_219,
+       null RNC_ALTS_220,
+       null RNC_ARRE_208,
+       null RNC_AMR_RES_SRBHSPA,
+       null RNC_ABOH_232,
+       null RNC_CETE2M_388,
+       null RNC_CES_387,
+       null RNC_CRTE2M_389,
+       null RNC_CRTSH_390,
+       null RNC_DBRB_397,
+       null RNC_DILPSSC_440,
+       null RNC_EMHRTS_464,
+       null RNC_EMHRTS2M_465,
+       null RNC_ENABL_DELAY_HHO,
+       null RNC_EDSN_475,
+       null RNC_FDAMI_478,
+       null RNC_F_DPCH_SETUP_EC,
+       null RNC_F_RLC_ENA,
+       null RNC_FDNSOH_479,
+       null RNC_HCCAP_576,
+       null RNC_HSDPA_SRB_WIN,
+       null RNC_ICNBOT_587,
+       null RNC_ICBOT_586,
+       null RNC_INCBOT_589,
+       null RNC_INCNBOT_590,
+       null RNC_IUNXON_584,
+       null RNC_IUSOF_585,
+       null RNC_MRWT2MT_638,
+       null RNC_N10MCT_310,
+       null RNC_N10MMIT_315,
+       null RNC_N10MMC_314,
+       null RNC_N10MUC_318,
+       null RNC_N2MCT_323,
+       null RNC_N2MMIT_328,
+       null RNC_N2MMC_327,
+       null RNC_N2MUC_331,
+       null RNC_N2MUC1_332,
+       null RNC_N2MUC2_333,
+       null RNC_N10MCFC_311,
+       null RNC_N10MCOO_309,
+       null RNC_N10MITUC_312,
+       null RNC_N10MITUC2_313,
+       null RNC_N10MUC1_319,
+       null RNC_N10MUC2_320,
+       null RNC_N10MUHR1_316,
+       null RNC_N10MUHR2_317,
+       null RNC_N10MULP_321,
+       null RNC_N2MCFC_324,
+       null RNC_N2MCOO_322,
+       null RNC_N2MITUC_325,
+       null RNC_N2MITUC2_326,
+       null RNC_N2MUHR1_329,
+       null RNC_N2MUHR2_330,
+       null RNC_N2MULP_334,
+       null RNC_PC_PREAMBLE,
+       null RNC_PETD_24,
+       null RNC_PFSBOH_682,
+       null RNC_PVPDS_661,
+       null RNC_PWSM_DRIFT_AL_L,
+       t1.RNC_PWSM_DURATION,
+       null RNC_RSCER99_693,
+       null RNC_S10MCT_336,
+       null RNC_S10MMIT_341,
+       null RNC_S10MMC_340,
+       null RNC_S10MUC_344,
+       null RNC_S2MCT_349,
+       null RNC_S2MMIT_354,
+       null RNC_S2MMC_353,
+       null RNC_S2MUC_357,
+       null RNC_S2MUC1_358,
+       null RNC_S2MUC2_359,
+       null RNC_S10MCFC_337,
+       null RNC_S10MCOO_335,
+       null RNC_S10MITUC_338,
+       null RNC_S10MITUC2_339,
+       null RNC_S10MUC1_345,
+       null RNC_S10MUC2_346,
+       null RNC_S10MUHR1_342,
+       null RNC_S10MUHR2_343,
+       null RNC_S10MULP_347,
+       null RNC_S2MCFC_350,
+       null RNC_S2MCOO_348,
+       null RNC_S2MITUC_351,
+       null RNC_S2MITUC2_352,
+       null RNC_S2MUHR1_355,
+       null RNC_S2MUHR2_356,
+       null RNC_S2MULP_360,
+       t1.RNC_SIB_15_PRIO,
+       null RNC_SRB_DELAY,
+       null RNC_TLHA_71,
+       null RNC_TLWP_74,
+       null RNC_TME3840K_747,
+       t1.RNC_TRACE_LCS_PRIO,
+       null RNC_TLVA_73,
+       null RNC_UTPMR_772,
+       null RNC_HSPMM_180,
+       null RNC_HSPMR_181,
+       null RNC_HSPPM_182,
+       null RNC_HSPPM_183,
+       null RNC_HSPPP_184,
+       null RNC_HSPPS_185,
+       null RNC_HSPPW_186,
+       null RNC_IDFSR_588,
+       null RNC_ITDD128_591,
+       null RNC_ITDD16_592,
+       null RNC_ITDD256_593,
+       null RNC_ITDD32_594,
+       null RNC_ITDD320_595,
+       null RNC_ITDD384_596,
+       null RNC_ITDD64_597,
+       null RNC_ITDD8_598,
+       null RNC_ITUD128_599,
+       null RNC_ITUD16_600,
+       null RNC_ITUD256_601,
+       null RNC_ITUD32_602,
+       null RNC_ITUD320_603,
+       null RNC_ITUD384_604,
+       null RNC_ITUD64_605,
+       null RNC_ITUD8_606,
+       null RNC_IECIS_607,
+       null RNC_ISET_581,
+       null RNC_ICCA_582,
+       null RNC_IU_DA_TREE,
+       null RNC_IUB_DA_TREE,
+       null RNC_IPSW3G2GMS_609,
+       null RNC_IUR_DA_TREE,
+       null RNC_LBACM_614,
+       t1.RNC_LC_S_FUNC_ALITY,
+       null RNC_LMNDAT_613,
+       null RNC_LRTTD_615,
+       null RNC_LSFA_15,
+       null RNC_MCLURT_620,
+       null RNC_MCLUTT_622,
+       null RNC_MCLTPAW_616,
+       null RNC_MCLTPRT_617,
+       null RNC_MCLTPTT_618,
+       t1.RNC_MANAGED_BY,
+       null RNC_MAS_625,
+       null RNC_MBRNFL_626,
+       null RNC_MCRSS_630,
+       null RNC_MFT_633,
+       null RNC_MAX_HEADER_PDCP,
+       null RNC_MNRC_636,
+       null RNC_MRWT_637,
+       null RNC_MRWTR_639,
+       null RNC_MCLTSTT_619,
+       null RNC_MCLUSTT_621,
+       null RNC_MII_623,
+       null RNC_MIN_PREF_CHANGE,
+       null RNC_MNICPA_635,
+       null RNC_MOC_N_ENA,
+       null RNC_MAS_17,
+       null RNC_N_3_REQ,
+       t1.RNC_N_302,
+       t1.RNC_N_304,
+       t1.RNC_N_308,
+       null RNC_NFP0D_549,
+       null RNC_NFP0U_550,
+       null RNC_NFP1D_557,
+       null RNC_NFP1U_558,
+       null RNC_NFP10D_551,
+       null RNC_NFP10U_552,
+       null RNC_NFP11D_553,
+       null RNC_NFP11U_554,
+       null RNC_NFP12D_555,
+       null RNC_NFP12U_556,
+       null RNC_NFP2D_559,
+       null RNC_NFP2U_560,
+       null RNC_NFP3D_561,
+       null RNC_NFP3U_562,
+       null RNC_NFP4D_563,
+       null RNC_NFP4U_564,
+       null RNC_NFP5D_565,
+       null RNC_NFP5U_566,
+       null RNC_NFP6D_567,
+       null RNC_NFP6U_568,
+       null RNC_NFP7D_569,
+       null RNC_NFP7U_570,
+       null RNC_NFP8D_571,
+       null RNC_NFP8U_572,
+       null RNC_NFP9D_573,
+       null RNC_NFP9U_574,
+       null RNC_NFCCDC_645,
+       null RNC_NHCDC_646,
+       null RNC_NTCDC_647,
+       null RNC_NTPP_650,
+       null RNC_NFTD_648,
+       t1.RNC_RNC_NAME,
+       null RNC_NWES_649,
+       null RNC_PR1SI_25,
+       null RNC_PR2NI_26,
+       null RNC_PB_SPOLICY,
+       null RNC_P_C_RNG_DL,
+       null RNC_PSBRT_654,
+       null RNC_PSCT_655,
+       null RNC_PSST_656,
+       null RNC_PERIOD_ULRC_AMR,
+       null RNC_PFS_660,
+       null RNC_PFIS_672,
+       null RNC_PFIT1A1_673,
+       null RNC_PFIT1A2_674,
+       null RNC_PFIT1A3_675,
+       null RNC_PFIT2A1_676,
+       null RNC_PFIT2A2_677,
+       null RNC_PFIT2A3_678,
+       null RNC_PFIT3A1_679,
+       null RNC_PFIT3A2_680,
+       null RNC_PFIT3A3_681,
+       null RNC_PRBC120_497,
+       null RNC_PRBC15_498,
+       null RNC_PRBC30_499,
+       null RNC_PRBC60_500,
+       null RNC_PRBD120_501,
+       null RNC_PRBD15_502,
+       null RNC_PRBD30_503,
+       null RNC_PRBD60_504,
+       null RNC_PREF_SUBTRACT,
+       null RNC_PFBA1_668,
+       null RNC_PFBA2_669,
+       null RNC_PFBA3_670,
+       null RNC_PFSA1_683,
+       null RNC_PFSA2_684,
+       null RNC_PFSA3_685,
+       null RNC_PNMTAO_667,
+       null RNC_PS_OP_THRO_USG,
+       null RNC_PWR_BALANCING,
+       null RNC_PWR_OFFS_FOR_SI,
+       null RNC_RC1LH_687,
+       null RNC_RC1SH_690,
+       null RNC_RC2LH_688,
+       null RNC_RC2SH_691,
+       null RNC_RC3LH_689,
+       null RNC_RC3SH_692,
+       null RNC_RPIW_27,
+       t1.RNC_RESTRICTION_INT,
+       null RNC_RONPTA1_694,
+       null RNC_RONPTA2_695,
+       null RNC_RONPTA3_696,
+       t1.RNC_R_T_SRV_FOR_PS,
+       null RNC_SUDMR_697,
+       t1.RNC_SIB_4_PRIO,
+       t1.RNC_SIB_1_PRIO,
+       t1.RNC_SIB_11_PRIO,
+       t1.RNC_SIB_12_PRIO,
+       t1.RNC_SIB_18_PRIO,
+       t1.RNC_SIB_2_PRIO,
+       t1.RNC_SIB_3_PRIO,
+       t1.RNC_SIB_5_PRIO,
+       t1.RNC_SIB_6_PRIO,
+       t1.RNC_SIB_7_PRIO,
+       null RNC_SLIT_720,
+       null RNC_SIG_TO_DSCP,
+       null RNC_SCAS_719,
+       null RNC_SCALN_698,
+       null RNC_SHNLCLMN_699,
+       null RNC_SPBPD_700,
+       null RNC_SPCCS_701,
+       null RNC_SPCCD_702,
+       null RNC_SPCPS_704,
+       null RNC_SPCPD_703,
+       null RNC_SPIPD_705,
+       null RNC_SPCD_706,
+       null RNC_SPPD_707,
+       null RNC_SUBPD_708,
+       null RNC_SUCCS_709,
+       null RNC_SUCCD_710,
+       null RNC_SUCPS_712,
+       null RNC_SUCPD_711,
+       null RNC_SUIPD_713,
+       null RNC_SUSCD_714,
+       null RNC_SUSPD_715,
+       null RNC_SRV_TO_HSDPA,
+       null RNC_SSFDB_722,
+       null RNC_SSFEB_723,
+       null RNC_T_3_RES,
+       t1.RNC_T_314,
+       null RNC_T_RELOC_OVERALL,
+       null RNC_T_RELOC_PREP,
+       t1.RNC_T_302,
+       t1.RNC_T_304,
+       t1.RNC_T_305,
+       t1.RNC_T_307,
+       t1.RNC_T_308,
+       t1.RNC_T_309,
+       t1.RNC_T_316,
+       t1.RNC_T_317,
+       null RNC_TC_PSPACE_PDCP,
+       null RNC_TZBR_728,
+       null RNC_TAHI_729,
+       null RNC_TLDNSG_731,
+       null RNC_TLDNSI_732,
+       null RNC_THI_730,
+       null RNC_TLSARG_733,
+       null RNC_TLSARI_734,
+       null RNC_TLSCSG_735,
+       null RNC_TLSCSI_736,
+       null RNC_TLSNSG_737,
+       null RNC_TLSNSI_738,
+       null RNC_TLSRSG_739,
+       null RNC_TLSRSI_740,
+       null RNC_TME1920K_746,
+       null RNC_TME960K_748,
+       null RNC_T1DSS_741,
+       null RNC_T2DSS_742,
+       null RNC_T3DSS_743,
+       null RNC_TMFHS_727,
+       t1.OBJ_GID,
+       t1.CONF_ID,
+       t1.LAST_MODIFIED,
+       t1.LAST_MODIFIER,
+       null RNC_A_2_EA,
+       null RNC_ACT_TIME_OFFS,
+       null RNC_AP_299,
+       null RNC_AR_300,
+       null RNC_AF_FACH_CCDL,
+       null RNC_AF_FACH_CID_L,
+       null RNC_AF_FACH_CONT_UL,
+       null RNC_AF_FACH_SDL,
+       null RNC_AF_FACH_UDL,
+       null RNC_AF_PCH_CONT_UL,
+       null RNC_AF_PCHDL,
+       null RNC_AF_RACH_208_UL,
+       null RNC_AF_RACH_CONT_DL,
+       null RNC_AF_RT_HSDPA,
+       null RNC_AF_RTHSUPA,
+       null RNC_AF_122_AMR_DL,
+       null RNC_AF_122_AMR_UL,
+       null RNC_A128N136D_244,
+       null RNC_A128N136D_245,
+       null RNC_AF_128_NRTDCHDL,
+       null RNC_AF_128_NRTDCHUL,
+       null RNC_A128RA_277,
+       null RNC_A128RA_278,
+       null RNC_A128RU_279,
+       null RNC_A128RU_280,
+       null RNC_A144CSD_238,
+       null RNC_A144CSU_239,
+       null RNC_A16N17D_246,
+       null RNC_A16N17D_247,
+       null RNC_AF_16_NRTDCHDL,
+       null RNC_AF_16_NRTDCHUL,
+       null RNC_AF_16_RTPS_AMDL,
+       null RNC_AF_16_RTPS_AMUL,
+       null RNC_AF_16_RTPS_UMDL,
+       null RNC_AF_16_RTPS_UMUL,
+       null RNC_AF_256_NRTDCHDL,
+       null RNC_AF_256_NRTDCHUL,
+       null RNC_A256RA_285,
+       null RNC_A256RU_286,
+       null RNC_A32N34D_248,
+       null RNC_A32N34D_249,
+       null RNC_AF_32_NRTDCHDL,
+       null RNC_AF_32_NRTDCHUL,
+       null RNC_AF_32_RTPS_AMDL,
+       null RNC_AF_32_RTPS_AMUL,
+       null RNC_AF_32_RTPS_UMDL,
+       null RNC_AF_32_RTPS_UMUL,
+       null RNC_AF_384_NRTDCHDL,
+       null RNC_AF_384_NRTDCHUL,
+       null RNC_A576CSD_240,
+       null RNC_A576CSU_241,
+       null RNC_AF_59_AMR_DL,
+       null RNC_AF_59_AMR_UL,
+       null RNC_AF_64_CS_CON_DL,
+       null RNC_AF_64_CS_CON_UL,
+       null RNC_AF_64_NRTDCHDL,
+       null RNC_AF_64_NRTDCHUL,
+       null RNC_AF_64_RTPS_AMDL,
+       null RNC_AF_64_RTPS_AMUL,
+       null RNC_AF_64_RTPS_UMDL,
+       null RNC_AF_64_RTPS_UMUL,
+       null RNC_AF_8_NRTDCHDL,
+       null RNC_AF_8_NRTDCHUL,
+       null RNC_AF_8_RTPS_AMDL,
+       null RNC_AF_8_RTPS_AMUL,
+       null RNC_AF_8_RTPS_UMDL,
+       null RNC_AF_8_RTPS_UMUL,
+       null RNC_ALBMO2N_80,
+       null RNC_ALBMO3N_81,
+       null RNC_AM_R_WS_S_CLOAD,
+       null RNC_ADNRC_91,
+       null RNC_ADNRFRT_92,
+       null RNC_ADNRMD_93,
+       null RNC_ADNRMM_94,
+       null RNC_ADNRMR_95,
+       null RNC_ADNRPM_96,
+       null RNC_ADNRPM_97,
+       null RNC_ADNRPP_98,
+       null RNC_ADNRPS_99,
+       null RNC_ADNRPW_100,
+       null RNC_ADNRTS_101,
+       null RNC_ADS136MD_102,
+       null RNC_ADS136PM_103,
+       null RNC_ADS136PM_104,
+       null RNC_ADS136PP_105,
+       null RNC_ADS136PS_106,
+       null RNC_ADS136PW_107,
+       null RNC_ADS136TS_108,
+       null RNC_ADS34MD_109,
+       null RNC_ADS34PM_110,
+       null RNC_ADS34PM_111,
+       null RNC_ADS34PP_112,
+       null RNC_ADS34PS_113,
+       null RNC_ADS34PW_114,
+       null RNC_ADS34TS_115,
+       null RNC_ADSC_116,
+       null RNC_ADSDT_117,
+       null RNC_ADSFRT_118,
+       null RNC_ADSMD_119,
+       null RNC_ADSMM_120,
+       null RNC_ADSMR_121,
+       null RNC_ADSPM_122,
+       null RNC_ADSPM_123,
+       null RNC_ADSPP_124,
+       null RNC_ADSPS_125,
+       null RNC_ADSPW_126,
+       null RNC_ADSTS_127,
+       null RNC_AENRC_128,
+       null RNC_AENRMD_129,
+       null RNC_AENRMM_130,
+       null RNC_AENRMR_131,
+       null RNC_AENRPM_132,
+       null RNC_AENRPM_133,
+       null RNC_AENRPP_134,
+       null RNC_AENRPS_135,
+       null RNC_AENRPW_136,
+       null RNC_AENRTS_137,
+       null RNC_AFPMD_149,
+       null RNC_AFPMM_150,
+       null RNC_AFPMR_151,
+       null RNC_AFPPM_152,
+       null RNC_AFPPM_153,
+       null RNC_AFPPP_154,
+       null RNC_AFPPS_155,
+       null RNC_AFPPW_156,
+       null RNC_AFPTS_157,
+       null RNC_AFSMD_158,
+       null RNC_AFSPM_159,
+       null RNC_AFSPM_160,
+       null RNC_AFSPP_161,
+       null RNC_AFSPS_162,
+       null RNC_AFSPW_163,
+       null RNC_AFSTS_164,
+       null RNC_AMR_HSDSCH_CNT,
+       null RNC_AHFRT_166,
+       null RNC_AHMD_167,
+       null RNC_AHMM_168,
+       null RNC_AHMR_169,
+       null RNC_AHPM_170,
+       null RNC_AHPM_171,
+       null RNC_HSPMD_179,
+       null RNC_2_WTRC_801,
+       null RNC_2_WEIGHT_DCHBG,
+       null RNC_2_WEIGHT_DCHTHP_1,
+       null RNC_2_WEIGHT_DCHTHP_2,
+       null RNC_2_WEIGHT_DCHTHP_3,
+       null RNC_2_WEIGHT_HSPABG,
+       null RNC_2_WH1_807,
+       null RNC_2_WH2_808,
+       null RNC_2_WH3_809,
+       null RNC_2_WLPS_810
+  from C_RNC_RNC t1
+     
+</sql>
+     <mapping> 
+     <column dest="RNC_AMR_HSDSCH_POLL_PDU" src="RNC_AHPP_172"/>                  
+     <column dest="RNC_AMR_HSDSCH_POLL_SDU" src="RNC_AHPS_173"/>
+     <column dest="RNC_AMR_HSDSCH_POLL_WIN" src="RNC_AHPW_174"/>
+     <column dest="RNC_AMR_HSDSCH_TRG_S" src="RNC_AHTS_175"/>
+     <column dest="RNC_AMR_LC_MAX_BUFFER_UE100" src="RNC_ALMBU100_82"/>
+     <column dest="RNC_AMR_LC_MAX_BUFFER_UE150" src="RNC_ALMBU150_83"/>
+     <column dest="RNC_AMR_LC_MAX_BUFFER_UE200" src="RNC_ALMBU200_85"/>
+     <column dest="RNC_AMR_LC_MAX_BUFFER_UE50" src="RNC_ALMBU50_87"/>
+     <column dest="RNC_AMR_LCTX_WIN_SIZE_SRB2" src="RNC_ALWSS2_221"/>
+     <column dest="RNC_AMR_LCTX_WIN_SIZE_SRB3" src="RNC_ALWSS3_222"/>
+     <column dest="RNC_AMR_LCTX_WIN_SIZE_SRB4" src="RNC_ALWSS4_223"/>
+     <column dest="RNC_AMR_LOAD_TX_PWR" src="RNC_AMR_LOAD_TX_PWR"/>
+     <column dest="RNC_AMR_NUMOF_RECONF" src="RNC_ANR_225"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE1" src="RNC_ARTWR1_188"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE1_SIZE" src="RNC_ARTWR1S_189"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE2" src="RNC_ARTWR2_190"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE2_SIZE" src="RNC_ARTWR2S_191"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE3" src="RNC_ARTWR3_192"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE3_SIZE" src="RNC_ARTWR3S_193"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE4" src="RNC_ARTWR4_194"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE4_SIZE" src="RNC_ARTWR4S_195"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE5" src="RNC_ARTWR5_196"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE5_SIZE" src="RNC_ARTWR5S_197"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE6" src="RNC_ARTWR6_198"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE6_SIZE" src="RNC_ARTWR6S_199"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE7" src="RNC_ARTWR7_200"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE7_SIZE" src="RNC_ARTWR7S_201"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE8" src="RNC_ARTWR8_202"/>
+     <column dest="RNC_AMR_REL_TX_WIN_RATE8_SIZE" src="RNC_ARTWR8S_203"/>
+     <column dest="RNC_AMR_RES_DCH_REV_HSDSCH" src="RNC_ARDRH_207"/>
+     <column dest="RNC_AMR_RES_DCH10" src="RNC_AMR_RES_DCH_10"/>
+     <column dest="RNC_AMR_RES_DCH20" src="RNC_AMR_RES_DCH_20"/>
+     <column dest="RNC_AMR_RES_DCH40" src="RNC_AMR_RES_DCH_40"/>
+     <column dest="RNC_AMR_RES_EDCH" src="RNC_AMR_RES_EDCH"/>
+     <column dest="RNC_AMR_RES_FACH_AND_RACH" src="RNC_ARFNR_210"/>
+     <column dest="RNC_AMR_RES_HSDSCH_REV_DCH" src="RNC_ARHRD_211"/>
+     <column dest="RNC_AMR_RES_HSDSCH_REV_EDCH" src="RNC_ARHRE_212"/>
+     <column dest="RNC_AMR_WITH_EDCH" src="RNC_AMR_WITH_EDCH"/>
+     <column dest="RNC_AMR_WITH_HSDSCH" src="RNC_AMR_WITH_HSDSCH"/>
+     <column dest="RNC_ANCHOR_FMCI_ID" src="RNC_ANCHOR_FMCI_ID"/>
+     <column dest="RNC_ANCHOR_FMCS_ID" src="RNC_ANCHOR_FMCS_ID"/>
+     <column dest="RNC_ANCHOR_HOPI_ID" src="RNC_ANCHOR_HOPI_ID"/>
+     <column dest="RNC_ANCHOR_HOPS_ID" src="RNC_ANCHOR_HOPS_ID"/>
+     <column dest="RNC_BIT_RATE_SET_PSNRT" src="RNC_BRSP_306"/>
+     <column dest="RNC_CCCH_FOR_CUC_ALLOWED" src="RNC_CHCCAL_307"/>
+     <column dest="RNC_CCPHDHAL_430" src="RNC_CCPHDHAL_391"/>
+     <column dest="RNC_CELL_DC_HTEST_TMR" src="RNC_CDHT_393"/>
+     <column dest="RNC_CELL_RESEL_OBSERVING_TIME" src="RNC_CRSOT_394"/>
+     <column dest="RNC_CHANGE_ORIGIN" src="RNC_RCO_28"/>
+     <column dest="RNC_CM_MASTER_SWITCH" src="RNC_C_MMASTER_SWI"/>
+     <column dest="RNC_COMMON_MCC" src="RNC_COMMON_MCC"/>
+     <column dest="RNC_COMMON_MNC" src="RNC_COMMON_MNC"/>
+     <column dest="RNC_COMMON_MNC_LENGTH" src="RNC_CML_10"/>
+     <column dest="RNC_CR_QUE_TIME_DL" src="RNC_CR_QUE_TIME_DL"/>
+     <column dest="RNC_CR_QUE_TIME_UL" src="RNC_CR_QUE_TIME_UL"/>
+     <column dest="RNC_CV_USR_INACT_SIGN_CONN_REL" src="RNC_CUIISCR_392"/>
+     <column dest="RNC_D_RRC_FOR_HSDPA_SRV" src="RNC_DRFHS_451"/>
+     <column dest="RNC_DCH_SLOPE_THE_CURVE" src="RNC_DSTC_399"/>
+     <column dest="RNC_DCH_UTIL_BE_L_DG_THR" src="RNC_DUBLDT_400"/>
+     <column dest="RNC_DCH_UTIL_HB_NRT_DR_THR" src="RNC_DUHNDT_402"/>
+     <column dest="RNC_DCH_UTIL_HIGH_AVE_WIN" src="RNC_DUHAW_401"/>
+     <column dest="RNC_DCH_UTIL_HIGH_TTT" src="RNC_DUHT_403"/>
+     <column dest="RNC_DCH_UTIL_L_AVE_WIN128" src="RNC_DULAW128_404"/>
+     <column dest="RNC_DCH_UTIL_L_AVE_WIN256" src="RNC_DULAW256_405"/>
+     <column dest="RNC_DCH_UTIL_L_AVE_WIN32" src="RNC_DULAW32_406"/>
+     <column dest="RNC_DCH_UTIL_L_AVE_WIN384" src="RNC_DULAW384_407"/>
+     <column dest="RNC_DCH_UTIL_L_AVE_WIN64" src="RNC_DULAW64_408"/>
+     <column dest="RNC_DCH_UTIL_L_DG_THR128" src="RNC_DULDT128_409"/>
+     <column dest="RNC_DCH_UTIL_L_DG_THR256" src="RNC_DULDT256_410"/>
+     <column dest="RNC_DCH_UTIL_L_DG_THR32" src="RNC_DULDT32_411"/>
+     <column dest="RNC_DCH_UTIL_L_DG_THR384" src="RNC_DULDT384_412"/>
+     <column dest="RNC_DCH_UTIL_L_DG_THR64" src="RNC_DULDT64_413"/>
+     <column dest="RNC_DCH_UTIL_L_TTT_128" src="RNC_DULT128_414"/>
+     <column dest="RNC_DCH_UTIL_L_TTT_256" src="RNC_DULT256_415"/>
+     <column dest="RNC_DCH_UTIL_L_TTT_32" src="RNC_DULT32_416"/>
+     <column dest="RNC_DCH_UTIL_L_TTT_384" src="RNC_DULT384_417"/>
+     <column dest="RNC_DCH_UTIL_L_TTT_64" src="RNC_DULT64_418"/>
+     <column dest="RNC_DCH_UTIL_MEAS_GUARD_TIME" src="RNC_DUMGT_419"/>
+     <column dest="RNC_DCH_UTIL_REL_AVE_WIN" src="RNC_DURAW_420"/>
+     <column dest="RNC_DCH_UTIL_REL_THR_DL" src="RNC_DURTD_421"/>
+     <column dest="RNC_DCH_UTIL_REL_THR_UL" src="RNC_DURTU_422"/>
+     <column dest="RNC_DCH_UTIL_REL_TTT" src="RNC_DURT_423"/>
+     <column dest="RNC_DCH_UTIL_U_AVE_WIN128" src="RNC_DUUAW128_424"/>
+     <column dest="RNC_DCH_UTIL_U_AVE_WIN256" src="RNC_DUUAW256_425"/>
+     <column dest="RNC_DCH_UTIL_U_AVE_WIN32" src="RNC_DUUAW32_426"/>
+     <column dest="RNC_DCH_UTIL_U_AVE_WIN384" src="RNC_DUUAW384_427"/>
+     <column dest="RNC_DCH_UTIL_U_AVE_WIN64" src="RNC_DUUAW64_428"/>
+     <column dest="RNC_DCH_UTIL_U_DG_THR128" src="RNC_DUUDT128_429"/>
+     <column dest="RNC_DCH_UTIL_U_DG_THR256" src="RNC_DUUDT256_430"/>
+     <column dest="RNC_DCH_UTIL_U_DG_THR32" src="RNC_DUUDT32_431"/>
+     <column dest="RNC_DCH_UTIL_U_DG_THR384" src="RNC_DUUDT384_432"/>
+     <column dest="RNC_DCH_UTIL_U_DG_THR64" src="RNC_DUUDT64_433"/>
+     <column dest="RNC_DCH_UTIL_U_TTT_128" src="RNC_DUUT128_434"/>
+     <column dest="RNC_DCH_UTIL_U_TTT_256" src="RNC_DUUT256_435"/>
+     <column dest="RNC_DCH_UTIL_U_TTT_32" src="RNC_DUUT32_436"/>
+     <column dest="RNC_DCH_UTIL_U_TTT_384" src="RNC_DUUT384_437"/>
+     <column dest="RNC_DCH_UTIL_U_TTT_64" src="RNC_DUUT64_438"/>
+     <column dest="RNC_DCTD_RRC_FOR_HSDPA_ENHANC" src="RNC_DRFHE_453"/>
+     <column dest="RNC_DEFAULT_AUTHORISED_NW_ID" src="RNC_DANI_452"/>
+     <column dest="RNC_DIS_PWR_IN_HSDPA_DECISION" src="RNC_DPIHD_454"/>
+     <column dest="RNC_DL_BLER_CONF_INTERVAL" src="RNC_DBCI_12"/>
+     <column dest="RNC_DL_INNER_LOOP_PC_STEP_SIZE" src="RNC_DILPSS_456"/>
+     <column dest="RNC_DL_LOAD_SRC" src="RNC_DL_LOAD_SRC"/>
+     <column dest="RNC_DL_MAX_BIT_RATE_SF128" src="RNC_DLBRS128_445"/>
+     <column dest="RNC_DL_MAX_BIT_RATE_SF16" src="RNC_DLBRS16_446"/>
+     <column dest="RNC_DL_MAX_BIT_RATE_SF256" src="RNC_DLBRS256_447"/>
+     <column dest="RNC_DL_MAX_BIT_RATE_SF32" src="RNC_DLBRS32_448"/>
+     <column dest="RNC_DL_MAX_BIT_RATE_SF64" src="RNC_DLBRS64_449"/>
+     <column dest="RNC_DL_OPT_PROHIBIT_TIME" src="RNC_DOPT_442"/>
+     <column dest="RNC_DL_OPT_PWR_OFFS" src="RNC_DL_OPT_PWR_OFFS"/>
+     <column dest="RNC_DL_OPT_USAGE" src="RNC_DL_OPT_USG"/>
+     <column dest="RNC_DL_PUNCTURING_LIMIT" src="RNC_D_L_PUNCT_LIM"/>
+     <column dest="RNC_DYN_USAGE_HSDPA_RETURN_CH" src="RNC_DUHRC_457"/>
+     <column dest="RNC_ECHO_REQ_SENDING" src="RNC_ERS_470"/>
+     <column dest="RNC_ECLTSTT_568" src="RNC_ECLTSTT_462"/>
+     <column dest="RNC_ECNO_DIFFERENCE_THLD" src="RNC_EDT_471"/>
+     <column dest="RNC_EDCH_MAX_NBR_HARQ_RE_TX" src="RNC_EMNHRT_466"/>
+     <column dest="RNC_EDCH_SLOPE_THE_CURVE" src="RNC_ESTC_468"/>
+     <column dest="RNC_EDCH_STR_PS_CNT" src="RNC_EDCH_STR_PS_CNT"/>
+     <column dest="RNC_EDCH_STR_PS_MAX_DAT" src="RNC_ESPMD_140"/>
+     <column dest="RNC_EDCH_STR_PS_MAX_MRW" src="RNC_ESPMM_141"/>
+     <column dest="RNC_EDCH_STR_PS_MAX_RST" src="RNC_ESPMR_142"/>
+     <column dest="RNC_EDCH_STR_PS_POLL_PDU" src="RNC_ESPPP_145"/>
+     <column dest="RNC_EDCH_STR_PS_POLL_SDU" src="RNC_ESPPS_146"/>
+     <column dest="RNC_EDCH_STR_PS_POLL_WIN" src="RNC_ESPPW_147"/>
+     <column dest="RNC_EDCH_STR_PS_TRG_S" src="RNC_ESPTS_148"/>
+     <column dest="RNC_EDCHCT_SWI_GUARD_TMR" src="RNC_ESGT_458"/>
+     <column dest="RNC_EDCHMA_TROU_PUT_AVE_WIN" src="RNC_ETPAW_459"/>
+     <column dest="RNC_EDCHMA_TROU_PUT_REL_THR" src="RNC_ETPRT_460"/>
+     <column dest="RNC_EDCHMA_TROU_PUT_TIMETO_TRG" src="RNC_ETPTT_461"/>
+     <column dest="RNC_EDCHQOS_CLS_ES" src="RNC_EDCHQOS_CLS_ES"/>
+     <column dest="RNC_EMERG_CALL_REDIRECT" src="RNC_ECR_473"/>
+     <column dest="RNC_EMERG_CALL_REDIRECT_TMR" src="RNC_ECRT_13"/>
+     <column dest="RNC_EMERGENCY_CALL_ISHO_SUPP" src="RNC_ECIS_472"/>
+     <column dest="RNC_EMHRTS_570" src="RNC_EMHRTS_463"/>
+     <column dest="RNC_ENABLE_UL_QUAL_DET_REP" src="RNC_EUQDR_476"/>
+     <column dest="RNC_ESPDT_120" src="RNC_ESPDT_139"/>
+     <column dest="RNC_ESPPM_128" src="RNC_ESPPM_143"/>
+     <column dest="RNC_ESPPM_130" src="RNC_ESPPM_144"/>
+     <column dest="RNC_EXPECT_REORDERING_PDCP" src="RNC_ERP_477"/>
+     <column dest="RNC_EXTENDED_UL_DL_ACTIVAT_TMR" src="RNC_EULAT_14"/>
+     <column dest="RNC_FACT_EDCH_MAX_BIT_RATE" src="RNC_FEMBR_483"/>
+     <column dest="RNC_FACTOR_MIN_PBS_INTERVAL" src="RNC_FMPSI_486"/>
+     <column dest="RNC_FAST_UE_CANCEL" src="RNC_FAST_UE_CANCEL"/>
+     <column dest="RNC_FAST_UE_PERIOD" src="RNC_FAST_UE_PERIOD"/>
+     <column dest="RNC_FAST_UE_THLD" src="RNC_FAST_UE_THLD"/>
+     <column dest="RNC_FEMBR2N_596" src="RNC_FEMBR2N_484"/>
+     <column dest="RNC_FEMBR3N_598" src="RNC_FEMBR3N_485"/>
+     <column dest="RNC_FEMBS_592" src="RNC_FEMBS_482"/>
+     <column dest="RNC_FLEX_UPGR_USAGE" src="RNC_FLEX_UPGR_USG"/>
+     <column dest="RNC_FMAX_PERIOD_PDCP" src="RNC_FPP_491"/>
+     <column dest="RNC_FMAX_TIME_PDCP" src="RNC_FMAX_TIME_PDCP"/>
+     <column dest="RNC_FPSMS_614" src="RNC_FPSMS_493"/>
+     <column dest="RNC_GA_NETW_ARFCN" src="RNC_GA_NETW_ARFCN"/>
+     <column dest="RNC_GA_NETW_BCC" src="RNC_GA_NETW_BCC"/>
+     <column dest="RNC_GA_NETW_NCC" src="RNC_GA_NETW_NCC"/>
+     <column dest="RNC_GAP_POS_SINGLE_FRAME" src="RNC_GPSF_505"/>
+     <column dest="RNC_GSM_HANDOVER_AMR" src="RNC_GHNOA_506"/>
+     <column dest="RNC_GSM_HANDOVER_CS" src="RNC_GSM_H_N_OVER_CS"/>
+     <column dest="RNC_GSM_HANDOVER_NRT_PS" src="RNC_GHNONP_508"/>
+     <column dest="RNC_GSM_HANDOVER_RT_PS" src="RNC_GHNORP_509"/>
+     <column dest="RNC_HAPPY_BIT_DELAY_COND_EDCH" src="RNC_HBDCE_577"/>
+     <column dest="RNC_HEADER_COMPRESS_METHOD" src="RNC_HCM_578"/>
+     <column dest="RNC_HIBSN_678" src="RNC_HIBSN_526"/>
+     <column dest="RNC_HIRM" src="RNC_HIRM_548"/>
+     <column dest="RNC_HLS_MODE_SELECTION" src="RNC_HLS_MODE_SEL"/>
+     <column dest="RNC_HMBSN_684" src="RNC_HMBSN_529"/>
+     <column dest="RNC_HRCIEO" src="RNC_HRIEO_547"/>
+     <column dest="RNC_HSCAHO_RAB_COMB_SUP" src="RNC_HRCS_511"/>
+     <column dest="RNC_HSDPA_16_KBPS_RETURN_CH" src="RNC_H16KRC_512"/>
+     <column dest="RNC_HSDPA_48_USR_S_ENA" src="RNC_H48USE_513"/>
+     <column dest="RNC_HSDPA_CC_MIN_INT" src="RNC_HCMI_518"/>
+     <column dest="RNC_HSDPA_CC_REP_TIME" src="RNC_HCRT_519"/>
+     <column dest="RNC_HSDPA_CHA_TYPE_SWI_WIN" src="RNC_HCTSW_520"/>
+     <column dest="RNC_HSDPA_CPICH_AVE_WIN" src="RNC_HCAW_514"/>
+     <column dest="RNC_HSDPA_CPICH_CTS_REP_PER" src="RNC_HCCRP_515"/>
+     <column dest="RNC_HSDPA_CPICH_EC_NO_THLD" src="RNC_HCENT_516"/>
+     <column dest="RNC_HSDPA_CPICH_REP_PERIOD" src="RNC_HCRP_517"/>
+     <column dest="RNC_HSDPA_DYNAMIC_RES_ALLOC" src="RNC_HDRAL_521"/>
+     <column dest="RNC_HSDPA_FC_L_THLD_DVCC" src="RNC_HFLTD_522"/>
+     <column dest="RNC_HSDPA_FC_L_THLD_SVCC" src="RNC_HFLTS_523"/>
+     <column dest="RNC_HSDPA_FC_TARGET_DELAY_DVCC" src="RNC_HFTDD_524"/>
+     <column dest="RNC_HSDPA_FC_TARGET_DELAY_SVCC" src="RNC_HFTDS_525"/>
+     <column dest="RNC_HSDPA_INITIAL_BITRATE_UL" src="RNC_HAIBU_541"/>
+     <column dest="RNC_HSDPA_LOAD_SHARE_THLD" src="RNC_HLST_527"/>
+     <column dest="RNC_HSDPA_MAX_CC_REP" src="RNC_HMCR_528"/>
+     <column dest="RNC_HSDPA_MIN_ALLOW_BITRATE_UL" src="RNC_HAALBU_542"/>
+     <column dest="RNC_HSDPA_MOBILITY" src="RNC_HSDPA_MOBILITY"/>
+     <column dest="RNC_HSDPA_PEAK_RAT_LIM_RAB_MAX" src="RNC_HPRLRM_531"/>
+     <column dest="RNC_HSDPA_PRIO" src="RNC_HSDPA_PRIO"/>
+     <column dest="RNC_HSDPA_RRC_DIVERSITY" src="RNC_HRC_533"/>
+     <column dest="RNC_HSDPA_SE_AVE_WIN" src="RNC_HSAW_534"/>
+     <column dest="RNC_HSDPA_SE_FC" src="RNC_HSFC_535"/>
+     <column dest="RNC_HSDPA_SE_REP_PERIOD" src="RNC_HSRP_536"/>
+     <column dest="RNC_HSDPA_SE_SERV_CELL" src="RNC_HSSC_537"/>
+     <column dest="RNC_HSDPA_SE_TARGET_CELL" src="RNC_HSTC_538"/>
+     <column dest="RNC_HSDPA_SERV_CELL_WIN" src="RNC_HSCW_540"/>
+     <column dest="RNC_HSDSCH_GUARD_TIMER_HO" src="RNC_HGTH_579"/>
+     <column dest="RNC_HSDSCH_GUARD_TMR_L_THRPUT" src="RNC_HGTLTP_544"/>
+     <column dest="RNC_HSDSCH_QOS_CLASSES" src="RNC_HQSCE_545"/>
+     <column dest="RNC_HSDSCH_STR_DISC_TIME" src="RNC_HSDT_176"/>
+     <column dest="RNC_HSDSCH_STR_PS_CNT" src="RNC_HSPC_177"/>
+     <column dest="RNC_HSDSCH_STR_PS_TRG_S" src="RNC_HSPTS_187"/>
+     <column dest="RNC_HSDSCHCT_SWI_GUARD_TMR" src="RNC_HSGT_543"/>
+     <column dest="RNC_HSPA_DRNC_EC_NO_OFFS" src="RNC_HDENO_546"/>
+     <column dest="RNC_HSPDSCH_ADJUST_PERIOD" src="RNC_HAP_575"/>
+     <column dest="RNC_HSPFRT_198" src="RNC_HSPFRT_178"/>
+     <column dest="RNC_TO_AWE_NRT_DCH_TTI10" src="RNC_TANDT10_57"/>
+     <column dest="RNC_TO_AWE_NRT_DCH_TTI20" src="RNC_TANDT20_58"/>
+     <column dest="RNC_TO_AWE_NRT_DCH_TTI40" src="RNC_TANDT40_59"/>
+     <column dest="RNC_TO_AWE_OFFS_FOR_OVERBOOK" src="RNC_TAOFO_749"/>
+     <column dest="RNC_TO_AWE_RT_DCH_TTI10" src="RNC_TARDT10_60"/>
+     <column dest="RNC_TO_AWE_RT_DCH_TTI20" src="RNC_TARDT20_61"/>
+     <column dest="RNC_TO_AWE_RT_DCH_TTI40" src="RNC_TARDT40_62"/>
+     <column dest="RNC_TO_AWE_SPEECH" src="RNC_TO_AWE_SPEECH"/>
+     <column dest="RNC_TO_AWS_NRT_DCH_TTI10" src="RNC_TANDT10_64"/>
+     <column dest="RNC_TO_AWS_NRT_DCH_TTI20" src="RNC_TANDT20_65"/>
+     <column dest="RNC_TO_AWS_NRT_DCH_TTI40" src="RNC_TANDT40_66"/>
+     <column dest="RNC_TO_AWS_OFFS_FOR_OVERBOOK" src="RNC_TAOFO_750"/>
+     <column dest="RNC_TO_AWS_RT_DCH_TTI10" src="RNC_TARDT10_67"/>
+     <column dest="RNC_TO_AWS_RT_DCH_TTI20" src="RNC_TARDT20_68"/>
+     <column dest="RNC_TO_AWS_RT_DCH_TTI40" src="RNC_TARDT40_69"/>
+     <column dest="RNC_TO_AWS_SPEECH" src="RNC_TO_AWS_SPEECH"/>
+     <column dest="RNC_TO_CELL_FACH_IN_TEST" src="RNC_TCFHT_751"/>
+     <column dest="RNC_TRAF_VOL_PENDING_TIME_DL" src="RNC_TPTD_752"/>
+     <column dest="RNC_TRAF_VOL_PENDING_TIME_UL" src="RNC_TPTU_753"/>
+     <column dest="RNC_TRAF_VOL_THLD_DL_HIGH" src="RNC_TV_THLD_DL_HIGH"/>
+     <column dest="RNC_TRAF_VOL_THLD_UL_HIGH" src="RNC_TV_THLD_UL_HIGH"/>
+     <column dest="RNC_TRAF_VOL_THLD_UL_LOW" src="RNC_TV_THLD_UL_L"/>
+     <column dest="RNC_TRAF_VOL_TIME_TO_TRIG_DL" src="RNC_TV_TTT_DL"/>
+     <column dest="RNC_TRAF_VOL_TIME_TO_TRIG_UL" src="RNC_TV_TTT_UL"/>
+     <column dest="RNC_TV_THLD_DL_HIGH_DCH128" src="RNC_TTDHD128_755"/>
+     <column dest="RNC_TV_THLD_DL_HIGH_DCH16" src="RNC_TTDHD16_756"/>
+     <column dest="RNC_TV_THLD_DL_HIGH_DCH256" src="RNC_TTDHD256_757"/>
+     <column dest="RNC_TV_THLD_DL_HIGH_DCH32" src="RNC_TTDHD32_758"/>
+     <column dest="RNC_TV_THLD_DL_HIGH_DCH64" src="RNC_TTDHD64_759"/>
+     <column dest="RNC_TV_THLD_DL_HIGH_DCH8" src="RNC_TTDHD8_760"/>
+     <column dest="RNC_TV_THLD_UL_HIGH_DCH128" src="RNC_TTUHD128_762"/>
+     <column dest="RNC_TV_THLD_UL_HIGH_DCH16" src="RNC_TTUHD16_763"/>
+     <column dest="RNC_TV_THLD_UL_HIGH_DCH256" src="RNC_TTUHD256_764"/>
+     <column dest="RNC_TV_THLD_UL_HIGH_DCH32" src="RNC_TTUHD32_765"/>
+     <column dest="RNC_TV_THLD_UL_HIGH_DCH64" src="RNC_TTUHD64_766"/>
+     <column dest="RNC_TV_THLD_UL_HIGH_DCH8" src="RNC_TTUHD8_767"/>
+     <column dest="RNC_UE_QUAL_REP_INTERV" src="RNC_UQRI_771"/>
+     <column dest="RNC_UL_BLER_CONF_INT" src="RNC_UBCI_75"/>
+     <column dest="RNC_UL_DL_ACTIVATION_TIMER" src="RNC_UL_DL_ACT_TMR"/>
+     <column dest="RNC_UL_DL_CAPACITY_REQ_WAIT" src="RNC_UDLRW_77"/>
+     <column dest="RNC_UL_INITIAL_TRANS_PWR_MODE" src="RNC_ULITPM_785"/>
+     <column dest="RNC_UL_MAX_BIT_RATE_SF128" src="RNC_ULBRS128_775"/>
+     <column dest="RNC_UL_MAX_BIT_RATE_SF16" src="RNC_ULBRS16_776"/>
+     <column dest="RNC_UL_MAX_BIT_RATE_SF256" src="RNC_ULBRS256_777"/>
+     <column dest="RNC_UL_MAX_BIT_RATE_SF32" src="RNC_ULBRS32_778"/>
+     <column dest="RNC_UL_MAX_BIT_RATE_SF64" src="RNC_ULBRS64_779"/>
+     <column dest="RNC_UL_MAX_BIT_RATE_SF8" src="RNC_ULBRS8_780"/>
+     <column dest="RNC_UL_PUNCTURING_LIMIT" src="RNC_U_L_PUNCT_LIM"/>
+     <column dest="RNC_UL_QUAL_DET_REP_THLD" src="RNC_UQDRT_774"/>
+     <column dest="RNC_UL_RECOV_PERIOD_PWR_MODE" src="RNC_ULRPPM_786"/>
+     <column dest="RNC_UL_SCR_CODE_MIN" src="RNC_UL_SCR_CODE_MIN"/>
+     <column dest="RNC_ULCAC_SWITCH" src="RNC_ULCAC_SWI"/>
+     <column dest="RNC_UP_RES_IN_CELL_DCH_WAIT" src="RNC_URICDW_783"/>
+     <column dest="RNC_UPPER_RX_TX_TIME_DIFF" src="RNC_URTTD_787"/>
+     <column dest="RNC_USED_SRB_ALC_SET" src="RNC_USED_SRBALC_SET"/>
+     <column dest="RNC_USER_DEFINED_STATE" src="RNC_USR_DEF_STATE"/>
+     <column dest="RNC_WAIT_TIME_RRC_BACKGROUND" src="RNC_WTRCB_790"/>
+     <column dest="RNC_WAIT_TIME_RRC_CONV" src="RNC_WTRCC_791"/>
+     <column dest="RNC_WAIT_TIME_RRC_EMERGENCY" src="RNC_WTRCE_792"/>
+     <column dest="RNC_WAIT_TIME_RRC_HIGH_PRI_SIG" src="RNC_WTRCPS_793"/>
+     <column dest="RNC_WAIT_TIME_RRC_INT_RAT_RES" src="RNC_WTRCRTS_794"/>
+     <column dest="RNC_WAIT_TIME_RRC_INTERACTIVE" src="RNC_WTRCI_795"/>
+     <column dest="RNC_WAIT_TIME_RRC_LOW_PRIO_SIG" src="RNC_WTRCLPS_796"/>
+     <column dest="RNC_WAIT_TIME_RRC_OTHER" src="RNC_WTRC_797"/>
+     <column dest="RNC_WAIT_TIME_RRC_REGISTRATION" src="RNC_WTRCR_798"/>
+     <column dest="RNC_WAIT_TIME_RRC_STREAMING" src="RNC_WTRCR_799"/>
+     <column dest="RNC_WAIT_TIME_RRC_SUBSCRIBED" src="RNC_WTRC_800"/>
+     <column dest="RNC_WAIT_TIME_RRC_UNKNOWN" src="RNC_2_WTRC_801"/>
+     <column dest="RNC_WEIGHT_DCHBG" src="RNC_2_WEIGHT_DCHBG"/>
+     <column dest="RNC_WEIGHT_DCHTHP1" src="RNC_2_WEIGHT_DCHTHP_1"/>
+     <column dest="RNC_WEIGHT_DCHTHP2" src="RNC_2_WEIGHT_DCHTHP_2"/>
+     <column dest="RNC_WEIGHT_DCHTHP3" src="RNC_2_WEIGHT_DCHTHP_3"/>
+     <column dest="RNC_WEIGHT_FOR_ARP_1" src="RNC_WFA1_229"/>
+     <column dest="RNC_WEIGHT_FOR_ARP_2" src="RNC_WFA2_230"/>
+     <column dest="RNC_WEIGHT_FOR_ARP_3" src="RNC_WFA3_231"/>
+     <column dest="RNC_WEIGHT_HSPABG" src="RNC_2_WEIGHT_HSPABG"/>
+     <column dest="RNC_WEIGHT_HSPATHP1" src="RNC_2_WH1_807"/>
+     <column dest="RNC_WEIGHT_HSPATHP2" src="RNC_2_WH2_808"/>
+     <column dest="RNC_WEIGHT_HSPATHP3" src="RNC_2_WH3_809"/>
+     <column dest="RNC_WIRE_LESS_PRIO_SRV" src="RNC_2_WLPS_810"/>
+     <column dest="RNC_WPS_CALL_RESTRICTION" src="RNC_WCR_789"/>
+     <column dest="RNC_DCH_SCHE_OVER_IUR" src="RNC_DSOI_398"/>
+     <column dest="RNC_IBTS_RAB_COMB_SUP" src="RNC_IRCS_580"/>
+     <column dest="RNC_ISHO_IN_IUR_MOBILITY" src="RNC_IIIM_583"/>
+     <column dest="RNC_IUR_PRIO" src="RNC_IUR_PRIO"/>
+     <column dest="RNC_MAX_CALL_CAPABILITY" src="RNC_MCC_5"/>
+     <column dest="RNC_MAX_TROU_PUT" src="RNC_MAX_TROU_PUT"/>
+     <column dest="RNC_ADPUE_624" src="RNC_ADPUE_305"/>
+     <column dest="RNC_AF_SRB_ON_HSDPA" src="RNC_AF_SRB_ON_HSDPA"/>
+     <column dest="RNC_AF_SRB_ON_HSUPA" src="RNC_AF_SRB_ON_HSUPA"/>
+     <column dest="RNC_ALCMBU400_10" src="RNC_ALCMBU400_90"/>
+     <column dest="RNC_ALMBU1K_2" src="RNC_ALMBU1K_84"/>
+     <column dest="RNC_ALMBU300_4" src="RNC_ALMBU300_86"/>
+     <column dest="RNC_ALMBU500_6" src="RNC_ALMBU500_88"/>
+     <column dest="RNC_ALMBU750_8" src="RNC_ALMBU750_89"/>
+     <column dest="RNC_ALMD_16" src="RNC_ALMD_214"/>
+     <column dest="RNC_ALPM_18" src="RNC_ALPM_215"/>
+     <column dest="RNC_ALPM_20" src="RNC_ALPM_216"/>
+     <column dest="RNC_ALPP_22" src="RNC_ALPP_217"/>
+     <column dest="RNC_ALPS_24" src="RNC_ALPS_218"/>
+     <column dest="RNC_ALPW_26" src="RNC_ALPW_219"/>
+     <column dest="RNC_AMR_LCSRBHSPA_TRG_S" src="RNC_ALTS_220"/>
+     <column dest="RNC_AMR_RES_REV_EDCH" src="RNC_ARRE_208"/>
+     <column dest="RNC_AMR_RES_SRBHSPA" src="RNC_AMR_RES_SRBHSPA"/>
+     <column dest="RNC_ATOSR_BS_ON_HSPA" src="RNC_ABOH_232"/>
+     <column dest="RNC_CETE2M_634" src="RNC_CETE2M_388"/>
+     <column dest="RNC_CPICH_ECNO_SRBHSPA" src="RNC_CES_387"/>
+     <column dest="RNC_CRTE2M_636" src="RNC_CRTE2M_389"/>
+     <column dest="RNC_CRTSH_638" src="RNC_CRTSH_390"/>
+     <column dest="RNC_DBRB_658" src="RNC_DBRB_397"/>
+     <column dest="RNC_DILPSSC_744" src="RNC_DILPSSC_440"/>
+     <column dest="RNC_EMHRTS_792" src="RNC_EMHRTS_464"/>
+     <column dest="RNC_EMHRTS2M_794" src="RNC_EMHRTS2M_465"/>
+     <column dest="RNC_ENABL_DELAY_HHO" src="RNC_ENABL_DELAY_HHO"/>
+     <column dest="RNC_ENABL_DELAY_ST_N" src="RNC_EDSN_475"/>
+     <column dest="RNC_F_DPCH_ALLOC_MIN_INT" src="RNC_FDAMI_478"/>
+     <column dest="RNC_F_DPCH_SETUP_EC" src="RNC_F_DPCH_SETUP_EC"/>
+     <column dest="RNC_F_RLC_ENA" src="RNC_F_RLC_ENA"/>
+     <column dest="RNC_FDNSOH_824" src="RNC_FDNSOH_479"/>
+     <column dest="RNC_HCCAP_1018" src="RNC_HCCAP_576"/>
+     <column dest="RNC_HSDPA_SRB_WIN" src="RNC_HSDPA_SRB_WIN"/>
+     <column dest="RNC_ICNBOT_1040" src="RNC_ICNBOT_587"/>
+     <column dest="RNC_INACT_CPC_BAT_OPT_T" src="RNC_ICBOT_586"/>
+     <column dest="RNC_INCBOT_1044" src="RNC_INCBOT_589"/>
+     <column dest="RNC_INCNBOT_1046" src="RNC_INCNBOT_590"/>
+     <column dest="RNC_IUNXON_1034" src="RNC_IUNXON_584"/>
+     <column dest="RNC_IUSOF_1036" src="RNC_IUSOF_585"/>
+     <column dest="RNC_MRWT2MT_1138" src="RNC_MRWT2MT_638"/>
+     <column dest="RNC_N_10_MS_CQIDTX_TMR" src="RNC_N10MCT_310"/>
+     <column dest="RNC_N_10_MS_MAC_INAC_THR" src="RNC_N10MMIT_315"/>
+     <column dest="RNC_N_10_MS_MACDTX_CYCLE" src="RNC_N10MMC_314"/>
+     <column dest="RNC_N_10_MS_UEDRX_CYCLE" src="RNC_N10MUC_318"/>
+     <column dest="RNC_N_2_MS_CQIDTX_TMR" src="RNC_N2MCT_323"/>
+     <column dest="RNC_N_2_MS_MAC_INAC_THR" src="RNC_N2MMIT_328"/>
+     <column dest="RNC_N_2_MS_MACDTX_CYCLE" src="RNC_N2MMC_327"/>
+     <column dest="RNC_N_2_MS_UEDRX_CYCLE" src="RNC_N2MUC_331"/>
+     <column dest="RNC_N_2_MS_UEDTX_CYCLE_1" src="RNC_N2MUC1_332"/>
+     <column dest="RNC_N_2_MS_UEDTX_CYCLE_2" src="RNC_N2MUC2_333"/>
+     <column dest="RNC_N10MCFC_40" src="RNC_N10MCFC_311"/>
+     <column dest="RNC_N10MCOO_36" src="RNC_N10MCOO_309"/>
+     <column dest="RNC_N10MITUC_42" src="RNC_N10MITUC_312"/>
+     <column dest="RNC_N10MITUC2_44" src="RNC_N10MITUC2_313"/>
+     <column dest="RNC_N10MUC1_56" src="RNC_N10MUC1_319"/>
+     <column dest="RNC_N10MUC2_58" src="RNC_N10MUC2_320"/>
+     <column dest="RNC_N10MUHR1_50" src="RNC_N10MUHR1_316"/>
+     <column dest="RNC_N10MUHR2_52" src="RNC_N10MUHR2_317"/>
+     <column dest="RNC_N10MULP_60" src="RNC_N10MULP_321"/>
+     <column dest="RNC_N2MCFC_66" src="RNC_N2MCFC_324"/>
+     <column dest="RNC_N2MCOO_62" src="RNC_N2MCOO_322"/>
+     <column dest="RNC_N2MITUC_68" src="RNC_N2MITUC_325"/>
+     <column dest="RNC_N2MITUC2_70" src="RNC_N2MITUC2_326"/>
+     <column dest="RNC_N2MUHR1_76" src="RNC_N2MUHR1_329"/>
+     <column dest="RNC_N2MUHR2_78" src="RNC_N2MUHR2_330"/>
+     <column dest="RNC_N2MULP_86" src="RNC_N2MULP_334"/>
+     <column dest="RNC_PC_PREAMBLE" src="RNC_PC_PREAMBLE"/>
+     <column dest="RNC_PETD_1182" src="RNC_PETD_24"/>
+     <column dest="RNC_PFSBOH_1228" src="RNC_PFSBOH_682"/>
+     <column dest="RNC_PVPDS_1192" src="RNC_PVPDS_661"/>
+     <column dest="RNC_PWSM_DRIFT_AL_L" src="RNC_PWSM_DRIFT_AL_L"/>
+     <column dest="RNC_PWSM_DURATION" src="RNC_PWSM_DURATION"/>
+     <column dest="RNC_RSCER99_1254" src="RNC_RSCER99_693"/>
+     <column dest="RNC_S_10_MS_CQIDTX_TMR" src="RNC_S10MCT_336"/>
+     <column dest="RNC_S_10_MS_MAC_INAC_THR" src="RNC_S10MMIT_341"/>
+     <column dest="RNC_S_10_MS_MACDTX_CYCLE" src="RNC_S10MMC_340"/>
+     <column dest="RNC_S_10_MS_UEDRX_CYCLE" src="RNC_S10MUC_344"/>
+     <column dest="RNC_S_2_MS_CQIDTX_TMR" src="RNC_S2MCT_349"/>
+     <column dest="RNC_S_2_MS_MAC_INAC_THR" src="RNC_S2MMIT_354"/>
+     <column dest="RNC_S_2_MS_MACDTX_CYCLE" src="RNC_S2MMC_353"/>
+     <column dest="RNC_S_2_MS_UEDRX_CYCLE" src="RNC_S2MUC_357"/>
+     <column dest="RNC_S_2_MS_UEDTX_CYCLE_1" src="RNC_S2MUC1_358"/>
+     <column dest="RNC_S_2_MS_UEDTX_CYCLE_2" src="RNC_S2MUC2_359"/>
+     <column dest="RNC_S10MCFC_92" src="RNC_S10MCFC_337"/>
+     <column dest="RNC_S10MCOO_88" src="RNC_S10MCOO_335"/>
+     <column dest="RNC_S10MITUC_94" src="RNC_S10MITUC_338"/>
+     <column dest="RNC_S10MITUC2_96" src="RNC_S10MITUC2_339"/>
+     <column dest="RNC_S10MUC1_108" src="RNC_S10MUC1_345"/>
+     <column dest="RNC_S10MUC2_110" src="RNC_S10MUC2_346"/>
+     <column dest="RNC_S10MUHR1_102" src="RNC_S10MUHR1_342"/>
+     <column dest="RNC_S10MUHR2_104" src="RNC_S10MUHR2_343"/>
+     <column dest="RNC_S10MULP_112" src="RNC_S10MULP_347"/>
+     <column dest="RNC_S2MCFC_118" src="RNC_S2MCFC_350"/>
+     <column dest="RNC_S2MCOO_114" src="RNC_S2MCOO_348"/>
+     <column dest="RNC_S2MITUC_120" src="RNC_S2MITUC_351"/>
+     <column dest="RNC_S2MITUC2_122" src="RNC_S2MITUC2_352"/>
+     <column dest="RNC_S2MUHR1_128" src="RNC_S2MUHR1_355"/>
+     <column dest="RNC_S2MUHR2_130" src="RNC_S2MUHR2_356"/>
+     <column dest="RNC_S2MULP_138" src="RNC_S2MULP_360"/>
+     <column dest="RNC_SIB_15_PRIO" src="RNC_SIB_15_PRIO"/>
+     <column dest="RNC_SRB_DELAY" src="RNC_SRB_DELAY"/>
+     <column dest="RNC_TLHA_1442" src="RNC_TLHA_71"/>
+     <column dest="RNC_TLWP_1448" src="RNC_TLWP_74"/>
+     <column dest="RNC_TME3840K_1404" src="RNC_TME3840K_747"/>
+     <column dest="RNC_TRACE_LCS_PRIO" src="RNC_TRACE_LCS_PRIO"/>
+     <column dest="RNC_TRACE_LCS_VERT_ACCUR" src="RNC_TLVA_73"/>
+     <column dest="RNC_UE_TX_PWR_MAX_REF" src="RNC_UTPMR_772"/>
+     <column dest="RNC_HSPMM_202" src="RNC_HSPMM_180"/>
+     <column dest="RNC_HSPMR_204" src="RNC_HSPMR_181"/>
+     <column dest="RNC_HSPPM_206" src="RNC_HSPPM_182"/>
+     <column dest="RNC_HSPPM_208" src="RNC_HSPPM_183"/>
+     <column dest="RNC_HSPPP_210" src="RNC_HSPPP_184"/>
+     <column dest="RNC_HSPPS_212" src="RNC_HSPPS_185"/>
+     <column dest="RNC_HSPPW_214" src="RNC_HSPPW_186"/>
+     <column dest="RNC_IDFSR_786" src="RNC_IDFSR_588"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH128" src="RNC_ITDD128_591"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH16" src="RNC_ITDD16_592"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH256" src="RNC_ITDD256_593"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH32" src="RNC_ITDD32_594"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH320" src="RNC_ITDD320_595"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH384" src="RNC_ITDD384_596"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH64" src="RNC_ITDD64_597"/>
+     <column dest="RNC_INACT_TIMER_DL_DCH8" src="RNC_ITDD8_598"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH128" src="RNC_ITUD128_599"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH16" src="RNC_ITUD16_600"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH256" src="RNC_ITUD256_601"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH32" src="RNC_ITUD32_602"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH320" src="RNC_ITUD320_603"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH384" src="RNC_ITUD384_604"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH64" src="RNC_ITUD64_605"/>
+     <column dest="RNC_INACT_TIMER_UL_DCH8" src="RNC_ITUD8_606"/>
+     <column dest="RNC_INT_EMERG_CALL_ISHO_SUP" src="RNC_IECIS_607"/>
+     <column dest="RNC_IP_STACK_ERROR_TMR" src="RNC_ISET_581"/>
+     <column dest="RNC_ISHO_CAN_CELL_ATION" src="RNC_ICCA_582"/>
+     <column dest="RNC_IU_DA_TREE" src="RNC_IU_DA_TREE"/>
+     <column dest="RNC_IUB_DA_TREE" src="RNC_IUB_DA_TREE"/>
+     <column dest="RNC_IUPS_REL_WAIT_3G_2G_MULTIS" src="RNC_IPSW3G2GMS_609"/>
+     <column dest="RNC_IUR_DA_TREE" src="RNC_IUR_DA_TREE"/>
+     <column dest="RNC_LBACM_838" src="RNC_LBACM_614"/>
+     <column dest="RNC_LCS_FUNCTIONALITY" src="RNC_LC_S_FUNC_ALITY"/>
+     <column dest="RNC_LHO_MIN_NRT_DCH_ALLOC_TIME" src="RNC_LMNDAT_613"/>
+     <column dest="RNC_LOWER_RX_TX_TIME_DIFF" src="RNC_LRTTD_615"/>
+     <column dest="RNC_LSFA_832" src="RNC_LSFA_15"/>
+     <column dest="RNC_MACD_FLOW_UTIL_REL_THR" src="RNC_MCLURT_620"/>
+     <column dest="RNC_MACD_FLOW_UTIL_TIMET_TRIG" src="RNC_MCLUTT_622"/>
+     <column dest="RNC_MACD_FLOWTHRPUT_AVE_WIN" src="RNC_MCLTPAW_616"/>
+     <column dest="RNC_MACD_FLOWTHRPUT_REL_THR" src="RNC_MCLTPRT_617"/>
+     <column dest="RNC_MACD_FLOWTHRPUT_TIMET_TRIG" src="RNC_MCLTPTT_618"/>
+     <column dest="RNC_MANAGED_BY" src="RNC_MANAGED_BY"/>
+     <column dest="RNC_MAX_ADJUSTMENT_STEP" src="RNC_MAS_625"/>
+     <column dest="RNC_MAX_BIT_RATE_NRTMACD_FLOW" src="RNC_MBRNFL_626"/>
+     <column dest="RNC_MAX_CELL_RESELECTIONS" src="RNC_MCRSS_630"/>
+     <column dest="RNC_MAX_FREEZING_TIME" src="RNC_MFT_633"/>
+     <column dest="RNC_MAX_HEADER_PDCP" src="RNC_MAX_HEADER_PDCP"/>
+     <column dest="RNC_MAX_NBR_OF_REATT_CONG" src="RNC_MNRC_636"/>
+     <column dest="RNC_MAX_RE_WAIT_TIME" src="RNC_MRWT_637"/>
+     <column dest="RNC_MAX_RE_WAIT_TIME_RT" src="RNC_MRWTR_639"/>
+     <column dest="RNC_MCLTSTT_848" src="RNC_MCLTSTT_619"/>
+     <column dest="RNC_MCLUSTT_852" src="RNC_MCLUSTT_621"/>
+     <column dest="RNC_MIBPLMN_ID_INCLUDED" src="RNC_MII_623"/>
+     <column dest="RNC_MIN_PREF_CHANGE" src="RNC_MIN_PREF_CHANGE"/>
+     <column dest="RNC_MNICPA_868" src="RNC_MNICPA_635"/>
+     <column dest="RNC_MOC_N_ENA" src="RNC_MOC_N_ENA"/>
+     <column dest="RNC_MS_ACTIVITY_SUPERVISION" src="RNC_MAS_17"/>
+     <column dest="RNC_N_3_REQ" src="RNC_N_3_REQ"/>
+     <column dest="RNC_N302" src="RNC_N_302"/>
+     <column dest="RNC_N304" src="RNC_N_304"/>
+     <column dest="RNC_N308" src="RNC_N_308"/>
+     <column dest="RNC_NBR_FOR_PRI_0_DL" src="RNC_NFP0D_549"/>
+     <column dest="RNC_NBR_FOR_PRI_0_UL" src="RNC_NFP0U_550"/>
+     <column dest="RNC_NBR_FOR_PRI_1_DL" src="RNC_NFP1D_557"/>
+     <column dest="RNC_NBR_FOR_PRI_1_UL" src="RNC_NFP1U_558"/>
+     <column dest="RNC_NBR_FOR_PRI_10_DL" src="RNC_NFP10D_551"/>
+     <column dest="RNC_NBR_FOR_PRI_10_UL" src="RNC_NFP10U_552"/>
+     <column dest="RNC_NBR_FOR_PRI_11_DL" src="RNC_NFP11D_553"/>
+     <column dest="RNC_NBR_FOR_PRI_11_UL" src="RNC_NFP11U_554"/>
+     <column dest="RNC_NBR_FOR_PRI_12_DL" src="RNC_NFP12D_555"/>
+     <column dest="RNC_NBR_FOR_PRI_12_UL" src="RNC_NFP12U_556"/>
+     <column dest="RNC_NBR_FOR_PRI_2_DL" src="RNC_NFP2D_559"/>
+     <column dest="RNC_NBR_FOR_PRI_2_UL" src="RNC_NFP2U_560"/>
+     <column dest="RNC_NBR_FOR_PRI_3_DL" src="RNC_NFP3D_561"/>
+     <column dest="RNC_NBR_FOR_PRI_3_UL" src="RNC_NFP3U_562"/>
+     <column dest="RNC_NBR_FOR_PRI_4_DL" src="RNC_NFP4D_563"/>
+     <column dest="RNC_NBR_FOR_PRI_4_UL" src="RNC_NFP4U_564"/>
+     <column dest="RNC_NBR_FOR_PRI_5_DL" src="RNC_NFP5D_565"/>
+     <column dest="RNC_NBR_FOR_PRI_5_UL" src="RNC_NFP5U_566"/>
+     <column dest="RNC_NBR_FOR_PRI_6_DL" src="RNC_NFP6D_567"/>
+     <column dest="RNC_NBR_FOR_PRI_6_UL" src="RNC_NFP6U_568"/>
+     <column dest="RNC_NBR_FOR_PRI_7_DL" src="RNC_NFP7D_569"/>
+     <column dest="RNC_NBR_FOR_PRI_7_UL" src="RNC_NFP7U_570"/>
+     <column dest="RNC_NBR_FOR_PRI_8_DL" src="RNC_NFP8D_571"/>
+     <column dest="RNC_NBR_FOR_PRI_8_UL" src="RNC_NFP8U_572"/>
+     <column dest="RNC_NBR_FOR_PRI_9_DL" src="RNC_NFP9D_573"/>
+     <column dest="RNC_NBR_FOR_PRI_9_UL" src="RNC_NFP9U_574"/>
+     <column dest="RNC_NCHO_FC_CLM_DRNC_CELL" src="RNC_NFCCDC_645"/>
+     <column dest="RNC_NCHO_HYST_CLM_DRNC_CELL" src="RNC_NHCDC_646"/>
+     <column dest="RNC_NCHO_THR_CLM_DRNC_CELL" src="RNC_NTCDC_647"/>
+     <column dest="RNC_NON_TCP_SPACE_PDCP" src="RNC_NTPP_650"/>
+     <column dest="RNC_NRTDCH_FC_TGT_DELAY" src="RNC_NFTD_648"/>
+     <column dest="RNC_NULL_NRI_FOR_CS_POOL" src="RNC_NULL_NRI_FOR_CS_POOL"/>
+     <column dest="RNC_NULL_NRI_FOR_PS_POOL" src="RNC_NULL_NRI_FOR_PS_POOL"/>
+     <column dest="RNC_NW_NAME" src="RNC_RNC_NAME"/>
+     <column dest="RNC_NWES_894" src="RNC_NWES_649"/>
+     <column dest="RNC_PAGE_REP_1ST_INTERV" src="RNC_PR1SI_25"/>
+     <column dest="RNC_PAGE_REP_2ND_INTERV" src="RNC_PAGE_REP_2ND_INTERV"/>
+     <column dest="RNC_PBS_POLICY" src="RNC_PB_SPOLICY"/>
+     <column dest="RNC_PC_RANGE_DL" src="RNC_P_C_RNG_DL"/>
+     <column dest="RNC_PDU_SIZE_BIT_RATE_THR" src="RNC_PSBRT_654"/>
+     <column dest="RNC_PDU_SIZE_CODE_THLD" src="RNC_PSCT_655"/>
+     <column dest="RNC_PDU_SIZE_SIR_THR" src="RNC_PSST_656"/>
+     <column dest="RNC_PERIOD_ULRC_AMR" src="RNC_PERIOD_ULRC_AMR"/>
+     <column dest="RNC_PERIODICITY_FOR_SI" src="RNC_PFS_660"/>
+     <column dest="RNC_PFIS_934" src="RNC_PFIS_672"/>
+     <column dest="RNC_PFIT1A1_936" src="RNC_PFIT1A1_673"/>
+     <column dest="RNC_PFIT1A2_938" src="RNC_PFIT1A2_674"/>
+     <column dest="RNC_PFIT1A3_940" src="RNC_PFIT1A3_675"/>
+     <column dest="RNC_PFIT2A1_942" src="RNC_PFIT2A1_676"/>
+     <column dest="RNC_PFIT2A2_944" src="RNC_PFIT2A2_677"/>
+     <column dest="RNC_PFIT2A3_946" src="RNC_PFIT2A3_678"/>
+     <column dest="RNC_PFIT3A1_948" src="RNC_PFIT3A1_679"/>
+     <column dest="RNC_PFIT3A2_950" src="RNC_PFIT3A2_680"/>
+     <column dest="RNC_PFIT3A3_952" src="RNC_PFIT3A3_681"/>
+     <column dest="RNC_PRACH_BETA_C120" src="RNC_PRBC120_497"/>
+     <column dest="RNC_PRACH_BETA_C15" src="RNC_PRBC15_498"/>
+     <column dest="RNC_PRACH_BETA_C30" src="RNC_PRBC30_499"/>
+     <column dest="RNC_PRACH_BETA_C60" src="RNC_PRBC60_500"/>
+     <column dest="RNC_PRACH_BETA_D120" src="RNC_PRBD120_501"/>
+     <column dest="RNC_PRACH_BETA_D15" src="RNC_PRBD15_502"/>
+     <column dest="RNC_PRACH_BETA_D30" src="RNC_PRBD30_503"/>
+     <column dest="RNC_PRACH_BETA_D60" src="RNC_PRBD60_504"/>
+     <column dest="RNC_PREF_SUBTRACT" src="RNC_PREF_SUBTRACT"/>
+     <column dest="RNC_PRI_FOR_BACK_ARP_1" src="RNC_PFBA1_668"/>
+     <column dest="RNC_PRI_FOR_BACK_ARP_2" src="RNC_PFBA2_669"/>
+     <column dest="RNC_PRI_FOR_BACK_ARP_3" src="RNC_PFBA3_670"/>
+     <column dest="RNC_PRI_FOR_STREAM_ARP_1" src="RNC_PFSA1_683"/>
+     <column dest="RNC_PRI_FOR_STREAM_ARP_2" src="RNC_PFSA2_684"/>
+     <column dest="RNC_PRI_FOR_STREAM_ARP_3" src="RNC_PFSA3_685"/>
+     <column dest="RNC_PROBABILITY_FACT_MAX" src="RNC_PROBABILITY_FACT_MAX"/>
+     <column dest="RNC_PRX_NOISE_MAX_TUNE_ABSOL" src="RNC_PNMTAO_667"/>
+     <column dest="RNC_PS_OP_THRO_USAGE" src="RNC_PS_OP_THRO_USG"/>
+     <column dest="RNC_PWR_BALANCING" src="RNC_PWR_BALANCING"/>
+     <column dest="RNC_PWR_CONTROL_ALGOR" src="RNC_PWR_CONTROL_ALGOR"/>
+     <column dest="RNC_PWR_OFFS_FOR_SI" src="RNC_PWR_OFFS_FOR_SI"/>
+     <column dest="RNC_RANAP_CAUSE1_LOAD_HO" src="RNC_RC1LH_687"/>
+     <column dest="RNC_RANAP_CAUSE1_SERV_HO" src="RNC_RC1SH_690"/>
+     <column dest="RNC_RANAP_CAUSE2_LOAD_HO" src="RNC_RC2LH_688"/>
+     <column dest="RNC_RANAP_CAUSE2_SERV_HO" src="RNC_RC2SH_691"/>
+     <column dest="RNC_RANAP_CAUSE3_LOAD_HO" src="RNC_RC3LH_689"/>
+     <column dest="RNC_RANAP_CAUSE3_SERV_HO" src="RNC_RC3SH_692"/>
+     <column dest="RNC_RANAP_PROC_INIT_WAIT" src="RNC_RPIW_27"/>
+     <column dest="RNC_RESTRICTION_INT" src="RNC_RESTRICTION_INT"/>
+     <column dest="RNC_RONPTA1_978" src="RNC_RONPTA1_694"/>
+     <column dest="RNC_RONPTA2_980" src="RNC_RONPTA2_695"/>
+     <column dest="RNC_RONPTA3_982" src="RNC_RONPTA3_696"/>
+     <column dest="RNC_RRC_STATE_AFTER_URA_UPDATE" src="RNC_RRC_STATE_AFTER_URA_UPDAT"/>
+     <column dest="RNC_RT_SERVICES_FOR_PS" src="RNC_R_T_SRV_FOR_PS"/>
+     <column dest="RNC_SDU_DISCARD_MODE_RT_PS" src="RNC_SUDMR_697"/>
+     <column dest="RNC_SIB_4_PRIO" src="RNC_SIB_4_PRIO"/>
+     <column dest="RNC_SIB1_PRIO" src="RNC_SIB_1_PRIO"/>
+     <column dest="RNC_SIB11_PRIO" src="RNC_SIB_11_PRIO"/>
+     <column dest="RNC_SIB12_PRIO" src="RNC_SIB_12_PRIO"/>
+     <column dest="RNC_SIB18_PRIO" src="RNC_SIB_18_PRIO"/>
+     <column dest="RNC_SIB2_PRIO" src="RNC_SIB_2_PRIO"/>
+     <column dest="RNC_SIB3_PRIO" src="RNC_SIB_3_PRIO"/>
+     <column dest="RNC_SIB5_PRIO" src="RNC_SIB_5_PRIO"/>
+     <column dest="RNC_SIB6_PRIO" src="RNC_SIB_6_PRIO"/>
+     <column dest="RNC_SIB7_PRIO" src="RNC_SIB_7_PRIO"/>
+     <column dest="RNC_SIG_LINK_INACT_TIMER" src="RNC_SLIT_720"/>
+     <column dest="RNC_SIG_TO_DSCP" src="RNC_SIG_TO_DSCP"/>
+     <column dest="RNC_SIGN_CONN_ACT_SUPERVISION" src="RNC_SCAS_719"/>
+     <column dest="RNC_SLHO_CM_AL_L_NRT" src="RNC_SCALN_698"/>
+     <column dest="RNC_SLHO_HOC_LOAD_MEAS_NA" src="RNC_SHNLCLMN_699"/>
+     <column dest="RNC_SLHO_PROF_BG_PSNRT_DATA" src="RNC_SPBPD_700"/>
+     <column dest="RNC_SLHO_PROF_CONV_CS_SPEECH" src="RNC_SPCCS_701"/>
+     <column dest="RNC_SLHO_PROF_CONV_CST_DATA" src="RNC_SPCCD_702"/>
+     <column dest="RNC_SLHO_PROF_CONV_PS_SPEECH" src="RNC_SPCPS_704"/>
+     <column dest="RNC_SLHO_PROF_CONV_PSRT_DATA" src="RNC_SPCPD_703"/>
+     <column dest="RNC_SLHO_PROF_INT_PSNRT_DATA" src="RNC_SPIPD_705"/>
+     <column dest="RNC_SLHO_PS_CSNT_DATA" src="RNC_SPCD_706"/>
+     <column dest="RNC_SLHO_PS_PSRT_DATA" src="RNC_SPPD_707"/>
+     <column dest="RNC_SLHO_USE_BG_PSNRT_DATA" src="RNC_SUBPD_708"/>
+     <column dest="RNC_SLHO_USE_CONV_CS_SPEECH" src="RNC_SUCCS_709"/>
+     <column dest="RNC_SLHO_USE_CONV_CST_DATA" src="RNC_SUCCD_710"/>
+     <column dest="RNC_SLHO_USE_CONV_PS_SPEECH" src="RNC_SUCPS_712"/>
+     <column dest="RNC_SLHO_USE_CONV_PSRT_DATA" src="RNC_SUCPD_711"/>
+     <column dest="RNC_SLHO_USE_INT_PSNRT_DATA" src="RNC_SUIPD_713"/>
+     <column dest="RNC_SLHO_USE_STREAM_CSNT_DATA" src="RNC_SUSCD_714"/>
+     <column dest="RNC_SLHO_USE_STREAM_PSRT_DATA" src="RNC_SUSPD_715"/>
+     <column dest="RNC_SRV_TO_HSDPA" src="RNC_SRV_TO_HSDPA"/>
+     <column dest="RNC_STAND_ALONE_DCCH_BIT_RATE" src="RNC_STAND_ALONE_DCCH_BIT_RATE"/>
+     <column dest="RNC_STEP_SIZE_FOR_DCH_BLER" src="RNC_SSFDB_722"/>
+     <column dest="RNC_STEP_SIZE_FOR_EDCH_BLER" src="RNC_SSFEB_723"/>
+     <column dest="RNC_T_3_RES" src="RNC_T_3_RES"/>
+     <column dest="RNC_T_314" src="RNC_T_314"/>
+     <column dest="RNC_T_RELOC_OVERALL" src="RNC_T_RELOC_OVERALL"/>
+     <column dest="RNC_T_RELOC_PREP" src="RNC_T_RELOC_PREP"/>
+     <column dest="RNC_T302" src="RNC_T_302"/>
+     <column dest="RNC_T304" src="RNC_T_304"/>
+     <column dest="RNC_T305" src="RNC_T_305"/>
+     <column dest="RNC_T307" src="RNC_T_307"/>
+     <column dest="RNC_T308" src="RNC_T_308"/>
+     <column dest="RNC_T309" src="RNC_T_309"/>
+     <column dest="RNC_T316" src="RNC_T_316"/>
+     <column dest="RNC_T317" src="RNC_T_317"/>
+     <column dest="RNC_TCP_SPACE_PDCP" src="RNC_TC_PSPACE_PDCP"/>
+     <column dest="RNC_TFDCH_ZERO_BIT_RATE" src="RNC_TZBR_728"/>
+     <column dest="RNC_TGPL_AMR_HSDPA_IFREQ" src="RNC_TAHI_729"/>
+     <column dest="RNC_TGPL_DFRAME_NRT_PS_GSM" src="RNC_TLDNSG_731"/>
+     <column dest="RNC_TGPL_DFRAME_NRT_PS_IF" src="RNC_TLDNSI_732"/>
+     <column dest="RNC_TGPL_HSDPA_IFREQ" src="RNC_THI_730"/>
+     <column dest="RNC_TGPL_SFRAME_AMR_GSM" src="RNC_TLSARG_733"/>
+     <column dest="RNC_TGPL_SFRAME_AMR_IF" src="RNC_TLSARI_734"/>
+     <column dest="RNC_TGPL_SFRAME_CS_GSM" src="RNC_TLSCSG_735"/>
+     <column dest="RNC_TGPL_SFRAME_CS_IF" src="RNC_TLSCSI_736"/>
+     <column dest="RNC_TGPL_SFRAME_NRT_PS_GSM" src="RNC_TLSNSG_737"/>
+     <column dest="RNC_TGPL_SFRAME_NRT_PS_IF" src="RNC_TLSNSI_738"/>
+     <column dest="RNC_TGPL_SFRAME_RT_PS_GSM" src="RNC_TLSRSG_739"/>
+     <column dest="RNC_TGPL_SFRAME_RT_PS_IF" src="RNC_TLSRSI_740"/>
+     <column dest="RNC_THLD_MAX_EDPDCHSR192_0KBPS" src="RNC_TME1920K_746"/>
+     <column dest="RNC_THLD_MAX_EDPDCHSR96_0KBPS" src="RNC_TME960K_748"/>
+     <column dest="RNC_THP1_DELAY_SENSITIVITY_SWI" src="RNC_T1DSS_741"/>
+     <column dest="RNC_THP2_DELAY_SENSITIVITY_SWI" src="RNC_T2DSS_742"/>
+     <column dest="RNC_THP3_DELAY_SENSITIVITY_SWI" src="RNC_T3DSS_743"/>
+     <column dest="RNC_TMFHS_1080" src="RNC_TMFHS_727"/>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="RNC_A2_EA" src="RNC_A_2_EA"/>
+     <column dest="RNC_ACTIVATION_TIME_OFFS" src="RNC_ACTIVATION_TIME_OFFS"/>
+     <column dest="RNC_ADJUSTMENT_PERIOD" src="RNC_AP_299"/>
+     <column dest="RNC_ADJUSTMENT_RATIO" src="RNC_AR_300"/>
+     <column dest="RNC_AF_FACH_CCDL" src="RNC_AF_FACH_CCDL"/>
+     <column dest="RNC_AF_FACH_CID_L" src="RNC_AF_FACH_CID_L"/>
+     <column dest="RNC_AF_FACH_CONT_UL" src="RNC_AF_FACH_CONT_UL"/>
+     <column dest="RNC_AF_FACH_SDL" src="RNC_AF_FACH_SDL"/>
+     <column dest="RNC_AF_FACH_UDL" src="RNC_AF_FACH_UDL"/>
+     <column dest="RNC_AF_PCH_CONT_UL" src="RNC_AF_PCH_CONT_UL"/>
+     <column dest="RNC_AF_PCHDL" src="RNC_AF_PCHDL"/>
+     <column dest="RNC_AF_RACH_208_UL" src="RNC_AF_RACH_208_UL"/>
+     <column dest="RNC_AF_RACH_CONT_DL" src="RNC_AF_RACH_CONT_DL"/>
+     <column dest="RNC_AF_RT_HSDPA" src="RNC_AF_RT_HSDPA"/>
+     <column dest="RNC_AF_RTHSUPA" src="RNC_AF_RTHSUPA"/>
+     <column dest="RNC_AF122_AMR_DL" src="RNC_AF_122_AMR_DL"/>
+     <column dest="RNC_AF122_AMR_UL" src="RNC_AF_122_AMR_UL"/>
+     <column dest="RNC_AF128_AND136_DCCHDL" src="RNC_A128N136D_244"/>
+     <column dest="RNC_AF128_AND136_DCCHUL" src="RNC_A128N136D_245"/>
+     <column dest="RNC_AF128_NRTDCHDL" src="RNC_AF_128_NRTDCHDL"/>
+     <column dest="RNC_AF128_NRTDCHUL" src="RNC_AF_128_NRTDCHUL"/>
+     <column dest="RNC_AF128_RTPS_AMDL" src="RNC_A128RA_277"/>
+     <column dest="RNC_AF128_RTPS_AMUL" src="RNC_A128RA_278"/>
+     <column dest="RNC_AF128_RTPS_UMDL" src="RNC_A128RU_279"/>
+     <column dest="RNC_AF128_RTPS_UMUL" src="RNC_A128RU_280"/>
+     <column dest="RNC_AF144_CS_STRE_DL" src="RNC_A144CSD_238"/>
+     <column dest="RNC_AF144_CS_STRE_UL" src="RNC_A144CSU_239"/>
+     <column dest="RNC_AF16_AND17_DCCHDL" src="RNC_A16N17D_246"/>
+     <column dest="RNC_AF16_AND17_DCCHUL" src="RNC_A16N17D_247"/>
+     <column dest="RNC_AF16_NRTDCHDL" src="RNC_AF_16_NRTDCHDL"/>
+     <column dest="RNC_AF16_NRTDCHUL" src="RNC_AF_16_NRTDCHUL"/>
+     <column dest="RNC_AF16_RTPS_AMDL" src="RNC_AF_16_RTPS_AMDL"/>
+     <column dest="RNC_AF16_RTPS_AMUL" src="RNC_AF_16_RTPS_AMUL"/>
+     <column dest="RNC_AF16_RTPS_UMDL" src="RNC_AF_16_RTPS_UMDL"/>
+     <column dest="RNC_AF16_RTPS_UMUL" src="RNC_AF_16_RTPS_UMUL"/>
+     <column dest="RNC_AF256_NRTDCHDL" src="RNC_AF_256_NRTDCHDL"/>
+     <column dest="RNC_AF256_NRTDCHUL" src="RNC_AF_256_NRTDCHUL"/>
+     <column dest="RNC_AF256_RTPS_AMDL" src="RNC_A256RA_285"/>
+     <column dest="RNC_AF256_RTPS_UMDL" src="RNC_A256RU_286"/>
+     <column dest="RNC_AF32_AND34_DCCHDL" src="RNC_A32N34D_248"/>
+     <column dest="RNC_AF32_AND34_DCCHUL" src="RNC_A32N34D_249"/>
+     <column dest="RNC_AF32_NRTDCHDL" src="RNC_AF_32_NRTDCHDL"/>
+     <column dest="RNC_AF32_NRTDCHUL" src="RNC_AF_32_NRTDCHUL"/>
+     <column dest="RNC_AF32_RTPS_AMDL" src="RNC_AF_32_RTPS_AMDL"/>
+     <column dest="RNC_AF32_RTPS_AMUL" src="RNC_AF_32_RTPS_AMUL"/>
+     <column dest="RNC_AF32_RTPS_UMDL" src="RNC_AF_32_RTPS_UMDL"/>
+     <column dest="RNC_AF32_RTPS_UMUL" src="RNC_AF_32_RTPS_UMUL"/>
+     <column dest="RNC_AF384_NRTDCHDL" src="RNC_AF_384_NRTDCHDL"/>
+     <column dest="RNC_AF384_NRTDCHUL" src="RNC_AF_384_NRTDCHUL"/>
+     <column dest="RNC_AF576_CS_STRE_DL" src="RNC_A576CSD_240"/>
+     <column dest="RNC_AF576_CS_STRE_UL" src="RNC_A576CSU_241"/>
+     <column dest="RNC_AF59_AMR_DL" src="RNC_AF_59_AMR_DL"/>
+     <column dest="RNC_AF59_AMR_UL" src="RNC_AF_59_AMR_UL"/>
+     <column dest="RNC_AF64_CS_CON_DL" src="RNC_AF_64_CS_CON_DL"/>
+     <column dest="RNC_AF64_CS_CON_UL" src="RNC_AF_64_CS_CON_UL"/>
+     <column dest="RNC_AF64_NRTDCHDL" src="RNC_AF_64_NRTDCHDL"/>
+     <column dest="RNC_AF64_NRTDCHUL" src="RNC_AF_64_NRTDCHUL"/>
+     <column dest="RNC_AF64_RTPS_AMDL" src="RNC_AF_64_RTPS_AMDL"/>
+     <column dest="RNC_AF64_RTPS_AMUL" src="RNC_AF_64_RTPS_AMUL"/>
+     <column dest="RNC_AF64_RTPS_UMDL" src="RNC_AF_64_RTPS_UMDL"/>
+     <column dest="RNC_AF64_RTPS_UMUL" src="RNC_AF_64_RTPS_UMUL"/>
+     <column dest="RNC_AF8_NRTDCHDL" src="RNC_AF_8_NRTDCHDL"/>
+     <column dest="RNC_AF8_NRTDCHUL" src="RNC_AF_8_NRTDCHUL"/>
+     <column dest="RNC_AF8_RTPS_AMDL" src="RNC_AF_8_RTPS_AMDL"/>
+     <column dest="RNC_AF8_RTPS_AMUL" src="RNC_AF_8_RTPS_AMUL"/>
+     <column dest="RNC_AF8_RTPS_UMDL" src="RNC_AF_8_RTPS_UMDL"/>
+     <column dest="RNC_AF8_RTPS_UMUL" src="RNC_AF_8_RTPS_UMUL"/>
+     <column dest="RNC_ALBMO2N_12" src="RNC_ALBMO2N_80"/>
+     <column dest="RNC_ALBMO3N_14" src="RNC_ALBMO3N_81"/>
+     <column dest="RNC_AM_R_WS_S_CLOAD" src="RNC_AM_R_WS_S_CLOAD"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_CNT" src="RNC_ADNRC_91"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_FLTR_RE_TX" src="RNC_ADNRFRT_92"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_MAX_DAT" src="RNC_ADNRMD_93"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_MAX_MRW" src="RNC_ADNRMM_94"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_MAX_RST" src="RNC_ADNRMR_95"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_PERIOD_MAX" src="RNC_ADNRPM_96"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_PERIOD_MIN" src="RNC_ADNRPM_97"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_POLL_PDU" src="RNC_ADNRPP_98"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_POLL_SDU" src="RNC_ADNRPS_99"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_POLL_WIN" src="RNC_ADNRPW_100"/>
+     <column dest="RNC_AMR_DCH_N_RTPS_TRG_S" src="RNC_ADNRTS_101"/>
+     <column dest="RNC_AMR_DCH_SRB136_MAX_DAT" src="RNC_ADS136MD_102"/>
+     <column dest="RNC_AMR_DCH_SRB136_PERIOD_MAX" src="RNC_ADS136PM_103"/>
+     <column dest="RNC_AMR_DCH_SRB136_PERIOD_MIN" src="RNC_ADS136PM_104"/>
+     <column dest="RNC_AMR_DCH_SRB136_POLL_PDU" src="RNC_ADS136PP_105"/>
+     <column dest="RNC_AMR_DCH_SRB136_POLL_SDU" src="RNC_ADS136PS_106"/>
+     <column dest="RNC_AMR_DCH_SRB136_POLL_WIN" src="RNC_ADS136PW_107"/>
+     <column dest="RNC_AMR_DCH_SRB136_TRG_S" src="RNC_ADS136TS_108"/>
+     <column dest="RNC_AMR_DCH_SRB34_MAX_DAT" src="RNC_ADS34MD_109"/>
+     <column dest="RNC_AMR_DCH_SRB34_PERIOD_MAX" src="RNC_ADS34PM_110"/>
+     <column dest="RNC_AMR_DCH_SRB34_PERIOD_MIN" src="RNC_ADS34PM_111"/>
+     <column dest="RNC_AMR_DCH_SRB34_POLL_PDU" src="RNC_ADS34PP_112"/>
+     <column dest="RNC_AMR_DCH_SRB34_POLL_SDU" src="RNC_ADS34PS_113"/>
+     <column dest="RNC_AMR_DCH_SRB34_POLL_WIN" src="RNC_ADS34PW_114"/>
+     <column dest="RNC_AMR_DCH_SRB34_TRG_S" src="RNC_ADS34TS_115"/>
+     <column dest="RNC_AMR_DCH_STREAM_CNT" src="RNC_ADSC_116"/>
+     <column dest="RNC_AMR_DCH_STREAM_DISC_TIME" src="RNC_ADSDT_117"/>
+     <column dest="RNC_AMR_DCH_STREAM_FLTR_RE_TX" src="RNC_ADSFRT_118"/>
+     <column dest="RNC_AMR_DCH_STREAM_MAX_DAT" src="RNC_ADSMD_119"/>
+     <column dest="RNC_AMR_DCH_STREAM_MAX_MRW" src="RNC_ADSMM_120"/>
+     <column dest="RNC_AMR_DCH_STREAM_MAX_RST" src="RNC_ADSMR_121"/>
+     <column dest="RNC_AMR_DCH_STREAM_PERIOD_MAX" src="RNC_ADSPM_122"/>
+     <column dest="RNC_AMR_DCH_STREAM_PERIOD_MIN" src="RNC_ADSPM_123"/>
+     <column dest="RNC_AMR_DCH_STREAM_POLL_PDU" src="RNC_ADSPP_124"/>
+     <column dest="RNC_AMR_DCH_STREAM_POLL_SDU" src="RNC_ADSPS_125"/>
+     <column dest="RNC_AMR_DCH_STREAM_POLL_WIN" src="RNC_ADSPW_126"/>
+     <column dest="RNC_AMR_DCH_STREAM_TRG_S" src="RNC_ADSTS_127"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_CNT" src="RNC_AENRC_128"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_MAX_DAT" src="RNC_AENRMD_129"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_MAX_MRW" src="RNC_AENRMM_130"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_MAX_RST" src="RNC_AENRMR_131"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_PERIOD_MAX" src="RNC_AENRPM_132"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_PERIOD_MIN" src="RNC_AENRPM_133"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_POLL_PDU" src="RNC_AENRPP_134"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_POLL_SDU" src="RNC_AENRPS_135"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_POLL_WIN" src="RNC_AENRPW_136"/>
+     <column dest="RNC_AMR_EDCH_N_RTPS_TRG_S" src="RNC_AENRTS_137"/>
+     <column dest="RNC_AMR_FACH_PS_MAX_DAT" src="RNC_AFPMD_149"/>
+     <column dest="RNC_AMR_FACH_PS_MAX_MRW" src="RNC_AFPMM_150"/>
+     <column dest="RNC_AMR_FACH_PS_MAX_RST" src="RNC_AFPMR_151"/>
+     <column dest="RNC_AMR_FACH_PS_PERIOD_MAX" src="RNC_AFPPM_152"/>
+     <column dest="RNC_AMR_FACH_PS_PERIOD_MIN" src="RNC_AFPPM_153"/>
+     <column dest="RNC_AMR_FACH_PS_POLL_PDU" src="RNC_AFPPP_154"/>
+     <column dest="RNC_AMR_FACH_PS_POLL_SDU" src="RNC_AFPPS_155"/>
+     <column dest="RNC_AMR_FACH_PS_POLL_WIN" src="RNC_AFPPW_156"/>
+     <column dest="RNC_AMR_FACH_PS_TRG_S" src="RNC_AFPTS_157"/>
+     <column dest="RNC_AMR_FACH_SRB_MAX_DAT" src="RNC_AFSMD_158"/>
+     <column dest="RNC_AMR_FACH_SRB_PERIOD_MAX" src="RNC_AFSPM_159"/>
+     <column dest="RNC_AMR_FACH_SRB_PERIOD_MIN" src="RNC_AFSPM_160"/>
+     <column dest="RNC_AMR_FACH_SRB_POLL_PDU" src="RNC_AFSPP_161"/>
+     <column dest="RNC_AMR_FACH_SRB_POLL_SDU" src="RNC_AFSPS_162"/>
+     <column dest="RNC_AMR_FACH_SRB_POLL_WIN" src="RNC_AFSPW_163"/>
+     <column dest="RNC_AMR_FACH_SRB_TRG_S" src="RNC_AFSTS_164"/>
+     <column dest="RNC_AMR_HSDSCH_CNT" src="RNC_AMR_HSDSCH_CNT"/>
+     <column dest="RNC_AMR_HSDSCH_FLTR_RE_TX" src="RNC_AHFRT_166"/>
+     <column dest="RNC_AMR_HSDSCH_MAX_DAT" src="RNC_AHMD_167"/>
+     <column dest="RNC_AMR_HSDSCH_MAX_MRW" src="RNC_AHMM_168"/>
+     <column dest="RNC_AMR_HSDSCH_MAX_RST" src="RNC_AHMR_169"/>
+     <column dest="RNC_AMR_HSDSCH_PERIOD_MAX" src="RNC_AHPM_170"/>
+     <column dest="RNC_AMR_HSDSCH_PERIOD_MIN" src="RNC_AHPM_171"/>
+     <column dest="RNC_HSPMD_200" src="RNC_HSPMD_179"/>
+     </mapping>
+     </templet>
+     <templet id="8" fromTable="C_RNC_FMCI" toTable="CLT_CM_W_SIE_C_FMCI" used="1" condition=""><sql>select  * from  C_RNC_FMCI</sql>
+     <mapping>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="FMCI_CHANGE_ORIGIN" src="FMCI_FCO_2"/>
+     <column dest="FMCI_IF_DL_TXPWR_THR_AMR" src="FMCI_IDTPTA_9"/>
+     <column dest="FMCI_IF_DL_TXPWR_THR_CS" src="FMCI_IDTPTC_10"/>
+     <column dest="FMCI_IF_DL_TXPWR_THR_NRT_PS" src="FMCI_IDTPTNP_11"/>
+     <column dest="FMCI_IF_DL_TXPWR_THR_RT_PS" src="FMCI_IDTPTRP_12"/>
+     <column dest="FMCI_IF_MAX_MEAS_PERIOD" src="FMCI_IMMP_13"/>
+     <column dest="FMCI_IF_MEAS_AVE_WIN" src="FMCI_IMAW_14"/>
+     <column dest="FMCI_IF_MEAS_REP_INTERVAL" src="FMCI_IMRI_15"/>
+     <column dest="FMCI_IF_MIN_HO_INTERVAL" src="FMCI_IMHI_16"/>
+     <column dest="FMCI_IF_MIN_MEAS_INTERVAL" src="FMCI_IMMI_17"/>
+     <column dest="FMCI_IF_N_CELL_SEARCH_PERIOD" src="FMCI_INCSP_19"/>
+     <column dest="FMCI_IF_UE_TXPWR_FILTER_COEFF" src="FMCI_IUTPFC_20"/>
+     <column dest="FMCI_IF_UE_TXPWR_THR_AMR" src="FMCI_IUTPTA_21"/>
+     <column dest="FMCI_IF_UE_TXPWR_THR_CS" src="FMCI_IUTPTC_22"/>
+     <column dest="FMCI_IF_UE_TXPWR_THR_NRT_PS" src="FMCI_IUTPTNP_23"/>
+     <column dest="FMCI_IF_UE_TXPWR_THR_RT_PS" src="FMCI_IUTPTRP_24"/>
+     <column dest="FMCI_IF_UE_TXPWR_TIME_HYST" src="FMCI_IUTPTH_25"/>
+     <column dest="FMCI_IFHO_CAUSE_CPICH_ECNO" src="FMCI_IOCEN_3"/>
+     <column dest="FMCI_IFHO_CAUSE_CPICH_RSCP" src="FMCI_IOCH_4"/>
+     <column dest="FMCI_IFHO_CAUSE_TXPWR_DL" src="FMCI_IOTPD_5"/>
+     <column dest="FMCI_IFHO_CAUSE_TXPWR_UL" src="FMCI_IOTPU_6"/>
+     <column dest="FMCI_IFHO_CAUSE_UL_QUAL" src="FMCI_IOUQ_7"/>
+     <column dest="FMCI_IFREQ_MIN_SLHO_INT" src="FMCI_IMSI_18"/>
+     <column dest="FMCI_IMSI_BASED_IFHO" src="FMCI_IMS_IBASED_IFHO"/>
+     </mapping>
+     </templet>
+     
+     <templet id="9" fromTable="C_RNC_FMCS" toTable="CLT_CM_W_SIE_C_FMCS" used="1" condition=""><sql>select  * from  C_RNC_FMCS</sql>
+     <mapping>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="FMCS_ACTIVE_SET_WEIGHT_COEFF" src="FMCS_ASWC_2"/>
+     <column dest="FMCS_ADDITION_REP_INTERVAL" src="FMCS_ARI_3"/>
+     <column dest="FMCS_ADDITION_TIME" src="FMCS_ADDITION_TIME"/>
+     <column dest="FMCS_ADDITION_WIN" src="FMCS_ADDITION_WIN"/>
+     <column dest="FMCS_CHANGE_ORIGIN" src="FMCS_FCO_13"/>
+     <column dest="FMCS_DROP_REP_INT" src="FMCS_DROP_REP_INT"/>
+     <column dest="FMCS_DROP_TIME" src="FMCS_DROP_TIME"/>
+     <column dest="FMCS_DROP_WIN" src="FMCS_DROP_WIN"/>
+     <column dest="FMCS_DS_REP_BASED_SHO" src="FMCS_DRBS_6"/>
+     <column dest="FMCS_ECNO_FILTER_COEFF" src="FMCS_ENFC_12"/>
+     <column dest="FMCS_EDCH_ADD_EC_NO_OFFS" src="FMCS_EAENO_10"/>
+     <column dest="FMCS_EDCH_REM_EC_NO_OFFS" src="FMCS_ERENO_11"/>
+     <column dest="FMCS_HHO_ECNO_CANCEL" src="FMCS_HHENC_14"/>
+     <column dest="FMCS_HHO_ECNO_CANCEL_TIME" src="FMCS_HHENCT_15"/>
+     <column dest="FMCS_HHO_ECNO_THLD" src="FMCS_H_HO_EC_NO_THLD"/>
+     <column dest="FMCS_HHO_ECNO_TIME_HYST" src="FMCS_HHENTH_17"/>
+     <column dest="FMCS_HHO_RSCP_CANCEL" src="FMCS_HHRC_18"/>
+     <column dest="FMCS_HHO_RSCP_CANCEL_TIME" src="FMCS_HHRCT_19"/>
+     <column dest="FMCS_HHO_RSCP_FILTER_COEFF" src="FMCS_HHRFC_20"/>
+     <column dest="FMCS_HHO_RSCP_THLD" src="FMCS_H_HO_RSCP_THLD"/>
+     <column dest="FMCS_HHO_RSCP_TIME_HYST" src="FMCS_HHRTH_22"/>
+     <column dest="FMCS_IMSI_BASED_SHO" src="FMCS_IMS_IBASED_SHO"/>
+     <column dest="FMCS_MAX_ACTIVE_SET_SIZE" src="FMCS_MASS_24"/>
+     <column dest="FMCS_REPL_REP_INTERVAL" src="FMCS_REPL_REP_INT"/>
+     <column dest="FMCS_REPL_TIME" src="FMCS_REPL_TIME"/>
+     <column dest="FMCS_REPL_WIN" src="FMCS_REPL_WIN"/>
+     </mapping>    </templet>
+     
+     <templet id="10" fromTable="C_RNC_CMOB" toTable="CLT_CM_W_SIE_C_RNC_CMOB" used="1" condition=""><sql>select  * from  C_RNC_CMOB</sql>
+     <mapping>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="CMOB_AC_BARRED_LIST_SYSTEM" src="CMOB_ABLS_2"/>
+     <column dest="CMOB_CELL_ACCESS_RESTRICTION" src="CMOB_CAR_4"/>
+     <column dest="CMOB_CMOB_CHANGE_ORIGIN" src="CMOB_CCO_3"/>
+     <column dest="CMOB_RESTRICTION_GROUP_NAME" src="CMOB_RGN_5"/>
+     <column dest="CMOB_RESTRICTION_GROUP_TYPE" src="CMOB_RGT_6"/>
+     <column dest="CMOB_TRAF_RESTRICTION" src="CMOB_TR_7"/>
+      </mapping>
+     </templet>
+     <templet id="11" fromTable="C_RNC_WRAB" toTable="CLT_CM_W_SIE_C_RNC_WRAB" used="1" condition=""><sql>select  * from  C_RNC_WRAB</sql>
+     <mapping>
+     <column dest="WRAB_SDID16_118" src="WRAB_SDID16_64"/>
+     <column dest="WRAB_SDID256_106" src="WRAB_SDID256_58"/>
+     <column dest="WRAB_SDID256_120" src="WRAB_SDID256_65"/>
+     <column dest="WRAB_SDID32_122" src="WRAB_SDID32_66"/>
+     <column dest="WRAB_SDID4_124" src="WRAB_SDID4_67"/>
+     <column dest="WRAB_SDID64_126" src="WRAB_SDID64_68"/>
+     <column dest="WRAB_SDID8_128" src="WRAB_SDID8_69"/>
+     <column dest="WRAB_SDIDM_130" src="WRAB_SDIDM_70"/>
+     <column dest="WRAB_SDIDM_132" src="WRAB_SDIDM_71"/>
+     <column dest="WRAB_SDIDO_134" src="WRAB_SDIDO_72"/>
+     <column dest="WRAB_SDIDRD2_136" src="WRAB_SDIDRD2_73"/>
+     <column dest="WRAB_SDIDRD4_138" src="WRAB_SDIDRD4_74"/>
+     <column dest="WRAB_SIR_DPCCH_INI_DCH_16" src="WRAB_SDID16_57"/>
+     <column dest="WRAB_SIR_DPCCH_INI_DCH_32" src="WRAB_SDID32_59"/>
+     <column dest="WRAB_SIR_DPCCH_INI_DCH_4" src="WRAB_SDID4_60"/>
+     <column dest="WRAB_SIR_DPCCH_INI_DCH_64" src="WRAB_SDID64_61"/>
+     <column dest="WRAB_SIR_DPCCH_INI_DCH_8" src="WRAB_SDID8_62"/>
+     <column dest="WRAB_WRAB_CHANGE_ORIGIN" src="WRAB_WCO_75"/>  
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="WRAB_DELTA_SIR_AFTER_DL" src="WRAB_DSAD_2"/>
+     <column dest="WRAB_DELTA_SIR_AFTER_UL" src="WRAB_DSAU_3"/>
+     <column dest="WRAB_DELTA_SIR_DL" src="WRAB_DELTA_SIR_DL"/>
+     <column dest="WRAB_DELTA_SIR_UL" src="WRAB_DELTA_SIR_UL"/>
+     <column dest="WRAB_DL_ORTHOG" src="WRAB_DL_ORTHOG"/>
+     <column dest="WRAB_EB_NO_DCH_CS_DATA_NT" src="WRAB_ENDCDN_42"/>
+     <column dest="WRAB_EB_NO_DCH_CS_DATA_T" src="WRAB_ENDCDT_44"/>
+     <column dest="WRAB_EB_NO_DCH_CSNBAM_RB" src="WRAB_ENDCR_49"/>
+     <column dest="WRAB_EB_NO_DCH_CSNBAM_RC" src="WRAB_ENDCR_50"/>
+     <column dest="WRAB_EB_NO_DCH_CSWBAM_RB" src="WRAB_ENDCR_53"/>
+     <column dest="WRAB_EB_NO_DCH_PS_STR_SEC" src="WRAB_ENDPSS_17"/>
+     <column dest="WRAB_EB_NO_DCH_PSNRT_PRIM" src="WRAB_ENDPP_10"/>
+     <column dest="WRAB_EB_NO_DCH_PSNRT_SEC" src="WRAB_ENDPS_11"/>
+     <column dest="WRAB_EB_NO_DCH_RX_DIV_2" src="WRAB_ENDRD2_31"/>
+     <column dest="WRAB_EB_NO_DCH_RX_DIV_4" src="WRAB_ENDRD4_32"/>
+     <column dest="WRAB_EB_NO_DCH_SRB_136" src="WRAB_ENDS136_21"/>
+     <column dest="WRAB_EB_NO_DCH_SRB_34" src="WRAB_ENDS34_23"/>
+     <column dest="WRAB_EB_NO_DCH_SRB_34_QUA" src="WRAB_ENDS34Q_24"/>
+     <column dest="WRAB_EB_NO_DCH_TX_DIV" src="WRAB_ENDTD_33"/>
+     <column dest="WRAB_EDCHPS_STR_128_KBPS" src="WRAB_ES128K_35"/>
+     <column dest="WRAB_EDCHPS_STR_16_KBPS" src="WRAB_ES16K_36"/>
+     <column dest="WRAB_EDCHPS_STR_248_KBPS" src="WRAB_ES248K_37"/>
+     <column dest="WRAB_EDCHPS_STR_32_KBPS" src="WRAB_ES32K_38"/>
+     <column dest="WRAB_EDCHPS_STR_64_KBPS" src="WRAB_ES64K_39"/>
+     <column dest="WRAB_EDCHPS_STR_8_KBPS" src="WRAB_ES8K_40"/>
+     <column dest="WRAB_ENDCA122_86" src="WRAB_ENDCA122_46"/>
+     <column dest="WRAB_ENDCA1265_96" src="WRAB_ENDCA1265_51"/>
+     <column dest="WRAB_ENDCA59_88" src="WRAB_ENDCA59_47"/>
+     <column dest="WRAB_ENDCAQ_90" src="WRAB_ENDCAQ_48"/>
+     <column dest="WRAB_ENDCAQ_98" src="WRAB_ENDCAQ_52"/>
+     <column dest="WRAB_ENDCDNQ_80" src="WRAB_ENDCDNQ_43"/>
+     <column dest="WRAB_ENDCDTQ_84" src="WRAB_ENDCDTQ_45"/>
+     <column dest="WRAB_ENDPPQ_14" src="WRAB_ENDPPQ_9"/>
+     <column dest="WRAB_ENDPSP_28" src="WRAB_ENDPSP_16"/>
+     <column dest="WRAB_ENDPSPQ_26" src="WRAB_ENDPSPQ_15"/>
+     <column dest="WRAB_ENDPSQ_20" src="WRAB_ENDPSQ_12"/>
+     <column dest="WRAB_ENDPSQD_22" src="WRAB_ENDPSQD_13"/>
+     <column dest="WRAB_ENDPSQU_24" src="WRAB_ENDPSQU_14"/>
+     <column dest="WRAB_ENDPSSQ_32" src="WRAB_ENDPSSQ_18"/>
+     <column dest="WRAB_ENDPSSQD_34" src="WRAB_ENDPSSQD_19"/>
+     <column dest="WRAB_ENDPSSQU_36" src="WRAB_ENDPSSQU_20"/>
+     <column dest="WRAB_ENDRGCA_46" src="WRAB_ENDRGCA_25"/>
+     <column dest="WRAB_ENDRGCD_48" src="WRAB_ENDRGCD_26"/>
+     <column dest="WRAB_ENDRGPD_50" src="WRAB_ENDRGPD_27"/>
+     <column dest="WRAB_ENDRGS_56" src="WRAB_ENDRGS_30"/>
+     <column dest="WRAB_ENDRGSD_52" src="WRAB_ENDRGSD_28"/>
+     <column dest="WRAB_ENDRGSU_54" src="WRAB_ENDRGSU_29"/>
+     <column dest="WRAB_ENDS136Q_40" src="WRAB_ENDS136Q_22"/>
+     <column dest="WRAB_ESO248K_76" src="WRAB_ESO248K_41"/>
+     <column dest="WRAB_SDID128_102" src="WRAB_SDID128_56"/>
+     <column dest="WRAB_SDID128_116" src="WRAB_SDID128_63"/>
+      </mapping>
+     </templet>
+     
+     <templet id="12" fromTable="C_RNC_HOPG" toTable="CLT_CM_W_SIE_C_HOPG" used="1" condition=""><sql>select  * from  C_RNC_HOPG</sql>
+     <mapping> 
+     <column dest="OBJ_GID" src="OBJ_GID"/>       
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="HOPG_ADJG_HCS_PRIO" src="HOPG_ADJG_HC_S_PRIO"/>
+     <column dest="HOPG_ADJG_HCS_THRESHOLD" src="HOPG_ADJG_HC_S_THLD"/>
+     <column dest="HOPG_ADJG_MIN_RX_LEV_NCHO" src="HOPG_AMRLN_4"/>
+     <column dest="HOPG_ADJG_PENALTY_TIME" src="HOPG_APT_5"/>
+     <column dest="HOPG_ADJG_PENALTY_TIME_NCHO" src="HOPG_APTN_6"/>
+     <column dest="HOPG_ADJG_PRIO_COVERAGE" src="HOPG_APC_7"/>
+     <column dest="HOPG_ADJG_PRIO_SLHO" src="HOPG_ADJG_PRIO_SLHO"/>
+     <column dest="HOPG_ADJG_QOFFSET1" src="HOPG_ADJG_Q_OFFS_1"/>
+     <column dest="HOPG_ADJG_QRXLEV_MIN" src="HOPG_ADJG_QRXLEV_MIN"/>
+     <column dest="HOPG_ADJG_RX_LEV_MIN_HO" src="HOPG_ARLMH_11"/>
+     <column dest="HOPG_ADJG_TEMP_OFFS_1" src="HOPG_ATO1_12"/>
+     <column dest="HOPG_CHANGE_ORIGIN" src="HOPG_HCO_13"/>
+     </mapping> 
+     </templet>
+   
+     <templet id="13" fromTable="C_RNC_ADJS" toTable="CLT_CM_W_SIE_C_ADJS" used="1" condition=""><sql>select  * from  C_RNC_ADJS</sql>
+     <mapping>
+      <column dest="OBJ_GID" src="OBJ_GID"/>
+      <column dest="CONF_ID" src="CONF_ID"/>
+      <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+      <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+      <column dest="ADJS_CHANGE_ORIGIN" src="ADJS_ACO_5"/>
+      <column dest="ADJS_CI" src="ADJS_ADJS_CI"/>
+      <column dest="ADJS_CPICH_TXPWR" src="ADJS_ACTP_7"/>
+      <column dest="ADJS_DERR" src="ADJS_ADJS_DERR"/>
+      <column dest="ADJS_ECNO_OFFS" src="ADJS_ADJS_EC_NO_OFFS"/>
+      <column dest="ADJS_HSDPA_HOPS_ID" src="ADJS_HSDPA_HOPS_ID"/>
+      <column dest="ADJS_LAC" src="ADJS_ADJS_LAC"/>
+      <column dest="ADJS_MCC" src="ADJS_ADJS_MCC"/>
+      <column dest="ADJS_MNC" src="ADJS_ADJS_MNC"/>
+      <column dest="ADJS_NRT_HOPS_ID" src="ADJS_NRT_HOPS_ID"/>
+      <column dest="ADJS_RAC" src="ADJS_ADJS_RAC"/>
+      <column dest="ADJS_RNC_ID" src="ADJS_ADJS_RN_CID"/>
+      <column dest="ADJS_RT_HOPS_ID" src="ADJS_RT_HOPS_ID"/>
+      <column dest="ADJS_RT_WITH_HSDPA_HOPS_ID" src="ADJS_RWHHI_19"/>
+      <column dest="ADJS_SCR_CODE" src="ADJS_ADJS_SCR_CODE"/>
+      <column dest="ADJS_SIB" src="ADJS_ADJS_SIB"/>
+      <column dest="ADJS_TARGET_GID" src="ADJS_TARGET_GID"/>
+      <column dest="ADJS_TX_DIV" src="ADJS_ADJS_TX_DIV"/>
+      <column dest="ADJS_TXPWR_RACH" src="ADJS_ATPR_16"/>
+      </mapping>
+     </templet>     
+     <templet id="14" fromTable="C_RNC_HOPI" toTable="CLT_CM_W_SIE_C_HOPI" used="1" condition=""><sql>select  * from  C_RNC_HOPI</sql>
+     <mapping>
+     <column dest="OBJ_GID" src="OBJ_GID"/>
+     <column dest="CONF_ID" src="CONF_ID"/>
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>
+     <column dest="HOPI_ADJI_ECNO_MARGIN" src="HOPI_AENM_2"/>
+     <column dest="HOPI_ADJI_HCS_PRIO" src="HOPI_ADJI_HC_S_PRIO"/>
+     <column dest="HOPI_ADJI_HCS_THRESHOLD" src="HOPI_ADJI_HC_S_THLD"/>
+     <column dest="HOPI_ADJI_MIN_EC_NO_NCHO" src="HOPI_AMENN_6"/>
+     <column dest="HOPI_ADJI_MIN_ECNO" src="HOPI_ADJI_MIN_EC_NO"/>
+     <column dest="HOPI_ADJI_MIN_RSCP" src="HOPI_ADJI_MIN_RSCP"/>
+     <column dest="HOPI_ADJI_MIN_RSCP_NCHO" src="HOPI_AMRN_8"/>
+     <column dest="HOPI_ADJI_PENALTY_TIME" src="HOPI_APT_9"/>
+     <column dest="HOPI_ADJI_PENALTY_TIME_NCHO" src="HOPI_APTN_10"/>
+     <column dest="HOPI_ADJI_PLOSS_MARGIN" src="HOPI_APM_11"/>
+     <column dest="HOPI_ADJI_PRIO_COVERAGE" src="HOPI_APC_12"/>
+     <column dest="HOPI_ADJI_PRIO_HSCAHO" src="HOPI_APH_14"/>
+     <column dest="HOPI_ADJI_PRIO_QUAL" src="HOPI_ADJI_PRIO_QUAL"/>
+     <column dest="HOPI_ADJI_PRIO_SLHO" src="HOPI_ADJI_PRIO_SLHO"/>
+     <column dest="HOPI_ADJI_QOFFSET1" src="HOPI_ADJI_Q_OFFS_1"/>
+     <column dest="HOPI_ADJI_QOFFSET2" src="HOPI_ADJI_Q_OFFS_2"/>
+     <column dest="HOPI_ADJI_QQUAL_MIN" src="HOPI_ADJI_QQUAL_MIN"/>
+     <column dest="HOPI_ADJI_QRXLEV_MIN" src="HOPI_ADJI_QRXLEV_MIN"/>
+     <column dest="HOPI_ADJI_TEMP_OFFS_1" src="HOPI_ATO1_22"/>
+     <column dest="HOPI_ADJI_TEMP_OFFS_2" src="HOPI_ATO2_23"/>
+     <column dest="HOPI_CHANGE_ORIGIN" src="HOPI_HCO_25"/>
+     </mapping>
+     </templet>
+     <templet id="15" fromTable="C_RNC_WCEL" toTable="CLT_CM_W_SIE_C_WCEL" used="1" condition=""><sql>select  * from  C_RNC_WCEL WHERE CONF_ID=1</sql>
+     <mapping>
+     <column dest="WCEL_REECH_480" src="WCEL_REECH_342"/>               
+     <column dest="WCEL_REECM_478" src="WCEL_REECM_341"/>              
+     <column dest="WCEL_REECM_482" src="WCEL_REECM_343"/>              
+     <column dest="WCEL_REL_COMM_IN_INTER_RNC_HHO" src="WCEL_RCIIRH_352"/>              
+     <column dest="WCEL_RNAR_GROUP_ID" src="WCEL_RNAR_GROUP_ID"/>              
+     <column dest="WCEL_RNC_ID" src="WCEL_RNC_ID"/>              
+     <column dest="WCEL_RRC_CONN_REP_TIMER1" src="WCEL_RCRT1_339"/>              
+     <column dest="WCEL_RRC_CONN_REP_TIMER2" src="WCEL_RCRT2_340"/>              
+     <column dest="WCEL_RSFCP_498" src="WCEL_RSFCP_351"/>              
+     <column dest="WCEL_RT_FMCG_ID" src="WCEL_RT_FMCG_ID"/>              
+     <column dest="WCEL_RT_FMCI_ID" src="WCEL_RT_FMCI_ID"/>              
+     <column dest="WCEL_RT_FMCS_ID" src="WCEL_RT_FMCS_ID"/>              
+     <column dest="WCEL_RT_WITH_HSDPA_FMCG_ID" src="WCEL_RWHFI_345"/>              
+     <column dest="WCEL_RT_WITH_HSDPA_FMCI_ID" src="WCEL_RWHFI_346"/>              
+     <column dest="WCEL_RT_WITH_HSDPA_FMCS_ID" src="WCEL_RWHFI_347"/>              
+     <column dest="WCEL_RT_WITH_HSPA_FMCS_ID" src="WCEL_RWHFI_348"/>              
+     <column dest="WCEL_RTWP_MEAS_FLTR_COEFF" src="WCEL_RMFC_344"/>              
+     <column dest="WCEL_RX_DIV_INDICATOR" src="WCEL_RX_DIV_INDIC"/>              
+     <column dest="WCEL_S_HCS_RAT" src="WCEL_S_HCS_RAT"/>              
+     <column dest="WCEL_S_HCS_RAT_CONN" src="WCEL_S_HCS_RAT_CONN"/>              
+     <column dest="WCEL_S_INTER_SEARCH" src="WCEL_SINTERSEARCH"/>              
+     <column dest="WCEL_S_INTRA_SEARCH" src="WCEL_SINTRASEARCH"/>              
+     <column dest="WCEL_S_LIMIT_SEARCH_RAT" src="WCEL_SLSR_378"/>              
+     <column dest="WCEL_S_SEARCH_HCS" src="WCEL_SSEARCH_HCS"/>              
+     <column dest="WCEL_S_SEARCH_RAT" src="WCEL_SSEARCH_RAT"/>              
+     <column dest="WCEL_SAC" src="WCEL_SAC"/>              
+     <column dest="WCEL_SACB" src="WCEL_SACB"/>              
+     <column dest="WCEL_SECTOR_ID" src="WCEL_SECTOR_ID"/>              
+     <column dest="WCEL_SERV_HO_NUMB_UE_IFREQ" src="WCEL_SHNUI_368"/>              
+     <column dest="WCEL_SERV_HO_NUMB_UE_INTER_RAT" src="WCEL_SHNUIR_369"/>              
+     <column dest="WCEL_SERV_HO_PERIOD_IFREQ" src="WCEL_SHPI_370"/>              
+     <column dest="WCEL_SERV_HO_PERIOD_INTER_RAT" src="WCEL_SHPIR_371"/>              
+     <column dest="WCEL_SHUTDOWN_STEP_AMOUNT" src="WCEL_SSA_372"/>              
+     <column dest="WCEL_SHUTDOWN_WIN" src="WCEL_SHUTDOWN_WIN"/>              
+     <column dest="WCEL_SIB_4_INDIC" src="WCEL_SIB_4_INDIC"/>              
+     <column dest="WCEL_SIB7_FACTOR" src="WCEL_SIB_7_FACT"/>              
+     <column dest="WCEL_SINTERSEARCH_CONN" src="WCEL_SC_375"/>              
+     <column dest="WCEL_SINTRASEARCH_CONN" src="WCEL_SC_377"/>              
+     <column dest="WCEL_SIR_DPCCH_OFFS_E_DPCH" src="WCEL_SDOED_364"/>              
+     <column dest="WCEL_SLSRC_544" src="WCEL_SLSRC_379"/>              
+     <column dest="WCEL_SPEED_SCALE_TRESEL" src="WCEL_SST_380"/>              
+     <column dest="WCEL_SSEARCH_HCS_CONN" src="WCEL_SHC_384"/>              
+     <column dest="WCEL_SSEARCH_RAT_CONN" src="WCEL_SRC_386"/>                          
+     <column dest="WCEL_T_BARRED" src="WCEL_T_BARRED"/>              
+     <column dest="WCEL_T_CELL" src="WCEL_T_CELL"/>              
+     <column dest="WCEL_T_CR_MAX" src="WCEL_T_CRMAX"/>              
+     <column dest="WCEL_T_CR_MAX_HYST" src="WCEL_T_CRMAX_HYST"/>              
+     <column dest="WCEL_T_RESELECTION" src="WCEL_TRE_SEL"/>              
+     <column dest="WCEL_T300" src="WCEL_T_300"/>              
+     <column dest="WCEL_T312" src="WCEL_T_312"/>              
+     <column dest="WCEL_T312_CONN" src="WCEL_T_312_CONN"/>              
+     <column dest="WCEL_T313" src="WCEL_T_313"/>              
+     <column dest="WCEL_T315" src="WCEL_T_315"/>              
+     <column dest="WCEL_TCP_MEAS_FLTR_COEFF" src="WCEL_TMFC_395"/>              
+     <column dest="WCEL_TEECH_568" src="WCEL_TEECH_393"/>              
+     <column dest="WCEL_TEECM_570" src="WCEL_TEECM_394"/>              
+     <column dest="WCEL_TGT_NSEDCH_TO_TOT_EDCHPR" src="WCEL_TNTTE_399"/>              
+     <column dest="WCEL_TO_AWE_CCH" src="WCEL_TO_AWE_CCH"/>              
+     <column dest="WCEL_TO_AWS_CCH" src="WCEL_TO_AWS_CCH"/>              
+     <column dest="WCEL_TRAF_VOL_THLD_DL_LOW" src="WCEL_TV_THLD_DL_L"/>              
+     <column dest="WCEL_TRE_SEL_FACH" src="WCEL_TRE_SEL_FACH"/>              
+     <column dest="WCEL_TRE_SEL_PCH" src="WCEL_TRE_SEL_PCH"/>              
+     <column dest="WCEL_UARFCN" src="WCEL_UARFCN"/>              
+     <column dest="WCEL_UE_TXPWR_MAX_DPCH" src="WCEL_UEPMD_409"/>              
+     <column dest="WCEL_UE_TXPWR_MAX_PRACH" src="WCEL_UEPMPR_410"/>              
+     <column dest="WCEL_UEPMPRC_600" src="WCEL_UEPMPRC_411"/>                                       
+     <column dest="WCEL_USE_OF_HCS" src="WCEL_USE_HCS"/>              
+     <column dest="WCEL_UTRAN_DRX_LENGTH" src="WCEL_UDL_414"/>                         
+     <column dest="WCEL_CELL_LV" src="WCEL_CELL_LV"/>              
+     <column dest="WCEL_NUMOF_EAGCH" src="WCEL_NUMOF_EAGCH"/>              
+     <column dest="WCEL_NUMOF_ERG_HICH" src="WCEL_NUMOF_ERG_HICH"/>              
+     <column dest="WCEL_RADIO_CAPACITY" src="WCEL_RADIO_CAPACITY"/>              
+     <column dest="WCEL_ANGLE" src="WCEL_ANGLE"/>              
+     <column dest="WCEL_CCH_SETUP_ENA" src="WCEL_CCH_SETUP_ENA"/>              
+     <column dest="WCEL_CENSMR_84" src="WCEL_CENSMR_43"/>              
+     <column dest="WCEL_CIR_FOR_F_DPCH" src="WCEL_CIR_FOR_F_DPCH"/>              
+     <column dest="WCEL_CPC_ENA" src="WCEL_CPC_ENA"/>              
+     <column dest="WCEL_EMSE0_144" src="WCEL_EMSE0_80"/>              
+     <column dest="WCEL_F_DPCH_ENA" src="WCEL_F_DPCH_ENA"/>              
+     <column dest="WCEL_F_DPCH_SETUP" src="WCEL_F_DPCH_SETUP"/>              
+     <column dest="WCEL_FDCCE_152" src="WCEL_FDCCE_90"/>              
+     <column dest="WCEL_H72USPC_194" src="WCEL_H72USPC_123"/>              
+     <column dest="WCEL_HSDPA_64_QA_M_AL_L" src="WCEL_H64QMAL_100"/>              
+     <column dest="WCEL_HSDPA_MAX_BITRATE_UL" src="WCEL_HMBU_107"/>              
+     <column dest="WCEL_HSUPA_2_MS_TTI_ENA" src="WCEL_H2MTE_130"/>              
+     <column dest="WCEL_PCH_24_KBPS_ENA" src="WCEL_PCH_24_KBPS_ENA"/>              
+     <column dest="WCEL_PSRC_402" src="WCEL_PSRC_251"/>              
+     <column dest="WCEL_PTX_F_DPCH_MAX" src="WCEL_PTX_F_DPCH_MAX"/>              
+     <column dest="WCEL_PTX_F_DPCH_MIN" src="WCEL_PTX_F_DPCH_MIN"/>              
+     <column dest="WCEL_PTX_OFFS_EXX_CH_2_MS" src="WCEL_POEC2M_294"/>              
+     <column dest="WCEL_PTX_OFFS_EXX_CHSHO" src="WCEL_POEC_295"/>              
+     <column dest="WCEL_PTX_OFFS_F_DPCH_SHO" src="WCEL_POFDS_296"/>              
+     <column dest="WCEL_PTX_SCCPCH_2_SF_128" src="WCEL_PS2S128_306"/>              
+     <column dest="WCEL_PWR_SAVE_HSPA_TYPE" src="WCEL_PSHT_257"/>              
+     <column dest="WCEL_PWSM_CELL_GROUP" src="WCEL_PWSM_CELL_GROUP"/>              
+     <column dest="WCEL_PWSM_SHUTDOWN_ORDER" src="WCEL_PSO_250"/>              
+     <column dest="WCEL_PWSMAV_LIM_NRT_HSDPA" src="WCEL_PLNH_234"/>              
+     <column dest="WCEL_PWSMAV_LIM_RT_HSDPA" src="WCEL_PLRH_236"/>              
+     <column dest="WCEL_PWSMAV_LIM_RTDCH" src="WCEL_PLR_235"/>              
+     <column dest="WCEL_PWSMAV_PWR_NRT_HSDPA" src="WCEL_PPNH_237"/>              
+     <column dest="WCEL_PWSMAV_PWR_RT_HSDPA" src="WCEL_PPRH_238"/>              
+     <column dest="WCEL_PWSMEX_PWR_LIM" src="WCEL_PWSMEX_PWR_LIM"/>              
+     <column dest="WCEL_PWSMEX_USR_LIM" src="WCEL_PWSMEX_USR_LIM"/>              
+     <column dest="WCEL_PWSMSD_LIM_NRT_HSDPA" src="WCEL_PLNH_244"/>              
+     <column dest="WCEL_PWSMSD_LIM_NRTDCH" src="WCEL_PLN_243"/>              
+     <column dest="WCEL_PWSMSD_LIM_RT_HSDPA" src="WCEL_PLRH_246"/>              
+     <column dest="WCEL_PWSMSD_LIM_RTDCH" src="WCEL_PLR_245"/>              
+     <column dest="WCEL_PWSMSD_PWR_NRT_HSDPA" src="WCEL_PPNH_247"/>              
+     <column dest="WCEL_PWSMSD_PWR_RT_HSDPA" src="WCEL_PPRH_249"/>              
+     <column dest="WCEL_PWSMSD_PWR_RTDCH" src="WCEL_PPR_248"/>              
+     <column dest="WCEL_RSRVD_SIGNAT_OFFS" src="WCEL_RSO_353"/>              
+     <column dest="WCEL_SBRRSE_610" src="WCEL_SBRRSE_365"/>              
+     <column dest="WCEL_SRB_MAP_RRC_SETUP_EC" src="WCEL_SMRSE_366"/>              
+     <column dest="WCEL_TPC_COMM_N_ER_TGT" src="WCEL_TCNET_398"/>              
+     <column dest="WCEL_AMR_UNDER_SC" src="WCEL_AMR_UNDER_SC"/>              
+     <column dest="WCEL_AMR_UNDER_TRANS" src="WCEL_AMR_UNDER_TRANS"/>              
+     <column dest="WCEL_AMR_UNDER_TX_NC" src="WCEL_AMR_UNDER_TX_NC"/>              
+     <column dest="WCEL_AMR_UNDER_TX_TOT" src="WCEL_AUTT_29"/>              
+     <column dest="WCEL_AUTNH_56" src="WCEL_AUTNH_28"/>              
+     <column dest="WCEL_CABLE_LOSS" src="WCEL_CABLE_LOSS"/>              
+     <column dest="WCEL_CELL_ADDITIONAL_INFO" src="WCEL_CADLI_53"/>              
+     <column dest="WCEL_CELL_BARRED" src="WCEL_CELL_BARRED"/>              
+     <column dest="WCEL_CELL_ID" src="WCEL_C_ID"/>              
+     <column dest="WCEL_CELL_RANGE" src="WCEL_CELL_RNG"/>              
+     <column dest="WCEL_CELL_RESERVED" src="WCEL_CELL_RESERVED"/>              
+     <column dest="WCEL_CELL_SEL_QUAL_MEAS" src="WCEL_CSQM_56"/>              
+     <column dest="WCEL_CELL_WEIGHT_FOR_HSDPA" src="WCEL_CWFH_57"/>              
+     <column dest="WCEL_CHANGE_ORIGIN" src="WCEL_WCO_418"/>              
+     <column dest="WCEL_CODE_TREE_OPT_TIMER" src="WCEL_CTOT_59"/>              
+     <column dest="WCEL_CODE_TREE_OPTIMIS" src="WCEL_CODE_TREE_OPT"/>              
+     <column dest="WCEL_CODE_TREE_USAGE" src="WCEL_CODE_TREE_USG"/>              
+     <column dest="WCEL_CPICH_TO_REF_RAB_OFFSET" src="WCEL_CHRRBO_45"/>              
+     <column dest="WCEL_CS_AMR_MODE_SET" src="WCEL_CS_AMR_MODE_SET"/>              
+     <column dest="WCEL_CS_AMR_MODE_SETWB" src="WCEL_CAMS_47"/>              
+     <column dest="WCEL_CS_GROUP_ID" src="WCEL_CS_GROUP_ID"/>              
+     <column dest="WCEL_CSCN_ID" src="WCEL_WCEL_CSCN_ID"/>              
+     <column dest="WCEL_CTCH_CAPA_HIGH_PRI" src="WCEL_CCHP_49"/>              
+     <column dest="WCEL_CUC_EC_NO_THLD" src="WCEL_CUC_EC_NO_THLD"/>              
+     <column dest="WCEL_DCTD_RRC_FOR_HSDPA_ENA" src="WCEL_DRFHE_78"/>              
+     <column dest="WCEL_DELTA_PRX_MAX_DOWN" src="WCEL_DPMD_73"/>              
+     <column dest="WCEL_DELTA_PRX_MAX_UP" src="WCEL_DPMU_74"/>              
+     <column dest="WCEL_DELTA_PTX_MAX_DOWN" src="WCEL_DPMD_75"/>              
+     <column dest="WCEL_DELTA_PTX_MAX_UP" src="WCEL_DPMU_76"/>              
+     <column dest="WCEL_DIRECTED_RRC_ENABLED" src="WCEL_DCTD_RRC_ENA"/>                                     
+     <column dest="WCEL_DPC_MODE_CHANGE_SUPPORT" src="WCEL_DMCS_68"/>              
+     <column dest="WCEL_DPCH_OVER_HSPDSCH_THLD" src="WCEL_DOHT_67"/>              
+     <column dest="WCEL_DRRC_PRX_MARGIN" src="WCEL_DRR_CPRX_MARGIN"/>              
+     <column dest="WCEL_DRRC_PRX_OFFS" src="WCEL_DRR_CPRX_OFFS"/>              
+     <column dest="WCEL_DRRC_PTX_MARGIN" src="WCEL_DRR_CPTX_MARGIN"/>              
+     <column dest="WCEL_DRRC_PTX_OFFS" src="WCEL_DRR_CPTX_OFFS"/>              
+     <column dest="WCEL_EBNO_SET_ID" src="WCEL_EB_NO_SET_ID"/>              
+     <column dest="WCEL_EDCH_CAPABILITY" src="WCEL_EDCH_CAPABILITY"/>              
+     <column dest="WCEL_EDCH_MINIMUM_SET_ETFCI" src="WCEL_EMSE_81"/>              
+     <column dest="WCEL_EDCH_OP_STATE" src="WCEL_EDCH_OP_STATE"/>              
+     <column dest="WCEL_FACH_LOAD_MARGIN_CCH" src="WCEL_FLMC_93"/>              
+     <column dest="WCEL_FACH_LOAD_THLD_CCH" src="WCEL_FLTC_94"/>              
+     <column dest="WCEL_HCHNU_144" src="WCEL_HCHNU_98"/>              
+     <column dest="WCEL_HCHP_146" src="WCEL_HCHP_99"/>              
+     <column dest="WCEL_HCS_PRIO" src="WCEL_HCS_PRIO"/>              
+     <column dest="WCEL_HHO_MAX_ALLOW_BITRATE_DL" src="WCEL_HHMALBD_96"/>              
+     <column dest="WCEL_HHO_MAX_ALLOW_BITRATE_UL" src="WCEL_HHMALBU_97"/>              
+     <column dest="WCEL_HMNRS_172" src="WCEL_HMNRS_133"/>              
+     <column dest="WCEL_HS_DSCH_OP_STATE" src="WCEL_HSDSCH_OP_STATE"/>              
+     <column dest="WCEL_HSDPA_64_USR_S_ENA" src="WCEL_H64USE_101"/>              
+     <column dest="WCEL_HSDPA_CAPABILITY" src="WCEL_HA_108"/>              
+     <column dest="WCEL_HSDPA_COMMON_CH_ENA" src="WCEL_HCCE_105"/>              
+     <column dest="WCEL_HSDPA_ENABLED" src="WCEL_HSDP_A_ENA"/>              
+     <column dest="WCEL_HSDPA_FMCG_ID" src="WCEL_HSDPA_FMCG_ID"/>              
+     <column dest="WCEL_HSDPA_FMCI_ID" src="WCEL_HSDPA_FMCI_ID"/>              
+     <column dest="WCEL_HSDPA_FMCS_ID" src="WCEL_HSDPA_FMCS_ID"/>              
+     <column dest="WCEL_HSDPA_MPO" src="WCEL_HSDPA_MPO"/>              
+     <column dest="WCEL_HSPA_FMCS_ID" src="WCEL_HSPA_FMCS_ID"/>              
+     <column dest="WCEL_HSPA_QO_S_ENA" src="WCEL_HSPA_QO_S_ENA"/>              
+     <column dest="WCEL_HSPDSCH_CODE_SET" src="WCEL_HCS_127"/>              
+     <column dest="WCEL_HSPDSCH_MARGIN_SF128" src="WCEL_HMS128_128"/>              
+     <column dest="WCEL_HSUPA_ENA" src="WCEL_HSUPA_ENA"/>                         
+     <column dest="WCEL_IFREQ_SCALE_TRESEL" src="WCEL_IST_138"/>              
+     <column dest="WCEL_INI_BIT_RATE_DL" src="WCEL_INI_BIT_RATE_DL"/>              
+     <column dest="WCEL_INI_BIT_RATE_UL" src="WCEL_INI_BIT_RATE_UL"/>              
+     <column dest="WCEL_INTRA_FREQ_CELL_RES_IND" src="WCEL_IFCRI_140"/>              
+     <column dest="WCEL_IRST_180" src="WCEL_IRST_139"/>              
+     <column dest="WCEL_KFOR_CTCH" src="WCEL_KFOR_CTCH"/>              
+     <column dest="WCEL_LAC" src="WCEL_LAC"/>              
+     <column dest="WCEL_LHO_CAPA_RRR_DL" src="WCEL_LHO_CAPA_RRR_DL"/>              
+     <column dest="WCEL_LHO_CAPA_RRR_UL" src="WCEL_LHO_CAPA_RRR_UL"/>              
+     <column dest="WCEL_LHO_DELAY_OFF_CAPA_RRR" src="WCEL_LDOCR_145"/>              
+     <column dest="WCEL_LHO_DELAY_OFF_HARD_BLO" src="WCEL_LDOHB_146"/>              
+     <column dest="WCEL_LHO_DELAY_OFF_IF" src="WCEL_LDOI_147"/>              
+     <column dest="WCEL_LHO_DELAY_OFF_RES_RATE_SC" src="WCEL_LDORRS_148"/>              
+     <column dest="WCEL_LHO_HARD_BLO_BASE_LOAD" src="WCEL_LHBBL_149"/>              
+     <column dest="WCEL_LHO_HARD_BLO_RATIO" src="WCEL_LHBR_150"/>              
+     <column dest="WCEL_LHO_HYST_TIME_CAPA_RRR" src="WCEL_LHTCR_151"/>              
+     <column dest="WCEL_LHO_HYST_TIME_HARD_BLO" src="WCEL_LHTHB_152"/>              
+     <column dest="WCEL_LHO_HYST_TIME_IF" src="WCEL_LHTI_153"/>              
+     <column dest="WCEL_LHO_HYST_TIME_RES_RATE_SC" src="WCEL_LHTRRS_154"/>              
+     <column dest="WCEL_LHO_NUMB_UE_IFREQ" src="WCEL_LNUI_156"/>              
+     <column dest="WCEL_LHO_NUMB_UE_INTER_RAT" src="WCEL_LNUIR_157"/>              
+     <column dest="WCEL_LHO_PWR_OFFS_DL" src="WCEL_LHO_PWR_OFFS_DL"/>              
+     <column dest="WCEL_LHO_PWR_OFFS_UL" src="WCEL_LHO_PWR_OFFS_UL"/>              
+     <column dest="WCEL_LHO_RES_RATE_SC" src="WCEL_LHO_RES_RATE_SC"/>              
+     <column dest="WCEL_LHO_WS_OFF_CAPA_RRR" src="WCEL_LWOCR_161"/>              
+     <column dest="WCEL_LHO_WS_OFF_HARD_BLO" src="WCEL_LWOHB_162"/>              
+     <column dest="WCEL_LHO_WS_OFF_IF" src="WCEL_LHO_WS_OFF_IF"/>              
+     <column dest="WCEL_LHO_WS_OFF_RES_RATE_SC" src="WCEL_LWORRS_164"/>              
+     <column dest="WCEL_LHO_WS_ON_CAPA_RRR" src="WCEL_LWOCR_165"/>              
+     <column dest="WCEL_LHO_WS_ON_HARD_BLO" src="WCEL_LWOHB_166"/>              
+     <column dest="WCEL_LHO_WS_ON_IF" src="WCEL_LHO_WS_ON_IF"/>              
+     <column dest="WCEL_LHO_WS_ON_RES_RATE_SC" src="WCEL_LWORRS_168"/>              
+     <column dest="WCEL_LHONRT_TRAF_BASE_LOAD" src="WCEL_LTBL_155"/>              
+     <column dest="WCEL_MAX_BIT_RATE_DL_PSNRT" src="WCEL_MBRDP_181"/>              
+     <column dest="WCEL_MAX_BIT_RATE_UL_PSNRT" src="WCEL_MBRUP_182"/>              
+     <column dest="WCEL_MAX_CODE_RELEASES" src="WCEL_MAX_CODE_REL"/>              
+     <column dest="WCEL_MAX_DL_PWR_CAPABILITY" src="WCEL_MDPC_184"/>              
+     <column dest="WCEL_MAX_INCR_IF_UL" src="WCEL_MAX_INCR_IF_UL"/>              
+     <column dest="WCEL_MAX_NBR_EDCH_CELL" src="WCEL_MNEC_189"/>              
+     <column dest="WCEL_MAX_NBR_HSDPA_USR_S" src="WCEL_MNHUS_190"/>              
+     <column dest="WCEL_MAX_NBR_HSSCCH_CODES" src="WCEL_MNHC_186"/>              
+     <column dest="WCEL_MAX_NBR_UE_CM_HO" src="WCEL_MNUCH_192"/>              
+     <column dest="WCEL_MAX_NBR_UE_CM_SLHO" src="WCEL_MNUCS_193"/>              
+     <column dest="WCEL_MAX_NBR_UEHSPA_CM_HO" src="WCEL_MNUCH_194"/>              
+     <column dest="WCEL_MAX_TOT_UL_SYMBOL_RATE" src="WCEL_MTUSR_196"/>              
+     <column dest="WCEL_MCC" src="WCEL_WCEL_MCC"/>              
+     <column dest="WCEL_MHA" src="WCEL_MHA"/>              
+     <column dest="WCEL_MIN_ALLOW_BIT_RATE_DL" src="WCEL_MALBRD_197"/>              
+     <column dest="WCEL_MIN_ALLOW_BIT_RATE_UL" src="WCEL_MALBRU_198"/>              
+     <column dest="WCEL_MNC" src="WCEL_WCEL_MNC"/>              
+     <column dest="WCEL_MNHCFLS_258" src="WCEL_MNHCFLS_191"/>              
+     <column dest="WCEL_MNUCN_266" src="WCEL_MNUCN_195"/>              
+     <column dest="WCEL_MPLI_278" src="WCEL_MPLI_199"/>              
+     <column dest="WCEL_N_CR" src="WCEL_N_CR"/>              
+     <column dest="WCEL_N300" src="WCEL_N_300"/>              
+     <column dest="WCEL_N312" src="WCEL_N_312"/>              
+     <column dest="WCEL_N312_CONN" src="WCEL_N_312_CONN"/>              
+     <column dest="WCEL_N313" src="WCEL_N_313"/>              
+     <column dest="WCEL_N315" src="WCEL_N_315"/>              
+     <column dest="WCEL_NAS_SIGN_VOL_THR_DL" src="WCEL_NSVTD_205"/>              
+     <column dest="WCEL_NAS_SIGN_VOL_THR_UL" src="WCEL_NSVTU_206"/>              
+     <column dest="WCEL_NBR_EDCH_BRANCH_ADDITIONS" src="WCEL_NEBA_217"/>              
+     <column dest="WCEL_NBR_OF_SCCPCHS" src="WCEL_NBR_SCCPC_HS"/>              
+     <column dest="WCEL_NFOR_CTCH" src="WCEL_NFOR_CTCH"/>              
+     <column dest="WCEL_NHEECM_300" src="WCEL_NHEECM_213"/>              
+     <column dest="WCEL_NON_HCS_NCR" src="WCEL_NON_HCS_NCR"/>              
+     <column dest="WCEL_NON_HCS_TCR_MAX" src="WCEL_NON_HCS_TCR_MAX"/>              
+     <column dest="WCEL_NON_HCS_TCR_MAX_HYST" src="WCEL_NHTMH_212"/>              
+     <column dest="WCEL_NRT_FMCG_ID" src="WCEL_NRT_FMCG_ID"/>              
+     <column dest="WCEL_NRT_FMCI_ID" src="WCEL_NRT_FMCI_ID"/>              
+     <column dest="WCEL_NRT_FMCS_ID" src="WCEL_NRT_FMCS_ID"/>              
+     <column dest="WCEL_OC_DLNRTDCH_GR_MIN_ALLOCT" src="WCEL_OCNDHMAT_219"/>              
+     <column dest="WCEL_OCULNRTDCH_MIN_ALLOC_T" src="WCEL_OMAT_218"/>              
+     <column dest="WCEL_OLD_DN" src="WCEL_OLD_DN"/>              
+     <column dest="WCEL_P_RACH_DELAY_RNG" src="WCEL_PRDR_227"/>              
+     <column dest="WCEL_P_TX_PICH" src="WCEL_P_TX_PICH"/>              
+     <column dest="WCEL_PBS_GR_MIN_DCH_ALLOC_TEQP" src="WCEL_PSMDHTP_220"/>              
+     <column dest="WCEL_PBS_GR_MIN_DCH_ALLOC_THP" src="WCEL_PSMDHTP_221"/>              
+     <column dest="WCEL_PBS_GR_MIN_DCH_ALLOC_TLP" src="WCEL_PSMDHTLP_222"/>              
+     <column dest="WCEL_PI_AMOUNT" src="WCEL_PI_AMOUNT"/>              
+     <column dest="WCEL_PO1_15" src="WCEL_PO_1_15"/>              
+     <column dest="WCEL_PO1_30" src="WCEL_PO_1_30"/>              
+     <column dest="WCEL_PO1_60" src="WCEL_PO_1_60"/>              
+     <column dest="WCEL_PRACH_PREAMBLE_RETRANS" src="WCEL_PRPR_230"/>              
+     <column dest="WCEL_PRACH_REQUIRED_RECE_CI" src="WCEL_PRRRC_228"/>              
+     <column dest="WCEL_PRACH_SCRAMBLING_CODE" src="WCEL_PRSC_229"/>              
+     <column dest="WCEL_PRI_SCR_CODE" src="WCEL_PRI_SCR_CODE"/>              
+     <column dest="WCEL_PRX_LOAD_MARGIN_DCH" src="WCEL_PLMD_259"/>              
+     <column dest="WCEL_PRX_LOAD_MARGIN_EDCH" src="WCEL_PLME_260"/>              
+     <column dest="WCEL_PRX_LOAD_MARGIN_MAX_DCH" src="WCEL_PLMMD_261"/>              
+     <column dest="WCEL_PRX_MAX_TGT_BTS" src="WCEL_PRX_MAX_TGT_BTS"/>              
+     <column dest="WCEL_PRX_MEAS_FILTER_COEFF" src="WCEL_PMFC_264"/>              
+     <column dest="WCEL_PRX_NOISE" src="WCEL_PRX_NOISE"/>              
+     <column dest="WCEL_PRX_NOISE_AUTOTUNING" src="WCEL_PNA_266"/>              
+     <column dest="WCEL_PRX_OFFS" src="WCEL_PRX_OFFS"/>              
+     <column dest="WCEL_PRX_OFFS_WPS" src="WCEL_PRX_OFFS_WPS"/>              
+     <column dest="WCEL_PRX_TARGET" src="WCEL_PRX_TGT"/>              
+     <column dest="WCEL_PRX_TGT_PS_MAX" src="WCEL_PRX_TGT_PS_MAX"/>              
+     <column dest="WCEL_PRX_TGT_PS_MIN" src="WCEL_PRX_TGT_PS_MIN"/>              
+     <column dest="WCEL_PRX_TGT_PS_STEP_DOWN" src="WCEL_PTPSD_273"/>              
+     <column dest="WCEL_PRX_TGT_PS_STEP_UP" src="WCEL_PTPSU_274"/>              
+     <column dest="WCEL_PRX_TOTAL_REP_PER" src="WCEL_PTRP_275"/>              
+     <column dest="WCEL_PS_GROUP_ID" src="WCEL_PS_GROUP_ID"/>              
+     <column dest="WCEL_PSCN_ID" src="WCEL_WCEL_PSCN_ID"/>              
+     <column dest="WCEL_PTX_AICH" src="WCEL_PTX_AICH"/>              
+     <column dest="WCEL_PTX_CELL_MAX" src="WCEL_PTX_CELL_MAX"/>              
+     <column dest="WCEL_PTX_DL_ABS_MAX" src="WCEL_PTX_D_L_ABS_MAX"/>              
+     <column dest="WCEL_PTX_HIGH_HSDPA_PWR" src="WCEL_PHHP_283"/>              
+     <column dest="WCEL_PTX_MARGIN_CCH" src="WCEL_PTX_MARGIN_CCH"/>              
+     <column dest="WCEL_PTX_MAX_EHICH" src="WCEL_PTX_MAX_EHICH"/>              
+     <column dest="WCEL_PTX_MAX_HSDPA" src="WCEL_PTX_MAX_HSDPA"/>              
+     <column dest="WCEL_PTX_MEAS_FILTER_COEFF" src="WCEL_PMFC_287"/>              
+     <column dest="WCEL_PTX_OFFS" src="WCEL_PTX_OFFS"/>              
+     <column dest="WCEL_PTX_OFFS_EAGCH" src="WCEL_PTX_OFFS_EAGCH"/>              
+     <column dest="WCEL_PTX_OFFS_EAGCH_DPCCH" src="WCEL_POED_290"/>              
+     <column dest="WCEL_PTX_OFFS_EHICH_DPCCH" src="WCEL_POED_291"/>              
+     <column dest="WCEL_PTX_OFFS_ERGCH" src="WCEL_PTX_OFFS_ERGCH"/>              
+     <column dest="WCEL_PTX_OFFS_ERGCH_DPCCH" src="WCEL_POED_293"/>              
+     <column dest="WCEL_PTX_OFFS_HSDPA" src="WCEL_PTX_OFFS_HSDPA"/>              
+     <column dest="WCEL_PTX_OFFS_HSSCCH" src="WCEL_PTX_OFFS_HSSCCH"/>              
+     <column dest="WCEL_PTX_OFFS_WPS" src="WCEL_PTX_OFFS_WPS"/>              
+     <column dest="WCEL_PTX_PRIMARY_CCPCH" src="WCEL_PPC_301"/>              
+     <column dest="WCEL_PTX_PRIMARY_CPICH" src="WCEL_PPC_302"/>              
+     <column dest="WCEL_PTX_PRIMARY_SCH" src="WCEL_PTX_PRIMARY_SCH"/>              
+     <column dest="WCEL_PTX_PS_STREAM_ABS_MAX" src="WCEL_PPSAM_300"/>              
+     <column dest="WCEL_PTX_SCCPCH1" src="WCEL_PTX_SCCPCH_1"/>              
+     <column dest="WCEL_PTX_SCCPCH2" src="WCEL_PTX_SCCPCH_2"/>              
+     <column dest="WCEL_PTX_SCCPCH3" src="WCEL_PTX_SCCPCH_3"/>              
+     <column dest="WCEL_PTX_SEC_SCH" src="WCEL_PTX_SEC_SCH"/>              
+     <column dest="WCEL_PTX_TARGET" src="WCEL_PTX_TGT"/>              
+     <column dest="WCEL_PTX_TARGET_HSDPA" src="WCEL_PTX_TGT_HSDPA"/>              
+     <column dest="WCEL_PTX_TGT_PS_ADJUST_PERIOD" src="WCEL_PTPAP_311"/>              
+     <column dest="WCEL_PTX_TGT_PS_MAX" src="WCEL_PTX_TGT_PS_MAX"/>              
+     <column dest="WCEL_PTX_TGT_PS_MIN" src="WCEL_PTX_TGT_PS_MIN"/>              
+     <column dest="WCEL_PTX_TGT_PS_STEP_DOWN" src="WCEL_PTPSD_314"/>              
+     <column dest="WCEL_PTX_TGT_PS_STEP_UP" src="WCEL_PTPSU_315"/>              
+     <column dest="WCEL_PTX_THLD_CCH" src="WCEL_PTX_THLD_CCH"/>              
+     <column dest="WCEL_PTX_TOTAL_REP_PER" src="WCEL_PTRP_319"/>              
+     <column dest="WCEL_PWR_OS_LAST_PRE_PRACH_MSG" src="WCEL_POLPPHM_252"/>              
+     <column dest="WCEL_PWR_RAMP_STEP_PRACH_PREA" src="WCEL_PRSPH_256"/>              
+     <column dest="WCEL_Q_HCS" src="WCEL_Q_HCS"/>              
+     <column dest="WCEL_QHYST_1_FACH" src="WCEL_QHYST_1_FACH"/>              
+     <column dest="WCEL_QHYST_1_PCH" src="WCEL_QHYST_1_PCH"/>              
+     <column dest="WCEL_QHYST_2_FACH" src="WCEL_QHYST_2_FACH"/>              
+     <column dest="WCEL_QHYST_2_PCH" src="WCEL_QHYST_2_PCH"/>              
+     <column dest="WCEL_QHYST1" src="WCEL_QHYST_1"/>              
+     <column dest="WCEL_QHYST2" src="WCEL_QHYST_2"/>              
+     <column dest="WCEL_QQUAL_MIN" src="WCEL_QQUAL_MIN"/>              
+     <column dest="WCEL_QRXLEV_MIN" src="WCEL_QRXLEV_MIN"/>              
+     <column dest="WCEL_RAC" src="WCEL_RAC"/>              
+     <column dest="WCEL_RACH_CAPACITY" src="WCEL_RACH_CAPACITY"/>              
+     <column dest="WCEL_RACH_LOAD_MARGIN_CCH" src="WCEL_RLMC_349"/>              
+     <column dest="WCEL_RACH_LOAD_REP_PER" src="WCEL_RHRP_336"/>              
+     <column dest="WCEL_RACH_LOAD_THLD_CCH" src="WCEL_RLTC_350"/>              
+     <column dest="WCEL_RACH_MEAS_FILTER_COEFF" src="WCEL_RHFC_337"/>              
+     <column dest="WCEL_RACH_TX_MAX" src="WCEL_RACH_TX_MAX"/>              
+     <column dest="WCEL_RACH_TX_NB01_MAX" src="WCEL_RTN01M_333"/>              
+     <column dest="WCEL_RACH_TX_NB01_MIN" src="WCEL_RTN01M_334"/>              
+     <column dest="OBJ_GID" src="OBJ_GID"/>              
+     <column dest="CONF_ID" src="CONF_ID"/>              
+     <column dest="LAST_MODIFIED" src="LAST_MODIFIED"/>              
+     <column dest="LAST_MODIFIER" src="LAST_MODIFIER"/>              
+     <column dest="WCEL_AC_BARRED_LIST" src="WCEL_AC_BARRED_LIST"/>              
+     <column dest="WCEL_ADMIN_CELL_STATE" src="WCEL_ACS_31"/>              
+     <column dest="WCEL_AICH_TRA_TIME" src="WCEL_AICH_TRA_TIME"/>              
+     <column dest="WCEL_ALLOW_PREAMBLE_SIGNAT" src="WCEL_ALPS_33"/>              
+     <column dest="WCEL_ALLOW_RACH_SUB_CHANNELS" src="WCEL_ALRSC_34"/>              
+     <column dest="WCEL_ALT_SCRAMBLING_CODE_CM" src="WCEL_ASCC_35"/>              
+     <column dest="WCEL_AMR_OVER_SC" src="WCEL_AMR_OVER_SC"/>              
+     <column dest="WCEL_AMR_OVER_TRANS" src="WCEL_AMR_OVER_TRANS"/>              
+     <column dest="WCEL_AMR_OVER_TX_NC" src="WCEL_AMR_OVER_TX_NC"/>              
+     <column dest="WCEL_AMR_OVER_TX_NON_HSPA" src="WCEL_AOTNH_17"/>              
+     <column dest="WCEL_AMR_OVER_TX_TOT" src="WCEL_AMR_OVER_TX_TOT"/>              
+     <column dest="WCEL_AMR_SF" src="WCEL_AMR_SF"/>              
+     <column dest="WCEL_AMR_TGT_SC" src="WCEL_AMR_TGT_SC"/>              
+     <column dest="WCEL_AMR_TGT_TRANS" src="WCEL_AMR_TGT_TRANS"/>              
+     <column dest="WCEL_AMR_TGT_TX_NC" src="WCEL_AMR_TGT_TX_NC"/>              
+     <column dest="WCEL_AMR_TGT_TX_NON_HSPA" src="WCEL_ATTNH_23"/>              
+     <column dest="WCEL_AMR_TGT_TX_TOT" src="WCEL_AMR_TGT_TX_TOT"/>
+     </mapping>
+     </templet>
+     <templet id="16" fromTable="CTP_COMMON_OBJECTS" toTable="CLT_CM_W_SIE_COMMON_OBJECTS" used="1" condition=""><sql>select  * from  CTP_COMMON_OBJECTS</sql></templet>
+
+</templets>   

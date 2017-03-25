@@ -1,0 +1,414 @@
+<?xml version="1.0"  	encoding="gb2312"?>
+<templets>
+<templet id="0">
+<table id="0" name="CLT_OSS_BSC"   split="!#">  
+
+<column name="CITY_NAME"                index="0" /> 
+<column name="CITY_COUNTY_NAME"         index="1" /> 
+<column name="LOCATION_NUM"             index="2" /> 
+<column name="NET_TYPE"                 index="3" /> 
+<column name="VENDOR_NAME"              index="4" /> 
+<column name="CHINA_NAME"               index="5" /> 
+<column name="BSC_ID"                   index="6" /> 
+<column name="BSC_NO"                   index="7" /> 
+<column name="USE_STATE"                index="8" /> 
+<column name="SOFTWARE_VERSION"         index="9" /> 
+<column name="PROJECT_NUM"              index="10" />
+<column name="PROJECT_STATE"            index="11" />
+<column name="ONLINE_TIME"              index="12" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="GUARANTEE_START_TIME"     index="13" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="GUARATEE_END_TIME"        index="14" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="SIGNALLING_POINT_NUM"     index="15" />
+<column name="MARKETING_CENTER_NO"         index="16" />
+<column name="A_INTERFACE_MODE"         index="17" />
+<column name="ABIS_INTERFACE_MODE"      index="18" />
+<column name="TRANS_MODE"               index="19" />
+<column name="EQUIPMENT_NUM"            index="20" />
+<column name="MSCNAME"                  index="21" />
+<column name="SETUP_ADDRESS"            index="22" />
+<column name="PCF_LIST"                 index="23" />
+<column name="DACCNETTIME"              index="24" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="LAST_UPDATED_DATE"        index="25" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="MSC_ID"                   index="26" />
+<column name="REGION_ID"                index="27" />
+<column name="CITY_ID"                  index="28" />
+<column name="NET_STATE"                index="29" />
+<column name="COUNTY_NUM"               index="30" />
+<column name="LOCATION_NAME"            index="31" />
+<column name="DEVICE_TYPE"              index="32" />
+<column name="LONGITUDE"                index="33" />
+<column name="LATITUDE"                 index="34" />
+<column name="IP"                       index="35" />
+<column name="COUNTY_NAME"              index="36" />
+<column name="MARKETING_CENTER"         index="37" />
+<column name="DISTRICT_NUM"             index="38" />
+<column name="DISTRICT_NAME"            index="39" />
+<column name="network_management"       index="40" />
+<column name="LAC"                      index="41" />
+<column name="OPC"                      index="42" />
+<column name="MSCE_ID"                  index="43" />
+<column name="MSCID"                    index="44" />
+<column name="REGZONE"                  index="45" />
+<column name="SID"                      index="46" />
+<column name="NID"                      index="47" />
+<column name="PZID"                     index="48" />
+<column name="ColorCode"                index="49" />
+<column name="SectorID104"              index="50" />
+<column name="DPC"                      index="51" />
+<column name="MGW"                      index="52" />
+<column name="CAPACITY"                 index="53" />
+<column name="MAX_TRUNK_NUM"            index="54" />
+<column name="MAX_LINK_NUM_64K"         index="55" />
+<column name="MAX_LINK_NUM_2M"          index="56" />
+<column name="CONF_TRUNK_NUM"           index="57" />
+<column name="CONF_LINK_NUM_64K"        index="58" />
+<column name="CONF_LINK_NUM_2M"         index="59" />
+<column name="RELIABLE_NUM"             index="60" />
+<column name="BTS_NUM"                  index="61" />
+<column name="CELL_NUM"                 index="62" />
+<column name="CELL_NUM_1"               index="63" />
+<column name="MAX_FEABIS_NUM"           index="64" />
+<column name="MAX_GEABIS_NUM"           index="65" />
+<column name="ONEX_SECTOR_NUM"          index="66" />
+<column name="DO_SECTOR_NUM"            index="67" />
+<column name="PSDN"                     index="68" />
+<column name="CONF_FEABIS_NUM"          index="69" />
+<column name="CONF_GEABIS_NUM"          index="70" />
+<column name="MAX_STM1_TRUNK_NUM"       index="71" />
+<column name="CONF_STM1_TRUNK_NUM"      index="72" />
+<column name="MAX_ABIS_2M_NUM"          index="73" />
+<column name="CONF_ABIS_2M_NUM"         index="74" />
+<column name="MAX_SUPPORT_SESSION"      index="75" />
+<column name="MAX_ACTIVE_SESSION"       index="76" />
+<column name="CAPACITY_1X"              index="77" />
+<column name="CAPACITY_OCCUPY_1X"       index="78" />
+<column name="CAPACITY_EVDO"            index="79" />
+<column name="CAPACITY_OCCUPY_EVDO"     index="80" />
+                                       
+                                       
+
+
+</table>
+</templet>
+
+<templet id="1">
+<table id="0" name="CLT_OSS_BTS"   split="!#">  
+	
+<column name="BTS_NO"  index ="0"/>
+<column name="NE_TYPE"  index ="1"/>
+<column name="CITY_NAME"  index ="2"/>
+<column name="COUNTY_NAME"  index ="3"/>
+<column name="LOCATION_NUM"  index ="4"/>
+<column name="MARKETING_CENTER"  index ="5"/>
+<column name="COUNTY_NUM"  index ="6"/>
+<column name="RANK"  index ="7"/>
+<column name="SOFTWARE_VERSION"  index ="8"/>
+<column name="CIRCUIT_CODING"  index ="9"/>
+<column name="TRANS_ATTRIBUTES"  index ="10"/>
+<column name="TRANS_MODE"  index ="11"/>
+<column name="BTS_BUSINESS_TYPE"  index ="12"/>
+<column name="ONEX_SITE_MODE"  index ="13"/>
+<column name="EVDO_SITE_MODE"  index ="14"/>
+<column name="NET_EQUIPMENT_MODE"  index ="15"/>
+<column name="BTS_TYPE"  index ="16"/>
+<column name="COVER_AREA_TYPE"  index ="17"/>
+<column name="COVER_ATTRIBUTES"  index ="18"/>
+<column name="COVER_ROAD_TYPE"  index ="19"/>
+<column name="IS_BODER"  index ="20"/>
+<column name="IS_INDOOR_SIGNAL"  index ="21"/>
+<column name="ONLINE_TIME"  index ="22" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="BTS_REMARK"  index ="23"/>
+<column name="PROJECT_NAME"  index ="24"/>
+<column name="PROJECT_NUM"  index ="25"/>
+<column name="PROJECT_STATE"  index ="26"/>
+<column name="OPEN_DATE"  index ="27" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="USE_STATE"  index ="28"/>
+<column name="GUARANTEE_START_TIME"  index ="29" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="GUARATEE_END_TIME"  index ="30" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="INSTALL_MODE"  index ="31"/>
+<column name="EQUIPMENT_SOURCE"  index ="32"/>
+<column name="ONEX_2M_NUM"  index ="33"/>
+<column name="DO_2M_NUM"  index ="34"/>
+<column name="ONEX_DO_2M_NUM"  index ="35"/>
+<column name="GE_NUM"  index ="36"/>
+<column name="FE_NUM"  index ="37"/>
+<column name="EONE_NUM"  index ="38"/>
+<column name="EQUIPMENT_FACTORY"  index ="39"/>
+<column name="BSC_NAME"  index ="40"/>
+<column name="INTERFACE_MODE"  index ="41"/>
+<column name="BTS_NAME"  index ="42"/>
+<column name="EQUIPMENT_NUM"  index ="43"/>
+<column name="BSC_ID"  index ="44"/>
+<column name="BTS_ID"  index ="45"/>
+<column name="WIRELESS_COVER_AREA"  index ="46"/>
+<column name="AREA_NO"  index ="47"/>
+<column name="SETUP_ADDRESS"  index ="48"/>
+<column name="TCH_CONFIG_NUM"  index ="49"/>
+<column name="RELIABLE_CNT"  index ="50"/>
+<column name="IS_INDOOR_SITE"  index ="51"/>
+<column name="DACCNETTIME"  index ="52"  type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="SPECIFICATIONS"  index ="53"/>
+<column name="SOURCETABLE"  index ="54"/>
+<column name="ADMIN_DOMAIN"  index ="55"/>
+<column name="CREATE_DATE"  index ="56" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="LAST_UPDATED_DATE"  index ="57" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="ENABLED"  index ="58"/>
+<column name="BTSID"  index ="59"/>
+<column name="BTS_INSTANCE"  index ="60"/>
+<column name="BSCID"  index ="61"/>
+<column name="UPDATE_FROM"  index ="62"/>
+<column name="CDM_NUM"  index ="63"/>
+<column name="NET_STATE"  index ="64"/>
+<column name="LINE_ATTACH"  index ="65"/>
+<column name="AREA_NUM"  index ="66"/>
+<column name="ADDRESS_BELONG"  index ="67"/>
+<column name="NET_STATE_TMP"  index ="68"/>
+<column name="NET_STATE_UPDATED"  index ="69"/>
+<column name="NET_STATE_UPDATED_DATE"  index ="70" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="LOCATION_NAME"  index ="71"/>
+<column name="VERSION"  index ="72"/>
+<column name="LONGITUDE"  index ="73"/>
+<column name="LATITUDE"  index ="74"/>
+<column name="SITE_MODEL"  index ="75"/>
+<column name="BTS_CLASS"  index ="76"/>
+<column name="NET_GRID"  index ="77"/>
+<column name="NET_STATE_ROTATE"  index ="78"/>
+<column name="IP"  index ="79"/>
+<column name="BORDER_COMPANY"  index ="80"/>
+<column name="REF_CABLE_SYSTEM"  index ="81"/>
+<column name="ISRRU"  index ="82"/>
+<column name="DISTRICT_NUM"  index ="83"/>
+<column name="DISTRICT_NAME"  index ="84"/>
+<column name="RUID"  index ="85"/>
+<column name="SID"  index ="86"/>
+<column name="NID"  index ="87"/>
+<column name="LAC"  index ="88"/>
+<column name="REG_ZONE"  index ="89"/>
+<column name="CELL_NUM"  index ="90"/>
+<column name="POLER_TYPE"  index ="91"/>
+<column name="GPS_HEIGHT"  index ="92"/>
+<column name="GPS_TYPE"  index ="93"/>
+<column name="BORDER_TYPE"  index ="94"/>
+<column name="network_management"  index ="95"/>
+<column name="ERL"  index ="96"/>
+<column name="COVER_RADIUS"  index ="97"/>
+<column name="BTS_VOICE_TYPE"  index ="98"/>
+<column name="BTS_DATA_TYPE"  index ="99"/>
+<column name="SITE_TYPE"  index ="100"/>
+<column name="CELL_CARR_NUM"  index ="101"/>
+<column name="ONEX_CE_NUM"  index ="102"/>
+<column name="EVDO_CE_NUM"  index ="103"/>
+<column name="OVERHEAD_TCH_COUNT"  index ="104"/>
+<column name="CARR_CELL_NUM_1X"  index ="105"/>
+<column name="CARR_CELL_NUM_DO"  index ="106"/>
+<column name="CARR_NUM_1X"  index ="107"/>
+<column name="CARR_NUM_DO"  index ="108"/>
+<column name="CE_NUM"  index ="109"/>
+<column name="CAPACITY_1X"  index ="110"/>
+<column name="CAPACITY_OCCUPY_1X"  index ="111"/>
+<column name="CAPACITY_EVDO"  index ="112"/>
+<column name="CAPACITY_OCCUPY_EVDO"  index ="113"/>
+<column name="CELL_NUM_1X"  index ="114"/>
+<column name="CELL_NUM_DO"  index ="115"/>
+<column name="SectorID104"  index ="116"/>
+<column name="Colorcode"  index ="117"/>
+
+
+<column name="CIRCUIT_CODE"  index ="118"/>
+<column name="MARKETING_CENTER_NAME"  index ="119"/>	
+
+<column name="COVER_ROAD_TYPE_DESC"  index ="120"/>
+<column name="COVER_AREA_TYPE_DESC"  index ="121"/>					
+				
+				
+</table>
+</templet>
+
+<templet id="2">
+<table id="0" name="CLT_OSS_CELL"   split="!#">  
+<column name="CELL_NO"  index ="0"/>
+<column name="BTS_NO"  index ="1"/>
+<column name="BSC_ID"  index ="2"/>
+<column name="BTS_ID"  index ="3"/>
+<column name="CELL_ID"  index ="4"/>
+<column name="CARR_COUNT"  index ="5"/>
+<column name="CARR_1X_COUNT"  index ="6"/>
+<column name="CARR_DO_COUNT"  index ="7"/>
+<column name="CARR_1X"  index ="8"/>
+<column name="CARR_DO"  index ="9"/>
+<column name="CARR_PILOT_BEACON"  index ="10"/>
+<column name="IS_MICRO_CELL"  index ="11"/>
+<column name="IS_INDOOR_SIGNAL"  index ="12"/>
+<column name="COMMUNITY_NUM"  index ="13"/>
+<column name="EQUIPMENT_NUM"  index ="14"/>
+<column name="OMC_ID"  index ="15"/>
+<column name="SECTOR_CAPACITY"  index ="16"/>
+<column name="BSC_NAME"  index ="17"/>
+<column name="PN"  index ="18"/>
+<column name="RADIO_CHANNEL"  index ="19"/>
+<column name="SECTOR_NAME"  index ="20"/>
+<column name="COUNTER_REPEATER"  index ="21"/>
+<column name="COUNTER_SITE"  index ="22"/>
+<column name="CI"  index ="23"/>
+<column name="CI_INCN"  index ="24"/>
+<column name="SID"  index ="25"/>
+<column name="NID"  index ="26"/>
+<column name="LAC"  index ="27"/>
+<column name="REG_ZONE"  index ="28"/>
+<column name="SYS_TYPE"  index ="29"/>
+<column name="IS_PN_SHARE"  index ="30"/>
+<column name="HAS_TOWERAMP"  index ="31"/>
+<column name="HAS_POWERDIV"  index ="32"/>
+<column name="IS_MULTI_CARR"  index ="33"/>
+<column name="BORDER_TYPE"  index ="34"/>
+<column name="NBR_PROVINCE_NAME"  index ="35"/>
+<column name="NBR_CITY_NAME"  index ="36"/>
+<column name="NET_STATE"  index ="37"/>
+<column name="SectorID104"  index ="38"/>
+<column name="SectorID24"  index ="39"/>
+<column name="DO_CELL_NUM"  index ="40"/>
+<column name="CELL_RADIUS"  index ="41"/>
+<column name="Colorcode"  index ="42"/>
+<column name="ANTNUM"  index ="43"/>
+<column name="ONEX_CELL_NUM"  index ="44"/>
+<column name="CELL_ADMIN"  index ="45"/>
+<column name="COVER_ATTRIBUTES"  index ="46"/>
+<column name="COVER_ROAD_TYPE"  index ="47"/>
+<column name="COVER_AREA_TYPE"  index ="48"/>
+<column name="LEVEL1_TYPE"  index ="49"/>
+<column name="LEVEL2_TYPE"  index ="50"/>
+<column name="LEVEL3_TYPE"  index ="51"/>
+<column name="ISRRU"  index ="52"/>
+
+
+</table>
+</templet>
+
+<templet id="3">
+<table id="0" name="CLT_OSS_RRU"   split="!#">  
+
+<column name="CITY_NAME"  index ="0"/>
+<column name="COUNTY_NAME"  index ="1"/>
+<column name="LOCATION_NUM"  index ="2"/>
+<column name="NET_TYPE"  index ="3"/>
+<column name="VENDOR_NUM"  index ="4"/>
+<column name="RRU_NAME"  index ="5"/>
+<column name="BTS_NAME"  index ="6"/>
+<column name="BTS_NUM"  index ="7"/>
+<column name="RRU_NO"  index ="8"/>
+<column name="USE_STATE"  index ="9"/>
+<column name="PROJECT_NUM"  index ="10"/>
+<column name="ONLINE_TIME"  index ="11" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="INSTALL_MODE"  index ="12"/>
+<column name="INSTALL_ADDRESS"  index ="13"/>
+<column name="CARR_COUNT"  index ="14"/>
+<column name="CASCADE_LEVEL"  index ="15"/>
+<column name="COVER_ATTRIBUTES"  index ="16"/>
+<column name="COVER_AREA_TYPE"  index ="17"/>
+<column name="COVER_ROAD_TYPE"  index ="18"/>
+<column name="LIGHT_PATH_NUM"  index ="19"/>
+<column name="FIBER_LENGTH"  index ="20"/>
+<column name="COUNTY_NUM"  index ="21"/>
+<column name="MARKETING_CENTER"  index ="22"/>
+<column name="EQUIPMENT_NUM"  index ="23"/>
+<column name="BSC_NAME"  index ="24"/>
+<column name="BSC_ID"  index ="25"/>
+<column name="BTS_ID"  index ="26"/>
+<column name="SECTOR_ID"  index ="27"/>
+<column name="SITE_TYPE"  index ="28"/>
+<column name="BUSTYPE"  index ="29"/>
+<column name="IS_INDOOR_SIGNAL"  index ="30"/>
+<column name="DACCNETTIME"  index ="31"  type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="CITY_ID"  index ="32"/>
+<column name="DEL_FLAG"  index ="33"/>
+<column name="NET_STATE"  index ="34"/>
+<column name="NET_STATE_UPDATED"  index ="35"/>
+<column name="NET_STATE_TMP"  index ="36"/>
+<column name="NET_STATE_UPDATED_DATE"  index ="37"  type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="NET_STATE_FROM"  index ="38"/>
+<column name="TRANS_EQUP_TYPE"  index ="39"/>
+<column name="CABLE_ID"  index ="40"/>
+<column name="WIRELESS_COVER_AREA"  index ="41"/>
+<column name="LEVEL1_TYPE"  index ="42"/>
+<column name="LEVEL2_TYPE"  index ="43"/>
+<column name="LEVEL3_TYPE"  index ="44"/>
+<column name="IS_TRACK"  index ="45"/>
+
+
+</table>
+</templet>
+
+
+	<templet id="4">
+<table id="0" name="CLT_OSS_ANTENNA"   split="!#">  
+<column name="NET_TYPE"                index="0" /> 
+<column name="NET_ID"         index="1" /> 
+<column name="CARR_ID"             index="2" /> 
+<column name="CELL_TYPE"                 index="3" /> 
+<column name="ANTENNA_NUM"              index="4" /> 
+<column name="ANTENNA_TOWER"               index="5" /> 
+<column name="IS_SHARE_INFO"                   index="6" /> 
+<column name="CITY_NAME"                   index="7" /> 
+<column name="COUNTY_NAME"                index="8" /> 
+<column name="ANTENNA_NAME"         index="9" /> 
+<column name="LONGITUDE"              index="10" />
+<column name="LATITUDE"            index="11" />
+<column name="ADDRESS"              index="12" />
+<column name="PROJECT_NUM"     index="13" />
+<column name="ONLINE_TIME"        index="14" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="ISTOWER"     index="15" />
+<column name="ISHIDDEN"         index="17" />
+<column name="BENEFIT_NET"      index="18" />
+<column name="OPERATOR"               index="19" />
+<column name="ANT_CATEGORY"            index="20" />
+<column name="ANT_TYPE"                  index="21" />
+<column name="ANT_MODE"            index="22" />
+<column name="ANT_AZIMUTH"                 index="23" />
+<column name="ANT_HIGH"              index="24" />
+<column name="ANT_VENDOR"        index="25" />
+<column name="ANT_DIR_CMP"                   index="26" />
+<column name="FEEDER_TYPE"                index="27" />
+<column name="FEEDER_LENGTH"                  index="28" />
+<column name="FEEDER_BAND"                index="29" />
+<column name="FEEDER_VENDOR"               index="30" />
+<column name="FEEDER_MODE"            index="31" />
+<column name="FEEDER_COUNT"              index="32" />
+<column name="POLER_TYPE"                index="33" />
+<column name="ANT_GAIN"                 index="34" />
+<column name="ANT_POLARIZE"                       index="35" />
+<column name="ANT_ANGLE_MODE"              index="36" />
+<column name="ANT_ENGINE_ANGLE"         index="37" />
+<column name="ANT_ELECTRON_ANGLE"             index="38" />
+<column name="HORIZONTAL"            index="39" />
+<column name="VERTICAL"       index="40" />
+<column name="ANTENNA_ID"                      index="41" />
+<column name="EQUIPMENT_NUM"                      index="42" />
+<column name="LOCATION_NUM"                  index="43" />
+<column name="FEEDER_NO"                    index="44" />
+<column name="HOSTING"                  index="45" />
+<column name="RESERVED_BY"                      index="46" />
+<column name="AREA_NO"                      index="47" />
+<column name="ADM_AREA"                     index="48" />
+<column name="ANTENNA_BAND"                index="49" />
+<column name="DEFAULT_ELE_ANGLE"              index="50" />
+<column name="ISELECADJUST"                      index="51" />
+
+<column name="ISAMPLIFIER"         index="55" />
+<column name="USE_STATE"          index="56" />
+<column name="REF_POLER_SYSTEM"           index="57" />
+<column name="POLER_FACTORY"        index="58" />
+<column name="POLER_HEIGHT"         index="59" />
+<column name="POLER_NUM"             index="60" />
+<column name="POLER_ONLINE_DATE"                  index="61" type="3" format="YYYY/MM/DD HH24:MI:SS.###" />
+<column name="POLER_MATERIAL"                 index="62" />
+<column name="POLER_GROUNDING_MOD"               index="63" />
+<column name="POWERDIV_TYPE"           index="64" />
+<column name="POWERDIV_VENSION"           index="65" />
+<column name="POWERDIV_FACTOR"          index="66" />
+<column name="POWERDIV_NUM"            index="67" />
+
+
+</table>
+</templet>
+
+</templets>

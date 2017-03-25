@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<templet>
+	
+	<system-rule>
+		<!--最大文件大小设置，单位是k 18000-->
+		<max-file-size>18000</max-file-size>
+		<is-oracle-log>SQL*Loader:</is-oracle-log>
+  
+		<table-name>Table\s?(\S+),</table-name>
+  
+		<load-succ-count>(\d+)\s*Rows?\s*successfully\s*loaded</load-succ-count>
+	
+		<error-count>
+			<data>\s*(\d+)\s*Rows\s*not\s*loaded\s*due\s*to\s*data\s*errors</data>
+			<when>\s*(\d+)\s*Rows not loaded because all WHEN clauses were failed</when>	
+			<null-field>\s*(\d+)\s*Rows not loaded because all fields were null</null-field>
+		</error-count>
+		
+		<logic-record-count>
+			<skip>Total logical records skipped:\s*(\d+)</skip>
+			<read>Total logical records read:\s*(\d+)</read>
+			<refuse>Total logical records rejected: \s*(\d+)</refuse>
+			<abandon>Total logical records discarded:\s*(\d+)</abandon>
+		</logic-record-count>
+ 
+		<start-time>Run began on\s+(.*\s)</start-time>
+		<end-time>Run ended on\s+(.*)\s</end-time>
+	</system-rule>
+
+	<!--用户自定义规则  列\s+ "SYSTEM"."MYTABLE"."OMCID" 的值太大-->
+    <!--下面遇到错误后需要配置成英文形式-->
+	<user-define-rule>
+		<rule>日期格式图片在转换整个输入字符串之前结束</rule>
+		<rule>数据文件的字段超出最大长度</rule>	
+		<rule>SQL\*Loader-\d+:\s+列\s+\w+\s+不在表\s+\w+\s+中。</rule>
+		<rule>ORA-\d+:\s+列\s+"\w+"\."\w+"\."\w+"\s+的值太大</rule>	
+		<rule>Record\w*: Rejected - Error on table\w*(.*),</rule>	
+			
+	</user-define-rule>
+</templet>
+

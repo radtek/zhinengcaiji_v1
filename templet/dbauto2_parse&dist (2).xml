@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+   <!-- <templet id="0" fromTable="test001" toTable="test001_desc11" used="1" occur="1"  condition="">
+      <sql>select * from test001</sql>
+    	<mapping>
+    		<column src="id" dest="id1" /> 
+    		<column src="name" dest="name" /> 
+    		<column src="BIGCLOB2" dest="BIGCLOB" /> 
+    	</mapping>
+    </templet>
+    -->
+    <templet id="0" fromTable="test_1" toTable="test002_desc" used="1" condition="">
+    	<mapping>
+    		<column src="厂家列名" dest="我方name" /> 
+    	</mapping>
+    </templet>
+</templets>

@@ -1,0 +1,21 @@
+BSS release	:	10
+Name of BSC	:	GuilinMX5-1
+Type of measurement	:	RT18_A  Interface Measurements
+Measurement begin date and time	:	2010-05-12 00:00
+Measurement end date and time	:	2010-05-12 01:00
+Input file name	:	/alcatel/var/share/AFTR/APME/BSC/PMRES-18.44A.1.GuilinMX5-1.2010-05-11.17:00:42.5238.178
+Output file name	:	/alcatel/var/share/AFTR/APME/OBSYNT/GuilinMX5-1/20100512/R01800001.132
+
+
+C180A	C180B	C180C	C180D	C180E	C181A	C181B	C181C	C181D	C181E	C181F	C181G	C181H	C181I	C181J	C181K	C181L	C182
+1	0	0	36	0	5	0	0	0	0	0	14	0	0	0	0	0	2
+
+
+LINK_ID	C750	C751
+33	20	3
+34	229	2
+35	392	3
+36	751	3
+37	2177	0
+38	92	2
+39	76	3

@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_CM_ZTEV3_ADJ_CELL_HO" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="HOOBJECTID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="HOPRIORITY" index="5" type="2" format="255" />
+			<column name="MSTXPWRMAX" index="6" type="2" format="255" />
+			<column name="RXLEVMIN" index="7" type="2" format="255" />
+			<column name="HOMARGINPBGT" index="8" type="2" format="255" />
+			<column name="HOMARGINRXLEV" index="9" type="2" format="255" />
+			<column name="HOMARGINRXQUAL" index="10" type="2" format="255" />
+			<column name="MAXFORCEHODIFF" index="11" type="2" format="255" />
+			<column name="HOFORCERESTHS" index="12" type="2" format="255" />
+			<column name="NCELLLAYER" index="13" type="2" format="255" />
+			<column name="REPPRIOCS" index="14" type="2" format="255" />
+			<column name="ISRELATEDCELL" index="15" type="2" format="255" />
+			<column name="ISHOFORCENCELL" index="16" type="2" format="255" />
+			<column name="RELATIONDN" index="17" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="1">
+		<table id="0" name="CLT_CM_ZTEV3_ADJ_CELL_HORES" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="HORESOBJECTID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="HOPRIORITY" index="5" type="2" format="255" />
+			<column name="MSTXPWRMAX" index="6" type="2" format="255" />
+			<column name="RXLEVMIN" index="7" type="2" format="255" />
+			<column name="HOMARGINPBGT" index="8" type="2" format="255" />
+			<column name="HOMARGINRXLEV" index="9" type="2" format="255" />
+			<column name="HOMARGINRXQUAL" index="10" type="2" format="255" />
+			<column name="MAXFORCEHODIFF" index="11" type="2" format="255" />
+			<column name="HOFORCERESTHS" index="12" type="2" format="255" />
+			<column name="NCELLLAYER" index="13" type="2" format="255" />
+			<column name="REPPRIOCS" index="14" type="2" format="255" />
+			<column name="REPPRIOPS" index="15" type="2" format="255" />
+			<column name="ISRELATEDCELL" index="16" type="2" format="255" />
+			<column name="ISHOFORCENCELL" index="17" type="2" format="255" />
+			<column name="CCNSUPPORT" index="18" type="2" format="255" />
+			<column name="RELATIONDN" index="19" type="2" format="255" />
+			<column name="TARGETCELLTRAFFICTHS" index="20" type="2" format="255" />
+			<column name="MACROMICROHOTHS" index="21" type="2" format="255" />
+			<column name="MACROMICROHON" index="22" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="2">
+		<table id="0" name="CLT_CM_ZTEV3_ADJ_CELL_RES" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="RESELOBJECTID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="CCNSUPPORT" index="5" type="2" format="255" />
+			<column name="REPPRIOPS" index="6" type="2" format="255" />
+			<column name="RELATIONDN" index="7" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="3">
+		<table id="0" name="CLT_CM_ZTEV3_ADJ_INTERF_CELL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="INTFOBJECTID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="RELATIONDN" index="5" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="4">
+		<table id="0" name="CLT_CM_ZTEV3_BSC_FUNCTION" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="USERLABEL" index="1" type="2" format="512" />
+			<column name="MCC" index="2" />
+			<column name="MNC" index="3" />
+			<column name="INHOENABLE" index="4" type="2" format="255" />
+			<column name="BSCMAXRESETNUM" index="5" type="2" format="255" />
+			<column name="CONFUSIONMSG" index="6" type="2" format="255" />
+			<column name="RESOURCEINDTHS" index="7" type="2" format="255" />
+			<column name="RESOURCEADJUSTTHS" index="8" type="2" format="255" />
+			<column name="LOADIND" index="9" type="2" format="255" />
+			<column name="LOADVALIDTIME" index="10" type="2" format="255" />
+			<column name="LOADINDPRD" index="11" type="2" format="255" />
+			<column name="CHLREQREJBMP" index="12" type="2" format="2000" />
+			<column name="EXDRSENDASSFAIL" index="13" type="2" format="255" />
+			<column name="CELLFCTHS" index="14" type="2" format="255" />
+			<column name="MSFCTHS" index="15" type="2" format="255" />
+			<column name="CELLFCPER" index="16" type="2" format="255" />
+			<column name="MSFCPER" index="17" type="2" format="255" />
+			<column name="TFOCONTROL" index="18" type="2" format="255" />
+			<column name="DELAY" index="19" type="2" format="255" />
+			<column name="NSBLKMAX" index="20" type="2" format="255" />
+			<column name="NSUNBLKMAX" index="21" type="2" format="255" />
+			<column name="NSALIVEMAX" index="22" type="2" format="255" />
+			<column name="BVCBLKMAX" index="23" type="2" format="255" />
+			<column name="BVCUBLKMAX" index="24" type="2" format="255" />
+			<column name="BVCRESTMAX" index="25" type="2" format="255" />
+			<column name="SUSPENDMAX" index="26" type="2" format="255" />
+			<column name="RESUMEMAX" index="27" type="2" format="255" />
+			<column name="UPDATEMAX" index="28" type="2" format="255" />
+			<column name="DOWNLOADBSSPFCMAX" index="29" type="2" format="255" />
+			<column name="MODIFYBSSPFCMAX" index="30" type="2" format="255" />
+			<column name="CN" index="31" type="2" format="255" />
+			<column name="NN" index="32" type="2" format="255" />
+			<column name="XN" index="33" type="2" format="255" />
+			<column name="N3101" index="34" type="2" format="255" />
+			<column name="N3103" index="35" type="2" format="255" />
+			<column name="N3105" index="36" type="2" format="255" />
+			<column name="DYNAHRENABLE" index="37" type="2" format="255" />
+			<column name="HRTHS" index="38" type="2" format="255" />
+			<column name="PRITHRESHOLD" index="39" type="2" format="255" />
+			<column name="RSVCHANFIRST" index="40" type="2" format="255" />
+			<column name="PREFERSPEECHVER" index="41" type="2" format="255" />
+			<column name="LOWPRIOLEVEL" index="42" type="2" format="255" />
+			<column name="BVCFLOWCTRL" index="43" type="2" format="255" />
+			<column name="MSFLOWCTRL" index="44" type="2" format="255" />
+			<column name="FLOWCTRLMODE" index="45" type="2" format="255" />
+			<column name="FLOWCTLMODE1PARA" index="46" type="2" format="255" />
+			<column name="FLOWCTLMODE2PARA" index="47" type="2" format="255" />
+			<column name="BVCFLOWCTRLRMIN" index="48" type="2" format="255" />
+			<column name="MSFLOWCTRLRMIN" index="49" type="2" format="255" />
+			<column name="ISSTATELLITEGB" index="50" type="2" format="255" />
+			<column name="ISWINDOWEXPEND" index="51" type="2" format="255" />
+			<column name="PFCSUPPORT" index="52" type="2" format="255" />
+			<column name="NMO" index="53" type="2" format="255" />
+			<column name="PAGCOORDINATION" index="54" type="2" format="255" />
+			<column name="RS" index="55" type="2" format="255" />
+			<column name="RR" index="56" type="2" format="255" />
+			<column name="RA" index="57" type="2" format="255" />
+			<column name="RM" index="58" type="2" format="255" />
+			<column name="RB" index="59" type="2" format="255" />
+			<column name="RG" index="60" type="2" format="255" />
+			<column name="RE" index="61" type="2" format="255" />
+			<column name="C" index="62" type="2" format="255" />
+			<column name="R99IND" index="63" type="2" format="255" />
+			<column name="FUNCEXT" index="64" type="2" format="255" />
+			<column name="MSCVER" index="65" type="2" format="255" />
+			<column name="SGSNVER" index="66" type="2" format="255" />
+			<column name="MNC3DIGITS" index="67" type="2" format="255" />
+			<column name="NACCSUPPORT" index="68" type="2" format="255" />
+			<column name="TBF_EST" index="69" type="2" format="255" />
+			<column name="SIGNAL_EUTBF" index="70" type="2" format="255" />
+			<column name="EXUPDYNSUPPORT" index="71" type="2" format="255" />
+			<column name="DLTBFRETRY" index="72" type="2" format="255" />
+			<column name="PSABISTHS" index="73" type="2" format="255" />
+			<column name="EMLPPTHS" index="74" type="2" format="255" />
+			<column name="CSTHS" index="75" type="2" format="255" />
+			<column name="MAXPSUSERPERTS" index="76" type="2" format="255" />
+			<column name="PSCAPATHS" index="77" type="2" format="255" />
+			<column name="MSPSUPPORT" index="78" type="2" format="255" />
+			<column name="VIRTUALIPPOS" index="79" type="2" format="255" />
+			<column name="FLEXASUPPORT" index="80" type="2" format="255" />
+			<column name="FLEXGBSUPPORT" index="81" type="2" format="255" />
+			<column name="LONGITUDE" index="82" type="2" format="255" />
+			<column name="LATITUDE" index="83" type="2" format="255" />
+			<column name="TCTYPE" index="84" type="2" format="255" />
+			<column name="MRRPTENABLE" index="85" type="2" format="255" />
+			<column name="NETYPE" index="86" type="2" format="255" />
+			<column name="AREANO" index="87" type="2" format="255" />
+			<column name="BUREAUNO" index="88" type="2" format="255" />
+			<column name="OMP_IP" index="89" type="2" format="255" />
+			<column name="OMP_MAC" index="90" type="2" format="255" />
+			<column name="GLOBALTIMEZONE" index="91" type="2" format="255" />
+			<column name="SUMMERSTARTTIME" index="92" type="2" format="255" />
+			<column name="SUMMERENDTIME" index="93" type="2" format="255" />
+			<column name="SUMMERTIMEFLAG" index="94" type="2" format="255" />
+			<column name="INFO2" index="95" type="2" format="255" />
+			<column name="INFO4" index="96" type="2" format="255" />
+			<column name="INFO5" index="97" type="2" format="255" />
+			<column name="INFO6" index="98" type="2" format="255" />
+			<column name="INFO9" index="99" type="2" format="255" />
+			<column name="INFO10" index="100" type="2" format="255" />
+			<column name="INFO16" index="101" type="2" format="255" />
+			<column name="OFFICEID" index="102" type="2" format="255" />
+			<column name="OFFICESEQ" index="103" type="2" format="255" />
+			<column name="NET" index="104" type="2" format="255" />
+			<column name="SPTYPE" index="105" type="2" format="255" />
+			<column name="STPT18" index="106" type="2" format="255" />
+			<column name="RESTART" index="107" type="2" format="255" />
+			<column name="IPGBSTARTNSVC" index="108" type="2" format="255" />
+			<column name="SNSADDMAX" index="109" type="2" format="255" />
+			<column name="SNSCONFIGMAX" index="110" type="2" format="255" />
+			<column name="SNSCHGWEIGHTMAX" index="111" type="2" format="255" />
+			<column name="SNSDELMAX" index="112" type="2" format="255" />
+			<column name="SNSSIZEMAX" index="113" type="2" format="255" />
+			<column name="SNS_T1" index="114" type="2" format="255" />
+			<column name="OMCB" index="115" type="2" format="255" />
+			<column name="RIMSUPPORT" index="116" type="2" format="255" />
+			<column name="RIMRETRYTIMES" index="117" type="2" format="255" />
+			<column name="MPLMNSUPPORT" index="118" type="2" format="255" />
+			<column name="AMRFULLACS" index="119" type="2" format="255" />
+			<column name="AMRHALFACS" index="120" type="2" format="255" />
+			<column name="AMRTHRESHOLDS" index="121" type="2" format="255" />
+			<column name="AMRHYSTERESIS" index="122" type="2" format="255" />
+			<column name="ISAMRNSCB" index="123" type="2" format="255" />
+			<column name="ISAMRICM" index="124" type="2" format="255" />
+			<column name="AMRSTARTMODE" index="125" type="2" format="255" />
+			<column name="HRDFRAGSUPPORT" index="126" type="2" format="255" />
+			<column name="HRTSPERCENTAGE" index="127" type="2" format="255" />
+			<column name="AMRHRTHS" index="128" type="2" format="255" />
+			<column name="DFCASUPPORT" index="129" type="2" format="255" />
+			<column name="AIMCIRUP" index="130" type="2" format="255" />
+			<column name="AIMCIRDN" index="131" type="2" format="255" />
+			<column name="MINCIRUP" index="132" type="2" format="255" />
+			<column name="MINCIRDN" index="133" type="2" format="255" />
+			<column name="VOICEQUALITYREPORT" index="134" type="2" format="255" />
+			<column name="GESUPPORT" index="135" type="2" format="255" />
+			<column name="PSRESELPARAM2" index="136" type="2" format="255" />
+			<column name="TRIR" index="137" type="2" format="255" />
+			<column name="TRI" index="138" type="2" format="255" />
+			<column name="TRIAE" index="139" type="2" format="255" />
+			<column name="INTERNETHO" index="140" type="2" format="255" />
+			<column name="TESTCODE" index="141" type="2" format="255" />
+			<column name="TRXPSBUSYTHS" index="142" type="2" format="255" />
+			<column name="LCSSUPERVISION" index="143" type="2" format="255" />
+			<column name="LCSRADIO" index="144" type="2" format="255" />
+			<column name="LCSWAITINTRAHO" index="145" type="2" format="255" />
+			<column name="IPTOS" index="146" type="2" format="255" />
+			<column name="VIRTUALIP_0" index="147" type="2" format="255" />
+			<column name="VIRTUALIP_1" index="148" type="2" format="255" />
+			<column name="VIRTUALIP" index="149" type="2" format="255" />
+			<column name="INFO22_0" index="150" type="2" format="255" />
+			<column name="INFO22_1" index="151" type="2" format="255" />
+			<column name="INFO22" index="152" type="2" format="255" />
+			<column name="INFO24" index="153" type="2" format="255" />
+			<column name="INFO3" index="154" type="2" format="255" />
+			<column name="RMST10" index="155" type="2" format="255" />
+			<column name="RMST9108" index="156" type="2" format="255" />
+			<column name="TWAITMSG" index="157" type="2" format="255" />
+			<column name="TWAITRANCSEST" index="158" type="2" format="255" />
+			<column name="TWAITRANCSCLECOM" index="159" type="2" format="255" />
+			<column name="CCMWAITTIMER" index="160" type="2" format="255" />
+			<column name="GETSTATICPARAMTIMER" index="161" type="2" format="255" />
+			<column name="BSSGPT1" index="162" type="2" format="255" />
+			<column name="BSSGPT2" index="163" type="2" format="255" />
+			<column name="BSSGPT3" index="164" type="2" format="255" />
+			<column name="BSSGPT4" index="165" type="2" format="255" />
+			<column name="BSSGPT5" index="166" type="2" format="255" />
+			<column name="BSSGPT6" index="167" type="2" format="255" />
+			<column name="BSSGPT8" index="168" type="2" format="255" />
+			<column name="NS_T1" index="169" type="2" format="255" />
+			<column name="NS_T2" index="170" type="2" format="255" />
+			<column name="NS_T3" index="171" type="2" format="255" />
+			<column name="NS_T4" index="172" type="2" format="255" />
+			<column name="NS_T5" index="173" type="2" format="255" />
+			<column name="T3169" index="174" type="2" format="255" />
+			<column name="T3191" index="175" type="2" format="255" />
+			<column name="T3193" index="176" type="2" format="255" />
+			<column name="T3195" index="177" type="2" format="255" />
+			<column name="PSRELDELAY" index="178" type="2" format="255" />
+			<column name="INFO" index="179" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="5">
+		<table id="0" name="CLT_CM_ZTEV3_CELL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="USERLABEL" index="3" type="2" format="512" />
+			<column name="CELLTYPE" index="4" type="2" format="255" />
+			<column name="MCC" index="5" />
+			<column name="MNC" index="6" />
+			<column name="LAC" index="7" />
+			<column name="CI" index="8" />
+			<column name="NCC" index="9" />
+			<column name="BCC" index="10" />
+			<column name="FREQBAND" index="11" type="2" format="255" />
+			<column name="SUBFREQBAND" index="12" type="2" format="255" />
+			<column name="BCCHARFCN" index="13" type="2" format="255" />
+			<column name="CAFREQNUM" index="14" type="2" format="255" />
+			<column name="CAARFCNLIST" index="15" type="2" format="255" />
+			<column name="MRETRANS" index="16" type="2" format="255" />
+			<column name="TXINTEGER" index="17" type="2" format="255" />
+			<column name="CELLBARQUALIFY" index="18" type="2" format="255" />
+			<column name="CELLBARACCESS" index="19" type="2" format="255" />
+			<column name="CALLREESTABLISH" index="20" type="2" format="255" />
+			<column name="EMERGENCYCALL" index="21" type="2" format="255" />
+			<column name="ACCESSCONTROL" index="22" type="2" format="255" />
+			<column name="IMSIADALLOWED" index="23" type="2" format="255" />
+			<column name="CCCHCONF" index="24" type="2" format="255" />
+			<column name="BSAGBLKRES" index="25" type="2" format="255" />
+			<column name="BSPAMFRAMS" index="26" type="2" format="255" />
+			<column name="T3212" index="27" type="2" format="255" />
+			<column name="DTXUPLINKBCCH" index="28" type="2" format="255" />
+			<column name="MSRADIOLKTMOUT" index="29" type="2" format="255" />
+			<column name="T3122" index="30" type="2" format="255" />
+			<column name="MULBANDREPORT" index="31" type="2" format="255" />
+			<column name="NCCPERMITTED" index="32" type="2" format="255" />
+			<column name="SMSCBUSED" index="33" type="2" format="255" />
+			<column name="RESELHYSTERESIS" index="34" type="2" format="255" />
+			<column name="MSTXPWRMAXCCH" index="35" type="2" format="255" />
+			<column name="ADDITIONRESELPI" index="36" type="2" format="255" />
+			<column name="NECI" index="37" type="2" format="255" />
+			<column name="RXLEVACCESSMIN" index="38" type="2" format="255" />
+			<column name="CELLRESELPI" index="39" type="2" format="255" />
+			<column name="RESELOFFSET" index="40" type="2" format="255" />
+			<column name="TEMPORARYOFFSET" index="41" type="2" format="255" />
+			<column name="PENALTYTIME" index="42" type="2" format="255" />
+			<column name="POWEROFFSETIND" index="43" type="2" format="255" />
+			<column name="POWEROFFSET" index="44" type="2" format="255" />
+			<column name="ECSC" index="45" type="2" format="255" />
+			<column name="DRIND" index="46" type="2" format="255" />
+			<column name="DTXDWLINK" index="47" type="2" format="255" />
+			<column name="QUEUEIND" index="48" type="2" format="255" />
+			<column name="PREEMPTIONIND" index="49" type="2" format="255" />
+			<column name="FORCEDHOIND" index="50" type="2" format="255" />
+			<column name="CANDIDATENUM" index="51" type="2" format="255" />
+			<column name="CIPHERMODE" index="52" type="2" format="255" />
+			<column name="PREPROCESS" index="53" type="2" format="255" />
+			<column name="FASTAVG" index="54" type="2" format="255" />
+			<column name="FACCHCALLIND" index="55" type="2" format="255" />
+			<column name="RESOURCETHS" index="56" type="2" format="255" />
+			<column name="CCCHLOADINDPRD" index="57" type="2" format="255" />
+			<column name="CCCHLOADINDTHS" index="58" type="2" format="255" />
+			<column name="INTERFAVGPRD" index="59" type="2" format="255" />
+			<column name="INTERFBOUNDARY" index="60" type="2" format="255" />
+			<column name="NY1" index="61" type="2" format="255" />
+			<column name="CONFAILCRITERION" index="62" type="2" format="255" />
+			<column name="BSRADIOLKTMOUT" index="63" type="2" format="255" />
+			<column name="RXLEVTHS" index="64" type="2" format="255" />
+			<column name="RXQUALTHS" index="65" type="2" format="255" />
+			<column name="RXLEVQUALPRD" index="66" type="2" format="255" />
+			<column name="OVERLOADPRD" index="67" type="2" format="255" />
+			<column name="BCCHBAIND" index="68" type="2" format="255" />
+			<column name="AVGSLOTS" index="69" type="2" format="255" />
+			<column name="RACHBUSYTHS" index="70" type="2" format="255" />
+			<column name="T200" index="71" type="2" format="255" />
+			<column name="T3105" index="72" type="2" format="255" />
+			<column name="CANBCCHEXCH" index="73" type="2" format="255" />
+			<column name="CANSDCCHDYN" index="74" type="2" format="255" />
+			<column name="TAMAX" index="75" type="2" format="255" />
+			<column name="TAALLOWED" index="76" type="2" format="255" />
+			<column name="PSSUPPORT" index="77" type="2" format="255" />
+			<column name="ADDRESPI2" index="78" type="2" format="255" />
+			<column name="EXC_ACC" index="79" type="2" format="255" />
+			<column name="LSA_OFFSET" index="80" type="2" format="255" />
+			<column name="PRIO_THR" index="81" type="2" format="255" />
+			<column name="LSA_ID" index="82" type="2" format="255" />
+			<column name="DYNAHRENABLE" index="83" type="2" format="255" />
+			<column name="USECELLDYNHRPARA" index="84" type="2" format="255" />
+			<column name="HRTHS" index="85" type="2" format="255" />
+			<column name="SUBCELLUSED" index="86" type="2" format="255" />
+			<column name="TFOSUPPORT" index="87" type="2" format="255" />
+			<column name="EMLPPTHS" index="88" type="2" format="255" />
+			<column name="USECELLEMLPPTHS" index="89" type="2" format="255" />
+			<column name="SGSNID" index="90" type="2" format="255" />
+			<column name="NSEI" index="91" type="2" format="255" />
+			<column name="BVCI" index="92" type="2" format="255" />
+			<column name="RAC" index="93" type="2" format="255" />
+			<column name="UPUUNIT" index="94" type="2" format="255" />
+			<column name="DSP" index="95" type="2" format="255" />
+			<column name="T3168" index="96" type="2" format="255" />
+			<column name="T3192" index="97" type="2" format="255" />
+			<column name="DRXTIMEMAX" index="98" type="2" format="255" />
+			<column name="BSCVMAX" index="99" type="2" format="255" />
+			<column name="CTRACKTYPE" index="100" type="2" format="255" />
+			<column name="ACCESSTYPE" index="101" type="2" format="255" />
+			<column name="PANDEC" index="102" type="2" format="255" />
+			<column name="PANINC" index="103" type="2" format="255" />
+			<column name="PANMAX" index="104" type="2" format="255" />
+			<column name="PBCCHBLKS" index="105" type="2" format="255" />
+			<column name="PAGBLKRES" index="106" type="2" format="255" />
+			<column name="PRACHBLKS" index="107" type="2" format="255" />
+			<column name="TXINT" index="108" type="2" format="255" />
+			<column name="S" index="109" type="2" format="255" />
+			<column name="MAXRETRANS" index="110" type="2" format="255" />
+			<column name="PERSISTLEV" index="111" type="2" format="255" />
+			<column name="ACCCTRLCLASS" index="112" type="2" format="255" />
+			<column name="ALPHA" index="113" type="2" format="255" />
+			<column name="T_AVG_W" index="114" type="2" format="255" />
+			<column name="T_AVG_T" index="115" type="2" format="255" />
+			<column name="PB" index="116" type="2" format="255" />
+			<column name="PCMEASCHAN" index="117" type="2" format="255" />
+			<column name="PSI4SEND" index="118" type="2" format="255" />
+			<column name="N_AVG_I" index="119" type="2" format="255" />
+			<column name="RXLEVASMIN" index="120" type="2" format="255" />
+			<column name="MSTXMAXCCH" index="121" type="2" format="255" />
+			<column name="HCS_EXIST" index="122" type="2" format="255" />
+			<column name="PRIOCLASS" index="123" type="2" format="255" />
+			<column name="HCS_THR" index="124" type="2" format="255" />
+			<column name="RESELOFF" index="125" type="2" format="255" />
+			<column name="RESELHYS" index="126" type="2" format="255" />
+			<column name="C31_HYST" index="127" type="2" format="255" />
+			<column name="C32_QUAL" index="128" type="2" format="255" />
+			<column name="RADACRETRY" index="129" type="2" format="255" />
+			<column name="T_RESEL" index="130" type="2" format="255" />
+			<column name="RARESELHYS" index="131" type="2" format="255" />
+			<column name="TEMPOFFSET" index="132" type="2" format="255" />
+			<column name="PENALTIME" index="133" type="2" format="255" />
+			<column name="SI3LOCATE" index="134" type="2" format="255" />
+			<column name="RACOLOR" index="135" type="2" format="255" />
+			<column name="MEAORDER" index="136" type="2" format="255" />
+			<column name="CTRLORDER" index="137" type="2" format="255" />
+			<column name="NCNODRXPER" index="138" type="2" format="255" />
+			<column name="NCREPPERI" index="139" type="2" format="255" />
+			<column name="NCRERPERT" index="140" type="2" format="255" />
+			<column name="EXMEAORDER" index="141" type="2" format="255" />
+			<column name="EXTREPTYPE" index="142" type="2" format="255" />
+			<column name="EXTREPPER" index="143" type="2" format="255" />
+			<column name="SPGCSUPORT" index="144" type="2" format="255" />
+			<column name="PRIACTHR" index="145" type="2" format="255" />
+			<column name="PSI1REPPER" index="146" type="2" format="255" />
+			<column name="PSISTATIND" index="147" type="2" format="255" />
+			<column name="CSCHANSTHS" index="148" type="2" format="255" />
+			<column name="SENDSPEED" index="149" type="2" format="255" />
+			<column name="EPAGEMODE" index="150" type="2" format="255" />
+			<column name="LOADPER" index="151" type="2" format="255" />
+			<column name="OVLOADPER" index="152" type="2" format="255" />
+			<column name="PCCCHINDTH" index="153" type="2" format="255" />
+			<column name="RLTIMEOUT" index="154" type="2" format="255" />
+			<column name="PRACHBUSYT" index="155" type="2" format="255" />
+			<column name="MEAAVGSLOT" index="156" type="2" format="255" />
+			<column name="EGPRSPACKETCHREQ" index="157" type="2" format="255" />
+			<column name="BEPPERIODUP" index="158" type="2" format="255" />
+			<column name="BEPPERIODDOWN" index="159" type="2" format="255" />
+			<column name="DTMSUPPORT" index="160" type="2" format="255" />
+			<column name="GTTPLAPDMNUM" index="161" type="2" format="255" />
+			<column name="LINKQUAMEAMODE" index="162" type="2" format="255" />
+			<column name="IRSUPPORTUP" index="163" type="2" format="255" />
+			<column name="PREEMPTIVETRANS" index="164" type="2" format="255" />
+			<column name="USFGRANULARITY" index="165" type="2" format="255" />
+			<column name="EGPRSINITATTSELT" index="166" type="2" format="255" />
+			<column name="GPRSINITATTSELT" index="167" type="2" format="255" />
+			<column name="INITATTACHEXCH" index="168" type="2" format="255" />
+			<column name="CCNACTIVE" index="169" type="2" format="255" />
+			<column name="SISTATUSIND" index="170" type="2" format="255" />
+			<column name="EXT_UTBF" index="171" type="2" format="255" />
+			<column name="EXUPDYNSUPPORT" index="172" type="2" format="255" />
+			<column name="EXTDYNALLOCSUPP" index="173" type="2" format="255" />
+			<column name="ULDELAYTIME" index="174" type="2" format="255" />
+			<column name="DLDELAYTIME" index="175" type="2" format="255" />
+			<column name="EXTULTBFTIME" index="176" type="2" format="255" />
+			<column name="GPRSDLRRBPINTERVAL" index="177" type="2" format="255" />
+			<column name="EGPRSDLRRBPINTERVAL" index="178" type="2" format="255" />
+			<column name="GPRSULACKINTERVAL" index="179" type="2" format="255" />
+			<column name="EGPRSULACKINTERVAL" index="180" type="2" format="255" />
+			<column name="ULMEASUREPERIOD" index="181" type="2" format="255" />
+			<column name="HYBRIDOCCUSUPP" index="182" type="2" format="255" />
+			<column name="ALLOWPSMOVE" index="183" type="2" format="255" />
+			<column name="ALLOWCSMOVE" index="184" type="2" format="255" />
+			<column name="SFPREFERBUSYTHS" index="185" type="2" format="255" />
+			<column name="OPPREFERBUSYTHS" index="186" type="2" format="255" />
+			<column name="STARTTRXPOWEROFF" index="187" type="2" format="255" />
+			<column name="SC" index="188" type="2" format="255" />
+			<column name="SA" index="189" type="2" format="255" />
+			<column name="ST" index="190" type="2" format="255" />
+			<column name="PSQUEUEIND" index="191" type="2" format="255" />
+			<column name="PSMAXQUEUEINSTNUM" index="192" type="2" format="255" />
+			<column name="PSPREEMPTIONIND" index="193" type="2" format="255" />
+			<column name="SUPPORT3GCCN" index="194" type="2" format="255" />
+			<column name="WND" index="195" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="6">
+		<table id="0" name="CLT_CM_ZTEV3_CHANNEL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="TRXID" index="3" />
+			<column name="TSID" index="4" type="2" format="255" />
+			<column name="USERLABEL" index="5" type="2" format="512" />
+			<column name="FHSID" index="6" type="2" format="255" />
+			<column name="ARFCN" index="7" type="2" format="255" />
+			<column name="TSCHANNELCOMB" index="8" type="2" format="255" />
+			<column name="MAIO" index="9" type="2" format="255" />
+			<column name="TSC" index="10" type="2" format="255" />
+			<column name="CHANGEABLE" index="11" type="2" format="255" />
+			<column name="PREFERPSSERVICE" index="12" type="2" format="255" />
+			<column name="PDCHPRECEDENCE" index="13" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="7">
+		<table id="0" name="CLT_CM_ZTEV3_FREQ_HOP_SYS" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="FHSID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="FREQHOPMODE" index="5" type="2" format="255" />
+			<column name="HSN" index="6" type="2" format="255" />
+			<column name="MAFREQNUM" index="7" type="2" format="255" />
+			<column name="MAARFCNLIST" index="8" type="2" format="255" />
+			<column name="BHGROUPID" index="9" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="8">
+		<table id="0" name="CLT_CM_ZTEV3_GERAN_EXT_CELL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="GERANECELLID" index="1" type="2" format="255" />
+			<column name="USERLABEL" index="2" type="2" format="512" />
+			<column name="FREQBAND" index="3" type="2" format="255" />
+			<column name="BCCHARFCN" index="4" type="2" format="255" />
+			<column name="MCC" index="5" />
+			<column name="MNC" index="6" />
+			<column name="LAC" index="7" />
+			<column name="CI" index="8" />
+			<column name="NCC" index="9" />
+			<column name="BCC" index="10" />
+			<column name="CELLTYPE" index="11" type="2" format="255" />
+			<column name="PSSUPPORT" index="12" type="2" format="255" />
+			<column name="EXC_ACC" index="13" type="2" format="255" />
+			<column name="LSA_ID" index="14" type="2" format="255" />
+			<column name="RAC" index="15" type="2" format="255" />
+			<column name="CELLBARAC2" index="16" type="2" format="255" />
+			<column name="RXLEVASMIN" index="17" type="2" format="255" />
+			<column name="MSTXMAXCCH" index="18" type="2" format="255" />
+			<column name="RESELOFF" index="19" type="2" format="255" />
+			<column name="TEMPOFFSET" index="20" type="2" format="255" />
+			<column name="PENALTIME" index="21" type="2" format="255" />
+			<column name="HCS_EXIST" index="22" type="2" format="255" />
+			<column name="HCS_THR" index="23" type="2" format="255" />
+			<column name="PRIOCLASS" index="24" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="9">
+		<table id="0" name="CLT_CM_ZTEV3_HO_CONTROL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="HOCID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="HOULLEVWINDOW" index="5" type="2" format="255" />
+			<column name="HOULLEVWEIGHT" index="6" type="2" format="255" />
+			<column name="HODLLEVWINDOW" index="7" type="2" format="255" />
+			<column name="HODLLEVWEIGHT" index="8" type="2" format="255" />
+			<column name="HOULQUALWINDOW" index="9" type="2" format="255" />
+			<column name="HOULQUALWEIGHT" index="10" type="2" format="255" />
+			<column name="HODLQUALWINDOW" index="11" type="2" format="255" />
+			<column name="HODLQUALWEIGHT" index="12" type="2" format="255" />
+			<column name="DISTANCEWINDOW" index="13" type="2" format="255" />
+			<column name="NCELLWINDOW" index="14" type="2" format="255" />
+			<column name="ZEROALLOWED" index="15" type="2" format="255" />
+			<column name="HOMININTERVAL" index="16" type="2" format="255" />
+			<column name="DISTANCETHS" index="17" type="2" format="255" />
+			<column name="HOULLEVTHS" index="18" type="2" format="255" />
+			<column name="HODLLEVTHS" index="19" type="2" format="255" />
+			<column name="HOULQUALTHS" index="20" type="2" format="255" />
+			<column name="HODLQUALTHS" index="21" type="2" format="255" />
+			<column name="INTRAHOULLEVTHS" index="22" type="2" format="255" />
+			<column name="INTRAHODLLEVTHS" index="23" type="2" format="255" />
+			<column name="HOULLEVP" index="24" type="2" format="255" />
+			<column name="HOULLEVN" index="25" type="2" format="255" />
+			<column name="HODLLEVP" index="26" type="2" format="255" />
+			<column name="HODLLEVN" index="27" type="2" format="255" />
+			<column name="HOULQUALP" index="28" type="2" format="255" />
+			<column name="HOULQUALN" index="29" type="2" format="255" />
+			<column name="HODLQUALP" index="30" type="2" format="255" />
+			<column name="HODLQUALN" index="31" type="2" format="255" />
+			<column name="INTRAHOULLEVP" index="32" type="2" format="255" />
+			<column name="INTRAHOULLEVN" index="33" type="2" format="255" />
+			<column name="INTRAHODLLEVP" index="34" type="2" format="255" />
+			<column name="INTRAHODLLEVN" index="35" type="2" format="255" />
+			<column name="DISTANCEP" index="36" type="2" format="255" />
+			<column name="DISTANCEN" index="37" type="2" format="255" />
+			<column name="PBGTHON" index="38" type="2" format="255" />
+			<column name="PBGTHOP" index="39" type="2" format="255" />
+			<column name="HOCONTROL" index="40" type="2" format="255" />
+			<column name="HOPATTERNIND" index="41" type="2" format="255" />
+			<column name="LAYERPRIORITY" index="42" type="2" format="255" />
+			<column name="RAPIDHOTHS" index="43" type="2" format="255" />
+			<column name="RAPIDHON" index="44" type="2" format="255" />
+			<column name="PBGTHOLAYER" index="45" type="2" format="255" />
+			<column name="MACROMICROHOTHS" index="46" type="2" format="255" />
+			<column name="MACROMICROHON" index="47" type="2" format="255" />
+			<column name="GOODCITHS" index="48" type="2" format="255" />
+			<column name="GOODCIP" index="49" type="2" format="255" />
+			<column name="GOODCIN" index="50" type="2" format="255" />
+			<column name="BADCITHS" index="51" type="2" format="255" />
+			<column name="BADCIP" index="52" type="2" format="255" />
+			<column name="BADCIN" index="53" type="2" format="255" />
+			<column name="HOFAILPENALTIME" index="54" type="2" format="255" />
+			<column name="DYNPRIOOFFSET" index="55" type="2" format="255" />
+			<column name="PBGTOFFSET" index="56" type="2" format="255" />
+			<column name="TRAFFICHOLAYRCTL" index="57" type="2" format="255" />
+			<column name="TRAFFICHOFREQCTL" index="58" type="2" format="255" />
+			<column name="TRAFFICTHS" index="59" type="2" format="255" />
+			<column name="TRAFFICLEVTHS" index="60" type="2" format="255" />
+			<column name="PENALTYLEVOFFSET" index="61" type="2" format="255" />
+			<column name="QOFFSETUL" index="62" type="2" format="255" />
+			<column name="SOFFSETUL" index="63" type="2" format="255" />
+			<column name="QOFFSETDL" index="64" type="2" format="255" />
+			<column name="SOFFSETDL" index="65" type="2" format="255" />
+			<column name="TMAXIHO" index="66" type="2" format="255" />
+			<column name="MAXIHO" index="67" type="2" format="255" />
+			<column name="MAXLOSSTHS" index="68" type="2" format="255" />
+			<column name="MAXTATHS" index="69" type="2" format="255" />
+			<column name="HOFORCEN" index="70" type="2" format="255" />
+			<column name="HOFORCEP" index="71" type="2" format="255" />
+			<column name="DULEBANDOFFSET" index="72" type="2" format="255" />
+			<column name="PATHLOSSMAX" index="73" type="2" format="255" />
+			<column name="PATHLOSSMIN" index="74" type="2" format="255" />
+			<column name="SUBCELLTAMAX" index="75" type="2" format="255" />
+			<column name="SUBCELLTAMIN" index="76" type="2" format="255" />
+			<column name="SUBCELLN" index="77" type="2" format="255" />
+			<column name="SUBCELLP" index="78" type="2" format="255" />
+			<column name="PBGTHOPARAM" index="79" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="10">
+		<table id="0" name="CLT_CM_ZTEV3_POWER_CONTROL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="SUBCELLID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="PCULLEVWINDOW" index="5" type="2" format="255" />
+			<column name="PCULLEVWEIGHT" index="6" type="2" format="255" />
+			<column name="PCDLLEVWINDOW" index="7" type="2" format="255" />
+			<column name="PCDLLEVWEIGHT" index="8" type="2" format="255" />
+			<column name="PCULQUALWINDOW" index="9" type="2" format="255" />
+			<column name="PCULQUALWEIGHT" index="10" type="2" format="255" />
+			<column name="PCDLQUALWINDOW" index="11" type="2" format="255" />
+			<column name="PCDLQUALWEIGHT" index="12" type="2" format="255" />
+			<column name="PWRCONTROLUL" index="13" type="2" format="255" />
+			<column name="PWRCONTROLDL" index="14" type="2" format="255" />
+			<column name="PWRINCSTEP" index="15" type="2" format="255" />
+			<column name="PWRREDSTEP" index="16" type="2" format="255" />
+			<column name="PCULINCLLEVTHS" index="17" type="2" format="255" />
+			<column name="PCULREDLEVTHS" index="18" type="2" format="255" />
+			<column name="PCULINCLQUALTHS" index="19" type="2" format="255" />
+			<column name="PCULREDQUALTHS" index="20" type="2" format="255" />
+			<column name="PCDLINCLLEVTHS" index="21" type="2" format="255" />
+			<column name="PCDLREDLEVTHS" index="22" type="2" format="255" />
+			<column name="PCDLINCLQUALTHS" index="23" type="2" format="255" />
+			<column name="PCDLREDQUALTHS" index="24" type="2" format="255" />
+			<column name="PCULINCLLEVP" index="25" type="2" format="255" />
+			<column name="PCULINCLLEVN" index="26" type="2" format="255" />
+			<column name="PCDLINCLLEVP" index="27" type="2" format="255" />
+			<column name="PCDLINCLLEVN" index="28" type="2" format="255" />
+			<column name="PCULREDLEVP" index="29" type="2" format="255" />
+			<column name="PCULREDLEVN" index="30" type="2" format="255" />
+			<column name="PCDLREDLEVP" index="31" type="2" format="255" />
+			<column name="PCDLREDLEVN" index="32" type="2" format="255" />
+			<column name="PCULINCLQUALP" index="33" type="2" format="255" />
+			<column name="PCULINCLQUALN" index="34" type="2" format="255" />
+			<column name="PCDLINCLQUALP" index="35" type="2" format="255" />
+			<column name="PCDLINCLQUALN" index="36" type="2" format="255" />
+			<column name="PCULREDQUALP" index="37" type="2" format="255" />
+			<column name="PCULREDQUALN" index="38" type="2" format="255" />
+			<column name="PCDLREDQUALP" index="39" type="2" format="255" />
+			<column name="PCDLREDQUALN" index="40" type="2" format="255" />
+			<column name="MSTXPWRMAX" index="41" type="2" format="255" />
+			<column name="MSTXPWRMIN" index="42" type="2" format="255" />
+			<column name="BSTXPWRMIN" index="43" type="2" format="255" />
+			<column name="RAPIDPCIND" index="44" type="2" format="255" />
+			<column name="PCMININTERVAL" index="45" type="2" format="255" />
+			<column name="PWRDECRLIMIT" index="46" type="2" format="255" />
+			<column name="PWRCTRLREPORTPRD" index="47" type="2" format="255" />
+			<column name="ULPWCTRL" index="48" type="2" format="255" />
+			<column name="DLPWCTRL" index="49" type="2" format="255" />
+			<column name="SS_BTS" index="50" type="2" format="255" />
+			<column name="PWCTRLMODE" index="51" type="2" format="255" />
+			<column name="PWCTRLLEV" index="52" type="2" format="255" />
+			<column name="P0" index="53" type="2" format="255" />
+			<column name="ULRAPIDPCIND" index="54" type="2" format="255" />
+			<column name="DLRAPIDPCIND" index="55" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="11">
+		<table id="0" name="CLT_CM_ZTEV3_TIMER_CONFIG" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="USERLABEL" index="1" type="2" format="512" />
+			<column name="T1" index="2" type="2" format="255" />
+			<column name="T3" index="3" type="2" format="255" />
+			<column name="T4" index="4" type="2" format="255" />
+			<column name="T7" index="5" type="2" format="255" />
+			<column name="T8" index="6" type="2" format="255" />
+			<column name="T10" index="7" type="2" format="255" />
+			<column name="T13" index="8" type="2" format="255" />
+			<column name="T17" index="9" type="2" format="255" />
+			<column name="T18" index="10" type="2" format="255" />
+			<column name="T19" index="11" type="2" format="255" />
+			<column name="T20" index="12" type="2" format="255" />
+			<column name="RMST1" index="13" type="2" format="255" />
+			<column name="RMST2" index="14" type="2" format="255" />
+			<column name="RMST3" index="15" type="2" format="255" />
+			<column name="RMST4" index="16" type="2" format="255" />
+			<column name="RMST5" index="17" type="2" format="255" />
+			<column name="RMST6" index="18" type="2" format="255" />
+			<column name="RMST7" index="19" type="2" format="255" />
+			<column name="RMST8" index="20" type="2" format="255" />
+			<column name="RMST9" index="21" type="2" format="255" />
+			<column name="RMST10" index="22" type="2" format="255" />
+			<column name="RMST11" index="23" type="2" format="255" />
+			<column name="RMSTQHO" index="24" type="2" format="255" />
+			<column name="RMST12" index="25" type="2" format="255" />
+			<column name="RMST13" index="26" type="2" format="255" />
+			<column name="RMST14" index="27" type="2" format="255" />
+			<column name="RMST15" index="28" type="2" format="255" />
+			<column name="RMST16" index="29" type="2" format="255" />
+			<column name="TMODEMODIFYCONN" index="30" type="2" format="255" />
+			<column name="MT7" index="31" type="2" format="255" />
+			<column name="MT11" index="32" type="2" format="255" />
+			<column name="MT12" index="33" type="2" format="255" />
+			<column name="RMST3101" index="34" type="2" format="255" />
+			<column name="RMST3103" index="35" type="2" format="255" />
+			<column name="RMST3107" index="36" type="2" format="255" />
+			<column name="RMST3109" index="37" type="2" format="255" />
+			<column name="RMST3111" index="38" type="2" format="255" />
+			<column name="T9101" index="39" type="2" format="255" />
+			<column name="RMST9103" index="40" type="2" format="255" />
+			<column name="T9104" index="41" type="2" format="255" />
+			<column name="T9105" index="42" type="2" format="255" />
+			<column name="RMST9108" index="43" type="2" format="255" />
+			<column name="T9113" index="44" type="2" format="255" />
+			<column name="TMICRO" index="45" type="2" format="255" />
+			<column name="TBSIC" index="46" type="2" format="255" />
+			<column name="AIST4" index="47" type="2" format="255" />
+			<column name="AIST12" index="48" type="2" format="255" />
+			<column name="BCREGULAR" index="49" type="2" format="255" />
+			<column name="BCPROTECT" index="50" type="2" format="255" />
+			<column name="T3169" index="51" type="2" format="255" />
+			<column name="T3191" index="52" type="2" format="255" />
+			<column name="T3193" index="53" type="2" format="255" />
+			<column name="T3195" index="54" type="2" format="255" />
+			<column name="BSSGPT1" index="55" type="2" format="255" />
+			<column name="BSSGPT2" index="56" type="2" format="255" />
+			<column name="BSSGPT3" index="57" type="2" format="255" />
+			<column name="BSSGPT4" index="58" type="2" format="255" />
+			<column name="BSSGPT5" index="59" type="2" format="255" />
+			<column name="BSSGPT6" index="60" type="2" format="255" />
+			<column name="BSSGPT8" index="61" type="2" format="255" />
+			<column name="NS_T1" index="62" type="2" format="255" />
+			<column name="NS_T2" index="63" type="2" format="255" />
+			<column name="NS_T3" index="64" type="2" format="255" />
+			<column name="NS_T4" index="65" type="2" format="255" />
+			<column name="NS_T5" index="66" type="2" format="255" />
+			<column name="RMST3121" index="67" type="2" format="255" />
+			<column name="GETSTATICPARAMTIMER" index="68" type="2" format="255" />
+			<column name="TWAITMSG" index="69" type="2" format="255" />
+			<column name="TWAITRANCSEST" index="70" type="2" format="255" />
+			<column name="TWAITRANCSCLECOM" index="71" type="2" format="255" />
+			<column name="LCSSUPERVISION" index="72" type="2" format="255" />
+			<column name="LCSRADIO" index="73" type="2" format="255" />
+			<column name="LCSWAITINTRAHO" index="74" type="2" format="255" />
+			<column name="PSRELDELAY" index="75" type="2" format="255" />
+			<column name="TATERWAITCONN" index="76" type="2" format="255" />
+			<column name="TWAITATERRES" index="77" type="2" format="255" />
+			<column name="TATERWAITREL" index="78" type="2" format="255" />
+			<column name="TATERMONITERHO" index="79" type="2" format="255" />
+			<column name="TATERCICBLK" index="80" type="2" format="255" />
+			<column name="TATERBLKCICGRP" index="81" type="2" format="255" />
+			<column name="TATERRST" index="82" type="2" format="255" />
+			<column name="TITCRST" index="83" type="2" format="255" />
+			<column name="TBLKACIC" index="84" type="2" format="255" />
+			<column name="TBLKACICGRP" index="85" type="2" format="255" />
+			<column name="TWAITATERRESACK" index="86" type="2" format="255" />
+			<column name="TRIR" index="87" type="2" format="255" />
+			<column name="TRI" index="88" type="2" format="255" />
+			<column name="TRIAE" index="89" type="2" format="255" />
+			<column name="TWAITHOPFMACK" index="90" type="2" format="255" />
+			<column name="CCMWAITTIMER" index="91" type="2" format="255" />
+			<column name="TATERRSTCIC" index="92" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="12">
+		<table id="0" name="CLT_CM_ZTEV3_TRX" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="TRXID" index="3" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="TRXTYPE" index="5" type="2" format="255" />
+			<column name="BCCHMARK" index="6" type="2" format="255" />
+			<column name="RACKNO" index="7" type="2" format="255" />
+			<column name="SHELFNO" index="8" type="2" format="255" />
+			<column name="PANELNO" index="9" type="2" format="255" />
+			<column name="CAFREQNUM" index="10" type="2" format="255" />
+			<column name="CAARFCNLIST" index="11" type="2" format="255" />
+			<column name="TRXPRIORITY" index="12" type="2" format="255" />
+			<column name="SUBCELLID" index="13" type="2" format="255" />
+			<column name="PWRREDUCTION" index="14" type="2" format="255" />
+			<column name="POWERCLASS" index="15" type="2" format="255" />
+			<column name="PORTNO" index="16" type="2" format="255" />
+			<column name="BIPBUNIT" index="17" type="2" format="255" />
+			<column name="DSP" index="18" type="2" format="255" />
+			<column name="RRUID" index="19" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="13">
+		<table id="0" name="CLT_CM_ZTEV3_3G_ADJ_CELL_HO" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="S3GHOOBJECTID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="REPPRIOCS" index="5" type="2" format="255" />
+			<column name="RELATIONDN" index="6" type="2" format="255" />
+			<column name="BANDWIDTH3G" index="7" type="2" format="255" />
+			<column name="HORSCPOFFSET3G" index="8" type="2" format="255" />
+			<column name="HOECNOOFFSET3G" index="9" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="14">
+		<table id="0" name="CLT_CM_ZTEV3_3G_ADJ_CELL_HORES" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="S3GHORSOBJECTID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="REPPRIOCS" index="5" type="2" format="255" />
+			<column name="REPPRIOPS" index="6" type="2" format="255" />
+			<column name="HORSCPOFFSET3G" index="7" type="2" format="255" />
+			<column name="HOECNOOFFSET3G" index="8" type="2" format="255" />
+			<column name="CCNSUPPORT" index="9" type="2" format="255" />
+			<column name="RELATIONDN" index="10" type="2" format="255" />
+			<column name="TARGETCELLTRAFFICTHS" index="11" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="15">
+		<table id="0" name="CLT_CM_ZTEV3_3G_ADJ_CELL_RES" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="S3GRSOBJECTID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="REPPRIOPS" index="5" type="2" format="255" />
+			<column name="CCNSUPPORT" index="6" type="2" format="255" />
+			<column name="RELATIONDN" index="7" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="16">
+		<table id="0" name="CLT_CM_ZTEV3_3G_CELL_CONTROL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="S3GBTSID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="ECSC_3G" index="5" type="2" format="255" />
+			<column name="SI2QUATERPOS" index="6" type="2" format="255" />
+			<column name="REPORTTYPECS" index="7" type="2" format="255" />
+			<column name="SVRBANDRPRTCS" index="8" type="2" format="255" />
+			<column name="QSEARCH_I" index="9" type="2" format="255" />
+			<column name="FDD_QOFFSET" index="10" type="2" format="255" />
+			<column name="FDD_QMIN" index="11" type="2" format="255" />
+			<column name="QSEARCHCINIT" index="12" type="2" format="255" />
+			<column name="QSEARCH_C" index="13" type="2" format="255" />
+			<column name="FDDREPQNTCS" index="14" type="2" format="255" />
+			<column name="FDDMULRATRRPTCS" index="15" type="2" format="255" />
+			<column name="REPORTRATECS" index="16" type="2" format="255" />
+			<column name="INVLDBSICRPRTCS" index="17" type="2" format="255" />
+			<column name="MULBNDRPRTCS" index="18" type="2" format="255" />
+			<column name="SCALEORDCS" index="19" type="2" format="255" />
+			<column name="RPRTOFFSETCS900" index="20" type="2" format="255" />
+			<column name="RPRTTHOCS900" index="21" type="2" format="255" />
+			<column name="RPRTOFFSETCS1800" index="22" type="2" format="255" />
+			<column name="RPRTTHOCS1800" index="23" type="2" format="255" />
+			<column name="RPRTOFFSETCS1900" index="24" type="2" format="255" />
+			<column name="RPRTTHOCS1900" index="25" type="2" format="255" />
+			<column name="RPRTOFFSETCS850" index="26" type="2" format="255" />
+			<column name="RPRTTHOCS850" index="27" type="2" format="255" />
+			<column name="FDDRPRTOFFSETCS" index="28" type="2" format="255" />
+			<column name="FDDRPRTTHOCS" index="29" type="2" format="255" />
+			<column name="SEARCHPRIOCS3G" index="30" type="2" format="255" />
+			<column name="REPORTTYPEPS" index="31" type="2" format="255" />
+			<column name="SVRBANDRPRTPS" index="32" type="2" format="255" />
+			<column name="FDDREPQNTPS" index="33" type="2" format="255" />
+			<column name="FDDMULRATRRPTPS" index="34" type="2" format="255" />
+			<column name="REPORTRATEPS" index="35" type="2" format="255" />
+			<column name="INVLDBSICRPRTPS" index="36" type="2" format="255" />
+			<column name="MULBNDRPRTPS" index="37" type="2" format="255" />
+			<column name="SCALEORDPS" index="38" type="2" format="255" />
+			<column name="RPRTOFFSETPS900" index="39" type="2" format="255" />
+			<column name="RPRTTHOPS900" index="40" type="2" format="255" />
+			<column name="RPRTOFFSETPS1800" index="41" type="2" format="255" />
+			<column name="RPRTTHOPS1800" index="42" type="2" format="255" />
+			<column name="RPRTOFFSETPS1900" index="43" type="2" format="255" />
+			<column name="RPRTTHOPS1900" index="44" type="2" format="255" />
+			<column name="RPRTOFFSETPS850" index="45" type="2" format="255" />
+			<column name="RPRTTHOPS850" index="46" type="2" format="255" />
+			<column name="FDDRPRTOFFSETPS" index="47" type="2" format="255" />
+			<column name="FDDRPRTTHOPS" index="48" type="2" format="255" />
+			<column name="SEARCHPRIOPS3G" index="49" type="2" format="255" />
+			<column name="TDD_QOFFSET" index="50" type="2" format="255" />
+			<column name="TDDMULRATRRPTCS" index="51" type="2" format="255" />
+			<column name="TDDRPRTOFFSETCS" index="52" type="2" format="255" />
+			<column name="TDDRPRTTHOCS" index="53" type="2" format="255" />
+			<column name="TDDMULRATRRPTPS" index="54" type="2" format="255" />
+			<column name="TDDRPRTOFFSETPS" index="55" type="2" format="255" />
+			<column name="TDDRPRTTHOPS" index="56" type="2" format="255" />
+			<column name="QSEARCH_P" index="57" type="2" format="255" />
+			<column name="FDD_GPRS_QOFFSET" index="58" type="2" format="255" />
+			<column name="TDD_GPRS_QOFFSET" index="59" type="2" format="255" />
+			<column name="FDD_QMINPS" index="60" type="2" format="255" />
+			<column name="FDD_QMIN_OFFSETPS" index="61" type="2" format="255" />
+			<column name="FDD_RSCPMINPS" index="62" type="2" format="255" />
+			<column name="FDDRPRTTHO2PS" index="63" type="2" format="255" />
+			<column name="SERVICECC" index="64" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="17">
+		<table id="0" name="CLT_CM_ZTEV3_3G_EXT_CELL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="EC3GID" index="1" type="2" format="255" />
+			<column name="USERLABEL" index="2" type="2" format="512" />
+			<column name="MCC" index="3" />
+			<column name="MNC" index="4" />
+			<column name="RNC_ID" index="5" type="2" format="255" />
+			<column name="C_ID" index="6" type="2" format="255" />
+			<column name="LAC" index="7" />
+			<column name="CELLTYPE3G" index="8" type="2" format="255" />
+			<column name="ARFCN3G" index="9" type="2" format="255" />
+			<column name="SCCODECELLPARA" index="10" type="2" format="255" />
+			<column name="BANDWIDTH3G" index="11" type="2" format="255" />
+			<column name="SYNCCASETSTD" index="12" type="2" format="255" />
+			<column name="DIVERSITY" index="13" type="2" format="255" />
+			<column name="RAC" index="14" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="18">
+		<table id="0" name="CLT_CM_ZTEV3_3G_HO_CONTROL" split="|" >
+			<column name="OMCBSCID" index="0" />
+			<column name="SITEID" index="1" />
+			<column name="BTSID" index="2" />
+			<column name="S3GHOCID" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="INTERSYSHOCTRL" index="5" type="2" format="255" />
+			<column name="HOFAILPENALTM3G" index="6" type="2" format="255" />
+			<column name="HOWINDOW3G" index="7" type="2" format="255" />
+			<column name="ZEROALLOWED3G" index="8" type="2" format="255" />
+			<column name="HORSCPTHSFDD" index="9" type="2" format="255" />
+			<column name="HORSCP_P_FDD" index="10" type="2" format="255" />
+			<column name="HORSCP_N_FDD" index="11" type="2" format="255" />
+			<column name="HOECNOTHSFDD" index="12" type="2" format="255" />
+			<column name="HOECNO_P_FDD" index="13" type="2" format="255" />
+			<column name="HOECNO_N_FDD" index="14" type="2" format="255" />
+			<column name="INTERSYSRDCTRL" index="15" type="2" format="255" />
+			<column name="FDDTDDPRIO" index="16" type="2" format="255" />
+			<column name="SERVICEHO" index="17" type="2" format="255" />
+			<column name="HORSCPTHSTDD" index="18" type="2" format="255" />
+			<column name="HORSCP_N_TDD" index="19" type="2" format="255" />
+			<column name="HORSCP_P_TDD" index="20" type="2" format="255" />
+			<column name="LOADHORSCPTHSFDD" index="21" type="2" format="255" />
+			<column name="LOADHOECNOTHSFDD" index="22" type="2" format="255" />
+			<column name="LOADHORSCPTHSTDD" index="23" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="19">
+		<table id="0" name="CLT_CM_ZTEV3_ZTEBSC" split="|" >
+			<column name="SERVERID" index="0" type="2" format="255" />
+			<column name="MOI" index="1" type="2" format="512" />
+			<column name="BSCID" index="2" type="2" format="255" />
+			<column name="OBJECT_CLASS" index="3" type="2" format="255" />
+			<column name="USERLABEL" index="4" type="2" format="512" />
+			<column name="HANDOVER_REQ_PARAM" index="5" type="2" format="255" />
+			<column name="ENABLEINTRACELL_HV" index="6" type="2" format="255" />
+			<column name="ENABLEINTERCELL_HV" index="7" type="2" format="255" />
+			<column name="SPC" index="8" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="20">
+		<table id="0" name="CLT_CM_ZTEV3_ZTESITEMANAGER" split="|" >
+			<column name="SERVERID" index="0" type="2" format="255" />
+			<column name="MOI" index="1" type="2" format="512" />
+			<column name="BSCID" index="2" type="2" format="255" />
+			<column name="SITEID" index="3" />
+			<column name="OBJECT_CLASS" index="4" type="2" format="255" />
+			<column name="USERLABEL" index="5" type="2" format="512" />
+			<column name="SITETYPE" index="6" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="21">
+		<table id="0" name="CLT_CM_ZTEV3_ZTETRANSCEIVER" split="|" >
+			<column name="SERVERID" index="0" type="2" format="255" />
+			<column name="MOI" index="1" type="2" format="512" />
+			<column name="BSCID" index="2" type="2" format="255" />
+			<column name="SITEID" index="3" />
+			<column name="BTSID" index="4" />
+			<column name="TRANSCEIVERID" index="5" type="2" format="255" />
+			<column name="OBJECT_CLASS" index="6" type="2" format="255" />
+			<column name="RELATEDRADIOCARRIER" index="7" type="2" format="255" />
+		</table>
+	</templet>
+
+	<templet id="22">
+		<table id="0" name="CLT_CM_ZTEV3_ZTEBTS" split="|" >
+			<column name="SERVERID" index="0" type="2" format="255" />
+			<column name="MOI" index="1" type="2" format="512" />
+			<column name="BSCID" index="2" type="2" format="255" />
+			<column name="SITEID" index="3" />
+			<column name="BTSID" index="4" />
+			<column name="OBJECT_CLASS" index="5" type="2" format="255" />
+			<column name="USERLABEL" index="6" type="2" format="512" />
+			<column name="NCC" index="7" />
+			<column name="BCC" index="8" />
+			<column name="FRENUM" index="9" type="2" format="255" />
+			<column name="CELL_ALLOCATION" index="10" type="2" format="255" />
+			<column name="GSMDCSINDICATOR" index="11" type="2" format="255" />
+			<column name="MCC" index="12" />
+			<column name="MNC" index="13" />
+			<column name="LAC" index="14" />
+			<column name="CELL_ID" index="15" type="2" format="255" />
+			<column name="PC_MSMT_PROC_MD" index="16" type="2" format="255" />
+			<column name="HO_MSMT_PROC_MD" index="17" type="2" format="255" />
+			<column name="SDCCH_NBR" index="18" type="2" format="255" />
+			<column name="TCH_NBR" index="19" type="2" format="255" />
+		</table>
+	</templet>
+
+</templets>

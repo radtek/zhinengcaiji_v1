@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+     <templet id="1" fromTable="      dc.DC_E_BSS_BSC_RAW " toTable="CLT_PM_ERI_G10_BSC" used="1" condition=""><sql>select * from dc.DC_E_BSS_BSC_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>  
+     <mapping>
+     	<column dest="MO" src="BSC" />
+      <column dest="BSCCUMMS" src="BSC_BSCCUMMS" />
+      <column dest="BSCMAXMS" src="BSC_BSCMAXMS" />
+      <column dest="GSM1800CUMMS" src="BSC_GSM1800CUMMS" />
+      <column dest="GSM1800MAXMS" src="BSC_GSM1800MAXMS" />
+      <column dest="GSM900CUMMS" src="BSC_GSM900CUMMS" />
+      <column dest="GSM900MAXMS" src="BSC_GSM900MAXMS" />
+      <column dest="TOTPAG" src="BSC_TOTPAG" />
+      <column dest="TOTCONGPAG" src="BSC_TOTCONGPAG" />
+      <column dest="GSM400CUMMS" src="BSC_GSM400CUMMS" />
+      <column dest="GSM400MAXMS" src="BSC_GSM400MAXMS" />
+      <column dest="GSM800CUMMS" src="BSC_GSM800CUMMS" />
+      <column dest="GSM800MAXMS" src="BSC_GSM800MAXMS" />
+      </mapping>
+     </templet>	
+     <templet id="2" fromTable="dc.DC_E_BSS_BSC_RAW " toTable="CLT_PM_ERI_G10_BSCGPRS" used="1" condition=""><sql>select * from dc.DC_E_BSS_BSC_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+      <mapping>                                                    
+      <column dest="MO" src="BSC" />      
+      <column dest="ESUTONRM" src="BSCGPRS_ESUTONRM" /> 
+      <column dest="ESUDLTBF" src="BSCGPRS_ESUDLTBF" /> 
+      <column dest="DELRELTONRM" src="BSCGPRS_DELRELTONRM" /> 
+      <column dest="DELRELDLTBF" src="BSCGPRS_DELRELDLTBF" /> 
+      <column dest="EXULTIP" src="BSCGPRS_EXULTIP" /> 
+      <column dest="EXULNRM" src="BSCGPRS_EXULNRM" /> 
+      <column dest="GSL0040" src="BSCGPRS_GSL0040" /> 
+      <column dest="GSL4160" src="BSCGPRS_GSL4160" /> 
+      <column dest="GSL6180" src="BSCGPRS_GSL6180" /> 
+      <column dest="GSL8190" src="BSCGPRS_GSL8190" /> 
+      <column dest="GSL9100" src="BSCGPRS_GSL9100" /> 
+      <column dest="GSLMAX" src="BSCGPRS_GSLMAX" /> 
+      <column dest="GSLUTIL" src="BSCGPRS_GSLUTIL" /> 
+      <column dest="GSLSCAN" src="BSCGPRS_GSLSCAN" /> 
+      <column dest="ALLPDCHPCUATT" src="BSCGPRS_ALLPDCHPCUATT" /> 
+      <column dest="AQMDELIVDATA" src="BSCGPRS_AQMDELIVDATA" /> 
+      <column dest="AQMRECDATA" src="BSCGPRS_AQMRECDATA" /> 
+      <column dest="DISCUL" src="BSCGPRS_DISCUL" />
+      <column dest="DISCDL" src="BSCGPRS_DISCDL" />
+      <column dest="PAGCSBSC" src="BSCGPRS_PAGCSBSC" />
+      <column dest="PAGCSCONG" src="BSCGPRS_PAGCSCONG" />
+      <column dest="PAGPSBSC" src="BSCGPRS_PAGPSBSC" />
+      <column dest="ALLPDCHPCUFAIL" src="BSCGPRS_ALLPDCHPCUFAIL" />
+      <column dest="FAILMOVECELL" src="BSCGPRS_FAILMOVECELL" />
+      <column dest="NACCPCO" src="BSCGPRS_NACCPCO" />
+      </mapping>
+      </templet>
+     <templet id="3" fromTable="dc.DC_E_BSS_BSC_RAW   " toTable="CLT_PM_ERI_G10_BSCGPRS2" used="1" condition=""><sql>select * from dc.DC_E_BSS_BSC_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+      <mapping>
+      <column dest="MO" src="BSC" />  
+      <column dest="RPP0040" src="BSCGPRS2_RPP0040"/>
+      <column dest="RPP4160" src="BSCGPRS2_RPP4160"/>
+      <column dest="RPP6180" src="BSCGPRS2_RPP6180"/>
+      <column dest="RPP8190" src="BSCGPRS2_RPP8190"/>
+      <column dest="RPP9100" src="BSCGPRS2_RPP9100"/>
+      <column dest="NC2ORDER" src="BSCGPRS2_NC2ORDER"/>
+      <column dest="NC2CONF" src="BSCGPRS2_NC2CONF"/>
+      <column dest="NC2PCO" src="BSCGPRS2_NC2PCO"/>
+      <column dest="G2GPH0040LOAD" src="BSCGPRS2_G2GPH0040LOAD"/>
+      <column dest="G2GPH4160LOAD" src="BSCGPRS2_G2GPH4160LOAD"/>
+      <column dest="G2GPH6180LOAD" src="BSCGPRS2_G2GPH6180LOAD"/>
+      <column dest="G2GPH8190LOAD" src="BSCGPRS2_G2GPH8190LOAD"/>
+      <column dest="G2GPH9100LOAD" src="BSCGPRS2_G2GPH9100LOAD"/>
+      <column dest="PSHOCAP" src="BSCGPRS2_PSHOCAP"/>
+      <column dest="PSSESSIONEST" src="BSCGPRS2_PSSESSIONEST"/>
+      </mapping>   
+     </templet> 
+     <templet id="4" fromTable="dc.DC_E_BSS_CELL_PS_RAW " toTable="CLT_PM_ERI_G10_CCCHLOAD" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="CSIMMASS" src="CCCHLOAD_CSIMMASS"/>
+     <column dest="REJCSIMMASS" src="CCCHLOAD_REJCSIMMASS"/>
+     <column dest="PSIMMASS" src="CCCHLOAD_PSIMMASS"/>
+     <column dest="REJPSIMMASS" src="CCCHLOAD_REJPSIMMASS"/>
+     <column dest="DISCIMMASS" src="CCCHLOAD_DISCIMMASS"/>
+     </mapping> 
+     </templet>
+     <templet id="5" fromTable=" dc.DC_E_BSS_CELL_CS_RAW  " toTable="CLT_PM_ERI_G10_CELEVENTD" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="DISNORM" src="CELEVENTD_DISNORM"/>
+     <column dest="DISBQA" src="CELEVENTD_DISBQA"/>
+     <column dest="DISBSS" src="CELEVENTD_DISBSS"/>
+     <column dest="DISETA" src="CELEVENTD_DISETA"/>
+     <column dest="DISFER" src="CELEVENTD_DISFER"/>
+     </mapping>
+     </templet>
+     <templet id="6" fromTable="  dc.DC_E_BSS_CELL_CS_RAW   " toTable="CLT_PM_ERI_G10_CELEVENTI" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="HOINUQA" src="CELEVENTI_HOINUQA"/>
+     <column dest="HOINDQA" src="CELEVENTI_HOINDQA"/>
+     <column dest="HOINBQA" src="CELEVENTI_HOINBQA"/>
+     <column dest="HOINSUC" src="CELEVENTI_HOINSUC"/>
+     <column dest="HOINBOCH" src="CELEVENTI_HOINBOCH"/>
+     <column dest="BCDTCBCOM" src="CELEVENTI_BCDTCBCOM"/>
+     <column dest="BCLOSSCOM" src="CELEVENTI_BCLOSSCOM"/>
+     <column dest="BCDTCBSUC" src="CELEVENTI_BCDTCBSUC"/>
+     <column dest="BCLOSSSUC" src="CELEVENTI_BCLOSSSUC"/>
+     <column dest="HOSUCTCHOPT" src="CELEVENTI_HOSUCTCHOPT"/>
+     <column dest="HOATTHRPACK" src="CELEVENTI_HOATTHRPACK"/>
+     <column dest="HOSUCHRPACK" src="CELEVENTI_HOSUCHRPACK"/>
+     <column dest="HOINSRTL2BOCH" src="CELEVENTI_HOINSRTL2BOCH"/>
+     </mapping> 
+     </templet>
+     
+     <templet id="7" fromTable="   dc.DC_E_BSS_CELL_CS_RAW            " toTable="CLT_PM_ERI_G10_CELEVENTS" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping> 
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="HOAATUL" src="CELEVENTS_HOAATUL"/>
+      <column dest="HOSUCUL" src="CELEVENTS_HOSUCUL"/>
+      <column dest="HOAATOL" src="CELEVENTS_HOAATOL"/>
+      <column dest="HOSUCOL" src="CELEVENTS_HOSUCOL"/>
+      <column dest="HOATTULBQ" src="CELEVENTS_HOATTULBQ"/>
+      <column dest="HOSUCULBQ" src="CELEVENTS_HOSUCULBQ"/>
+      <column dest="HOATTULMAXIHO" src="CELEVENTS_HOATTULMAXIHO"/>
+      <column dest="HOSUCULMAXIHO" src="CELEVENTS_HOSUCULMAXIHO"/>
+      <column dest="HOATTOLMAXIHO" src="CELEVENTS_HOATTOLMAXIHO"/>
+      <column dest="HOSUCOLMAXIHO" src="CELEVENTS_HOSUCOLMAXIHO"/>
+     </mapping>
+     </templet>
+     <templet id="8" fromTable="    dc.DC_E_BSS_CELL_CS_RAW     " toTable="CLT_PM_ERI_G10_CELLCCHDR" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="CDISTA" src="CELLCCHDR_CDISTA"/>
+      <column dest="CDISQASUB" src="CELLCCHDR_CDISQASUB"/>
+      <column dest="CDISSS" src="CELLCCHDR_CDISSS"/>
+      <column dest="CDISSSSUB" src="CELLCCHDR_CDISSSSUB"/>
+      <column dest="CDISQA" src="CELLCCHDR_CDISQA"/>
+      <column dest="CDISSS1" src="CELLCCHDR_CDISSS1"/>
+      <column dest="CDISSS2" src="CELLCCHDR_CDISSS2"/>
+      <column dest="CDISSS3" src="CELLCCHDR_CDISSS3"/>
+      <column dest="CDISSS4" src="CELLCCHDR_CDISSS4"/>
+      <column dest="CDISSS5" src="CELLCCHDR_CDISSS5"/>
+     </mapping>
+     </templet>
+     
+     <templet id="9" fromTable=" dc.DC_E_BSS_CELL_CS_RAW" toTable="CLT_PM_ERI_G10_CELLCONF" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="CONFATTC" src="CELLCONF_CONFATTC"/>
+     <column dest="CONFATTT" src="CELLCONF_CONFATTT"/>
+     </mapping>    </templet>
+     
+     <templet id="10" fromTable="     dc.DC_E_BSS_CELL_PS_RAW" toTable="CLT_PM_ERI_G10_CELLGPRS" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="ALLPDCHACC" src="CELLGPRS_ALLPDCHACC"/>
+      <column dest="ALLPDCHSCAN" src="CELLGPRS_ALLPDCHSCAN"/>
+      <column dest="PCHALLATT" src="CELLGPRS_PCHALLATT"/>
+      <column dest="PCHALLFAIL" src="CELLGPRS_PCHALLFAIL"/>
+      <column dest="PDRAC" src="CELLGPRS_PDRAC"/>
+      <column dest="PDPRAC" src="CELLGPRS_PDPRAC"/>
+      <column dest="CS12ULSCHED" src="CELLGPRS_CS12ULSCHED"/>
+      <column dest="CS12DLSCHED" src="CELLGPRS_CS12DLSCHED"/>
+      <column dest="CS12ULACK" src="CELLGPRS_CS12ULACK"/>
+      <column dest="CS12DLACK" src="CELLGPRS_CS12DLACK"/>
+      <column dest="PAGCSBVCI" src="CELLGPRS_PAGCSBVCI"/>
+      <column dest="PPAGCSBVCI" src="CELLGPRS_PPAGCSBVCI"/>
+      <column dest="ALLPDCHACTACC" src="CELLGPRS_ALLPDCHACTACC"/>
+      <column dest="ALLPDCHPEAK" src="CELLGPRS_ALLPDCHPEAK"/>
+      <column dest="PREEMPTPDCH" src="CELLGPRS_PREEMPTPDCH"/>
+      <column dest="MC19ULSCHED" src="CELLGPRS_MC19ULSCHED"/>
+      <column dest="MC19ULACK" src="CELLGPRS_MC19ULACK"/>
+      <column dest="DLTBFEST" src="CELLGPRS_DLTBFEST"/>
+      <column dest="FAILDLTBFEST" src="CELLGPRS_FAILDLTBFEST"/>
+      <column dest="TBFPREEMPEST" src="CELLGPRS_TBFPREEMPEST"/>
+      <column dest="PREEMPTTBF" src="CELLGPRS_PREEMPTTBF"/>
+      <column dest="MOVECELLTBF" src="CELLGPRS_MOVECELLTBF"/>
+      <column dest="CELLMOVED" src="CELLGPRS_CELLMOVED"/>
+      <column dest="MC19QULSCHED" src="CELLGPRS_MC19QULSCHED"/>
+      <column dest="MC19QULACK" src="CELLGPRS_MC19QULACK"/>
+      <column dest="MSESTDLTBF" src="CELLGPRS_MSESTDLTBF"/>
+      <column dest="LDISEST" src="CELLGPRS_LDISEST"/>
+      <column dest="FAILDLANSW" src="CELLGPRS_FAILDLANSW"/>
+      </mapping>
+     </templet>
+     <templet id="11" fromTable="    dc.DC_E_BSS_CELL_PS_RAW" toTable="CLT_PM_ERI_G10_CELLGPRS2" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="LDISTFI" src="CELLGPRS2_LDISTFI"/>
+      <column dest="LDISRR" src="CELLGPRS2_LDISRR"/>
+      <column dest="LDISOTH" src="CELLGPRS2_LDISOTH"/>
+      <column dest="PSCHREQ" src="CELLGPRS2_PSCHREQ"/>
+      <column dest="PREJTFI" src="CELLGPRS2_PREJTFI"/>
+      <column dest="PREJOTH" src="CELLGPRS2_PREJOTH"/>
+      <column dest="IAULREL" src="CELLGPRS2_IAULREL"/>
+      <column dest="FLUDISC" src="CELLGPRS2_FLUDISC"/>
+      <column dest="FLUMOVE" src="CELLGPRS2_FLUMOVE"/>
+      <column dest="PCHRREQ" src="CELLGPRS2_PCHRREQ"/>
+      <column dest="PCHRZRETRY" src="CELLGPRS2_PCHRZRETRY"/>
+      <column dest="PCHROPRETRY" src="CELLGPRS2_PCHROPRETRY"/>
+      <column dest="PCHRSCAN" src="CELLGPRS2_PCHRSCAN"/>
+      <column dest="PAGDISCPPCH" src="CELLGPRS2_PAGDISCPPCH"/>
+      <column dest="PAGCSONPPCH" src="CELLGPRS2_PAGCSONPPCH"/>
+      <column dest="PAGPSONPPCH" src="CELLGPRS2_PAGPSONPPCH"/>
+      <column dest="PMTATT" src="CELLGPRS2_PMTATT"/>
+      <column dest="PMTREF" src="CELLGPRS2_PMTREF"/>
+      <column dest="CS14DLSCHED" src="CELLGPRS2_CS14DLSCHED"/>
+      <column dest="MC19DLSCHED" src="CELLGPRS2_MC19DLSCHED"/>
+      <column dest="PREEMPTULREL" src="CELLGPRS2_PREEMPTULREL"/>
+      <column dest="OTHULREL" src="CELLGPRS2_OTHULREL"/>
+      <column dest="MSESTULTBF" src="CELLGPRS2_MSESTULTBF"/>
+      <column dest="CS14DLACK" src="CELLGPRS2_CS14DLACK"/>
+      <column dest="MC19DLACK" src="CELLGPRS2_MC19DLACK"/>
+      <column dest="CS14QDLSCHED" src="CELLGPRS2_CS14QDLSCHED"/>
+      <column dest="CS14QDLACK" src="CELLGPRS2_CS14QDLACK"/>
+      <column dest="MC19QDLSCHED" src="CELLGPRS2_MC19QDLSCHED"/>
+      <column dest="MC19QDLACK" src="CELLGPRS2_MC19QDLACK"/>
+      <column dest="CRSULREL" src="CELLGPRS2_CRSULREL"/>
+      </mapping>
+     </templet>
+     
+     <templet id="12" fromTable="     dc.DC_E_BSS_CELL_CS_RAW" toTable="CLT_PM_ERI_G10_CELLPAG" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping> 
+     </mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="PAGPCHCONG" src="CELLPAG_PAGPCHCONG"/>
+     <column dest="PAGETOOOLD" src="CELLPAG_PAGETOOOLD"/>  
+     </templet>
+   
+     <templet id="13" fromTable="    dc.DC_E_BSS_CELL_PS_RAW " toTable="CLT_PM_ERI_G10_CELLQOSEG" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="ULTHP1EGTHR" src="CELLQOSEG_ULTHP1EGTHR"/>
+      <column dest="DLTHP1EGTHR" src="CELLQOSEG_DLTHP1EGTHR"/>
+      <column dest="ULTHP2EGTHR" src="CELLQOSEG_ULTHP2EGTHR"/>
+      <column dest="DLTHP2EGTHR" src="CELLQOSEG_DLTHP2EGTHR"/>
+      <column dest="ULTHP3EGTHR" src="CELLQOSEG_ULTHP3EGTHR"/>
+      <column dest="DLTHP3EGTHR" src="CELLQOSEG_DLTHP3EGTHR"/>
+      <column dest="ULBGEGTHR" src="CELLQOSEG_ULBGEGTHR"/>
+      <column dest="DLBGEGTHR" src="CELLQOSEG_DLBGEGTHR"/>
+      <column dest="ULTHP1EGPFC" src="CELLQOSEG_ULTHP1EGPFC"/>
+      <column dest="DLTHP1EGPFC" src="CELLQOSEG_DLTHP1EGPFC"/>
+      <column dest="ULTHP2EGPFC" src="CELLQOSEG_ULTHP2EGPFC"/>
+      <column dest="DLTHP2EGPFC" src="CELLQOSEG_DLTHP2EGPFC"/>
+      <column dest="ULTHP3EGPFC" src="CELLQOSEG_ULTHP3EGPFC"/>
+      <column dest="DLTHP3EGPFC" src="CELLQOSEG_DLTHP3EGPFC"/>
+      <column dest="ULBGEGPFC" src="CELLQOSEG_ULBGEGPFC"/>
+      <column dest="DLBGEGPFC" src="CELLQOSEG_DLBGEGPFC"/>
+      <column dest="ULTHP1EGDATA" src="CELLQOSEG_ULTHP1EGDATA"/>
+      <column dest="DLTHP1EGDATA" src="CELLQOSEG_DLTHP1EGDATA"/>
+      <column dest="ULTHP2EGDATA" src="CELLQOSEG_ULTHP2EGDATA"/>
+      <column dest="DLTHP2EGDATA" src="CELLQOSEG_DLTHP2EGDATA"/>
+      <column dest="ULTHP3EGDATA" src="CELLQOSEG_ULTHP3EGDATA"/>
+      <column dest="DLTHP3EGDATA" src="CELLQOSEG_DLTHP3EGDATA"/>
+      <column dest="ULBGEGDATA" src="CELLQOSEG_ULBGEGDATA"/>
+      <column dest="DLBGEGDATA" src="CELLQOSEG_DLBGEGDATA"/>
+      </mapping>
+     </templet>     
+     <templet id="14" fromTable="     dc.DC_E_BSS_CELL_PS_RAW  " toTable="CLT_PM_ERI_G10_CELLQOSG" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="ULTHP1GTHR" src="CELLQOSG_ULTHP1GTHR"/>
+      <column dest="DLTHP1GTHR" src="CELLQOSG_DLTHP1GTHR"/>
+      <column dest="ULTHP2GTHR" src="CELLQOSG_ULTHP2GTHR"/>
+      <column dest="DLTHP2GTHR" src="CELLQOSG_DLTHP2GTHR"/>
+      <column dest="ULTHP3GTHR" src="CELLQOSG_ULTHP3GTHR"/>
+      <column dest="DLTHP3GTHR" src="CELLQOSG_DLTHP3GTHR"/>
+      <column dest="ULBGGTHR" src="CELLQOSG_ULBGGTHR"/>
+      <column dest="DLBGGTHR" src="CELLQOSG_DLBGGTHR"/>
+      <column dest="ULTHP1GPFC" src="CELLQOSG_ULTHP1GPFC"/>
+      <column dest="DLTHP1GPFC" src="CELLQOSG_DLTHP1GPFC"/>
+      <column dest="ULTHP2GPFC" src="CELLQOSG_ULTHP2GPFC"/>
+      <column dest="DLTHP2GPFC" src="CELLQOSG_DLTHP2GPFC"/>
+      <column dest="ULTHP3GPFC" src="CELLQOSG_ULTHP3GPFC"/>
+      <column dest="DLTHP3GPFC" src="CELLQOSG_DLTHP3GPFC"/>
+      <column dest="ULBGGPFC" src="CELLQOSG_ULBGGPFC"/>
+      <column dest="DLBGGPFC" src="CELLQOSG_DLBGGPFC"/>
+      <column dest="ULTHP1GDATA" src="CELLQOSG_ULTHP1GDATA"/>
+      <column dest="DLTHP1GDATA" src="CELLQOSG_DLTHP1GDATA"/>
+      <column dest="ULTHP2GDATA" src="CELLQOSG_ULTHP2GDATA"/>
+      <column dest="DLTHP2GDATA" src="CELLQOSG_DLTHP2GDATA"/>
+      <column dest="ULTHP3GDATA" src="CELLQOSG_ULTHP3GDATA"/>
+      <column dest="DLTHP3GDATA" src="CELLQOSG_DLTHP3GDATA"/>
+      <column dest="ULBGGDATA" src="CELLQOSG_ULBGGDATA"/>
+      <column dest="DLBGGDATA" src="CELLQOSG_DLBGGDATA"/>
+     </mapping>
+     </templet>
+     <templet id="15" fromTable="      dc.DC_E_BSS_CELL_CS_RAW " toTable="CLT_PM_ERI_G10_CELLSQI" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="TSQIGOOD" src="CELLSQI_TSQIGOOD"/>
+      <column dest="TSQIGOODSUB" src="CELLSQI_TSQIGOODSUB"/>
+      <column dest="TSQIACCPT" src="CELLSQI_TSQIACCPT"/>
+      <column dest="TSQIACCPTSUB" src="CELLSQI_TSQIACCPTSUB"/>
+      <column dest="TSQIBAD" src="CELLSQI_TSQIBAD"/>
+      <column dest="TSQIBADSUB" src="CELLSQI_TSQIBADSUB"/>
+      <column dest="TSQIGOODAF" src="CELLSQI_TSQIGOODAF"/>
+      <column dest="TSQIGOODAH" src="CELLSQI_TSQIGOODAH"/>
+      <column dest="TSQIGOODSUBAF" src="CELLSQI_TSQIGOODSUBAF"/>
+      <column dest="TSQIGOODSUBAH" src="CELLSQI_TSQIGOODSUBAH"/>
+      <column dest="TSQIACCPTAF" src="CELLSQI_TSQIACCPTAF"/>
+      <column dest="TSQIACCPTAH" src="CELLSQI_TSQIACCPTAH"/>
+      <column dest="TSQIACCPTSUBAF" src="CELLSQI_TSQIACCPTSUBAF"/>
+      <column dest="TSQIACCPTSUBAH" src="CELLSQI_TSQIACCPTSUBAH"/>
+      <column dest="TSQIBADAF" src="CELLSQI_TSQIBADAF"/>
+      <column dest="TSQIBADAH" src="CELLSQI_TSQIBADAH"/>
+      <column dest="TSQIBADSUBAF" src="CELLSQI_TSQIBADSUBAF"/>
+      <column dest="TSQIBADSUBAH" src="CELLSQI_TSQIBADSUBAH"/>
+      <column dest="TSQIGOODAW" src="CELLSQI_TSQIGOODAW"/>
+      <column dest="TSQIGOODSUBAW" src="CELLSQI_TSQIGOODSUBAW"/>
+      <column dest="TSQIACCPTAW" src="CELLSQI_TSQIACCPTAW"/>
+      <column dest="TSQIACCPTSUBAW" src="CELLSQI_TSQIACCPTSUBAW"/>
+      <column dest="TSQIBADAW" src="CELLSQI_TSQIBADAW"/>
+      <column dest="TSQIBADSUBAW" src="CELLSQI_TSQIBADSUBAW"/>
+     </mapping>
+     </templet>
+     <templet id="16" fromTable="   dc.DC_E_BSS_CELL_CS_RAW                           " toTable="CLT_PM_ERI_G10_CELTCHF" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="TFNDROP" src="CELTCHF_TFNDROP"/>
+     <column dest="TFCASSALL" src="CELTCHF_TFCASSALL"/>
+     <column dest="TFMSESTB" src="CELTCHF_TFMSESTB"/>
+     <column dest="TFMSESTBSUB" src="CELTCHF_TFMSESTBSUB"/>
+     <column dest="TFCALLS" src="CELTCHF_TFCALLS"/>
+     <column dest="TFCALLSSUB" src="CELTCHF_TFCALLSSUB"/>
+     <column dest="TFTCONGS" src="CELTCHF_TFTCONGS"/>
+     <column dest="TFTCONSUB" src="CELTCHF_TFTCONSUB"/>
+     <column dest="TFTRALACC" src="CELTCHF_TFTRALACC"/>
+     <column dest="TFNSCAN" src="CELTCHF_TFNSCAN"/>
+     <column dest="TFTRALSUB" src="CELTCHF_TFTRALSUB"/>
+     <column dest="TFNDROPSUB" src="CELTCHF_TFNDROPSUB"/>
+     <column dest="TFCASSALLSUB" src="CELTCHF_TFCASSALLSUB"/>
+     <column dest="TFCONGSAS" src="CELTCHF_TFCONGSAS"/>
+     <column dest="TFCONGSASSUB" src="CELTCHF_TFCONGSASSUB"/>
+     <column dest="TFCONGSHO" src="CELTCHF_TFCONGSHO"/>
+     <column dest="TFCONGSHOSUB" src="CELTCHF_TFCONGSHOSUB"/>
+     <column dest="TFNRELCONG" src="CELTCHF_TFNRELCONG"/>
+     <column dest="TFNRELCONGSUB" src="CELTCHF_TFNRELCONGSUB"/>
+     <column dest="TFTHARDCONGS" src="CELTCHF_TFTHARDCONGS"/>
+     <column dest="TFTHARDCONGSSUB" src="CELTCHF_TFTHARDCONGSSUB"/>
+     <column dest="TFNCEDROP" src="CELTCHF_TFNCEDROP"/>
+     <column dest="TFNCEDROPSUB" src="CELTCHF_TFNCEDROPSUB"/>
+     </mapping>
+     </templet>     
+     <templet id="17" fromTable="dc.DC_E_BSS_CELL2_RAW " toTable="CLT_PM_ERI_G10_CELTCHFP" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL2_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>  
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="TFESTPGSMSUB" src="CELTCHFP_TFESTPGSMSUB"/>
+     <column dest="TFESTPGSM" src="CELTCHFP_TFESTPGSM"/>
+     <column dest="TFDROPPGSMSUB" src="CELTCHFP_TFDROPPGSMSUB"/>
+     <column dest="TFDROPPGSM" src="CELTCHFP_TFDROPPGSM"/>
+     <column dest="TFCONGPGSMSUB" src="CELTCHFP_TFCONGPGSMSUB"/>
+     <column dest="TFCONGPGSM" src="CELTCHFP_TFCONGPGSM"/>
+     <column dest="TFTRALPACCSUB" src="CELTCHFP_TFTRALPACCSUB"/>
+     <column dest="TFTRALPACC" src="CELTCHFP_TFTRALPACC"/>
+     <column dest="TFNSCAN" src="CELTCHFP_TFNSCAN"/>	 
+     </mapping> 
+     </templet>     
+     <templet id="18" fromTable="dc.DC_E_BSS_CELL_CS_RAW " toTable="CLT_PM_ERI_G10_CELTCHH" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="THNDROP" src="CELTCHH_THNDROP"/>
+      <column dest="THCASSALL" src="CELTCHH_THCASSALL"/>
+      <column dest="THMSESTB" src="CELTCHH_THMSESTB"/>
+      <column dest="THMSESTBSUB" src="CELTCHH_THMSESTBSUB"/>
+      <column dest="THCALLS" src="CELTCHH_THCALLS"/>
+      <column dest="THCALLSSUB" src="CELTCHH_THCALLSSUB"/>
+      <column dest="THTCONGS" src="CELTCHH_THTCONGS"/>
+      <column dest="THTCONSUB" src="CELTCHH_THTCONSUB"/>
+      <column dest="THTRALACC" src="CELTCHH_THTRALACC"/>
+      <column dest="THNSCAN" src="CELTCHH_THNSCAN"/>
+      <column dest="THTRALSUB" src="CELTCHH_THTRALSUB"/>
+      <column dest="THNDROPSUB" src="CELTCHH_THNDROPSUB"/>
+      <column dest="THCASSALLSUB" src="CELTCHH_THCASSALLSUB"/>
+      <column dest="THCONGSAS" src="CELTCHH_THCONGSAS"/>
+      <column dest="THCONGSASSUB" src="CELTCHH_THCONGSASSUB"/>
+      <column dest="THCONGSHO" src="CELTCHH_THCONGSHO"/>
+      <column dest="THCONGSHOSUB" src="CELTCHH_THCONGSHOSUB"/>
+      <column dest="THNRELCONG" src="CELTCHH_THNRELCONG"/>
+      <column dest="THNRELCONGSUB" src="CELTCHH_THNRELCONGSUB"/>
+      <column dest="THTHARDCONGS" src="CELTCHH_THTHARDCONGS"/>
+      <column dest="THTHARDCONSUB" src="CELTCHH_THTHARDCONSUB"/>
+      <column dest="THNCEDROP" src="CELTCHH_THNCEDROP"/>
+      <column dest="THNCEDROPSUB" src="CELTCHH_THNCEDROPSUB"/>
+     </mapping>
+     </templet>
+   
+     <templet id="19" fromTable="dc.DC_E_BSS_CELL_CS_RAW  " toTable="CLT_PM_ERI_G10_CLSDCCH" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="CCALLS" src="CLSDCCH_CCALLS"/>
+      <column dest="CCONGS" src="CLSDCCH_CCONGS"/>
+      <column dest="CTCONGS" src="CLSDCCH_CTCONGS"/>
+      <column dest="CTRALACC" src="CLSDCCH_CTRALACC"/>
+      <column dest="CNSCAN" src="CLSDCCH_CNSCAN"/>
+      <column dest="CNDROP" src="CLSDCCH_CNDROP"/>
+      <column dest="CNUCHCNT" src="CLSDCCH_CNUCHCNT"/>
+      <column dest="CAVAACC" src="CLSDCCH_CAVAACC"/>
+      <column dest="CAVASCAN" src="CLSDCCH_CAVASCAN"/>
+      <column dest="CMSESTAB" src="CLSDCCH_CMSESTAB"/>
+      <column dest="CNRELCONG" src="CLSDCCH_CNRELCONG"/>
+      <column dest="CSCSTCONG" src="CLSDCCH_CSCSTCONG"/>
+      <column dest="CSCSOPTCONG" src="CLSDCCH_CSCSOPTCONG"/>
+      <column dest="CESTCHACTIV" src="CLSDCCH_CESTCHACTIV"/>
+      <column dest="CESTIMMASS" src="CLSDCCH_CESTIMMASS"/>
+      </mapping>
+     </templet>
+    
+     <templet id="20" fromTable="dc.DC_E_BSS_CELL_CS_RAW   " toTable="CLT_PM_ERI_G10_CLTCH" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="TNUCHCNT" src="CLTCH_TNUCHCNT"/>
+      <column dest="TNUCHSUB" src="CLTCH_TNUCHSUB"/>
+      <column dest="TAVAACC" src="CLTCH_TAVAACC"/>
+      <column dest="TAVASCAN" src="CLTCH_TAVASCAN"/>
+      <column dest="TAVASUB" src="CLTCH_TAVASUB"/>
+      <column dest="TAVASCANSUB" src="CLTCH_TAVASCANSUB"/>
+      <column dest="TASSALL" src="CLTCH_TASSALL"/>
+      <column dest="TCASSALL" src="CLTCH_TCASSALL"/>
+      <column dest="NONAVFCH" src="CLTCH_NONAVFCH"/>
+      <column dest="NONAVHCH" src="CLTCH_NONAVHCH"/>
+      <column dest="TASSATT" src="CLTCH_TASSATT"/>
+      <column dest="TCHSIG" src="CLTCH_TCHSIG"/>
+      <column dest="OVERLOADREJCON" src="CLTCH_OVERLOADREJCON"/>
+     </mapping>
+     </templet>
+     
+     <templet id="21" fromTable="dc.DC_E_BSS_CELL_CS_RAW    " toTable="CLT_PM_ERI_G10_CLTCHDRF" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="TFDISQA" src="CLTCHDRF_TFDISQA"/>
+     <column dest="TFDISTA" src="CLTCHDRF_TFDISTA"/>
+     <column dest="TFDISSS1" src="CLTCHDRF_TFDISSS1"/>
+     <column dest="TFDISSS2" src="CLTCHDRF_TFDISSS2"/>
+     <column dest="TFDISSS3" src="CLTCHDRF_TFDISSS3"/>
+     <column dest="TFDISSS4" src="CLTCHDRF_TFDISSS4"/>
+     <column dest="TFDISSS5" src="CLTCHDRF_TFDISSS5"/>
+     <column dest="TFSUDLOS" src="CLTCHDRF_TFSUDLOS"/>
+     <column dest="TFSUDLOSSUB" src="CLTCHDRF_TFSUDLOSSUB"/>
+     <column dest="TFDISSDL" src="CLTCHDRF_TFDISSDL"/>
+     <column dest="TFDISSDLSUB" src="CLTCHDRF_TFDISSDLSUB"/>
+     <column dest="TFDISSUL" src="CLTCHDRF_TFDISSUL"/>
+     <column dest="TFDISSULSUB" src="CLTCHDRF_TFDISSULSUB"/>
+     <column dest="TFDISSBL" src="CLTCHDRF_TFDISSBL"/>
+     <column dest="TFDISSBLSUB" src="CLTCHDRF_TFDISSBLSUB"/>
+     <column dest="TFDISQADL" src="CLTCHDRF_TFDISQADL"/>
+     <column dest="TFDISQADLSUB" src="CLTCHDRF_TFDISQADLSUB"/>
+     <column dest="TFDISQAUL" src="CLTCHDRF_TFDISQAUL"/>
+     <column dest="TFDISQAULSUB" src="CLTCHDRF_TFDISQAULSUB"/>
+     <column dest="TFDISQABL" src="CLTCHDRF_TFDISQABL"/>
+     <column dest="TFDISQABLSUB" src="CLTCHDRF_TFDISQABLSUB"/>
+     <column dest="TFDISFERUL" src="CLTCHDRF_TFDISFERUL"/>
+     <column dest="TFDISFERDL" src="CLTCHDRF_TFDISFERDL"/>
+     <column dest="TFDISFERBL" src="CLTCHDRF_TFDISFERBL"/>
+     <column dest="TFDISFERULSUB" src="CLTCHDRF_TFDISFERULSUB"/>
+     <column dest="TFDISFERDLSUB" src="CLTCHDRF_TFDISFERDLSUB"/>
+     <column dest="TFDISFERBLSUB" src="CLTCHDRF_TFDISFERBLSUB"/>
+	   </mapping>
+     </templet>
+     
+     <templet id="22" fromTable="dc.DC_E_BSS_CELL_CS_RAW     " toTable="CLT_PM_ERI_G10_CLTCHDRH" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping> 
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="THDISQA" src="CLTCHDRH_THDISQA"/>
+      <column dest="THDISTA" src="CLTCHDRH_THDISTA"/>
+      <column dest="THDISSS1" src="CLTCHDRH_THDISSS1"/>
+      <column dest="THDISSS2" src="CLTCHDRH_THDISSS2"/>
+      <column dest="THDISSS3" src="CLTCHDRH_THDISSS3"/>
+      <column dest="THDISSS4" src="CLTCHDRH_THDISSS4"/>
+      <column dest="THDISSS5" src="CLTCHDRH_THDISSS5"/>
+      <column dest="THSUDLOS" src="CLTCHDRH_THSUDLOS"/>
+      <column dest="THSUDLOSSUB" src="CLTCHDRH_THSUDLOSSUB"/>
+      <column dest="THDISSDL" src="CLTCHDRH_THDISSDL"/>
+      <column dest="THDISSDLSUB" src="CLTCHDRH_THDISSDLSUB"/>
+      <column dest="THDISSUL" src="CLTCHDRH_THDISSUL"/>
+      <column dest="THDISSULSUB" src="CLTCHDRH_THDISSULSUB"/>
+      <column dest="THDISSBL" src="CLTCHDRH_THDISSBL"/>
+      <column dest="THDISSBLSUB" src="CLTCHDRH_THDISSBLSUB"/>
+      <column dest="THDISQADL" src="CLTCHDRH_THDISQADL"/>
+      <column dest="THDISQADLSUB" src="CLTCHDRH_THDISQADLSUB"/>
+      <column dest="THDISQAUL" src="CLTCHDRH_THDISQAUL"/>
+      <column dest="THDISQAULSUB" src="CLTCHDRH_THDISQAULSUB"/>
+      <column dest="THDISQABL" src="CLTCHDRH_THDISQABL"/>
+      <column dest="THDISQABLSUB" src="CLTCHDRH_THDISQABLSUB"/>
+      <column dest="THDISFERUL" src="CLTCHDRH_THDISFERUL"/>
+      <column dest="THDISFERDL" src="CLTCHDRH_THDISFERDL"/>
+      <column dest="THDISFERBL" src="CLTCHDRH_THDISFERBL"/>
+      <column dest="THDISFERULSUB" src="CLTCHDRH_THDISFERULSUB"/>
+      <column dest="THDISFERDLSUB" src="CLTCHDRH_THDISFERDLSUB"/>
+      <column dest="THDISFERBLSUB" src="CLTCHDRH_THDISFERBLSUB"/>
+      </mapping>
+     </templet>
+     
+     <templet id="23" fromTable="dc.DC_E_BSS_CELL_CS_RAW      " toTable="CLT_PM_ERI_G10_IDLEUTCHF" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="NOACCUF" src="IDLEUTCHF_NOACCUF"/>
+      <column dest="ITFUSIB1" src="IDLEUTCHF_ITFUSIB1"/>
+      <column dest="ITFUSIB2" src="IDLEUTCHF_ITFUSIB2"/>
+      <column dest="ITFUSIB3" src="IDLEUTCHF_ITFUSIB3"/>
+      <column dest="ITFUSIB4" src="IDLEUTCHF_ITFUSIB4"/>
+      <column dest="ITFUSIB5" src="IDLEUTCHF_ITFUSIB5"/>
+     </mapping>
+     </templet>
+     
+     <templet id="24" fromTable=" dc.DC_E_BSS_CELL_CS_RAW " toTable="CLT_PM_ERI_G10_IDLEUTCHH" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="NOACCUH" src="IDLEUTCHH_NOACCUH"/>
+      <column dest="ITHUSIB1" src="IDLEUTCHH_ITHUSIB1"/>
+      <column dest="ITHUSIB2" src="IDLEUTCHH_ITHUSIB2"/>
+      <column dest="ITHUSIB3" src="IDLEUTCHH_ITHUSIB3"/>
+      <column dest="ITHUSIB4" src="IDLEUTCHH_ITHUSIB4"/>
+      <column dest="ITHUSIB5" src="IDLEUTCHH_ITHUSIB5"/>
+     </mapping>
+     </templet>
+     
+     <templet id="25" fromTable="dc.DC_E_BSS_LAPD_RAW " toTable="CLT_PM_ERI_G10_LAPD" used="1" condition=""><sql>select * from dc.DC_E_BSS_LAPD_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="BSC"/>
+      <column dest="CBADFRAME" src="CBADFRAME"/>
+      <column dest="CTRIFRAME" src="CTRIFRAME"/>
+      <column dest="CRECIFRAME" src="CRECIFRAME"/>
+      <column dest="CRETRANSM" src="CRETRANSM"/>
+      <column dest="COVERLOAD" src="COVERLOAD"/>
+      <column dest="CLINKFAIL" src="CLINKFAIL"/>
+      <column dest="CPROCOLERR" src="CPROCOLERR"/>
+      </mapping>
+     </templet>
+
+     <templet id="26" fromTable="dc.DC_E_CMN_STS_TOT_RAW  " toTable="CLT_PM_ERI_G10_LOAS" used="1" condition=""><sql>select * from dc.DC_E_CMN_STS_TOT_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="ELEM"/>
+      <column dest="ACCLOAD" src="LOAS_ACCLOAD"/>
+      <column dest="NSCAN" src="LOAS_NSCAN"/>
+      <column dest="NOFFORG" src="LOAS_NOFFORG"/>
+      <column dest="NOFFIEX" src="LOAS_NOFFIEX"/>
+      <column dest="NFTDORG" src="LOAS_NFTDORG"/>
+      <column dest="NFTDIEX" src="LOAS_NFTDIEX"/>
+      <column dest="NOFFMLO" src="LOAS_NOFFMLO"/>
+      <column dest="NOFFMHI" src="LOAS_NOFFMHI"/>
+      <column dest="NFTDMLO" src="LOAS_NFTDMLO"/>
+      <column dest="NFTDMHI" src="LOAS_NFTDMHI"/>
+      <column dest="NCAPREQCNT" src="LOAS_NCAPREQCNT"/>
+      <column dest="NCAPREJCNT" src="LOAS_NCAPREJCNT"/>
+      <column dest="NOFFPRIO" src="LOAS_NOFFPRIO"/>
+      <column dest="NOFFNPRIO" src="LOAS_NOFFNPRIO"/>
+      <column dest="NFTDPRIO" src="LOAS_NFTDPRIO"/>
+      <column dest="NFTDNPRIO" src="LOAS_NFTDNPRIO"/>
+      <column dest="NOFFTCAP" src="LOAS_NOFFTCAP"/>
+      <column dest="NFTDTCAP" src="LOAS_NFTDTCAP"/>    
+     </mapping>    
+     </templet>
+     <templet id="27" fromTable="dc.DC_E_BSS_TG_RAW   " toTable="CLT_PM_ERI_G10_MOTG" used="1" condition=""><sql>select * from dc.DC_E_BSS_TG_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="BSC"/>                       
+      <column dest="INTERCNT" src="MOTG_INTERCNT"/>    
+      <column dest="TRASYNCCNT" src="MOTG_TRASYNCCNT"/>
+     </mapping>
+     </templet>
+     <templet id="28" fromTable="dc.DC_E_BSS_TRXC_RAW    " toTable="CLT_PM_ERI_G10_MOTS" used="1" condition=""><sql>select * from dc.DC_E_BSS_TRXC_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO"   src="BSC"/>         
+     <column dest="CONERRCNT"   src="CONERRCNT0"/> 
+     <column dest="CONERRCNT1"   src="CONERRCNT1"/> 
+     <column dest="CONERRCNT2"   src="CONERRCNT2"/> 
+     <column dest="CONERRCNT3"   src="CONERRCNT3"/> 
+     <column dest="CONERRCNT4"   src="CONERRCNT4"/> 
+     <column dest="CONERRCNT5"   src="CONERRCNT5"/> 
+     <column dest="CONERRCNT6"   src="CONERRCNT6"/> 
+     <column dest="CONERRCNT7"   src="CONERRCNT7"/> 
+     <column dest="CONCNT"      src="CONCNT0"/>
+     <column dest="CONCNT1"      src="CONCNT1"/>
+     <column dest="CONCNT2"      src="CONCNT2"/>
+     <column dest="CONCNT3"      src="CONCNT3"/>
+     <column dest="CONCNT4"      src="CONCNT4"/>
+     <column dest="CONCNT5"      src="CONCNT5"/>
+     <column dest="CONCNT6"      src="CONCNT6"/>
+     <column dest="CONCNT7"      src="CONCNT7"/>    
+     </mapping>
+     </templet>
+     
+     <templet id="29" fromTable="    dc.DC_E_BSS_CELL_CS_RAW        " toTable="CLT_PM_ERI_G10_RANDOMACC" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="CNROCNT" src="RANDOMACC_CNROCNT"/>
+     <column dest="RAACCFA" src="RANDOMACC_RAACCFA"/>
+     <column dest="RAEMCAL" src="RANDOMACC_RAEMCAL"/>
+     <column dest="RACALRE" src="RANDOMACC_RACALRE"/>
+     <column dest="RAANPAG" src="RANDOMACC_RAANPAG"/>
+     <column dest="RAOSREQ" src="RANDOMACC_RAOSREQ"/>
+     <column dest="RAOTHER" src="RANDOMACC_RAOTHER"/>
+     <column dest="RATRHFAEMCAL" src="RANDOMACC_RATRHFAEMCAL"/>
+     <column dest="RATRHFAOTHER" src="RANDOMACC_RATRHFAOTHER"/>
+     <column dest="RATRHFAREG" src="RANDOMACC_RATRHFAREG"/>
+     <column dest="RATRHFAANPAG" src="RANDOMACC_RATRHFAANPAG"/>
+     </mapping>
+     </templet>
+     <templet id="30" fromTable="  dc.DC_E_BSS_CELL_PS_RAW" toTable="CLT_PM_ERI_G10_RLINKBITR" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="INT8BRGPRSTBF" src="RLINKBITR_INT8BRGPRSTBF"/>
+     <column dest="INT10BRGPRSTBF" src="RLINKBITR_INT10BRGPRSTBF"/>
+     <column dest="INT12BRGPRSTBF" src="RLINKBITR_INT12BRGPRSTBF"/>
+     <column dest="INT14BRGPRSTBF" src="RLINKBITR_INT14BRGPRSTBF"/>
+     <column dest="INT16BRGPRSTBF" src="RLINKBITR_INT16BRGPRSTBF"/>
+     <column dest="INT18BRGPRSTBF" src="RLINKBITR_INT18BRGPRSTBF"/>
+     <column dest="INT10BREGPRSTBF" src="RLINKBITR_INT10BREGPRSTBF"/>
+     <column dest="INT15BREGPRSTBF" src="RLINKBITR_INT15BREGPRSTBF"/>
+     <column dest="INT20BREGPRSTBF" src="RLINKBITR_INT20BREGPRSTBF"/>
+     <column dest="INT25BREGPRSTBF" src="RLINKBITR_INT25BREGPRSTBF"/>
+     <column dest="INT30BREGPRSTBF" src="RLINKBITR_INT30BREGPRSTBF"/>
+     <column dest="INT35BREGPRSTBF" src="RLINKBITR_INT35BREGPRSTBF"/>
+     <column dest="INT40BREGPRSTBF" src="RLINKBITR_INT40BREGPRSTBF"/>
+     <column dest="INT45BREGPRSTBF" src="RLINKBITR_INT45BREGPRSTBF"/>
+     <column dest="INT50BREGPRSTBF" src="RLINKBITR_INT50BREGPRSTBF"/>
+     <column dest="INT55BREGPRSTBF" src="RLINKBITR_INT55BREGPRSTBF"/>
+     </mapping>
+     </templet>
+
+     <templet id="31" fromTable="   dc.DC_E_BSS_CELL_PS_RAW" toTable="CLT_PM_ERI_G10_TRAFDLGPRS" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="TRAFFDLGPRSSCAN" src="TRAFDLGPRS_TRAFFDLGPRSSCAN"/>
+     <column dest="TBFDLGPRS" src="TRAFDLGPRS_TBFDLGPRS"/>
+     <column dest="TBFDLEGPRS" src="TRAFDLGPRS_TBFDLEGPRS"/>
+     <column dest="DLBPDCH" src="TRAFDLGPRS_DLBPDCH"/>
+     <column dest="DLGPDCH" src="TRAFDLGPRS_DLGPDCH"/>
+     <column dest="DLEPDCH" src="TRAFDLGPRS_DLEPDCH"/>
+     <column dest="DLTBFPBPDCH" src="TRAFDLGPRS_DLTBFPBPDCH"/>
+     <column dest="DLTBFPGPDCH" src="TRAFDLGPRS_DLTBFPGPDCH"/>
+     <column dest="DLTBFPEPDCH" src="TRAFDLGPRS_DLTBFPEPDCH"/>
+     <column dest="STRBPDCH" src="TRAFDLGPRS_STRBPDCH"/>
+     <column dest="STRGPDCH" src="TRAFDLGPRS_STRGPDCH"/>
+     <column dest="STREPDCH" src="TRAFDLGPRS_STREPDCH"/>
+     <column dest="QOSWDLBASIC" src="TRAFDLGPRS_QOSWDLBASIC"/>
+     <column dest="QOSWDLGPRS" src="TRAFDLGPRS_QOSWDLGPRS"/>
+     <column dest="QOSWDLEGPRS" src="TRAFDLGPRS_QOSWDLEGPRS"/>
+     <column dest="DLACTBPDCH" src="TRAFDLGPRS_DLACTBPDCH"/>
+     <column dest="DLACTGPDCH" src="TRAFDLGPRS_DLACTGPDCH"/>
+     <column dest="DLACTEPDCH" src="TRAFDLGPRS_DLACTEPDCH"/>
+     <column dest="DLACTTBFPBPDCH" src="TRAFDLGPRS_DLACTTBFPBPDCH"/>
+     <column dest="DLACTTBFPGPDCH" src="TRAFDLGPRS_DLACTTBFPGPDCH"/>
+     <column dest="DLACTTBFPEPDCH" src="TRAFDLGPRS_DLACTTBFPEPDCH"/>
+     <column dest="GNOETBFONPDCH" src="TRAFDLGPRS_GNOETBFONPDCH"/>
+     <column dest="GETBFONPDCH" src="TRAFDLGPRS_GETBFONPDCH"/>
+     <column dest="EPDCHGE" src="TRAFDLGPRS_EPDCHGE"/>
+     </mapping>
+     </templet>
+
+     <templet id="32" fromTable="    dc.DC_E_BSS_CELL_PS_RAW                            " toTable="CLT_PM_ERI_G10_TRAFGPRS2" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="TRAFF2BTBFSCAN" src="TRAFGPRS2_TRAFF2BTBFSCAN"/>
+     <column dest="TRAFF2GTBFSCAN" src="TRAFGPRS2_TRAFF2GTBFSCAN"/>
+     <column dest="TRAFF2ETBFSCAN" src="TRAFGPRS2_TRAFF2ETBFSCAN"/>
+     <column dest="MUTILBASIC" src="TRAFGPRS2_MUTILBASIC"/>
+     <column dest="MUTILGPRS" src="TRAFGPRS2_MUTILGPRS"/>
+     <column dest="MUTILEGPRS" src="TRAFGPRS2_MUTILEGPRS"/>
+     <column dest="MAXGTSDL" src="TRAFGPRS2_MAXGTSDL"/>
+     <column dest="MUTIL14" src="TRAFGPRS2_MUTIL14"/>
+     <column dest="MUTIL24" src="TRAFGPRS2_MUTIL24"/>
+     <column dest="MUTIL34" src="TRAFGPRS2_MUTIL34"/>
+     <column dest="MUTIL44" src="TRAFGPRS2_MUTIL44"/>
+     <column dest="MUTIL13" src="TRAFGPRS2_MUTIL13"/>
+     <column dest="MUTIL23" src="TRAFGPRS2_MUTIL23"/>
+     <column dest="MUTIL33" src="TRAFGPRS2_MUTIL33"/>
+     <column dest="MUTIL12" src="TRAFGPRS2_MUTIL12"/>
+     <column dest="MUTIL22" src="TRAFGPRS2_MUTIL22"/>
+     <column dest="TRAFGPRS2SCAN" src="TRAFGPRS2_TRAFGPRS2SCAN"/>
+     <column dest="MAXEGTSDL" src="TRAFGPRS2_MAXEGTSDL"/>
+     <column dest="TBFDLGPRSCAP" src="TRAFGPRS2_TBFDLGPRSCAP"/>
+     <column dest="TBFDLEGPRSCAP" src="TRAFGPRS2_TBFDLEGPRSCAP"/>
+     <column dest="MUTIL15" src="TRAFGPRS2_MUTIL15"/>
+     <column dest="MUTIL25" src="TRAFGPRS2_MUTIL25"/>
+     <column dest="MUTIL35" src="TRAFGPRS2_MUTIL35"/>
+     <column dest="MUTIL45" src="TRAFGPRS2_MUTIL45"/>
+     <column dest="MUTIL55" src="TRAFGPRS2_MUTIL55"/>
+     <column dest="MAXTSDL" src="TRAFGPRS2_MAXGTSDL"/>
+     </mapping>
+     </templet>
+
+     <templet id="33" fromTable="            dc.DC_E_BSS_CELL_PS_RAW" toTable="CLT_PM_ERI_G10_TRAFULGPRS" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_PS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+      <mapping>
+      <column dest="ULACTGPDC" src="TRAFULGPRS_ULACTGPDCH"/>
+      <column dest="MO" src="CELL_NAME"/>
+      <column dest="TRAFFULGPRSSCAN" src="TRAFULGPRS_TRAFFULGPRSSCAN"/>
+      <column dest="TBFULGPRS" src="TRAFULGPRS_TBFULGPRS"/>
+      <column dest="TBFULEGPRS" src="TRAFULGPRS_TBFULEGPRS"/>
+      <column dest="ULBPDCH" src="TRAFULGPRS_ULBPDCH"/>
+      <column dest="ULGPDCH" src="TRAFULGPRS_ULGPDCH"/>
+      <column dest="ULEPDCH" src="TRAFULGPRS_ULEPDCH"/>
+      <column dest="ULTBFPBPDCH" src="TRAFULGPRS_ULTBFPBPDCH"/>
+      <column dest="ULTBFPGPDCH" src="TRAFULGPRS_ULTBFPGPDCH"/>
+      <column dest="ULTBFPEPDCH" src="TRAFULGPRS_ULTBFPEPDCH"/>
+      <column dest="QOSWULBASIC" src="TRAFULGPRS_QOSWULBASIC"/>
+      <column dest="QOSWULGPRS" src="TRAFULGPRS_QOSWULGPRS"/>
+      <column dest="QOSWULEGPRS" src="TRAFULGPRS_QOSWULEGPRS"/>
+      <column dest="ULACTBPDCH" src="TRAFULGPRS_ULACTBPDCH"/>
+      <column dest="ULACTGPDCH" src="TRAFULGPRS_ULACTGPDCH"/>
+      <column dest="ULACTEPDCH" src="TRAFULGPRS_ULACTEPDCH"/>
+      <column dest="ULACTTBFPBPDCH" src="TRAFULGPRS_ULACTTBFPBPDCH"/>
+      <column dest="ULACTTBFPGPDCH" src="TRAFULGPRS_ULACTTBFPGPDCH"/>
+      <column dest="ULACTTBFPEPDCH" src="TRAFULGPRS_ULACTTBFPEPDCH"/>
+	    </mapping>
+     </templet>
+     
+     <templet id="34" fromTable="dc.DC_E_BSS_TRC_RAW " toTable="CLT_PM_ERI_G10_TRAPCOM" used="1" condition=""><sql>select * from dc.DC_E_BSS_TRC_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="TRC"/>
+     <column dest="FRV1UNATT" src="TRAPCOM_FRV1UNATT"/>
+     <column dest="FRV2UNATT" src="TRAPCOM_FRV2UNATT"/>
+     <column dest="FRV3UNATT" src="TRAPCOM_FRV3UNATT"/>
+     <column dest="HRV1UNATT" src="TRAPCOM_HRV1UNATT"/>
+     <column dest="HRV2UNATT" src="TRAPCOM_HRV2UNATT"/>
+     <column dest="HRV3UNATT" src="TRAPCOM_HRV3UNATT"/>
+     <column dest="FRV5UNATT" src="TRAPCOM_FRV5UNATT"/>
+     </mapping>
+     </templet>
+
+     <templet id="35" fromTable="dc.DC_E_CMN_STS_TRAPEVENT_RAW   " toTable="CLT_PM_ERI_G10_TRAPEVENT" used="1" condition=""><sql>select * from dc.DC_E_CMN_STS_TRAPEVENT_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="ELEM"/>
+     <column dest="TPACC" src="TPACC"/>
+     <column dest="TPACTTR" src="TPACTTR"/>
+     <column dest="TPAVTR" src="TPAVTR"/>
+     <column dest="TPIDLTR" src="TPIDLTR"/>
+     <column dest="TPALLOC" src="TPALLOC"/>
+     <column dest="TPCONG" src="TPCONG"/>
+     <column dest="TPCTIME" src="TPCTIME"/>
+     <column dest="TPSYNCF" src="TPSYNCF"/>
+     <column dest="TPTFOESTATT" src="TPTFOESTATT"/>
+     <column dest="TPTFOEST" src="TPTFOEST"/>
+     <column dest="TPTFOTIME" src="TPTFOTIME"/>
+     <column dest="TPTFOOPETIME" src="TPTFOOPETIME"/>     	
+     </mapping>
+     </templet>
+
+     <templet id="36" fromTable="dc.DC_E_BSS_CELL_CS_RAW                                 " toTable="CLT_PM_ERI_G10_IDLEOTCHF" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping> 
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="NOACCOF" src="IDLEOTCHF_NOACCOF"/>
+      <column dest="ITFOSIB1" src="IDLEOTCHF_ITFOSIB1"/>
+      <column dest="ITFOSIB2" src="IDLEOTCHF_ITFOSIB2"/>
+      <column dest="ITFOSIB3" src="IDLEOTCHF_ITFOSIB3"/>
+      <column dest="ITFOSIB4" src="IDLEOTCHF_ITFOSIB4"/>
+      <column dest="ITFOSIB5" src="IDLEOTCHF_ITFOSIB5"/>
+     </mapping>
+     </templet>
+
+     <templet id="37" fromTable="                    dc.DC_E_BSS_CELL_CS_RAW " toTable="CLT_PM_ERI_G10_IDLEOTCHH" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="NOACCOH" src="IDLEOTCHH_NOACCOH"/>
+     <column dest="ITHOSIB1" src="IDLEOTCHH_ITHOSIB1"/>
+     <column dest="ITHOSIB2" src="IDLEOTCHH_ITHOSIB2"/>
+     <column dest="ITHOSIB3" src="IDLEOTCHH_ITHOSIB3"/>
+     <column dest="ITHOSIB4" src="IDLEOTCHH_ITHOSIB4"/>
+     <column dest="ITHOSIB5" src="IDLEOTCHH_ITHOSIB5"/> 
+     </mapping>
+     </templet>
+
+     <templet id="38" fromTable="  dc.DC_E_CNAXE_MSC_RAW " toTable="CLT_PM_ERI_G10_PAGING" used="1" condition=""><sql>select * from dc.DC_E_CNAXE_MSC_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="ELEM"/>
+     <column dest="NPAG1LOTOT" src="PAGING_NPAG1LOTOT"/>
+     <column dest="NPAG1GLTOT" src="PAGING_NPAG1GLTOT"/>
+     <column dest="NPAG2LOTOT" src="PAGING_NPAG2LOTOT"/>
+     <column dest="NPAG2GLTOT" src="PAGING_NPAG2GLTOT"/>
+     <column dest="NPAG1RESUCC" src="PAGING_NPAG1RESUCC"/>
+     <column dest="NPAG2RESUCC" src="PAGING_NPAG2RESUCC"/>
+     <column dest="NPAGERR" src="PAGING_NPAGERR"/>
+     <column dest="NPAG1GPRSTOT" src="PAGING_NPAG1GPRSTOT"/>
+     <column dest="NPAG2GPRSTOT" src="PAGING_NPAG2GPRSTOT"/>
+     <column dest="NPAG1GPRSSUCC" src="PAGING_NPAG1GPRSSUCC"/>
+     <column dest="NPAG2GPRSSUCC" src="PAGING_NPAG2GPRSSUCC"/>
+     <column dest="NPAGGPRSFAIL" src="PAGING_NPAGGPRSFAIL"/>
+     <column dest="NMSUNREACHGPRS" src="PAGING_NMSUNREACHGPRS"/>
+     <column dest="NPAGSMSTOT" src="PAGING_NPAGSMSTOT"/>
+     <column dest="NPAGSMSRES" src="PAGING_NPAGSMSRES"/>
+     <column dest="NPAG1LOUTOT" src="PAGING_NPAG1LOUTOT"/>
+     <column dest="NPAG1GLUTOT" src="PAGING_NPAG1GLUTOT"/>
+     <column dest="NPAG2LOUTOT" src="PAGING_NPAG2LOUTOT"/>
+     <column dest="NPAG2GLUTOT" src="PAGING_NPAG2GLUTOT"/>
+     <column dest="NPAG1REUSUCC" src="PAGING_NPAG1REUSUCC"/>
+     <column dest="NPAG2REUSUCC" src="PAGING_NPAG2REUSUCC"/>
+     <column dest="NPAGUERR" src="PAGING_NPAGUERR"/>
+     <column dest="NPAGAREIU" src="PAGING_NPAGAREIU"/>
+     <column dest="NPAGIUREA" src="PAGING_NPAGIUREA"/>
+     <column dest="NSISPTOT" src="PAGING_NSISPTOT"/>
+     <column dest="NSISPSUCC" src="PAGING_NSISPSUCC"/>
+     <column dest="NBISPTOT" src="PAGING_NBISPTOT"/>
+     <column dest="NBISPSUCC" src="PAGING_NBISPSUCC"/>
+     </mapping>
+     </templet>
+
+     <templet id="39" fromTable="   dc.DC_E_BSS_CELL_CS_RAW    " toTable="CLT_PM_ERI_G10_CLSMS" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="CSMSDWN" src="CLSMS_CSMSDWN"/>
+      <column dest="CSMSUP" src="CLSMS_CSMSUP"/>
+      <column dest="TSMSDWN" src="CLSMS_TSMSDWN"/>
+      <column dest="TSMSUP" src="CLSMS_TSMSUP"/>
+     </mapping>
+     </templet>
+     
+     <templet id="40" fromTable="            dc.DC_E_BSS_CELL_ADJ_RAW" toTable="CLT_PM_ERI_G10_NCELLRXT" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping> 
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="HOTOLCL" src="HOTOLCL"/>
+      <column dest="HOTOKCL" src="HOTOKCL"/>
+      <column dest="HOUPLQA" src="HOUPLQA"/>
+      <column dest="HODWNQA" src="HODWNQA"/>
+      <column dest="HOEXCTA" src="HOEXCTA"/>
+      <column dest="HOASBCL" src="HOASBCL"/>
+      <column dest="HOASWCL" src="HOASWCL"/>
+      <column dest="HOSUCBCL" src="HOSUCBCL"/>
+      <column dest="HOSUCWCL" src="HOSUCWCL"/>
+      <column dest="HODUPFT" src="HODUPFT"/>
+     </mapping>
+     </templet>
+     
+     
+     <templet id="41" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW   " toTable="CLT_PM_ERI_G10_NECELLRXT" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="HOTOLCL" src="HOTOLCL"/>
+     <column dest="HOTOKCL" src="HOTOKCL"/>
+     <column dest="HOUPLQA" src="HOUPLQA"/>
+     <column dest="HODWNQA" src="HODWNQA"/>
+     <column dest="HOEXCTA" src="HOEXCTA"/>
+     <column dest="HOASBCL" src="HOASBCL"/>
+     <column dest="HOASWCL" src="HOASWCL"/>
+     <column dest="HOSUCBCL" src="HOSUCBCL"/>
+     <column dest="HOSUCWCL" src="HOSUCWCL"/>
+     <column dest="HODUPFT" src="HODUPFT"/>
+     </mapping>
+     </templet>
+     
+     <templet id="42" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW    " toTable="CLT_PM_ERI_G10_NECELHOEX" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="HOATTLSS" src="HOATTLSS"/>
+     <column dest="HOATTHSS" src="HOATTHSS"/>
+     <column dest="HOATTHR" src="HOATTHR"/>
+     <column dest="HOSUCHR" src="HOSUCHR"/>
+     </mapping>
+     </templet>
+     
+    <templet id="43" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW     " toTable="CLT_PM_ERI_G10_NICELHOEX" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+    <mapping>
+    <column dest="MO" src="CELL_NAME"/>
+    <column dest="HOATTLSS" src="HOATTLSS"/>
+    <column dest="HOATTHSS" src="HOATTHSS"/>
+    <column dest="HOATTHR" src="HOATTHR"/>
+    <column dest="HOSUCHR" src="HOSUCHR"/> 
+    </mapping>
+    </templet>
+
+    <templet id="44" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW      " toTable="CLT_PM_ERI_G10_NCELL" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="HOVERCNT" src="HOVERCNT"/>
+      <column dest="HOVERSUC" src="HOVERSUC"/> 
+     </mapping>
+     </templet>
+     
+     <templet id="45" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW       " toTable="CLT_PM_ERI_G10_NCELLREL" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="HOVERCNT" src="HOVERCNT"/>
+      <column dest="HOVERSUC" src="HOVERSUC"/>
+      <column dest="HORTTOCH" src="HORTTOCH"/>
+      <column dest="HOSRTL2TOCH" src="HOSRTL2TOCH"/> 
+     </mapping>
+     </templet>
+     
+     <templet id="46" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW        " toTable="CLT_PM_ERI_G10_NECELLREL" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="HOVERCNT" src="HOVERCNT"/>
+     <column dest="HOVERSUC" src="HOVERSUC"/>
+     <column dest="HORTTOCH" src="HORTTOCH"/>
+     <column dest="HOSRTL2TOCH" src="HOSRTL2TOCH"/>
+     </mapping>
+     </templet>
+
+     <templet id="47" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW         " toTable="CLT_PM_ERI_G10_NICELHO" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping> 
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="HOTOLCL" src="HOTOLCL"/>
+     <column dest="HOTOKCL" src="HOTOKCL"/>
+     <column dest="HOUPLQA" src="HOUPLQA"/>
+     <column dest="HODWNQA" src="HODWNQA"/>
+     <column dest="HOEXCTA" src="HOEXCTA"/>
+     <column dest="HODUPFT" src="HODUPFT"/>
+     <column dest="HOTOHCS" src="HOTOHCS"/>
+     </mapping>
+     </templet>
+  
+     <templet id="48" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW          " toTable="CLT_PM_ERI_G10_NECELHO" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="HOTOLCL" src="HOTOLCL"/>
+      <column dest="HOTOKCL" src="HOTOKCL"/>
+      <column dest="HOUPLQA" src="HOUPLQA"/>
+      <column dest="HODWNQA" src="HODWNQA"/>
+      <column dest="HOEXCTA" src="HOEXCTA"/>
+      <column dest="HODUPFT" src="HODUPFT"/>
+      <column dest="HOTOHCS" src="HOTOHCS"/>
+     </mapping>
+     </templet>
+
+     <templet id="49" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW           " toTable="CLT_PM_ERI_G10_NICELASS" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+      <mapping> 
+      <column dest="MO" src="CELL_NAME"/>
+      <column dest="HOASBCL" src="HOASBCL"/>
+      <column dest="HOASWCL" src="HOASWCL"/>
+      <column dest="HOSUCBCL" src="HOSUCBCL"/>
+      <column dest="HOSUCWCL" src="HOSUCWCL"/>
+      </mapping>
+     </templet>
+     
+     <templet id="50" fromTable="dc.DC_E_BSS_CELL_ADJ_RAW             " toTable="CLT_PM_ERI_G10_NECELASS" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_ADJ_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="HOASBCL" src="HOASBCL"/>
+      <column dest="HOASWCL" src="HOASWCL"/>
+      <column dest="HOSUCBCL" src="HOSUCBCL"/>
+      <column dest="HOSUCWCL" src="HOSUCWCL"/>       
+     </mapping>
+     </templet>
+
+     <templet id="51" fromTable=" dc.DC_E_BSS_CELL2_RAW" toTable="CLT_PM_ERI_G10_CELLSDCCH" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL2_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="CCALLS" src="CELLSDCCH_CCALLS"/>
+      <column dest="CCALLSSUB" src="CELLSDCCH_CCALLSSUB"/>
+      <column dest="CCONGS" src="CELLSDCCH_CCONGS"/>
+      <column dest="CCONGSSUB" src="CELLSDCCH_CCONGSSUB"/>
+      <column dest="CTRALACC" src="CELLSDCCH_CTRALACC"/>
+      <column dest="CTRALSUB" src="CELLSDCCH_CTRALSUB"/>
+      <column dest="CNDROP" src="CELLSDCCH_CNDROP"/>
+      <column dest="CNUCHCNT" src="CELLSDCCH_CNUCHCNT"/>
+      <column dest="CNUCHSUB" src="CELLSDCCH_CNUCHSUB"/>
+      <column dest="CAVAACC" src="CELLSDCCH_CAVAACC"/>
+      <column dest="CAVASUB" src="CELLSDCCH_CAVASUB"/>
+      <column dest="CAVASCAN" src="CELLSDCCH_CAVASCAN"/>
+      <column dest="CMSESTAB" src="CELLSDCCH_CMSESTAB"/>
+      <column dest="CMSESTABSUB" src="CELLSDCCH_CMSESTABSUB"/>
+      <column dest="CNSCAN" src="CELLSDCCH_CNSCAN"/>
+      <column dest="CSMSDWN" src="CELLSDCCH_CSMSDWN"/>
+      <column dest="CSMSUP" src="CELLSDCCH_CSMSUP"/>
+      <column dest="CTCONGS" src="CELLSDCCH_CTCONGS"/>
+      <column dest="CTCONSUB" src="CELLSDCCH_CTCONSUB"/>
+     </mapping>
+     </templet>
+
+     <templet id="52" fromTable="  dc.DC_E_BSS_CELL_CS_RAW " toTable="CLT_PM_ERI_G10_CLRATECHG" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="HOATFRHRAMR" src="CLRATECHG_HOATFRHRAMR"/>
+      <column dest="HOATFRHRNAMR" src="CLRATECHG_HOATFRHRNAMR"/>
+      <column dest="HOSUCFRHRAMR" src="CLRATECHG_HOSUCFRHRAMR"/>
+      <column dest="HOSUCFRHRNAMR" src="CLRATECHG_HOSUCFRHRNAMR"/>
+      <column dest="HOATHRFRAMR" src="CLRATECHG_HOATHRFRAMR"/>
+      <column dest="HOATHRFRNAMR" src="CLRATECHG_HOATHRFRNAMR"/>
+      <column dest="HOSUCHRFRAMR" src="CLRATECHG_HOSUCHRFRAMR"/>
+      <column dest="HOSUCHRFRNAMR" src="CLRATECHG_HOSUCHRFRNAMR"/>
+      <column dest="AMRABHOSUCFRHR" src="CLRATECHG_AMRABHOSUCFRHR"/>
+      <column dest="NAMRABHOSUCFRHR" src="CLRATECHG_NAMRABHOSUCFRHR"/>
+      <column dest="ATAMRLDHRFRHO" src="CLRATECHG_ATAMRLDHRFRHO"/>
+      <column dest="SUCAMRLDHRFRHO" src="CLRATECHG_SUCAMRLDHRFRHO"/>
+      <column dest="ATNAMRLDHRFRHO" src="CLRATECHG_ATNAMRLDHRFRHO"/>
+      <column dest="SUCNAMRLDHRFRHO" src="CLRATECHG_SUCNAMRLDHRFRHO"/>
+      <column dest="HOATFRHRAW" src="CLRATECHG_HOATFRHRAW"/>
+      <column dest="HOSUCFRHRAW" src="CLRATECHG_HOSUCFRHRAW"/>
+      <column dest="AWABHOSUCFRHR" src="CLRATECHG_AWABHOSUCFRHR"/>
+     </mapping>
+     </templet>
+     
+     <templet id="53" fromTable="   dc.DC_E_BSS_CELL_CS_RAW " toTable="CLT_PM_ERI_G10_CELLCCHHO" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL_CS_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>    
+     <column dest="MO" src="CELL_NAME"/>
+     <column dest="CCHHOCNT" src="CELLCCHHO_CCHHOCNT"/>
+     <column dest="CCHHOSUC" src="CELLCCHHO_CCHHOSUC"/>
+     <column dest="CCHHOTOCH" src="CELLCCHHO_CCHHOTOCH"/>
+	   </mapping>
+     </templet>
+     <templet id="54" fromTable="    dc.DC_E_BSS_CELL2_RAW" toTable="CLT_PM_ERI_G10_CLSDCCHO" used="1" condition=""><sql>select * from dc.DC_E_BSS_CELL2_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="CELL_NAME"/>
+      <column dest="CCALLSSUB" src="CLSDCCHO_CCALLSSUB"/>
+      <column dest="CCONGSSUB" src="CLSDCCHO_CCONGSSUB"/>
+      <column dest="CTCONSUB" src="CLSDCCHO_CTCONSUB"/>
+      <column dest="CTRALSUB" src="CLSDCCHO_CTRALSUB"/>
+      <column dest="CNSCANSUB" src="CLSDCCHO_CNSCANSUB"/>
+      <column dest="CNUCHSUB" src="CLSDCCHO_CNUCHSUB"/>
+      <column dest="CAVASUB" src="CLSDCCHO_CAVASUB"/>
+      <column dest="CAVASCANSUB" src="CLSDCCHO_CAVASCANSUB"/>
+      <column dest="CMSESTABSUB" src="CLSDCCHO_CMSESTABSUB"/>
+      <column dest="CNRELCONGSUB" src="CLSDCCHO_CNRELCONGSUB"/>
+     </mapping>
+     </templet>
+     
+     <templet id="55" fromTable=" dc.DC_E_CNAXE_TRUNKROUTE_RAW" toTable="CLT_PM_ERI_G10_TRUNKROUTE" used="1" condition=""><sql>select * from dc.DC_E_CNAXE_TRUNKROUTE_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     <column dest="MO" src="ELEM"/>
+     <column dest="NDEV" src="NDEV"/>
+     <column dest="BLOL" src="BLOL"/>
+     <column dest="TRALI" src="TRALI"/>
+     <column dest="NCALLSI" src="NCALLSI"/>
+     <column dest="NOVERFLOWI" src="NOVERFLOWI"/>
+     <column dest="NANSWERSI" src="NANSWERSI"/>
+     <column dest="NRESTRICTI" src="NRESTRICTI"/>
+     <column dest="NTRALACCI" src="NTRALACCI"/>
+     <column dest="TRALO" src="TRALO"/>
+     <column dest="NCALLSO" src="NCALLSO"/>
+     <column dest="NOVERFLOWO" src="NOVERFLOWO"/>
+     <column dest="NANSWERSO" src="NANSWERSO"/>
+     <column dest="NRESTRICTO" src="NRESTRICTO"/>
+     <column dest="BBLOL" src="BBLOL"/>
+     <column dest="NTRALACCO" src="NTRALACCO"/>
+     <column dest="NBLOCACC" src="NBLOCACC"/>
+     <column dest="NBBLOCACC" src="NBBLOCACC"/>
+     <column dest="NSCAN" src="NSCAN"/>
+     <column dest="NSEMIPERCI" src="NSEMIPERCI"/>
+     <column dest="NSEMIPERCO" src="NSEMIPERCO"/>
+     <column dest="NC7DSEIZ" src="NC7DSEIZ"/>
+     <column dest="NOSEIZ" src="NOSEIZ"/>
+     <column dest="NDSEIZ" src="NDSEIZ"/>
+     <column dest="NISUPATPI" src="NISUPATPI"/>
+     <column dest="NISUPATPO" src="NISUPATPO"/>
+     <column dest="RESTRDEVCNT" src="RESTRDEVCNT"/>
+     <column dest="THROUGHRTECNT" src="THROUGHRTECNT"/>
+     </mapping>
+     </templet>
+     <templet id="56" fromTable="   dc.DC_E_CNAXE_LOCAREAST_RAW" toTable="CLT_PM_ERI_G10_LOCAREAST" used="1" condition=""><sql>select * from dc.DC_E_CNAXE_LOCAREAST_RAW where DATETIME_ID = convert(datetime, '%%Y.%%M.%%D %%H:00:00')</sql>
+     <mapping>
+     	<column dest="MO" src="ELEM"/>
+      <column dest="NLAPAG1LOTOT" src="NLAPAG1LOTOT"/>
+      <column dest="NLAPAG2LOTOT" src="NLAPAG2LOTOT"/>
+      <column dest="NLAPAG1RESUCC" src="NLAPAG1RESUCC"/>
+      <column dest="NLAPAG2RESUCC" src="NLAPAG2RESUCC"/>
+      <column dest="NLAPAGERR" src="NLAPAGERR"/>
+      <column dest="NLALOCSSRFLT" src="NLALOCSSRFLT"/>
+      <column dest="NLALOCTOT" src="NLALOCTOT"/>
+      <column dest="NLALOCSUCC" src="NLALOCSUCC"/>
+      <column dest="NLALOCPRRFLT" src="NLALOCPRRFLT"/>
+     </mapping>
+     </templet>
+
+</templets>   

@@ -1,0 +1,2845 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/APME/OBSYNT/*/%%Y%%M%%D/R110000(%%H+1).%%DayOfYear " >
+		<public>
+			<startSign>BSS release	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="BSCNAME" index="0">
+					<startSign>Name of BSC	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+				<endSign>&#x000A;&#x000A;</endSign>
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="MC746B"        index="3"/> 
+				<field name="MC739"         index="4"/> 
+				<field name="MC736"         index="5"/> 
+				<field name="MC718"         index="6"/> 
+				<field name="MC717B"        index="7"/> 
+				<field name="MC717A"        index="8"/> 
+				<field name="MC714"         index="9"/> 
+				<field name="MC713"         index="10"/>
+				<field name="MC712"         index="11"/>
+				<field name="MC711"         index="12"/>
+				<field name="MC710"         index="13"/>
+				<field name="MC703"         index="14"/>
+				<field name="MC621"         index="15"/>
+				<field name="MC400"         index="16"/>
+				<field name="MC390"         index="17"/>
+				<field name="MC381"         index="18"/>
+				<field name="MC380F"        index="19"/>
+				<field name="MC380E"        index="20"/>
+				<field name="MC380D"        index="21"/>
+				<field name="MC380C"        index="22"/>
+				<field name="MC380B"        index="23"/>
+				<field name="MC380A"        index="24"/>
+				<field name="MC370B"        index="25"/>
+				<field name="MC370A"        index="26"/>
+				<field name="TRXID"         index="27" occur="required"/>
+				<field name="BSC_MNC"       index="28"/>
+				<field name="BSC_MCC"       index="29"/>
+				<field name="CELL_LAC"      index="30" occur="required"/>
+				<field name="CELL_CI"       index="31" occur="required"/>
+			</fields>
+		</ds>
+	</templet>
+	
+	<templet id="1" file="/APME/OBSYNT/*/%%Y%%M%%D/RMFS000(%%H+1).%%DayOfYear " >
+    <public>
+			<startSign>MFS version	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="MFS" index="0">
+					<startSign>Number of the MFS	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>		
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+				<endSign>&#x000A;&#x000A;</endSign>
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="P6D"       index="3"/>
+				<field name="P6C"       index="4"/>
+				<field name="P5"        index="5"/>
+				<field name="P46"       index="6"/>
+				<field name="P45"       index="7"/>
+				<field name="P4"        index="8"/>
+				<field name="P34"       index="9"/>
+				<field name="P23"       index="10"/>
+				<field name="PVC"       index="11" occur="required"/>
+				<field name="BEARER"    index="12" occur="required"/>
+				<field name="TP"        index="13" occur="required"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="2" file="/APME/OBSYNT/*/%%Y%%M%%D/RMFS000(%%H*2+1).%%DayOfYear " >
+    <public>
+			<startSign>MFS version	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="MFS" index="0">
+					<startSign>Number of the MFS	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>		
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+				<endSign>&#x000A;&#x000A;</endSign>
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="P6D"       index="3"/>
+				<field name="P6C"       index="4"/>
+				<field name="P5"        index="5"/>
+				<field name="P46"       index="6"/>
+				<field name="P45"       index="7"/>
+				<field name="P4"        index="8"/>
+				<field name="P34"       index="9"/>
+				<field name="P23"       index="10"/>
+				<field name="PVC"       index="11" occur="required"/>
+				<field name="BEARER"    index="12" occur="required"/>
+				<field name="TP"        index="13" occur="required"/>
+			</fields>
+		</ds>
+	</templet>
+
+<templet id="3" file="/APME/OBSYNT/*/%%Y%%M%%D/RMFS000(%%H*2+2).%%DayOfYear " >
+    <public>
+			<startSign>MFS version	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="MFS" index="0">
+					<startSign>Number of the MFS	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>		
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+				<endSign>&#x000A;&#x000A;</endSign>
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="P6D"       index="3"/>
+				<field name="P6C"       index="4"/>
+				<field name="P5"        index="5"/>
+				<field name="P46"       index="6"/>
+				<field name="P45"       index="7"/>
+				<field name="P4"        index="8"/>
+				<field name="P34"       index="9"/>
+				<field name="P23"       index="10"/>
+				<field name="PVC"       index="11" occur="required"/>
+				<field name="BEARER"    index="12" occur="required"/>
+				<field name="TP"        index="13" occur="required"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="4" file="/APME/OBSYNT/*/%%Y%%M%%D/R018000(%%H+1).%%DayOfYear" >
+		<public>
+			<startSign>BSS release	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="BSCNAME" index="0">
+					<startSign>Name of BSC	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+				<endSign>&#x000A;&#x000A;</endSign>
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="C182" index="3" occur="required"/>
+				<field name="C181L" index="4"/>
+				<field name="C181K" index="5"/>
+				<field name="C181J" index="6"/>
+				<field name="C181I" index="7"/>
+				<field name="C181H" index="8"/>
+				<field name="C181G" index="9"/>
+				<field name="C181F" index="10"/>
+				<field name="C181E" index="11"/>
+				<field name="C181D" index="12"/>
+				<field name="C181C" index="13"/>
+				<field name="C181B" index="14"/>
+				<field name="C181A" index="15"/>
+				<field name="C180E" index="16"/>
+				<field name="C180D" index="17"/>
+				<field name="C180C" index="18"/>
+				<field name="C180B" index="19"/>
+				<field name="C180A" index="20"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="5" file="/APME/OBSYNT/*/%%Y%%M%%D/R019000(%%H+1).%%DayOfYear" >
+		<public>
+			<startSign>BSS release	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="BSCNAME" index="0">
+					<startSign>Name of BSC	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="C195" index="3"/>
+				<field name="C194C" index="4"/>
+				<field name="C194B" index="5"/>
+				<field name="C194A" index="6"/>
+				<field name="C193" index="7"/>
+				<field name="C192" index="8"/>
+				<field name="C191" index="9"/>
+				<field name="C190" index="10"/>
+				<field name="BSC_MNC" index="11"/>
+				<field name="BSC_MCC" index="12"/>
+				<field name="CELL_LAC" index="13" occur="required"/>
+				<field name="CELL_CI" index="14" occur="required"/>
+				<field name="CELL_NAME" index="15"/>
+				<field name="BTS_SECTOR" index="16"/>
+				<field name="BTS_INDEX" index="17"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="6" file="/APME/OBSYNT/*/%%Y%%M%%D/R028000(%%H+1).%%DayOfYear" >
+		<public>
+			<startSign>BSS release	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="BSCNAME" index="0">
+					<startSign>Name of BSC	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="C102" index="3"/>
+				<field name="C101" index="4"/>
+				<field name="C100" index="5"/>
+				<field name="BSC_MNC" index="6"/>
+				<field name="BSC_MCC" index="7"/>
+				<field name="CELL_CI" index="8" occur="required"/>
+				<field name="CELL_LAC" index="9" occur="required"/>
+				<field name="CELL_NAME" index="10"/>
+				<field name="BTS_SECTOR" index="11"/>
+				<field name="BTS_INDEX" index="12"/>
+				<field name="C98" index="13"/>
+				<field name="C97" index="14"/>
+				<field name="C96" index="15"/>
+				<field name="C95A" index="16"/>
+				<field name="C93" index="17"/>
+				<field name="C92" index="18"/>
+				<field name="C91" index="19"/>
+				<field name="C90" index="20"/>
+				<field name="C88" index="21"/>
+				<field name="C87" index="22"/>
+				<field name="C86" index="23"/>
+				<field name="C85A" index="24"/>
+				<field name="C83" index="25"/>
+				<field name="C82" index="26"/>
+				<field name="C81" index="27"/>
+				<field name="C607" index="28"/>
+				<field name="C605F" index="29"/>
+				<field name="C605E" index="30"/>
+				<field name="C605D" index="31"/>
+				<field name="C605A" index="32"/>
+				<field name="C519" index="33"/>
+				<field name="C518" index="34"/>
+				<field name="C517" index="35"/>
+				<field name="C516" index="36"/>
+				<field name="C514" index="37"/>
+				<field name="C513" index="38"/>
+				<field name="C512" index="39"/>
+				<field name="C511" index="40"/>
+				<field name="C510" index="41"/>
+				<field name="C454" index="42"/>
+				<field name="C446" index="43"/>
+				<field name="C445" index="44"/>
+				<field name="C361" index="45"/>
+				<field name="C360" index="46"/>
+				<field name="C331" index="47"/>
+				<field name="C330" index="48"/>
+				<field name="C311" index="49"/>
+				<field name="C310" index="50"/>
+				<field name="C115" index="51"/>
+				<field name="C107" index="52"/>
+				<field name="C103" index="53"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="7" file="/APME/OBSYNT/*/%%Y%%M%%D/R110000(%%H+1).%%DayOfYear" >
+		<public>
+			<startSign>BSS release	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="BSCNAME" index="0">
+					<startSign>Name of BSC	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+				<endSign>&#x000A;&#x000A;</endSign>
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="MC928A" index="3"/> 
+				<field name="MC927F" index="4"/> 
+				<field name="MC927E" index="5"/> 
+				<field name="MC927D" index="6"/> 
+				<field name="MC927C" index="7"/> 
+				<field name="MC927B" index="8"/> 
+				<field name="MC927A" index="9"/> 
+				<field name="MC925H" index="10"/>
+				<field name="MC925G" index="11"/>
+				<field name="MC925F" index="12"/>
+				<field name="MC925E" index="13"/>
+				<field name="MC925D" index="14"/>
+				<field name="MC925C" index="15"/>
+				<field name="MC925B" index="16"/>
+				<field name="MC925A" index="17"/>
+				<field name="MC924K" index="18"/>
+				<field name="MC924J" index="19"/>
+				<field name="MC924I" index="20"/>
+				<field name="MC924H" index="21"/>
+				<field name="MC924G" index="22"/>
+				<field name="MC924F" index="23"/>
+				<field name="MC924E" index="24"/>
+				<field name="MC924D" index="25"/>
+				<field name="MC924C" index="26"/>
+				<field name="MC924B" index="27"/>
+				<field name="MC924A" index="28"/>
+				<field name="MC923D" index="29"/>
+				<field name="MC923C" index="30"/>
+				<field name="MC923B" index="31"/>
+				<field name="MC923A" index="32"/>
+				<field name="MC922H" index="33"/>
+				<field name="MC922G" index="34"/>
+				<field name="MC922F" index="35"/>
+				<field name="MC922E" index="36"/>
+				<field name="MC922D" index="37"/>
+				<field name="MC922C" index="38"/>
+				<field name="MC922B" index="39"/>
+				<field name="MC922A" index="40"/>
+				<field name="MC921E" index="41"/>
+				<field name="MC921D" index="42"/>
+				<field name="MC921C" index="43"/>
+				<field name="MC921B" index="44"/>
+				<field name="MC921A" index="45"/>
+				<field name="MC91"   index="46"/>
+				<field name="MC903"  index="47"/>
+				<field name="MC902"  index="48"/>
+				<field name="MC901"  index="49"/>
+				<field name="MC8D"   index="50"/>
+				<field name="MC8C"   index="51"/>
+				<field name="MC8B"   index="52"/>
+				<field name="MC8A"   index="53"/>
+				<field name="MC871"  index="54"/>
+				<field name="MC870"  index="55"/>
+				<field name="MC850"  index="56"/>
+				<field name="MC831"  index="57"/>
+				<field name="MC830"  index="58"/>
+				<field name="MC821"  index="59"/>
+				<field name="MC820"  index="60"/>
+				<field name="MC812"  index="61"/>
+				<field name="MC81"   index="62"/>
+				<field name="MC805B" index="63"/>
+				<field name="MC805A" index="64"/>
+				<field name="MC804B" index="65"/>
+				<field name="MC804A" index="66"/>
+				<field name="MC803"  index="67"/>
+				<field name="MC802B" index="68"/>
+				<field name="MC802A" index="69"/>
+				<field name="MC801B" index="70"/>
+				<field name="MC801A" index="71"/>
+				<field name="MC800"  index="72"/>
+				<field name="MC785F" index="73"/>
+				<field name="MC785E" index="74"/>
+				<field name="MC785D" index="75"/>
+				<field name="MC785A" index="76"/>
+				<field name="MC746B" index="77"/>
+				<field name="MC739"  index="78"/>
+				<field name="MC736"  index="79"/>
+				<field name="MC718"  index="80"/>
+				<field name="MC717B" index="81"/>
+				<field name="MC717A" index="82"/>
+				<field name="MC714"  index="83"/>
+				<field name="MC713"  index="84"/>
+				<field name="MC712"  index="85"/>
+				<field name="MC711"  index="86"/>
+				<field name="MC710"  index="87"/>
+				<field name="MC706"  index="88"/>
+				<field name="MC705"  index="89"/>
+				<field name="MC704B" index="90"/>
+				<field name="MC704A" index="91"/>
+				<field name="MC703"  index="92"/>
+				<field name="MC702C" index="93"/>
+				<field name="MC702B" index="94"/>
+				<field name="MC702A" index="95"/>
+				<field name="MC701G" index="96"/>
+				<field name="MC701F" index="97"/>
+				<field name="MC701E" index="98"/>   
+				<field name="MC974" index="99"/>
+				<field name="MC973" index="100"/>
+				<field name="MC972" index="101"/>
+				<field name="MC971" index="102"/>
+				<field name="MC970" index="103"/>
+				<field name="MC969" index="104"/>
+				<field name="MC968" index="105"/>
+				<field name="MC967" index="106"/>
+				<field name="MC966" index="107"/>
+				<field name="MC965" index="108"/>
+				<field name="MC964" index="109"/>
+				<field name="MC963" index="110"/>
+				<field name="MC962" index="111"/>
+				<field name="MC961" index="112"/>
+				<field name="MC960" index="113"/>
+				<field name="MC959" index="114"/>
+				<field name="MC958" index="115"/>
+				<field name="MC957" index="116"/>
+				<field name="MC956" index="117"/>
+				<field name="MC955" index="118"/>
+				<field name="MC954" index="119"/>
+				<field name="MC953" index="120"/>
+				<field name="MC952" index="121"/>
+				<field name="MC951" index="122"/>
+				<field name="MC950" index="123"/>
+				<field name="MC939" index="124"/>
+				<field name="MC938" index="125"/>
+				<field name="MC937" index="126"/>
+				<field name="MC936" index="127"/>
+				<field name="MC935" index="128"/>
+				<field name="MC934" index="129"/>
+				<field name="MC933" index="130"/>
+				<field name="MC932" index="131"/>
+				<field name="MC931" index="132"/>
+				<field name="MC930" index="133"/>
+				<field name="MC928I" index="134"/>
+				<field name="MC928H" index="135"/>
+				<field name="MC928G" index="136"/>
+				<field name="MC928F" index="137"/>
+				<field name="MC928E" index="138"/>
+				<field name="MC928D" index="139"/>
+				<field name="MC928C" index="140"/>
+				<field name="MC928B" index="141"/>
+				<field name="MC701D" index="142"/>
+				<field name="MC701C" index="143"/>
+				<field name="MC701B" index="144"/>
+				<field name="MC701A" index="145"/>
+				<field name="MC679" index="146"/>
+				<field name="MC678" index="147"/>
+				<field name="MC677" index="148"/>
+				<field name="MC676" index="149"/>
+				<field name="MC675" index="150"/>
+				<field name="MC674" index="151"/>
+				<field name="MC673" index="152"/>
+				<field name="MC672" index="153"/>
+				<field name="MC671" index="154"/>
+				<field name="MC670" index="155"/>
+				<field name="MC667" index="156"/>
+				<field name="MC663" index="157"/>
+				<field name="MC662" index="158"/>
+				<field name="MC660" index="159"/>
+				<field name="MC658" index="160"/>
+				<field name="MC657" index="161"/>
+				<field name="MC656" index="162"/>
+				<field name="MC655A" index="163"/>
+				<field name="MC653" index="164"/>
+				<field name="MC652" index="165"/>
+				<field name="MC650" index="166"/>
+				<field name="MC648" index="167"/>
+				<field name="MC647" index="168"/>
+				<field name="MC646" index="169"/>
+				<field name="MC645A" index="170"/>
+				<field name="MC643" index="171"/>
+				<field name="MC642" index="172"/>
+				<field name="MC621" index="173"/>
+				<field name="MC612D" index="174"/>
+				<field name="MC612C" index="175"/>
+				<field name="MC612B" index="176"/>
+				<field name="MC612A" index="177"/>
+				<field name="MC607" index="178"/>
+				<field name="MC586C" index="179"/>
+				<field name="MC586B" index="180"/>
+				<field name="MC586A" index="181"/>
+				<field name="MC561" index="182"/>
+				<field name="MC555" index="183"/>
+				<field name="MC551" index="184"/>
+				<field name="MC541A" index="185"/>
+				<field name="MC541" index="186"/>
+				<field name="MC481" index="187"/>
+				<field name="MC480" index="188"/>
+				<field name="MC463C" index="189"/>
+				<field name="MC463B" index="190"/>
+				<field name="MC463A" index="191"/>
+				<field name="MC462C" index="192"/>
+				<field name="MC462B" index="193"/>
+				<field name="MC462A" index="194"/>
+				<field name="MC461" index="195"/>
+				<field name="MC460A" index="196"/>
+				<field name="MC449" index="197"/>
+				<field name="MC448B" index="198"/>
+				<field name="MC448A" index="199"/>
+				<field name="MC41B" index="200"/>
+				<field name="MC400" index="201"/>
+				<field name="MC390" index="202"/>
+				<field name="MC381" index="203"/>
+				<field name="MC380F" index="204"/>
+				<field name="MC380E" index="205"/>
+				<field name="MC380D" index="206"/>
+				<field name="MC380C" index="207"/>
+				<field name="MC380B" index="208"/>
+				<field name="MC380A" index="209"/>
+				<field name="MC370B" index="210"/>
+				<field name="MC370A" index="211"/>
+				<field name="MC34" index="212"/>
+				<field name="MC320E" index="213"/>
+				<field name="MC320D" index="214"/>
+				<field name="MC320C" index="215"/>
+				<field name="MC320B" index="216"/>
+				<field name="MC320A" index="217"/>
+				<field name="MC31" index="218"/>
+				<field name="MC29A" index="219"/>
+				<field name="MC28A" index="220"/>
+				<field name="MC27" index="221"/>
+				<field name="MC26" index="222"/>
+				<field name="MC250" index="223"/>
+				<field name="MC24" index="224"/>
+				<field name="MC197" index="225"/>
+				<field name="MC196" index="226"/>
+				<field name="MC191" index="227"/>
+				<field name="MC170" index="228"/>
+				<field name="MC162" index="229"/>
+				<field name="MC161" index="230"/>
+				<field name="MC15B" index="231"/>
+				<field name="MC15A" index="232"/>
+				<field name="MC153" index="233"/>
+				<field name="MC151" index="234"/>
+				<field name="MC14C" index="235"/>
+				<field name="MC14A" index="236"/>
+				<field name="MC149" index="237"/>
+				<field name="MC148" index="238"/>
+				<field name="MC147" index="239"/>
+				<field name="MC144F" index="240"/>
+				<field name="MC144E" index="241"/>
+				<field name="MC142F" index="242"/>
+				<field name="MC142E" index="243"/>
+				<field name="MC141" index="244"/>
+				<field name="MC140B" index="245"/>
+				<field name="MC140A" index="246"/>
+				<field name="MC13B" index="247"/>
+				<field name="MC13A" index="248"/>
+				<field name="MC138" index="249"/>
+				<field name="MC137" index="250"/>
+				<field name="MC1050" index="251"/>
+				<field name="MC1044" index="252"/>
+				<field name="MC1040" index="253"/>
+				<field name="MC101" index="254"/>
+				<field name="MC10" index="255"/>
+				<field name="MC07" index="256"/>
+				<field name="MC04" index="257"/>
+				<field name="MC03" index="258"/>
+				<field name="MC02I" index="259"/>
+				<field name="MC02H" index="260"/>
+				<field name="MC02G" index="261"/>
+				<field name="MC02F" index="262"/>
+				<field name="MC02E" index="263"/>
+				<field name="MC02D" index="264"/>
+				<field name="MC02C" index="265"/>
+				<field name="MC02B" index="266"/>
+				<field name="MC02A" index="267"/>
+				<field name="MC02" index="268"/>
+				<field name="MC01" index="269" occur="required"/>
+				<field name="BSC_MNC" index="270"/>
+				<field name="BSC_MCC" index="271"/>
+				<field name="CELL_LAC" index="272"  occur="required"/>
+				<field name="CELL_CI" index="273"  occur="required"/>
+				<field name="CELL_NAME" index="274"/>
+				<field name="BTS_SECTOR" index="275"/>
+				<field name="BTS_INDEX" index="276"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="8" file="/APME/OBSYNT/*/%%Y%%M%%D/R180000??.%%DayOfYear" >
+		<public>
+			<startSign>BSS release	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="BSCNAME" index="0">
+					<startSign>Name of BSC	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+     </meta>
+			<fields splitSign="&#009;">
+				<field name="C402" index="3"/>
+				<field name="C401" index="4"/>
+				<field name="C400" index="5"/>
+				<field name="CELL_MCC_MNC_ADJ" index="6"/>
+				<field name="BSC_MNC" index="7"/>
+				<field name="BSC_MCC" index="8"/>
+				<field name="CELL_LAC" index="9" occur="required"/>
+				<field name="CELL_CI" index="10" occur="required"/>
+				<field name="CELL_LAC_ADJ" index="11" occur="required"/>
+				<field name="CELL_CI_ADJ" index="12" occur="required"/>
+			</fields>
+		</ds>
+	</templet>
+	
+	<templet id="9" file="/APME/OBSYNT/*/%%Y%%M%%D/RMFS000(%%H+1).%%DayOfYear" >
+   <public>
+			<startSign>MFS version	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="MFS" index="0">
+					<startSign>Number of the MFS	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>	
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+			<endSign>&#x000A;&#x000A;</endSign>
+     </meta>
+			<fields splitSign="&#009;">
+				<field name="PD_UL_TBF_VOLUME_THR_9"   index="3"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_8"   index="4"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_7"   index="5"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_6"   index="6"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_5"   index="7"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_4"   index="8"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_3"   index="9"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_2"   index="10"/> 
+				<field name="PD_UL_TBF_VOLUME_THR_10"  index="11"/> 
+				<field name="PD_UL_TBF_VOLUME_THR_1"   index="12"/> 
+				<field name="PD_UL_TBF_DURATION_THR_9" index="13"/> 
+				<field name="PD_UL_TBF_DURATION_THR_8" index="14"/> 
+				<field name="PD_UL_TBF_DURATION_THR_7" index="15"/> 
+				<field name="PD_UL_TBF_DURATION_THR_6" index="16"/> 
+				<field name="PD_UL_TBF_DURATION_THR_5" index="17"/> 
+				<field name="PD_UL_TBF_DURATION_THR_4" index="18"/> 
+				<field name="PD_UL_TBF_DURATION_THR_3" index="19"/> 
+				<field name="PD_UL_TBF_DURATION_THR_2" index="20"/> 
+				<field name="PD_UL_TBF_DURATION_THR_10"   index="21"/> 
+				<field name="PD_UL_TBF_DURATION_THR_1" index="22"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_9" index="23"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_8" index="24"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_7" index="25"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_6" index="26"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_5" index="27"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_4" index="28"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_3" index="29"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_2" index="30"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_10" index="31"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_1" index="32"/> 
+				<field name="PD_DL_TBF_VOLUME_THR_9" index="33"/>
+				<field name="PD_DL_TBF_VOLUME_THR_8" index="34"/>
+				<field name="PD_DL_TBF_VOLUME_THR_7" index="35"/>
+				<field name="PD_DL_TBF_VOLUME_THR_6" index="36"/>
+				<field name="PD_DL_TBF_VOLUME_THR_5" index="37"/>
+				<field name="PD_DL_TBF_VOLUME_THR_4" index="38"/>
+				<field name="PD_DL_TBF_VOLUME_THR_3" index="39"/>
+				<field name="PD_DL_TBF_VOLUME_THR_2" index="40"/>
+				<field name="PD_DL_TBF_VOLUME_THR_10" index="41"/>
+				<field name="PD_DL_TBF_VOLUME_THR_1" index="42"/>
+				<field name="PD_DL_TBF_DURATION_THR_9" index="43"/>
+				<field name="PD_DL_TBF_DURATION_THR_8" index="44"/>
+				<field name="PD_DL_TBF_DURATION_THR_7" index="45"/>
+				<field name="PD_DL_TBF_DURATION_THR_6" index="46"/>
+				<field name="PD_DL_TBF_DURATION_THR_5" index="47"/>
+				<field name="PD_DL_TBF_DURATION_THR_4" index="48"/>
+				<field name="PD_DL_TBF_DURATION_THR_3" index="49"/>
+				<field name="PD_DL_TBF_DURATION_THR_2" index="50"/>
+				<field name="PD_DL_TBF_DURATION_THR_10"  index="51"/>
+				<field name="PD_DL_TBF_DURATION_THR_1" index="52"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_9" index="53"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_8" index="54"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_7" index="55"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_6" index="56"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_5" index="57"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_4" index="58"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_3" index="59"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_2" index="60"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_10" index="61"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_1" index="62"/>
+				<field name="P99"  index="63"/> 
+				<field name="P98F" index="64"/> 
+				<field name="P98E" index="65"/> 
+				<field name="P98D" index="66"/> 
+				<field name="P98C" index="67"/> 
+				<field name="P98B" index="68"/> 
+				<field name="P98A" index="69"/> 
+				<field name="P97"  index="70"/> 
+				<field name="P96"  index="71"/> 
+				<field name="P95"  index="72"/> 
+				<field name="P91G" index="73"/> 
+				<field name="P91F" index="74"/> 
+				<field name="P91E" index="75"/> 
+				<field name="P91D" index="76"/> 
+				<field name="P91C" index="77"/> 
+				<field name="P91B" index="78"/> 
+				<field name="P91A" index="79"/> 
+				<field name="P90G" index="80"/> 
+				<field name="P90F" index="81"/> 
+				<field name="P90E" index="82"/> 
+				<field name="P90D" index="83"/> 
+				<field name="P90C" index="84"/> 
+				<field name="P90B" index="85"/> 
+				<field name="P90A" index="86"/> 
+				<field name="P9"   index="87"/> 
+				<field name="P837" index="88"/> 
+				<field name="P836" index="89"/> 
+				<field name="P835" index="90"/> 
+				<field name="P834" index="91"/> 
+				<field name="P833" index="92"/> 
+				<field name="P832" index="93"/> 
+				<field name="P831" index="94"/> 
+				<field name="P830" index="95"/> 
+				<field name="P829" index="96"/> 
+				<field name="P828" index="97"/> 
+				<field name="P827" index="98"/> 
+				<field name="P826" index="99"/> 
+				<field name="P825" index="100"/>
+				<field name="P824" index="101"/>
+				<field name="P823" index="102"/>
+				<field name="P822" index="103"/>
+				<field name="P821" index="104"/>
+				<field name="P820" index="105"/>
+				<field name="P819" index="106"/>
+				<field name="P818" index="107"/>
+				<field name="P817" index="108"/>
+				<field name="P816" index="109"/>
+				<field name="P815" index="110"/>
+				<field name="P814" index="111"/>
+				<field name="P813" index="112"/>
+				<field name="P812" index="113"/>
+				<field name="P408B" index="114"/>
+				<field name="P408A" index="115"/>
+				<field name="P407D" index="116"/>
+				<field name="P407C" index="117"/>
+				<field name="P407B" index="118"/>
+				<field name="P407A" index="119"/>
+				<field name="P406D" index="120"/>
+				<field name="P406C" index="121"/>
+				<field name="P406B" index="122"/>
+				<field name="P406A" index="123"/>
+				<field name="P405D" index="124"/>
+				<field name="P405C" index="125"/>
+				<field name="P405B" index="126"/>
+				<field name="P405A" index="127"/>
+				<field name="P404D" index="128"/>
+				<field name="P404C" index="129"/>
+				<field name="P404B" index="130"/>
+				<field name="P404A" index="131"/>
+				<field name="P403D" index="132"/>
+				<field name="P403C" index="133"/>
+				<field name="P403B" index="134"/>
+				<field name="P403A" index="135"/>
+				<field name="P401"  index="136"/>
+				<field name="P400"  index="137"/>
+				<field name="P40"  index="138"/>
+				<field name="P399"  index="139"/>
+				<field name="P397"  index="140"/>
+				<field name="P396B" index="141"/>
+				<field name="P396A" index="142"/>
+				<field name="P39"  index="143"/>
+				<field name="P38F"  index="144"/>
+				<field name="P38E"  index="145"/>
+				<field name="P38C"  index="146"/>
+				<field name="P38B"  index="147"/>
+				<field name="P385B" index="148"/>
+				<field name="P385A" index="149"/>
+				<field name="P36"  index="150"/>
+				<field name="P352B" index="151"/>
+				<field name="P352A" index="152"/>
+				<field name="P351B" index="153"/>
+				<field name="P351A" index="154"/>
+				<field name="P350B" index="155"/>
+				<field name="P350A" index="156"/>
+				<field name="P35"   index="157"/>
+				<field name="P336"  index="158"/>
+				<field name="P335"  index="159"/>
+				<field name="P310D" index="160"/>
+				<field name="P310C" index="161"/>
+				<field name="P310B" index="162"/>
+				<field name="P310A" index="163"/>
+				<field name="P30D"  index="164"/>
+				<field name="P30C"  index="165"/>
+				<field name="P30B"  index="166"/>
+				<field name="P30A"  index="167"/>
+				<field name="P303B" index="168"/>
+				<field name="P303A" index="169"/>
+				<field name="P302C_4" index="170"/>
+				<field name="P302C_3" index="171"/>
+				<field name="P302C_2" index="172"/>
+				<field name="P302C_1" index="173"/>
+				<field name="P302B_2" index="174"/>
+				<field name="P302B_1" index="175"/>
+				<field name="P28"  index="176"/>
+				<field name="P27"  index="177"/>
+				<field name="P26"  index="178"/>
+				<field name="P24"  index="179"/>
+				<field name="P232" index="180"/>
+				<field name="P231" index="181"/>
+				<field name="P229" index="182"/>
+				<field name="P228" index="183"/>
+				<field name="P227" index="184"/>
+				<field name="P226" index="185"/>
+				<field name="P225" index="186"/>
+				<field name="P224" index="187"/>
+				<field name="P223" index="188"/>
+				<field name="P222" index="189"/>
+				<field name="P221" index="190"/>
+				<field name="P220" index="191"/>
+				<field name="P22"  index="192"/>
+				<field name="P21N" index="193"/>
+				<field name="P21M" index="194"/>
+				<field name="P21L" index="195"/>
+				<field name="P21K" index="196"/>
+				<field name="P21J" index="197"/>
+				<field name="P21I" index="198"/>
+				<field name="P21H" index="199"/>
+				<field name="P21G" index="200"/>
+				<field name="P21F" index="201"/>
+				<field name="P21D" index="202"/>
+				<field name="P21C" index="203"/>
+				<field name="P21B" index="204"/>
+				<field name="P21A" index="205"/>
+				<field name="P219" index="206"/>
+				<field name="P218" index="207"/>
+				<field name="P217" index="208"/>
+				<field name="P216" index="209"/>
+				<field name="P215" index="210"/>
+				<field name="P214" index="211"/>
+				<field name="P213" index="212"/>
+				<field name="P212" index="213"/>
+				<field name="P211" index="214"/>
+				<field name="P210" index="215"/>
+				<field name="P20N" index="216"/>
+				<field name="P20M" index="217"/>
+				<field name="P20L" index="218"/>
+				<field name="P20K" index="219"/>
+				<field name="P20J" index="220"/>
+				<field name="P20I" index="221"/>
+				<field name="P20H" index="222"/>
+				<field name="P20G" index="223"/>
+				<field name="P20F" index="224"/>
+				<field name="P20D" index="225"/>
+				<field name="P20C" index="226"/>
+				<field name="P20B" index="227"/>
+				<field name="P20A" index="228"/>
+				<field name="P209" index="229"/>
+				<field name="P208" index="230"/>
+				<field name="P207" index="231"/>
+				<field name="P204" index="232"/>
+				<field name="P203" index="233"/>
+				<field name="P200" index="234"/>
+				<field name="P165" index="235"/>
+				<field name="P164" index="236"/>
+				<field name="P163" index="237"/>
+				<field name="P162" index="238"/>
+				<field name="P161" index="239"/>
+				<field name="P160" index="240"/>
+				<field name="P16"  index="241"/>
+				<field name="P15"  index="242"/>
+				<field name="P147" index="243"/>
+				<field name="P146" index="244"/>
+				<field name="P14"  index="245"/>
+				<field name="P13"  index="246"/>
+			  <field name="P129D"  index="247"/>
+			  <field name="P129C"  index="248"/>
+			  <field name="P129B"  index="249"/>
+			  <field name="P129A"  index="250"/>
+			  <field name="P11"    index="251"/>
+			  <field name="P105L"  index="252"/>
+			  <field name="P105K"  index="253"/>
+			  <field name="P105J"  index="254"/>
+			  <field name="P105I"  index="255"/>
+			  <field name="P105H"  index="256"/>
+			  <field name="P105G"  index="257"/>
+			  <field name="P105F"  index="258"/>
+			  <field name="P105E"  index="259"/>
+			  <field name="P105D"  index="260"/>
+			  <field name="P105C"  index="261"/>
+			  <field name="P100E"  index="262"/>
+			  <field name="P100D"  index="263"/>
+			  <field name="P100C"  index="264"/>
+			  <field name="P10"    index="265"/>
+				<field name="MIN_PDCH" index="266"/>
+				<field name="MAX_PDCH" index="267"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_9"  index="268"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_8"  index="269"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_7"  index="270"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_6"  index="271"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_5"  index="272"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_4"  index="273"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_3"  index="274"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_2"  index="275"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_10" index="276"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_1"  index="277"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_9" index="278"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_8" index="279"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_7" index="280"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_6" index="281"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_5" index="282"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_4" index="283"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_3" index="284"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_2" index="285"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_11" index="286"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_10" index="287"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_1" index="288"/>
+				<field name="DSF" index="289"/>
+				<field name="CSSF" index="290"/>
+				<field name="BS_PRACH_BLKS" index="291"/>
+				<field name="BS_PBCCH_BLKS" index="292"/>
+				<field name="MNC" index="293"/>
+				<field name="MCC" index="294"/>
+				<field name="LAC" index="295" occur="required"/>
+				<field name="CI" index="296" occur="required"/>
+				<field name="BTS" index="297"/>
+				<field name="FABRIC" index="298"/>
+				<field name="BSS" index="299"/>	
+				<field name="P534B_7" index="300"/>
+				<field name="P534B_6" index="301"/>
+				<field name="P534B_5" index="302"/>
+				<field name="P534B_4" index="303"/>
+				<field name="P534B_3" index="304"/>
+				<field name="P534B_2" index="305"/>
+				<field name="P534B_13" index="306"/>
+				<field name="P534B_12" index="307"/>
+				<field name="P534B_11" index="308"/>
+				<field name="P534B_10" index="309"/>
+				<field name="P534B_1" index="310"/>
+				<field name="P534A_9" index="311"/>
+				<field name="P534A_8" index="312"/>
+				<field name="P534A_7" index="313"/>
+				<field name="P534A_6" index="314"/>
+				<field name="P534A_5" index="315"/>
+				<field name="P534A_4" index="316"/>
+				<field name="P534A_3" index="317"/>
+				<field name="P534A_2" index="318"/>
+				<field name="P534A_13" index="319"/>
+				<field name="P534A_12" index="320"/>
+				<field name="P534A_11" index="321"/>
+				<field name="P534A_10" index="322"/>
+				<field name="P534A_1" index="323"/>
+				<field name="P533B_9" index="324"/>
+				<field name="P533B_8" index="325"/>
+				<field name="P533B_7" index="326"/>
+				<field name="P533B_6" index="327"/>
+				<field name="P533B_5" index="328"/>
+				<field name="P533B_4" index="329"/>
+				<field name="P533B_3" index="330"/>
+				<field name="P533B_2" index="331"/>
+				<field name="P533B_13" index="332"/>
+				<field name="P533B_12" index="333"/>
+				<field name="P533B_11" index="334"/>
+				<field name="P533B_10" index="335"/>
+				<field name="P533B_1" index="336"/>
+				<field name="P533A_9" index="337"/>
+				<field name="P533A_8" index="338"/>
+				<field name="P533A_7" index="339"/>
+				<field name="P533A_6" index="340"/>
+				<field name="P533A_5" index="341"/>
+				<field name="P533A_4" index="342"/>
+				<field name="P533A_3" index="343"/>
+				<field name="P533A_2" index="344"/>
+				<field name="P533A_13" index="345"/>
+				<field name="P533A_12" index="346"/>
+				<field name="P533A_11" index="347"/>
+				<field name="P533A_10" index="348"/>
+				<field name="P533A_1" index="349"/>
+				<field name="P532B_9" index="350"/>
+				<field name="P532B_8" index="351"/>
+				<field name="P532B_7" index="352"/>
+				<field name="P532B_6" index="353"/>
+				<field name="P532B_5" index="354"/>
+				<field name="P532B_4" index="355"/>
+				<field name="P532B_3" index="356"/>
+				<field name="P532B_2" index="357"/>
+				<field name="P532B_10" index="358"/>
+				<field name="P532B_1" index="359"/>
+				<field name="P532A_9" index="360"/>
+				<field name="P532A_8" index="361"/>
+				<field name="P532A_7" index="362"/>
+				<field name="P532A_6" index="363"/>
+				<field name="P532A_5" index="364"/>
+				<field name="P532A_4" index="365"/>
+				<field name="P532A_3" index="366"/>
+				<field name="P532A_2" index="367"/>
+				<field name="P532A_10" index="368"/>
+				<field name="P532A_1" index="369"/>
+				<field name="P531B_9" index="370"/>
+				<field name="P531B_8" index="371"/>
+				<field name="P531B_7" index="372"/>
+				<field name="P531B_6" index="373"/>
+				<field name="P531B_5" index="374"/>
+				<field name="P531B_4" index="375"/>
+				<field name="P531B_3" index="376"/>
+				<field name="P531B_2" index="377"/>
+				<field name="P531B_11" index="378"/>
+				<field name="P531B_10" index="379"/>
+				<field name="P531B_1" index="380"/>
+				<field name="P531A_9" index="381"/>
+				<field name="P531A_8" index="382"/>
+				<field name="P531A_7" index="383"/>
+				<field name="P531A_6" index="384"/>
+				<field name="P531A_5" index="385"/>
+				<field name="P531A_4" index="386"/>
+				<field name="P531A_3" index="387"/>
+				<field name="P531A_2" index="388"/>
+				<field name="P531A_11" index="389"/>
+				<field name="P531A_10" index="390"/>
+				<field name="P531A_1" index="391"/>
+				<field name="P52D" index="392"/>
+				<field name="P52C" index="393"/>
+				<field name="P52B" index="394"/>
+				<field name="P52A" index="395"/>
+				<field name="P519" index="396"/>
+				<field name="P518" index="397"/>
+				<field name="P516" index="398"/>
+				<field name="P515" index="399"/>
+				<field name="P514" index="400"/>
+				<field name="P513" index="401"/>
+				<field name="P512" index="402"/>
+				<field name="P511" index="403"/>
+				<field name="P510" index="404"/>
+				<field name="P509" index="405"/>
+				<field name="P508" index="406"/>
+				<field name="P507" index="407"/>
+				<field name="P506" index="408"/>
+				<field name="P505" index="409"/>
+				<field name="P504" index="410"/>
+				<field name="P503" index="411"/>
+				<field name="P502" index="412"/>
+				<field name="P501" index="413"/>
+				<field name="P499" index="414"/>
+				<field name="P498" index="415"/>
+				<field name="P497" index="416"/>
+				<field name="P496" index="417"/>
+				<field name="P495" index="418"/>
+				<field name="P494" index="419"/>
+				<field name="P493" index="420"/>
+				<field name="P492" index="421"/>
+				<field name="P491" index="422"/>
+				<field name="P490" index="423"/>
+				<field name="P49" index="424"/>
+				<field name="P489" index="425"/>
+				<field name="P488" index="426"/>
+				<field name="P482" index="427"/>
+				<field name="P481" index="428"/>
+				<field name="P480" index="429"/>
+				<field name="P471" index="430"/>
+				<field name="P470" index="431"/>
+				<field name="P469" index="432"/>
+				<field name="P466" index="433"/>
+				<field name="P465" index="434"/>
+				<field name="P464" index="435"/>
+				<field name="P463" index="436"/>
+				<field name="P462" index="437"/>
+				<field name="P461" index="438"/>
+				<field name="P460C" index="439"/>
+				<field name="P460B" index="440"/>
+				<field name="P459" index="441"/>
+				<field name="P458" index="442"/>
+				<field name="P457" index="443"/>
+				<field name="P456" index="444"/>
+				<field name="P455B_9" index="445"/>
+				<field name="P455B_8" index="446"/>
+				<field name="P455B_7" index="447"/>
+				<field name="P455B_6" index="448"/>
+				<field name="P455B_5" index="449"/>
+				<field name="P455B_4" index="450"/>
+				<field name="P455B_3" index="451"/>
+				<field name="P455B_2" index="452"/>
+				<field name="P455B_10" index="453"/>
+				<field name="P455B_1" index="454"/>
+				<field name="P455A_9" index="455"/>
+				<field name="P455A_8" index="456"/>
+				<field name="P455A_7" index="457"/>
+				<field name="P455A_6" index="458"/>
+				<field name="P455A_5" index="459"/>
+				<field name="P455A_4" index="460"/>
+				<field name="P455A_3" index="461"/>
+				<field name="P455A_2" index="462"/>
+				<field name="P455A_10" index="463"/>
+				<field name="P455A_1" index="464"/>
+				<field name="P454B_9" index="465"/>
+				<field name="P454B_8" index="466"/>
+				<field name="P454B_7" index="467"/>
+				<field name="P454B_6" index="468"/>
+				<field name="P454B_5" index="469"/>
+				<field name="P454B_4" index="470"/>
+				<field name="P454B_3" index="471"/>
+				<field name="P454B_2" index="472"/>
+				<field name="P454B_10" index="473"/>
+				<field name="P454B_1" index="474"/>
+				<field name="P454A_9" index="475"/>
+				<field name="P454A_8" index="476"/>
+				<field name="P454A_7" index="477"/>
+				<field name="P454A_6" index="478"/>
+				<field name="P454A_5" index="479"/>
+				<field name="P454A_4" index="480"/>
+				<field name="P454A_3" index="481"/>
+				<field name="P454A_2" index="482"/>
+				<field name="P454A_10" index="483"/>
+				<field name="P454A_1" index="484"/>
+				<field name="P453B_9" index="485"/>
+				<field name="P453B_8" index="486"/>
+				<field name="P453B_7" index="487"/>
+				<field name="P453B_6" index="488"/>
+				<field name="P453B_5" index="489"/>
+				<field name="P453B_4" index="490"/>
+				<field name="P453B_3" index="491"/>
+				<field name="P453B_2" index="492"/>
+				<field name="P453B_10" index="493"/>
+				<field name="P453B_1" index="494"/>
+				<field name="P453A_9" index="495"/>
+				<field name="P453A_8" index="496"/>
+				<field name="P453A_7" index="497"/>
+				<field name="P453A_6" index="498"/>
+				<field name="P453A_5" index="499"/>
+				<field name="P453A_4" index="500"/>
+				<field name="P453A_3" index="501"/>
+				<field name="P453A_2" index="502"/>
+				<field name="P453A_10" index="503"/>
+				<field name="P453A_1" index="504"/>
+				<field name="P452" index="505"/>
+				<field name="P451B" index="506"/>
+				<field name="P451A" index="507"/>
+				<field name="P44D" index="508"/>
+				<field name="P44C" index="509"/>
+				<field name="P44B" index="510"/>
+				<field name="P44A" index="511"/>
+				<field name="P441C" index="512"/>
+				<field name="P441B" index="513"/>
+				<field name="P441A" index="514"/>
+				<field name="P440C" index="515"/>
+				<field name="P440B" index="516"/>
+				<field name="P440A" index="517"/>
+				<field name="P44" index="518"/>
+				<field name="P43D" index="519"/>
+				<field name="P43C" index="520"/>
+				<field name="P43B" index="521"/>
+				<field name="P43A" index="522"/>
+				<field name="P439" index="523"/>
+				<field name="P438D" index="524"/>
+				<field name="P438C" index="525"/>
+				<field name="P438B" index="526"/>
+				<field name="P438A" index="527"/>
+				<field name="P437B" index="528"/>
+				<field name="P437A" index="529"/>
+				<field name="P436" index="530"/>
+				<field name="P435D" index="531"/>
+				<field name="P435C" index="532"/>
+				<field name="P435B" index="533"/>
+				<field name="P435A" index="534"/>
+				<field name="P434D" index="535"/>
+				<field name="P434C" index="536"/>
+				<field name="P434B" index="537"/>
+				<field name="P434A" index="538"/>
+				<field name="P433D" index="539"/>
+				<field name="P433C" index="540"/>
+				<field name="P433B" index="541"/>
+				<field name="P433A" index="542"/>
+				<field name="P432C" index="543"/>
+				<field name="P432B" index="544"/>
+				<field name="P431C" index="545"/>
+				<field name="P431B" index="546"/>
+				<field name="P43" index="547"/>
+				<field name="P426D" index="548"/>
+				<field name="P426C" index="549"/>
+				<field name="P426B" index="550"/>
+				<field name="P426A" index="551"/>
+				<field name="P425D" index="552"/>
+				<field name="P425C" index="553"/>
+				<field name="P425B" index="554"/>
+				<field name="P425A" index="555"/>
+				<field name="P811" index="556"/>
+				<field name="P810" index="557"/>
+				<field name="P809" index="558"/>
+				<field name="P808" index="559"/>
+				<field name="P807" index="560"/>
+				<field name="P806" index="561"/>
+				<field name="P805" index="562"/>
+				<field name="P804" index="563"/>
+				<field name="P803" index="564"/>
+				<field name="P802" index="565"/>
+				<field name="P801" index="566"/>
+				<field name="P800" index="567"/>
+				<field name="P75" index="568"/>
+				<field name="P74" index="569"/>
+				<field name="P73D" index="570"/>
+				<field name="P73C" index="571"/>
+				<field name="P72D" index="572"/>
+				<field name="P72C" index="573"/>
+				<field name="P67" index="574"/>
+				<field name="P66" index="575"/>
+				<field name="P65" index="576"/>
+				<field name="P62D" index="577"/>
+				<field name="P62C" index="578"/>
+				<field name="P62B" index="579"/>
+				<field name="P62A" index="580"/>
+				<field name="P61B" index="581"/>
+				<field name="P61A" index="582"/>
+				<field name="P61" index="583"/>
+				<field name="P60" index="584"/>
+				<field name="P599" index="585"/>
+				<field name="P598" index="586"/>
+				<field name="P597" index="587"/>
+				<field name="P596" index="588"/>
+				<field name="P595" index="589"/>
+				<field name="P59" index="590"/>
+				<field name="P57M" index="591"/>
+				<field name="P57L" index="592"/>
+				<field name="P57K" index="593"/>
+				<field name="P57J" index="594"/>
+				<field name="P57I" index="595"/>
+				<field name="P57H" index="596"/>
+				<field name="P57G" index="597"/>
+				<field name="P57F" index="598"/>
+				<field name="P57E" index="599"/>
+				<field name="P57D" index="600"/>
+				<field name="P57C" index="601"/>
+				<field name="P57B" index="602"/>
+				<field name="P57A" index="603"/>
+				<field name="P579" index="604"/>
+				<field name="P578" index="605"/>
+				<field name="P577" index="606"/>
+				<field name="P576" index="607"/>
+				<field name="P575" index="608"/>
+				<field name="P574" index="609"/>
+				<field name="P573" index="610"/>
+				<field name="P572" index="611"/>
+				<field name="P571" index="612"/>
+				<field name="P570" index="613"/>
+				<field name="P569" index="614"/>
+				<field name="P568" index="615"/>
+				<field name="P567" index="616"/>
+				<field name="P566" index="617"/>
+				<field name="P565" index="618"/>
+				<field name="P564" index="619"/>
+				<field name="P563" index="620"/>
+				<field name="P562" index="621"/>
+				<field name="P561" index="622"/>
+				<field name="P560" index="623"/>
+				<field name="P55M" index="624"/>
+				<field name="P55L" index="625"/>
+				<field name="P55K" index="626"/>
+				<field name="P55J" index="627"/>
+				<field name="P55I" index="628"/>
+				<field name="P55H" index="629"/>
+				<field name="P55G" index="630"/>
+				<field name="P55F" index="631"/>
+				<field name="P55E" index="632"/>
+				<field name="P55D" index="633"/>
+				<field name="P55C" index="634"/>
+				<field name="P55B" index="635"/>
+				<field name="P55A" index="636"/>
+				<field name="P559" index="637"/>
+				<field name="P558" index="638"/>
+				<field name="P53C" index="639"/>
+				<field name="P53B" index="640"/>
+				<field name="P53A" index="641"/>
+				<field name="P535B_9" index="642"/>
+				<field name="P535B_8" index="643"/>
+				<field name="P535B_7" index="644"/>
+				<field name="P535B_6" index="645"/>
+				<field name="P535B_5" index="646"/>
+				<field name="P535B_4" index="647"/>
+				<field name="P535B_3" index="648"/>
+				<field name="P535B_2" index="649"/>
+				<field name="P535B_13" index="650"/>
+				<field name="P535B_12" index="651"/>
+				<field name="P535B_11" index="652"/>
+				<field name="P535B_10" index="653"/>
+				<field name="P535B_1" index="654"/>
+				<field name="P535A_9" index="655"/>
+				<field name="P535A_8" index="656"/>
+				<field name="P535A_7" index="657"/>
+				<field name="P535A_6" index="658"/>
+				<field name="P535A_5" index="659"/>
+				<field name="P535A_4" index="660"/>
+				<field name="P535A_3" index="661"/>
+				<field name="P535A_2" index="662"/>
+				<field name="P535A_13" index="663"/>
+				<field name="P535A_12" index="664"/>
+				<field name="P535A_11" index="665"/>
+				<field name="P535A_10" index="666"/>
+				<field name="P535A_1" index="667"/>
+				<field name="P534B_9" index="668"/>
+				<field name="P534B_8" index="669"/>
+				<field name="P424D" index="670"/>
+				<field name="P424C" index="671"/>
+				<field name="P424B" index="672"/>
+				<field name="P424A" index="673"/>
+				<field name="P423D" index="674"/>
+				<field name="P423C" index="675"/>
+				<field name="P423B" index="676"/>
+				<field name="P423A" index="677"/>
+				<field name="P422" index="678"/>
+				<field name="P421" index="679"/>
+				<field name="P420" index="680"/>
+				<field name="P419" index="681"/>
+				<field name="P417" index="682"/>
+				<field name="P416BIS" index="683"/>
+				<field name="P415BIS" index="684"/>
+				<field name="P414BIS" index="685"/>
+				<field name="P413" index="686"/>
+				<field name="P412" index="687"/>
+				<field name="P411" index="688"/>
+				<field name="P410" index="689"/>
+				<field name="P409" index="690"/>
+				<field name="P408D" index="691"/>
+				<field name="P408C" index="692"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="10" file="/APME/OBSYNT/*/%%Y%%M%%D/RMFS000(%%H*2+1).%%DayOfYear" >
+   <public>
+			<startSign>MFS version	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="MFS" index="0">
+					<startSign>Number of the MFS	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>	
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+			<endSign>&#x000A;&#x000A;</endSign>
+     </meta>
+			<fields splitSign="&#009;">
+				<field name="PD_UL_TBF_VOLUME_THR_9"   index="3"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_8"   index="4"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_7"   index="5"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_6"   index="6"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_5"   index="7"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_4"   index="8"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_3"   index="9"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_2"   index="10"/> 
+				<field name="PD_UL_TBF_VOLUME_THR_10"  index="11"/> 
+				<field name="PD_UL_TBF_VOLUME_THR_1"   index="12"/> 
+				<field name="PD_UL_TBF_DURATION_THR_9" index="13"/> 
+				<field name="PD_UL_TBF_DURATION_THR_8" index="14"/> 
+				<field name="PD_UL_TBF_DURATION_THR_7" index="15"/> 
+				<field name="PD_UL_TBF_DURATION_THR_6" index="16"/> 
+				<field name="PD_UL_TBF_DURATION_THR_5" index="17"/> 
+				<field name="PD_UL_TBF_DURATION_THR_4" index="18"/> 
+				<field name="PD_UL_TBF_DURATION_THR_3" index="19"/> 
+				<field name="PD_UL_TBF_DURATION_THR_2" index="20"/> 
+				<field name="PD_UL_TBF_DURATION_THR_10"   index="21"/> 
+				<field name="PD_UL_TBF_DURATION_THR_1" index="22"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_9" index="23"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_8" index="24"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_7" index="25"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_6" index="26"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_5" index="27"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_4" index="28"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_3" index="29"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_2" index="30"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_10" index="31"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_1" index="32"/> 
+				<field name="PD_DL_TBF_VOLUME_THR_9" index="33"/>
+				<field name="PD_DL_TBF_VOLUME_THR_8" index="34"/>
+				<field name="PD_DL_TBF_VOLUME_THR_7" index="35"/>
+				<field name="PD_DL_TBF_VOLUME_THR_6" index="36"/>
+				<field name="PD_DL_TBF_VOLUME_THR_5" index="37"/>
+				<field name="PD_DL_TBF_VOLUME_THR_4" index="38"/>
+				<field name="PD_DL_TBF_VOLUME_THR_3" index="39"/>
+				<field name="PD_DL_TBF_VOLUME_THR_2" index="40"/>
+				<field name="PD_DL_TBF_VOLUME_THR_10" index="41"/>
+				<field name="PD_DL_TBF_VOLUME_THR_1" index="42"/>
+				<field name="PD_DL_TBF_DURATION_THR_9" index="43"/>
+				<field name="PD_DL_TBF_DURATION_THR_8" index="44"/>
+				<field name="PD_DL_TBF_DURATION_THR_7" index="45"/>
+				<field name="PD_DL_TBF_DURATION_THR_6" index="46"/>
+				<field name="PD_DL_TBF_DURATION_THR_5" index="47"/>
+				<field name="PD_DL_TBF_DURATION_THR_4" index="48"/>
+				<field name="PD_DL_TBF_DURATION_THR_3" index="49"/>
+				<field name="PD_DL_TBF_DURATION_THR_2" index="50"/>
+				<field name="PD_DL_TBF_DURATION_THR_10"  index="51"/>
+				<field name="PD_DL_TBF_DURATION_THR_1" index="52"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_9" index="53"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_8" index="54"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_7" index="55"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_6" index="56"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_5" index="57"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_4" index="58"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_3" index="59"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_2" index="60"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_10" index="61"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_1" index="62"/>
+				<field name="P99"  index="63"/> 
+				<field name="P98F" index="64"/> 
+				<field name="P98E" index="65"/> 
+				<field name="P98D" index="66"/> 
+				<field name="P98C" index="67"/> 
+				<field name="P98B" index="68"/> 
+				<field name="P98A" index="69"/> 
+				<field name="P97"  index="70"/> 
+				<field name="P96"  index="71"/> 
+				<field name="P95"  index="72"/> 
+				<field name="P91G" index="73"/> 
+				<field name="P91F" index="74"/> 
+				<field name="P91E" index="75"/> 
+				<field name="P91D" index="76"/> 
+				<field name="P91C" index="77"/> 
+				<field name="P91B" index="78"/> 
+				<field name="P91A" index="79"/> 
+				<field name="P90G" index="80"/> 
+				<field name="P90F" index="81"/> 
+				<field name="P90E" index="82"/> 
+				<field name="P90D" index="83"/> 
+				<field name="P90C" index="84"/> 
+				<field name="P90B" index="85"/> 
+				<field name="P90A" index="86"/> 
+				<field name="P9"   index="87"/> 
+				<field name="P837" index="88"/> 
+				<field name="P836" index="89"/> 
+				<field name="P835" index="90"/> 
+				<field name="P834" index="91"/> 
+				<field name="P833" index="92"/> 
+				<field name="P832" index="93"/> 
+				<field name="P831" index="94"/> 
+				<field name="P830" index="95"/> 
+				<field name="P829" index="96"/> 
+				<field name="P828" index="97"/> 
+				<field name="P827" index="98"/> 
+				<field name="P826" index="99"/> 
+				<field name="P825" index="100"/>
+				<field name="P824" index="101"/>
+				<field name="P823" index="102"/>
+				<field name="P822" index="103"/>
+				<field name="P821" index="104"/>
+				<field name="P820" index="105"/>
+				<field name="P819" index="106"/>
+				<field name="P818" index="107"/>
+				<field name="P817" index="108"/>
+				<field name="P816" index="109"/>
+				<field name="P815" index="110"/>
+				<field name="P814" index="111"/>
+				<field name="P813" index="112"/>
+				<field name="P812" index="113"/>
+				<field name="P408B" index="114"/>
+				<field name="P408A" index="115"/>
+				<field name="P407D" index="116"/>
+				<field name="P407C" index="117"/>
+				<field name="P407B" index="118"/>
+				<field name="P407A" index="119"/>
+				<field name="P406D" index="120"/>
+				<field name="P406C" index="121"/>
+				<field name="P406B" index="122"/>
+				<field name="P406A" index="123"/>
+				<field name="P405D" index="124"/>
+				<field name="P405C" index="125"/>
+				<field name="P405B" index="126"/>
+				<field name="P405A" index="127"/>
+				<field name="P404D" index="128"/>
+				<field name="P404C" index="129"/>
+				<field name="P404B" index="130"/>
+				<field name="P404A" index="131"/>
+				<field name="P403D" index="132"/>
+				<field name="P403C" index="133"/>
+				<field name="P403B" index="134"/>
+				<field name="P403A" index="135"/>
+				<field name="P401"  index="136"/>
+				<field name="P400"  index="137"/>
+				<field name="P40"  index="138"/>
+				<field name="P399"  index="139"/>
+				<field name="P397"  index="140"/>
+				<field name="P396B" index="141"/>
+				<field name="P396A" index="142"/>
+				<field name="P39"  index="143"/>
+				<field name="P38F"  index="144"/>
+				<field name="P38E"  index="145"/>
+				<field name="P38C"  index="146"/>
+				<field name="P38B"  index="147"/>
+				<field name="P385B" index="148"/>
+				<field name="P385A" index="149"/>
+				<field name="P36"  index="150"/>
+				<field name="P352B" index="151"/>
+				<field name="P352A" index="152"/>
+				<field name="P351B" index="153"/>
+				<field name="P351A" index="154"/>
+				<field name="P350B" index="155"/>
+				<field name="P350A" index="156"/>
+				<field name="P35"   index="157"/>
+				<field name="P336"  index="158"/>
+				<field name="P335"  index="159"/>
+				<field name="P310D" index="160"/>
+				<field name="P310C" index="161"/>
+				<field name="P310B" index="162"/>
+				<field name="P310A" index="163"/>
+				<field name="P30D"  index="164"/>
+				<field name="P30C"  index="165"/>
+				<field name="P30B"  index="166"/>
+				<field name="P30A"  index="167"/>
+				<field name="P303B" index="168"/>
+				<field name="P303A" index="169"/>
+				<field name="P302C_4" index="170"/>
+				<field name="P302C_3" index="171"/>
+				<field name="P302C_2" index="172"/>
+				<field name="P302C_1" index="173"/>
+				<field name="P302B_2" index="174"/>
+				<field name="P302B_1" index="175"/>
+				<field name="P28"  index="176"/>
+				<field name="P27"  index="177"/>
+				<field name="P26"  index="178"/>
+				<field name="P24"  index="179"/>
+				<field name="P232" index="180"/>
+				<field name="P231" index="181"/>
+				<field name="P229" index="182"/>
+				<field name="P228" index="183"/>
+				<field name="P227" index="184"/>
+				<field name="P226" index="185"/>
+				<field name="P225" index="186"/>
+				<field name="P224" index="187"/>
+				<field name="P223" index="188"/>
+				<field name="P222" index="189"/>
+				<field name="P221" index="190"/>
+				<field name="P220" index="191"/>
+				<field name="P22"  index="192"/>
+				<field name="P21N" index="193"/>
+				<field name="P21M" index="194"/>
+				<field name="P21L" index="195"/>
+				<field name="P21K" index="196"/>
+				<field name="P21J" index="197"/>
+				<field name="P21I" index="198"/>
+				<field name="P21H" index="199"/>
+				<field name="P21G" index="200"/>
+				<field name="P21F" index="201"/>
+				<field name="P21D" index="202"/>
+				<field name="P21C" index="203"/>
+				<field name="P21B" index="204"/>
+				<field name="P21A" index="205"/>
+				<field name="P219" index="206"/>
+				<field name="P218" index="207"/>
+				<field name="P217" index="208"/>
+				<field name="P216" index="209"/>
+				<field name="P215" index="210"/>
+				<field name="P214" index="211"/>
+				<field name="P213" index="212"/>
+				<field name="P212" index="213"/>
+				<field name="P211" index="214"/>
+				<field name="P210" index="215"/>
+				<field name="P20N" index="216"/>
+				<field name="P20M" index="217"/>
+				<field name="P20L" index="218"/>
+				<field name="P20K" index="219"/>
+				<field name="P20J" index="220"/>
+				<field name="P20I" index="221"/>
+				<field name="P20H" index="222"/>
+				<field name="P20G" index="223"/>
+				<field name="P20F" index="224"/>
+				<field name="P20D" index="225"/>
+				<field name="P20C" index="226"/>
+				<field name="P20B" index="227"/>
+				<field name="P20A" index="228"/>
+				<field name="P209" index="229"/>
+				<field name="P208" index="230"/>
+				<field name="P207" index="231"/>
+				<field name="P204" index="232"/>
+				<field name="P203" index="233"/>
+				<field name="P200" index="234"/>
+				<field name="P165" index="235"/>
+				<field name="P164" index="236"/>
+				<field name="P163" index="237"/>
+				<field name="P162" index="238"/>
+				<field name="P161" index="239"/>
+				<field name="P160" index="240"/>
+				<field name="P16"  index="241"/>
+				<field name="P15"  index="242"/>
+				<field name="P147" index="243"/>
+				<field name="P146" index="244"/>
+				<field name="P14"  index="245"/>
+				<field name="P13"  index="246"/>
+			  <field name="P129D"  index="247"/>
+			  <field name="P129C"  index="248"/>
+			  <field name="P129B"  index="249"/>
+			  <field name="P129A"  index="250"/>
+			  <field name="P11"    index="251"/>
+			  <field name="P105L"  index="252"/>
+			  <field name="P105K"  index="253"/>
+			  <field name="P105J"  index="254"/>
+			  <field name="P105I"  index="255"/>
+			  <field name="P105H"  index="256"/>
+			  <field name="P105G"  index="257"/>
+			  <field name="P105F"  index="258"/>
+			  <field name="P105E"  index="259"/>
+			  <field name="P105D"  index="260"/>
+			  <field name="P105C"  index="261"/>
+			  <field name="P100E"  index="262"/>
+			  <field name="P100D"  index="263"/>
+			  <field name="P100C"  index="264"/>
+			  <field name="P10"    index="265"/>
+				<field name="MIN_PDCH" index="266"/>
+				<field name="MAX_PDCH" index="267"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_9"  index="268"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_8"  index="269"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_7"  index="270"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_6"  index="271"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_5"  index="272"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_4"  index="273"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_3"  index="274"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_2"  index="275"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_10" index="276"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_1"  index="277"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_9" index="278"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_8" index="279"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_7" index="280"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_6" index="281"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_5" index="282"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_4" index="283"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_3" index="284"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_2" index="285"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_11" index="286"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_10" index="287"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_1" index="288"/>
+				<field name="DSF" index="289"/>
+				<field name="CSSF" index="290"/>
+				<field name="BS_PRACH_BLKS" index="291"/>
+				<field name="BS_PBCCH_BLKS" index="292"/>
+				<field name="MNC" index="293"/>
+				<field name="MCC" index="294"/>
+				<field name="LAC" index="295" occur="required"/>
+				<field name="CI" index="296" occur="required"/>
+				<field name="BTS" index="297"/>
+				<field name="FABRIC" index="298"/>
+				<field name="BSS" index="299"/>	
+				<field name="P534B_7" index="300"/>
+				<field name="P534B_6" index="301"/>
+				<field name="P534B_5" index="302"/>
+				<field name="P534B_4" index="303"/>
+				<field name="P534B_3" index="304"/>
+				<field name="P534B_2" index="305"/>
+				<field name="P534B_13" index="306"/>
+				<field name="P534B_12" index="307"/>
+				<field name="P534B_11" index="308"/>
+				<field name="P534B_10" index="309"/>
+				<field name="P534B_1" index="310"/>
+				<field name="P534A_9" index="311"/>
+				<field name="P534A_8" index="312"/>
+				<field name="P534A_7" index="313"/>
+				<field name="P534A_6" index="314"/>
+				<field name="P534A_5" index="315"/>
+				<field name="P534A_4" index="316"/>
+				<field name="P534A_3" index="317"/>
+				<field name="P534A_2" index="318"/>
+				<field name="P534A_13" index="319"/>
+				<field name="P534A_12" index="320"/>
+				<field name="P534A_11" index="321"/>
+				<field name="P534A_10" index="322"/>
+				<field name="P534A_1" index="323"/>
+				<field name="P533B_9" index="324"/>
+				<field name="P533B_8" index="325"/>
+				<field name="P533B_7" index="326"/>
+				<field name="P533B_6" index="327"/>
+				<field name="P533B_5" index="328"/>
+				<field name="P533B_4" index="329"/>
+				<field name="P533B_3" index="330"/>
+				<field name="P533B_2" index="331"/>
+				<field name="P533B_13" index="332"/>
+				<field name="P533B_12" index="333"/>
+				<field name="P533B_11" index="334"/>
+				<field name="P533B_10" index="335"/>
+				<field name="P533B_1" index="336"/>
+				<field name="P533A_9" index="337"/>
+				<field name="P533A_8" index="338"/>
+				<field name="P533A_7" index="339"/>
+				<field name="P533A_6" index="340"/>
+				<field name="P533A_5" index="341"/>
+				<field name="P533A_4" index="342"/>
+				<field name="P533A_3" index="343"/>
+				<field name="P533A_2" index="344"/>
+				<field name="P533A_13" index="345"/>
+				<field name="P533A_12" index="346"/>
+				<field name="P533A_11" index="347"/>
+				<field name="P533A_10" index="348"/>
+				<field name="P533A_1" index="349"/>
+				<field name="P532B_9" index="350"/>
+				<field name="P532B_8" index="351"/>
+				<field name="P532B_7" index="352"/>
+				<field name="P532B_6" index="353"/>
+				<field name="P532B_5" index="354"/>
+				<field name="P532B_4" index="355"/>
+				<field name="P532B_3" index="356"/>
+				<field name="P532B_2" index="357"/>
+				<field name="P532B_10" index="358"/>
+				<field name="P532B_1" index="359"/>
+				<field name="P532A_9" index="360"/>
+				<field name="P532A_8" index="361"/>
+				<field name="P532A_7" index="362"/>
+				<field name="P532A_6" index="363"/>
+				<field name="P532A_5" index="364"/>
+				<field name="P532A_4" index="365"/>
+				<field name="P532A_3" index="366"/>
+				<field name="P532A_2" index="367"/>
+				<field name="P532A_10" index="368"/>
+				<field name="P532A_1" index="369"/>
+				<field name="P531B_9" index="370"/>
+				<field name="P531B_8" index="371"/>
+				<field name="P531B_7" index="372"/>
+				<field name="P531B_6" index="373"/>
+				<field name="P531B_5" index="374"/>
+				<field name="P531B_4" index="375"/>
+				<field name="P531B_3" index="376"/>
+				<field name="P531B_2" index="377"/>
+				<field name="P531B_11" index="378"/>
+				<field name="P531B_10" index="379"/>
+				<field name="P531B_1" index="380"/>
+				<field name="P531A_9" index="381"/>
+				<field name="P531A_8" index="382"/>
+				<field name="P531A_7" index="383"/>
+				<field name="P531A_6" index="384"/>
+				<field name="P531A_5" index="385"/>
+				<field name="P531A_4" index="386"/>
+				<field name="P531A_3" index="387"/>
+				<field name="P531A_2" index="388"/>
+				<field name="P531A_11" index="389"/>
+				<field name="P531A_10" index="390"/>
+				<field name="P531A_1" index="391"/>
+				<field name="P52D" index="392"/>
+				<field name="P52C" index="393"/>
+				<field name="P52B" index="394"/>
+				<field name="P52A" index="395"/>
+				<field name="P519" index="396"/>
+				<field name="P518" index="397"/>
+				<field name="P516" index="398"/>
+				<field name="P515" index="399"/>
+				<field name="P514" index="400"/>
+				<field name="P513" index="401"/>
+				<field name="P512" index="402"/>
+				<field name="P511" index="403"/>
+				<field name="P510" index="404"/>
+				<field name="P509" index="405"/>
+				<field name="P508" index="406"/>
+				<field name="P507" index="407"/>
+				<field name="P506" index="408"/>
+				<field name="P505" index="409"/>
+				<field name="P504" index="410"/>
+				<field name="P503" index="411"/>
+				<field name="P502" index="412"/>
+				<field name="P501" index="413"/>
+				<field name="P499" index="414"/>
+				<field name="P498" index="415"/>
+				<field name="P497" index="416"/>
+				<field name="P496" index="417"/>
+				<field name="P495" index="418"/>
+				<field name="P494" index="419"/>
+				<field name="P493" index="420"/>
+				<field name="P492" index="421"/>
+				<field name="P491" index="422"/>
+				<field name="P490" index="423"/>
+				<field name="P49" index="424"/>
+				<field name="P489" index="425"/>
+				<field name="P488" index="426"/>
+				<field name="P482" index="427"/>
+				<field name="P481" index="428"/>
+				<field name="P480" index="429"/>
+				<field name="P471" index="430"/>
+				<field name="P470" index="431"/>
+				<field name="P469" index="432"/>
+				<field name="P466" index="433"/>
+				<field name="P465" index="434"/>
+				<field name="P464" index="435"/>
+				<field name="P463" index="436"/>
+				<field name="P462" index="437"/>
+				<field name="P461" index="438"/>
+				<field name="P460C" index="439"/>
+				<field name="P460B" index="440"/>
+				<field name="P459" index="441"/>
+				<field name="P458" index="442"/>
+				<field name="P457" index="443"/>
+				<field name="P456" index="444"/>
+				<field name="P455B_9" index="445"/>
+				<field name="P455B_8" index="446"/>
+				<field name="P455B_7" index="447"/>
+				<field name="P455B_6" index="448"/>
+				<field name="P455B_5" index="449"/>
+				<field name="P455B_4" index="450"/>
+				<field name="P455B_3" index="451"/>
+				<field name="P455B_2" index="452"/>
+				<field name="P455B_10" index="453"/>
+				<field name="P455B_1" index="454"/>
+				<field name="P455A_9" index="455"/>
+				<field name="P455A_8" index="456"/>
+				<field name="P455A_7" index="457"/>
+				<field name="P455A_6" index="458"/>
+				<field name="P455A_5" index="459"/>
+				<field name="P455A_4" index="460"/>
+				<field name="P455A_3" index="461"/>
+				<field name="P455A_2" index="462"/>
+				<field name="P455A_10" index="463"/>
+				<field name="P455A_1" index="464"/>
+				<field name="P454B_9" index="465"/>
+				<field name="P454B_8" index="466"/>
+				<field name="P454B_7" index="467"/>
+				<field name="P454B_6" index="468"/>
+				<field name="P454B_5" index="469"/>
+				<field name="P454B_4" index="470"/>
+				<field name="P454B_3" index="471"/>
+				<field name="P454B_2" index="472"/>
+				<field name="P454B_10" index="473"/>
+				<field name="P454B_1" index="474"/>
+				<field name="P454A_9" index="475"/>
+				<field name="P454A_8" index="476"/>
+				<field name="P454A_7" index="477"/>
+				<field name="P454A_6" index="478"/>
+				<field name="P454A_5" index="479"/>
+				<field name="P454A_4" index="480"/>
+				<field name="P454A_3" index="481"/>
+				<field name="P454A_2" index="482"/>
+				<field name="P454A_10" index="483"/>
+				<field name="P454A_1" index="484"/>
+				<field name="P453B_9" index="485"/>
+				<field name="P453B_8" index="486"/>
+				<field name="P453B_7" index="487"/>
+				<field name="P453B_6" index="488"/>
+				<field name="P453B_5" index="489"/>
+				<field name="P453B_4" index="490"/>
+				<field name="P453B_3" index="491"/>
+				<field name="P453B_2" index="492"/>
+				<field name="P453B_10" index="493"/>
+				<field name="P453B_1" index="494"/>
+				<field name="P453A_9" index="495"/>
+				<field name="P453A_8" index="496"/>
+				<field name="P453A_7" index="497"/>
+				<field name="P453A_6" index="498"/>
+				<field name="P453A_5" index="499"/>
+				<field name="P453A_4" index="500"/>
+				<field name="P453A_3" index="501"/>
+				<field name="P453A_2" index="502"/>
+				<field name="P453A_10" index="503"/>
+				<field name="P453A_1" index="504"/>
+				<field name="P452" index="505"/>
+				<field name="P451B" index="506"/>
+				<field name="P451A" index="507"/>
+				<field name="P44D" index="508"/>
+				<field name="P44C" index="509"/>
+				<field name="P44B" index="510"/>
+				<field name="P44A" index="511"/>
+				<field name="P441C" index="512"/>
+				<field name="P441B" index="513"/>
+				<field name="P441A" index="514"/>
+				<field name="P440C" index="515"/>
+				<field name="P440B" index="516"/>
+				<field name="P440A" index="517"/>
+				<field name="P44" index="518"/>
+				<field name="P43D" index="519"/>
+				<field name="P43C" index="520"/>
+				<field name="P43B" index="521"/>
+				<field name="P43A" index="522"/>
+				<field name="P439" index="523"/>
+				<field name="P438D" index="524"/>
+				<field name="P438C" index="525"/>
+				<field name="P438B" index="526"/>
+				<field name="P438A" index="527"/>
+				<field name="P437B" index="528"/>
+				<field name="P437A" index="529"/>
+				<field name="P436" index="530"/>
+				<field name="P435D" index="531"/>
+				<field name="P435C" index="532"/>
+				<field name="P435B" index="533"/>
+				<field name="P435A" index="534"/>
+				<field name="P434D" index="535"/>
+				<field name="P434C" index="536"/>
+				<field name="P434B" index="537"/>
+				<field name="P434A" index="538"/>
+				<field name="P433D" index="539"/>
+				<field name="P433C" index="540"/>
+				<field name="P433B" index="541"/>
+				<field name="P433A" index="542"/>
+				<field name="P432C" index="543"/>
+				<field name="P432B" index="544"/>
+				<field name="P431C" index="545"/>
+				<field name="P431B" index="546"/>
+				<field name="P43" index="547"/>
+				<field name="P426D" index="548"/>
+				<field name="P426C" index="549"/>
+				<field name="P426B" index="550"/>
+				<field name="P426A" index="551"/>
+				<field name="P425D" index="552"/>
+				<field name="P425C" index="553"/>
+				<field name="P425B" index="554"/>
+				<field name="P425A" index="555"/>
+				<field name="P811" index="556"/>
+				<field name="P810" index="557"/>
+				<field name="P809" index="558"/>
+				<field name="P808" index="559"/>
+				<field name="P807" index="560"/>
+				<field name="P806" index="561"/>
+				<field name="P805" index="562"/>
+				<field name="P804" index="563"/>
+				<field name="P803" index="564"/>
+				<field name="P802" index="565"/>
+				<field name="P801" index="566"/>
+				<field name="P800" index="567"/>
+				<field name="P75" index="568"/>
+				<field name="P74" index="569"/>
+				<field name="P73D" index="570"/>
+				<field name="P73C" index="571"/>
+				<field name="P72D" index="572"/>
+				<field name="P72C" index="573"/>
+				<field name="P67" index="574"/>
+				<field name="P66" index="575"/>
+				<field name="P65" index="576"/>
+				<field name="P62D" index="577"/>
+				<field name="P62C" index="578"/>
+				<field name="P62B" index="579"/>
+				<field name="P62A" index="580"/>
+				<field name="P61B" index="581"/>
+				<field name="P61A" index="582"/>
+				<field name="P61" index="583"/>
+				<field name="P60" index="584"/>
+				<field name="P599" index="585"/>
+				<field name="P598" index="586"/>
+				<field name="P597" index="587"/>
+				<field name="P596" index="588"/>
+				<field name="P595" index="589"/>
+				<field name="P59" index="590"/>
+				<field name="P57M" index="591"/>
+				<field name="P57L" index="592"/>
+				<field name="P57K" index="593"/>
+				<field name="P57J" index="594"/>
+				<field name="P57I" index="595"/>
+				<field name="P57H" index="596"/>
+				<field name="P57G" index="597"/>
+				<field name="P57F" index="598"/>
+				<field name="P57E" index="599"/>
+				<field name="P57D" index="600"/>
+				<field name="P57C" index="601"/>
+				<field name="P57B" index="602"/>
+				<field name="P57A" index="603"/>
+				<field name="P579" index="604"/>
+				<field name="P578" index="605"/>
+				<field name="P577" index="606"/>
+				<field name="P576" index="607"/>
+				<field name="P575" index="608"/>
+				<field name="P574" index="609"/>
+				<field name="P573" index="610"/>
+				<field name="P572" index="611"/>
+				<field name="P571" index="612"/>
+				<field name="P570" index="613"/>
+				<field name="P569" index="614"/>
+				<field name="P568" index="615"/>
+				<field name="P567" index="616"/>
+				<field name="P566" index="617"/>
+				<field name="P565" index="618"/>
+				<field name="P564" index="619"/>
+				<field name="P563" index="620"/>
+				<field name="P562" index="621"/>
+				<field name="P561" index="622"/>
+				<field name="P560" index="623"/>
+				<field name="P55M" index="624"/>
+				<field name="P55L" index="625"/>
+				<field name="P55K" index="626"/>
+				<field name="P55J" index="627"/>
+				<field name="P55I" index="628"/>
+				<field name="P55H" index="629"/>
+				<field name="P55G" index="630"/>
+				<field name="P55F" index="631"/>
+				<field name="P55E" index="632"/>
+				<field name="P55D" index="633"/>
+				<field name="P55C" index="634"/>
+				<field name="P55B" index="635"/>
+				<field name="P55A" index="636"/>
+				<field name="P559" index="637"/>
+				<field name="P558" index="638"/>
+				<field name="P53C" index="639"/>
+				<field name="P53B" index="640"/>
+				<field name="P53A" index="641"/>
+				<field name="P535B_9" index="642"/>
+				<field name="P535B_8" index="643"/>
+				<field name="P535B_7" index="644"/>
+				<field name="P535B_6" index="645"/>
+				<field name="P535B_5" index="646"/>
+				<field name="P535B_4" index="647"/>
+				<field name="P535B_3" index="648"/>
+				<field name="P535B_2" index="649"/>
+				<field name="P535B_13" index="650"/>
+				<field name="P535B_12" index="651"/>
+				<field name="P535B_11" index="652"/>
+				<field name="P535B_10" index="653"/>
+				<field name="P535B_1" index="654"/>
+				<field name="P535A_9" index="655"/>
+				<field name="P535A_8" index="656"/>
+				<field name="P535A_7" index="657"/>
+				<field name="P535A_6" index="658"/>
+				<field name="P535A_5" index="659"/>
+				<field name="P535A_4" index="660"/>
+				<field name="P535A_3" index="661"/>
+				<field name="P535A_2" index="662"/>
+				<field name="P535A_13" index="663"/>
+				<field name="P535A_12" index="664"/>
+				<field name="P535A_11" index="665"/>
+				<field name="P535A_10" index="666"/>
+				<field name="P535A_1" index="667"/>
+				<field name="P534B_9" index="668"/>
+				<field name="P534B_8" index="669"/>
+				<field name="P424D" index="670"/>
+				<field name="P424C" index="671"/>
+				<field name="P424B" index="672"/>
+				<field name="P424A" index="673"/>
+				<field name="P423D" index="674"/>
+				<field name="P423C" index="675"/>
+				<field name="P423B" index="676"/>
+				<field name="P423A" index="677"/>
+				<field name="P422" index="678"/>
+				<field name="P421" index="679"/>
+				<field name="P420" index="680"/>
+				<field name="P419" index="681"/>
+				<field name="P417" index="682"/>
+				<field name="P416BIS" index="683"/>
+				<field name="P415BIS" index="684"/>
+				<field name="P414BIS" index="685"/>
+				<field name="P413" index="686"/>
+				<field name="P412" index="687"/>
+				<field name="P411" index="688"/>
+				<field name="P410" index="689"/>
+				<field name="P409" index="690"/>
+				<field name="P408D" index="691"/>
+				<field name="P408C" index="692"/>
+			</fields>
+		</ds>
+	</templet>
+		<templet id="11" file="/APME/OBSYNT/*/%%Y%%M%%D/RMFS000(%%H*2+2).%%DayOfYear" >
+		 <public>
+			<startSign>MFS version	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field name="MFS" index="0">
+					<startSign>Number of the MFS	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STARTTIME" index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field name="STOPTIME"  index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>	
+		<ds id="0">
+			<meta>
+				<head splitSign="&#009;" />
+			<endSign>&#x000A;&#x000A;</endSign>
+      </meta>
+			<fields splitSign="&#009;">
+				<field name="PD_UL_TBF_VOLUME_THR_9"   index="3"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_8"   index="4"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_7"   index="5"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_6"   index="6"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_5"   index="7"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_4"   index="8"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_3"   index="9"/>  
+				<field name="PD_UL_TBF_VOLUME_THR_2"   index="10"/> 
+				<field name="PD_UL_TBF_VOLUME_THR_10"  index="11"/> 
+				<field name="PD_UL_TBF_VOLUME_THR_1"   index="12"/> 
+				<field name="PD_UL_TBF_DURATION_THR_9" index="13"/> 
+				<field name="PD_UL_TBF_DURATION_THR_8" index="14"/> 
+				<field name="PD_UL_TBF_DURATION_THR_7" index="15"/> 
+				<field name="PD_UL_TBF_DURATION_THR_6" index="16"/> 
+				<field name="PD_UL_TBF_DURATION_THR_5" index="17"/> 
+				<field name="PD_UL_TBF_DURATION_THR_4" index="18"/> 
+				<field name="PD_UL_TBF_DURATION_THR_3" index="19"/> 
+				<field name="PD_UL_TBF_DURATION_THR_2" index="20"/> 
+				<field name="PD_UL_TBF_DURATION_THR_10" index="21"/> 
+				<field name="PD_UL_TBF_DURATION_THR_1" index="22"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_9" index="23"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_8" index="24"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_7" index="25"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_6" index="26"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_5" index="27"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_4" index="28"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_3" index="29"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_2" index="30"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_10" index="31"/> 
+				<field name="PD_UL_PDCH_UNIT_ALLOC_THR_1" index="32"/> 
+				<field name="PD_DL_TBF_VOLUME_THR_9" index="33"/>
+				<field name="PD_DL_TBF_VOLUME_THR_8" index="34"/>
+				<field name="PD_DL_TBF_VOLUME_THR_7" index="35"/>
+				<field name="PD_DL_TBF_VOLUME_THR_6" index="36"/>
+				<field name="PD_DL_TBF_VOLUME_THR_5" index="37"/>
+				<field name="PD_DL_TBF_VOLUME_THR_4" index="38"/>
+				<field name="PD_DL_TBF_VOLUME_THR_3" index="39"/>
+				<field name="PD_DL_TBF_VOLUME_THR_2" index="40"/>
+				<field name="PD_DL_TBF_VOLUME_THR_10" index="41"/>
+				<field name="PD_DL_TBF_VOLUME_THR_1" index="42"/>
+				<field name="PD_DL_TBF_DURATION_THR_9" index="43"/>
+				<field name="PD_DL_TBF_DURATION_THR_8" index="44"/>
+				<field name="PD_DL_TBF_DURATION_THR_7" index="45"/>
+				<field name="PD_DL_TBF_DURATION_THR_6" index="46"/>
+				<field name="PD_DL_TBF_DURATION_THR_5" index="47"/>
+				<field name="PD_DL_TBF_DURATION_THR_4" index="48"/>
+				<field name="PD_DL_TBF_DURATION_THR_3" index="49"/>
+				<field name="PD_DL_TBF_DURATION_THR_2" index="50"/>
+				<field name="PD_DL_TBF_DURATION_THR_10"  index="51"/>
+				<field name="PD_DL_TBF_DURATION_THR_1" index="52"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_9" index="53"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_8" index="54"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_7" index="55"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_6" index="56"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_5" index="57"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_4" index="58"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_3" index="59"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_2" index="60"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_10"  index="61"/>
+				<field name="PD_DL_PDCH_UNIT_ALLOC_THR_1" index="62"/>
+				<field name="P99"  index="63"/> 
+				<field name="P98F" index="64"/> 
+				<field name="P98E" index="65"/> 
+				<field name="P98D" index="66"/> 
+				<field name="P98C" index="67"/> 
+				<field name="P98B" index="68"/> 
+				<field name="P98A" index="69"/> 
+				<field name="P97"  index="70"/> 
+				<field name="P96"  index="71"/> 
+				<field name="P95"  index="72"/> 
+				<field name="P91G" index="73"/> 
+				<field name="P91F" index="74"/> 
+				<field name="P91E" index="75"/> 
+				<field name="P91D" index="76"/> 
+				<field name="P91C" index="77"/> 
+				<field name="P91B" index="78"/> 
+				<field name="P91A" index="79"/> 
+				<field name="P90G" index="80"/> 
+				<field name="P90F" index="81"/> 
+				<field name="P90E" index="82"/> 
+				<field name="P90D" index="83"/> 
+				<field name="P90C" index="84"/> 
+				<field name="P90B" index="85"/> 
+				<field name="P90A" index="86"/> 
+				<field name="P9"   index="87"/> 
+				<field name="P837" index="88"/> 
+				<field name="P836" index="89"/> 
+				<field name="P835" index="90"/> 
+				<field name="P834" index="91"/> 
+				<field name="P833" index="92"/> 
+				<field name="P832" index="93"/> 
+				<field name="P831" index="94"/> 
+				<field name="P830" index="95"/> 
+				<field name="P829" index="96"/> 
+				<field name="P828" index="97"/> 
+				<field name="P827" index="98"/> 
+				<field name="P826" index="99"/> 
+				<field name="P825" index="100"/>
+				<field name="P824" index="101"/>
+				<field name="P823" index="102"/>
+				<field name="P822" index="103"/>
+				<field name="P821" index="104"/>
+				<field name="P820" index="105"/>
+				<field name="P819" index="106"/>
+				<field name="P818" index="107"/>
+				<field name="P817" index="108"/>
+				<field name="P816" index="109"/>
+				<field name="P815" index="110"/>
+				<field name="P814" index="111"/>
+				<field name="P813" index="112"/>
+				<field name="P812" index="113"/>
+				<field name="P408B" index="114"/>
+				<field name="P408A" index="115"/>
+				<field name="P407D" index="116"/>
+				<field name="P407C" index="117"/>
+				<field name="P407B" index="118"/>
+				<field name="P407A" index="119"/>
+				<field name="P406D" index="120"/>
+				<field name="P406C" index="121"/>
+				<field name="P406B" index="122"/>
+				<field name="P406A" index="123"/>
+				<field name="P405D" index="124"/>
+				<field name="P405C" index="125"/>
+				<field name="P405B" index="126"/>
+				<field name="P405A" index="127"/>
+				<field name="P404D" index="128"/>
+				<field name="P404C" index="129"/>
+				<field name="P404B" index="130"/>
+				<field name="P404A" index="131"/>
+				<field name="P403D" index="132"/>
+				<field name="P403C" index="133"/>
+				<field name="P403B" index="134"/>
+				<field name="P403A" index="135"/>
+				<field name="P401"  index="136"/>
+				<field name="P400"  index="137"/>
+				<field name="P40"  index="138"/>
+				<field name="P399"  index="139"/>
+				<field name="P397"  index="140"/>
+				<field name="P396B" index="141"/>
+				<field name="P396A" index="142"/>
+				<field name="P39"  index="143"/>
+				<field name="P38F"  index="144"/>
+				<field name="P38E"  index="145"/>
+				<field name="P38C"  index="146"/>
+				<field name="P38B"  index="147"/>
+				<field name="P385B" index="148"/>
+				<field name="P385A" index="149"/>
+				<field name="P36"  index="150"/>
+				<field name="P352B" index="151"/>
+				<field name="P352A" index="152"/>
+				<field name="P351B" index="153"/>
+				<field name="P351A" index="154"/>
+				<field name="P350B" index="155"/>
+				<field name="P350A" index="156"/>
+				<field name="P35"   index="157"/>
+				<field name="P336"  index="158"/>
+				<field name="P335"  index="159"/>
+				<field name="P310D" index="160"/>
+				<field name="P310C" index="161"/>
+				<field name="P310B" index="162"/>
+				<field name="P310A" index="163"/>
+				<field name="P30D"  index="164"/>
+				<field name="P30C"  index="165"/>
+				<field name="P30B"  index="166"/>
+				<field name="P30A"  index="167"/>
+				<field name="P303B" index="168"/>
+				<field name="P303A" index="169"/>
+				<field name="P302C_4" index="170"/>
+				<field name="P302C_3" index="171"/>
+				<field name="P302C_2" index="172"/>
+				<field name="P302C_1" index="173"/>
+				<field name="P302B_2" index="174"/>
+				<field name="P302B_1" index="175"/>
+				<field name="P28"  index="176"/>
+				<field name="P27"  index="177"/>
+				<field name="P26"  index="178"/>
+				<field name="P24"  index="179"/>
+				<field name="P232" index="180"/>
+				<field name="P231" index="181"/>
+				<field name="P229" index="182"/>
+				<field name="P228" index="183"/>
+				<field name="P227" index="184"/>
+				<field name="P226" index="185"/>
+				<field name="P225" index="186"/>
+				<field name="P224" index="187"/>
+				<field name="P223" index="188"/>
+				<field name="P222" index="189"/>
+				<field name="P221" index="190"/>
+				<field name="P220" index="191"/>
+				<field name="P22"  index="192"/>
+				<field name="P21N" index="193"/>
+				<field name="P21M" index="194"/>
+				<field name="P21L" index="195"/>
+				<field name="P21K" index="196"/>
+				<field name="P21J" index="197"/>
+				<field name="P21I" index="198"/>
+				<field name="P21H" index="199"/>
+				<field name="P21G" index="200"/>
+				<field name="P21F" index="201"/>
+				<field name="P21D" index="202"/>
+				<field name="P21C" index="203"/>
+				<field name="P21B" index="204"/>
+				<field name="P21A" index="205"/>
+				<field name="P219" index="206"/>
+				<field name="P218" index="207"/>
+				<field name="P217" index="208"/>
+				<field name="P216" index="209"/>
+				<field name="P215" index="210"/>
+				<field name="P214" index="211"/>
+				<field name="P213" index="212"/>
+				<field name="P212" index="213"/>
+				<field name="P211" index="214"/>
+				<field name="P210" index="215"/>
+				<field name="P20N" index="216"/>
+				<field name="P20M" index="217"/>
+				<field name="P20L" index="218"/>
+				<field name="P20K" index="219"/>
+				<field name="P20J" index="220"/>
+				<field name="P20I" index="221"/>
+				<field name="P20H" index="222"/>
+				<field name="P20G" index="223"/>
+				<field name="P20F" index="224"/>
+				<field name="P20D" index="225"/>
+				<field name="P20C" index="226"/>
+				<field name="P20B" index="227"/>
+				<field name="P20A" index="228"/>
+				<field name="P209" index="229"/>
+				<field name="P208" index="230"/>
+				<field name="P207" index="231"/>
+				<field name="P204" index="232"/>
+				<field name="P203" index="233"/>
+				<field name="P200" index="234"/>
+				<field name="P165" index="235"/>
+				<field name="P164" index="236"/>
+				<field name="P163" index="237"/>
+				<field name="P162" index="238"/>
+				<field name="P161" index="239"/>
+				<field name="P160" index="240"/>
+				<field name="P16"  index="241"/>
+				<field name="P15"  index="242"/>
+				<field name="P147" index="243"/>
+				<field name="P146" index="244"/>
+				<field name="P14"  index="245"/>
+				<field name="P13"  index="246"/>
+			  <field name="P129D"  index="247"/>
+			  <field name="P129C"  index="248"/>
+			  <field name="P129B"  index="249"/>
+			  <field name="P129A"  index="250"/>
+			  <field name="P11"    index="251"/>
+			  <field name="P105L"  index="252"/>
+			  <field name="P105K"  index="253"/>
+			  <field name="P105J"  index="254"/>
+			  <field name="P105I"  index="255"/>
+			  <field name="P105H"  index="256"/>
+			  <field name="P105G"  index="257"/>
+			  <field name="P105F"  index="258"/>
+			  <field name="P105E"  index="259"/>
+			  <field name="P105D"  index="260"/>
+			  <field name="P105C"  index="261"/>
+			  <field name="P100E"  index="262"/>
+			  <field name="P100D"  index="263"/>
+			  <field name="P100C"  index="264"/>
+			  <field name="P10"    index="265"/>
+				<field name="MIN_PDCH" index="266"/>
+				<field name="MAX_PDCH" index="267"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_9"  index="268"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_8"  index="269"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_7"  index="270"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_6"  index="271"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_5"  index="272"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_4"  index="273"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_3"  index="274"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_2"  index="275"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_10" index="276"/>
+				<field name="GPRS_LLC_THROUGHPUT_THR_1"  index="277"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_9" index="278"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_8" index="279"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_7" index="280"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_6" index="281"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_5" index="282"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_4" index="283"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_3" index="284"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_2" index="285"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_11" index="286"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_10" index="287"/>
+				<field name="EGPRS_LLC_THROUGHPUT_THR_1" index="288"/>
+				<field name="DSF" index="289"/>
+				<field name="CSSF" index="290"/>
+				<field name="BS_PRACH_BLKS" index="291"/>
+				<field name="BS_PBCCH_BLKS" index="292"/>
+				<field name="MNC" index="293"/>
+				<field name="MCC" index="294"/>
+				<field name="LAC" index="295" occur="required"/>
+				<field name="CI" index="296" occur="required"/>
+				<field name="BTS" index="297"/>
+				<field name="FABRIC" index="298"/>
+				<field name="BSS" index="299"/>	
+				<field name="P534B_7" index="300"/>
+				<field name="P534B_6" index="301"/>
+				<field name="P534B_5" index="302"/>
+				<field name="P534B_4" index="303"/>
+				<field name="P534B_3" index="304"/>
+				<field name="P534B_2" index="305"/>
+				<field name="P534B_13" index="306"/>
+				<field name="P534B_12" index="307"/>
+				<field name="P534B_11" index="308"/>
+				<field name="P534B_10" index="309"/>
+				<field name="P534B_1" index="310"/>
+				<field name="P534A_9" index="311"/>
+				<field name="P534A_8" index="312"/>
+				<field name="P534A_7" index="313"/>
+				<field name="P534A_6" index="314"/>
+				<field name="P534A_5" index="315"/>
+				<field name="P534A_4" index="316"/>
+				<field name="P534A_3" index="317"/>
+				<field name="P534A_2" index="318"/>
+				<field name="P534A_13" index="319"/>
+				<field name="P534A_12" index="320"/>
+				<field name="P534A_11" index="321"/>
+				<field name="P534A_10" index="322"/>
+				<field name="P534A_1" index="323"/>
+				<field name="P533B_9" index="324"/>
+				<field name="P533B_8" index="325"/>
+				<field name="P533B_7" index="326"/>
+				<field name="P533B_6" index="327"/>
+				<field name="P533B_5" index="328"/>
+				<field name="P533B_4" index="329"/>
+				<field name="P533B_3" index="330"/>
+				<field name="P533B_2" index="331"/>
+				<field name="P533B_13" index="332"/>
+				<field name="P533B_12" index="333"/>
+				<field name="P533B_11" index="334"/>
+				<field name="P533B_10" index="335"/>
+				<field name="P533B_1" index="336"/>
+				<field name="P533A_9" index="337"/>
+				<field name="P533A_8" index="338"/>
+				<field name="P533A_7" index="339"/>
+				<field name="P533A_6" index="340"/>
+				<field name="P533A_5" index="341"/>
+				<field name="P533A_4" index="342"/>
+				<field name="P533A_3" index="343"/>
+				<field name="P533A_2" index="344"/>
+				<field name="P533A_13" index="345"/>
+				<field name="P533A_12" index="346"/>
+				<field name="P533A_11" index="347"/>
+				<field name="P533A_10" index="348"/>
+				<field name="P533A_1" index="349"/>
+				<field name="P532B_9" index="350"/>
+				<field name="P532B_8" index="351"/>
+				<field name="P532B_7" index="352"/>
+				<field name="P532B_6" index="353"/>
+				<field name="P532B_5" index="354"/>
+				<field name="P532B_4" index="355"/>
+				<field name="P532B_3" index="356"/>
+				<field name="P532B_2" index="357"/>
+				<field name="P532B_10" index="358"/>
+				<field name="P532B_1" index="359"/>
+				<field name="P532A_9" index="360"/>
+				<field name="P532A_8" index="361"/>
+				<field name="P532A_7" index="362"/>
+				<field name="P532A_6" index="363"/>
+				<field name="P532A_5" index="364"/>
+				<field name="P532A_4" index="365"/>
+				<field name="P532A_3" index="366"/>
+				<field name="P532A_2" index="367"/>
+				<field name="P532A_10" index="368"/>
+				<field name="P532A_1" index="369"/>
+				<field name="P531B_9" index="370"/>
+				<field name="P531B_8" index="371"/>
+				<field name="P531B_7" index="372"/>
+				<field name="P531B_6" index="373"/>
+				<field name="P531B_5" index="374"/>
+				<field name="P531B_4" index="375"/>
+				<field name="P531B_3" index="376"/>
+				<field name="P531B_2" index="377"/>
+				<field name="P531B_11" index="378"/>
+				<field name="P531B_10" index="379"/>
+				<field name="P531B_1" index="380"/>
+				<field name="P531A_9" index="381"/>
+				<field name="P531A_8" index="382"/>
+				<field name="P531A_7" index="383"/>
+				<field name="P531A_6" index="384"/>
+				<field name="P531A_5" index="385"/>
+				<field name="P531A_4" index="386"/>
+				<field name="P531A_3" index="387"/>
+				<field name="P531A_2" index="388"/>
+				<field name="P531A_11" index="389"/>
+				<field name="P531A_10" index="390"/>
+				<field name="P531A_1" index="391"/>
+				<field name="P52D" index="392"/>
+				<field name="P52C" index="393"/>
+				<field name="P52B" index="394"/>
+				<field name="P52A" index="395"/>
+				<field name="P519" index="396"/>
+				<field name="P518" index="397"/>
+				<field name="P516" index="398"/>
+				<field name="P515" index="399"/>
+				<field name="P514" index="400"/>
+				<field name="P513" index="401"/>
+				<field name="P512" index="402"/>
+				<field name="P511" index="403"/>
+				<field name="P510" index="404"/>
+				<field name="P509" index="405"/>
+				<field name="P508" index="406"/>
+				<field name="P507" index="407"/>
+				<field name="P506" index="408"/>
+				<field name="P505" index="409"/>
+				<field name="P504" index="410"/>
+				<field name="P503" index="411"/>
+				<field name="P502" index="412"/>
+				<field name="P501" index="413"/>
+				<field name="P499" index="414"/>
+				<field name="P498" index="415"/>
+				<field name="P497" index="416"/>
+				<field name="P496" index="417"/>
+				<field name="P495" index="418"/>
+				<field name="P494" index="419"/>
+				<field name="P493" index="420"/>
+				<field name="P492" index="421"/>
+				<field name="P491" index="422"/>
+				<field name="P490" index="423"/>
+				<field name="P49" index="424"/>
+				<field name="P489" index="425"/>
+				<field name="P488" index="426"/>
+				<field name="P482" index="427"/>
+				<field name="P481" index="428"/>
+				<field name="P480" index="429"/>
+				<field name="P471" index="430"/>
+				<field name="P470" index="431"/>
+				<field name="P469" index="432"/>
+				<field name="P466" index="433"/>
+				<field name="P465" index="434"/>
+				<field name="P464" index="435"/>
+				<field name="P463" index="436"/>
+				<field name="P462" index="437"/>
+				<field name="P461" index="438"/>
+				<field name="P460C" index="439"/>
+				<field name="P460B" index="440"/>
+				<field name="P459" index="441"/>
+				<field name="P458" index="442"/>
+				<field name="P457" index="443"/>
+				<field name="P456" index="444"/>
+				<field name="P455B_9" index="445"/>
+				<field name="P455B_8" index="446"/>
+				<field name="P455B_7" index="447"/>
+				<field name="P455B_6" index="448"/>
+				<field name="P455B_5" index="449"/>
+				<field name="P455B_4" index="450"/>
+				<field name="P455B_3" index="451"/>
+				<field name="P455B_2" index="452"/>
+				<field name="P455B_10" index="453"/>
+				<field name="P455B_1" index="454"/>
+				<field name="P455A_9" index="455"/>
+				<field name="P455A_8" index="456"/>
+				<field name="P455A_7" index="457"/>
+				<field name="P455A_6" index="458"/>
+				<field name="P455A_5" index="459"/>
+				<field name="P455A_4" index="460"/>
+				<field name="P455A_3" index="461"/>
+				<field name="P455A_2" index="462"/>
+				<field name="P455A_10" index="463"/>
+				<field name="P455A_1" index="464"/>
+				<field name="P454B_9" index="465"/>
+				<field name="P454B_8" index="466"/>
+				<field name="P454B_7" index="467"/>
+				<field name="P454B_6" index="468"/>
+				<field name="P454B_5" index="469"/>
+				<field name="P454B_4" index="470"/>
+				<field name="P454B_3" index="471"/>
+				<field name="P454B_2" index="472"/>
+				<field name="P454B_10" index="473"/>
+				<field name="P454B_1" index="474"/>
+				<field name="P454A_9" index="475"/>
+				<field name="P454A_8" index="476"/>
+				<field name="P454A_7" index="477"/>
+				<field name="P454A_6" index="478"/>
+				<field name="P454A_5" index="479"/>
+				<field name="P454A_4" index="480"/>
+				<field name="P454A_3" index="481"/>
+				<field name="P454A_2" index="482"/>
+				<field name="P454A_10" index="483"/>
+				<field name="P454A_1" index="484"/>
+				<field name="P453B_9" index="485"/>
+				<field name="P453B_8" index="486"/>
+				<field name="P453B_7" index="487"/>
+				<field name="P453B_6" index="488"/>
+				<field name="P453B_5" index="489"/>
+				<field name="P453B_4" index="490"/>
+				<field name="P453B_3" index="491"/>
+				<field name="P453B_2" index="492"/>
+				<field name="P453B_10" index="493"/>
+				<field name="P453B_1" index="494"/>
+				<field name="P453A_9" index="495"/>
+				<field name="P453A_8" index="496"/>
+				<field name="P453A_7" index="497"/>
+				<field name="P453A_6" index="498"/>
+				<field name="P453A_5" index="499"/>
+				<field name="P453A_4" index="500"/>
+				<field name="P453A_3" index="501"/>
+				<field name="P453A_2" index="502"/>
+				<field name="P453A_10" index="503"/>
+				<field name="P453A_1" index="504"/>
+				<field name="P452" index="505"/>
+				<field name="P451B" index="506"/>
+				<field name="P451A" index="507"/>
+				<field name="P44D" index="508"/>
+				<field name="P44C" index="509"/>
+				<field name="P44B" index="510"/>
+				<field name="P44A" index="511"/>
+				<field name="P441C" index="512"/>
+				<field name="P441B" index="513"/>
+				<field name="P441A" index="514"/>
+				<field name="P440C" index="515"/>
+				<field name="P440B" index="516"/>
+				<field name="P440A" index="517"/>
+				<field name="P44" index="518"/>
+				<field name="P43D" index="519"/>
+				<field name="P43C" index="520"/>
+				<field name="P43B" index="521"/>
+				<field name="P43A" index="522"/>
+				<field name="P439" index="523"/>
+				<field name="P438D" index="524"/>
+				<field name="P438C" index="525"/>
+				<field name="P438B" index="526"/>
+				<field name="P438A" index="527"/>
+				<field name="P437B" index="528"/>
+				<field name="P437A" index="529"/>
+				<field name="P436" index="530"/>
+				<field name="P435D" index="531"/>
+				<field name="P435C" index="532"/>
+				<field name="P435B" index="533"/>
+				<field name="P435A" index="534"/>
+				<field name="P434D" index="535"/>
+				<field name="P434C" index="536"/>
+				<field name="P434B" index="537"/>
+				<field name="P434A" index="538"/>
+				<field name="P433D" index="539"/>
+				<field name="P433C" index="540"/>
+				<field name="P433B" index="541"/>
+				<field name="P433A" index="542"/>
+				<field name="P432C" index="543"/>
+				<field name="P432B" index="544"/>
+				<field name="P431C" index="545"/>
+				<field name="P431B" index="546"/>
+				<field name="P43" index="547"/>
+				<field name="P426D" index="548"/>
+				<field name="P426C" index="549"/>
+				<field name="P426B" index="550"/>
+				<field name="P426A" index="551"/>
+				<field name="P425D" index="552"/>
+				<field name="P425C" index="553"/>
+				<field name="P425B" index="554"/>
+				<field name="P425A" index="555"/>
+				<field name="P811" index="556"/>
+				<field name="P810" index="557"/>
+				<field name="P809" index="558"/>
+				<field name="P808" index="559"/>
+				<field name="P807" index="560"/>
+				<field name="P806" index="561"/>
+				<field name="P805" index="562"/>
+				<field name="P804" index="563"/>
+				<field name="P803" index="564"/>
+				<field name="P802" index="565"/>
+				<field name="P801" index="566"/>
+				<field name="P800" index="567"/>
+				<field name="P75" index="568"/>
+				<field name="P74" index="569"/>
+				<field name="P73D" index="570"/>
+				<field name="P73C" index="571"/>
+				<field name="P72D" index="572"/>
+				<field name="P72C" index="573"/>
+				<field name="P67" index="574"/>
+				<field name="P66" index="575"/>
+				<field name="P65" index="576"/>
+				<field name="P62D" index="577"/>
+				<field name="P62C" index="578"/>
+				<field name="P62B" index="579"/>
+				<field name="P62A" index="580"/>
+				<field name="P61B" index="581"/>
+				<field name="P61A" index="582"/>
+				<field name="P61" index="583"/>
+				<field name="P60" index="584"/>
+				<field name="P599" index="585"/>
+				<field name="P598" index="586"/>
+				<field name="P597" index="587"/>
+				<field name="P596" index="588"/>
+				<field name="P595" index="589"/>
+				<field name="P59" index="590"/>
+				<field name="P57M" index="591"/>
+				<field name="P57L" index="592"/>
+				<field name="P57K" index="593"/>
+				<field name="P57J" index="594"/>
+				<field name="P57I" index="595"/>
+				<field name="P57H" index="596"/>
+				<field name="P57G" index="597"/>
+				<field name="P57F" index="598"/>
+				<field name="P57E" index="599"/>
+				<field name="P57D" index="600"/>
+				<field name="P57C" index="601"/>
+				<field name="P57B" index="602"/>
+				<field name="P57A" index="603"/>
+				<field name="P579" index="604"/>
+				<field name="P578" index="605"/>
+				<field name="P577" index="606"/>
+				<field name="P576" index="607"/>
+				<field name="P575" index="608"/>
+				<field name="P574" index="609"/>
+				<field name="P573" index="610"/>
+				<field name="P572" index="611"/>
+				<field name="P571" index="612"/>
+				<field name="P570" index="613"/>
+				<field name="P569" index="614"/>
+				<field name="P568" index="615"/>
+				<field name="P567" index="616"/>
+				<field name="P566" index="617"/>
+				<field name="P565" index="618"/>
+				<field name="P564" index="619"/>
+				<field name="P563" index="620"/>
+				<field name="P562" index="621"/>
+				<field name="P561" index="622"/>
+				<field name="P560" index="623"/>
+				<field name="P55M" index="624"/>
+				<field name="P55L" index="625"/>
+				<field name="P55K" index="626"/>
+				<field name="P55J" index="627"/>
+				<field name="P55I" index="628"/>
+				<field name="P55H" index="629"/>
+				<field name="P55G" index="630"/>
+				<field name="P55F" index="631"/>
+				<field name="P55E" index="632"/>
+				<field name="P55D" index="633"/>
+				<field name="P55C" index="634"/>
+				<field name="P55B" index="635"/>
+				<field name="P55A" index="636"/>
+				<field name="P559" index="637"/>
+				<field name="P558" index="638"/>
+				<field name="P53C" index="639"/>
+				<field name="P53B" index="640"/>
+				<field name="P53A" index="641"/>
+				<field name="P535B_9" index="642"/>
+				<field name="P535B_8" index="643"/>
+				<field name="P535B_7" index="644"/>
+				<field name="P535B_6" index="645"/>
+				<field name="P535B_5" index="646"/>
+				<field name="P535B_4" index="647"/>
+				<field name="P535B_3" index="648"/>
+				<field name="P535B_2" index="649"/>
+				<field name="P535B_13" index="650"/>
+				<field name="P535B_12" index="651"/>
+				<field name="P535B_11" index="652"/>
+				<field name="P535B_10" index="653"/>
+				<field name="P535B_1" index="654"/>
+				<field name="P535A_9" index="655"/>
+				<field name="P535A_8" index="656"/>
+				<field name="P535A_7" index="657"/>
+				<field name="P535A_6" index="658"/>
+				<field name="P535A_5" index="659"/>
+				<field name="P535A_4" index="660"/>
+				<field name="P535A_3" index="661"/>
+				<field name="P535A_2" index="662"/>
+				<field name="P535A_13" index="663"/>
+				<field name="P535A_12" index="664"/>
+				<field name="P535A_11" index="665"/>
+				<field name="P535A_10" index="666"/>
+				<field name="P535A_1" index="667"/>
+				<field name="P534B_9" index="668"/>
+				<field name="P534B_8" index="669"/>
+				<field name="P424D" index="670"/>
+				<field name="P424C" index="671"/>
+				<field name="P424B" index="672"/>
+				<field name="P424A" index="673"/>
+				<field name="P423D" index="674"/>
+				<field name="P423C" index="675"/>
+				<field name="P423B" index="676"/>
+				<field name="P423A" index="677"/>
+				<field name="P422" index="678"/>
+				<field name="P421" index="679"/>
+				<field name="P420" index="680"/>
+				<field name="P419" index="681"/>
+				<field name="P417" index="682"/>
+				<field name="P416BIS" index="683"/>
+				<field name="P415BIS" index="684"/>
+				<field name="P414BIS" index="685"/>
+				<field name="P413" index="686"/>
+				<field name="P412" index="687"/>
+				<field name="P411" index="688"/>
+				<field name="P410" index="689"/>
+				<field name="P409" index="690"/>
+				<field name="P408D" index="691"/>
+				<field name="P408C" index="692"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

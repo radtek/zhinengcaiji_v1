@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+
+<templet id="1" fromTable="tb1" toTable="tb1_1" used="1" occur="0">
+	<!-- 设置默认值(以下雷同) -->
+	<defaultValueColumns>
+		<column name="name" default="默认名字"/>
+	</defaultValueColumns>
+</templet>
+<templet id="2" fromTable="tb2" toTable="tb2_1" used="1" occur="0">
+	<defaultValueColumns>
+		<column name="class" default="默认班级"/>
+	</defaultValueColumns>
+</templet>
+<templet id="3" fromTable="tb3" toTable="tb3_1" used="1" occur="0">
+	<defaultValueColumns>
+		<column name="age" default="默认年龄"/>
+		<column name="des" default="默认说明"/>
+		<column name="parent" default="父母"/>
+	</defaultValueColumns>	
+</templet>    
+</templets>

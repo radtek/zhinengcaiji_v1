@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<templets>
+	<!--阿克苏电信_CM_载频参数表(1X).txt-->
+- <templet id="0" file="a0.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+				
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="GROUPID" index="4" /> 
+  <field name="SECTORID" index="5" /> 
+  <field name="BAND_CLASS" index="6" /> 
+  <field name="CDMA_FREQ" index="7" /> 
+  <field name="QPCH_HASH_IND" index="8" /> 
+  <field name="QPCH_SUPPORTED" index="9" /> 
+  <field name="ENHANCE_RC_SUPPORT" index="10" /> 
+  <field name="BCCH_SUPPORT" index="11" /> 
+  <field name="TD_MODE" index="12" /> 
+  <field name="TD_HASH_IND" index="13" /> 
+  <field name="TD_POWER_LEVEL" index="14" /> 
+  <field name="NOM_PWR" index="15" /> 
+  <field name="NOM_PWR_EXT" index="16" /> 
+  <field name="INCRITICALCELL" index="17" /> 
+  <field name="FIRST_LIST" index="18" /> 
+  <field name="REVERSE_PRE_LEN" index="19" /> 
+  <field name="T_DROP_SSHO_VOICE" index="20" /> 
+  <field name="RTD_THRESHOLD_VOICE" index="21" /> 
+  <field name="T_DROP_SSHO_DATA" index="22" /> 
+  <field name="RTD_THRESHOLD_DATA" index="23" /> 
+  <field name="MAX_IDEALPILOTPWR" index="24" /> 
+  <field name="CONTROLTHRESHOLD" index="25" /> 
+  <field name="ADJUSTMENTPROPORTION" index="26" /> 
+  <field name="FILTERPARA" index="27" /> 
+  <field name="CARRIERCALLTHRESHOLD" index="28" /> 
+  <field name="CALLCOMTHRESHOLD" index="29" /> 
+  <field name="STATUS" index="30" /> 
+  <field name="ISBEACON" index="31" /> 
+  <field name="CARRIERTYPE" index="32" /> 
+  <field name="GSRDM_ACCOLC_0" index="33" /> 
+  <field name="GSRDM_ACCOLC_1" index="34" /> 
+  <field name="GSRDM_ACCOLC_2" index="35" /> 
+  <field name="GSRDM_ACCOLC_3" index="36" /> 
+  <field name="GSRDM_ACCOLC_4" index="37" /> 
+  <field name="GSRDM_ACCOLC_5" index="38" /> 
+  <field name="GSRDM_ACCOLC_6" index="39" /> 
+  <field name="GSRDM_ACCOLC_7" index="40" /> 
+  <field name="GSRDM_ACCOLC_8" index="41" /> 
+  <field name="GSRDM_ACCOLC_9" index="42" /> 
+  <field name="GSRDM_ACCOLC_10" index="43" /> 
+  <field name="GSRDM_ACCOLC_11" index="44" /> 
+  <field name="GSRDM_ACCOLC_12" index="45" /> 
+  <field name="GSRDM_ACCOLC_13" index="46" /> 
+  <field name="GSRDM_ACCOLC_14" index="47" /> 
+  <field name="GSRDM_ACCOLC_15" index="48" /> 
+  <field name="GSRDM_REDT_ACCOLC" index="49" /> 
+  <field name="GSRDM_RETURN_IF_FAIL" index="50" /> 
+  <field name="GSRDM_DELETE_TMSI" index="51" /> 
+  <field name="GSRDM_EXCL_P_REV_MS" index="52" /> 
+  <field name="EGSRD_REDT_P_REV_INL" index="53" /> 
+  <field name="EGSRD_EXCL_P_REV_IND" index="54" /> 
+  <field name="EGSRD_REDT_P_MIN" index="55" /> 
+  <field name="EGSRD_REDT_P_MAX" index="56" /> 
+  <field name="GSRDM_RECORD_TYPE" index="57" /> 
+  <field name="GSRDM_BAND_CLASS" index="58" /> 
+  <field name="GSRDM_EXPECTED_SID" index="59" /> 
+  <field name="GSRDM_EXPECTED_NID" index="60" /> 
+  <field name="GSRDM_CDMA_CHAN0" index="61" /> 
+  <field name="GSRDM_CDMA_CHAN1" index="62" /> 
+  <field name="GSRDM_CDMA_CHAN2" index="63" /> 
+  <field name="GSRDM_CDMA_CHAN3" index="64" /> 
+  <field name="GSRDM_CDMA_CHAN4" index="65" /> 
+  <field name="GSRDM_CDMA_CHAN5" index="66" /> 
+  <field name="GSRDM_CDMA_CHAN6" index="67" /> 
+  <field name="GSRDM_CDMA_CHAN7" index="68" /> 
+  <field name="GSRDM_CDMA_CHAN8" index="69" /> 
+  <field name="GSRDM_CDMA_CHAN9" index="70" /> 
+  <field name="GSRDM_CDMA_CHAN10" index="71" /> 
+  <field name="GSRDM_CDMA_CHAN11" index="72" /> 
+  <field name="GSRDM_CDMA_CHAN12" index="73" /> 
+  <field name="GSRDM_CDMA_CHAN13" index="74" /> 
+  <field name="GSRDM_CDMA_CHAN14" index="75" /> 
+  <field name="GSRDM_NUM_CHANS" index="76" /> 
+  <field name="RESERVED1" index="77" /> 
+  <field name="RESERVED2" index="78" /> 
+  <field name="ALIAS_B" index="79" type="2" format="4000" /> 
+  <field name="SWITCH1" index="80" /> 
+  <field name="SWITCH2" index="81" /> 
+  <field name="SWITCH3" index="82" /> 
+  <field name="SWITCH4" index="83" /> 
+  <field name="SWITCH5" index="84" /> 
+  <field name="SWITCH6" index="85" /> 
+  <field name="SWITCH7" index="86" /> 
+  <field name="SWITCH8" index="87" /> 
+  <field name="SWITCH9" index="88" /> 
+  <field name="SWITCH10" index="89" /> 
+  <field name="DIVERSITYSECTORID" index="90" /> 
+  <field name="SECTORGAIN" index="91" /> 
+  <field name="POWEROFFTIME_START" index="92" /> 
+  <field name="POWEROFFTIME_END" index="93" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="1" file="a1.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="SID" index="3" /> 
+  <field name="NID" index="4" /> 
+  <field name="LAC" index="5" /> 
+  <field name="CI" index="6" /> 
+  <field name="PILOT_PN" index="7" /> 
+  <field name="PILOT_INC" index="8" /> 
+  <field name="SRCH_WIN_A" index="9" /> 
+  <field name="SRCH_WIN_N" index="10" /> 
+  <field name="SRCH_WIN_R" index="11" /> 
+  <field name="NGHBR_MAX_AGE" index="12" /> 
+  <field name="RESCAN" index="13" /> 
+  <field name="RLGAIN_TRAFFIC_PILOT" index="14" /> 
+  <field name="RLGAIN_SCH_PILOT" index="15" /> 
+  <field name="RADIUS" index="16" /> 
+  <field name="P_REV" index="17" /> 
+  <field name="MIN_P_REV" index="18" /> 
+  <field name="STANDARDP_REV_SUPPORT" index="19" /> 
+  <field name="BASE_LAT" index="20" /> 
+  <field name="BASE_LONG" index="21" /> 
+  <field name="T_MULCHAN" index="22" /> 
+  <field name="ENC_SUPPORTED" index="23" /> 
+  <field name="RCCLASS2_SUPPORT" index="24" /> 
+  <field name="NGHBR_CELL_NUM" index="25" /> 
+  <field name="HANDOFFMODE" index="26" /> 
+  <field name="T_COMP_PS" index="27" /> 
+  <field name="STATUS" index="28" /> 
+  <field name="OVER_LAC_INCL1" index="29" /> 
+  <field name="OVER_LAC1" index="30" /> 
+  <field name="OVER_LAC_INCL2" index="31" /> 
+  <field name="OVER_LAC2" index="32" /> 
+  <field name="RESERVED1" index="33" /> 
+  <field name="RESERVED2" index="34" /> 
+  <field name="STDSYNCCH" index="35" /> 
+  <field name="GOS_B" index="36" /> 
+  <field name="BAND_CLASS" index="37" /> 
+  <field name="CELLMODE" index="38" /> 
+  <field name="MAXRACHSEARCHFRA" index="39" /> 
+  <field name="MAXRACHSEPARATION" index="40" /> 
+  <field name="DLA_ID" index="41" /> 
+  <field name="ALIAS_B" index="42" type="2" format="4000" /> 
+  <field name="SWITCH1" index="43" /> 
+  <field name="SWITCH2" index="44" /> 
+  <field name="SWITCH3" index="45" /> 
+  <field name="SWITCH4" index="46" /> 
+  <field name="SWITCH5" index="47" /> 
+  <field name="SWITCH6" index="48" /> 
+  <field name="SWITCH7" index="49" /> 
+  <field name="SWITCH8" index="50" /> 
+  <field name="SWITCH9" index="51" /> 
+  <field name="SWITCH10" index="52" /> 
+  <field name="PTT_BCAST_INDEX" index="53" /> 
+  <field name="SIGN_SLOT_CYCLE_IND" index="54" /> 
+  <field name="MAX_PTT_SCI" index="55" /> 
+  <field name="FIX_SEARCH_WINDOW" index="56" /> 
+  <field name="PR_LENGTH" index="57" /> 
+  <field name="TR_LENGTH" index="58" /> 
+  <field name="MAX_RESEND_NUM" index="59" /> 
+  <field name="DIVERSITYMODE" index="60" /> 
+  <field name="SECTORLOC" index="61" /> 
+  <field name="MAXCALLDISTANCE" index="62" /> 
+  <field name="CARRIERKEEPPWR_VOICE" index="63" /> 
+  <field name="CARRIERKEEPPWR_DATA" index="64" /> 
+  <field name="LOADBALANCEPWR_VOICE" index="65" /> 
+  <field name="LOADBALANCEPWR_DATA" index="66" /> 
+  <field name="CARRIERKEEPFCH_VOICE" index="67" /> 
+  <field name="CARRIERKEEPFCH_DATA" index="68" /> 
+  <field name="LOADBALANCEFCH_VOICE" index="69" /> 
+  <field name="LOADBALANCEFCH_DATA" index="70" /> 
+  <field name="MSCOFFICEID" index="71" /> 
+  <field name="EVRCBOPERATINGPOINT" index="72" /> 
+  <field name="HARDHANDOFF_COMP" index="73" /> 
+  <field name="HARDHANDOFF_TIMER" index="74" /> 
+  <field name="PTT_RLGAIN_ADJ" index="75" /> 
+  <field name="SIGNAL_PWRSTEP" index="76" /> 
+  <field name="PTT_RLGAINADJ_NOACK" index="77" /> 
+  <field name="PTT_RLGAINADJ_EXT" index="78" /> 
+  <field name="SERVICERESTRICTMODE" index="79" /> 
+  <field name="PHYCELLID" index="80" /> 
+  <field name="ISSAMEPNSECTOR" index="81" /> 
+  <field name="REFCELLID" index="82" /> 
+  <field name="LONGLATLOCK_B" index="83" /> 
+  <field name="DLA_HIGH" index="84" /> 
+  <field name="DLA_LOW" index="85" /> 
+  <field name="PTTBC_PILOT_REPORT" index="86" /> 
+  <field name="BASE_LAT_B" index="87" /> 
+  <field name="BASE_LONG_B" index="88" /> 
+  <field name="PTTBC_SNCAMPWRADJ" index="89" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="2" file="a2.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="PILOTINCREMENT" index="3" /> 
+  <field name="SEARCHWINDOWACTIVE" index="4" /> 
+  <field name="SEARCHWINDOWNB" index="5" /> 
+  <field name="SEARCHWINDOWREM" index="6" /> 
+  <field name="PILOTADD1" index="7" /> 
+  <field name="PILOTCOMPARE1" index="8" /> 
+  <field name="PILOTDROP1" index="9" /> 
+  <field name="PILOTDROPTIMER1" index="10" /> 
+  <field name="DYNAMICTHRESH1" index="11" /> 
+  <field name="SOFTSLOPE1" index="12" /> 
+  <field name="ADDINTERCEPT1" index="13" /> 
+  <field name="DROPINTERCEPT1" index="14" /> 
+  <field name="NEIGHBORMAXAGE1" index="15" /> 
+  <field name="PILOTADD2" index="16" /> 
+  <field name="PILOTCOMPARE2" index="17" /> 
+  <field name="PILOTDROP2" index="18" /> 
+  <field name="PILOTDROPTIMER2" index="19" /> 
+  <field name="DYNAMICTHRESH2" index="20" /> 
+  <field name="SOFTSLOPE2" index="21" /> 
+  <field name="ADDINTERCEPT2" index="22" /> 
+  <field name="DROPINTERCEPT2" index="23" /> 
+  <field name="NEIGHBORMAXAGE2" index="24" /> 
+  <field name="ATTROVERRIDEALLOWED" index="25" /> 
+  <field name="RURADIUSMULTIPLY" index="26" /> 
+  <field name="RURADIUSADD" index="27" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="3" file="a3.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="INIT_PWR" index="4" /> 
+  <field name="PWR_STEP" index="5" /> 
+  <field name="NUM_STEP" index="6" /> 
+  <field name="MAX_CAP_SZ" index="7" /> 
+  <field name="PAM_SZ" index="8" /> 
+  <field name="PSIST0_9" index="9" /> 
+  <field name="PSIST10" index="10" /> 
+  <field name="PSIST11" index="11" /> 
+  <field name="PSIST12" index="12" /> 
+  <field name="PSIST13" index="13" /> 
+  <field name="PSIST14" index="14" /> 
+  <field name="PSIST15" index="15" /> 
+  <field name="MSG_PSIST" index="16" /> 
+  <field name="REG_PSIST" index="17" /> 
+  <field name="PROBE_PN_RAN" index="18" /> 
+  <field name="ACC_TMO" index="19" /> 
+  <field name="PROBE_BKOFF" index="20" /> 
+  <field name="BKOFF" index="21" /> 
+  <field name="MAX_REQ_SEQ" index="22" /> 
+  <field name="MAX_RSP_SEQ" index="23" /> 
+  <field name="PSIST_EMG_INCL" index="24" /> 
+  <field name="PSIST_EMG" index="25" /> 
+  <field name="ACC_ACQUISIT_SCH_W" index="26" /> 
+  <field name="ACC_DEMODULAT_SRCH_W" index="27" /> 
+  <field name="ACH_OUTLOCK_THRESH" index="28" /> 
+  <field name="ACH_INLOCK_THRESH" index="29" /> 
+  <field name="ACH_COMBINE_THRESH" index="30" /> 
+  <field name="ACH_ACQ_THRESH" index="31" /> 
+  <field name="ACH_DEMOD_THRESH" index="32" /> 
+  <field name="ACH_FINGER_INIT" index="33" /> 
+  <field name="ACCESSMSGMONITORTIMER" index="34" /> 
+  <field name="ENBLACCESSMSGMONITOR" index="35" /> 
+  <field name="ACCT_INCL" index="36" /> 
+  <field name="DACH_PAM_SZ" index="37" /> 
+  <field name="DACHCAPABILITY" index="38" /> 
+  <field name="MAXDACHNUM" index="39" /> 
+  <field name="ENABLERRI" index="40" /> 
+  <field name="SEARCHSTARTOFFSET" index="41" /> 
+  <field name="ACHOVERLOADTHRESHOLD" index="42" /> 
+  <field name="ACHPROTECTTHRESHOLD" index="43" /> 
+  <field name="PSIST0_9_OVERLOAD" index="44" /> 
+  <field name="QUICK_MAX_CAP_SZ" index="45" /> 
+  <field name="QUICK_PAM_SZ" index="46" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="4" file="a4.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="PILOT_PN" index="3" /> 
+  <field name="CARRIERID" index="4" /> 
+  <field name="MSCID" index="5" /> 
+  <field name="CI" index="6" /> 
+  <field name="OFFICEID" index="7" /> 
+  <field name="NGHBR_CONFIG" index="8" /> 
+  <field name="SEARCH_PRIORITY" index="9" /> 
+  <field name="SRCH_WIN_NGHBR" index="10" /> 
+  <field name="FREQ_INCL" index="11" /> 
+  <field name="NGHBR_BAND" index="12" /> 
+  <field name="NGHBR_FREQ" index="13" /> 
+  <field name="ACCESS_ENTRY_HO" index="14" /> 
+  <field name="ACCESS_HO_ALLOWED" index="15" /> 
+  <field name="TIMING_INCL" index="16" /> 
+  <field name="NGHBR_TX_OFFSET" index="17" /> 
+  <field name="NGHBR_TX_DURATION" index="18" /> 
+  <field name="NGHBR_TX_PERIOD" index="19" /> 
+  <field name="ADD_PILOT_REC_INCL" index="20" /> 
+  <field name="NGHBR_PILOT_REC_TYPE" index="21" /> 
+  <field name="SRCH_OFFSET_NGHBR" index="22" /> 
+  <field name="SEQUENCE_B" index="23" /> 
+  <field name="LOCKED_B" index="24" /> 
+  <field name="ALIAS_B" index="25" type="2" format="4000" /> 
+  <field name="NCELL_BS_ID" index="26" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="5" file="a5.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="T_ADD_VOICE" index="3" /> 
+  <field name="T_ADD_DATA" index="4" /> 
+  <field name="T_DROP_VOICE" index="5" /> 
+  <field name="T_DROP_DATA" index="6" /> 
+  <field name="T_COMP_VOICE" index="7" /> 
+  <field name="T_COMP_DATA" index="8" /> 
+  <field name="T_TDROP_VOICE" index="9" /> 
+  <field name="T_TDROP_DATA" index="10" /> 
+  <field name="HO_OPTION" index="11" /> 
+  <field name="T_INTENSITY" index="12" /> 
+  <field name="T_COMP_HARD_VOICE" index="13" /> 
+  <field name="T_COMP_FOREIGN_VOICE" index="14" /> 
+  <field name="SOFT_SLOPE_VOICE" index="15" /> 
+  <field name="SOFT_SLOPE_DATA" index="16" /> 
+  <field name="ADD_INTERCEPT_VOICE" index="17" /> 
+  <field name="ADD_INTERCEPT_DATA" index="18" /> 
+  <field name="DROP_INTERCEPT_VOICE" index="19" /> 
+  <field name="DROP_INTERCEPT_DATA" index="20" /> 
+  <field name="SEARCH_TYPE" index="21" /> 
+  <field name="SEARCH_PERIOD" index="22" /> 
+  <field name="SEARCH_MODE" index="23" /> 
+  <field name="ALIGN_TIMING" index="24" /> 
+  <field name="SEARCH_OFFSET" index="25" /> 
+  <field name="SF_TOTAL_EC_THRESH" index="26" /> 
+  <field name="SF_TOTAL_EC_IO_THRESH" index="27" /> 
+  <field name="DIFF_RX_PWR_THRESH" index="28" /> 
+  <field name="MIN_TOTAL_PILOT_EC_IO" index="29" /> 
+  <field name="TF_WAIT_TIME" index="30" /> 
+  <field name="FSCHSETUPTHRESHHOLD" index="31" /> 
+  <field name="FSCHSETUPPOSSIBILITY" index="32" /> 
+  <field name="FSCHCOMPARETHRESH" index="33" /> 
+  <field name="CF_T_ADD" index="34" /> 
+  <field name="PILOT_UPDATE" index="35" /> 
+  <field name="CF_NGHBR_SRCH_MODE" index="36" /> 
+  <field name="USE_FWDSCH_SHO" index="37" /> 
+  <field name="T_FWDSCH_ADD" index="38" /> 
+  <field name="T_FWDSCH_DROP" index="39" /> 
+  <field name="T_FWDSCH_COMP" index="40" /> 
+  <field name="T_FWDSCH_TTDROP" index="41" /> 
+  <field name="FWDSCH_ACTIVE_SET" index="42" /> 
+  <field name="T_FWDSCH_HARD_COMP" index="43" /> 
+  <field name="USE_REVSCH_SHO" index="44" /> 
+  <field name="T_REVSCH_ADD" index="45" /> 
+  <field name="T_REVSCH_DROP" index="46" /> 
+  <field name="T_REVSCH_COMP" index="47" /> 
+  <field name="T_REVSCH_TTDROP" index="48" /> 
+  <field name="REVSCH_ACTIVE_LEG" index="49" /> 
+  <field name="T_REVSCH_HARD_COMP" index="50" /> 
+  <field name="REVSCHSETUPPOSSIBILITY" index="51" /> 
+  <field name="REPORTBYTHRESHOLD" index="52" /> 
+  <field name="RREPORTUPTHRESHOLD" index="53" /> 
+  <field name="RREPORTLOWTHRESHOLD" index="54" /> 
+  <field name="REPORTBYPERIOD" index="55" /> 
+  <field name="REVSCHREPORTPERIOD" index="56" /> 
+  <field name="REVTWOLEG_COMP" index="57" /> 
+  <field name="REVSELLEGALGORITHM" index="58" /> 
+  <field name="FWDSELCELLALGORITHM" index="59" /> 
+  <field name="T_COMP_HARD_PTT" index="60" /> 
+  <field name="T_COMP_FOREIGN_PTT" index="61" /> 
+  <field name="T_COMP_HARD_DATA" index="62" /> 
+  <field name="T_COMP_FOREIGN_DATA" index="63" /> 
+  <field name="T_BSS_DATA_DROP" index="64" /> 
+  <field name="T_BSS_DATA_SLOPE" index="65" /> 
+  <field name="TRIZWEAKPSTHRESHOLD" index="66" /> 
+  <field name="TRIZSTRONGPSDELTA" index="67" /> 
+  <field name="TRIZWEAKPSDELTA" index="68" /> 
+  <field name="TRIZFSCHSLOPE" index="69" /> 
+  <field name="TRIZMAXFSCHHONUM" index="70" /> 
+  <field name="FSCHDROPPOSSIBILITY" index="71" /> 
+  <field name="TRIZFSCHECIO32XCON" index="72" /> 
+  <field name="TRIZFSCHECIO16XCON" index="73" /> 
+  <field name="TRIZFSCHECIO8XCON" index="74" /> 
+  <field name="TRIZFSCHECIO4XCON" index="75" /> 
+  <field name="TRIZFSCHECIO2XCON" index="76" /> 
+  <field name="SOFT_SLOPE_BS" index="77" /> 
+  <field name="ADD_INTERCEPT_BS" index="78" /> 
+  <field name="DROP_INTERCEPT_BS" index="79" /> 
+  <field name="T_COMP_DROP" index="80" /> 
+  <field name="T_FWDSCH_HARD_ABS" index="81" /> 
+  <field name="T_FWDSCH_HARD_GAP" index="82" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="6" file="a6.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="REG_ZONE" index="3" /> 
+  <field name="TOTAL_ZONES" index="4" /> 
+  <field name="ZONE_TIMER" index="5" /> 
+  <field name="MULT_SIDS" index="6" /> 
+  <field name="MULT_NIDS" index="7" /> 
+  <field name="BASE_ID" index="8" /> 
+  <field name="BASE_CLASS" index="9" /> 
+  <field name="HOME_REG" index="10" /> 
+  <field name="FOR_SID_REG" index="11" /> 
+  <field name="FOR_NID_REG" index="12" /> 
+  <field name="POWER_UP_REG" index="13" /> 
+  <field name="POWER_DOWN_REG" index="14" /> 
+  <field name="PARAMETER_REG" index="15" /> 
+  <field name="REG_PRD" index="16" /> 
+  <field name="REG_DIST" index="17" /> 
+  <field name="AUTH" index="18" /> 
+  <field name="RAND" index="19" /> 
+  <field name="RESELECT_INCLUDED" index="20" /> 
+  <field name="EC_THRESH" index="21" /> 
+  <field name="EC_IO_THRESH" index="22" /> 
+  <field name="LTM_OFF" index="23" /> 
+  <field name="MAX_SLOT_CYCLE_INDEX" index="24" /> 
+  <field name="PREF_MSID_TYPE" index="25" /> 
+  <field name="BCAST_INDEX" index="26" /> 
+  <field name="DAYLT" index="27" /> 
+  <field name="EXT_SYS_PARAMETER" index="28" /> 
+  <field name="EXT_NGHBR_LIST" index="29" /> 
+  <field name="GEN_NGHBR_LIST" index="30" /> 
+  <field name="GLOBAL_REDIRECT" index="31" /> 
+  <field name="PRI_NGHBR_LIST" index="32" /> 
+  <field name="USER_ZONE_ID" index="33" /> 
+  <field name="EXT_GLOBAL_REDIRECT" index="34" /> 
+  <field name="EXT_CHAN_LIST" index="35" /> 
+  <field name="DELETE_FOR_TMSI" index="36" /> 
+  <field name="USE_TMSI" index="37" /> 
+  <field name="IMSI_T_SUPPORTED" index="38" /> 
+  <field name="MAX_ALTSO" index="39" /> 
+  <field name="PILOT_REPORT" index="40" /> 
+  <field name="NGHBR_SET_ENTRY_INFO" index="41" /> 
+  <field name="ACC_ENT_HO_ORDER" index="42" /> 
+  <field name="NGHBR_SET_ACCESS_INFO" index="43" /> 
+  <field name="ACCESS_HO" index="44" /> 
+  <field name="ACCESS_HO_MSG_RSP" index="45" /> 
+  <field name="ACCESS_PROBE_HO" index="46" /> 
+  <field name="ACC_HO_LIST_UPD" index="47" /> 
+  <field name="ACC_PROBE_HO_OTHER_MSG" index="48" /> 
+  <field name="MAX_NUM_PROBE_HO" index="49" /> 
+  <field name="BROADCAST_GPS_ASST" index="50" /> 
+  <field name="SDB_SUPPORTED" index="51" /> 
+  <field name="REV_PWR_CNTL_DELAY_INCL" index="52" /> 
+  <field name="REV_PWR_CNTL_DELAY" index="53" /> 
+  <field name="AUTO_MSG_SUPPORT" index="54" /> 
+  <field name="MOB_QOS" index="55" /> 
+  <field name="USE_SYNC_ID" index="56" /> 
+  <field name="BCCH_SUPPORTED" index="57" /> 
+  <field name="MS_INIT_POS_LOC_SUP_IND" index="58" /> 
+  <field name="PILOT_INFO_REQ_SUPPORTED" index="59" /> 
+  <field name="SRDM_ENABLE" index="60" /> 
+  <field name="SRDM_RETURN_IF_FAIL" index="61" /> 
+  <field name="SRDM_DELETE_TMSI" index="62" /> 
+  <field name="SRDM_REDIRECT_TYPE" index="63" /> 
+  <field name="SRDM_RECORD_TYPE" index="64" /> 
+  <field name="SRDM_BAND_CLASS" index="65" /> 
+  <field name="SRDM_EXPECTED_SID" index="66" /> 
+  <field name="SRDM_EXPECTED_NID" index="67" /> 
+  <field name="SRDM_NUM_CHANS" index="68" /> 
+  <field name="SRDM_CDMA_CHAN0" index="69" /> 
+  <field name="SRDM_CDMA_CHAN1" index="70" /> 
+  <field name="SRDM_CDMA_CHAN2" index="71" /> 
+  <field name="SRDM_CDMA_CHAN3" index="72" /> 
+  <field name="SRDM_CDMA_CHAN4" index="73" /> 
+  <field name="SRDM_CDMA_CHAN5" index="74" /> 
+  <field name="SRDM_CDMA_CHAN6" index="75" /> 
+  <field name="SRDM_CDMA_CHAN7" index="76" /> 
+  <field name="SRDM_CDMA_CHAN8" index="77" /> 
+  <field name="SRDM_CDMA_CHAN9" index="78" /> 
+  <field name="SRDM_CDMA_CHAN10" index="79" /> 
+  <field name="SRDM_CDMA_CHAN11" index="80" /> 
+  <field name="SRDM_CDMA_CHAN12" index="81" /> 
+  <field name="SRDM_CDMA_CHAN13" index="82" /> 
+  <field name="SRDM_CDMA_CHAN14" index="83" /> 
+  <field name="CHM_OL_BALANCE_IND" index="84" /> 
+  <field name="REG_CHECKSUM_REP" index="85" /> 
+  <field name="REG_PRD_OVERLOAD" index="86" /> 
+  <field name="PTT_SERVICE_SUP_IND" index="87" /> 
+  <field name="PAGECH_PRAT" index="88" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="7" file="a7.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="SEARCH_OFFSET" index="4" /> 
+  <field name="TRAF_ACQUISIT_SCH_W" index="5" /> 
+  <field name="TRAF_DEMODULAT_SCH_W" index="6" /> 
+  <field name="PWR_CTRL_GAIN_OFFSET" index="7" /> 
+  <field name="PWRCTRLGAIN" index="8" /> 
+  <field name="SYMBOLGAIN" index="9" /> 
+  <field name="FWD_DISTRIBUT_DELY" index="10" /> 
+  <field name="REV_DISTRIBUT_DELY" index="11" /> 
+  <field name="TX_PWR_FLT_DECAY_CON" index="12" /> 
+  <field name="TCH_OUTLOCK_THRESH" index="13" /> 
+  <field name="TCH_INLOCK_THRESH" index="14" /> 
+  <field name="TCH_COMBINE_THRESH" index="15" /> 
+  <field name="TCH_ACQ_THRESH" index="16" /> 
+  <field name="TCH_DEMOD_THRESH" index="17" /> 
+  <field name="TCH_FINGER_INIT" index="18" /> 
+  <field name="EW_NO_INDEX" index="19" /> 
+  <field name="OTR_PWR_CTRL_ENBL" index="20" /> 
+  <field name="DGTLTXPWRESTIMATRT" index="21" /> 
+  <field name="TRAFFIC_TO_PILOTGAINRATIO" index="22" /> 
+  <field name="FWDPWRESTIMATENBL" index="23" /> 
+  <field name="CHANNELPOWER_SCH" index="24" /> 
+  <field name="RPCPUNCMODE" index="25" /> 
+  <field name="REVPCPATTERN" index="26" /> 
+  <field name="FWDSCHALLOWED" index="27" /> 
+  <field name="FWDSCHRCPREF" index="28" /> 
+  <field name="FWDCODINGTYPE" index="29" /> 
+  <field name="FWDSCHMAXRATE" index="30" /> 
+  <field name="FWDMUXOPTIONPREF" index="31" /> 
+  <field name="REVSCHALLOWED" index="32" /> 
+  <field name="REVSCHRCPREF" index="33" /> 
+  <field name="REVCODINGTYPE" index="34" /> 
+  <field name="REVSCHMAXRATE" index="35" /> 
+  <field name="REVMUXOPTIONPREF" index="36" /> 
+  <field name="REVDTXDURATION" index="37" /> 
+  <field name="PCSETPOINT" index="38" /> 
+  <field name="PCSETPOINT_RC1" index="39" /> 
+  <field name="PCSETPOINT_RC2" index="40" /> 
+  <field name="PCSETPOINT_RC3" index="41" /> 
+  <field name="PCSETPOINT_RC4" index="42" /> 
+  <field name="FWDSCHMAXRATE_MUSER" index="43" /> 
+  <field name="FWDMOPREF_MUSER" index="44" /> 
+  <field name="REVSCHMAXRATE_MUSER" index="45" /> 
+  <field name="REVMOPREF_MUSER" index="46" /> 
+  <field name="FWDSCHMAXRATE_LUSER" index="47" /> 
+  <field name="FWDMOPREF_LUSER" index="48" /> 
+  <field name="REVSCHMAXRATE_LUSER" index="49" /> 
+  <field name="REVMOPREF_LUSER" index="50" /> 
+  <field name="FSCHRLSPERIOD" index="51" /> 
+  <field name="FSCHRLSTHRESHOLD" index="52" /> 
+  <field name="FSCHRLSMODE" index="53" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="8" file="a8.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="ACCESSCYCLEDURATION" index="4" /> 
+  <field name="OPENLOOPADJUST" index="5" /> 
+  <field name="PROBEINITIALADJUST" index="6" /> 
+  <field name="PROBENUMSTEP" index="7" /> 
+  <field name="POWERSTEP" index="8" /> 
+  <field name="APERSISTENCE0" index="9" /> 
+  <field name="APERSISTENCE1" index="10" /> 
+  <field name="APERSISTENCE2" index="11" /> 
+  <field name="APERSISTENCE3" index="12" /> 
+  <field name="ACHDURATIONFOR5500" index="13" /> 
+  <field name="ACHDURATIONFOR6800" index="14" /> 
+  <field name="ENACCPARAINCLUDED" index="15" /> 
+  <field name="ACCESSOFFSET" index="16" /> 
+  <field name="ACCESSTERMINALCLASS" index="17" /> 
+  <field name="SECTORACCESSMAXRATE" index="18" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="9" file="a9.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="QOF" index="4" /> 
+  <field name="WALSH_LEN" index="5" /> 
+  <field name="WALSH" index="6" /> 
+  <field name="SUBSYSTEM" index="7" /> 
+  <field name="UNIT" index="8" /> 
+  <field name="SUNIT" index="9" /> 
+  <field name="INDEXID" index="10" /> 
+  <field name="PAGECH_GAIN" index="11" /> 
+  <field name="DELETEMSGNUMTHRESH" index="12" /> 
+  <field name="OVERSLOTNUMTHRESH" index="13" /> 
+  <field name="REPORTTIMEINTERVAL" index="14" /> 
+  <field name="STATUS" index="15" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="10" file="a10.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="QOF" index="4" /> 
+  <field name="WALSH_LEN" index="5" /> 
+  <field name="WALSH" index="6" /> 
+  <field name="SUBSYSTEM" index="7" /> 
+  <field name="UNIT" index="8" /> 
+  <field name="SUNIT" index="9" /> 
+  <field name="INDEXID" index="10" /> 
+  <field name="PILOTCH_GAIN" index="11" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="11" file="a11.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="FOL_ENABLE" index="4" /> 
+  <field name="FOL_PERIOD" index="5" /> 
+  <field name="FOL_REPPERIOD" index="6" /> 
+  <field name="T_SETUP" index="7" /> 
+  <field name="T_HO" index="8" /> 
+  <field name="T_PWRUP" index="9" /> 
+  <field name="RATING_PWR" index="10" /> 
+  <field name="CELL_PWR" index="11" /> 
+  <field name="HPA_GAIN" index="12" type="2" format="4000" /> 
+  <field name="ENVIRONMENTTYPE" index="13" /> 
+  <field name="CALIBRATEVALUE" index="14" /> 
+  <field name="P_SETUP" index="15" /> 
+  <field name="PILOTOVERLOAD" index="16" /> 
+  <field name="MAXOVERLOADPWR" index="17" /> 
+  <field name="LOWPWR" index="18" /> 
+  <field name="T_LOWPWR_B" index="19" /> 
+  <field name="PTT_OL_ENABLE" index="20" /> 
+  <field name="T_PWRQUICKDOWN1" index="21" /> 
+  <field name="T_PWRQUICKDOWN2" index="22" type="2" format="4000" /> 
+  <field name="OL_MAXGAIN_UP" index="23" /> 
+  <field name="OL_MAXGAIN_DOWN" index="24" /> 
+  <field name="OL_MAXGAIN_QKDOWN1" index="25" /> 
+  <field name="OL_MAXGAIN_QKDOWN2" index="26" /> 
+  <field name="RLSCALLNUM" index="27" /> 
+  <field name="RLSCALLPWRTHRESHOLD" index="28" /> 
+  <field name="RC4_WALSH_THRESHOLD" index="29" /> 
+  <field name="WALSH_PWR_THRESHOLD" index="30" /> 
+  <field name="T_SETUP_RF" index="31" /> 
+  <field name="T_HO_RF" index="32" type="2" format="4000" /> 
+  <field name="T_PWRUP_RF" index="33" /> 
+  <field name="MAXWALSHCHUSAGE" index="34" /> 
+  <field name="VOICEVSDATAUSAGE" index="35" /> 
+  <field name="FIRSTCOMEFIRSTSERVE" index="36" /> 
+  <field name="SCHCMPDFCH" index="37" /> 
+  <field name="SCHPWRWALRSVTHRES" index="38" /> 
+  <field name="RESREVMODE" index="39" /> 
+  <field name="T_CES_PWRCTRL1" index="40" /> 
+  <field name="T_CES_PWRCTRL2" index="41" /> 
+  <field name="OL_CES_USERGAIN1" index="42" type="2" format="4000" /> 
+  <field name="OL_CES_USERGAIN2" index="43" /> 
+  <field name="LINKPARA" index="44" /> 
+  <field name="PWRPERCENT" index="45" /> 
+  <field name="LOWPWRTHRESHOLD" index="46" /> 
+  <field name="RSSIALM" index="47" /> 
+  <field name="RSSIALMREST" index="48" type="2" format="4000" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="12" file="a12.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="ACCHOECAMREPNUM" index="3" /> 
+  <field name="ACCECAMREPORIGDLY" index="4" /> 
+  <field name="ACCECAMREPORIGDLY0" index="5" /> 
+  <field name="ACCECAMREPORIGDLY1" index="6" /> 
+  <field name="ACCECAMREPORIGDLY2" index="7" /> 
+  <field name="ACCECAMREPORIGDLY3" index="8" /> 
+  <field name="ACCECAMREPORIGDLY4" index="9" /> 
+  <field name="ACCECAMREPNORIGDLY" index="10" /> 
+  <field name="ACCECAMREPNORIGDLY0" index="11" /> 
+  <field name="ACCECAMREPNORIGDLY1" index="12" type="2" format="4000" /> 
+  <field name="ACCECAMREPNORIGDLY2" index="13" /> 
+  <field name="ACCECAMREPNORIGDLY3" index="14" /> 
+  <field name="ACCECAMREPNORIGDLY4" index="15" /> 
+  <field name="ECAMREPDLY" index="16" /> 
+  <field name="ECAMREPDLY0" index="17" /> 
+  <field name="ECAMREPDLY1" index="18" type="2" format="4000" /> 
+  <field name="ECAMREPDLY2" index="19" /> 
+  <field name="ECAMREPDLY3" index="20" /> 
+  <field name="ECAMREPDLY4" index="21" /> 
+  <field name="MAXECAMCAMPWR" index="22" /> 
+  <field name="ECAMCAMPWRSTEP" index="23" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="13" file="a13.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="QOF" index="4" /> 
+  <field name="WALSH_LEN" index="5" /> 
+  <field name="WALSH" index="6" /> 
+  <field name="SUBSYSTEM" index="7" /> 
+  <field name="UNIT" index="8" /> 
+  <field name="SUNIT" index="9" /> 
+  <field name="INDEXID" index="10" /> 
+  <field name="SYNCCH_GAIN" index="11" /> 
+  <field name="TIMETOTAKEEFFECT" index="12" type="2" format="4000" /> 
+  <field name="LP_SEC" index="13" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="14" file="a14.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="GROUPID" index="4" /> 
+  <field name="CARRIERCELLID" index="5" /> 
+  <field name="SYSTEMTYPE" index="6" /> 
+  <field name="ISBEACON" index="7" /> 
+  <field name="ISCRITICAL" index="8" /> 
+  <field name="SWITCH1" index="9" /> 
+  <field name="SWITCH2" index="10" /> 
+  <field name="SWITCH3" index="11" /> 
+  <field name="SWITCH4" index="12" /> 
+  <field name="SWITCH5" index="13" /> 
+  <field name="SWITCH6" index="14" /> 
+  <field name="SWITCH7" index="15" /> 
+  <field name="SWITCH8" index="16" /> 
+  <field name="SWITCH9" index="17" /> 
+  <field name="SWITCH10" index="18" /> 
+  <field name="CHMTYPE" index="19" /> 
+  <field name="BCSUBNET" index="20" /> 
+  <field name="ISREDIRECTION" index="21" /> 
+  <field name="REDIRECTIONCR0" index="22" /> 
+  <field name="REDIRECTIONCR1" index="23" /> 
+  <field name="RTDTHRESHOLD1MIN" index="24" /> 
+  <field name="RTDTHRESHOLD1MAX" index="25" /> 
+  <field name="RTDTHRESHOLD2MIN" index="26" /> 
+  <field name="RTDTHRESHOLD2MAX" index="27" /> 
+  <field name="CELLMODE" index="28" /> 
+  <field name="PHYCELLID" index="29" /> 
+  <field name="CDMA_FREQ" index="30" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="15" file="a15.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="RABLENGTH" index="4" /> 
+  <field name="RABOFFSET" index="5" /> 
+  <field name="RABTHRESHOLDANOLOG" index="6" /> 
+  <field name="RABTHRESHOLDDIGITAL" index="7" /> 
+  <field name="CELLRADIUSINCHIPS" index="8" /> 
+  <field name="TIMINGADVANCE" index="9" /> 
+  <field name="OVERLOADSTATE" index="10" /> 
+  <field name="NUMSLOTINTERLACE0" index="11" /> 
+  <field name="NUMSLOTINTERLACE1" index="12" /> 
+  <field name="NUMSLOTINTERLACE2" index="13" /> 
+  <field name="NUMSLOTINTERLACE3" index="14" /> 
+  <field name="ENVIRONMENTTYPE_B" index="15" /> 
+  <field name="FORWARDTRANSMITPOWER" index="16" /> 
+  <field name="CALIBRATEVALUE_B" index="17" /> 
+  <field name="FWDDISDELY" index="18" /> 
+  <field name="REVDISDELY" index="19" /> 
+  <field name="STATUS" index="20" /> 
+  <field name="REVFIXEDDELAY" index="21" /> 
+  <field name="RABTHRESHOLD6800" index="22" /> 
+  <field name="RABTHRESHOLD68_ROT" index="23" /> 
+  <field name="RABTHRESHOLD68_LOAD" index="24" /> 
+  <field name="RPCCOUNT63TO0" index="25" /> 
+  <field name="RPCCOUNT127TO64INC" index="26" /> 
+  <field name="RPCCOUNT127TO64" index="27" /> 
+  <field name="DATAWINDOWSIZE" index="28" /> 
+  <field name="PREAMBLEWINSIZE" index="29" /> 
+  <field name="ENABLERRI" index="30" /> 
+  <field name="SEARCHSTARTOFFSET" index="31" /> 
+  <field name="SECTORGAIN" index="32" /> 
+  <field name="LOWPWR" index="33" /> 
+  <field name="POWEROFFTIME_START" index="34" /> 
+  <field name="POWEROFFTIME_END" index="35" /> 
+  <field name="LINKPARA" index="36" /> 
+  <field name="PWRPERCENT" index="37" /> 
+  <field name="LOWPWRTHRESHOLD" index="38" /> 
+  <field name="RSSIALM" index="39" /> 
+  <field name="RSSIALMREST" index="40" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="16" file="a16.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="SYNCCAPSULEOFFSET" index="4" /> 
+  <field name="CONTROLCHANNELRATE" index="5" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="17" file="a17.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="CI" index="1" /> 
+  <field name="SYSTEM" index="2" /> 
+  <field name="CELLID" index="3" /> 
+  <field name="COLORCODE" index="4" /> 
+  <field name="PILOTPN" index="5" /> 
+  <field name="SUBNETMASK" index="6" /> 
+  <field name="SECTORID" index="7" type="2" format="4000" /> 
+  <field name="SUBNETADDRESS_B" index="8" type="2" format="4000" /> 
+  <field name="BANDCLASS" index="9" /> 
+  <field name="ALIAS_B" index="10" type="2" format="4000" /> 
+  <field name="SWITCH1" index="11" /> 
+  <field name="SWITCH2" index="12" /> 
+  <field name="SWITCH3" index="13" /> 
+  <field name="SWITCH4" index="14" /> 
+  <field name="SWITCH5" index="15" /> 
+  <field name="SWITCH6" index="16" /> 
+  <field name="SWITCH7" index="17" /> 
+  <field name="SWITCH8" index="18" /> 
+  <field name="SWITCH9" index="19" /> 
+  <field name="SWITCH10" index="20" /> 
+  <field name="SUBNETINDEXID" index="21" /> 
+  <field name="ACCESSRESTRICTEN" index="22" /> 
+  <field name="ACCESSDISTANCE" index="23" /> 
+  <field name="PHYCELLID" index="24" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="18" file="a18.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="SECTORSIGNATURE" index="3" /> 
+  <field name="ACCESSSIGNATURE" index="4" /> 
+  <field name="LATITUDE" index="5" /> 
+  <field name="LONGTITUDE" index="6" /> 
+  <field name="ROUTEUPDATERADIUS" index="7" /> 
+  <field name="MAXIMUMREVISION" index="8" /> 
+  <field name="MINIMUMREVISION" index="9" /> 
+  <field name="LEAPSECONDS" index="10" /> 
+  <field name="LOCALTIMEOFFSET" index="11" /> 
+  <field name="STATUS" index="12" /> 
+  <field name="CRKEEPTHRESHOLD" index="13" /> 
+  <field name="LOADBALANCETHRESH" index="14" /> 
+  <field name="LONGLATLOCK_B" index="15" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="19" file="a19.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="RATELIMITTHRESH0" index="4" /> 
+  <field name="RATELIMITTHRESH1" index="5" /> 
+  <field name="RATELIMITTHRESH2" index="6" /> 
+  <field name="RATELIMITTHRESH3" index="7" /> 
+  <field name="RATELIMITTHRESH4" index="8" /> 
+  <field name="RATELIMITINHANDOFF" index="9" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="20" file="a20.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="OLCONTROLENABLED" index="4" /> 
+  <field name="OLCONTROLUSERTHRESH" index="5" /> 
+  <field name="OLCONTROLMINDORM" index="6" /> 
+  <field name="OLCONTROLINFOUPDATE" index="7" /> 
+  <field name="OLCONTROLPOLICY" index="8" /> 
+  <field name="MAXQOSUSERTHRESH" index="9" /> 
+  <field name="MAXFWDQOSTHRUPT" index="10" /> 
+  <field name="MAXREVQOSTHRUPT" index="11" /> 
+  <field name="HANDOFFQOSRESV" index="12" /> 
+  <field name="OLCONNDURTHRESH" index="13" /> 
+  <field name="OLTHRUPTTHRESHOLD" index="14" /> 
+  <field name="OLPOLICYSTEP1" index="15" /> 
+  <field name="OLPOLICYSTEP2" index="16" /> 
+  <field name="OLPOLICYSTEP3" index="17" /> 
+  <field name="BEASSUREDBANDWIDTH" index="18" /> 
+  <field name="MAXFWDTHRUPT" index="19" /> 
+  <field name="MAXREVTHRUPT" index="20" /> 
+  <field name="OLCTRLBEUSERTHRESH" index="21" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="21" file="a21.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="COUNTRYCODE" index="2" /> 
+  <field name="REDIRECT" index="3" /> 
+  <field name="FCWATCHDOGTIMER" index="4" /> 
+  <field name="SWITCH1" index="5" /> 
+  <field name="SWITCH2" index="6" /> 
+  <field name="SWITCH3" index="7" /> 
+  <field name="SWITCH4" index="8" /> 
+  <field name="SWITCH5" index="9" /> 
+  <field name="SWITCH6" index="10" /> 
+  <field name="SWITCH7" index="11" /> 
+  <field name="SWITCH8" index="12" /> 
+  <field name="SWITCH9" index="13" /> 
+  <field name="SWITCH10" index="14" /> 
+  <field name="FLOWTPUTFILTERTC" index="15" /> 
+  <field name="MAXIMUMDELAYINSLOTS" index="16" /> 
+  <field name="TPUT2DELAYBMFACTOR" index="17" /> 
+  <field name="TPUT2DELAYBSMFACTOR" index="18" /> 
+  <field name="DARQRTQUEUEPRIORITY" index="19" /> 
+  <field name="DARQQUEUEPRIORITY" index="20" /> 
+  <field name="RETRANSQUEUEPRIORITY" index="21" /> 
+  <field name="DRCERASTHSHLENGTH" index="22" /> 
+  <field name="DSCSWITCHDELAY" index="23" /> 
+  <field name="ADDABISTIMEDELAY" index="24" /> 
+  <field name="TIMESTAMPORIGIN" index="25" /> 
+  </fields>
+		</ds>
+	</templet>
+	<templet id="22" file="a22.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="NBANID" index="4" /> 
+  <field name="NBSYSTEM" index="5" /> 
+  <field name="NBCELLID" index="6" /> 
+  <field name="NBCARRIERID" index="7" /> 
+  <field name="PILOTPN" index="8" /> 
+  <field name="SYSTEMTYPE" index="9" /> 
+  <field name="BANDCLASS" index="10" /> 
+  <field name="ChannelNumber" index="11" /> 
+  <field name="SEARCHWINDOWSIZE" index="12" /> 
+  <field name="SEARCHWINDOWOFFSET" index="13" /> 
+  <field name="BCSubnet" index="14" /> 
+  <field name="sequence_b" index="15" /> 
+  <field name="CI" index="16" /> 
+  <field name="FPDCHSupported" index="17" /> 
+  <field name="NBPilotGroupId" index="18" /> 
+  <field name="ISLOCAL" index="19" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="23" file="a23.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="ANID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="CARRIERID" index="3" /> 
+  <field name="SEARCHWINSIZEIN" index="4" /> 
+  <field name="SEARCHWINOFFSETIN" index="5" /> 
+  <field name="FPDCHSUPPORTEDIN" index="6" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="24" file="a24.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEM" index="1" /> 
+  <field name="CELLID" index="2" /> 
+  <field name="PILOT_PN" index="3" /> 
+  <field name="NCELLTYPE" index="4" /> 
+  <field name="NCELLOFFICEID" index="5" /> 
+  <field name="NCELLSYSTEMID" index="6" /> 
+  <field name="NCELLID" index="7" /> 
+  <field name="GNCELLID" index="8" /> 
+  <field name="CI_DISCRIMINATOR" index="9" /> 
+  <field name="LAC" index="10" /> 
+  <field name="CI" index="11" /> 
+  <field name="MARKETID" index="12" /> 
+  <field name="SWITCHNUMBER" index="13" /> 
+  <field name="P_REV" index="14" /> 
+  <field name="NCELLMODE" index="15" /> 
+  <field name="DLA_ID" index="16" /> 
+  <field name="NCELL_BS_ID" index="17" /> 
+  <field name="ALIAS_B" index="18" /> 
+  <field name="SEQUENCE_B" index="19" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="25" file="a25.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="SYSTEMID" index="1" /> 
+  <field name="SYSTEMALIAS" index="2" type="2" format="4000" /> 
+  <field name="BTSNAME" index="3" type="2" format="4000" /> 
+  <field name="RACKID" index="4" /> 
+  <field name="RACKNAME" index="5" type="2" format="4000" /> 
+  <field name="SHELFID" index="6" /> 
+  <field name="SHELFNAME" index="7" type="2" format="4000" /> 
+  <field name="SLOTID" index="8" /> 
+  <field name="BOARDNAME" index="9" type="2" format="4000" /> 
+  <field name="VERSION" index="10" type="2" format="4000" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="26" file="a26.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="SYSTEM" index="0" /> 
+  <field name="BTSALIAS" index="1" type="2" format="4000" /> 
+  <field name="RRUID" index="2" type="2" format="4000" /> 
+  <field name="RRU_ALIAS" index="3" type="2" format="4000" /> 
+  <field name="LATITUDE" index="4" /> 
+  <field name="LONGITUDE" index="5" /> 
+  <field name="ADDRESS" index="6" type="2" format="4000" /> 
+  <field name="NOTE" index="7" type="2" format="4000" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="27" file="a27.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="SYSTEM" index="0" /> 
+  <field name="BTSNAME" index="1" type="2" format="4000" /> 
+  <field name="BTSTYPE" index="2" type="2" format="4000" /> 
+  <field name="CELL_CARRIER_NUM_1X" index="3" type="2" format="4000" /> 
+  <field name="CELL_CARRIER_NUM_DO" index="4" type="2" format="4000" /> 
+  <field name="CUTOVERSTATUS" index="5" /> 
+  <field name="USESTATUS" index="6" /> 
+  <field name="BTSGRADE" index="7" /> 
+  <field name="CHANGETIME" index="8" type="2" format="4000" /> 
+  <field name="NOTE" index="9" type="2" format="4000" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="28" file="a28.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="GNCELLID" index="1" /> 
+  <field name="GNCELLTYPE" index="2" /> 
+  <field name="MCC" index="3" type="2" format="4000" /> 
+  <field name="MNC" index="4" type="2" format="4000" /> 
+  <field name="CI_DISCRIMINATOR" index="5" /> 
+  <field name="LAC" index="6" /> 
+  <field name="CI" index="7" /> 
+  <field name="MARKETID" index="8" /> 
+  <field name="SWITCHNUMBER" index="9" /> 
+  <field name="NCELLOFFICEID" index="10" /> 
+  <field name="PILOT_PN" index="11" /> 
+  <field name="PILOT_INC" index="12" /> 
+  <field name="SRCH_WIN_N" index="13" /> 
+  <field name="BCCH_SUPPORT" index="14" /> 
+  <field name="P_REV" index="15" /> 
+  <field name="MIN_P_REV" index="16" /> 
+  <field name="BASE_LAT" index="17" /> 
+  <field name="BASE_LONG" index="18" /> 
+  <field name="BAND_CLASS" index="19" /> 
+  <field name="STATUS" index="20" /> 
+  <field name="bsctype" index="21" /> 
+  <field name="NCELLMODE" index="22" /> 
+  <field name="DLA_ID" index="23" /> 
+  <field name="alias_b" index="24" type="2" format="4000" /> 
+  <field name="mscid" index="25" /> 
+  <field name="ncell_bs_id" index="26" /> 
+  <field name="alias_handoff" index="27" type="2" format="4000" /> 
+  <field name="SupportPLCM" index="28" /> 
+  <field name="IsNbBSC4GVSupported" index="29" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="29" file="a29.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="BSSID" index="0" /> 
+  <field name="GNCELLID" index="1" /> 
+  <field name="GNCARRIERID" index="2" /> 
+  <field name="BAND_CLASS" index="3" /> 
+  <field name="CDMA_FREQ" index="4" /> 
+  <field name="PAGE_NUM" index="5" /> 
+  <field name="FIRST_LIST" index="6" /> 
+  <field name="UCISBEACON" index="7" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="30" file="a30.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="anid" index="0" /> 
+  <field name="ci" index="1" /> 
+  <field name="gncellid" index="2" /> 
+  <field name="nbanid" index="3" /> 
+  <field name="NBSYSTEM" index="4" /> 
+  <field name="NBCELLID" index="5" /> 
+  <field name="pilotpn" index="6" /> 
+  <field name="alias_b" index="7" type="2" format="4000" /> 
+  <field name="bandclass" index="8" /> 
+  <field name="colorcode" index="9" /> 
+  </fields>
+		</ds>
+	</templet>
+- <templet id="31" file="a31.txt" >
+
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;" >
+  <field name="anid" index="0" /> 
+  <field name="gncellid" index="1" /> 
+  <field name="gncarrierid" index="2" /> 
+  <field name="NBCARRIERID" index="3" /> 
+  <field name="systemtype" index="4" /> 
+  <field name="bcsubnet" index="5" /> 
+  <field name="channelnumber" index="6" /> 
+  </fields>
+		</ds>
+	</templet>
+- 
+  </templets>

@@ -1,0 +1,34 @@
+<?xmlversion="1.0"encoding="gb2312"?>
+<templets>
+	<templetid="0">
+		<table id="0"name="clt_NE_BSA_PDE"split=",">
+			<column name="Pilot_Sector_Name"  index="0"/>
+			<column name="SID"  index="1"/>
+			<column name="NID"  index="2"/>
+			<column name="Extend_BID"  index="3"/>
+			<column name="T_PN"  index="4"/>
+			<column name="Antenna_Lati"  index="5"/>
+			<column name="Antenna_Longi"  index="6"/>
+			<column name="Antenna_Alti"  index="7"/>
+			<column name="Antenna_Loc_Accu"  index="8"/>
+			<column name="Sector_Center_Lati"  index="9"/>
+			<column name="Sector_Center_Longi"  index="10"/>
+			<column name="Sector_Center_Alti"  index="11"/>
+			<column name="Antenna_Orientation"  index="12"/>
+			<column name="Antenna_Opening"  index="13"/>
+			<column name="Max_Antenna_Range"  index="14"/>
+			<column name="Terrain_Average_Height"  index="15"/>
+			<column name="Terrain_Height_Standard_Devi"  index="16"/>
+			<column name="Potential_Repeater"  index="17"/>
+			<column name="PN_Increment"  index="18"/>
+			<column name="FWD_Calib"  index="19"/>
+			<column name="FWD_Calib_Accu"  index="20"/>
+			<column name="RTD_Calib"  index="21"/>
+			<column name="RTD_Calib_Accu"  index="22"/>
+			<column name="Format_Type"  index="23"/>
+			<column name="Switch_Num"  index="24"/>
+		
+		</table>
+	</templet>
+	
+</templets>

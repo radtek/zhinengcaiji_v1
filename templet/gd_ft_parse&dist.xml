@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+一个templet描述对一种文件的解析入库方式。
+file中用于确定一个文件，比如"*tbFTCustResponse*"，意思是名字中包含"tbFTCustResponse"这串字符的文件（不区分大小写）。
+table是要入库的表名。
+field中，index表示的是一个字段在原始文件中的位置（从0开始计数），name是文件中指定位置所找到的值，入到库表中的列名。
+例如：<field index="3" name="sComplaintNum"/>，表示，在"*tbFTCustResponse*"这类原始文件中，第4个（因为是从0开始计数）找到的内容，入到clt_ft_cust_response表的sComplaintNum列。
+-->
+<templets>
+	<templet file="*tbFTCustResponse*" table="clt_ft_cust_response">
+		<field index="0" name="ifaultticketid" />
+		<field index="1" name="s1whno" />
+		<field index="2" name="sjobnum" />
+		<field index="3" name="scomplaintnum" />
+		<field index="4" name="icptdomainid" />
+		<field index="5" name="scptdomainname" />
+		<field index="6" name="scptaddr" />
+		<field index="7" name="scptaddrid" />
+		<field index="8" name="iuserdomainid" />
+		<field index="9" name="suserdomainname" />
+		<field index="10" name="daccnettime" />
+		<field index="11" name="sinoutdoor" />
+		<field index="12" name="sfloor" />
+		<field index="13" name="ibusskind" />
+		<field index="14" name="sbusskindname" />
+		<field index="15" name="dbusgivetime" />
+		<field index="16" name="sterminaltype" />
+		<field index="17" name="scenter" />
+		<field index="18" name="iotreasonid" />
+		<field index="19" name="iisretvisit" />
+		<field index="20" name="icpttotal" />
+		<field index="21" name="ssenddomainname" />
+		<field index="22" name="irepattributeid" />
+		<field index="23" name="srepatrrbutename" />
+		<field index="24" name="iordertypeid" />
+		<field index="25" name="sordertypename" />
+		<field index="26" name="iisprevmove" />
+		<field index="27" name="ihotissusid" />
+		<field index="28" name="shotissname" />
+		<field index="29" name="slatandlot" />
+		<field index="30" name="scovbasestation" />
+		<field index="31" name="secorio" />
+		<field index="32" name="ssendlevel" />
+		<field index="33" name="sreceptlevel" />
+		<field index="34" name="iretprockind" />
+		<field index="35" name="ireturnvisit" />
+		<field index="36" name="sovertimereason" type="CHAR(9999)" />
+		<field index="37" name="srealareaname" />
+		<field index="38" name="srealaddress" />
+		<field index="39" name="irealcityid" />
+		<field index="40" name="srealcityname" />
+		<field index="41" name="iisovercomp" />
+		<field index="42" name="sregion" />
+		<field index="43" name="stown" />
+		<field index="44" name="svillage" />
+		<field index="45" name="sroad" />
+		<field index="46" name="sbuilding" />
+		<field index="47" name="ipay" />
+		<field index="48" name="iretftflag" />
+		<field index="49" name="sretftreason" type="CHAR(9999)" />
+		<field index="50" name="iretfttotal" />
+		<field index="51" name="dretfttime" />
+		<field index="52" name="suserlevel" />
+		<field index="53" name="iuserlevel" />
+		<field index="54" name="iusertype" />
+		<field index="55" name="susertype" />
+		<field index="56" name="scustpack" />
+		<field index="57" name="icustpack" />
+		<field index="58" name="iserverlevel" />
+		<field index="59" name="sserverlevel" />
+		<field index="60" name="icustpacklg" />
+		<field index="61" name="scustpacklg" />
+	</templet>
+	<templet file="*tbFTWorkTicket*" table="clt_ft_work_ticket">
+		<field index="0" name="iWorkTicketId"/>
+		<field index="1" name="iPId"/>
+		<field index="2" name="sPath"/>
+		<field index="3" name="iFaultTicketId"/>
+		<field index="4" name="iSpecialityId"/>
+		<field index="5" name="sCode"/>
+		<field index="6" name="iSource"/>
+		<field index="7" name="iStatus"/>
+		<field index="8" name="iTrSeTicketId"/>
+		<field index="9" name="iIsWaitSign"/>
+		<field index="10" name="iIsWaitReply"/>
+		<field index="11" name="dStatusTime"/>
+		<field index="12" name="dDispatchTime"/>
+		<field index="13" name="iDispatchDomainId"/>
+		<field index="14" name="sDispatchDomainName"/>
+		<field index="15" name="iDispatchDeptId"/>
+		<field index="16" name="sDispatchDeptName"/>
+		<field index="17" name="iDispatchStaffId"/>
+		<field index="18" name="sDispatchStaffName"/>
+		<field index="19" name="sWorkRequire" type="CHAR(9999)"/>
+		<field index="20" name="iFixTimeLimit" type="CHAR(9999)"/>
+		<field index="21" name="iAlmTimeLimit" type="CHAR(9999)"/>
+		<field index="22" name="iProcDomainId" type="CHAR(9999)"/>
+		<field index="23" name="sProcDomainName"/>
+		<field index="24" name="iProcDeptId" type="CHAR(9999)"/>
+		<field index="25" name="sProcDeptName"/>
+		<field index="26" name="iProcStaffId" type="CHAR(9999)"/>
+		<field index="27" name="sProcStaffName" type="CHAR(9999)"/>
+		<field index="28" name="dPickupTime"/>
+		<field index="29" name="iPickupDeptId" type="CHAR(9999)"/>
+		<field index="30" name="sPickupDeptName"/>
+		<field index="31" name="iPickupStaffId" type="CHAR(9999)"/>
+		<field index="32" name="sPickupStaffName"/>
+		<field index="33" name="dFinishTime"/>
+		<field index="34" name="iFinishDeptId" type="CHAR(9999)"/>
+		<field index="35" name="sFinishDeptName"/>
+		<field index="36" name="iFinishStaffId" type="CHAR(9999)"/>
+		<field index="37" name="sFinishStaffName"/>
+		<field index="38" name="sWorkResult" type="CHAR(9999)"/>
+		<field index="39" name="iCancelDeptId" type="CHAR(9999)"/>
+		<field index="40" name="sCancelDeptName" type="CHAR(9999)"/>
+		<field index="41" name="iCancelStaffId" type="CHAR(9999)"/>
+		<field index="42" name="sCancelStaffName" type="CHAR(9999)"/>
+		<field index="43" name="sCancelDesc"/>
+		<field index="44" name="dCancelTime"/>
+		<field index="45" name="sLatAndLot" type="CHAR(9999)"/>
+		<field index="46" name="sCovBaseStation" type="CHAR(9999)"/>
+		<field index="47" name="sEcOrIo"/>
+		<field index="48" name="sSendLevel" type="CHAR(9999)"/>
+		<field index="49" name="sReceptLevel"/>
+		<field index="50" name="iRetProcKind" type="CHAR(9999)"/>
+		<field index="51" name="iReturnVisit" type="CHAR(9999)"/>
+		<field index="52" name="sOverTimeReason" type="CHAR(9999)"/>
+		<field index="53" name="sRealAreaName"/>
+		<field index="54" name="sRealAddress"/>
+		<field index="55" name="iRealCityId" type="CHAR(9999)"/>
+		<field index="56" name="sRealCityName"/>
+		<field index="57" name="iDispTotal" type="CHAR(9999)"/>
+		<field index="58" name="iSignTotal" type="CHAR(9999)"/>
+		<field index="59" name="iAnswTotal" type="CHAR(9999)"/>
+		<field index="60" name="iCancelTotal" type="CHAR(9999)"/>
+		<field index="61" name="iConfirmTotal" type="CHAR(9999)"/>
+		<field index="62" name="iIsOverTime" type="CHAR(9999)"/>
+		<field index="63" name="dLastUpdateTime"/>
+		<field index="64" name="iSendChildDeptId" type="CHAR(9999)"/>
+		<field index="65" name="iBefMovTicketId" type="CHAR(9999)"/>
+		<field index="66" name="iAftMovTicketId" type="CHAR(9999)"/>
+		<field index="67" name="iUnavailFltDur" type="CHAR(9999)"/>
+		<field index="68" name="dOPResumeTime"/>
+		<field index="69" name="iFaultProTime" type="CHAR(9999)"/>
+		<field index="70" name="dFaultEndTime"/>
+		<field index="71" name="iAssessDur" type="CHAR(9999)"/>
+		<field index="72" name="iIsSendBloc" type="CHAR(9999)"/>
+		<field index="73" name="iFaultCategoryId" type="CHAR(9999)"/>
+		<field index="74" name="sFaultCategoryName"/>
+		<field index="75" name="iFaultClassId" type="CHAR(9999)"/>
+		<field index="76" name="sFaultClassName"/>
+		<field index="77" name="iWipeOffTime" type="CHAR(9999)"/>
+		<field index="78" name="sWipeOffReason" type="CHAR(9999)"/>
+		<field index="79" name="sTrSeReason" type="CHAR(9999)"/>
+		<field index="80" name="iReSendDeptId"/>
+		<field index="81" name="sReSendDeptName"/>
+		<field index="82" name="iReSendStaffId" type="CHAR(9999)"/>
+		<field index="83" name="sReSendStaffName"/>
+		<field index="84" name="sReSendDesc" type="CHAR(9999)"/>
+		<field index="85" name="dReSendTime" type="CHAR(9999)"/>
+		<field index="86" name="iRemoveDeptId" type="CHAR(9999)"/>
+		<field index="87" name="sRemoveDeptName"/>
+		<field index="88" name="iRemoveStaffId" type="CHAR(9999)"/>
+		<field index="89" name="sRemoveStaffName"/>
+		<field index="90" name="dRemoveTime"/>
+		<field index="91" name="sRemoveDesc"/>
+		<field index="92" name="iIsFillForm"/>
+		<field index="93" name="iIsConfirm" type="CHAR(9999)"/>
+		<field index="94" name="iIsFaultResume" type="CHAR(9999)"/>
+		<field index="95" name="iIsRuleHandle" type="CHAR(9999)"/>
+		<field index="96" name="iIsRealRepFT" type="CHAR(9999)"/>
+		<field index="97" name="iIsRealRepUsr"/>
+		<field index="98" name="iAptDurTime"/>
+		<field index="99" name="iIsNetOptimize"/>
+		<field index="100" name="iIsToFault"/>
+		<field index="101" name="iExStaffId" type="CHAR(9999)"/>
+		<field index="102" name="sExStaffName"/>
+		<field index="103" name="dNetOptTime"/>
+		<field index="104" name="dNetOptRetTime"/>
+		<field index="105" name="iNOStaffId" type="CHAR(9999)"/>
+		<field index="106" name="sNOStaffName"/>
+		<field index="107" name="dToFaultTime"/>
+		<field index="108" name="iToFTStaffId" type="CHAR(9999)"/>
+		<field index="109" name="sToFTStaffName"/>
+		<field index="110" name="iIsMove" type="CHAR(9999)"/>
+		<field index="111" name="dExcTime"/>
+		<field index="112" name="iExcStaffId" type="CHAR(9999)"/>
+		<field index="113" name="sExcStaffName"/>
+		<field index="114" name="iExcAptDeptId" type="CHAR(9999)"/>
+		<field index="115" name="sExcAptDeptName"/>
+		<field index="116" name="iExcAptStaffId"/>
+		<field index="117" name="sExcAptStaffName"/>
+		<field index="118" name="dTrSeTime"/>
+		<field index="119" name="iTrDeptId" type="CHAR(9999)"/>
+		<field index="120" name="sTrDeptName"/>
+		<field index="121" name="iTrStaffId" type="CHAR(9999)"/>
+		<field index="122" name="sTrStaffName"/>
+		<field index="123" name="iIsUrgRule" type="CHAR(9999)"/>
+		<field index="124" name="iIsEVDO" type="CHAR(9999)"/>
+		<field index="125" name="sNOReason" type="CHAR(9999)"/>
+		<field index="126" name="iIsToMalf" type="CHAR(9999)"/>
+		<field index="127" name="dToMalfTime"/>
+		<field index="128" name="iToMalfStaffId" type="CHAR(9999)"/>
+		<field index="129" name="sToMalfStaffName"/>
+		<field index="130" name="dToMalfRetTime"/>
+		<field index="131" name="dToFTFinTime"/>
+		<field index="132" name="iFRReason"/>
+	</templet>
+	<templet file="*tbFTFaultTicket*" table="clt_ft_fault_ticket">
+		<field index="0" name="iFaultTicketId"/>
+		<field index="1" name="iType"/>
+		<field index="2" name="iStatus"/>
+		<field index="3" name="dStatusTime"/>
+		<field index="4" name="iSuspendStatus"/>
+		<field index="5" name="iFaultCategoryId" type="CHAR(9999)"/>
+		<field index="6" name="sFaultCategoryName"/>
+		<field index="7" name="iSpecialityId"/>
+		<field index="8" name="iFaultClassId" type="CHAR(9999)"/>
+		<field index="9" name="sFaultClassName"/>
+		<field index="10" name="iSource"/>
+		<field index="11" name="iDomainId"/>
+		<field index="12" name="sDomainName"/>
+		<field index="13" name="sCreateFTUint"/>
+		<field index="14" name="dFaultStartTime"/>
+		<field index="15" name="dRepTime"/>
+		<field index="16" name="iRepDeptCustId"/>
+		<field index="17" name="sRepDeptCustName"/>
+		<field index="18" name="iReporterId"/>
+		<field index="19" name="sReporter"/>
+		<field index="20" name="sRepTel"/>
+		<field index="21" name="sRepStaffContact"/>
+		<field index="22" name="dRcvTime"/>
+		<field index="23" name="iRcvDeptId"/>
+		<field index="24" name="sRcvDeptName"/>
+		<field index="25" name="iRcvStaffId"/>
+		<field index="26" name="sRcvStaffName"/>
+		<field index="27" name="iReportSource"/>
+		<field index="28" name="dHopeEndTime"/>
+		<field index="29" name="iFixTimeLimit" type="CHAR(9999)"/>
+		<field index="30" name="iWipeOffTime" type="CHAR(9999)"/>
+		<field index="31" name="sWipeOffReason" type="CHAR(9999)"/>
+		<field index="32" name="iVarietyId"/>
+		<field index="33" name="sVarietyName"/>
+		<field index="34" name="iTradeId"/>
+		<field index="35" name="sTradeName"/>
+		<field index="36" name="sCode"/>
+		<field index="37" name="sTitle"/>
+		<field index="38" name="sRepFaultDetail" type="CHAR(9999)"/>
+		<field index="39" name="sRemark" type="CHAR(9999)"/>
+		<field index="40" name="sNoticeNum"/>
+		<field index="41" name="iIsPreProc"/>
+		<field index="42" name="sPreProcDetail" type="CHAR(9999)"/>
+		<field index="43" name="iIsCrossTicket"/>
+		<field index="44" name="iIsGovClient"/>
+		<field index="45" name="iIsAvailFlag"/>
+		<field index="46" name="dFlagTime"/>
+		<field index="47" name="dLastUpdateTime"/>
+		<field index="48" name="iCreateFTStaffId"/>
+		<field index="49" name="sCreateFTName"/>
+		<field index="50" name="sCreateFTTel"/>
+		<field index="51" name="dCreateTime"/>
+		<field index="52" name="iDispTotal" type="CHAR(9999)"/>
+		<field index="53" name="iSignTotal" type="CHAR(9999)"/>
+		<field index="54" name="iAnswTotal" type="CHAR(9999)"/>
+		<field index="55" name="iCancelTotal" type="CHAR(9999)"/>
+		<field index="56" name="iConfirmTotal" type="CHAR(9999)"/>
+		<field index="57" name="iIsTempData"/>
+		<field index="58" name="iBussTypeId"/>
+		<field index="59" name="sBussTypeName"/>
+		<field index="60" name="iSubBussTypeId"/>
+		<field index="61" name="sSubBussTypeName"/>
+		<field index="62" name="sSpecialityName"/>
+		<field index="63" name="iIsNetOptimize"/>
+		<field index="64" name="iIsCarryOver"/>
+		<field index="65" name="iIsToFault"/>
+		<field index="66" name="iIsRepeatRep"/>
+		<field index="67" name="iIsUrgent"/>
+		<field index="68" name="iPreTimeLimit"/>
+		<field index="69" name="iCloseDeptId"/>
+		<field index="70" name="sCloseDeptName"/>
+		<field index="71" name="iCloseStaffId"/>
+		<field index="72" name="sCloseStaffName"/>
+		<field index="73" name="sCloseReason"/>
+		<field index="74" name="iCloseFlag"/>
+		<field index="75" name="dCloseTime"/>
+		<field index="76" name="sFaultRepresentId"/>
+		<field index="77" name="sFaultRepresentName"/>
+		<field index="78" name="dNetOptTime"/>
+		<field index="79" name="iAptDurTime"/>
+		<field index="80" name="iPreDurTime"/>
+		<field index="81" name="iFTDurTime"/>
+		<field index="82" name="dNetOptRetTime"/>
+		<field index="83" name="iTimeLeft"/>
+		<field index="84" name="iNOStaffId" type="CHAR(9999)"/>
+		<field index="85" name="sNOStaffName"/>
+		<field index="86" name="dCarryOverTime"/>
+		<field index="87" name="iCOStaffId"/>
+		<field index="88" name="sCOStaffName"/>
+		<field index="89" name="dToFaultTime"/>
+		<field index="90" name="iToFTStaffId" type="CHAR(9999)"/>
+		<field index="91" name="sToFTStaffName"/>
+		<field index="92" name="iExStaffId" type="CHAR(9999)"/>
+		<field index="93" name="sExStaffName"/>
+		<field index="94" name="dFinishTime"/>
+		<field index="95" name="iIsMove" type="CHAR(9999)"/>
+		<field index="96" name="dExcTime"/>
+		<field index="97" name="iExcStaffId" type="CHAR(9999)"/>
+		<field index="98" name="sExcStaffName"/>
+		<field index="99" name="iExcAptDeptId" type="CHAR(9999)"/>
+		<field index="100" name="sExcAptDeptName"/>
+		<field index="101" name="iExcAptStaffId"/>
+		<field index="102" name="sExcAptStaffName"/>
+		<field index="103" name="sNOReason" type="CHAR(9999)"/>
+		<field index="104" name="iIsToMalf" type="CHAR(9999)"/>
+		<field index="105" name="dToMalfTime"/>
+		<field index="106" name="iToMalfStaffId" type="CHAR(9999)"/>
+		<field index="107" name="sToMalfStaffName"/>
+		<field index="108" name="dToMalfRetTime"/>
+		<field index="109" name="dToFTFinTime"/>
+		<field index="110" name="dCOFinTime"/>
+		<field index="111" name="sVinManNo"/>
+		<field index="112" name="sVinManTel"/>
+	</templet>
+</templets>

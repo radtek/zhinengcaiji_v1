@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="/*_CONF_RNC_%%Y%%M%%D.csv.tar.gz">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="省份" index="0"/>
+				<field name="所属城市标识" index="1"/>
+				<field name="所属OMC标识" index="2"/>
+				<field name="厂商标识" index="3"/>
+				<field name="所属MSCServer标识" index="4"/>
+				<field name="MGW标识" index="5"/>
+				<field name="所属SGSN标识" index="6"/>
+				<field name="RNC标识" index="7"/>
+				<field name="RNC编号" index="8"/>
+				<field name="RNC中文名称" index="9"/>
+				<field name="RNC当前状态" index="10"/>
+				<field name="版本标识" index="11"/>
+				<field name="Iu接口ATM层配置带宽" index="12"/>
+				<field name="Iu接口IP层配置带宽" index="13"/>
+				<field name="Iur接口ATM层配置带宽" index="14"/>
+				<field name="Iur接口IP层配置带宽" index="15"/>
+				<field name="载频数目" index="16"/>
+				<field name="NodeB数量" index="17"/>
+				<field name="单载频NodeB数量" index="18"/>
+				<field name="双单载频NodeB数量" index="19"/>
+		    <field name="三单载频NodeB数量" index="20"/>
+		    <field name="BBU数量" index="21"/>
+		    <field name="单载扇区数量" index="22"/>
+		    <field name="双载扇区数量" index="23"/>
+		    <field name="三载扇区数量" index="24"/>
+		    <field name="直放站数量" index="25"/>
+		    <field name="小区数量" index="26"/>
+		    <field name="宏小区数量" index="27"/>
+		    <field name="微小区数量" index="28"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/*_CONF_NODEB_%%Y%%M%%D.csv.tar.gz">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="省份" index="0"/>
+				<field name="所属城市标识" index="1"/>
+				<field name="所属MSCServer标识" index="2"/>
+				<field name="所属MGW标识" index="3"/>
+				<field name="所属SGSN标识" index="4"/>
+				<field name="所属OMC标识" index="5"/>
+				<field name="所属RNC标识" index="6"/>
+				<field name="NodeB标识" index="7"/>
+				<field name="厂商标识" index="8"/>
+				<field name="版本标识" index="9"/>
+				<field name="经度" index="10"/>
+				<field name="维度" index="11"/>
+				<field name="载频数目" index="12"/>
+				<field name="基站扇区类型" index="13"/>
+				<field name="基站类型" index="14"/>
+				<field name="配置的上行CE容量" index="15"/>
+				<field name="配置的下行CE容量" index="16"/>
+				<field name="Iub接口ATM端口的配置带宽" index="17"/>
+				<field name="Iub接口IP端口的配置带宽" index="18"/>
+			</fields>
+		</ds>
+	</templet>	
+	<templet id="2" file="/*_CONF_COSITE_20120111.csv.tar.gz">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="省份" index="0"/>
+				<field name="所属城市" index="1"/>
+				<field name="所属RNC标识" index="2"/>
+				<field name="共站地址" index="3"/>
+				<field name="NodeB标识" index="4"/>  
+				<field name="W小区标识列表" index="5"/>
+				<field name="BTS标识" index="6"/>
+				<field name="2G小区标识列表" index="7"/>
+		 </fields>
+		</ds>
+	</templet>
+		<templet id="3" file="/*_CONF_UTRANCELL_20120111.csv.tar.gz">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">      
+				<field name="省份"  index="0" />
+				<field name="所属城市标识"  index="1" />
+				<field name="所属城市区域"  index="2" />
+				<field name="所属MSC标识"  index="3" />
+				<field name="所属MGW标识"  index="4" />
+				<field name="所属SGSN标识"  index="5" />
+				<field name="所属RNC标识"  index="6" />
+				<field name="基站的编号"  index="7" />
+				<field name="所属NodeB标识"  index="8" />
+				<field name="所SECTORID"  index="9" />
+				<field name="小区标识"  index="10" />
+				<field name="小区名称"  index="11" />
+				<field name="小区标识码"  index="12" />
+				<field name="厂商标识"  index="13" />
+				<field name="是否采集MR"  index="14" />
+				<field name="经度"  index="15" />
+				<field name="纬度"  index="16" />
+				<field name="天线方向角"  index="17" />
+				<field name="天线挂高"  index="18" />
+				<field name="电子下倾角"  index="19" />
+				<field name="机械倾角"  index="20" />
+				<field name="小区的级别"  index="21" />
+				<field name="是否为RRU小区"  index="22" />
+				<field name="上行频点"  index="23" />
+				<field name="下行频点"  index="24" />
+				<field name="主扰码号"  index="25" />
+				<field name="主导频信道功率"  index="26" />
+				<field name="小区配置的载频发射功率"  index="27" />
+				<field name="位置区编码"  index="28" />
+				<field name="路由区编码"  index="29" />
+				<field name="服务区编码"  index="30" />
+				<field name="配置的无线容量"  index="31" />
+				<field name="HSDPA功能标识"  index="32" />
+				<field name="HSDPA功能状态"  index="33" />
+				<field name="HS-PDSCH所使用的SF=16的码"  index="34" />
+				<field name="HS-SCCH所使用的SF=128的码"  index="35" />
+				<field name="HSUPA功能标识"  index="36" />
+				<field name="HSUPA功能状态"  index="37" />
+				<field name="E-AGCH信道数目"  index="38" />
+				<field name="E-RGCH/E-HICH信道数目"  index="39" />
+				<field name="运行状态"  index="40" />
+				</fields>
+		</ds>
+	</templet>	
+</templets>

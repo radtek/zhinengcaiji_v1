@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" fromTable="dbo.wlan_auth_user_vlan_%%Y_%%M" toTable="clt_cm_wlan_auth_user_vlan" used="1" occur="1">
+		<sql>select * from dbo.wlan_auth_user_vlan_%%Y_%%M</sql>
+	</templet>
+
+	<templet id="1" fromTable="dbo.wlan_ap_auth_%%Y_%%M_%%D" toTable="clt_cm_wlan_ap_auth" used="1" occur="1">
+		<sql>select * from dbo.wlan_ap_auth_%%Y_%%M_%%D</sql>
+	</templet>
+</templets>

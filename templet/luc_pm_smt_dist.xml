@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+
+
+	<templet id="11">
+		<table id="11" name="CLT_PM_C_LUC_SMT_ECP" split=",">
+			<!-- 公共部分的 -->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!--  -->
+			<column name="ELCNTS2" index="7" />
+			<column name="ELCNTS3" index="8" />
+			<column name="ELCNTS4" index="9" />
+			<column name="ELCNTS5" index="10" />
+			<column name="ELCNTS6" index="11" />
+			<column name="ELCNTS7" index="12" />
+			<column name="ELCNTS8" index="13" />
+			<column name="ELCNTS9" index="14" />
+			<column name="ELCNTS10" index="15" />
+			<column name="ELCNTS16" index="21" />
+			<column name="ELCNTS40" index="45" />
+			<column name="ELCNTS53" index="58" />
+			<column name="ELCNTS78" index="83" />
+			<column name="ELCNTS79" index="84" />
+			<column name="ELCNTS80" index="85" />
+			<column name="ELCNTS81" index="86" />
+			<column name="ELCNTS83" index="88" />
+			<column name="ELCNTS85" index="90" />
+			<column name="ELCNTS87" index="92" />
+			<column name="ELCNTS99" index="104" />
+			<column name="ELCNTS101" index="106" />
+			<column name="ELCNTS103" index="108" />
+			<column name="ELCNTS105" index="110" />
+			<column name="ELCNTS108" index="113" />
+			<column name="ELCNTS119" index="124" />
+			<column name="ELCNTS120" index="125" />
+			<column name="ELCNTS121" index="126" />
+			<column name="ELCNTS122" index="127" />
+			<column name="ELCNTS124" index="129" />
+			<column name="ELCNTS126" index="131" />
+			<column name="ELCNTS128" index="133" />
+			<column name="ELCNTS134" index="139" />
+			<column name="ELCNTS185" index="190" />
+			<column name="ELCNTS186" index="191" />
+			<column name="ELCNTS187" index="192" />
+			<column name="ELCNTS188" index="193" />
+			<column name="ELCNTS190" index="195" />
+			<column name="ELCNTS192" index="197" />
+			<column name="ELCNTS193" index="198" />
+			<column name="ELCNTS194" index="199" />
+			<column name="ELCNTS195" index="200" />
+			<column name="ELCNTS196" index="201" />
+			<column name="ELCNTS198" index="203" />
+			<column name="ELCNTS200" index="205" />
+			<column name="ELCNTS201" index="206" />
+			<column name="ELCNTS202" index="207" />
+			<column name="ELCNTS203" index="208" />
+			<column name="ELCNTS204" index="209" />
+			<column name="ELCNTS206" index="211" />
+			<column name="ELCNTS208" index="213" />
+			<column name="ELCNTS209" index="214" />
+			<column name="ELCNTS210" index="215" />
+			<column name="ELCNTS212" index="217" />
+			<column name="ELCNTS214" index="219" />
+			<column name="ELCNTS216" index="221" />
+			<column name="ELCNTS217" index="222" />
+			<column name="ELCNTS218" index="223" />
+			<column name="ELCNTS220" index="225" />
+			<column name="ELCNTS222" index="227" />
+			<column name="ELCNTS224" index="229" />
+			<column name="ELCNTS265" index="270" />
+			<column name="ELCNTS266" index="271" />
+			<column name="ELCNTS267" index="272" />
+			<column name="ELCNTS268" index="273" />
+			<column name="ELCNTS270" index="275" />
+			<column name="ELCNTS272" index="277" />
+			<column name="ELCNTS297" index="302" />
+			<column name="ELCNTS298" index="303" />
+			<column name="ELCNTS299" index="304" />
+			<column name="ELCNTS300" index="305" />
+			<column name="ELCNTS302" index="307" />
+			<column name="ELCNTS304" index="309" />
+			<column name="ELCNTS305" index="310" />
+			<column name="ELCNTS306" index="311" />
+			<column name="ELCNTS308" index="313" />
+			<column name="ELCNTS310" index="315" />
+			<column name="ELCNTS312" index="317" />
+			<column name="ELCNTS313" index="318" />
+			<column name="ELCNTS314" index="319" />
+			<column name="ELCNTS316" index="321" />
+			<column name="ELCNTS318" index="323" />
+			<column name="ELCNTS320" index="325" />
+			<column name="ELCNTS377" index="382" />
+			<column name="ELCNTS378" index="383" />
+			<column name="ELCNTS379" index="384" />
+			<column name="ELCNTS380" index="385" />
+			<column name="ELCNTS382" index="387" />
+			<column name="ELCNTS384" index="389" />
+			<column name="ELCNTS393" index="398" />
+			<column name="ELCNTS394" index="399" />
+			<column name="ELCNTS395" index="400" />
+			<column name="ELCNTS396" index="401" />
+			<column name="ELCNTS398" index="403" />
+			<column name="ELCNTS400" index="405" />
+			<column name="ELCNTS401" index="406" />
+			<column name="ELCNTS402" index="407" />
+			<column name="ELCNTS403" index="408" />
+			<column name="ELCNTS404" index="409" />
+			<column name="ELCNTS406" index="411" />
+			<column name="ELCNTS408" index="413" />
+			<column name="ELCNTS409" index="414" />
+			<column name="ELCNTS410" index="415" />
+			<column name="ELCNTS411" index="416" />
+			<column name="ELCNTS412" index="417" />
+			<column name="ELCNTS414" index="419" />
+			<column name="ELCNTS416" index="421" />
+			<column name="ELCNTS417" index="422" />
+			<column name="ELCNTS418" index="423" />
+			<column name="ELCNTS420" index="425" />
+			<column name="ELCNTS422" index="427" />
+			<column name="ELCNTS424" index="429" />
+			<column name="ELCNTS425" index="430" />
+			<column name="ELCNTS426" index="431" />
+			<column name="ELCNTS428" index="433" />
+			<column name="ELCNTS430" index="435" />
+			<column name="ELCNTS432" index="437" />
+			<column name="ELCNTS473" index="478" />
+			<column name="ELCNTS474" index="479" />
+			<column name="ELCNTS475" index="480" />
+			<column name="ELCNTS476" index="481" />
+			<column name="ELCNTS478" index="483" />
+			<column name="ELCNTS480" index="485" />
+			<column name="ELCNTS520" index="525" />
+			<column name="ECLNTS592" index="597" />
+			<column name="ECLNTS593" index="598" />
+			<column name="ELCNTS606" index="611" />
+			<column name="ELCNTS607" index="612" />
+			<column name="ELCNTS612" index="617" />
+			<column name="ELCNTS613" index="618" />
+			<column name="ELCNTS861" index="866" />
+			<column name="ELCNTS862" index="867" />
+			<column name="ELCNTS863" index="868" />
+			<column name="ELCNTS864" index="869" />
+			<column name="ELCNTS866" index="871" />
+			<column name="ELCNTS868" index="873" />
+			<column name="ELCNTS869" index="874" />
+			<column name="ECLNTS870" index="875" />
+			
+			<column name="ELCNTS871" index="876" />
+			<column name="ECLNTS872" index="877" />
+			
+			<column name="ECLNTS874" index="879" />
+			
+			<column name="ECLNTS876" index="881" />
+			
+			<column name="ELCNTS877" index="882" />
+			<column name="ELCNTS878" index="883" />
+			<column name="ELCNTS879" index="884" />
+			<column name="ELCNTS880" index="885" />
+			<column name="ELCNTS882" index="887" />
+			<column name="ELCNTS884" index="889" />
+			<column name="ELCNTS886" index="891" />
+			<column name="ELCNTS887" index="892" />
+			<column name="ELCNTS888" index="893" />
+			<column name="ELCNTS889" index="894" />
+			<column name="ELCNTS891" index="896" />
+			<column name="ELCNTS893" index="898" />
+			<column name="ELCNTS895" index="900" />
+			<column name="ECLNTS1088" index="1093" />
+			<column name="ELCNTS1155" index="1160" />
+			<column name="ELCNTS1156" index="1161" />
+			<column name="ELCNTS1157" index="1162" />
+			<column name="ELCNTS1158" index="1163" />
+			<column name="ELCNTS1160" index="1165" />
+			<column name="ELCNTS1162" index="1167" />
+		</table>
+	</templet>
+
+	<templet id="111">
+		<table id="111" name="CLT_PM_C_LUC_SMT_MSCOT" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<column name="MSCOT1" index="1691"/>
+			<column name="MSCOT2" index="1692"/>
+			<column name="MSCOT3" index="1693"/>
+			<column name="MSCOT4" index="1694"/>
+			<column name="MSCOT5" index="1695"/>
+			<column name="MSCOT6" index="1696"/>
+			<column name="MSCOT7" index="1697"/>
+			<column name="MSCOT8" index="1698"/>
+			<column name="MSCOT9" index="1699"/>
+			<column name="MSCOT10" index="1700"/>
+			<column name="MSCOT11" index="1701"/>
+			<column name="MSCOT12" index="1702"/>
+			<column name="MSCOT13" index="1703"/>
+			<column name="MSCOT14" index="1704"/>
+			<column name="MSCOT15" index="1705"/> 
+			<column name="MSCOT16" index="1706"/> 
+			<column name="MSCOT17" index="1707"/> 
+			<column name="MSCOT18" index="1708"/> 
+			<column name="MSCOT19" index="1709"/> 
+			<column name="MSCOT20" index="1710"/> 
+			<column name="MSCOT21" index="1711"/> 
+			<column name="MSCOT22" index="1712"/> 
+			<column name="MSCOT23" index="1713"/> 
+			<column name="MSCOT24" index="1714"/>
+			<column name="MSCOT25" index="1715"/>
+			<column name="MSCOT26" index="1716"/>
+			<column name="MSCOT27" index="1717"/>
+			<column name="MSCOT28" index="1718"/>
+			<column name="MSCOT29" index="1719"/> 
+			<column name="MSCOT30" index="1720"/> 
+			<column name="MSCOT31" index="1721"/> 
+			<column name="MSCOT32" index="1722"/> 
+			<column name="MSCOT33" index="1723"/> 
+			<column name="MSCOT34" index="1724"/> 
+			<column name="MSCOT35" index="1725"/> 
+			<column name="MSCOT36" index="1726"/> 
+			<column name="MSCOT37" index="1727"/> 
+			<column name="MSCOT38" index="1728"/>
+			<column name="MSCOT39" index="1729"/>
+			<column name="MSCOT40" index="1730"/>
+			<column name="MSCOT41" index="1731"/>
+			<column name="MSCOT42" index="1732"/>
+			<column name="MSCOT43" index="1733"/> 
+			<column name="MSCOT44" index="1734"/> 
+			<column name="MSCOT45" index="1735"/> 
+			<column name="MSCOT46" index="1736"/> 
+			<column name="MSCOT47" index="1737"/> 
+			<column name="MSCOT48" index="1738"/> 
+			<column name="MSCOT49" index="1739"/> 
+			<column name="MSCOT50" index="1740"/> 
+			<column name="MSCOT51" index="1741"/> 
+			<column name="MSCOT52" index="1742"/>
+			<column name="MSCOT53" index="1743"/>
+			<column name="MSCOT54" index="1744"/>
+			<column name="MSCOT55" index="1745"/>
+			<column name="MSCOT56" index="1746"/>
+			<column name="MSCOT57" index="1747"/> 
+			<column name="MSCOT58" index="1748"/> 
+			<column name="MSCOT59" index="1749"/> 
+			<column name="MSCOT60" index="1750"/> 
+			<column name="MSCOT61" index="1751"/> 
+			<column name="MSCOT62" index="1752"/> 
+			<column name="MSCOT63" index="1753"/> 
+			<column name="MSCOT64" index="1754"/> 
+			<column name="MSCOT65" index="1755"/> 
+			<column name="MSCOT66" index="1756"/>
+			<column name="MSCOT67" index="1757"/>
+			<column name="MSCOT68" index="1758"/>
+			<column name="MSCOT69" index="1759"/>
+			<column name="MSCOT70" index="1760"/>
+			<column name="MSCOT71" index="1761"/> 
+			<column name="MSCOT72" index="1762"/> 
+			<column name="MSCOT73" index="1763"/> 
+			<column name="MSCOT74" index="1764"/> 
+			<column name="MSCOT75" index="1765"/> 
+			<column name="MSCOT76" index="1766"/> 
+			<column name="MSCOT77" index="1767"/> 
+			<column name="MSCOT78" index="1768"/> 
+			<column name="MSCOT79" index="1769"/> 
+			<column name="MSCOT80" index="1770"/>
+			<column name="MSCOT81" index="1771"/>
+			<column name="MSCOT82" index="1772"/>
+			<column name="MSCOT83" index="1773"/>
+			<column name="MSCOT84" index="1774"/>
+			<column name="MSCOT85" index="1775"/> 
+			<column name="MSCOT86" index="1776"/> 
+			<column name="MSCOT87" index="1777"/> 
+			<column name="MSCOT88" index="1778"/> 
+			<column name="MSCOT89" index="1779"/> 
+			<column name="MSCOT90" index="1780"/> 
+			<column name="MSCOT91" index="1781"/> 
+			<column name="MSCOT92" index="1782"/> 
+			<column name="MSCOT93" index="1783"/> 
+			<column name="MSCOT94" index="1784"/>
+			<column name="MSCOT95" index="1785"/>
+			<column name="MSCOT96" index="1786"/>
+			<column name="MSCOT97" index="1787"/>
+			<column name="MSCOT98" index="1788"/>
+			<column name="MSCOT99" index="1789"/> 
+			<column name="MSCOT100" index="1790"/> 
+			<column name="MSCOT101" index="1791"/> 
+			<column name="MSCOT102" index="1792"/> 
+			<column name="MSCOT103" index="1793"/> 
+			<column name="MSCOT104" index="1794"/> 
+			<column name="MSCOT105" index="1795"/>
+
+		</table>
+	</templet>
+
+	<templet id="121">
+		<table id="121" name="CLT_PM_C_LUC_SMT_AGGRS" split=",">
+			<!-- 公共部分的 -->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="AGGRS1" index="1279" />
+			<column name="AGGRS2" index="1280" />
+			<column name="AGGRS3" index="1281" />
+			<column name="AGGRS4" index="1282" />
+			<column name="AGGRS5" index="1283" />
+			<column name="AGGRS6" index="1284" />
+			<column name="AGGRS7" index="1285" />
+			<column name="AGGRS8" index="1286" />
+			<column name="AGGRS9" index="1287" />
+			<column name="AGGRS10" index="1288" />
+			<column name="AGGRS11" index="1289" />
+			<column name="AGGRS12" index="1290" />
+			<column name="AGGRS13" index="1291" />
+			<column name="AGGRS14" index="1292" />
+			<column name="AGGRS15" index="1293" />
+			<column name="AGGRS16" index="1294" />
+			<column name="AGGRS17" index="1295" />
+			<column name="AGGRS18" index="1296" />
+			<column name="AGGRS19" index="1297" />
+			<column name="AGGRS20" index="1298" />
+			<column name="AGGRS21" index="1299" />
+			<column name="AGGRS22" index="1300" />
+			<column name="AGGRS23" index="1301" />
+			<column name="AGGRS24" index="1302" />
+			<column name="AGGRS25" index="1303" />
+			<column name="AGGRS26" index="1304" />
+			<column name="AGGRS27" index="1305" />
+			<column name="AGGRS28" index="1306" />
+			<column name="AGGRS29" index="1307" />
+			<column name="AGGRS30" index="1308" />
+			<column name="AGGRS31" index="1309" />
+			<column name="AGGRS32" index="1310" />
+			<column name="AGGRS33" index="1311" />
+			<column name="AGGRS34" index="1312" />
+			<column name="AGGRS35" index="1313" />
+			<column name="AGGRS36" index="1314" />
+			<column name="AGGRS37" index="1315" />
+			<column name="AGGRS38" index="1316" />
+			<column name="AGGRS39" index="1317" />
+			<column name="AGGRS40" index="1318" />
+			<column name="AGGRS41" index="1319" />
+			<column name="AGGRS42" index="1320" />
+			<column name="AGGRS43" index="1321" />
+			<column name="AGGRS44" index="1322" />
+			<column name="AGGRS45" index="1323" />
+			<column name="AGGRS46" index="1324" />
+			<column name="AGGRS47" index="1325" />
+			<column name="AGGRS48" index="1326" />
+			<column name="AGGRS49" index="1327" />
+			<column name="AGGRS50" index="1328" />
+			<column name="AGGRS51" index="1329" />
+			<column name="AGGRS52" index="1330" />
+			<column name="AGGRS53" index="1331" />
+			<column name="AGGRS54" index="1332" />
+			<column name="AGGRS55" index="1333" />
+			<column name="AGGRS56" index="1334" />
+			<column name="AGGRS57" index="1335" />
+			<column name="AGGRS58" index="1336" />
+			<column name="AGGRS59" index="1337" />
+			<column name="AGGRS60" index="1338" />
+			<column name="AGGRS61" index="1339" />
+			<column name="AGGRS62" index="1340" />
+			<column name="AGGRS63" index="1341" />
+			<column name="AGGRS64" index="1342" />
+			<column name="AGGRS65" index="1343" />
+			<column name="AGGRS66" index="1344" />
+			<column name="AGGRS67" index="1345" />
+			<column name="AGGRS68" index="1346" />
+			<column name="AGGRS69" index="1347" />
+			<column name="AGGRS70" index="1348" />
+			<column name="AGGRS71" index="1349" />
+			<column name="AGGRS72" index="1350" />
+			<column name="AGGRS73" index="1351" />
+			<column name="AGGRS74" index="1352" />
+			<column name="AGGRS75" index="1353" />
+			<column name="AGGRS76" index="1354" />
+			<column name="AGGRS77" index="1355" />
+			<column name="AGGRS78" index="1356" />
+			<column name="AGGRS79" index="1357" />
+			<column name="AGGRS80" index="1358" />
+			<column name="AGGRS81" index="1359" />
+			<column name="AGGRS82" index="1360" />
+			<column name="AGGRS83" index="1361" />
+			<column name="AGGRS84" index="1362" />
+			<column name="AGGRS85" index="1363" />
+			<column name="AGGRS86" index="1364" />
+			<column name="AGGRS87" index="1365" />
+			<column name="AGGRS88" index="1366" />
+			<column name="AGGRS89" index="1367" />
+			<column name="AGGRS90" index="1368" />
+			<column name="AGGRS91" index="1369" />
+			<column name="AGGRS92" index="1370" />
+			<column name="AGGRS93" index="1371" />
+			<column name="AGGRS94" index="1372" />
+		</table>
+	</templet>
+
+	<templet id="122">
+		<table id="122" name="CLT_PM_C_LUC_SMT_CS" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="CS1" index="1373" />
+			<column name="CS2" index="1374" />
+			<column name="CS3" index="1375" />
+			<column name="CS4" index="1376" />
+			<column name="CS5" index="1377" />
+			<column name="CS6" index="1378" />
+			<column name="CS7" index="1379" />
+			<column name="CS8" index="1380" />
+			<column name="CS9" index="1381" />
+			<column name="CS10" index="1382" />
+			<column name="CS11" index="1383" />
+			<column name="CS12" index="1384" />
+			<column name="CS13" index="1385" />
+			<column name="CS14" index="1386" />
+			<column name="CS15" index="1387" />
+			<column name="CS16" index="1388" />
+			<column name="CS17" index="1389" />
+			<column name="CS18" index="1390" />
+			<column name="CS19" index="1391" />
+			<column name="CS20" index="1392" />
+			<column name="CS21" index="1393" />
+			<column name="CS22" index="1394" />
+			<column name="CS23" index="1395" />
+			<column name="CS24" index="1396" />
+			<column name="CS25" index="1397" />
+			<column name="CS26" index="1398" />
+			<column name="CS27" index="1399" />
+			<column name="CS28" index="1400" />
+			<column name="CS29" index="1401" />
+			<column name="CS30" index="1402" />
+			<column name="CS31" index="1403" />
+			<column name="CS32" index="1404" />
+			<column name="CS33" index="1405" />
+			<column name="CS34" index="1406" />
+			<column name="CS35" index="1407" />
+			<column name="CS36" index="1408" />
+			<column name="CS37" index="1409" />
+			<column name="CS38" index="1410" />
+			<column name="CS39" index="1411" />
+			<column name="CS40" index="1412" />
+			<column name="CS41" index="1413" />
+			<column name="CS42" index="1414" />
+			<column name="CS43" index="1415" />
+			<column name="CS44" index="1416" />
+			<column name="CS45" index="1417" />
+			<column name="CS46" index="1418" />
+			<column name="CS47" index="1419" />
+			<column name="CS48" index="1420" />
+			<column name="CS49" index="1421" />
+			<column name="CS50" index="1422" />
+			<column name="CS51" index="1423" />
+			<column name="CS52" index="1424" />
+			<column name="CS53" index="1425" />
+			<column name="CS54" index="1426" />
+			<column name="CS55" index="1427" />
+			<column name="CS56" index="1428" />
+			<column name="CS57" index="1429" />
+			<column name="CS58" index="1430" />
+			<column name="CS59" index="1431" />
+			<column name="CS60" index="1432" />
+			<column name="CS61" index="1433" />
+			<column name="CS62" index="1434" />
+			<column name="CS63" index="1435" />
+			<column name="CS64" index="1436" />
+			<column name="CS65" index="1437" />
+			<column name="CS66" index="1438" />
+			<column name="CS67" index="1439" />
+			<column name="CS68" index="1440" />
+			<column name="CS69" index="1441" />
+			<column name="CS70" index="1442" />
+			<column name="CS71" index="1443" />
+			<column name="CS72" index="1444" />
+			<column name="CS73" index="1445" />
+			<column name="CS74" index="1446" />
+			<column name="CS75" index="1447" />
+			<column name="CS76" index="1448" />
+			<column name="CS77" index="1449" />
+			<column name="CS78" index="1450" />
+			<column name="CS79" index="1451" />
+			<column name="CS80" index="1452" />
+			<column name="CS81" index="1453" />
+			<column name="CS82" index="1454" />
+			<column name="CS83" index="1455" />
+			<column name="CS84" index="1456" />
+			<column name="CS85" index="1457" />
+			<column name="CS86" index="1458" />
+			<column name="CS87" index="1459" />
+			<column name="CS88" index="1460" />
+			<column name="CS89" index="1461" />
+			<column name="CS90" index="1462" />
+			<column name="CS91" index="1463" />
+			<column name="CS92" index="1464" />
+			<column name="CS93" index="1465" />
+			<column name="CS94" index="1466" />
+			<column name="CS95" index="1467" />
+			<column name="CS96" index="1468" />
+			<column name="CS97" index="1469" />
+			<column name="CS98" index="1470" />
+			<column name="CS99" index="1471" />
+		</table>
+	</templet>
+
+
+
+	<templet id="123">
+		<table id="123" name="CLT_PM_C_LUC_SMT_CSL" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="CSL1" index="1472" />
+			<column name="CSL2" index="1473" />
+			<column name="CSL3" index="1474" />
+			<column name="CSL4" index="1475" />
+			<column name="CSL5" index="1476" />
+
+		</table>
+	</templet>
+
+
+	<templet id="1241">
+		<table id="1241" name="CLT_PM_C_LUC_SMT_PAF" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="PAF1 " index="1477" />
+			<column name="PAF2 " index="1478" />
+			<column name="PAF3 " index="1479" />
+			<column name="PAF4 " index="1480" />
+			<column name="PAF5 " index="1481" />
+			<column name="PAF6 " index="1482" />
+			<column name="PAF7 " index="1483" />
+			<column name="PAF8 " index="1484" />
+			<column name="PAF9 " index="1485" />
+			<column name="PAF10" index="1486" />
+			<column name="PAF11" index="1487" />
+			<column name="PAF12" index="1488" />
+			<column name="PAF13" index="1489" />
+			<column name="PAF14" index="1490" />
+			<column name="PAF15" index="1491" />
+			<column name="PAF16" index="1492" />
+			<column name="PAF17" index="1493" />
+			<column name="PAF18" index="1494" />
+			<column name="PAF19" index="1495" />
+			<column name="PAF20" index="1496" />
+			<column name="PAF21" index="1497" />
+			<column name="PAF22" index="1498" />
+			<column name="PAF23" index="1499" />
+			<column name="PAF24" index="1500" />
+			<column name="PAF25" index="1501" />
+			<column name="PAF26" index="1502" />
+			<column name="PAF27" index="1503" />
+			<column name="PAF28" index="1504" />
+			<column name="PAF29" index="1505" />
+			<column name="PAF30" index="1506" />
+			<column name="PAF31" index="1507" />
+			<column name="PAF32" index="1508" />
+			<column name="PAF33" index="1509" />
+			<column name="PAF34" index="1510" />
+			<column name="PAF35" index="1511" />
+			<column name="PAF36" index="1512" />
+			<column name="PAF37" index="1513" />
+			<column name="PAF38" index="1514" />
+			<column name="PAF39" index="1515" />
+			<column name="PAF40" index="1516" />
+			<column name="PAF41" index="1517" />
+			<column name="PAF42" index="1518" />
+			<column name="PAF43" index="1519" />
+			<column name="PAF44" index="1520" />
+			<column name="PAF45" index="1521" />
+			<column name="PAF46" index="1522" />
+			<column name="PAF47" index="1523" />
+			<column name="PAF48" index="1524" />
+			<column name="PAF49" index="1525" />
+			<column name="PAF50" index="1526" />
+			<column name="PAF51" index="1527" />
+			<column name="PAF52" index="1528" />
+			<column name="PAF53" index="1529" />
+			<column name="PAF54" index="1530" />
+			<column name="PAF55" index="1531" />
+			<column name="PAF56" index="1532" />
+			<column name="PAF57" index="1533" />
+			<column name="PAF58" index="1534" />
+			<column name="PAF59" index="1535" />
+			<column name="PAF60" index="1536" />
+			<column name="PAF61" index="1537" />
+			<column name="PAF62" index="1538" />
+			<column name="PAF63" index="1539" />
+			<column name="PAF64" index="1540" />
+			<column name="PAF65" index="1541" />
+			<column name="PAF66" index="1542" />
+			<column name="PAF67" index="1543" />
+			<column name="PAF68" index="1544" />
+			<column name="PAF69" index="1545" />
+			<column name="PAF70" index="1546" />
+			<column name="PAF71" index="1547" />
+			<column name="PAF72" index="1548" />
+			<column name="PAF73" index="1549" />
+			<column name="PAF74" index="1550" />
+			<column name="PAF75" index="1551" />
+			<column name="PAF76" index="1552" />
+			<column name="PAF77" index="1553" />
+			<column name="PAF78" index="1554" />
+			<column name="PAF79" index="1555" />
+			<column name="PAF80" index="1556" />
+			<column name="PAF81" index="1557" />
+
+			<column name="SECT" index="1558" />
+		</table>
+	</templet>
+
+	<templet id="125">
+		<table id="125" name="CLT_PM_C_LUC_SMT_CARR" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="CARR	" index="1559" />
+			<column name="CARR1 " index="1560" />
+			<column name="CARR2 " index="1561" />
+			<column name="CARR3 " index="1562" />
+			<column name="CARR4 " index="1563" />
+			<column name="CARR5 " index="1564" />
+			<column name="CARR6 " index="1565" />
+			<column name="CARR7 " index="1566" />
+			<column name="CARR8 " index="1567" />
+			<column name="CARR9 " index="1568" />
+			<column name="CARR10" index="1569" />
+		</table>
+	</templet>
+
+
+	<templet id="1261">
+		<table id="1261" name="CLT_PM_C_LUC_SMT_EPCARR" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="SECT" index="1570" />
+			<column name="CARR" index="1571" />
+			<column name="EPCARR1" index="1572" />
+			<column name="EPCARR2" index="1573" />
+			<column name="EPCARR3" index="1574" />
+			<column name="EPCARR4" index="1575" />
+			<column name="EPCARR5" index="1576" />
+			<column name="EPCARR6" index="1577" />
+			<column name="EPCARR7" index="1578" />
+			<column name="EPCARR8" index="1579" />
+			<column name="EPCARR9" index="1580" />
+			<column name="EPCARR10" index="1581" />
+			<column name="EPCARR11" index="1582" />
+			<column name="EPCARR12" index="1583" />
+			<column name="EPCARR13" index="1584" />
+			<column name="EPCARR14" index="1585" />
+			<column name="EPCARR15" index="1586" />
+			<column name="EPCARR16" index="1587" />
+			<column name="EPCARR17" index="1588" />
+			<column name="EPCARR18" index="1589" />
+			<column name="EPCARR19" index="1590" />
+			<column name="EPCARR20" index="1591" />
+			<column name="EPCARR21" index="1592" />
+			<column name="EPCARR22" index="1593" />
+			<column name="EPCARR23" index="1594" />
+			<column name="EPCARR24" index="1595" />
+			<column name="EPCARR25" index="1596" />
+			<column name="EPCARR26" index="1597" />
+			<column name="EPCARR27" index="1598" />
+			<column name="EPCARR28" index="1599" />
+			<column name="EPCARR29" index="1600" />
+			<column name="EPCARR30" index="1601" />
+			<column name="EPCARR31" index="1602" />
+		</table>
+	</templet>
+
+
+	<templet id="12711">
+		<table id="12711" name="CLT_PM_C_LUC_SMT_EPCARRSC" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="SECT" index="1603" />
+			<column name="CARR" index="1604" />
+
+			<column name="CATEGORY  " index="1605" />
+			<column name="EPCARRSC1 " index="1606" />
+			<column name="EPCARRSC2 " index="1607" />
+			<column name="EPCARRSC3 " index="1608" />
+			<column name="EPCARRSC4 " index="1609" />
+			<column name="EPCARRSC5 " index="1610" />
+			<column name="EPCARRSC6 " index="1611" />
+			<column name="EPCARRSC7 " index="1612" />
+			<column name="EPCARRSC8 " index="1613" />
+			<column name="EPCARRSC9 " index="1614" />
+			<column name="EPCARRSC10" index="1615" />
+			<column name="EPCARRSC11" index="1616" />
+			<column name="EPCARRSC12" index="1617" />
+			<column name="EPCARRSC13" index="1618" />
+			<column name="EPCARRSC14" index="1619" />
+			<column name="EPCARRSC15" index="1620" />
+			<column name="EPCARRSC16" index="1621" />
+			<column name="EPCARRSC17" index="1622" />
+			<column name="EPCARRSC18" index="1623" />
+			<column name="EPCARRSC19" index="1624" />
+			<column name="EPCARRSC20" index="1625" />
+			<column name="EPCARRSC21" index="1626" />
+			<column name="EPCARRSC22" index="1627" />
+			<column name="EPCARRSC23" index="1628" />
+			<column name="EPCARRSC24" index="1629" />
+			<column name="EPCARRSC25" index="1630" />
+			<column name="EPCARRSC26" index="1631" />
+			<column name="EPCARRSC27" index="1632" />
+			<column name="EPCARRSC28" index="1633" />
+			<column name="EPCARRSC29" index="1634" />
+			<column name="EPCARRSC30" index="1635" />
+			<column name="EPCARRSC31" index="1636" />
+			<column name="EPCARRSC32" index="1637" />
+			<column name="EPCARRSC33" index="1638" />
+			<column name="EPCARRSC34" index="1639" />
+			<column name="EPCARRSC35" index="1640" />
+			<column name="EPCARRSC36" index="1641" />
+			<column name="EPCARRSC37" index="1642" />
+			<column name="EPCARRSC38" index="1643" />
+			<column name="EPCARRSC39" index="1644" />
+			<column name="EPCARRSC40" index="1645" />
+			<column name="EPCARRSC41" index="1646" />
+			<column name="EPCARRSC42" index="1647" />
+			<column name="EPCARRSC43" index="1648" />
+			<column name="EPCARRSC44" index="1649" />
+			<column name="EPCARRSC45" index="1650" />
+			<column name="EPCARRSC46" index="1651" />
+			<column name="EPCARRSC47" index="1652" />
+			<column name="EPCARRSC48" index="1653" />
+			<column name="EPCARRSC49" index="1654" />
+			<column name="EPCARRSC50" index="1655" />
+			<column name="EPCARRSC51" index="1656" />
+			<column name="EPCARRSC52" index="1657" />
+			<column name="EPCARRSC53" index="1658" />
+			<column name="EPCARRSC54" index="1659" />
+			<column name="EPCARRSC55" index="1660" />
+			<column name="EPCARRSC56" index="1661" />
+			<column name="EPCARRSC57" index="1662" />
+			<column name="EPCARRSC58" index="1663" />
+			<column name="EPCARRSC59" index="1664" />
+			<column name="EPCARRSC60" index="1665" />
+			<column name="EPCARRSC61" index="1666" />
+			<column name="EPCARRSC62" index="1667" />
+			<column name="EPCARRSC63" index="1668" />
+			<column name="EPCARRSC64" index="1669" />
+			<column name="EPCARRSC65" index="1670" />
+			<column name="EPCARRSC66" index="1671" />
+			<column name="EPCARRSC67" index="1672" />
+			<column name="EPCARRSC68" index="1673" />
+			<column name="EPCARRSC69" index="1674" />
+			<column name="EPCARRSC70" index="1675" />
+			<column name="EPCARRSC71" index="1676" />
+		</table>
+	</templet>
+
+
+	<templet id="1301">
+		<table id="1301" name="CLT_PM_C_LUC_SMT_PCARR" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="SECT" index="1301001" />
+			<column name="CARR" index="1301002" />
+
+			<!--  -->
+			<column name="PCARR1  " index="1301003" />
+			<column name="PCARR2  " index="1301004" />
+			<column name="PCARR3  " index="1301005" />
+			<column name="PCARR4  " index="1301006" />
+			<column name="PCARR5  " index="1301007" />
+			<column name="PCARR6  " index="1301008" />
+			<column name="PCARR7  " index="1301009" />
+			<column name="PCARR8  " index="1301010" />
+			<column name="PCARR9  " index="1301011" />
+			<column name="PCARR10 " index="1301012" />
+			<column name="PCARR11 " index="1301013" />
+			<column name="PCARR12 " index="1301014" />
+			<column name="PCARR13 " index="1301015" />
+			<column name="PCARR14 " index="1301016" />
+			<column name="PCARR15 " index="1301017" />
+			<column name="PCARR16 " index="1301018" />
+			<column name="PCARR17 " index="1301019" />
+			<column name="PCARR18 " index="1301020" />
+			<column name="PCARR19 " index="1301021" />
+			<column name="PCARR20 " index="1301022" />
+			<column name="PCARR21 " index="1301023" />
+			<column name="PCARR22 " index="1301024" />
+			<column name="PCARR23 " index="1301025" />
+			<column name="PCARR24 " index="1301026" />
+			<column name="PCARR25 " index="1301027" />
+			<column name="PCARR26 " index="1301028" />
+			<column name="PCARR27 " index="1301029" />
+			<column name="PCARR28 " index="1301030" />
+			<column name="PCARR29 " index="1301031" />
+			<column name="PCARR30 " index="1301032" />
+			<column name="PCARR31 " index="1301033" />
+			<column name="PCARR32 " index="1301034" />
+			<column name="PCARR33 " index="1301035" />
+			<column name="PCARR34 " index="1301036" />
+			<column name="PCARR35 " index="1301037" />
+			<column name="PCARR36 " index="1301038" />
+			<column name="PCARR37 " index="1301039" />
+			<column name="PCARR38 " index="1301040" />
+			<column name="PCARR39 " index="1301041" />
+			<column name="PCARR40 " index="1301042" />
+			<column name="PCARR41 " index="1301043" />
+			<column name="PCARR42 " index="1301044" />
+			<column name="PCARR43 " index="1301045" />
+			<column name="PCARR44 " index="1301046" />
+			<column name="PCARR45 " index="1301047" />
+			<column name="PCARR46 " index="1301048" />
+			<column name="PCARR47 " index="1301049" />
+			<column name="PCARR48 " index="1301050" />
+			<column name="PCARR49 " index="1301051" />
+			<column name="PCARR50 " index="1301052" />
+			<column name="PCARR51 " index="1301053" />
+			<column name="PCARR52 " index="1301054" />
+			<column name="PCARR53 " index="1301055" />
+			<column name="PCARR54 " index="1301056" />
+			<column name="PCARR55 " index="1301057" />
+			<column name="PCARR56 " index="1301058" />
+			<column name="PCARR57 " index="1301059" />
+			<column name="PCARR58 " index="1301060" />
+			<column name="PCARR59 " index="1301061" />
+			<column name="PCARR60 " index="1301062" />
+			<column name="PCARR61 " index="1301063" />
+			<column name="PCARR62 " index="1301064" />
+			<column name="PCARR63 " index="1301065" />
+			<column name="PCARR64 " index="1301066" />
+			<column name="PCARR65 " index="1301067" />
+			<column name="PCARR66 " index="1301068" />
+			<column name="PCARR67 " index="1301069" />
+			<column name="PCARR68 " index="1301070" />
+			<column name="PCARR69 " index="1301071" />
+			<column name="PCARR70 " index="1301072" />
+			<column name="PCARR71 " index="1301073" />
+			<column name="PCARR72 " index="1301074" />
+			<column name="PCARR73 " index="1301075" />
+			<column name="PCARR74 " index="1301076" />
+			<column name="PCARR75 " index="1301077" />
+			<column name="PCARR76 " index="1301078" />
+			<column name="PCARR77 " index="1301079" />
+			<column name="PCARR78 " index="1301080" />
+			<column name="PCARR79 " index="1301081" />
+			<column name="PCARR80 " index="1301082" />
+			<column name="PCARR81 " index="1301083" />
+			<column name="PCARR82 " index="1301084" />
+			<column name="PCARR83 " index="1301085" />
+			<column name="PCARR84 " index="1301086" />
+			<column name="PCARR85 " index="1301087" />
+			<column name="PCARR86 " index="1301088" />
+			<column name="PCARR87 " index="1301089" />
+			<column name="PCARR88 " index="1301090" />
+			<column name="PCARR89 " index="1301091" />
+			<column name="PCARR90 " index="1301092" />
+			<column name="PCARR91 " index="1301093" />
+			<column name="PCARR92 " index="1301094" />
+			<column name="PCARR93 " index="1301095" />
+			<column name="PCARR94 " index="1301096" />
+			<column name="PCARR95 " index="1301097" />
+			<column name="PCARR96 " index="1301098" />
+			<column name="PCARR97 " index="1301099" />
+			<column name="PCARR98 " index="1301100" />
+			<column name="PCARR99 " index="1301101" />
+			<column name="PCARR100" index="1301102" />
+			<column name="PCARR101" index="1301103" />
+			<column name="PCARR102" index="1301104" />
+			<column name="PCARR103" index="1301105" />
+			<column name="PCARR104" index="1301106" />
+			<column name="PCARR105" index="1301107" />
+			<column name="PCARR106" index="1301108" />
+			<column name="PCARR107" index="1301109" />
+			<column name="PCARR108" index="1301110" />
+			<column name="PCARR109" index="1301111" />
+			<column name="PCARR110" index="1301112" />
+			<column name="PCARR111" index="1301113" />
+			<column name="PCARR112" index="1301114" />
+			<column name="PCARR113" index="1301115" />
+			<column name="PCARR114" index="1301116" />
+			<column name="PCARR115" index="1301117" />
+			<column name="PCARR116" index="1301118" />
+			<column name="PCARR117" index="1301119" />
+			<column name="PCARR118" index="1301120" />
+			<column name="PCARR119" index="1301121" />
+			<column name="PCARR120" index="1301122" />
+			<column name="PCARR121" index="1301123" />
+			<column name="PCARR122" index="1301124" />
+			<column name="PCARR123" index="1301125" />
+			<column name="PCARR124" index="1301126" />
+			<column name="PCARR125" index="1301127" />
+			<column name="PCARR126" index="1301128" />
+			<column name="PCARR127" index="1301129" />
+			<column name="PCARR128" index="1301130" />
+			<column name="PCARR129" index="1301131" />
+			<column name="PCARR130" index="1301132" />
+			<column name="PCARR131" index="1301133" />
+			<column name="PCARR132" index="1301134" />
+			<column name="PCARR133" index="1301135" />
+			<column name="PCARR134" index="1301136" />
+			<column name="PCARR135" index="1301137" />
+			<column name="PCARR136" index="1301138" />
+			<column name="PCARR137" index="1301139" />
+			<column name="PCARR138" index="1301140" />
+			<column name="PCARR139" index="1301141" />
+			<column name="PCARR140" index="1301142" />
+			<column name="PCARR141" index="1301143" />
+			<column name="PCARR142" index="1301144" />
+			<column name="PCARR143" index="1301145" />
+			<column name="PCARR144" index="1301146" />
+			<column name="PCARR145" index="1301147" />
+			<column name="PCARR146" index="1301148" />
+			<column name="PCARR147" index="1301149" />
+			<column name="PCARR148" index="1301150" />
+			<column name="PCARR149" index="1301151" />
+			<column name="PCARR150" index="1301152" />
+			<column name="PCARR151" index="1301153" />
+			<column name="PCARR152" index="1301154" />
+			<column name="PCARR153" index="1301155" />
+			<column name="PCARR154" index="1301156" />
+			<column name="PCARR155" index="1301157" />
+			<column name="PCARR156" index="1301158" />
+			<column name="PCARR157" index="1301159" />
+			<column name="PCARR158" index="1301160" />
+			<column name="PCARR159" index="1301161" />
+			<column name="PCARR160" index="1301162" />
+			<column name="PCARR161" index="1301163" />
+			<column name="PCARR162" index="1301164" />
+			<column name="PCARR163" index="1301165" />
+			<column name="PCARR164" index="1301166" />
+			<column name="PCARR165" index="1301167" />
+			<column name="PCARR166" index="1301168" />
+			<column name="PCARR167" index="1301169" />
+			<column name="PCARR168" index="1301170" />
+			<column name="PCARR169" index="1301171" />
+			<column name="PCARR170" index="1301172" />
+			<column name="PCARR171" index="1301173" />
+			<column name="PCARR172" index="1301174" />
+			<column name="PCARR173" index="1301175" />
+			<column name="PCARR174" index="1301176" />
+			<column name="PCARR175" index="1301177" />
+			<column name="PCARR176" index="1301178" />
+			<column name="PCARR177" index="1301179" />
+			<column name="PCARR178" index="1301180" />
+			<column name="PCARR179" index="1301181" />
+			<column name="PCARR180" index="1301182" />
+			<column name="PCARR181" index="1301183" />
+			<column name="PCARR182" index="1301184" />
+			<column name="PCARR183" index="1301185" />
+			<column name="PCARR184" index="1301186" />
+			<column name="PCARR185" index="1301187" />
+			<column name="PCARR186" index="1301188" />
+			<column name="PCARR187" index="1301189" />
+			<column name="PCARR188" index="1301190" />
+			<column name="PCARR189" index="1301191" />
+			<column name="PCARR190" index="1301192" />
+			<column name="PCARR191" index="1301193" />
+			<column name="PCARR192" index="1301194" />
+			<column name="PCARR193" index="1301195" />
+			<column name="PCARR194" index="1301196" />
+			<column name="PCARR195" index="1301197" />
+			<column name="PCARR196" index="1301198" />
+			<column name="PCARR197" index="1301199" />
+			<column name="PCARR198" index="1301200" />
+			<column name="PCARR199" index="1301201" />
+			<column name="PCARR200" index="1301202" />
+			<column name="PCARR201" index="1301203" />
+			<column name="PCARR202" index="1301204" />
+			<column name="PCARR203" index="1301205" />
+			<column name="PCARR204" index="1301206" />
+			<column name="PCARR205" index="1301207" />
+			<column name="PCARR206" index="1301208" />
+			<column name="PCARR207" index="1301209" />
+			<column name="PCARR208" index="1301210" />
+			<column name="PCARR209" index="1301211" />
+			<column name="PCARR210" index="1301212" />
+			<column name="PCARR211" index="1301213" />
+			<column name="PCARR212" index="1301214" />
+			<column name="PCARR213" index="1301215" />
+			<column name="PCARR214" index="1301216" />
+			<column name="PCARR215" index="1301217" />
+			<column name="PCARR216" index="1301218" />
+			<column name="PCARR217" index="1301219" />
+			<column name="PCARR218" index="1301220" />
+			<column name="PCARR219" index="1301221" />
+			<column name="PCARR220" index="1301222" />
+			<column name="PCARR221" index="1301223" />
+			<column name="PCARR222" index="1301224" />
+			<column name="PCARR223" index="1301225" />
+			<column name="PCARR224" index="1301226" />
+			<column name="PCARR225" index="1301227" />
+			<column name="PCARR226" index="1301228" />
+			<column name="PCARR227" index="1301229" />
+			<column name="PCARR228" index="1301230" />
+			<column name="PCARR229" index="1301231" />
+			<column name="PCARR230" index="1301232" />
+			<column name="PCARR231" index="1301233" />
+			<column name="PCARR232" index="1301234" />
+			<column name="PCARR233" index="1301235" />
+			<column name="PCARR234" index="1301236" />
+			<column name="PCARR235" index="1301237" />
+			<column name="PCARR236" index="1301238" />
+			<column name="PCARR237" index="1301239" />
+			<column name="PCARR238" index="1301240" />
+			<column name="PCARR239" index="1301241" />
+			<column name="PCARR240" index="1301242" />
+			<column name="PCARR241" index="1301243" />
+			<column name="PCARR242" index="1301244" />
+			<column name="PCARR243" index="1301245" />
+			<column name="PCARR244" index="1301246" />
+			<column name="PCARR245" index="1301247" />
+			<column name="PCARR246" index="1301248" />
+			<column name="PCARR247" index="1301249" />
+			<column name="PCARR248" index="1301250" />
+			<column name="PCARR249" index="1301251" />
+			<column name="PCARR250" index="1301252" />
+			<column name="PCARR251" index="1301253" />
+			<column name="PCARR252" index="1301254" />
+			<column name="PCARR253" index="1301255" />
+			<column name="PCARR254" index="1301256" />
+			<column name="PCARR255" index="1301257" />
+			<column name="PCARR256" index="1301258" />
+			<column name="PCARR257" index="1301259" />
+			<column name="PCARR258" index="1301260" />
+			<column name="PCARR259" index="1301261" />
+			<column name="PCARR260" index="1301262" />
+			<column name="PCARR261" index="1301263" />
+			<column name="PCARR262" index="1301264" />
+			<column name="PCARR263" index="1301265" />
+			<column name="PCARR264" index="1301266" />
+			<column name="PCARR265" index="1301267" />
+			<column name="PCARR266" index="1301268" />
+			<column name="PCARR267" index="1301269" />
+			<column name="PCARR268" index="1301270" />
+			<column name="PCARR269" index="1301271" />
+			<column name="PCARR270" index="1301272" />
+			<column name="PCARR271" index="1301273" />
+			<column name="PCARR272" index="1301274" />
+			<column name="PCARR273" index="1301275" />
+			<column name="PCARR274" index="1301276" />
+			<column name="PCARR275" index="1301277" />
+			<column name="PCARR276" index="1301278" />
+			<column name="PCARR277" index="1301279" />
+			<column name="PCARR278" index="1301280" />
+			<column name="PCARR279" index="1301281" />
+			<column name="PCARR280" index="1301282" />
+			<column name="PCARR281" index="1301283" />
+			<column name="PCARR282" index="1301284" />
+			<column name="PCARR283" index="1301285" />
+			<column name="PCARR284" index="1301286" />
+			<column name="PCARR285" index="1301287" />
+			<column name="PCARR286" index="1301288" />
+			<column name="PCARR287" index="1301289" />
+			<column name="PCARR288" index="1301290" />
+			<column name="PCARR289" index="1301291" />
+			<column name="PCARR290" index="1301292" />
+			<column name="PCARR291" index="1301293" />
+			<column name="PCARR292" index="1301294" />
+			<column name="PCARR293" index="1301295" />
+			<column name="PCARR294" index="1301296" />
+			<column name="PCARR295" index="1301297" />
+			<column name="PCARR296" index="1301298" />
+			<column name="PCARR297" index="1301299" />
+			<column name="PCARR298" index="1301300" />
+			<column name="PCARR299" index="1301301" />
+			<column name="PCARR300" index="1301302" />
+			<column name="PCARR301" index="1301303" />
+			<column name="PCARR302" index="1301304" />
+			<column name="PCARR303" index="1301305" />
+			<column name="PCARR304" index="1301306" />
+			<column name="PCARR305" index="1301307" />
+			<column name="PCARR306" index="1301308" />
+			<column name="PCARR307" index="1301309" />
+			<column name="PCARR308" index="1301310" />
+			<column name="PCARR309" index="1301311" />
+			<column name="PCARR310" index="1301312" />
+			<column name="PCARR311" index="1301313" />
+			<column name="PCARR312" index="1301314" />
+			<column name="PCARR313" index="1301315" />
+			<column name="PCARR314" index="1301316" />
+			<column name="PCARR315" index="1301317" />
+			<column name="PCARR316" index="1301318" />
+			<column name="PCARR317" index="1301319" />
+			<column name="PCARR318" index="1301320" />
+			<column name="PCARR319" index="1301321" />
+			<column name="PCARR320" index="1301322" />
+			<column name="PCARR321" index="1301323" />
+			<column name="PCARR322" index="1301324" />
+			<column name="PCARR323" index="1301325" />
+			<column name="PCARR324" index="1301326" />
+			<column name="PCARR325" index="1301327" />
+			<column name="PCARR326" index="1301328" />
+			<column name="PCARR327" index="1301329" />
+			<column name="PCARR328" index="1301330" />
+			<column name="PCARR329" index="1301331" />
+			<column name="PCARR330" index="1301332" />
+			<column name="PCARR331" index="1301333" />
+			<column name="PCARR332" index="1301334" />
+			<column name="PCARR333" index="1301335" />
+			<column name="PCARR334" index="1301336" />
+			<column name="PCARR335" index="1301337" />
+			<column name="PCARR336" index="1301338" />
+			<column name="PCARR337" index="1301339" />
+			<column name="PCARR338" index="1301340" />
+			<column name="PCARR339" index="1301341" />
+			<column name="PCARR340" index="1301342" />
+			<column name="PCARR341" index="1301343" />
+			<column name="PCARR342" index="1301344" />
+			<column name="PCARR343" index="1301345" />
+		</table>
+	</templet>
+
+
+	<templet id="1311">
+		<table id="1311" name="CLT_PM_C_LUC_SMT_PCARRL" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="SECT" index="1311001" />
+			<column name="CARR" index="1311002" />
+
+			<column name="PCARRL1  " index="1311003" />
+			<column name="PCARRL2  " index="1311004" />
+			<column name="PCARRL3  " index="1311005" />
+			<column name="PCARRL4  " index="1311006" />
+			<column name="PCARRL5  " index="1311007" />
+			<column name="PCARRL6  " index="1311008" />
+			<column name="PCARRL7  " index="1311009" />
+			<column name="PCARRL8  " index="1311010" />
+			<column name="PCARRL9  " index="1311011" />
+			<column name="PCARRL10 " index="1311012" />
+			<column name="PCARRL11 " index="1311013" />
+			<column name="PCARRL12 " index="1311014" />
+			<column name="PCARRL13 " index="1311015" />
+			<column name="PCARRL14 " index="1311016" />
+			<column name="PCARRL15 " index="1311017" />
+			<column name="PCARRL16 " index="1311018" />
+			<column name="PCARRL17 " index="1311019" />
+			<column name="PCARRL18 " index="1311020" />
+			<column name="PCARRL19 " index="1311021" />
+			<column name="PCARRL20 " index="1311022" />
+			<column name="PCARRL21 " index="1311023" />
+			<column name="PCARRL22 " index="1311024" />
+			<column name="PCARRL23 " index="1311025" />
+			<column name="PCARRL24 " index="1311026" />
+			<column name="PCARRL25 " index="1311027" />
+			<column name="PCARRL26 " index="1311028" />
+			<column name="PCARRL27 " index="1311029" />
+			<column name="PCARRL28 " index="1311030" />
+			<column name="PCARRL29 " index="1311031" />
+			<column name="PCARRL30 " index="1311032" />
+			<column name="PCARRL31 " index="1311033" />
+			<column name="PCARRL32 " index="1311034" />
+			<column name="PCARRL33 " index="1311035" />
+			<column name="PCARRL34 " index="1311036" />
+			<column name="PCARRL35 " index="1311037" />
+			<column name="PCARRL36 " index="1311038" />
+			<column name="PCARRL37 " index="1311039" />
+			<column name="PCARRL38 " index="1311040" />
+			<column name="PCARRL39 " index="1311041" />
+			<column name="PCARRL40 " index="1311042" />
+			<column name="PCARRL41 " index="1311043" />
+			<column name="PCARRL42 " index="1311044" />
+			<column name="PCARRL43 " index="1311045" />
+			<column name="PCARRL44 " index="1311046" />
+			<column name="PCARRL45 " index="1311047" />
+			<column name="PCARRL46 " index="1311048" />
+			<column name="PCARRL47 " index="1311049" />
+			<column name="PCARRL48 " index="1311050" />
+			<column name="PCARRL49 " index="1311051" />
+			<column name="PCARRL50 " index="1311052" />
+			<column name="PCARRL51 " index="1311053" />
+			<column name="PCARRL52 " index="1311054" />
+			<column name="PCARRL53 " index="1311055" />
+			<column name="PCARRL54 " index="1311056" />
+			<column name="PCARRL55 " index="1311057" />
+			<column name="PCARRL56 " index="1311058" />
+			<column name="PCARRL57 " index="1311059" />
+			<column name="PCARRL58 " index="1311060" />
+			<column name="PCARRL59 " index="1311061" />
+			<column name="PCARRL60 " index="1311062" />
+			<column name="PCARRL61 " index="1311063" />
+			<column name="PCARRL62 " index="1311064" />
+			<column name="PCARRL63 " index="1311065" />
+			<column name="PCARRL64 " index="1311066" />
+			<column name="PCARRL65 " index="1311067" />
+			<column name="PCARRL66 " index="1311068" />
+			<column name="PCARRL67 " index="1311069" />
+			<column name="PCARRL68 " index="1311070" />
+			<column name="PCARRL69 " index="1311071" />
+			<column name="PCARRL70 " index="1311072" />
+			<column name="PCARRL71 " index="1311073" />
+			<column name="PCARRL72 " index="1311074" />
+			<column name="PCARRL73 " index="1311075" />
+			<column name="PCARRL74 " index="1311076" />
+			<column name="PCARRL75 " index="1311077" />
+			<column name="PCARRL76 " index="1311078" />
+			<column name="PCARRL77 " index="1311079" />
+			<column name="PCARRL78 " index="1311080" />
+			<column name="PCARRL79 " index="1311081" />
+			<column name="PCARRL80 " index="1311082" />
+			<column name="PCARRL81 " index="1311083" />
+			<column name="PCARRL82 " index="1311084" />
+			<column name="PCARRL83 " index="1311085" />
+			<column name="PCARRL84 " index="1311086" />
+			<column name="PCARRL85 " index="1311087" />
+			<column name="PCARRL86 " index="1311088" />
+			<column name="PCARRL87 " index="1311089" />
+			<column name="PCARRL88 " index="1311090" />
+			<column name="PCARRL89 " index="1311091" />
+			<column name="PCARRL90 " index="1311092" />
+			<column name="PCARRL91 " index="1311093" />
+			<column name="PCARRL92 " index="1311094" />
+			<column name="PCARRL93 " index="1311095" />
+			<column name="PCARRL94 " index="1311096" />
+			<column name="PCARRL95 " index="1311097" />
+			<column name="PCARRL96 " index="1311098" />
+			<column name="PCARRL97 " index="1311099" />
+			<column name="PCARRL98 " index="1311100" />
+			<column name="PCARRL99 " index="1311101" />
+			<column name="PCARRL100" index="1311102" />
+			<column name="PCARRL101" index="1311103" />
+			<column name="PCARRL102" index="1311104" />
+			<column name="PCARRL103" index="1311105" />
+			<column name="PCARRL104" index="1311106" />
+			<column name="PCARRL105" index="1311107" />
+			<column name="PCARRL106" index="1311108" />
+			<column name="PCARRL107" index="1311109" />
+			<column name="PCARRL108" index="1311110" />
+			<column name="PCARRL109" index="1311111" />
+			<column name="PCARRL110" index="1311112" />
+			<column name="PCARRL111" index="1311113" />
+			<column name="PCARRL112" index="1311114" />
+			<column name="PCARRL113" index="1311115" />
+			<column name="PCARRL114" index="1311116" />
+			<column name="PCARRL115" index="1311117" />
+			<column name="PCARRL116" index="1311118" />
+			<column name="PCARRL117" index="1311119" />
+			<column name="PCARRL118" index="1311120" />
+			<column name="PCARRL119" index="1311121" />
+			<column name="PCARRL120" index="1311122" />
+			<column name="PCARRL121" index="1311123" />
+			<column name="PCARRL122" index="1311124" />
+			<column name="PCARRL123" index="1311125" />
+			<column name="PCARRL124" index="1311126" />
+			<column name="PCARRL125" index="1311127" />
+			<column name="PCARRL126" index="1311128" />
+			<column name="PCARRL127" index="1311129" />
+			<column name="PCARRL128" index="1311130" />
+			<column name="PCARRL129" index="1311131" />
+			<column name="PCARRL130" index="1311132" />
+			<column name="PCARRL131" index="1311133" />
+			<column name="PCARRL132" index="1311134" />
+			<column name="PCARRL133" index="1311135" />
+			<column name="PCARRL134" index="1311136" />
+			<column name="PCARRL135" index="1311137" />
+			<column name="PCARRL136" index="1311138" />
+			<column name="PCARRL137" index="1311139" />
+			<column name="PCARRL138" index="1311140" />
+			<column name="PCARRL139" index="1311141" />
+			<column name="PCARRL140" index="1311142" />
+			<column name="PCARRL141" index="1311143" />
+			<column name="PCARRL142" index="1311144" />
+			<column name="PCARRL143" index="1311145" />
+			<column name="PCARRL144" index="1311146" />
+			<column name="PCARRL145" index="1311147" />
+			<column name="PCARRL146" index="1311148" />
+			<column name="PCARRL147" index="1311149" />
+			<column name="PCARRL148" index="1311150" />
+			<column name="PCARRL149" index="1311151" />
+			<column name="PCARRL150" index="1311152" />
+			<column name="PCARRL151" index="1311153" />
+			<column name="PCARRL152" index="1311154" />
+			<column name="PCARRL153" index="1311155" />
+		</table>
+	</templet>
+
+
+
+	<templet id="132111">
+		<table id="132111" name="CLT_PM_C_LUC_SMT_PCARRVO" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="SECT" index="13211001" />
+			<column name="CARR" index="13211002" />
+
+			<column name="CATEGORY  " index="13211003" />
+			<!--  -->
+			<column name="PCARRVO1 " index="13211004" />
+			<column name="PCARRVO2 " index="13211005" />
+			<column name="PCARRVO3 " index="13211006" />
+			<column name="PCARRVO4 " index="13211007" />
+			<column name="PCARRVO5 " index="13211008" />
+			<column name="PCARRVO6 " index="13211009" />
+			<column name="PCARRVO7 " index="13211010" />
+			<column name="PCARRVO8 " index="13211011" />
+			<column name="PCARRVO9 " index="13211012" />
+			<column name="PCARRVO10" index="13211013" />
+			<column name="PCARRVO11" index="13211014" />
+			<column name="PCARRVO12" index="13211015" />
+			<column name="PCARRVO13" index="13211016" />
+			<column name="PCARRVO14" index="13211017" />
+			<column name="PCARRVO15" index="13211018" />
+			<column name="PCARRVO16" index="13211019" />
+			<column name="PCARRVO17" index="13211020" />
+			<column name="PCARRVO18" index="13211021" />
+			<column name="PCARRVO19" index="13211022" />
+			<column name="PCARRVO20" index="13211023" />
+			<column name="PCARRVO21" index="13211024" />
+			<column name="PCARRVO22" index="13211025" />
+			<column name="PCARRVO23" index="13211026" />
+			<column name="PCARRVO24" index="13211027" />
+			<column name="PCARRVO25" index="13211028" />
+			<column name="PCARRVO26" index="13211029" />
+			<column name="PCARRVO27" index="13211030" />
+			<column name="PCARRVO28" index="13211031" />
+			<column name="PCARRVO29" index="13211032" />
+			<column name="PCARRVO30" index="13211033" />
+			<column name="PCARRVO31" index="13211034" />
+			<column name="PCARRVO32" index="13211035" />
+			<column name="PCARRVO33" index="13211036" />
+			<column name="PCARRVO34" index="13211037" />
+			<column name="PCARRVO35" index="13211038" />
+			<column name="PCARRVO36" index="13211039" />
+			<column name="PCARRVO37" index="13211040" />
+			<column name="PCARRVO38" index="13211041" />
+			<column name="PCARRVO39" index="13211042" />
+			<column name="PCARRVO40" index="13211043" />
+			<column name="PCARRVO41" index="13211044" />
+			<column name="PCARRVO42" index="13211045" />
+			<column name="PCARRVO43" index="13211046" />
+			<column name="PCARRVO44" index="13211047" />
+			<column name="PCARRVO45" index="13211048" />
+			<column name="PCARRVO46" index="13211049" />
+			<column name="PCARRVO47" index="13211050" />
+			<column name="PCARRVO48" index="13211051" />
+			<column name="PCARRVO49" index="13211052" />
+			<column name="PCARRVO50" index="13211053" />
+		</table>
+	</templet>
+
+
+
+	<templet id="133111">
+		<table id="133111" name="CLT_PM_C_LUC_SMT_PCARRSC" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="SECT" index="13311001" />
+			<column name="CARR" index="13311002" />
+
+			<column name="CATEGORY  " index="13311003" />
+
+			<column name="PCARRSC1  " index="13311004" />
+			<column name="PCARRSC2  " index="13311005" />
+			<column name="PCARRSC3  " index="13311006" />
+			<column name="PCARRSC4  " index="13311007" />
+			<column name="PCARRSC5  " index="13311008" />
+			<column name="PCARRSC6  " index="13311009" />
+			<column name="PCARRSC7  " index="13311010" />
+			<column name="PCARRSC8  " index="13311011" />
+			<column name="PCARRSC9  " index="13311012" />
+			<column name="PCARRSC10 " index="13311013" />
+			<column name="PCARRSC11 " index="13311014" />
+			<column name="PCARRSC12 " index="13311015" />
+			<column name="PCARRSC13 " index="13311016" />
+			<column name="PCARRSC14 " index="13311017" />
+			<column name="PCARRSC15 " index="13311018" />
+			<column name="PCARRSC16 " index="13311019" />
+			<column name="PCARRSC17 " index="13311020" />
+			<column name="PCARRSC18 " index="13311021" />
+			<column name="PCARRSC19 " index="13311022" />
+			<column name="PCARRSC20 " index="13311023" />
+			<column name="PCARRSC21 " index="13311024" />
+			<column name="PCARRSC22 " index="13311025" />
+			<column name="PCARRSC23 " index="13311026" />
+			<column name="PCARRSC24 " index="13311027" />
+			<column name="PCARRSC25 " index="13311028" />
+			<column name="PCARRSC26 " index="13311029" />
+			<column name="PCARRSC27 " index="13311030" />
+			<column name="PCARRSC28 " index="13311031" />
+			<column name="PCARRSC29 " index="13311032" />
+			<column name="PCARRSC30 " index="13311033" />
+			<column name="PCARRSC31 " index="13311034" />
+			<column name="PCARRSC32 " index="13311035" />
+			<column name="PCARRSC33 " index="13311036" />
+			<column name="PCARRSC34 " index="13311037" />
+			<column name="PCARRSC35 " index="13311038" />
+			<column name="PCARRSC36 " index="13311039" />
+			<column name="PCARRSC37 " index="13311040" />
+			<column name="PCARRSC38 " index="13311041" />
+			<column name="PCARRSC39 " index="13311042" />
+			<column name="PCARRSC40 " index="13311043" />
+			<column name="PCARRSC41 " index="13311044" />
+			<column name="PCARRSC42 " index="13311045" />
+			<column name="PCARRSC43 " index="13311046" />
+			<column name="PCARRSC44 " index="13311047" />
+			<column name="PCARRSC45 " index="13311048" />
+			<column name="PCARRSC46 " index="13311049" />
+			<column name="PCARRSC47 " index="13311050" />
+			<column name="PCARRSC48 " index="13311051" />
+			<column name="PCARRSC49 " index="13311052" />
+			<column name="PCARRSC50 " index="13311053" />
+			<column name="PCARRSC51 " index="13311054" />
+			<column name="PCARRSC52 " index="13311055" />
+			<column name="PCARRSC53 " index="13311056" />
+			<column name="PCARRSC54 " index="13311057" />
+			<column name="PCARRSC55 " index="13311058" />
+			<column name="PCARRSC56 " index="13311059" />
+			<column name="PCARRSC57 " index="13311060" />
+			<column name="PCARRSC58 " index="13311061" />
+			<column name="PCARRSC59 " index="13311062" />
+			<column name="PCARRSC60 " index="13311063" />
+			<column name="PCARRSC61 " index="13311064" />
+			<column name="PCARRSC62 " index="13311065" />
+			<column name="PCARRSC63 " index="13311066" />
+			<column name="PCARRSC64 " index="13311067" />
+			<column name="PCARRSC65 " index="13311068" />
+			<column name="PCARRSC66 " index="13311069" />
+			<column name="PCARRSC67 " index="13311070" />
+			<column name="PCARRSC68 " index="13311071" />
+			<column name="PCARRSC69 " index="13311072" />
+			<column name="PCARRSC70 " index="13311073" />
+			<column name="PCARRSC71 " index="13311074" />
+			<column name="PCARRSC72 " index="13311075" />
+			<column name="PCARRSC73 " index="13311076" />
+			<column name="PCARRSC74 " index="13311077" />
+			<column name="PCARRSC75 " index="13311078" />
+			<column name="PCARRSC76 " index="13311079" />
+			<column name="PCARRSC77 " index="13311080" />
+			<column name="PCARRSC78 " index="13311081" />
+			<column name="PCARRSC79 " index="13311082" />
+			<column name="PCARRSC80 " index="13311083" />
+			<column name="PCARRSC81 " index="13311084" />
+			<column name="PCARRSC82 " index="13311085" />
+			<column name="PCARRSC83 " index="13311086" />
+			<column name="PCARRSC84 " index="13311087" />
+			<column name="PCARRSC85 " index="13311088" />
+			<column name="PCARRSC86 " index="13311089" />
+			<column name="PCARRSC87 " index="13311090" />
+			<column name="PCARRSC88 " index="13311091" />
+			<column name="PCARRSC89 " index="13311092" />
+			<column name="PCARRSC90 " index="13311093" />
+			<column name="PCARRSC91 " index="13311094" />
+			<column name="PCARRSC92 " index="13311095" />
+			<column name="PCARRSC93 " index="13311096" />
+			<column name="PCARRSC94 " index="13311097" />
+			<column name="PCARRSC95 " index="13311098" />
+			<column name="PCARRSC96 " index="13311099" />
+			<column name="PCARRSC97 " index="13311100" />
+			<column name="PCARRSC98 " index="13311101" />
+			<column name="PCARRSC99 " index="13311102" />
+			<column name="PCARRSC100" index="13311103" />
+			<column name="PCARRSC101" index="13311104" />
+			<column name="PCARRSC102" index="13311105" />
+			<column name="PCARRSC103" index="13311106" />
+			<column name="PCARRSC104" index="13311107" />
+			<column name="PCARRSC105" index="13311108" />
+			<column name="PCARRSC106" index="13311109" />
+			<column name="PCARRSC107" index="13311110" />
+			<column name="PCARRSC108" index="13311111" />
+			<column name="PCARRSC109" index="13311112" />
+			<column name="PCARRSC110" index="13311113" />
+			<column name="PCARRSC111" index="13311114" />
+			<column name="PCARRSC112" index="13311115" />
+			<column name="PCARRSC113" index="13311116" />
+			<column name="PCARRSC114" index="13311117" />
+			<column name="PCARRSC115" index="13311118" />
+			<column name="PCARRSC116" index="13311119" />
+			<column name="PCARRSC117" index="13311120" />
+			<column name="PCARRSC118" index="13311121" />
+			<column name="PCARRSC119" index="13311122" />
+			<column name="PCARRSC120" index="13311123" />
+			<column name="PCARRSC121" index="13311124" />
+			<column name="PCARRSC122" index="13311125" />
+			<column name="PCARRSC123" index="13311126" />
+			<column name="PCARRSC124" index="13311127" />
+			<column name="PCARRSC125" index="13311128" />
+			<column name="PCARRSC126" index="13311129" />
+			<column name="PCARRSC127" index="13311130" />
+			<column name="PCARRSC128" index="13311131" />
+			<column name="PCARRSC129" index="13311132" />
+			<column name="PCARRSC130" index="13311133" />
+			<column name="PCARRSC131" index="13311134" />
+			<column name="PCARRSC132" index="13311135" />
+			<column name="PCARRSC133" index="13311136" />
+			<column name="PCARRSC134" index="13311137" />
+			<column name="PCARRSC135" index="13311138" />
+			<column name="PCARRSC136" index="13311139" />
+			<column name="PCARRSC137" index="13311140" />
+			<column name="PCARRSC138" index="13311141" />
+			<column name="PCARRSC139" index="13311142" />
+			<column name="PCARRSC140" index="13311143" />
+			<column name="PCARRSC141" index="13311144" />
+			<column name="PCARRSC142" index="13311145" />
+			<column name="PCARRSC143" index="13311146" />
+			<column name="PCARRSC144" index="13311147" />
+			<column name="PCARRSC145" index="13311148" />
+			<column name="PCARRSC146" index="13311149" />
+			<column name="PCARRSC147" index="13311150" />
+			<column name="PCARRSC148" index="13311151" />
+			<column name="PCARRSC149" index="13311152" />
+			<column name="PCARRSC150" index="13311153" />
+			<column name="PCARRSC151" index="13311154" />
+			<column name="PCARRSC152" index="13311155" />
+			<column name="PCARRSC153" index="13311156" />
+			<column name="PCARRSC154" index="13311157" />
+			<column name="PCARRSC155" index="13311158" />
+			<column name="PCARRSC156" index="13311159" />
+			<column name="PCARRSC157" index="13311160" />
+			<column name="PCARRSC158" index="13311161" />
+			<column name="PCARRSC159" index="13311162" />
+			<column name="PCARRSC160" index="13311163" />
+			<column name="PCARRSC161" index="13311164" />
+			<column name="PCARRSC162" index="13311165" />
+			<column name="PCARRSC163" index="13311166" />
+			<column name="PCARRSC164" index="13311167" />
+			<column name="PCARRSC165" index="13311168" />
+			<column name="PCARRSC166" index="13311169" />
+			<column name="PCARRSC167" index="13311170" />
+			<column name="PCARRSC168" index="13311171" />
+			<column name="PCARRSC169" index="13311172" />
+			<column name="PCARRSC170" index="13311173" />
+			<column name="PCARRSC171" index="13311174" />
+			<column name="PCARRSC172" index="13311175" />
+			<column name="PCARRSC173" index="13311176" />
+			<column name="PCARRSC174" index="13311177" />
+			<column name="PCARRSC175" index="13311178" />
+			<column name="PCARRSC176" index="13311179" />
+			<column name="PCARRSC177" index="13311180" />
+			<column name="PCARRSC178" index="13311181" />
+			<column name="PCARRSC179" index="13311182" />
+			<column name="PCARRSC180" index="13311183" />
+			<column name="PCARRSC181" index="13311184" />
+			<column name="PCARRSC182" index="13311185" />
+			<column name="PCARRSC183" index="13311186" />
+			<column name="PCARRSC184" index="13311187" />
+			<column name="PCARRSC185" index="13311188" />
+			<column name="PCARRSC186" index="13311189" />
+			<column name="PCARRSC187" index="13311190" />
+			<column name="PCARRSC188" index="13311191" />
+			<column name="PCARRSC189" index="13311192" />
+			<column name="PCARRSC190" index="13311193" />
+			<column name="PCARRSC191" index="13311194" />
+			<column name="PCARRSC192" index="13311195" />
+			<column name="PCARRSC193" index="13311196" />
+			<column name="PCARRSC194" index="13311197" />
+			<column name="PCARRSC195" index="13311198" />
+			<column name="PCARRSC196" index="13311199" />
+			<column name="PCARRSC197" index="13311200" />
+			<column name="PCARRSC198" index="13311201" />
+			<column name="PCARRSC199" index="13311202" />
+			<column name="PCARRSC200" index="13311203" />
+			<column name="PCARRSC201" index="13311204" />
+			<column name="PCARRSC202" index="13311205" />
+			<column name="PCARRSC203" index="13311206" />
+			<column name="PCARRSC204" index="13311207" />
+			<column name="PCARRSC205" index="13311208" />
+			<column name="PCARRSC206" index="13311209" />
+			<column name="PCARRSC207" index="13311210" />
+			<column name="PCARRSC208" index="13311211" />
+			<column name="PCARRSC209" index="13311212" />
+		</table>
+	</templet>
+
+
+
+	<templet id="134111">
+		<table id="134111" name="CLT_PM_C_LUC_SMT_PCARRRC" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<!--  -->
+			<column name="SECT" index="13411001" />
+			<column name="CARR" index="13411002" />
+
+			<column name="CATEGORY  " index="13411003" />
+
+			<column name="PCARRRC1 " index="13411004" />
+			<column name="PCARRRC2 " index="13411005" />
+			<column name="PCARRRC3 " index="13411006" />
+			<column name="PCARRRC4 " index="13411007" />
+			<column name="PCARRRC5 " index="13411008" />
+			<column name="PCARRRC6 " index="13411009" />
+			<column name="PCARRRC7 " index="13411010" />
+			<column name="PCARRRC8 " index="13411011" />
+			<column name="PCARRRC9 " index="13411012" />
+			<column name="PCARRRC10" index="13411013" />
+			<column name="PCARRRC11" index="13411014" />
+			<column name="PCARRRC12" index="13411015" />
+
+		</table>
+	</templet>
+	
+	<templet id="128">
+		<table id="128" name="CLT_PM_C_LUC_SMT_AR" split=",">
+			<!-- 公共部分的 temp1-->
+			<column name="DCS" index="1" />
+			<column name="ECP" index="2" />
+			<column name="SID" index="3" />
+			<column name="RELEASE" index="4" />
+
+			<!-- 公共部分的 temp3  -->
+			<column name="CELL" index="1278" />
+
+			<column name="AR1" index="1677" />
+			<column name="AR2" index="1678" />
+			<column name="AR3" index="1679" />
+			<column name="AR4" index="1680" />
+			<column name="AR5" index="1681" />
+			<column name="AR6" index="1682" />
+			<column name="AR7" index="1683" />
+			<column name="AR8" index="1684" />
+			<column name="AR9" index="1685" />
+		  <column name="AR10" index="1686" />
+			<column name="AR11" index="1687" />
+			<column name="AR12" index="1688" />
+			<column name="AR13" index="1689" />
+			<column name="AR14" index="1690" />
+
+		</table>
+	</templet>
+	
+</templets>

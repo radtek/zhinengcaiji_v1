@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+#taskTable {
+	border-collapse: collapse;
+	width: 720px;
+	font-size: small;
+}
+
+#taskTable td {
+	background: #ffffff;
+	border: solid 1px #dff0ff;
+}
+
+#taskTable tr {
+	cursor: pointer;
+}
+
+#detailDiv {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#detailTable {
+	border-collapse: collapse;
+	width: 350px;
+	font-size: small;
+}
+
+#detailTable td {
+	background: #ffffff;
+	border: solid 1px #dff0ff;
+	width: 175px;
+}
+
+.rowOn {
+	background: #608dff;
+}
+
+.rowOff {
+	background: #ffffff;
+}

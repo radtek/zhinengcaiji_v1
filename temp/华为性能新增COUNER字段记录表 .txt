@@ -1,0 +1,5 @@
+create table CLT_PM_ADDCOUNTERFIELD_HW(taskid number,
+                     omcid number,
+                     tablename varchar2(50),
+                     addcounterfield varchar2(200),
+                     collect_time date);

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_CM_BSA" split="|">
+			<column name="pilot_sector_name"  index="1" />
+			<column name="sid"  index="2" />
+			<column name="nid"  index="3" />
+			<column name="extend_bid"  index="4" />
+			<column name="t_pn"  index="5" />
+			<column name="antenna_lati"  index="6" />
+			<column name="antenna_longi"  index="7" />
+			<column name="antenna_alti"  index="8" />
+			<column name="antenna_loc_accu"  index="9" />
+			<column name="sector_center_lati"  index="10" />
+			<column name="sector_center_longi"  index="11" />
+			<column name="sector_center_alti"  index="12" />
+			<column name="antenna_orientation"  index="13" />
+			<column name="antenna_opening"  index="14" />
+			<column name="max_antenna_range"  index="15" />
+			<column name="terrain_average_height"  index="16" />
+			<column name="terrain_height_standard_devi"  index="17" />
+			<column name="potential_repeater"  index="18" />
+			<column name="pn_increment"  index="19" />
+			<column name="fwd_calib"  index="20" />
+			<column name="fwd_calib_accu"  index="21" />
+			<column name="rtd_calib"  index="22" />
+			<column name="rtd_calib_accu"  index="23" />
+			<column name="format_type"  index="24" />
+			<column name="switch_num"  index="25" />
+			<column name="START_TIME"  index="26"  type="3" format="yyyy-mm-ddhh24miss" />/>
+		</table>
+	</templet>
+</templets>

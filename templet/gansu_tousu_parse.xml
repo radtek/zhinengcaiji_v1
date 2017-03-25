@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/gansu/s_%%Y%%M%%D_*.dat" >
+		<ds id="0">
+			<meta>
+				<head splitSign="\|" />
+			</meta>
+			<fields splitSign="|">
+				<field name="流水号"   index="0"/>
+				<field name="受理时间"   index="1"/>
+				<field name="办结时间"   index="2"/>
+				<field name="投诉手机号码"   index="3"/>
+				<field name="投诉用户姓名"   index="4"/>
+				<field name="联系人"   index="5"/>
+				<field name="联系电话"   index="6"/>
+				<field name="投诉等级"   index="7"/>
+				<field name="投诉用户类别"   index="8"/>
+				<field name="投诉详细内容"   index="9"/>
+				<field name="投诉本地网"   index="10"/>
+				<field name="投诉工单类型"   index="11"/>
+				<field name="投诉地点类型"   index="12"/>
+				<field name="投诉区域类型"   index="13"/>
+				<field name="投诉详细地点"   index="14"/>
+				<field name="投诉地点经度"   index="15"/>
+				<field name="投诉地点维度"   index="16"/>
+				<field name="投诉处理结果"   index="17"/>
+				<field name="投诉原因类型"   index="18"/>
+				<field name="投诉原因具体描述"   index="19"/>
+				<field name="解决情况"   index="20"/>
+				<field name="呼叫类型"   index="21"/>
+				<field name="是否加入盲点"   index="22"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

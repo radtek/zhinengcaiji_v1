@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_GPRSBSCbasicmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="C90001" index="1"/>
+				<field name="C90002" index="2"/>
+				<field name="C90003" index="3"/>
+				<field name="C90004" index="4"/>
+				<field name="C90005" index="5"/>
+				<field name="C90006" index="6"/>
+				<field name="C90007" index="7"/>
+				<field name="DOMAINID" index="8"/>
+				<field name="TIME" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="1" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_BTSmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C00001" index="2"/>
+				<field name="C00002" index="3"/>
+				<field name="C00003" index="4"/>
+				<field name="C00004" index="5"/>
+				<field name="C00005" index="6"/>
+				<field name="C00006" index="7"/>
+				<field name="C00007" index="8"/>
+				<field name="C00008" index="9"/>
+				<field name="C00009" index="10"/>
+				<field name="C00010" index="11"/>
+				<field name="C00011" index="12"/>
+				<field name="C00012" index="13"/>
+				<field name="C00013" index="14"/>
+				<field name="C00014" index="15"/>
+				<field name="C00015" index="16"/>
+				<field name="C00016" index="17"/>
+				<field name="C00017" index="18"/>
+				<field name="C00018" index="19"/>
+				<field name="C00019" index="20"/>
+				<field name="C00020" index="21"/>
+				<field name="C00021" index="22"/>
+				<field name="C00022" index="23"/>
+				<field name="C00023" index="24"/>
+				<field name="C00024" index="25"/>
+				<field name="C00025" index="26"/>
+				<field name="C00026" index="27"/>
+				<field name="C00027" index="28"/>
+				<field name="C00028" index="29"/>
+				<field name="C00029" index="30"/>
+				<field name="C00030" index="31"/>
+				<field name="C00031" index="32"/>
+				<field name="C00032" index="33"/>
+				<field name="C00033" index="34"/>
+				<field name="C00034" index="35"/>
+				<field name="C00035" index="36"/>
+				<field name="C00036" index="37"/>
+				<field name="C00037" index="38"/>
+				<field name="C00038" index="39"/>
+				<field name="C00039" index="40"/>
+				<field name="C00040" index="41"/>
+				<field name="C00041" index="42"/>
+				<field name="C00042" index="43"/>
+				<field name="C00043" index="44"/>
+				<field name="C00044" index="45"/>
+				<field name="C00045" index="46"/>
+				<field name="C00046" index="47"/>
+				<field name="C00047" index="48"/>
+				<field name="C00048" index="49"/>
+				<field name="C00049" index="50"/>
+				<field name="C00050" index="51"/>
+				<field name="C00051" index="52"/>
+				<field name="C00052" index="53"/>
+				<field name="C00053" index="54"/>
+				<field name="C00054" index="55"/>
+				<field name="C00055" index="56"/>
+				<field name="C00056" index="57"/>
+				<field name="C00057" index="58"/>
+				<field name="C00058" index="59"/>
+				<field name="C00059" index="60"/>
+				<field name="C00060" index="61"/>
+				<field name="C00061" index="62"/>
+				<field name="C00062" index="63"/>
+				<field name="C00063" index="64"/>
+				<field name="C00064" index="65"/>
+				<field name="C00065" index="66"/>
+				<field name="C00066" index="67"/>
+				<field name="C00067" index="68"/>
+				<field name="C00068" index="69"/>
+				<field name="C00069" index="70"/>
+				<field name="C00070" index="71"/>
+				<field name="C00071" index="72"/>
+				<field name="C00072" index="73"/>
+				<field name="C00073" index="74"/>
+				<field name="C00074" index="75"/>
+				<field name="C00075" index="76"/>
+				<field name="C00076" index="77"/>
+				<field name="C00077" index="78"/>
+				<field name="C00078" index="79"/>
+				<field name="C00079" index="80"/>
+				<field name="C00080" index="81"/>
+				<field name="C00081" index="82"/>
+				<field name="C00082" index="83"/>
+				<field name="C00083" index="84"/>
+				<field name="C00084" index="85"/>
+				<field name="C00085" index="86"/>
+				<field name="C00086" index="87"/>
+				<field name="C00087" index="88"/>
+				<field name="C00088" index="89"/>
+				<field name="C00089" index="90"/>
+				<field name="C00090" index="91"/>
+				<field name="C00091" index="92"/>
+				<field name="C00092" index="93"/>
+				<field name="C00093" index="94"/>
+				<field name="C00094" index="95"/>
+				<field name="C00095" index="96"/>
+				<field name="C00096" index="97"/>
+				<field name="C00097" index="98"/>
+				<field name="C00098" index="99"/>
+				<field name="C00099" index="100"/>
+				<field name="C00100" index="101"/>
+				<field name="C00101" index="102"/>
+				<field name="C00102" index="103"/>
+				<field name="C00103" index="104"/>
+				<field name="C00104" index="105"/>
+				<field name="C00105" index="106"/>
+				<field name="C00106" index="107"/>
+				<field name="C00107" index="108"/>
+				<field name="C00108" index="109"/>
+				<field name="C00109" index="110"/>
+				<field name="C00110" index="111"/>
+				<field name="C00111" index="112"/>
+				<field name="C00112" index="113"/>
+				<field name="C00113" index="114"/>
+				<field name="C00114" index="115"/>
+				<field name="C00115" index="116"/>
+				<field name="C00116" index="117"/>
+				<field name="C00117" index="118"/>
+				<field name="C00118" index="119"/>
+				<field name="C00119" index="120"/>
+				<field name="C00120" index="121"/>
+				<field name="DOMAINID" index="122"/>
+				<field name="SITEID" index="123"/>
+				<field name="TIME" index="124"/>
+				<field name="TRXID" index="125"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="2" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Basicmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C11601" index="2"/>
+				<field name="C11602" index="3"/>
+				<field name="C11603" index="4"/>
+				<field name="C11604" index="5"/>
+				<field name="C11605" index="6"/>
+				<field name="C11606" index="7"/>
+				<field name="C11607" index="8"/>
+				<field name="C11608" index="9"/>
+				<field name="C11609" index="10"/>
+				<field name="C11610" index="11"/>
+				<field name="C116100" index="12"/>
+				<field name="C116101" index="13"/>
+				<field name="C116102" index="14"/>
+				<field name="C116103" index="15"/>
+				<field name="C116104" index="16"/>
+				<field name="C116105" index="17"/>
+				<field name="C116106" index="18"/>
+				<field name="C116107" index="19"/>
+				<field name="C116108" index="20"/>
+				<field name="C116109" index="21"/>
+				<field name="C11611" index="22"/>
+				<field name="C116110" index="23"/>
+				<field name="C116111" index="24"/>
+				<field name="C116112" index="25"/>
+				<field name="C116113" index="26"/>
+				<field name="C116114" index="27"/>
+				<field name="C116115" index="28"/>
+				<field name="C116116" index="29"/>
+				<field name="C116117" index="30"/>
+				<field name="C116118" index="31"/>
+				<field name="C116119" index="32"/>
+				<field name="C11612" index="33"/>
+				<field name="C116120" index="34"/>
+				<field name="C116121" index="35"/>
+				<field name="C116122" index="36"/>
+				<field name="C116123" index="37"/>
+				<field name="C116124" index="38"/>
+				<field name="C116125" index="39"/>
+				<field name="C116126" index="40"/>
+				<field name="C116127" index="41"/>
+				<field name="C116128" index="42"/>
+				<field name="C116129" index="43"/>
+				<field name="C11613" index="44"/>
+				<field name="C116130" index="45"/>
+				<field name="C116131" index="46"/>
+				<field name="C116132" index="47"/>
+				<field name="C116133" index="48"/>
+				<field name="C116134" index="49"/>
+				<field name="C116135" index="50"/>
+				<field name="C116136" index="51"/>
+				<field name="C116137" index="52"/>
+				<field name="C116138" index="53"/>
+				<field name="C116139" index="54"/>
+				<field name="C11614" index="55"/>
+				<field name="C116140" index="56"/>
+				<field name="C116141" index="57"/>
+				<field name="C11615" index="58"/>
+				<field name="C11616" index="59"/>
+				<field name="C11617" index="60"/>
+				<field name="C11618" index="61"/>
+				<field name="C11619" index="62"/>
+				<field name="C11620" index="63"/>
+				<field name="C11621" index="64"/>
+				<field name="C11622" index="65"/>
+				<field name="C11623" index="66"/>
+				<field name="C11624" index="67"/>
+				<field name="C11625" index="68"/>
+				<field name="C11626" index="69"/>
+				<field name="C11627" index="70"/>
+				<field name="C11628" index="71"/>
+				<field name="C11629" index="72"/>
+				<field name="C11630" index="73"/>
+				<field name="C11631" index="74"/>
+				<field name="C11632" index="75"/>
+				<field name="C11633" index="76"/>
+				<field name="C11634" index="77"/>
+				<field name="C11635" index="78"/>
+				<field name="C11636" index="79"/>
+				<field name="C11637" index="80"/>
+				<field name="C11638" index="81"/>
+				<field name="C11639" index="82"/>
+				<field name="C11640" index="83"/>
+				<field name="C11641" index="84"/>
+				<field name="C11642" index="85"/>
+				<field name="C11643" index="86"/>
+				<field name="C11644" index="87"/>
+				<field name="C11645" index="88"/>
+				<field name="C11646" index="89"/>
+				<field name="C11647" index="90"/>
+				<field name="C11648" index="91"/>
+				<field name="C11649" index="92"/>
+				<field name="C11650" index="93"/>
+				<field name="C11651" index="94"/>
+				<field name="C11652" index="95"/>
+				<field name="C11653" index="96"/>
+				<field name="C11654" index="97"/>
+				<field name="C11655" index="98"/>
+				<field name="C11656" index="99"/>
+				<field name="C11657" index="100"/>
+				<field name="C11658" index="101"/>
+				<field name="C11659" index="102"/>
+				<field name="C11660" index="103"/>
+				<field name="C11661" index="104"/>
+				<field name="C11662" index="105"/>
+				<field name="C11663" index="106"/>
+				<field name="C11664" index="107"/>
+				<field name="C11665" index="108"/>
+				<field name="C11666" index="109"/>
+				<field name="C11667" index="110"/>
+				<field name="C11668" index="111"/>
+				<field name="C11669" index="112"/>
+				<field name="C11670" index="113"/>
+				<field name="C11671" index="114"/>
+				<field name="C11672" index="115"/>
+				<field name="C11673" index="116"/>
+				<field name="C11674" index="117"/>
+				<field name="C11675" index="118"/>
+				<field name="C11676" index="119"/>
+				<field name="C11677" index="120"/>
+				<field name="C11678" index="121"/>
+				<field name="C11679" index="122"/>
+				<field name="C11680" index="123"/>
+				<field name="C11681" index="124"/>
+				<field name="C11682" index="125"/>
+				<field name="C11683" index="126"/>
+				<field name="C11684" index="127"/>
+				<field name="C11685" index="128"/>
+				<field name="C11686" index="129"/>
+				<field name="C11687" index="130"/>
+				<field name="C11688" index="131"/>
+				<field name="C11689" index="132"/>
+				<field name="C11690" index="133"/>
+				<field name="C11691" index="134"/>
+				<field name="C11692" index="135"/>
+				<field name="C11693" index="136"/>
+				<field name="C11694" index="137"/>
+				<field name="C11695" index="138"/>
+				<field name="C11696" index="139"/>
+				<field name="C11697" index="140"/>
+				<field name="C11698" index="141"/>
+				<field name="C11699" index="142"/>
+				<field name="DOMAINID" index="143"/>
+				<field name="SITEID" index="144"/>
+				<field name="TIME" index="145"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="3" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Handovercausemeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10801" index="2"/>
+				<field name="C10802" index="3"/>
+				<field name="C10803" index="4"/>
+				<field name="C10804" index="5"/>
+				<field name="C10805" index="6"/>
+				<field name="C10806" index="7"/>
+				<field name="C10807" index="8"/>
+				<field name="C10808" index="9"/>
+				<field name="C10809" index="10"/>
+				<field name="C10810" index="11"/>
+				<field name="C10811" index="12"/>
+				<field name="C10812" index="13"/>
+				<field name="C10813" index="14"/>
+				<field name="C10814" index="15"/>
+				<field name="C10815" index="16"/>
+				<field name="C10816" index="17"/>
+				<field name="C10817" index="18"/>
+				<field name="C10818" index="19"/>
+				<field name="C10819" index="20"/>
+				<field name="C10820" index="21"/>
+				<field name="C10821" index="22"/>
+				<field name="C10822" index="23"/>
+				<field name="C10823" index="24"/>
+				<field name="C10824" index="25"/>
+				<field name="C10825" index="26"/>
+				<field name="C10826" index="27"/>
+				<field name="C10827" index="28"/>
+				<field name="C10828" index="29"/>
+				<field name="C10829" index="30"/>
+				<field name="C10830" index="31"/>
+				<field name="C10831" index="32"/>
+				<field name="C10832" index="33"/>
+				<field name="C10833" index="34"/>
+				<field name="C10834" index="35"/>
+				<field name="C10835" index="36"/>
+				<field name="C10836" index="37"/>
+				<field name="C10837" index="38"/>
+				<field name="C10838" index="39"/>
+				<field name="C10839" index="40"/>
+				<field name="C10840" index="41"/>
+				<field name="C10841" index="42"/>
+				<field name="C10842" index="43"/>
+				<field name="C10843" index="44"/>
+				<field name="C10844" index="45"/>
+				<field name="C10845" index="46"/>
+				<field name="C10846" index="47"/>
+				<field name="C10847" index="48"/>
+				<field name="C10848" index="49"/>
+				<field name="DOMAINID" index="50"/>
+				<field name="SITEID" index="51"/>
+				<field name="TIME" index="52"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="4" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Handoverroutinemeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10901" index="2"/>
+				<field name="C10902" index="3"/>
+				<field name="C10903" index="4"/>
+				<field name="C10904" index="5"/>
+				<field name="C10905" index="6"/>
+				<field name="C10906" index="7"/>
+				<field name="C10907" index="8"/>
+				<field name="C10908" index="9"/>
+				<field name="C10909" index="10"/>
+				<field name="C10910" index="11"/>
+				<field name="C109100" index="12"/>
+				<field name="C109101" index="13"/>
+				<field name="C109102" index="14"/>
+				<field name="C109103" index="15"/>
+				<field name="C109104" index="16"/>
+				<field name="C109105" index="17"/>
+				<field name="C109106" index="18"/>
+				<field name="C109107" index="19"/>
+				<field name="C109108" index="20"/>
+				<field name="C109109" index="21"/>
+				<field name="C10911" index="22"/>
+				<field name="C109110" index="23"/>
+				<field name="C109111" index="24"/>
+				<field name="C109112" index="25"/>
+				<field name="C109113" index="26"/>
+				<field name="C109114" index="27"/>
+				<field name="C109115" index="28"/>
+				<field name="C109116" index="29"/>
+				<field name="C109117" index="30"/>
+				<field name="C109118" index="31"/>
+				<field name="C109119" index="32"/>
+				<field name="C10912" index="33"/>
+				<field name="C109120" index="34"/>
+				<field name="C109121" index="35"/>
+				<field name="C109122" index="36"/>
+				<field name="C109123" index="37"/>
+				<field name="C109124" index="38"/>
+				<field name="C109125" index="39"/>
+				<field name="C109126" index="40"/>
+				<field name="C109127" index="41"/>
+				<field name="C109128" index="42"/>
+				<field name="C109129" index="43"/>
+				<field name="C109130" index="44"/>
+				<field name="C109131" index="45"/>
+				<field name="C109132" index="46"/>
+				<field name="C10914" index="47"/>
+				<field name="C10915" index="48"/>
+				<field name="C10916" index="49"/>
+				<field name="C10917" index="50"/>
+				<field name="C10918" index="51"/>
+				<field name="C10919" index="52"/>
+				<field name="C10921" index="53"/>
+				<field name="C10922" index="54"/>
+				<field name="C10923" index="55"/>
+				<field name="C10924" index="56"/>
+				<field name="C10925" index="57"/>
+				<field name="C10926" index="58"/>
+				<field name="C10927" index="59"/>
+				<field name="C10928" index="60"/>
+				<field name="C10929" index="61"/>
+				<field name="C10930" index="62"/>
+				<field name="C10931" index="63"/>
+				<field name="C10932" index="64"/>
+				<field name="C10933" index="65"/>
+				<field name="C10934" index="66"/>
+				<field name="C10935" index="67"/>
+				<field name="C10936" index="68"/>
+				<field name="C10937" index="69"/>
+				<field name="C10938" index="70"/>
+				<field name="C10939" index="71"/>
+				<field name="C10940" index="72"/>
+				<field name="C10941" index="73"/>
+				<field name="C10942" index="74"/>
+				<field name="C10943" index="75"/>
+				<field name="C10944" index="76"/>
+				<field name="C10945" index="77"/>
+				<field name="C10946" index="78"/>
+				<field name="C10947" index="79"/>
+				<field name="C10948" index="80"/>
+				<field name="C10949" index="81"/>
+				<field name="C10950" index="82"/>
+				<field name="C10951" index="83"/>
+				<field name="C10952" index="84"/>
+				<field name="C10953" index="85"/>
+				<field name="C10954" index="86"/>
+				<field name="C10955" index="87"/>
+				<field name="C10956" index="88"/>
+				<field name="C10957" index="89"/>
+				<field name="C10958" index="90"/>
+				<field name="C10959" index="91"/>
+				<field name="C10960" index="92"/>
+				<field name="C10961" index="93"/>
+				<field name="C10962" index="94"/>
+				<field name="C10963" index="95"/>
+				<field name="C10964" index="96"/>
+				<field name="C10965" index="97"/>
+				<field name="C10966" index="98"/>
+				<field name="C10967" index="99"/>
+				<field name="C10968" index="100"/>
+				<field name="C10969" index="101"/>
+				<field name="C10970" index="102"/>
+				<field name="C10971" index="103"/>
+				<field name="C10972" index="104"/>
+				<field name="C10973" index="105"/>
+				<field name="C10974" index="106"/>
+				<field name="C10975" index="107"/>
+				<field name="C10976" index="108"/>
+				<field name="C10977" index="109"/>
+				<field name="C10978" index="110"/>
+				<field name="C10979" index="111"/>
+				<field name="C10980" index="112"/>
+				<field name="C10981" index="113"/>
+				<field name="C10982" index="114"/>
+				<field name="C10983" index="115"/>
+				<field name="C10984" index="116"/>
+				<field name="C10985" index="117"/>
+				<field name="C10986" index="118"/>
+				<field name="C10987" index="119"/>
+				<field name="C10988" index="120"/>
+				<field name="C10989" index="121"/>
+				<field name="C10990" index="122"/>
+				<field name="C10991" index="123"/>
+				<field name="C10992" index="124"/>
+				<field name="C10993" index="125"/>
+				<field name="C10994" index="126"/>
+				<field name="C10995" index="127"/>
+				<field name="C10996" index="128"/>
+				<field name="C10997" index="129"/>
+				<field name="C10998" index="130"/>
+				<field name="C10999" index="131"/>
+				<field name="DOMAINID" index="132"/>
+				<field name="SITEID" index="133"/>
+				<field name="TIME" index="134"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="5" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Handoverstatisticmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C11101" index="2"/>
+				<field name="C11102" index="3"/>
+				<field name="C11103" index="4"/>
+				<field name="C11104" index="5"/>
+				<field name="C11105" index="6"/>
+				<field name="C11106" index="7"/>
+				<field name="C11107" index="8"/>
+				<field name="C11108" index="9"/>
+				<field name="C11109" index="10"/>
+				<field name="C11110" index="11"/>
+				<field name="C11111" index="12"/>
+				<field name="C11112" index="13"/>
+				<field name="C11113" index="14"/>
+				<field name="C11114" index="15"/>
+				<field name="C11115" index="16"/>
+				<field name="C11116" index="17"/>
+				<field name="CI" index="18"/>
+				<field name="DOMAINID" index="19"/>
+				<field name="LAC" index="20"/>
+				<field name="MCC" index="21"/>
+				<field name="MNC" index="22"/>
+				<field name="SITEID" index="23"/>
+				<field name="TIME" index="24"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="6" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Modulebasicmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="C11801" index="1"/>
+				<field name="C11802" index="2"/>
+				<field name="C11803" index="3"/>
+				<field name="C11804" index="4"/>
+				<field name="C11805" index="5"/>
+				<field name="C11806" index="6"/>
+				<field name="C11807" index="7"/>
+				<field name="C11808" index="8"/>
+				<field name="C11809" index="9"/>
+				<field name="C11810" index="10"/>
+				<field name="C11811" index="11"/>
+				<field name="C11812" index="12"/>
+				<field name="C11813" index="13"/>
+				<field name="C11814" index="14"/>
+				<field name="C11815" index="15"/>
+				<field name="C11816" index="16"/>
+				<field name="C11817" index="17"/>
+				<field name="C11818" index="18"/>
+				<field name="C11819" index="19"/>
+				<field name="C11820" index="20"/>
+				<field name="DOMAINID" index="21"/>
+				<field name="MODULE" index="22"/>
+				<field name="TIME" index="23"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="7" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_MobilestationTAmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C13701" index="2"/>
+				<field name="C13702" index="3"/>
+				<field name="C13703" index="4"/>
+				<field name="C13704" index="5"/>
+				<field name="C13705" index="6"/>
+				<field name="C13706" index="7"/>
+				<field name="C13707" index="8"/>
+				<field name="C13708" index="9"/>
+				<field name="C13709" index="10"/>
+				<field name="C13710" index="11"/>
+				<field name="C13711" index="12"/>
+				<field name="C13712" index="13"/>
+				<field name="C13713" index="14"/>
+				<field name="C13714" index="15"/>
+				<field name="C13715" index="16"/>
+				<field name="C13716" index="17"/>
+				<field name="C13717" index="18"/>
+				<field name="C13718" index="19"/>
+				<field name="C13719" index="20"/>
+				<field name="C13720" index="21"/>
+				<field name="C13721" index="22"/>
+				<field name="C13722" index="23"/>
+				<field name="C13723" index="24"/>
+				<field name="C13724" index="25"/>
+				<field name="C13725" index="26"/>
+				<field name="C13726" index="27"/>
+				<field name="C13727" index="28"/>
+				<field name="C13728" index="29"/>
+				<field name="C13729" index="30"/>
+				<field name="C13730" index="31"/>
+				<field name="C13731" index="32"/>
+				<field name="C13732" index="33"/>
+				<field name="C13733" index="34"/>
+				<field name="C13734" index="35"/>
+				<field name="C13735" index="36"/>
+				<field name="C13736" index="37"/>
+				<field name="C13737" index="38"/>
+				<field name="C13738" index="39"/>
+				<field name="C13739" index="40"/>
+				<field name="C13740" index="41"/>
+				<field name="C13741" index="42"/>
+				<field name="C13742" index="43"/>
+				<field name="C13743" index="44"/>
+				<field name="C13744" index="45"/>
+				<field name="C13745" index="46"/>
+				<field name="C13746" index="47"/>
+				<field name="C13747" index="48"/>
+				<field name="C13748" index="49"/>
+				<field name="C13749" index="50"/>
+				<field name="C13750" index="51"/>
+				<field name="C13751" index="52"/>
+				<field name="C13752" index="53"/>
+				<field name="C13753" index="54"/>
+				<field name="C13754" index="55"/>
+				<field name="C13755" index="56"/>
+				<field name="C13756" index="57"/>
+				<field name="C13757" index="58"/>
+				<field name="C13758" index="59"/>
+				<field name="C13759" index="60"/>
+				<field name="C13760" index="61"/>
+				<field name="C13761" index="62"/>
+				<field name="C13762" index="63"/>
+				<field name="C13763" index="64"/>
+				<field name="C13764" index="65"/>
+				<field name="C13765" index="66"/>
+				<field name="DOMAINID" index="67"/>
+				<field name="SITEID" index="68"/>
+				<field name="TIME" index="69"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="8" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_NMSbasicmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C80001" index="2"/>
+				<field name="C80002" index="3"/>
+				<field name="C80003" index="4"/>
+				<field name="C80004" index="5"/>
+				<field name="C80005" index="6"/>
+				<field name="C80006" index="7"/>
+				<field name="C80007" index="8"/>
+				<field name="C80008" index="9"/>
+				<field name="C80009" index="10"/>
+				<field name="C80010" index="11"/>
+				<field name="C80011" index="12"/>
+				<field name="C80012" index="13"/>
+				<field name="C80013" index="14"/>
+				<field name="C80014" index="15"/>
+				<field name="C80015" index="16"/>
+				<field name="C80016" index="17"/>
+				<field name="C80017" index="18"/>
+				<field name="C80018" index="19"/>
+				<field name="C80019" index="20"/>
+				<field name="C80020" index="21"/>
+				<field name="C80021" index="22"/>
+				<field name="C80022" index="23"/>
+				<field name="C80023" index="24"/>
+				<field name="C80024" index="25"/>
+				<field name="C80025" index="26"/>
+				<field name="C80026" index="27"/>
+				<field name="C80027" index="28"/>
+				<field name="C80028" index="29"/>
+				<field name="C80029" index="30"/>
+				<field name="C80030" index="31"/>
+				<field name="C80031" index="32"/>
+				<field name="C80032" index="33"/>
+				<field name="C80033" index="34"/>
+				<field name="C80034" index="35"/>
+				<field name="C80035" index="36"/>
+				<field name="C80036" index="37"/>
+				<field name="C80037" index="38"/>
+				<field name="C80038" index="39"/>
+				<field name="C80039" index="40"/>
+				<field name="C80040" index="41"/>
+				<field name="DOMAINID" index="42"/>
+				<field name="SITEID" index="43"/>
+				<field name="TIME" index="44"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="9" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_NMSTRXbasicmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C13001" index="2"/>
+				<field name="C13002" index="3"/>
+				<field name="C13003" index="4"/>
+				<field name="C13004" index="5"/>
+				<field name="DOMAINID" index="6"/>
+				<field name="SITEID" index="7"/>
+				<field name="TIME" index="8"/>
+				<field name="TRXID" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="10" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Pagingcountermeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C11301" index="2"/>
+				<field name="DOMAINID" index="3"/>
+				<field name="SITEID" index="4"/>
+				<field name="TIME" index="5"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="11" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_PSbasicmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C70001" index="2"/>
+				<field name="C70002" index="3"/>
+				<field name="C70003" index="4"/>
+				<field name="C70004" index="5"/>
+				<field name="C70005" index="6"/>
+				<field name="C70006" index="7"/>
+				<field name="C70007" index="8"/>
+				<field name="C70008" index="9"/>
+				<field name="C70009" index="10"/>
+				<field name="C70010" index="11"/>
+				<field name="C70011" index="12"/>
+				<field name="C70012" index="13"/>
+				<field name="C70013" index="14"/>
+				<field name="C70014" index="15"/>
+				<field name="C70015" index="16"/>
+				<field name="C70016" index="17"/>
+				<field name="C70017" index="18"/>
+				<field name="C70018" index="19"/>
+				<field name="C70019" index="20"/>
+				<field name="C70020" index="21"/>
+				<field name="C70021" index="22"/>
+				<field name="C70022" index="23"/>
+				<field name="C70023" index="24"/>
+				<field name="C70024" index="25"/>
+				<field name="C70025" index="26"/>
+				<field name="C70026" index="27"/>
+				<field name="C70027" index="28"/>
+				<field name="C70028" index="29"/>
+				<field name="C70029" index="30"/>
+				<field name="C70030" index="31"/>
+				<field name="C70031" index="32"/>
+				<field name="C70032" index="33"/>
+				<field name="C70033" index="34"/>
+				<field name="C70034" index="35"/>
+				<field name="C70035" index="36"/>
+				<field name="C70036" index="37"/>
+				<field name="C70037" index="38"/>
+				<field name="C70038" index="39"/>
+				<field name="C70039" index="40"/>
+				<field name="C70040" index="41"/>
+				<field name="C70041" index="42"/>
+				<field name="C70042" index="43"/>
+				<field name="C70043" index="44"/>
+				<field name="C70044" index="45"/>
+				<field name="C70045" index="46"/>
+				<field name="C70046" index="47"/>
+				<field name="C70047" index="48"/>
+				<field name="C70048" index="49"/>
+				<field name="C70049" index="50"/>
+				<field name="C70050" index="51"/>
+				<field name="C70051" index="52"/>
+				<field name="C70052" index="53"/>
+				<field name="C70053" index="54"/>
+				<field name="C70054" index="55"/>
+				<field name="C70055" index="56"/>
+				<field name="C70056" index="57"/>
+				<field name="C70057" index="58"/>
+				<field name="C70058" index="59"/>
+				<field name="C70059" index="60"/>
+				<field name="C70060" index="61"/>
+				<field name="C70061" index="62"/>
+				<field name="C70062" index="63"/>
+				<field name="C70063" index="64"/>
+				<field name="C70064" index="65"/>
+				<field name="C70065" index="66"/>
+				<field name="C70066" index="67"/>
+				<field name="C70067" index="68"/>
+				<field name="C70068" index="69"/>
+				<field name="C70069" index="70"/>
+				<field name="C70070" index="71"/>
+				<field name="C70071" index="72"/>
+				<field name="C70072" index="73"/>
+				<field name="C70073" index="74"/>
+				<field name="C70074" index="75"/>
+				<field name="C70075" index="76"/>
+				<field name="C70076" index="77"/>
+				<field name="C70077" index="78"/>
+				<field name="C70078" index="79"/>
+				<field name="C70079" index="80"/>
+				<field name="C70080" index="81"/>
+				<field name="C70081" index="82"/>
+				<field name="C70082" index="83"/>
+				<field name="C70083" index="84"/>
+				<field name="C70084" index="85"/>
+				<field name="C70085" index="86"/>
+				<field name="C70086" index="87"/>
+				<field name="C70087" index="88"/>
+				<field name="C70088" index="89"/>
+				<field name="C70089" index="90"/>
+				<field name="C70090" index="91"/>
+				<field name="C70091" index="92"/>
+				<field name="C70092" index="93"/>
+				<field name="C70093" index="94"/>
+				<field name="C70094" index="95"/>
+				<field name="C70095" index="96"/>
+				<field name="C70096" index="97"/>
+				<field name="C70097" index="98"/>
+				<field name="C70098" index="99"/>
+				<field name="C70099" index="100"/>
+				<field name="C70100" index="101"/>
+				<field name="C70101" index="102"/>
+				<field name="C70102" index="103"/>
+				<field name="C70103" index="104"/>
+				<field name="C70104" index="105"/>
+				<field name="C70105" index="106"/>
+				<field name="C70106" index="107"/>
+				<field name="C70107" index="108"/>
+				<field name="C70108" index="109"/>
+				<field name="C70109" index="110"/>
+				<field name="C70110" index="111"/>
+				<field name="C70111" index="112"/>
+				<field name="C70112" index="113"/>
+				<field name="C70113" index="114"/>
+				<field name="C70114" index="115"/>
+				<field name="C70115" index="116"/>
+				<field name="C70116" index="117"/>
+				<field name="C70117" index="118"/>
+				<field name="C70118" index="119"/>
+				<field name="C70119" index="120"/>
+				<field name="C70120" index="121"/>
+				<field name="C70121" index="122"/>
+				<field name="C70122" index="123"/>
+				<field name="C70123" index="124"/>
+				<field name="C70124" index="125"/>
+				<field name="C70125" index="126"/>
+				<field name="C70126" index="127"/>
+				<field name="C70127" index="128"/>
+				<field name="C70128" index="129"/>
+				<field name="C70129" index="130"/>
+				<field name="C70130" index="131"/>
+				<field name="C70131" index="132"/>
+				<field name="C70132" index="133"/>
+				<field name="C70133" index="134"/>
+				<field name="C70134" index="135"/>
+				<field name="C70135" index="136"/>
+				<field name="C70136" index="137"/>
+				<field name="C70137" index="138"/>
+				<field name="C70138" index="139"/>
+				<field name="C70139" index="140"/>
+				<field name="C70140" index="141"/>
+				<field name="C70141" index="142"/>
+				<field name="C70142" index="143"/>
+				<field name="C70143" index="144"/>
+				<field name="C70144" index="145"/>
+				<field name="C70145" index="146"/>
+				<field name="C70146" index="147"/>
+				<field name="C70147" index="148"/>
+				<field name="C70148" index="149"/>
+				<field name="C70149" index="150"/>
+				<field name="C70150" index="151"/>
+				<field name="C70151" index="152"/>
+				<field name="C70152" index="153"/>
+				<field name="C70153" index="154"/>
+				<field name="C70154" index="155"/>
+				<field name="C70155" index="156"/>
+				<field name="DOMAINID" index="157"/>
+				<field name="SITEID" index="158"/>
+				<field name="TIME" index="159"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="12" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Q3BTSbasicmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C02001" index="2"/>
+				<field name="C02002" index="3"/>
+				<field name="C02003" index="4"/>
+				<field name="C02004" index="5"/>
+				<field name="C02005" index="6"/>
+				<field name="C02006" index="7"/>
+				<field name="C02007" index="8"/>
+				<field name="C02008" index="9"/>
+				<field name="C02009" index="10"/>
+				<field name="C02010" index="11"/>
+				<field name="C02011" index="12"/>
+				<field name="C02012" index="13"/>
+				<field name="C02013" index="14"/>
+				<field name="C02014" index="15"/>
+				<field name="C02015" index="16"/>
+				<field name="C02016" index="17"/>
+				<field name="C02017" index="18"/>
+				<field name="C02018" index="19"/>
+				<field name="C02019" index="20"/>
+				<field name="C02020" index="21"/>
+				<field name="C02021" index="22"/>
+				<field name="C02022" index="23"/>
+				<field name="C02023" index="24"/>
+				<field name="C02024" index="25"/>
+				<field name="C02025" index="26"/>
+				<field name="C02026" index="27"/>
+				<field name="C02027" index="28"/>
+				<field name="C02028" index="29"/>
+				<field name="C02029" index="30"/>
+				<field name="C02030" index="31"/>
+				<field name="C02031" index="32"/>
+				<field name="C02032" index="33"/>
+				<field name="C02033" index="34"/>
+				<field name="C02034" index="35"/>
+				<field name="C02035" index="36"/>
+				<field name="C02036" index="37"/>
+				<field name="C02037" index="38"/>
+				<field name="C02038" index="39"/>
+				<field name="C02039" index="40"/>
+				<field name="C02040" index="41"/>
+				<field name="C02041" index="42"/>
+				<field name="C02042" index="43"/>
+				<field name="C02043" index="44"/>
+				<field name="C02044" index="45"/>
+				<field name="C02045" index="46"/>
+				<field name="C02046" index="47"/>
+				<field name="C02047" index="48"/>
+				<field name="C02048" index="49"/>
+				<field name="C02049" index="50"/>
+				<field name="C02050" index="51"/>
+				<field name="C02051" index="52"/>
+				<field name="C02052" index="53"/>
+				<field name="C02053" index="54"/>
+				<field name="C02054" index="55"/>
+				<field name="C02055" index="56"/>
+				<field name="DOMAINID" index="57"/>
+				<field name="SITEID" index="58"/>
+				<field name="TIME" index="59"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="13" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Radioaccessmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10001" index="2"/>
+				<field name="C10002" index="3"/>
+				<field name="C10003" index="4"/>
+				<field name="C10004" index="5"/>
+				<field name="C10005" index="6"/>
+				<field name="C10006" index="7"/>
+				<field name="C10007" index="8"/>
+				<field name="C10008" index="9"/>
+				<field name="C10009" index="10"/>
+				<field name="C10010" index="11"/>
+				<field name="C10011" index="12"/>
+				<field name="C10012" index="13"/>
+				<field name="C10013" index="14"/>
+				<field name="C10014" index="15"/>
+				<field name="C10015" index="16"/>
+				<field name="C10016" index="17"/>
+				<field name="C10017" index="18"/>
+				<field name="C10018" index="19"/>
+				<field name="C10019" index="20"/>
+				<field name="C10020" index="21"/>
+				<field name="C10021" index="22"/>
+				<field name="C10022" index="23"/>
+				<field name="C10023" index="24"/>
+				<field name="C10024" index="25"/>
+				<field name="C10025" index="26"/>
+				<field name="DOMAINID" index="27"/>
+				<field name="SITEID" index="28"/>
+				<field name="TIME" index="29"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="14" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Cellradiomeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10701" index="2"/>
+				<field name="C10702" index="3"/>
+				<field name="C10703" index="4"/>
+				<field name="C10704" index="5"/>
+				<field name="C10705" index="6"/>
+				<field name="C10706" index="7"/>
+				<field name="C10707" index="8"/>
+				<field name="C10708" index="9"/>
+				<field name="C10709" index="10"/>
+				<field name="C10710" index="11"/>
+				<field name="C10711" index="12"/>
+				<field name="C10712" index="13"/>
+				<field name="C10713" index="14"/>
+				<field name="C10714" index="15"/>
+				<field name="C10715" index="16"/>
+				<field name="C10716" index="17"/>
+				<field name="C10717" index="18"/>
+				<field name="C10718" index="19"/>
+				<field name="C10719" index="20"/>
+				<field name="C10720" index="21"/>
+				<field name="C10721" index="22"/>
+				<field name="C10722" index="23"/>
+				<field name="C10723" index="24"/>
+				<field name="C10724" index="25"/>
+				<field name="C10725" index="26"/>
+				<field name="C10726" index="27"/>
+				<field name="C10727" index="28"/>
+				<field name="C10728" index="29"/>
+				<field name="C10729" index="30"/>
+				<field name="C10730" index="31"/>
+				<field name="C10731" index="32"/>
+				<field name="C10732" index="33"/>
+				<field name="C10733" index="34"/>
+				<field name="C10734" index="35"/>
+				<field name="C10735" index="36"/>
+				<field name="C10736" index="37"/>
+				<field name="C10737" index="38"/>
+				<field name="C10738" index="39"/>
+				<field name="C10739" index="40"/>
+				<field name="C10740" index="41"/>
+				<field name="C10741" index="42"/>
+				<field name="C10742" index="43"/>
+				<field name="C10743" index="44"/>
+				<field name="C10744" index="45"/>
+				<field name="C10745" index="46"/>
+				<field name="C10746" index="47"/>
+				<field name="C10747" index="48"/>
+				<field name="C10748" index="49"/>
+				<field name="C10749" index="50"/>
+				<field name="C10750" index="51"/>
+				<field name="C10751" index="52"/>
+				<field name="C10752" index="53"/>
+				<field name="C10753" index="54"/>
+				<field name="C10754" index="55"/>
+				<field name="C10755" index="56"/>
+				<field name="C10756" index="57"/>
+				<field name="C10757" index="58"/>
+				<field name="DOMAINID" index="59"/>
+				<field name="SITEID" index="60"/>
+				<field name="TIME" index="61"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="15" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_RMMassignmentmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10501" index="2"/>
+				<field name="C10502" index="3"/>
+				<field name="C10503" index="4"/>
+				<field name="C10504" index="5"/>
+				<field name="C10505" index="6"/>
+				<field name="C10506" index="7"/>
+				<field name="C10507" index="8"/>
+				<field name="C10508" index="9"/>
+				<field name="C10509" index="10"/>
+				<field name="C10510" index="11"/>
+				<field name="C10511" index="12"/>
+				<field name="C10512" index="13"/>
+				<field name="C10513" index="14"/>
+				<field name="C10514" index="15"/>
+				<field name="C10515" index="16"/>
+				<field name="C10516" index="17"/>
+				<field name="C10517" index="18"/>
+				<field name="C10518" index="19"/>
+				<field name="C10519" index="20"/>
+				<field name="C10520" index="21"/>
+				<field name="C10521" index="22"/>
+				<field name="C10522" index="23"/>
+				<field name="C10523" index="24"/>
+				<field name="C10524" index="25"/>
+				<field name="C10525" index="26"/>
+				<field name="C10526" index="27"/>
+				<field name="C10527" index="28"/>
+				<field name="C10528" index="29"/>
+				<field name="C10529" index="30"/>
+				<field name="C10530" index="31"/>
+				<field name="C11001" index="32"/>
+				<field name="C11002" index="33"/>
+				<field name="C11003" index="34"/>
+				<field name="C11004" index="35"/>
+				<field name="C11005" index="36"/>
+				<field name="DOMAINID" index="37"/>
+				<field name="SITEID" index="38"/>
+				<field name="TIME" index="39"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="16" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_RMMdropmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10601" index="2"/>
+				<field name="C10602" index="3"/>
+				<field name="C10603" index="4"/>
+				<field name="C10604" index="5"/>
+				<field name="C10605" index="6"/>
+				<field name="C10606" index="7"/>
+				<field name="C10607" index="8"/>
+				<field name="C10608" index="9"/>
+				<field name="C10609" index="10"/>
+				<field name="C10610" index="11"/>
+				<field name="C10611" index="12"/>
+				<field name="C10612" index="13"/>
+				<field name="C10613" index="14"/>
+				<field name="C10614" index="15"/>
+				<field name="C10615" index="16"/>
+				<field name="C10616" index="17"/>
+				<field name="C10617" index="18"/>
+				<field name="C10618" index="19"/>
+				<field name="C10619" index="20"/>
+				<field name="C10620" index="21"/>
+				<field name="C10621" index="22"/>
+				<field name="C10622" index="23"/>
+				<field name="C10623" index="24"/>
+				<field name="C10624" index="25"/>
+				<field name="C10625" index="26"/>
+				<field name="C10626" index="27"/>
+				<field name="C10627" index="28"/>
+				<field name="C10628" index="29"/>
+				<field name="C10629" index="30"/>
+				<field name="C10630" index="31"/>
+				<field name="C10631" index="32"/>
+				<field name="C10632" index="33"/>
+				<field name="C10633" index="34"/>
+				<field name="C10634" index="35"/>
+				<field name="C10635" index="36"/>
+				<field name="C10636" index="37"/>
+				<field name="C10637" index="38"/>
+				<field name="C10638" index="39"/>
+				<field name="C10639" index="40"/>
+				<field name="C10640" index="41"/>
+				<field name="C10641" index="42"/>
+				<field name="C10642" index="43"/>
+				<field name="C10643" index="44"/>
+				<field name="C10644" index="45"/>
+				<field name="C10645" index="46"/>
+				<field name="C10646" index="47"/>
+				<field name="C10647" index="48"/>
+				<field name="C10648" index="49"/>
+				<field name="C10649" index="50"/>
+				<field name="C10650" index="51"/>
+				<field name="C10651" index="52"/>
+				<field name="C10652" index="53"/>
+				<field name="C10653" index="54"/>
+				<field name="C10654" index="55"/>
+				<field name="C10655" index="56"/>
+				<field name="DOMAINID" index="57"/>
+				<field name="SITEID" index="58"/>
+				<field name="TIME" index="59"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="17" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_Radioresourceavailablemeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C11501" index="2"/>
+				<field name="C11502" index="3"/>
+				<field name="C11503" index="4"/>
+				<field name="C11504" index="5"/>
+				<field name="C11505" index="6"/>
+				<field name="C11506" index="7"/>
+				<field name="C11507" index="8"/>
+				<field name="C11508" index="9"/>
+				<field name="C11509" index="10"/>
+				<field name="C11510" index="11"/>
+				<field name="C11511" index="12"/>
+				<field name="C11512" index="13"/>
+				<field name="C11513" index="14"/>
+				<field name="C11514" index="15"/>
+				<field name="C11515" index="16"/>
+				<field name="C11516" index="17"/>
+				<field name="C11517" index="18"/>
+				<field name="C11518" index="19"/>
+				<field name="C11519" index="20"/>
+				<field name="C11520" index="21"/>
+				<field name="C11521" index="22"/>
+				<field name="C11522" index="23"/>
+				<field name="C11523" index="24"/>
+				<field name="C11524" index="25"/>
+				<field name="DOMAINID" index="26"/>
+				<field name="SITEID" index="27"/>
+				<field name="TIME" index="28"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="18" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_SAPI3measurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10201" index="2"/>
+				<field name="C10202" index="3"/>
+				<field name="C10203" index="4"/>
+				<field name="C10204" index="5"/>
+				<field name="C10205" index="6"/>
+				<field name="C10206" index="7"/>
+				<field name="C10207" index="8"/>
+				<field name="C10208" index="9"/>
+				<field name="C10209" index="10"/>
+				<field name="C10210" index="11"/>
+				<field name="C10211" index="12"/>
+				<field name="C10212" index="13"/>
+				<field name="C10213" index="14"/>
+				<field name="C10214" index="15"/>
+				<field name="C10215" index="16"/>
+				<field name="C10216" index="17"/>
+				<field name="C10217" index="18"/>
+				<field name="C10218" index="19"/>
+				<field name="C10219" index="20"/>
+				<field name="C10220" index="21"/>
+				<field name="C10221" index="22"/>
+				<field name="C10222" index="23"/>
+				<field name="C10223" index="24"/>
+				<field name="C10224" index="25"/>
+				<field name="C10225" index="26"/>
+				<field name="DOMAINID" index="27"/>
+				<field name="SITEID" index="28"/>
+				<field name="TIME" index="29"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="19" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_SDCCHmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10101" index="2"/>
+				<field name="C10102" index="3"/>
+				<field name="C10103" index="4"/>
+				<field name="C10104" index="5"/>
+				<field name="C10105" index="6"/>
+				<field name="C10106" index="7"/>
+				<field name="C10107" index="8"/>
+				<field name="C10108" index="9"/>
+				<field name="C10109" index="10"/>
+				<field name="C10110" index="11"/>
+				<field name="C10111" index="12"/>
+				<field name="C10112" index="13"/>
+				<field name="C10113" index="14"/>
+				<field name="C10114" index="15"/>
+				<field name="C10115" index="16"/>
+				<field name="C10116" index="17"/>
+				<field name="C10117" index="18"/>
+				<field name="C10118" index="19"/>
+				<field name="C10119" index="20"/>
+				<field name="DOMAINID" index="21"/>
+				<field name="SITEID" index="22"/>
+				<field name="TIME" index="23"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="20" file="/export/home/omc/tmp/ftp/csv/ftp/Domain*_TCHmeasurement_%%D%%EM%%Y_%%H%%m-%%ND%%NEM%%NY_%%NH%%Nm.csv|3600000" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSCID" index="0"  occur="required" />
+				<field name="BTSID" index="1"  occur="required" />
+				<field name="C10301" index="2"/>
+				<field name="C10302" index="3"/>
+				<field name="C10303" index="4"/>
+				<field name="C10304" index="5"/>
+				<field name="C10305" index="6"/>
+				<field name="C10306" index="7"/>
+				<field name="C10307" index="8"/>
+				<field name="C10308" index="9"/>
+				<field name="C10309" index="10"/>
+				<field name="C10310" index="11"/>
+				<field name="C10311" index="12"/>
+				<field name="C10312" index="13"/>
+				<field name="C10313" index="14"/>
+				<field name="C10314" index="15"/>
+				<field name="C10315" index="16"/>
+				<field name="C10316" index="17"/>
+				<field name="C10317" index="18"/>
+				<field name="C10318" index="19"/>
+				<field name="C10319" index="20"/>
+				<field name="C10320" index="21"/>
+				<field name="C10321" index="22"/>
+				<field name="C10322" index="23"/>
+				<field name="C10323" index="24"/>
+				<field name="C10324" index="25"/>
+				<field name="C10325" index="26"/>
+				<field name="C10326" index="27"/>
+				<field name="C10327" index="28"/>
+				<field name="C10328" index="29"/>
+				<field name="C10329" index="30"/>
+				<field name="C10330" index="31"/>
+				<field name="C10331" index="32"/>
+				<field name="C10332" index="33"/>
+				<field name="C10333" index="34"/>
+				<field name="C10334" index="35"/>
+				<field name="C10335" index="36"/>
+				<field name="C10336" index="37"/>
+				<field name="C10337" index="38"/>
+				<field name="C10338" index="39"/>
+				<field name="C10339" index="40"/>
+				<field name="C10340" index="41"/>
+				<field name="C10341" index="42"/>
+				<field name="C10342" index="43"/>
+				<field name="C10343" index="44"/>
+				<field name="C10344" index="45"/>
+				<field name="C10345" index="46"/>
+				<field name="C10346" index="47"/>
+				<field name="C10347" index="48"/>
+				<field name="C10348" index="49"/>
+				<field name="C10349" index="50"/>
+				<field name="C10350" index="51"/>
+				<field name="C10351" index="52"/>
+				<field name="C10352" index="53"/>
+				<field name="C10353" index="54"/>
+				<field name="C10354" index="55"/>
+				<field name="C10355" index="56"/>
+				<field name="C10356" index="57"/>
+				<field name="C10357" index="58"/>
+				<field name="C10358" index="59"/>
+				<field name="C10359" index="60"/>
+				<field name="C10360" index="61"/>
+				<field name="C10361" index="62"/>
+				<field name="C10362" index="63"/>
+				<field name="C10363" index="64"/>
+				<field name="C10364" index="65"/>
+				<field name="C10365" index="66"/>
+				<field name="C10366" index="67"/>
+				<field name="C10367" index="68"/>
+				<field name="C10368" index="69"/>
+				<field name="C10369" index="70"/>
+				<field name="C10401" index="71"/>
+				<field name="C10402" index="72"/>
+				<field name="C10403" index="73"/>
+				<field name="C10404" index="74"/>
+				<field name="C10405" index="75"/>
+				<field name="C10406" index="76"/>
+				<field name="C10407" index="77"/>
+				<field name="C10408" index="78"/>
+				<field name="C10409" index="79"/>
+				<field name="C10410" index="80"/>
+				<field name="C10411" index="81"/>
+				<field name="C10412" index="82"/>
+				<field name="C10413" index="83"/>
+				<field name="C10414" index="84"/>
+				<field name="C10415" index="85"/>
+				<field name="C10416" index="86"/>
+				<field name="C10417" index="87"/>
+				<field name="C10418" index="88"/>
+				<field name="C10419" index="89"/>
+				<field name="C10420" index="90"/>
+				<field name="C10421" index="91"/>
+				<field name="C10422" index="92"/>
+				<field name="C10423" index="93"/>
+				<field name="C10424" index="94"/>
+				<field name="C10425" index="95"/>
+				<field name="C10426" index="96"/>
+				<field name="C10427" index="97"/>
+				<field name="C10428" index="98"/>
+				<field name="C10429" index="99"/>
+				<field name="C10430" index="100"/>
+				<field name="C10431" index="101"/>
+				<field name="C10432" index="102"/>
+				<field name="C10433" index="103"/>
+				<field name="C10434" index="104"/>
+				<field name="C10435" index="105"/>
+				<field name="C10436" index="106"/>
+				<field name="C10437" index="107"/>
+				<field name="C10438" index="108"/>
+				<field name="C10439" index="109"/>
+				<field name="C10440" index="110"/>
+				<field name="C10441" index="111"/>
+				<field name="C10442" index="112"/>
+				<field name="C10443" index="113"/>
+				<field name="C10444" index="114"/>
+				<field name="C10445" index="115"/>
+				<field name="C10446" index="116"/>
+				<field name="C10447" index="117"/>
+				<field name="C10448" index="118"/>
+				<field name="C10449" index="119"/>
+				<field name="C10450" index="120"/>
+				<field name="C10451" index="121"/>
+				<field name="C10452" index="122"/>
+				<field name="C10453" index="123"/>
+				<field name="C10454" index="124"/>
+				<field name="C10455" index="125"/>
+				<field name="C10456" index="126"/>
+				<field name="C10457" index="127"/>
+				<field name="C10458" index="128"/>
+				<field name="C10459" index="129"/>
+				<field name="C10460" index="130"/>
+				<field name="C10461" index="131"/>
+				<field name="C10462" index="132"/>
+				<field name="C10463" index="133"/>
+				<field name="C10464" index="134"/>
+				<field name="C10465" index="135"/>
+				<field name="C10466" index="136"/>
+				<field name="C10467" index="137"/>
+				<field name="C10468" index="138"/>
+				<field name="C10469" index="139"/>
+				<field name="C10470" index="140"/>
+				<field name="C10471" index="141"/>
+				<field name="C10472" index="142"/>
+				<field name="C10473" index="143"/>
+				<field name="DOMAINID" index="144"/>
+				<field name="SITEID" index="145"/>
+				<field name="TIME" index="146"/>
+			</fields>
+		</ds>
+	</templet>
+
+</templets>

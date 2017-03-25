@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+	<templet id="0" file="%%Y%%M%%D.csv" skipLine="1">
+		<dsid="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="Pilot Sector Name"  index="0"/>
+				<field name="SID"  index="1"/>
+				<field name="NID"  index="2"/>
+				<field name="Extend BID"  index="3"/>
+				<field name="T-PN"  index="4"/>
+				<field name="Antenna Lati"  index="5"/>
+				<field name="Antenna Longi"  index="6"/>
+				<field name="Antenna Alti"  index="7"/>
+				<field name="Antenna Loc Accu"  index="8"/>
+				<field name="Sector Center Lati"  index="9"/>
+				<field name="Sector Center Longi"  index="10"/>
+				<field name="Sector Center Alti"  index="11"/>
+				<field name="Antenna Orientation"  index="12"/>
+				<field name="Antenna Opening"  index="13"/>
+				<field name="Max Antenna Range"  index="14"/>
+				<field name="Terrain Average Height"  index="15"/>
+				<field name="Terrain Height Standard Deviation"  index="16"/>
+				<field name="Potential Repeater "  index="17"/>
+				<field name="PN Increment"  index="18"/>
+				<field name="FWD Calib"  index="19"/>
+				<field name="FWD Calib Accu"  index="20"/>
+				<field name="RTD Calib"  index="21"/>
+				<field name="RTD Calib Accu"  index="22"/>
+				<field name="Format Type"  index="23"/>
+				<field name="Switch Num"  index="24"/>
+				
+			</fields>
+		</ds>
+	</templet>
+
+</templets>

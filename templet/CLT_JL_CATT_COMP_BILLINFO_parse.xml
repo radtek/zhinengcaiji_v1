@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templets>
+	<templet id="0" file="JL_COMPLAINT_%%Y%%M%%D_*.data" encoding="gbk">
+		<ds id="0">
+			<meta>
+				<head multiSplitSign="|" />
+			</meta>
+			<fields splitSign="|">
+        <field name="申告流水号"   index="3"/>
+        <field name="城市"   index="4"/>
+        <field name="申告手机号码"   index="5"/>
+        <field name="申告用户姓名"   index="6"/>
+        <field name="联系人"   index="7"/>
+        <field name="联系电话"   index="8"/>
+        <field name="障碍地址"   index="9"/>
+        <field name="客户类型"   index="10"/>
+        <field name="会员属性"   index="11"/>
+        <field name="申告单状态"   index="12"/>
+        <field name="业务类别"   index="13"/>
+        <field name="客服管控分类"   index="14"/>
+        <field name="客服现象大类"   index="15"/>
+        <field name="客服现象小类"   index="16"/>
+        <field name="详细描述"   index="17"/>
+        <field name="预处理信息"   index="18"/>
+        <field name="紧急程度"   index="19"/>
+        <field name="受理时间"   index="20"/>
+        <field name="用户期望结案日期"   index="21"/>
+        <field name="是否回访"   index="22"/>
+        <field name="回访时间"   index="23"/>
+        <field name="客户满意度"   index="24"/>
+        <field name="结案时间"   index="25"/>
+        <field name="结案人"   index="26"/>
+        <field name="结案描述"   index="27"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

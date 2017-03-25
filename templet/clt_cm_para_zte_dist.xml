@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<templets>
+- <templet   id="0">
+- <table id="0" name="CLT_CM_R_3G_T_CARRIER_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="GROUPID" index="4" /> 
+  <column name="SECTORID" index="5" /> 
+  <column name="BAND_CLASS" index="6" /> 
+  <column name="CDMA_FREQ" index="7" /> 
+  <column name="QPCH_HASH_IND" index="8" /> 
+  <column name="QPCH_SUPPORTED" index="9" /> 
+  <column name="ENHANCE_RC_SUPPORT" index="10" /> 
+  <column name="BCCH_SUPPORT" index="11" /> 
+  <column name="TD_MODE" index="12" /> 
+  <column name="TD_HASH_IND" index="13" /> 
+  <column name="TD_POWER_LEVEL" index="14" /> 
+  <column name="NOM_PWR" index="15" /> 
+  <column name="NOM_PWR_EXT" index="16" /> 
+  <column name="INCRITICALCELL" index="17" /> 
+  <column name="FIRST_LIST" index="18" /> 
+  <column name="REVERSE_PRE_LEN" index="19" /> 
+  <column name="T_DROP_SSHO_VOICE" index="20" /> 
+  <column name="RTD_THRESHOLD_VOICE" index="21" /> 
+  <column name="T_DROP_SSHO_DATA" index="22" /> 
+  <column name="RTD_THRESHOLD_DATA" index="23" /> 
+  <column name="MAX_IDEALPILOTPWR" index="24" /> 
+  <column name="CONTROLTHRESHOLD" index="25" /> 
+  <column name="ADJUSTMENTPROPORTION" index="26" /> 
+  <column name="FILTERPARA" index="27" /> 
+  <column name="CARRIERCALLTHRESHOLD" index="28" /> 
+  <column name="CALLCOMTHRESHOLD" index="29" /> 
+  <column name="STATUS" index="30" /> 
+  <column name="ISBEACON" index="31" /> 
+  <column name="CARRIERTYPE" index="32" /> 
+  <column name="GSRDM_ACCOLC_0" index="33" /> 
+  <column name="GSRDM_ACCOLC_1" index="34" /> 
+  <column name="GSRDM_ACCOLC_2" index="35" /> 
+  <column name="GSRDM_ACCOLC_3" index="36" /> 
+  <column name="GSRDM_ACCOLC_4" index="37" /> 
+  <column name="GSRDM_ACCOLC_5" index="38" /> 
+  <column name="GSRDM_ACCOLC_6" index="39" /> 
+  <column name="GSRDM_ACCOLC_7" index="40" /> 
+  <column name="GSRDM_ACCOLC_8" index="41" /> 
+  <column name="GSRDM_ACCOLC_9" index="42" /> 
+  <column name="GSRDM_ACCOLC_10" index="43" /> 
+  <column name="GSRDM_ACCOLC_11" index="44" /> 
+  <column name="GSRDM_ACCOLC_12" index="45" /> 
+  <column name="GSRDM_ACCOLC_13" index="46" /> 
+  <column name="GSRDM_ACCOLC_14" index="47" /> 
+  <column name="GSRDM_ACCOLC_15" index="48" /> 
+  <column name="GSRDM_REDT_ACCOLC" index="49" /> 
+  <column name="GSRDM_RETURN_IF_FAIL" index="50" /> 
+  <column name="GSRDM_DELETE_TMSI" index="51" /> 
+  <column name="GSRDM_EXCL_P_REV_MS" index="52" /> 
+  <column name="EGSRD_REDT_P_REV_INL" index="53" /> 
+  <column name="EGSRD_EXCL_P_REV_IND" index="54" /> 
+  <column name="EGSRD_REDT_P_MIN" index="55" /> 
+  <column name="EGSRD_REDT_P_MAX" index="56" /> 
+  <column name="GSRDM_RECORD_TYPE" index="57" /> 
+  <column name="GSRDM_BAND_CLASS" index="58" /> 
+  <column name="GSRDM_EXPECTED_SID" index="59" /> 
+  <column name="GSRDM_EXPECTED_NID" index="60" /> 
+  <column name="GSRDM_CDMA_CHAN0" index="61" /> 
+  <column name="GSRDM_CDMA_CHAN1" index="62" /> 
+  <column name="GSRDM_CDMA_CHAN2" index="63" /> 
+  <column name="GSRDM_CDMA_CHAN3" index="64" /> 
+  <column name="GSRDM_CDMA_CHAN4" index="65" /> 
+  <column name="GSRDM_CDMA_CHAN5" index="66" /> 
+  <column name="GSRDM_CDMA_CHAN6" index="67" /> 
+  <column name="GSRDM_CDMA_CHAN7" index="68" /> 
+  <column name="GSRDM_CDMA_CHAN8" index="69" /> 
+  <column name="GSRDM_CDMA_CHAN9" index="70" /> 
+  <column name="GSRDM_CDMA_CHAN10" index="71" /> 
+  <column name="GSRDM_CDMA_CHAN11" index="72" /> 
+  <column name="GSRDM_CDMA_CHAN12" index="73" /> 
+  <column name="GSRDM_CDMA_CHAN13" index="74" /> 
+  <column name="GSRDM_CDMA_CHAN14" index="75" /> 
+  <column name="GSRDM_NUM_CHANS" index="76" /> 
+  <column name="RESERVED1" index="77" /> 
+  <column name="RESERVED2" index="78" /> 
+  <column name="ALIAS_B" index="79" type="2" format="4000" /> 
+  <column name="SWITCH1" index="80" /> 
+  <column name="SWITCH2" index="81" /> 
+  <column name="SWITCH3" index="82" /> 
+  <column name="SWITCH4" index="83" /> 
+  <column name="SWITCH5" index="84" /> 
+  <column name="SWITCH6" index="85" /> 
+  <column name="SWITCH7" index="86" /> 
+  <column name="SWITCH8" index="87" /> 
+  <column name="SWITCH9" index="88" /> 
+  <column name="SWITCH10" index="89" /> 
+  <column name="DIVERSITYSECTORID" index="90" /> 
+  <column name="SECTORGAIN" index="91" /> 
+  <column name="POWEROFFTIME_START" index="92" /> 
+  <column name="POWEROFFTIME_END" index="93" /> 
+  </table>
+  </templet>
+- <templet   id="1">
+- <table id="0" name="CLT_CM_R_3G_T_CELL_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="SID" index="3" /> 
+  <column name="NID" index="4" /> 
+  <column name="LAC" index="5" /> 
+  <column name="CI" index="6" /> 
+  <column name="PILOT_PN" index="7" /> 
+  <column name="PILOT_INC" index="8" /> 
+  <column name="SRCH_WIN_A" index="9" /> 
+  <column name="SRCH_WIN_N" index="10" /> 
+  <column name="SRCH_WIN_R" index="11" /> 
+  <column name="NGHBR_MAX_AGE" index="12" /> 
+  <column name="RESCAN" index="13" /> 
+  <column name="RLGAIN_TRAFFIC_PILOT" index="14" /> 
+  <column name="RLGAIN_SCH_PILOT" index="15" /> 
+  <column name="RADIUS" index="16" /> 
+  <column name="P_REV" index="17" /> 
+  <column name="MIN_P_REV" index="18" /> 
+  <column name="STANDARDP_REV_SUPPORT" index="19" /> 
+  <column name="BASE_LAT" index="20" /> 
+  <column name="BASE_LONG" index="21" /> 
+  <column name="T_MULCHAN" index="22" /> 
+  <column name="ENC_SUPPORTED" index="23" /> 
+  <column name="RCCLASS2_SUPPORT" index="24" /> 
+  <column name="NGHBR_CELL_NUM" index="25" /> 
+  <column name="HANDOFFMODE" index="26" /> 
+  <column name="T_COMP_PS" index="27" /> 
+  <column name="STATUS" index="28" /> 
+  <column name="OVER_LAC_INCL1" index="29" /> 
+  <column name="OVER_LAC1" index="30" /> 
+  <column name="OVER_LAC_INCL2" index="31" /> 
+  <column name="OVER_LAC2" index="32" /> 
+  <column name="RESERVED1" index="33" /> 
+  <column name="RESERVED2" index="34" /> 
+  <column name="STDSYNCCH" index="35" /> 
+  <column name="GOS_B" index="36" /> 
+  <column name="BAND_CLASS" index="37" /> 
+  <column name="CELLMODE" index="38" /> 
+  <column name="MAXRACHSEARCHFRA" index="39" /> 
+  <column name="MAXRACHSEPARATION" index="40" /> 
+  <column name="DLA_ID" index="41" /> 
+  <column name="ALIAS_B" index="42" type="2" format="4000" /> 
+  <column name="SWITCH1" index="43" /> 
+  <column name="SWITCH2" index="44" /> 
+  <column name="SWITCH3" index="45" /> 
+  <column name="SWITCH4" index="46" /> 
+  <column name="SWITCH5" index="47" /> 
+  <column name="SWITCH6" index="48" /> 
+  <column name="SWITCH7" index="49" /> 
+  <column name="SWITCH8" index="50" /> 
+  <column name="SWITCH9" index="51" /> 
+  <column name="SWITCH10" index="52" /> 
+  <column name="PTT_BCAST_INDEX" index="53" /> 
+  <column name="SIGN_SLOT_CYCLE_IND" index="54" /> 
+  <column name="MAX_PTT_SCI" index="55" /> 
+  <column name="FIX_SEARCH_WINDOW" index="56" /> 
+  <column name="PR_LENGTH" index="57" /> 
+  <column name="TR_LENGTH" index="58" /> 
+  <column name="MAX_RESEND_NUM" index="59" /> 
+  <column name="DIVERSITYMODE" index="60" /> 
+  <column name="SECTORLOC" index="61" /> 
+  <column name="MAXCALLDISTANCE" index="62" /> 
+  <column name="CARRIERKEEPPWR_VOICE" index="63" /> 
+  <column name="CARRIERKEEPPWR_DATA" index="64" /> 
+  <column name="LOADBALANCEPWR_VOICE" index="65" /> 
+  <column name="LOADBALANCEPWR_DATA" index="66" /> 
+  <column name="CARRIERKEEPFCH_VOICE" index="67" /> 
+  <column name="CARRIERKEEPFCH_DATA" index="68" /> 
+  <column name="LOADBALANCEFCH_VOICE" index="69" /> 
+  <column name="LOADBALANCEFCH_DATA" index="70" /> 
+  <column name="MSCOFFICEID" index="71" /> 
+  <column name="EVRCBOPERATINGPOINT" index="72" /> 
+  <column name="HARDHANDOFF_COMP" index="73" /> 
+  <column name="HARDHANDOFF_TIMER" index="74" /> 
+  <column name="PTT_RLGAIN_ADJ" index="75" /> 
+  <column name="SIGNAL_PWRSTEP" index="76" /> 
+  <column name="PTT_RLGAINADJ_NOACK" index="77" /> 
+  <column name="PTT_RLGAINADJ_EXT" index="78" /> 
+  <column name="SERVICERESTRICTMODE" index="79" /> 
+  <column name="PHYCELLID" index="80" /> 
+  <column name="ISSAMEPNSECTOR" index="81" /> 
+  <column name="REFCELLID" index="82" /> 
+  <column name="LONGLATLOCK_B" index="83" /> 
+  <column name="DLA_HIGH" index="84" /> 
+  <column name="DLA_LOW" index="85" /> 
+  <column name="PTTBC_PILOT_REPORT" index="86" /> 
+  <column name="BASE_LAT_B" index="87" /> 
+  <column name="BASE_LONG_B" index="88" /> 
+  <column name="PTTBC_SNCAMPWRADJ" index="89" /> 
+  </table>
+  </templet>
+- <templet   id="2">
+- <table id="0" name="CLT_CM_R_H_S_HO_PARA_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="PILOTINCREMENT" index="3" /> 
+  <column name="SEARCHWINDOWACTIVE" index="4" /> 
+  <column name="SEARCHWINDOWNB" index="5" /> 
+  <column name="SEARCHWINDOWREM" index="6" /> 
+  <column name="PILOTADD1" index="7" /> 
+  <column name="PILOTCOMPARE1" index="8" /> 
+  <column name="PILOTDROP1" index="9" /> 
+  <column name="PILOTDROPTIMER1" index="10" /> 
+  <column name="DYNAMICTHRESH1" index="11" /> 
+  <column name="SOFTSLOPE1" index="12" /> 
+  <column name="ADDINTERCEPT1" index="13" /> 
+  <column name="DROPINTERCEPT1" index="14" /> 
+  <column name="NEIGHBORMAXAGE1" index="15" /> 
+  <column name="PILOTADD2" index="16" /> 
+  <column name="PILOTCOMPARE2" index="17" /> 
+  <column name="PILOTDROP2" index="18" /> 
+  <column name="PILOTDROPTIMER2" index="19" /> 
+  <column name="DYNAMICTHRESH2" index="20" /> 
+  <column name="SOFTSLOPE2" index="21" /> 
+  <column name="ADDINTERCEPT2" index="22" /> 
+  <column name="DROPINTERCEPT2" index="23" /> 
+  <column name="NEIGHBORMAXAGE2" index="24" /> 
+  <column name="ATTROVERRIDEALLOWED" index="25" /> 
+  <column name="RURADIUSMULTIPLY" index="26" /> 
+  <column name="RURADIUSADD" index="27" /> 
+  </table>
+  </templet>
+- <templet   id="3">
+- <table id="0" name="CLT_CM_R_3G_T_ACCESS_PARA_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="INIT_PWR" index="4" /> 
+  <column name="PWR_STEP" index="5" /> 
+  <column name="NUM_STEP" index="6" /> 
+  <column name="MAX_CAP_SZ" index="7" /> 
+  <column name="PAM_SZ" index="8" /> 
+  <column name="PSIST0_9" index="9" /> 
+  <column name="PSIST10" index="10" /> 
+  <column name="PSIST11" index="11" /> 
+  <column name="PSIST12" index="12" /> 
+  <column name="PSIST13" index="13" /> 
+  <column name="PSIST14" index="14" /> 
+  <column name="PSIST15" index="15" /> 
+  <column name="MSG_PSIST" index="16" /> 
+  <column name="REG_PSIST" index="17" /> 
+  <column name="PROBE_PN_RAN" index="18" /> 
+  <column name="ACC_TMO" index="19" /> 
+  <column name="PROBE_BKOFF" index="20" /> 
+  <column name="BKOFF" index="21" /> 
+  <column name="MAX_REQ_SEQ" index="22" /> 
+  <column name="MAX_RSP_SEQ" index="23" /> 
+  <column name="PSIST_EMG_INCL" index="24" /> 
+  <column name="PSIST_EMG" index="25" /> 
+  <column name="ACC_ACQUISIT_SCH_W" index="26" /> 
+  <column name="ACC_DEMODULAT_SRCH_W" index="27" /> 
+  <column name="ACH_OUTLOCK_THRESH" index="28" /> 
+  <column name="ACH_INLOCK_THRESH" index="29" /> 
+  <column name="ACH_COMBINE_THRESH" index="30" /> 
+  <column name="ACH_ACQ_THRESH" index="31" /> 
+  <column name="ACH_DEMOD_THRESH" index="32" /> 
+  <column name="ACH_FINGER_INIT" index="33" /> 
+  <column name="ACCESSMSGMONITORTIMER" index="34" /> 
+  <column name="ENBLACCESSMSGMONITOR" index="35" /> 
+  <column name="ACCT_INCL" index="36" /> 
+  <column name="DACH_PAM_SZ" index="37" /> 
+  <column name="DACHCAPABILITY" index="38" /> 
+  <column name="MAXDACHNUM" index="39" /> 
+  <column name="ENABLERRI" index="40" /> 
+  <column name="SEARCHSTARTOFFSET" index="41" /> 
+  <column name="ACHOVERLOADTHRESHOLD" index="42" /> 
+  <column name="ACHPROTECTTHRESHOLD" index="43" /> 
+  <column name="PSIST0_9_OVERLOAD" index="44" /> 
+  <column name="QUICK_MAX_CAP_SZ" index="45" /> 
+  <column name="QUICK_PAM_SZ" index="46" /> 
+  </table>
+  </templet>
+- <templet   id="4">
+- <table id="0" name="CLT_CM_R_3G_T_NGLISTINFO_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="PILOT_PN" index="3" /> 
+  <column name="CARRIERID" index="4" /> 
+  <column name="MSCID" index="5" /> 
+  <column name="CI" index="6" /> 
+  <column name="OFFICEID" index="7" /> 
+  <column name="NGHBR_CONFIG" index="8" /> 
+  <column name="SEARCH_PRIORITY" index="9" /> 
+  <column name="SRCH_WIN_NGHBR" index="10" /> 
+  <column name="FREQ_INCL" index="11" /> 
+  <column name="NGHBR_BAND" index="12" /> 
+  <column name="NGHBR_FREQ" index="13" /> 
+  <column name="ACCESS_ENTRY_HO" index="14" /> 
+  <column name="ACCESS_HO_ALLOWED" index="15" /> 
+  <column name="TIMING_INCL" index="16" /> 
+  <column name="NGHBR_TX_OFFSET" index="17" /> 
+  <column name="NGHBR_TX_DURATION" index="18" /> 
+  <column name="NGHBR_TX_PERIOD" index="19" /> 
+  <column name="ADD_PILOT_REC_INCL" index="20" /> 
+  <column name="NGHBR_PILOT_REC_TYPE" index="21" /> 
+  <column name="SRCH_OFFSET_NGHBR" index="22" /> 
+  <column name="SEQUENCE_B" index="23" /> 
+  <column name="LOCKED_B" index="24" /> 
+  <column name="ALIAS_B" index="25" type="2" format="4000" /> 
+  <column name="NCELL_BS_ID" index="26" /> 
+  </table>
+  </templet>
+- <templet   id="5">
+- <table id="0" name="CLT_CM_R_3G_T_HANDOFF_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="T_ADD_VOICE" index="3" /> 
+  <column name="T_ADD_DATA" index="4" /> 
+  <column name="T_DROP_VOICE" index="5" /> 
+  <column name="T_DROP_DATA" index="6" /> 
+  <column name="T_COMP_VOICE" index="7" /> 
+  <column name="T_COMP_DATA" index="8" /> 
+  <column name="T_TDROP_VOICE" index="9" /> 
+  <column name="T_TDROP_DATA" index="10" /> 
+  <column name="HO_OPTION" index="11" /> 
+  <column name="T_INTENSITY" index="12" /> 
+  <column name="T_COMP_HARD_VOICE" index="13" /> 
+  <column name="T_COMP_FOREIGN_VOICE" index="14" /> 
+  <column name="SOFT_SLOPE_VOICE" index="15" /> 
+  <column name="SOFT_SLOPE_DATA" index="16" /> 
+  <column name="ADD_INTERCEPT_VOICE" index="17" /> 
+  <column name="ADD_INTERCEPT_DATA" index="18" /> 
+  <column name="DROP_INTERCEPT_VOICE" index="19" /> 
+  <column name="DROP_INTERCEPT_DATA" index="20" /> 
+  <column name="SEARCH_TYPE" index="21" /> 
+  <column name="SEARCH_PERIOD" index="22" /> 
+  <column name="SEARCH_MODE" index="23" /> 
+  <column name="ALIGN_TIMING" index="24" /> 
+  <column name="SEARCH_OFFSET" index="25" /> 
+  <column name="SF_TOTAL_EC_THRESH" index="26" /> 
+  <column name="SF_TOTAL_EC_IO_THRESH" index="27" /> 
+  <column name="DIFF_RX_PWR_THRESH" index="28" /> 
+  <column name="MIN_TOTAL_PILOT_EC_IO" index="29" /> 
+  <column name="TF_WAIT_TIME" index="30" /> 
+  <column name="FSCHSETUPTHRESHHOLD" index="31" /> 
+  <column name="FSCHSETUPPOSSIBILITY" index="32" /> 
+  <column name="FSCHCOMPARETHRESH" index="33" /> 
+  <column name="CF_T_ADD" index="34" /> 
+  <column name="PILOT_UPDATE" index="35" /> 
+  <column name="CF_NGHBR_SRCH_MODE" index="36" /> 
+  <column name="USE_FWDSCH_SHO" index="37" /> 
+  <column name="T_FWDSCH_ADD" index="38" /> 
+  <column name="T_FWDSCH_DROP" index="39" /> 
+  <column name="T_FWDSCH_COMP" index="40" /> 
+  <column name="T_FWDSCH_TTDROP" index="41" /> 
+  <column name="FWDSCH_ACTIVE_SET" index="42" /> 
+  <column name="T_FWDSCH_HARD_COMP" index="43" /> 
+  <column name="USE_REVSCH_SHO" index="44" /> 
+  <column name="T_REVSCH_ADD" index="45" /> 
+  <column name="T_REVSCH_DROP" index="46" /> 
+  <column name="T_REVSCH_COMP" index="47" /> 
+  <column name="T_REVSCH_TTDROP" index="48" /> 
+  <column name="REVSCH_ACTIVE_LEG" index="49" /> 
+  <column name="T_REVSCH_HARD_COMP" index="50" /> 
+  <column name="REVSCHSETUPPOSSIBILITY" index="51" /> 
+  <column name="REPORTBYTHRESHOLD" index="52" /> 
+  <column name="RREPORTUPTHRESHOLD" index="53" /> 
+  <column name="RREPORTLOWTHRESHOLD" index="54" /> 
+  <column name="REPORTBYPERIOD" index="55" /> 
+  <column name="REVSCHREPORTPERIOD" index="56" /> 
+  <column name="REVTWOLEG_COMP" index="57" /> 
+  <column name="REVSELLEGALGORITHM" index="58" /> 
+  <column name="FWDSELCELLALGORITHM" index="59" /> 
+  <column name="T_COMP_HARD_PTT" index="60" /> 
+  <column name="T_COMP_FOREIGN_PTT" index="61" /> 
+  <column name="T_COMP_HARD_DATA" index="62" /> 
+  <column name="T_COMP_FOREIGN_DATA" index="63" /> 
+  <column name="T_BSS_DATA_DROP" index="64" /> 
+  <column name="T_BSS_DATA_SLOPE" index="65" /> 
+  <column name="TRIZWEAKPSTHRESHOLD" index="66" /> 
+  <column name="TRIZSTRONGPSDELTA" index="67" /> 
+  <column name="TRIZWEAKPSDELTA" index="68" /> 
+  <column name="TRIZFSCHSLOPE" index="69" /> 
+  <column name="TRIZMAXFSCHHONUM" index="70" /> 
+  <column name="FSCHDROPPOSSIBILITY" index="71" /> 
+  <column name="TRIZFSCHECIO32XCON" index="72" /> 
+  <column name="TRIZFSCHECIO16XCON" index="73" /> 
+  <column name="TRIZFSCHECIO8XCON" index="74" /> 
+  <column name="TRIZFSCHECIO4XCON" index="75" /> 
+  <column name="TRIZFSCHECIO2XCON" index="76" /> 
+  <column name="SOFT_SLOPE_BS" index="77" /> 
+  <column name="ADD_INTERCEPT_BS" index="78" /> 
+  <column name="DROP_INTERCEPT_BS" index="79" /> 
+  <column name="T_COMP_DROP" index="80" /> 
+  <column name="T_FWDSCH_HARD_ABS" index="81" /> 
+  <column name="T_FWDSCH_HARD_GAP" index="82" /> 
+  </table>
+  </templet>
+- <templet   id="6">
+- <table id="0" name="CLT_CM_R_3G_T_SYS_PARA_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="REG_ZONE" index="3" /> 
+  <column name="TOTAL_ZONES" index="4" /> 
+  <column name="ZONE_TIMER" index="5" /> 
+  <column name="MULT_SIDS" index="6" /> 
+  <column name="MULT_NIDS" index="7" /> 
+  <column name="BASE_ID" index="8" /> 
+  <column name="BASE_CLASS" index="9" /> 
+  <column name="HOME_REG" index="10" /> 
+  <column name="FOR_SID_REG" index="11" /> 
+  <column name="FOR_NID_REG" index="12" /> 
+  <column name="POWER_UP_REG" index="13" /> 
+  <column name="POWER_DOWN_REG" index="14" /> 
+  <column name="PARAMETER_REG" index="15" /> 
+  <column name="REG_PRD" index="16" /> 
+  <column name="REG_DIST" index="17" /> 
+  <column name="AUTH" index="18" /> 
+  <column name="RAND" index="19" /> 
+  <column name="RESELECT_INCLUDED" index="20" /> 
+  <column name="EC_THRESH" index="21" /> 
+  <column name="EC_IO_THRESH" index="22" /> 
+  <column name="LTM_OFF" index="23" /> 
+  <column name="MAX_SLOT_CYCLE_INDEX" index="24" /> 
+  <column name="PREF_MSID_TYPE" index="25" /> 
+  <column name="BCAST_INDEX" index="26" /> 
+  <column name="DAYLT" index="27" /> 
+  <column name="EXT_SYS_PARAMETER" index="28" /> 
+  <column name="EXT_NGHBR_LIST" index="29" /> 
+  <column name="GEN_NGHBR_LIST" index="30" /> 
+  <column name="GLOBAL_REDIRECT" index="31" /> 
+  <column name="PRI_NGHBR_LIST" index="32" /> 
+  <column name="USER_ZONE_ID" index="33" /> 
+  <column name="EXT_GLOBAL_REDIRECT" index="34" /> 
+  <column name="EXT_CHAN_LIST" index="35" /> 
+  <column name="DELETE_FOR_TMSI" index="36" /> 
+  <column name="USE_TMSI" index="37" /> 
+  <column name="IMSI_T_SUPPORTED" index="38" /> 
+  <column name="MAX_ALTSO" index="39" /> 
+  <column name="PILOT_REPORT" index="40" /> 
+  <column name="NGHBR_SET_ENTRY_INFO" index="41" /> 
+  <column name="ACC_ENT_HO_ORDER" index="42" /> 
+  <column name="NGHBR_SET_ACCESS_INFO" index="43" /> 
+  <column name="ACCESS_HO" index="44" /> 
+  <column name="ACCESS_HO_MSG_RSP" index="45" /> 
+  <column name="ACCESS_PROBE_HO" index="46" /> 
+  <column name="ACC_HO_LIST_UPD" index="47" /> 
+  <column name="ACC_PROBE_HO_OTHER_MSG" index="48" /> 
+  <column name="MAX_NUM_PROBE_HO" index="49" /> 
+  <column name="BROADCAST_GPS_ASST" index="50" /> 
+  <column name="SDB_SUPPORTED" index="51" /> 
+  <column name="REV_PWR_CNTL_DELAY_INCL" index="52" /> 
+  <column name="REV_PWR_CNTL_DELAY" index="53" /> 
+  <column name="AUTO_MSG_SUPPORT" index="54" /> 
+  <column name="MOB_QOS" index="55" /> 
+  <column name="USE_SYNC_ID" index="56" /> 
+  <column name="BCCH_SUPPORTED" index="57" /> 
+  <column name="MS_INIT_POS_LOC_SUP_IND" index="58" /> 
+  <column name="PILOT_INFO_REQ_SUPPORTED" index="59" /> 
+  <column name="SRDM_ENABLE" index="60" /> 
+  <column name="SRDM_RETURN_IF_FAIL" index="61" /> 
+  <column name="SRDM_DELETE_TMSI" index="62" /> 
+  <column name="SRDM_REDIRECT_TYPE" index="63" /> 
+  <column name="SRDM_RECORD_TYPE" index="64" /> 
+  <column name="SRDM_BAND_CLASS" index="65" /> 
+  <column name="SRDM_EXPECTED_SID" index="66" /> 
+  <column name="SRDM_EXPECTED_NID" index="67" /> 
+  <column name="SRDM_NUM_CHANS" index="68" /> 
+  <column name="SRDM_CDMA_CHAN0" index="69" /> 
+  <column name="SRDM_CDMA_CHAN1" index="70" /> 
+  <column name="SRDM_CDMA_CHAN2" index="71" /> 
+  <column name="SRDM_CDMA_CHAN3" index="72" /> 
+  <column name="SRDM_CDMA_CHAN4" index="73" /> 
+  <column name="SRDM_CDMA_CHAN5" index="74" /> 
+  <column name="SRDM_CDMA_CHAN6" index="75" /> 
+  <column name="SRDM_CDMA_CHAN7" index="76" /> 
+  <column name="SRDM_CDMA_CHAN8" index="77" /> 
+  <column name="SRDM_CDMA_CHAN9" index="78" /> 
+  <column name="SRDM_CDMA_CHAN10" index="79" /> 
+  <column name="SRDM_CDMA_CHAN11" index="80" /> 
+  <column name="SRDM_CDMA_CHAN12" index="81" /> 
+  <column name="SRDM_CDMA_CHAN13" index="82" /> 
+  <column name="SRDM_CDMA_CHAN14" index="83" /> 
+  <column name="CHM_OL_BALANCE_IND" index="84" /> 
+  <column name="REG_CHECKSUM_REP" index="85" /> 
+  <column name="REG_PRD_OVERLOAD" index="86" /> 
+  <column name="PTT_SERVICE_SUP_IND" index="87" /> 
+  <column name="PAGECH_PRAT" index="88" /> 
+  </table>
+  </templet>
+- <templet   id="7">
+- <table id="0" name="CLT_CM_R_3G_T_CH_PARA_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="SEARCH_OFFSET" index="4" /> 
+  <column name="TRAF_ACQUISIT_SCH_W" index="5" /> 
+  <column name="TRAF_DEMODULAT_SCH_W" index="6" /> 
+  <column name="PWR_CTRL_GAIN_OFFSET" index="7" /> 
+  <column name="PWRCTRLGAIN" index="8" /> 
+  <column name="SYMBOLGAIN" index="9" /> 
+  <column name="FWD_DISTRIBUT_DELY" index="10" /> 
+  <column name="REV_DISTRIBUT_DELY" index="11" /> 
+  <column name="TX_PWR_FLT_DECAY_CON" index="12" /> 
+  <column name="TCH_OUTLOCK_THRESH" index="13" /> 
+  <column name="TCH_INLOCK_THRESH" index="14" /> 
+  <column name="TCH_COMBINE_THRESH" index="15" /> 
+  <column name="TCH_ACQ_THRESH" index="16" /> 
+  <column name="TCH_DEMOD_THRESH" index="17" /> 
+  <column name="TCH_FINGER_INIT" index="18" /> 
+  <column name="EW_NO_INDEX" index="19" /> 
+  <column name="OTR_PWR_CTRL_ENBL" index="20" /> 
+  <column name="DGTLTXPWRESTIMATRT" index="21" /> 
+  <column name="TRAFFIC_TO_PILOTGAINRATIO" index="22" /> 
+  <column name="FWDPWRESTIMATENBL" index="23" /> 
+  <column name="CHANNELPOWER_SCH" index="24" /> 
+  <column name="RPCPUNCMODE" index="25" /> 
+  <column name="REVPCPATTERN" index="26" /> 
+  <column name="FWDSCHALLOWED" index="27" /> 
+  <column name="FWDSCHRCPREF" index="28" /> 
+  <column name="FWDCODINGTYPE" index="29" /> 
+  <column name="FWDSCHMAXRATE" index="30" /> 
+  <column name="FWDMUXOPTIONPREF" index="31" /> 
+  <column name="REVSCHALLOWED" index="32" /> 
+  <column name="REVSCHRCPREF" index="33" /> 
+  <column name="REVCODINGTYPE" index="34" /> 
+  <column name="REVSCHMAXRATE" index="35" /> 
+  <column name="REVMUXOPTIONPREF" index="36" /> 
+  <column name="REVDTXDURATION" index="37" /> 
+  <column name="PCSETPOINT" index="38" /> 
+  <column name="PCSETPOINT_RC1" index="39" /> 
+  <column name="PCSETPOINT_RC2" index="40" /> 
+  <column name="PCSETPOINT_RC3" index="41" /> 
+  <column name="PCSETPOINT_RC4" index="42" /> 
+  <column name="FWDSCHMAXRATE_MUSER" index="43" /> 
+  <column name="FWDMOPREF_MUSER" index="44" /> 
+  <column name="REVSCHMAXRATE_MUSER" index="45" /> 
+  <column name="REVMOPREF_MUSER" index="46" /> 
+  <column name="FWDSCHMAXRATE_LUSER" index="47" /> 
+  <column name="FWDMOPREF_LUSER" index="48" /> 
+  <column name="REVSCHMAXRATE_LUSER" index="49" /> 
+  <column name="REVMOPREF_LUSER" index="50" /> 
+  <column name="FSCHRLSPERIOD" index="51" /> 
+  <column name="FSCHRLSTHRESHOLD" index="52" /> 
+  <column name="FSCHRLSMODE" index="53" /> 
+  </table>
+  </templet>
+- <templet   id="8">
+- <table id="0" name="CLT_CM_R_H_T_ACC_PARA_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="ACCESSCYCLEDURATION" index="4" /> 
+  <column name="OPENLOOPADJUST" index="5" /> 
+  <column name="PROBEINITIALADJUST" index="6" /> 
+  <column name="PROBENUMSTEP" index="7" /> 
+  <column name="POWERSTEP" index="8" /> 
+  <column name="APERSISTENCE0" index="9" /> 
+  <column name="APERSISTENCE1" index="10" /> 
+  <column name="APERSISTENCE2" index="11" /> 
+  <column name="APERSISTENCE3" index="12" /> 
+  <column name="ACHDURATIONFOR5500" index="13" /> 
+  <column name="ACHDURATIONFOR6800" index="14" /> 
+  <column name="ENACCPARAINCLUDED" index="15" /> 
+  <column name="ACCESSOFFSET" index="16" /> 
+  <column name="ACCESSTERMINALCLASS" index="17" /> 
+  <column name="SECTORACCESSMAXRATE" index="18" /> 
+  </table>
+  </templet>
+- <templet   id="9">
+- <table id="0" name="CLT_CM_R_3G_T_PAGE_CH_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="QOF" index="4" /> 
+  <column name="WALSH_LEN" index="5" /> 
+  <column name="WALSH" index="6" /> 
+  <column name="SUBSYSTEM" index="7" /> 
+  <column name="UNIT" index="8" /> 
+  <column name="SUNIT" index="9" /> 
+  <column name="INDEXID" index="10" /> 
+  <column name="PAGECH_GAIN" index="11" /> 
+  <column name="DELETEMSGNUMTHRESH" index="12" /> 
+  <column name="OVERSLOTNUMTHRESH" index="13" /> 
+  <column name="REPORTTIMEINTERVAL" index="14" /> 
+  <column name="STATUS" index="15" /> 
+  </table>
+  </templet>
+- <templet   id="10">
+- <table id="0" name="CLT_CM_R_3G_T_PILOT_CH_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="QOF" index="4" /> 
+  <column name="WALSH_LEN" index="5" /> 
+  <column name="WALSH" index="6" /> 
+  <column name="SUBSYSTEM" index="7" /> 
+  <column name="UNIT" index="8" /> 
+  <column name="SUNIT" index="9" /> 
+  <column name="INDEXID" index="10" /> 
+  <column name="PILOTCH_GAIN" index="11" /> 
+  </table>
+  </templet>
+- <templet   id="11">
+- <table id="0" name="CLT_CM_R_3G_T_FWDOL_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="FOL_ENABLE" index="4" /> 
+  <column name="FOL_PERIOD" index="5" /> 
+  <column name="FOL_REPPERIOD" index="6" /> 
+  <column name="T_SETUP" index="7" /> 
+  <column name="T_HO" index="8" /> 
+  <column name="T_PWRUP" index="9" /> 
+  <column name="RATING_PWR" index="10" /> 
+  <column name="CELL_PWR" index="11" /> 
+  <column name="HPA_GAIN" index="12" type="2" format="4000" /> 
+  <column name="ENVIRONMENTTYPE" index="13" /> 
+  <column name="CALIBRATEVALUE" index="14" /> 
+  <column name="P_SETUP" index="15" /> 
+  <column name="PILOTOVERLOAD" index="16" /> 
+  <column name="MAXOVERLOADPWR" index="17" /> 
+  <column name="LOWPWR" index="18" /> 
+  <column name="T_LOWPWR_B" index="19" /> 
+  <column name="PTT_OL_ENABLE" index="20" /> 
+  <column name="T_PWRQUICKDOWN1" index="21" /> 
+  <column name="T_PWRQUICKDOWN2" index="22" type="2" format="4000" /> 
+  <column name="OL_MAXGAIN_UP" index="23" /> 
+  <column name="OL_MAXGAIN_DOWN" index="24" /> 
+  <column name="OL_MAXGAIN_QKDOWN1" index="25" /> 
+  <column name="OL_MAXGAIN_QKDOWN2" index="26" /> 
+  <column name="RLSCALLNUM" index="27" /> 
+  <column name="RLSCALLPWRTHRESHOLD" index="28" /> 
+  <column name="RC4_WALSH_THRESHOLD" index="29" /> 
+  <column name="WALSH_PWR_THRESHOLD" index="30" /> 
+  <column name="T_SETUP_RF" index="31" /> 
+  <column name="T_HO_RF" index="32" type="2" format="4000" /> 
+  <column name="T_PWRUP_RF" index="33" /> 
+  <column name="MAXWALSHCHUSAGE" index="34" /> 
+  <column name="VOICEVSDATAUSAGE" index="35" /> 
+  <column name="FIRSTCOMEFIRSTSERVE" index="36" /> 
+  <column name="SCHCMPDFCH" index="37" /> 
+  <column name="SCHPWRWALRSVTHRES" index="38" /> 
+  <column name="RESREVMODE" index="39" /> 
+  <column name="T_CES_PWRCTRL1" index="40" /> 
+  <column name="T_CES_PWRCTRL2" index="41" /> 
+  <column name="OL_CES_USERGAIN1" index="42" type="2" format="4000" /> 
+  <column name="OL_CES_USERGAIN2" index="43" /> 
+  <column name="LINKPARA" index="44" /> 
+  <column name="PWRPERCENT" index="45" /> 
+  <column name="LOWPWRTHRESHOLD" index="46" /> 
+  <column name="RSSIALM" index="47" /> 
+  <column name="RSSIALMREST" index="48" type="2" format="4000" /> 
+  </table>
+  </templet>
+- <templet   id="12">
+- <table id="0" name="CLT_CM_R_3G_T_ECAMREPPARA_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="ACCHOECAMREPNUM" index="3" /> 
+  <column name="ACCECAMREPORIGDLY" index="4" /> 
+  <column name="ACCECAMREPORIGDLY0" index="5" /> 
+  <column name="ACCECAMREPORIGDLY1" index="6" /> 
+  <column name="ACCECAMREPORIGDLY2" index="7" /> 
+  <column name="ACCECAMREPORIGDLY3" index="8" /> 
+  <column name="ACCECAMREPORIGDLY4" index="9" /> 
+  <column name="ACCECAMREPNORIGDLY" index="10" /> 
+  <column name="ACCECAMREPNORIGDLY0" index="11" /> 
+  <column name="ACCECAMREPNORIGDLY1" index="12" type="2" format="4000" /> 
+  <column name="ACCECAMREPNORIGDLY2" index="13" /> 
+  <column name="ACCECAMREPNORIGDLY3" index="14" /> 
+  <column name="ACCECAMREPNORIGDLY4" index="15" /> 
+  <column name="ECAMREPDLY" index="16" /> 
+  <column name="ECAMREPDLY0" index="17" /> 
+  <column name="ECAMREPDLY1" index="18" type="2" format="4000" /> 
+  <column name="ECAMREPDLY2" index="19" /> 
+  <column name="ECAMREPDLY3" index="20" /> 
+  <column name="ECAMREPDLY4" index="21" /> 
+  <column name="MAXECAMCAMPWR" index="22" /> 
+  <column name="ECAMCAMPWRSTEP" index="23" /> 
+  </table>
+  </templet>
+- <templet   id="13">
+- <table id="0" name="CLT_CM_R_3G_T_SYNC_CH_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="QOF" index="4" /> 
+  <column name="WALSH_LEN" index="5" /> 
+  <column name="WALSH" index="6" /> 
+  <column name="SUBSYSTEM" index="7" /> 
+  <column name="UNIT" index="8" /> 
+  <column name="SUNIT" index="9" /> 
+  <column name="INDEXID" index="10" /> 
+  <column name="SYNCCH_GAIN" index="11" /> 
+  <column name="TIMETOTAKEEFFECT" index="12" type="2" format="4000" /> 
+  <column name="LP_SEC" index="13" /> 
+  </table>
+  </templet>
+- <templet   id="14">
+- <table id="0" name="CLT_CM_R_H_T_CARRIER_PARA_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="GROUPID" index="4" /> 
+  <column name="CARRIERCELLID" index="5" /> 
+  <column name="SYSTEMTYPE" index="6" /> 
+  <column name="ISBEACON" index="7" /> 
+  <column name="ISCRITICAL" index="8" /> 
+  <column name="SWITCH1" index="9" /> 
+  <column name="SWITCH2" index="10" /> 
+  <column name="SWITCH3" index="11" /> 
+  <column name="SWITCH4" index="12" /> 
+  <column name="SWITCH5" index="13" /> 
+  <column name="SWITCH6" index="14" /> 
+  <column name="SWITCH7" index="15" /> 
+  <column name="SWITCH8" index="16" /> 
+  <column name="SWITCH9" index="17" /> 
+  <column name="SWITCH10" index="18" /> 
+  <column name="CHMTYPE" index="19" /> 
+  <column name="BCSUBNET" index="20" /> 
+  <column name="ISREDIRECTION" index="21" /> 
+  <column name="REDIRECTIONCR0" index="22" /> 
+  <column name="REDIRECTIONCR1" index="23" /> 
+  <column name="RTDTHRESHOLD1MIN" index="24" /> 
+  <column name="RTDTHRESHOLD1MAX" index="25" /> 
+  <column name="RTDTHRESHOLD2MIN" index="26" /> 
+  <column name="RTDTHRESHOLD2MAX" index="27" /> 
+  <column name="CELLMODE" index="28" /> 
+  <column name="PHYCELLID" index="29" /> 
+  <column name="CDMA_FREQ" index="30" /> 
+  </table>
+  </templet>
+- <templet   id="15">
+- <table id="0" name="CLT_CM_R_H_T_CARRIER_STATE_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="RABLENGTH" index="4" /> 
+  <column name="RABOFFSET" index="5" /> 
+  <column name="RABTHRESHOLDANOLOG" index="6" /> 
+  <column name="RABTHRESHOLDDIGITAL" index="7" /> 
+  <column name="CELLRADIUSINCHIPS" index="8" /> 
+  <column name="TIMINGADVANCE" index="9" /> 
+  <column name="OVERLOADSTATE" index="10" /> 
+  <column name="NUMSLOTINTERLACE0" index="11" /> 
+  <column name="NUMSLOTINTERLACE1" index="12" /> 
+  <column name="NUMSLOTINTERLACE2" index="13" /> 
+  <column name="NUMSLOTINTERLACE3" index="14" /> 
+  <column name="ENVIRONMENTTYPE_B" index="15" /> 
+  <column name="FORWARDTRANSMITPOWER" index="16" /> 
+  <column name="CALIBRATEVALUE_B" index="17" /> 
+  <column name="FWDDISDELY" index="18" /> 
+  <column name="REVDISDELY" index="19" /> 
+  <column name="STATUS" index="20" /> 
+  <column name="REVFIXEDDELAY" index="21" /> 
+  <column name="RABTHRESHOLD6800" index="22" /> 
+  <column name="RABTHRESHOLD68_ROT" index="23" /> 
+  <column name="RABTHRESHOLD68_LOAD" index="24" /> 
+  <column name="RPCCOUNT63TO0" index="25" /> 
+  <column name="RPCCOUNT127TO64INC" index="26" /> 
+  <column name="RPCCOUNT127TO64" index="27" /> 
+  <column name="DATAWINDOWSIZE" index="28" /> 
+  <column name="PREAMBLEWINSIZE" index="29" /> 
+  <column name="ENABLERRI" index="30" /> 
+  <column name="SEARCHSTARTOFFSET" index="31" /> 
+  <column name="SECTORGAIN" index="32" /> 
+  <column name="LOWPWR" index="33" /> 
+  <column name="POWEROFFTIME_START" index="34" /> 
+  <column name="POWEROFFTIME_END" index="35" /> 
+  <column name="LINKPARA" index="36" /> 
+  <column name="PWRPERCENT" index="37" /> 
+  <column name="LOWPWRTHRESHOLD" index="38" /> 
+  <column name="RSSIALM" index="39" /> 
+  <column name="RSSIALMREST" index="40" /> 
+  </table>
+  </templet>
+- <templet   id="16">
+- <table id="0" name="CLT_CM_R_H_T_CCH_PARA_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="SYNCCAPSULEOFFSET" index="4" /> 
+  <column name="CONTROLCHANNELRATE" index="5" /> 
+  </table>
+  </templet>
+- <templet   id="17">
+- <table id="0" name="CLT_CM_R_H_T_CELL_PARA_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="CI" index="1" /> 
+  <column name="SYSTEM" index="2" /> 
+  <column name="CELLID" index="3" /> 
+  <column name="COLORCODE" index="4" /> 
+  <column name="PILOTPN" index="5" /> 
+  <column name="SUBNETMASK" index="6" /> 
+  <column name="SECTORID" index="7" type="2" format="4000" /> 
+  <column name="SUBNETADDRESS_B" index="8" type="2" format="4000" /> 
+  <column name="BANDCLASS" index="9" /> 
+  <column name="ALIAS_B" index="10" type="2" format="4000" /> 
+  <column name="SWITCH1" index="11" /> 
+  <column name="SWITCH2" index="12" /> 
+  <column name="SWITCH3" index="13" /> 
+  <column name="SWITCH4" index="14" /> 
+  <column name="SWITCH5" index="15" /> 
+  <column name="SWITCH6" index="16" /> 
+  <column name="SWITCH7" index="17" /> 
+  <column name="SWITCH8" index="18" /> 
+  <column name="SWITCH9" index="19" /> 
+  <column name="SWITCH10" index="20" /> 
+  <column name="SUBNETINDEXID" index="21" /> 
+  <column name="ACCESSRESTRICTEN" index="22" /> 
+  <column name="ACCESSDISTANCE" index="23" /> 
+  <column name="PHYCELLID" index="24" /> 
+  </table>
+  </templet>
+- <templet   id="18">
+- <table id="0" name="CLT_CM_R_H_T_CELL_STATE_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="SECTORSIGNATURE" index="3" /> 
+  <column name="ACCESSSIGNATURE" index="4" /> 
+  <column name="LATITUDE" index="5" /> 
+  <column name="LONGTITUDE" index="6" /> 
+  <column name="ROUTEUPDATERADIUS" index="7" /> 
+  <column name="MAXIMUMREVISION" index="8" /> 
+  <column name="MINIMUMREVISION" index="9" /> 
+  <column name="LEAPSECONDS" index="10" /> 
+  <column name="LOCALTIMEOFFSET" index="11" /> 
+  <column name="STATUS" index="12" /> 
+  <column name="CRKEEPTHRESHOLD" index="13" /> 
+  <column name="LOADBALANCETHRESH" index="14" /> 
+  <column name="LONGLATLOCK_B" index="15" /> 
+  </table>
+  </templet>
+- <templet   id="19">
+- <table id="0" name="CLT_CM_R_H_T_FTC_PARA_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="RATELIMITTHRESH0" index="4" /> 
+  <column name="RATELIMITTHRESH1" index="5" /> 
+  <column name="RATELIMITTHRESH2" index="6" /> 
+  <column name="RATELIMITTHRESH3" index="7" /> 
+  <column name="RATELIMITTHRESH4" index="8" /> 
+  <column name="RATELIMITINHANDOFF" index="9" /> 
+  </table>
+  </templet>
+- <templet   id="20">
+- <table id="0" name="CLT_CM_R_H_T_OVLD_PARA_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="OLCONTROLENABLED" index="4" /> 
+  <column name="OLCONTROLUSERTHRESH" index="5" /> 
+  <column name="OLCONTROLMINDORM" index="6" /> 
+  <column name="OLCONTROLINFOUPDATE" index="7" /> 
+  <column name="OLCONTROLPOLICY" index="8" /> 
+  <column name="MAXQOSUSERTHRESH" index="9" /> 
+  <column name="MAXFWDQOSTHRUPT" index="10" /> 
+  <column name="MAXREVQOSTHRUPT" index="11" /> 
+  <column name="HANDOFFQOSRESV" index="12" /> 
+  <column name="OLCONNDURTHRESH" index="13" /> 
+  <column name="OLTHRUPTTHRESHOLD" index="14" /> 
+  <column name="OLPOLICYSTEP1" index="15" /> 
+  <column name="OLPOLICYSTEP2" index="16" /> 
+  <column name="OLPOLICYSTEP3" index="17" /> 
+  <column name="BEASSUREDBANDWIDTH" index="18" /> 
+  <column name="MAXFWDTHRUPT" index="19" /> 
+  <column name="MAXREVTHRUPT" index="20" /> 
+  <column name="OLCTRLBEUSERTHRESH" index="21" /> 
+  </table>
+  </templet>
+- <templet   id="21">
+- <table id="0" name="CLT_CM_R_H_T_SYSTEM_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="COUNTRYCODE" index="2" /> 
+  <column name="REDIRECT" index="3" /> 
+  <column name="FCWATCHDOGTIMER" index="4" /> 
+  <column name="SWITCH1" index="5" /> 
+  <column name="SWITCH2" index="6" /> 
+  <column name="SWITCH3" index="7" /> 
+  <column name="SWITCH4" index="8" /> 
+  <column name="SWITCH5" index="9" /> 
+  <column name="SWITCH6" index="10" /> 
+  <column name="SWITCH7" index="11" /> 
+  <column name="SWITCH8" index="12" /> 
+  <column name="SWITCH9" index="13" /> 
+  <column name="SWITCH10" index="14" /> 
+  <column name="FLOWTPUTFILTERTC" index="15" /> 
+  <column name="MAXIMUMDELAYINSLOTS" index="16" /> 
+  <column name="TPUT2DELAYBMFACTOR" index="17" /> 
+  <column name="TPUT2DELAYBSMFACTOR" index="18" /> 
+  <column name="DARQRTQUEUEPRIORITY" index="19" /> 
+  <column name="DARQQUEUEPRIORITY" index="20" /> 
+  <column name="RETRANSQUEUEPRIORITY" index="21" /> 
+  <column name="DRCERASTHSHLENGTH" index="22" /> 
+  <column name="DSCSWITCHDELAY" index="23" /> 
+  <column name="ADDABISTIMEDELAY" index="24" /> 
+  <column name="TIMESTAMPORIGIN" index="25" /> 
+  </table>
+  </templet>
+- <templet   id="22">
+- <table id="0" name="clt_cm_r_h_t_nbcarrierinfo_zte" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="NBANID" index="4" /> 
+  <column name="NBSYSTEM" index="5" /> 
+  <column name="NBCELLID" index="6" /> 
+  <column name="NBCARRIERID" index="7" /> 
+  <column name="PILOTPN" index="8" /> 
+  <column name="SYSTEMTYPE" index="9" /> 
+  <column name="BANDCLASS" index="10" /> 
+  <column name="ChannelNumber" index="11" /> 
+  <column name="SEARCHWINDOWSIZE" index="12" /> 
+  <column name="SEARCHWINDOWOFFSET" index="13" /> 
+  <column name="BCSubnet" index="14" /> 
+  <column name="sequence_b" index="15" /> 
+  <column name="CI" index="16" /> 
+  <column name="FPDCHSupported" index="17" /> 
+  <column name="NBPilotGroupId" index="18" /> 
+  <column name="ISLOCAL" index="19" /> 
+  </table>
+  </templet>
+- <templet   id="23">
+- <table id="0" name="CLT_CM_T_NB_CARRIER_BASE_ZTE" split=";">
+  <column name="ANID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="CARRIERID" index="3" /> 
+  <column name="SEARCHWINSIZEIN" index="4" /> 
+  <column name="SEARCHWINOFFSETIN" index="5" /> 
+  <column name="FPDCHSUPPORTEDIN" index="6" /> 
+  </table>
+  </templet>
+- <templet   id="24">
+- <table id="0" name="CLT_CM_R_3G_S_LINKCELL_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEM" index="1" /> 
+  <column name="CELLID" index="2" /> 
+  <column name="PILOT_PN" index="3" /> 
+  <column name="NCELLTYPE" index="4" /> 
+  <column name="NCELLOFFICEID" index="5" /> 
+  <column name="NCELLSYSTEMID" index="6" /> 
+  <column name="NCELLID" index="7" /> 
+  <column name="GNCELLID" index="8" /> 
+  <column name="CI_DISCRIMINATOR" index="9" /> 
+  <column name="LAC" index="10" /> 
+  <column name="CI" index="11" /> 
+  <column name="MARKETID" index="12" /> 
+  <column name="SWITCHNUMBER" index="13" /> 
+  <column name="P_REV" index="14" /> 
+  <column name="NCELLMODE" index="15" /> 
+  <column name="DLA_ID" index="16" /> 
+  <column name="NCELL_BS_ID" index="17" /> 
+  <column name="ALIAS_B" index="18" /> 
+  <column name="SEQUENCE_B" index="19" /> 
+  </table>
+  </templet>
+- <templet   id="25">
+- <table id="0" name="CLT_CM_BTS_PHY_ASSET_DATA_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="SYSTEMID" index="1" /> 
+  <column name="SYSTEMALIAS" index="2" type="2" format="4000" /> 
+  <column name="BTSNAME" index="3" type="2" format="4000" /> 
+  <column name="RACKID" index="4" /> 
+  <column name="RACKNAME" index="5" type="2" format="4000" /> 
+  <column name="SHELFID" index="6" /> 
+  <column name="SHELFNAME" index="7" type="2" format="4000" /> 
+  <column name="SLOTID" index="8" /> 
+  <column name="BOARDNAME" index="9" type="2" format="4000" /> 
+  <column name="VERSION" index="10" type="2" format="4000" /> 
+  </table>
+  </templet>
+- <templet   id="26">
+- <table id="0" name="CLT_CM_RRU_ZTE" split=";">
+  <column name="SYSTEM" index="0" /> 
+  <column name="BTSALIAS" index="1" type="2" format="4000" /> 
+  <column name="RRUID" index="2" type="2" format="4000" /> 
+  <column name="RRU_ALIAS" index="3" type="2" format="4000" /> 
+  <column name="LATITUDE" index="4" /> 
+  <column name="LONGITUDE" index="5" /> 
+  <column name="ADDRESS" index="6" type="2" format="4000" /> 
+  <column name="NOTE" index="7" type="2" format="4000" /> 
+  </table>
+  </templet>
+- <templet   id="27">
+- <table id="0" name="CLT_CM_BSCBTSSTATUS_ZTE" split=";">
+  <column name="SYSTEM" index="0" /> 
+  <column name="BTSNAME" index="1" type="2" format="4000" /> 
+  <column name="BTSTYPE" index="2" type="2" format="4000" /> 
+  <column name="CELL_CARRIER_NUM_1X" index="3" type="2" format="4000" /> 
+  <column name="CELL_CARRIER_NUM_DO" index="4" type="2" format="4000" /> 
+  <column name="CUTOVERSTATUS" index="5" /> 
+  <column name="USESTATUS" index="6" /> 
+  <column name="BTSGRADE" index="7" /> 
+  <column name="CHANGETIME" index="8" type="2" format="4000" /> 
+  <column name="NOTE" index="9" type="2" format="4000" /> 
+  </table>
+  </templet>
+- <templet   id="28">
+- <table id="0" name="CLT_CM_R_3G_S_BSS_NCELL_ZTE" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="GNCELLID" index="1" /> 
+  <column name="GNCELLTYPE" index="2" /> 
+  <column name="MCC" index="3" type="2" format="4000" /> 
+  <column name="MNC" index="4" type="2" format="4000" /> 
+  <column name="CI_DISCRIMINATOR" index="5" /> 
+  <column name="LAC" index="6" /> 
+  <column name="CI" index="7" /> 
+  <column name="MARKETID" index="8" /> 
+  <column name="SWITCHNUMBER" index="9" /> 
+  <column name="NCELLOFFICEID" index="10" /> 
+  <column name="PILOT_PN" index="11" /> 
+  <column name="PILOT_INC" index="12" /> 
+  <column name="SRCH_WIN_N" index="13" /> 
+  <column name="BCCH_SUPPORT" index="14" /> 
+  <column name="P_REV" index="15" /> 
+  <column name="MIN_P_REV" index="16" /> 
+  <column name="BASE_LAT" index="17" /> 
+  <column name="BASE_LONG" index="18" /> 
+  <column name="BAND_CLASS" index="19" /> 
+  <column name="STATUS" index="20" /> 
+  <column name="bsctype" index="21" /> 
+  <column name="NCELLMODE" index="22" /> 
+  <column name="DLA_ID" index="23" /> 
+  <column name="alias_b" index="24" type="2" format="4000" /> 
+  <column name="mscid" index="25" /> 
+  <column name="ncell_bs_id" index="26" /> 
+  <column name="alias_handoff" index="27" type="2" format="4000" /> 
+  <column name="SupportPLCM" index="28" /> 
+  <column name="IsNbBSC4GVSupported" index="29" /> 
+  </table>
+  </templet>
+- <templet   id="29">
+- <table id="0" name="clt_cm_r_3g_s_bssngcarr_zte" split=";">
+  <column name="BSSID" index="0" /> 
+  <column name="GNCELLID" index="1" /> 
+  <column name="GNCARRIERID" index="2" /> 
+  <column name="BAND_CLASS" index="3" /> 
+  <column name="CDMA_FREQ" index="4" /> 
+  <column name="PAGE_NUM" index="5" /> 
+  <column name="FIRST_LIST" index="6" /> 
+  <column name="UCISBEACON" index="7" /> 
+  </table>
+  </templet>
+- <templet   id="30">
+- <table id="0" name="clt_cm_r_h_s_nbss_ncell_zte" split=";">
+  <column name="anid" index="0" /> 
+  <column name="ci" index="1" /> 
+  <column name="gncellid" index="2" /> 
+  <column name="nbanid" index="3" /> 
+  <column name="NBSYSTEM" index="4" /> 
+  <column name="NBCELLID" index="5" /> 
+  <column name="pilotpn" index="6" /> 
+  <column name="alias_b" index="7" type="2" format="4000" /> 
+  <column name="bandclass" index="8" /> 
+  <column name="colorcode" index="9" /> 
+  </table>
+  </templet>
+- <templet   id="31">
+- <table id="0" name="clt_cm_r_h_s_nbssngcarrier_zte" split=";">
+  <column name="anid" index="0" /> 
+  <column name="gncellid" index="1" /> 
+  <column name="gncarrierid" index="2" /> 
+  <column name="NBCARRIERID" index="3" /> 
+  <column name="systemtype" index="4" /> 
+  <column name="bcsubnet" index="5" /> 
+  <column name="channelnumber" index="6" /> 
+  </table>
+  </templet>
+</templets>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="/*/PARA/tbl_objectinstance.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="objecttypeid" index="0" />
+				<field name="objectno" index="1" />
+				<field name="invalidtime" index="2" />
+				<field name="objectparameter" index="3" />
+				<field name="nefdn" index="4" />
+				<field name="nename" index="5" />
+				<field name="membernum" index="6" />
+				<field name="objectmember0" index="7" />
+				<field name="objectmemname0" index="8" />
+				<field name="objectmember1" index="9" />
+				<field name="objectmemname1" index="10" />
+				<field name="objectmember2" index="11" />
+				<field name="objectmemname2" index="12" />
+				<field name="objectmember3" index="13" />
+				<field name="objectmemname3" index="14" />
+				<field name="objectmember4" index="15" />
+				<field name="objectmemname4" index="16" />
+				<field name="objectmember5" index="17" />
+				<field name="objectmemname5" index="18" />
+				<field name="objectdescription" index="19" />
+				<field name="bamobjectstr" index="20" />
+				<field name="measurementstate" index="21" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

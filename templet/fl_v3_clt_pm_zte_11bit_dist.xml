@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_RRAM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90108000001" index="4" />
+			<column name="C90108000002" index="5" />
+			<column name="C90108000003" index="6" />
+			<column name="C90108000004" index="7" />
+			<column name="C90108000005" index="8" />
+			<column name="C90108000006" index="9" />
+			<column name="C90108000007" index="10" />
+			<column name="C90108000008" index="11" />
+			<column name="C90108000009" index="12" />
+			<column name="C90108000010" index="13" />
+			<column name="C90108000011" index="14" />
+			<column name="C90108000012" index="15" />
+			<column name="C90108000013" index="16" />
+			<column name="C90108000014" index="17" />
+			<column name="C90108000015" index="18" />
+			<column name="C90108000016" index="19" />
+			<column name="C90108000017" index="20" />
+			<column name="C90108000018" index="21" />
+			<column name="C90108000019" index="22" />
+			<column name="C90108000020" index="23" />
+			<column name="C90108000021" index="24" />
+			<column name="C90108000022" index="25" />
+			<column name="C90108000023" index="26" />
+			<column name="C90108000024" index="27" />
+			<column name="C90108000025" index="28" />
+			<column name="C90108000026" index="29" />
+			<column name="C90108000027" index="30" />
+			<column name="C90108000028" index="31" />
+			<column name="C90108000029" index="32" />
+			<column name="C90108000030" index="33" />
+			<column name="C90108000031" index="34" />
+			<column name="C90108000032" index="35" />
+		</table>
+	</templet>
+
+	<templet id="1">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_PSRUS" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90104000001" index="4" />
+			<column name="C90104000002" index="5" />
+			<column name="C90104000003" index="6" />
+			<column name="C90104000004" index="7" />
+			<column name="C90104000005" index="8" />
+			<column name="C90104000006" index="9" />
+			<column name="C90104000007" index="10" />
+			<column name="C90104000008" index="11" />
+			<column name="C90104000009" index="12" />
+			<column name="C90104000010" index="13" />
+			<column name="C90104000011" index="14" />
+			<column name="C90104000012" index="15" />
+			<column name="C90104000013" index="16" />
+			<column name="C90104000014" index="17" />
+			<column name="C90104000015" index="18" />
+			<column name="C90104000016" index="19" />
+			<column name="C90104000017" index="20" />
+			<column name="C90104000018" index="21" />
+			<column name="C90104000019" index="22" />
+			<column name="C90104000020" index="23" />
+			<column name="C90104000021" index="24" />
+			<column name="C90104000022" index="25" />
+			<column name="C90104000023" index="26" />
+			<column name="C90104000024" index="27" />
+			<column name="C90104000025" index="28" />
+			<column name="C90104000026" index="29" />
+			<column name="C90104000027" index="30" />
+			<column name="C90104000028" index="31" />
+			<column name="C90104000029" index="32" />
+			<column name="C90104000030" index="33" />
+		</table>
+	</templet>
+
+	<templet id="2">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_SDCCHM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90125000001" index="4" />
+			<column name="C90125000002" index="5" />
+			<column name="C90125000003" index="6" />
+			<column name="C90125000004" index="7" />
+			<column name="C90125000005" index="8" />
+			<column name="C90125000006" index="9" />
+			<column name="C90125000007" index="10" />
+			<column name="C90125000008" index="11" />
+			<column name="C90125000009" index="12" />
+			<column name="C90125000010" index="13" />
+			<column name="C90125000011" index="14" />
+			<column name="C90125000012" index="15" />
+			<column name="C90125000013" index="16" />
+			<column name="C90125000014" index="17" />
+			<column name="C90125000015" index="18" />
+			<column name="C90125000016" index="19" />
+			<column name="C90125000017" index="20" />
+			<column name="C90125000018" index="21" />
+			<column name="C90125000019" index="22" />
+		</table>
+	</templet>
+
+	<templet id="3">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_TCHFM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90126000001" index="4" />
+			<column name="C90126000002" index="5" />
+			<column name="C90126000003" index="6" />
+			<column name="C90126000004" index="7" />
+			<column name="C90126000005" index="8" />
+			<column name="C90126000006" index="9" />
+			<column name="C90126000007" index="10" />
+			<column name="C90126000008" index="11" />
+			<column name="C90126000009" index="12" />
+			<column name="C90126000010" index="13" />
+			<column name="C90126000011" index="14" />
+			<column name="C90126000012" index="15" />
+			<column name="C90126000013" index="16" />
+			<column name="C90126000014" index="17" />
+			<column name="C90126000015" index="18" />
+			<column name="C90126000016" index="19" />
+			<column name="C90126000017" index="20" />
+			<column name="C90126000018" index="21" />
+			<column name="C90126000019" index="22" />
+			<column name="C90126000020" index="23" />
+			<column name="C90126000021" index="24" />
+			<column name="C90126000022" index="25" />
+			<column name="C90126000023" index="26" />
+			<column name="C90126000024" index="27" />
+			<column name="C90126000025" index="28" />
+			<column name="C90126000026" index="29" />
+			<column name="C90126000027" index="30" />
+			<column name="C90126000028" index="31" />
+			<column name="C90126000029" index="32" />
+			<column name="C90126000030" index="33" />
+			<column name="C90126000031" index="34" />
+			<column name="C90126000032" index="35" />
+			<column name="C90126000033" index="36" />
+			<column name="C90126000034" index="37" />
+			<column name="C90126000035" index="38" />
+			<column name="C90126000036" index="39" />
+			<column name="C90126000037" index="40" />
+			<column name="C90126000038" index="41" />
+			<column name="C90126000039" index="42" />
+			<column name="C90126000040" index="43" />
+			<column name="C90126000041" index="44" />
+			<column name="C90126000042" index="45" />
+			<column name="C90126000043" index="46" />
+			<column name="C90126000044" index="47" />
+			<column name="C90126000045" index="48" />
+			<column name="C90126000046" index="49" />
+			<column name="C90126000047" index="50" />
+			<column name="C90126000048" index="51" />
+			<column name="C90126000049" index="52" />
+			<column name="C90126000050" index="53" />
+			<column name="C90126000051" index="54" />
+			<column name="C90126000052" index="55" />
+			<column name="C90126000053" index="56" />
+			<column name="C90126000054" index="57" />
+			<column name="C90126000055" index="58" />
+			<column name="C90126000056" index="59" />
+			<column name="C90126000057" index="60" />
+			<column name="C90126000058" index="61" />
+			<column name="C90126000059" index="62" />
+			<column name="C90126000060" index="63" />
+			<column name="C90126000061" index="64" />
+			<column name="C90126000062" index="65" />
+			<column name="C90126000063" index="66" />
+			<column name="C90126000064" index="67" />
+			<column name="C90126000065" index="68" />
+			<column name="C90126000066" index="69" />
+			<column name="C90126000067" index="70" />
+			<column name="C90126000068" index="71" />
+			<column name="C90126000069" index="72" />
+			<column name="C90126000070" index="73" />
+			<column name="C90126000071" index="74" />
+			<column name="C90126000072" index="75" />
+			<column name="C90126000073" index="76" />
+			<column name="C90126000074" index="77" />
+			<column name="C90126000075" index="78" />
+			<column name="C90126000076" index="79" />
+			<column name="C90126000077" index="80" />
+			<column name="C90126000078" index="81" />
+			<column name="C90126000079" index="82" />
+			<column name="C90126000080" index="83" />
+			<column name="C90126000081" index="84" />
+			<column name="C90126000082" index="85" />
+			<column name="C90126000083" index="86" />
+			<column name="C90126000084" index="87" />
+			<column name="C90126000085" index="88" />
+			<column name="C90126000086" index="89" />
+			<column name="C90126000087" index="90" />
+			<column name="C90126000088" index="91" />
+			<column name="C90126000089" index="92" />
+			<column name="C90126000090" index="93" />
+			<column name="C90126000091" index="94" />
+			<column name="C90126000092" index="95" />
+			<column name="C90126000093" index="96" />
+			<column name="C90126000094" index="97" />
+			<column name="C90126000095" index="98" />
+			<column name="C90126000096" index="99" />
+			<column name="C90126000097" index="100" />
+			<column name="C90126000098" index="101" />
+			<column name="C90126000099" index="102" />
+			<column name="C90126000100" index="103" />
+			<column name="C90126000101" index="104" />
+			<column name="C90126000102" index="105" />
+			<column name="C90126000103" index="106" />
+			<column name="C90126000104" index="107" />
+			<column name="C90126000105" index="108" />
+			<column name="C90126000106" index="109" />
+			<column name="C90126000107" index="110" />
+			<column name="C90126000108" index="111" />
+			<column name="C90126000109" index="112" />
+			<column name="C90126000110" index="113" />
+			<column name="C90126000111" index="114" />
+			<column name="C90126000112" index="115" />
+			<column name="C90126000113" index="116" />
+			<column name="C90126000114" index="117" />
+			<column name="C90126000115" index="118" />
+			<column name="C90126000116" index="119" />
+			<column name="C90126000117" index="120" />
+			<column name="C90126000118" index="121" />
+			<column name="C90126000119" index="122" />
+			<column name="C90126000120" index="123" />
+			<column name="C90126000121" index="124" />
+			<column name="C90126000122" index="125" />
+			<column name="C90126000123" index="126" />
+			<column name="C90126000124" index="127" />
+			<column name="C90126000125" index="128" />
+			<column name="C90126000126" index="129" />
+			<column name="C90126000127" index="130" />
+			<column name="C90126000128" index="131" />
+			<column name="C90126000129" index="132" />
+			<column name="C90126000210" index="213"/>
+			<column name="C90126000211" index="214"/>
+			<column name="C90126000212" index="215"/>
+			<column name="C90126000213" index="216"/>
+			<column name="C90126000214" index="217"/>
+			<column name="C90126000215" index="218"/>
+			<column name="C90126000216" index="219"/>
+			<column name="C90126000217" index="220"/>
+		</table>
+	</templet>
+
+	<templet id="4">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_TCHHM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90127000001" index="4" />
+			<column name="C90127000002" index="5" />
+			<column name="C90127000003" index="6" />
+			<column name="C90127000004" index="7" />
+			<column name="C90127000005" index="8" />
+			<column name="C90127000006" index="9" />
+			<column name="C90127000007" index="10" />
+			<column name="C90127000008" index="11" />
+			<column name="C90127000009" index="12" />
+			<column name="C90127000010" index="13" />
+			<column name="C90127000011" index="14" />
+			<column name="C90127000012" index="15" />
+			<column name="C90127000013" index="16" />
+			<column name="C90127000014" index="17" />
+			<column name="C90127000015" index="18" />
+			<column name="C90127000016" index="19" />
+			<column name="C90127000017" index="20" />
+			<column name="C90127000018" index="21" />
+			<column name="C90127000019" index="22" />
+			<column name="C90127000020" index="23" />
+			<column name="C90127000021" index="24" />
+			<column name="C90127000022" index="25" />
+			<column name="C90127000023" index="26" />
+			<column name="C90127000024" index="27" />
+			<column name="C90127000025" index="28" />
+			<column name="C90127000026" index="29" />
+			<column name="C90127000027" index="30" />
+			<column name="C90127000028" index="31" />
+			<column name="C90127000029" index="32" />
+			<column name="C90127000030" index="33" />
+			<column name="C90127000031" index="34" />
+			<column name="C90127000032" index="35" />
+			<column name="C90127000033" index="36" />
+			<column name="C90127000034" index="37" />
+			<column name="C90127000035" index="38" />
+			<column name="C90127000036" index="39" />
+			<column name="C90127000037" index="40" />
+			<column name="C90127000038" index="41" />
+			<column name="C90127000039" index="42" />
+			<column name="C90127000040" index="43" />
+			<column name="C90127000041" index="44" />
+			<column name="C90127000042" index="45" />
+			<column name="C90127000043" index="46" />
+			<column name="C90127000044" index="47" />
+			<column name="C90127000045" index="48" />
+			<column name="C90127000046" index="49" />
+			<column name="C90127000047" index="50" />
+			<column name="C90127000048" index="51" />
+			<column name="C90127000049" index="52" />
+			<column name="C90127000050" index="53" />
+			<column name="C90127000051" index="54" />
+			<column name="C90127000052" index="55" />
+			<column name="C90127000053" index="56" />
+			<column name="C90127000054" index="57" />
+			<column name="C90127000055" index="58" />
+			<column name="C90127000056" index="59" />
+			<column name="C90127000057" index="60" />
+			<column name="C90127000058" index="61" />
+			<column name="C90127000059" index="62" />
+			<column name="C90127000060" index="63" />
+			<column name="C90127000061" index="64" />
+			<column name="C90127000062" index="65" />
+			<column name="C90127000063" index="66" />
+			<column name="C90127000064" index="67" />
+			<column name="C90127000065" index="68" />
+			<column name="C90127000066" index="69" />
+			<column name="C90127000067" index="70" />
+			<column name="C90127000068" index="71" />
+			<column name="C90127000069" index="72" />
+			<column name="C90127000070" index="73" />
+			<column name="C90127000071" index="74" />
+			<column name="C90127000072" index="75" />
+			<column name="C90127000073" index="76" />
+			<column name="C90127000074" index="77" />
+			<column name="C90127000075" index="78" />
+			<column name="C90127000076" index="79" />
+			<column name="C90127000077" index="80" />
+			<column name="C90127000078" index="81" />
+			<column name="C90127000079" index="82" />
+			<column name="C90127000080" index="83" />
+			<column name="C90127000081" index="84" />
+			<column name="C90127000082" index="85" />
+			<column name="C90127000083" index="86" />
+			<column name="C90127000084" index="87" />
+			<column name="C90127000085" index="88" />
+			<column name="C90127000086" index="89" />
+			<column name="C90127000087" index="90" />
+			<column name="C90127000088" index="91" />
+			<column name="C90127000089" index="92" />
+			<column name="C90127000090" index="93" />
+			<column name="C90127000091" index="94" />
+			<column name="C90127000092" index="95" />
+			<column name="C90127000093" index="96" />
+			<column name="C90127000094" index="97" />
+			<column name="C90127000095" index="98" />
+			<column name="C90127000096" index="99" />
+			<column name="C90127000097" index="100" />
+			<column name="C90127000098" index="101" />
+			<column name="C90127000099" index="102" />
+			<column name="C90127000100" index="103" />
+			<column name="C90127000101" index="104" />
+			<column name="C90127000102" index="105" />
+			<column name="C90127000103" index="106" />
+			<column name="C90127000104" index="107" />
+			<column name="C90127000105" index="108" />
+			<column name="C90127000106" index="109" />
+			<column name="C90127000107" index="110" />
+			<column name="C90127000108" index="111" />
+			<column name="C90127000109" index="112" />
+			<column name="C90127000110" index="113" />
+			<column name="C90127000111" index="114" />
+			<column name="C90127000112" index="115" />
+			<column name="C90127000113" index="116" />
+			<column name="C90127000114" index="117" />
+			<column name="C90127000115" index="118" />
+			<column name="C90127000116" index="119" />
+			<column name="C90127000117" index="120" />
+			<column name="C90127000118" index="121" />
+			<column name="C90127000119" index="122" />
+			<column name="C90127000120" index="123" />
+			<column name="C90127000121" index="124" />
+			<column name="C90127000122" index="125" />
+			<column name="C90127000123" index="126" />
+			<column name="C90127000124" index="127" />
+			<column name="C90127000125" index="128" />
+			<column name="C90127000126" index="129" />
+			<column name="C90127000127" index="130" />
+			<column name="C90127000128" index="131" />
+			<column name="C90127000129" index="132" />
+			<column name="C90127000188" index="191"/>
+			<column name="C90127000189" index="192"/>
+			<column name="C90127000192" index="195"/>
+			<column name="C90127000193" index="196"/>
+			<column name="C90127000194" index="197"/>
+			<column name="C90127000195" index="198"/>
+			<column name="C90127000196" index="199"/>
+			<column name="C90127000197" index="200"/>
+			<column name="C90127000198" index="201"/>
+			<column name="C90127000199" index="202"/>
+		</table>
+	</templet>
+
+	<templet id="5">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_RMMCDM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90107000001" index="4" />
+			<column name="C90107000002" index="5" />
+			<column name="C90107000003" index="6" />
+			<column name="C90107000004" index="7" />
+			<column name="C90107000005" index="8" />
+			<column name="C90107000006" index="9" />
+			<column name="C90107000007" index="10" />
+			<column name="C90107000008" index="11" />
+			<column name="C90107000009" index="12" />
+			<column name="C90107000010" index="13" />
+			<column name="C90107000011" index="14" />
+			<column name="C90107000012" index="15" />
+			<column name="C90107000013" index="16" />
+			<column name="C90107000014" index="17" />
+			<column name="C90107000015" index="18" />
+			<column name="C90107000016" index="19" />
+			<column name="C90107000017" index="20" />
+			<column name="C90107000018" index="21" />
+			<column name="C90107000019" index="22" />
+			<column name="C90107000020" index="23" />
+			<column name="C90107000021" index="24" />
+			<column name="C90107000022" index="25" />
+			<column name="C90107000023" index="26" />
+			<column name="C90107000024" index="27" />
+			<column name="C90107000025" index="28" />
+			<column name="C90107000026" index="29" />
+			<column name="C90107000027" index="30" />
+			<column name="C90107000028" index="31" />
+			<column name="C90107000029" index="32" />
+			<column name="C90107000030" index="33" />
+			<column name="C90107000031" index="34" />
+			<column name="C90107000032" index="35" />
+			<column name="C90107000033" index="36" />
+			<column name="C90107000034" index="37" />
+			<column name="C90107000035" index="38" />
+			<column name="C90107000036" index="39" />
+			<column name="C90107000037" index="40" />
+			<column name="C90107000038" index="41" />
+			<column name="C90107000039" index="42" />
+			<column name="C90107000040" index="43" />
+			<column name="C90107000041" index="44" />
+			<column name="C90107000042" index="45" />
+			<column name="C90107000043" index="46" />
+			<column name="C90107000044" index="47" />
+			<column name="C90107000045" index="48" />
+			<column name="C90107000046" index="49" />
+			<column name="C90107000047" index="50" />
+			<column name="C90107000048" index="51" />
+			<column name="C90107000049" index="52" />
+			<column name="C90107000050" index="53" />
+			<column name="C90107000051" index="54" />
+			<column name="C90107000052" index="55" />
+			<column name="C90107000053" index="56" />
+			<column name="C90107000054" index="57" />
+			<column name="C90107000055" index="58" />
+			<column name="C90107000056" index="59" />
+			<column name="C90107000057" index="60" />
+			<column name="C90107000058" index="61" />
+			<column name="C90107000059" index="62" />
+			<column name="C90107000060" index="63" />
+			<column name="C90107000061" index="64" />
+			<column name="C90107000062" index="65" />
+			<column name="C90107000063" index="66" />
+		</table>
+	</templet>
+
+	<templet id="6">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_GHM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90109000001" index="4" />
+			<column name="C90109000002" index="5" />
+			<column name="C90109000003" index="6" />
+			<column name="C90109000004" index="7" />
+			<column name="C90109000005" index="8" />
+			<column name="C90109000006" index="9" />
+			<column name="C90109000007" index="10" />
+			<column name="C90109000008" index="11" />
+			<column name="C90109000009" index="12" />
+			<column name="C90109000010" index="13" />
+			<column name="C90109000011" index="14" />
+			<column name="C90109000012" index="15" />
+			<column name="C90109000013" index="16" />
+			<column name="C90109000014" index="17" />
+			<column name="C90109000015" index="18" />
+			<column name="C90109000016" index="19" />
+			<column name="C90109000017" index="20" />
+			<column name="C90109000018" index="21" />
+			<column name="C90109000019" index="22" />
+			<column name="C90109000020" index="23" />
+			<column name="C90109000021" index="24" />
+			<column name="C90109000022" index="25" />
+			<column name="C90109000023" index="26" />
+			<column name="C90109000024" index="27" />
+			<column name="C90109000025" index="28" />
+			<column name="C90109000026" index="29" />
+			<column name="C90109000027" index="30" />
+			<column name="C90109000028" index="31" />
+			<column name="C90109000029" index="32" />
+			<column name="C90109000030" index="33" />
+			<column name="C90109000031" index="34" />
+			<column name="C90109000032" index="35" />
+			<column name="C90109000033" index="36" />
+			<column name="C90109000034" index="37" />
+			<column name="C90109000035" index="38" />
+			<column name="C90109000036" index="39" />
+			<column name="C90109000037" index="40" />
+			<column name="C90109000038" index="41" />
+			<column name="C90109000039" index="42" />
+			<column name="C90109000040" index="43" />
+			<column name="C90109000041" index="44" />
+			<column name="C90109000042" index="45" />
+			<column name="C90109000043" index="46" />
+			<column name="C90109000044" index="47" />
+			<column name="C90109000045" index="48" />
+			<column name="C90109000046" index="49" />
+			<column name="C90109000047" index="50" />
+			<column name="C90109000048" index="51" />
+			<column name="C90109000049" index="52" />
+			<column name="C90109000050" index="53" />
+			<column name="C90109000051" index="54" />
+			<column name="C90109000052" index="55" />
+			<column name="C90109000053" index="56" />
+			<column name="C90109000054" index="57" />
+			<column name="C90109000055" index="58" />
+			<column name="C90109000056" index="59" />
+			<column name="C90109000057" index="60" />
+			<column name="C90109000058" index="61" />
+			<column name="C90109000059" index="62" />
+			<column name="C90109000060" index="63" />
+			<column name="C90109000061" index="64" />
+			<column name="C90109000062" index="65" />
+			<column name="C90109000063" index="66" />
+			<column name="C90109000064" index="67" />
+			<column name="C90109000065" index="68" />
+			<column name="C90109000066" index="69" />
+			<column name="C90109000067" index="70" />
+			<column name="C90109000068" index="71" />
+			<column name="C90109000069" index="72" />
+			<column name="C90109000070" index="73" />
+			<column name="C90109000071" index="74" />
+			<column name="C90109000072" index="75" />
+			<column name="C90109000073" index="76" />
+			<column name="C90109000074" index="77" />
+			<column name="C90109000075" index="78" />
+			<column name="C90109000076" index="79" />
+			<column name="C90109000077" index="80" />
+			<column name="C90109000078" index="81" />
+			<column name="C90109000079" index="82" />
+			<column name="C90109000080" index="83" />
+			<column name="C90109000081" index="84" />
+			<column name="C90109000082" index="85" />
+			<column name="C90109000083" index="86" />
+			<column name="C90109000084" index="87" />
+			<column name="C90109000085" index="88" />
+			<column name="C90109000086" index="89" />
+			<column name="C90109000087" index="90" />
+			<column name="C90109000088" index="91" />
+			<column name="C90109000089" index="92" />
+			<column name="C90109000090" index="93" />
+			<column name="C90109000091" index="94" />
+			<column name="C90109000092" index="95" />
+			<column name="C90109000093" index="96" />
+			<column name="C90109000094" index="97" />
+			<column name="C90109000095" index="98" />
+			<column name="C90109000096" index="99" />
+			<column name="C90109000097" index="100" />
+			<column name="C90109000098" index="101" />
+			<column name="C90109000099" index="102" />
+			<column name="C90109000100" index="103" />
+			<column name="C90109000101" index="104" />
+			<column name="C90109000102" index="105" />
+			<column name="C90109000103" index="106" />
+			<column name="C90109000104" index="107" />
+			<column name="C90109000105" index="108" />
+			<column name="C90109000106" index="109" />
+			<column name="C90109000107" index="110" />
+			<column name="C90109000108" index="111" />
+			<column name="C90109000109" index="112" />
+			<column name="C90109000110" index="113" />
+			<column name="C90109000111" index="114" />
+			<column name="C90109000112" index="115" />
+			<column name="C90109000113" index="116" />
+			<column name="C90109000114" index="117" />
+			<column name="C90109000115" index="118" />
+			<column name="C90109000116" index="119" />
+			<column name="C90109000117" index="120" />
+			<column name="C90109000118" index="121" />
+			<column name="C90109000119" index="122" />
+			<column name="C90109000120" index="123" />
+			<column name="C90109000121" index="124" />
+			<column name="C90109000122" index="125" />
+			<column name="C90109000123" index="126" />
+			<column name="C90109000124" index="127" />
+			<column name="C90109000125" index="128" />
+			<column name="C90109000126" index="129" />
+			<column name="C90109000127" index="130" />
+			<column name="C90109000128" index="131" />
+			<column name="C90109000129" index="132" />
+			<column name="C90109000130" index="133" />
+			<column name="C90109000131" index="134" />
+			<column name="C90109000132" index="135" />
+			<column name="C90109000133" index="136" />
+			<column name="C90109000134" index="137" />
+			<column name="C90109000135" index="138" />
+			<column name="C90109000136" index="139" />
+			<column name="C90109000137" index="140" />
+			<column name="C90109000138" index="141" />
+			<column name="C90109000139" index="142" />
+			<column name="C90109000140" index="143" />
+			<column name="C90109000141" index="144" />
+			<column name="C90109000142" index="145" />
+			<column name="C90109000143" index="146" />
+			<column name="C90109000144" index="147" />
+			<column name="C90109000145" index="148" />
+			<column name="C90109000146" index="149" />
+			<column name="C90109000147" index="150" />
+			<column name="C90109000148" index="151" />  
+			<column name="C90109000227" index="152"/>
+			<column name="C90109000228" index="153"/>
+			<column name="C90109000230" index="154"/>
+			<column name="C90109000231" index="155"/>
+			<column name="C90109000233" index="156"/>
+			<column name="C90109000234" index="157"/>
+			<column name="C90109000236" index="158"/>
+			<column name="C90109000237" index="159"/>
+			<column name="C90109000238" index="160"/>
+			<column name="C90109000240" index="161"/>
+			<column name="C90109000241" index="162"/>
+			<column name="C90109000243" index="163"/>
+			<column name="C90109000244" index="164"/>
+			<column name="C90109000246" index="165"/>
+			<column name="C90109000247" index="166"/>
+			<column name="C90109000249" index="167"/>			
+		</table>
+	</templet>
+
+	<templet id="7">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_UGPRSD" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90119000001" index="4" />
+			<column name="C90119000002" index="5" />
+			<column name="C90119000003" index="6" />
+			<column name="C90119000004" index="7" />
+			<column name="C90119000005" index="8" />
+			<column name="C90119000006" index="9" />
+			<column name="C90119000007" index="10" />
+			<column name="C90119000008" index="11" />
+			<column name="C90119000009" index="12" />
+			<column name="C90119000010" index="13" />
+			<column name="C90119000011" index="14" />
+			<column name="C90119000012" index="15" />
+			<column name="C90119000013" index="16" />
+			<column name="C90119000014" index="17" />
+			<column name="C90119000015" index="18" />
+			<column name="C90119000016" index="19" />
+			<column name="C90119000017" index="20" />
+			<column name="C90119000018" index="21" />
+			<column name="C90119000019" index="22" />
+			<column name="C90119000020" index="23" />
+			<column name="C90119000021" index="24" />
+			<column name="C90119000022" index="25" />
+			<column name="C90119000023" index="26" />
+			<column name="C90119000024" index="27" />
+			<column name="C90119000025" index="28" />
+			<column name="C90119000026" index="29" />
+			<column name="C90119000027" index="30" />
+			<column name="C90119000028" index="31" />
+			<column name="C90119000029" index="32" />
+			<column name="C90119000030" index="33" />
+			<column name="C90119000031" index="34" />
+			<column name="C90119000032" index="35" />
+			<column name="C90119000033" index="36" />
+			<column name="C90119000034" index="37" />
+			<column name="C90119000035" index="38" />
+			<column name="C90119000036" index="39" />
+			<column name="C90119000037" index="40" />
+			<column name="C90119000038" index="41" />
+			<column name="C90119000039" index="42" />
+			<column name="C90119000040" index="43" />
+			<column name="C90119000041" index="44" />
+			<column name="C90119000042" index="45" />
+			<column name="C90119000043" index="46" />
+			<column name="C90119000044" index="47" />
+			<column name="C90119000045" index="48" />
+			<column name="C90119000046" index="49" />
+			<column name="C90119000047" index="50" />
+			<column name="C90119000048" index="51" />
+			<column name="C90119000049" index="52" />
+			<column name="C90119000050" index="53" />
+			<column name="C90119000051" index="54" />
+			<column name="C90119000052" index="55" />
+			<column name="C90119000053" index="56" />
+			<column name="C90119000054" index="57" />
+			<column name="C90119000055" index="58" />
+			<column name="C90119000056" index="59" />
+			<column name="C90119000057" index="60" />
+			<column name="C90119000058" index="61" />
+			<column name="C90119000059" index="62" />
+			<column name="C90119000060" index="63" />
+			<column name="C90119000061" index="64" />
+			<column name="C90119000062" index="65" />
+			<column name="C90119000063" index="66" />
+			<column name="C90119000064" index="67" />
+			<column name="C90119000065" index="68" />
+			<column name="C90119000066" index="69" />
+			<column name="C90119000067" index="70" />
+			<column name="C90119000068" index="71" />
+			<column name="C90119000069" index="72" />
+			<column name="C90119000070" index="73" />
+			<column name="C90119000071" index="74" />
+			<column name="C90119000072" index="75" />
+			<column name="C90119000073" index="76" />
+			<column name="C90119000074" index="77" />
+			<column name="C90119000075" index="78" />
+			<column name="C90119000076" index="79" />
+			<column name="C90119000077" index="80" />
+			<column name="C90119000078" index="81" />
+			<column name="C90119000079" index="82" />
+			<column name="C90119000080" index="83" />
+			<column name="C90119000081" index="84" />
+			<column name="C90119000082" index="85" />
+			<column name="C90119000083" index="86" />
+			<column name="C90119000084" index="87" />
+			<column name="C90119000085" index="88" />
+			<column name="C90119000086" index="89" />
+			<column name="C90119000087" index="90" />
+		</table>
+	</templet>
+
+	<templet id="8">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_DDTBFM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90100000001" index="4" />
+			<column name="C90100000002" index="5" />
+			<column name="C90100000003" index="6" />
+			<column name="C90100000004" index="7" />
+			<column name="C90100000005" index="8" />
+			<column name="C90100000006" index="9" />
+			<column name="C90100000007" index="10" />
+			<column name="C90100000008" index="11" />
+			<column name="C90100000009" index="12" />
+			<column name="C90100000010" index="13" />
+			<column name="C90100000011" index="14" />
+			<column name="C90100000012" index="15" />
+			<column name="C90100000013" index="16" />
+			<column name="C90100000014" index="17" />
+			<column name="C90100000015" index="18" />
+			<column name="C90100000016" index="19" />
+			<column name="C90100000017" index="20" />
+			<column name="C90100000018" index="21" />
+			<column name="C90100000019" index="22" />
+			<column name="C90100000020" index="23" />
+			<column name="C90100000021" index="24" />
+			<column name="C90100000022" index="25" />
+			<column name="C90100000023" index="26" />
+			<column name="C90100000024" index="27" />
+			<column name="C90100000025" index="28" />
+			<column name="C90100000026" index="29" />
+			<column name="C90100000027" index="30" />
+			<column name="C90100000028" index="31" />
+			<column name="C90100000029" index="32" />
+			<column name="C90100000030" index="33" />
+			<column name="C90100000031" index="34" />
+			<column name="C90100000032" index="35" />
+			<column name="C90100000033" index="36" />
+			<column name="C90100000034" index="37" />
+			<column name="C90100000035" index="38" />
+			<column name="C90100000036" index="39" />
+			<column name="C90100000037" index="40" />
+			<column name="C90100000038" index="41" />
+			<column name="C90100000039" index="42" />
+			<column name="C90100000040" index="43" />
+			<column name="C90100000041" index="44" />
+			<column name="C90100000042" index="45" />
+			<column name="C90100000043" index="46" />
+			<column name="C90100000044" index="47" />
+			<column name="C90100000045" index="48" />
+			<column name="C90100000046" index="49" />
+			<column name="C90100000047" index="50" />
+			<column name="C90100000048" index="51" />
+			<column name="C90100000049" index="52" />
+			<column name="C90100000050" index="53" />
+			<column name="C90100000051" index="54" />
+			<column name="C90100000052" index="55" />
+			<column name="C90100000053" index="56" />
+			<column name="C90100000054" index="57" />
+			<column name="C90100000055" index="58" />
+			<column name="C90100000056" index="59" />
+			<column name="C90100000057" index="60" />
+			<column name="C90100000058" index="61" />
+			<column name="C90100000059" index="62" />
+			<column name="C90100000060" index="63" />
+			<column name="C90100000061" index="64" />
+			<column name="C90100000062" index="65" />
+			<column name="C90100000063" index="66" />
+			<column name="C90100000064" index="67" />
+			<column name="C90100000065" index="68" />
+		</table>
+	</templet>
+
+	<templet id="9">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_DGPRSD" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90117000001" index="4" />
+			<column name="C90117000002" index="5" />
+			<column name="C90117000003" index="6" />
+			<column name="C90117000004" index="7" />
+			<column name="C90117000005" index="8" />
+			<column name="C90117000006" index="9" />
+			<column name="C90117000007" index="10" />
+			<column name="C90117000008" index="11" />
+			<column name="C90117000009" index="12" />
+			<column name="C90117000010" index="13" />
+			<column name="C90117000011" index="14" />
+			<column name="C90117000012" index="15" />
+			<column name="C90117000013" index="16" />
+			<column name="C90117000014" index="17" />
+			<column name="C90117000015" index="18" />
+			<column name="C90117000016" index="19" />
+			<column name="C90117000017" index="20" />
+			<column name="C90117000018" index="21" />
+			<column name="C90117000019" index="22" />
+			<column name="C90117000020" index="23" />
+			<column name="C90117000021" index="24" />
+			<column name="C90117000022" index="25" />
+			<column name="C90117000023" index="26" />
+			<column name="C90117000024" index="27" />
+			<column name="C90117000025" index="28" />
+			<column name="C90117000026" index="29" />
+			<column name="C90117000027" index="30" />
+			<column name="C90117000028" index="31" />
+			<column name="C90117000029" index="32" />
+			<column name="C90117000030" index="33" />
+			<column name="C90117000031" index="34" />
+			<column name="C90117000032" index="35" />
+			<column name="C90117000033" index="36" />
+			<column name="C90117000034" index="37" />
+			<column name="C90117000035" index="38" />
+			<column name="C90117000036" index="39" />
+			<column name="C90117000037" index="40" />
+			<column name="C90117000038" index="41" />
+			<column name="C90117000039" index="42" />
+			<column name="C90117000040" index="43" />
+			<column name="C90117000041" index="44" />
+			<column name="C90117000042" index="45" />
+			<column name="C90117000043" index="46" />
+			<column name="C90117000044" index="47" />
+			<column name="C90117000045" index="48" />
+			<column name="C90117000046" index="49" />
+			<column name="C90117000047" index="50" />
+			<column name="C90117000048" index="51" />
+			<column name="C90117000049" index="52" />
+			<column name="C90117000050" index="53" />
+			<column name="C90117000051" index="54" />
+			<column name="C90117000052" index="55" />
+			<column name="C90117000053" index="56" />
+			<column name="C90117000054" index="57" />
+			<column name="C90117000055" index="58" />
+			<column name="C90117000056" index="59" />
+			<column name="C90117000057" index="60" />
+			<column name="C90117000058" index="61" />
+			<column name="C90117000059" index="62" />
+		</table>
+	</templet>
+
+	<templet id="10">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_DEGPRSD" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90118000001" index="4" />
+			<column name="C90118000002" index="5" />
+			<column name="C90118000003" index="6" />
+			<column name="C90118000004" index="7" />
+			<column name="C90118000005" index="8" />
+			<column name="C90118000006" index="9" />
+			<column name="C90118000007" index="10" />
+			<column name="C90118000008" index="11" />
+			<column name="C90118000009" index="12" />
+			<column name="C90118000010" index="13" />
+			<column name="C90118000011" index="14" />
+			<column name="C90118000012" index="15" />
+			<column name="C90118000013" index="16" />
+			<column name="C90118000014" index="17" />
+			<column name="C90118000015" index="18" />
+			<column name="C90118000016" index="19" />
+			<column name="C90118000017" index="20" />
+			<column name="C90118000018" index="21" />
+			<column name="C90118000019" index="22" />
+			<column name="C90118000020" index="23" />
+			<column name="C90118000021" index="24" />
+			<column name="C90118000022" index="25" />
+			<column name="C90118000023" index="26" />
+			<column name="C90118000024" index="27" />
+			<column name="C90118000025" index="28" />
+			<column name="C90118000026" index="29" />
+			<column name="C90118000027" index="30" />
+			<column name="C90118000028" index="31" />
+			<column name="C90118000029" index="32" />
+			<column name="C90118000030" index="33" />
+			<column name="C90118000031" index="34" />
+			<column name="C90118000032" index="35" />
+			<column name="C90118000033" index="36" />
+			<column name="C90118000034" index="37" />
+			<column name="C90118000035" index="38" />
+			<column name="C90118000036" index="39" />
+			<column name="C90118000037" index="40" />
+			<column name="C90118000038" index="41" />
+			<column name="C90118000039" index="42" />
+			<column name="C90118000040" index="43" />
+			<column name="C90118000041" index="44" />
+			<column name="C90118000042" index="45" />
+			<column name="C90118000043" index="46" />
+			<column name="C90118000044" index="47" />
+			<column name="C90118000045" index="48" />
+			<column name="C90118000046" index="49" />
+			<column name="C90118000047" index="50" />
+			<column name="C90118000048" index="51" />
+			<column name="C90118000049" index="52" />
+			<column name="C90118000050" index="53" />
+			<column name="C90118000051" index="54" />
+			<column name="C90118000052" index="55" />
+			<column name="C90118000053" index="56" />
+			<column name="C90118000054" index="57" />
+			<column name="C90118000055" index="58" />
+			<column name="C90118000056" index="59" />
+			<column name="C90118000057" index="60" />
+			<column name="C90118000058" index="61" />
+			<column name="C90118000059" index="62" />
+		</table>
+	</templet>
+
+	<templet id="11">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_DFM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90102000001" index="4" />
+			<column name="C90102000002" index="5" />
+			<column name="C90102000003" index="6" />
+			<column name="C90102000004" index="7" />
+			<column name="C90102000005" index="8" />
+			<column name="C90102000006" index="9" />
+			<column name="C90102000007" index="10" />
+			<column name="C90102000008" index="11" />
+			<column name="C90102000009" index="12" />
+			<column name="C90102000010" index="13" />
+			<column name="C90102000011" index="14" />
+			<column name="C90102000012" index="15" />
+			<column name="C90102000013" index="16" />
+			<column name="C90102000014" index="17" />
+			<column name="C90102000015" index="18" />
+			<column name="C90102000016" index="19" />
+			<column name="C90102000017" index="20" />
+			<column name="C90102000018" index="21" />
+			<column name="C90102000019" index="22" />
+			<column name="C90102000020" index="23" />
+			<column name="C90102000021" index="24" />
+			<column name="C90102000022" index="25" />
+			<column name="C90102000023" index="26" />
+			<column name="C90102000024" index="27" />
+			<column name="C90102000025" index="28" />
+			<column name="C90102000026" index="29" />
+			<column name="C90102000027" index="30" />
+			<column name="C90102000028" index="31" />
+			<column name="C90102000029" index="32" />
+			<column name="C90102000030" index="33" />
+			<column name="C90102000031" index="34" />
+			<column name="C90102000032" index="35" />
+			<column name="C90102000033" index="36" />
+			<column name="C90102000034" index="37" />
+			<column name="C90102000035" index="38" />
+			<column name="C90102000036" index="39" />
+			<column name="C90102000037" index="40" />
+			<column name="C90102000038" index="41" />
+			<column name="C90102000039" index="42" />
+			<column name="C90102000040" index="43" />
+			<column name="C90102000041" index="44" />
+			<column name="C90102000042" index="45" />
+			<column name="C90102000043" index="46" />
+			<column name="C90102000044" index="47" />
+			<column name="C90102000045" index="48" />
+			<column name="C90102000046" index="49" />
+			<column name="C90102000047" index="50" />
+			<column name="C90102000048" index="51" />
+			<column name="C90102000049" index="52" />
+			<column name="C90102000050" index="53" />
+			<column name="C90102000051" index="54" />
+			<column name="C90102000052" index="55" />
+			<column name="C90102000053" index="56" />
+			<column name="C90102000054" index="57" />
+		</table>
+	</templet>
+
+	<templet id="12">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_URLCS" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90103000001" index="4" />
+			<column name="C90103000002" index="5" />
+			<column name="C90103000003" index="6" />
+			<column name="C90103000004" index="7" />
+			<column name="C90103000005" index="8" />
+			<column name="C90103000006" index="9" />
+			<column name="C90103000007" index="10" />
+			<column name="C90103000008" index="11" />
+			<column name="C90103000009" index="12" />
+			<column name="C90103000010" index="13" />
+			<column name="C90103000011" index="14" />
+			<column name="C90103000012" index="15" />
+			<column name="C90103000013" index="16" />
+			<column name="C90103000014" index="17" />
+			<column name="C90103000015" index="18" />
+			<column name="C90103000016" index="19" />
+			<column name="C90103000017" index="20" />
+			<column name="C90103000018" index="21" />
+			<column name="C90103000019" index="22" />
+			<column name="C90103000020" index="23" />
+			<column name="C90103000021" index="24" />
+			<column name="C90103000022" index="25" />
+			<column name="C90103000023" index="26" />
+			<column name="C90103000024" index="27" />
+			<column name="C90103000025" index="28" />
+			<column name="C90103000026" index="29" />
+			<column name="C90103000027" index="30" />
+			<column name="C90103000028" index="31" />
+			<column name="C90103000029" index="32" />
+			<column name="C90103000030" index="33" />
+			<column name="C90103000031" index="34" />
+			<column name="C90103000032" index="35" />
+			<column name="C90103000033" index="36" />
+			<column name="C90103000034" index="37" />
+			<column name="C90103000035" index="38" />
+			<column name="C90103000036" index="39" />
+			<column name="C90103000037" index="40" />
+			<column name="C90103000038" index="41" />
+			<column name="C90103000039" index="42" />
+			<column name="C90103000040" index="43" />
+			<column name="C90103000041" index="44" />
+			<column name="C90103000042" index="45" />
+			<column name="C90103000043" index="46" />
+			<column name="C90103000044" index="47" />
+			<column name="C90103000045" index="48" />
+			<column name="C90103000046" index="49" />
+			<column name="C90103000047" index="50" />
+			<column name="C90103000048" index="51" />
+			<column name="C90103000049" index="52" />
+			<column name="C90103000050" index="53" />
+			<column name="C90103000051" index="54" />
+			<column name="C90103000052" index="55" />
+			<column name="C90103000053" index="56" />
+			<column name="C90103000054" index="57" />
+			<column name="C90103000055" index="58" />
+			<column name="C90103000056" index="59" />
+			<column name="C90103000057" index="60" />
+			<column name="C90103000058" index="61" />
+			<column name="C90103000059" index="62" />
+			<column name="C90103000060" index="63" />
+			<column name="C90103000061" index="64" />
+			<column name="C90103000062" index="65" />
+			<column name="C90103000063" index="66" />
+			<column name="C90103000064" index="67" />
+			<column name="C90103000065" index="68" />
+			<column name="C90103000066" index="69" />
+			<column name="C90103000067" index="70" />
+			<column name="C90103000068" index="71" />
+			<column name="C90103000069" index="72" />
+			<column name="C90103000070" index="73" />
+			<column name="C90103000071" index="74" />
+			<column name="C90103000072" index="75" />
+			<column name="C90103000073" index="76" />
+			<column name="C90103000074" index="77" />
+			<column name="C90103000075" index="78" />
+			<column name="C90103000076" index="79" />
+			<column name="C90103000077" index="80" />
+			<column name="C90103000078" index="81" />
+			<column name="C90103000079" index="82" />
+			<column name="C90103000080" index="83" />
+			<column name="C90103000081" index="84" />
+			<column name="C90103000082" index="85" />
+			<column name="C90103000083" index="86" />
+			<column name="C90103000084" index="87" />
+			<column name="C90103000085" index="88" />
+			<column name="C90103000086" index="89" />
+			<column name="C90103000087" index="90" />
+			<column name="C90103000088" index="91" />
+			<column name="C90103000089" index="92" />
+			<column name="C90103000090" index="93" />
+			<column name="C90103000091" index="94" />
+			<column name="C90103000092" index="95" />
+			<column name="C90103000093" index="96" />
+			<column name="C90103000094" index="97" />
+			<column name="C90103000095" index="98" />
+			<column name="C90103000096" index="99" />
+			<column name="C90103000097" index="100" />
+		</table>
+	</templet>
+
+	<templet id="13">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_RAM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90111000001" index="4" />
+			<column name="C90111000002" index="5" />
+			<column name="C90111000003" index="6" />
+			<column name="C90111000004" index="7" />
+			<column name="C90111000005" index="8" />
+			<column name="C90111000006" index="9" />
+			<column name="C90111000007" index="10" />
+			<column name="C90111000008" index="11" />
+			<column name="C90111000009" index="12" />
+			<column name="C90111000010" index="13" />
+			<column name="C90111000011" index="14" />
+			<column name="C90111000012" index="15" />
+			<column name="C90111000013" index="16" />
+			<column name="C90111000014" index="17" />
+			<column name="C90111000015" index="18" />
+			<column name="C90111000016" index="19" />
+			<column name="C90111000017" index="20" />
+			<column name="C90111000018" index="21" />
+			<column name="C90111000019" index="22" />
+			<column name="C90111000020" index="23" />
+			<column name="C90111000021" index="24" />
+			<column name="C90111000022" index="25" />
+			<column name="C90111000023" index="26" />
+			<column name="C90111000024" index="27" />
+			<column name="C90111000025" index="28" />
+			<column name="C90111000026" index="29" />
+			<column name="C90111000027" index="30" />
+			<column name="C90111000028" index="31" />
+			<column name="C90111000029" index="32" />
+			<column name="C90111000030" index="33" />
+			<column name="C90111000031" index="34" />
+			<column name="C90111000032" index="35" />
+			<column name="C90111000033" index="36" />
+		</table>
+	</templet>
+
+	<templet id="14">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_RM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90112000001" index="4" />
+			<column name="C90112000002" index="5" />
+			<column name="C90112000003" index="6" />
+			<column name="C90112000004" index="7" />
+			<column name="C90112000005" index="8" />
+			<column name="C90112000006" index="9" />
+			<column name="C90112000007" index="10" />
+			<column name="C90112000008" index="11" />
+			<column name="C90112000009" index="12" />
+			<column name="C90112000010" index="13" />
+			<column name="C90112000011" index="14" />
+			<column name="C90112000012" index="15" />
+			<column name="C90112000013" index="16" />
+			<column name="C90112000014" index="17" />
+			<column name="C90112000015" index="18" />
+			<column name="C90112000016" index="19" />
+			<column name="C90112000017" index="20" />
+			<column name="C90112000018" index="21" />
+			<column name="C90112000019" index="22" />
+			<column name="C90112000020" index="23" />
+			<column name="C90112000021" index="24" />
+			<column name="C90112000022" index="25" />
+			<column name="C90112000023" index="26" />
+			<column name="C90112000024" index="27" />
+			<column name="C90112000025" index="28" />
+			<column name="C90112000026" index="29" />
+			<column name="C90112000027" index="30" />
+			<column name="C90112000028" index="31" />
+			<column name="C90112000029" index="32" />
+			<column name="C90112000030" index="33" />
+			<column name="C90112000031" index="34" />
+			<column name="C90112000032" index="35" />
+			<column name="C90112000033" index="36" />
+			<column name="C90112000034" index="37" />
+			<column name="C90112000035" index="38" />
+			<column name="C90112000036" index="39" />
+			<column name="C90112000037" index="40" />
+			<column name="C90112000038" index="41" />
+			<column name="C90112000039" index="42" />
+			<column name="C90112000040" index="43" />
+			<column name="C90112000041" index="44" />
+			<column name="C90112000042" index="45" />
+			<column name="C90112000043" index="46" />
+			<column name="C90112000044" index="47" />
+			<column name="C90112000045" index="48" />
+			<column name="C90112000046" index="49" />
+			<column name="C90112000047" index="50" />
+			<column name="C90112000048" index="51" />
+			<column name="C90112000049" index="52" />
+			<column name="C90112000050" index="53" />
+			<column name="C90112000051" index="54" />
+			<column name="C90112000052" index="55" />
+			<column name="C90112000053" index="56" />
+			<column name="C90112000054" index="57" />
+			<column name="C90112000055" index="58" />
+			<column name="C90112000056" index="59" />
+			<column name="C90112000057" index="60" />
+			<column name="C90112000058" index="61" />
+			<column name="C90112000059" index="62" />
+			<column name="C90112000060" index="63" />
+			<column name="C90112000061" index="64" />
+			<column name="C90112000062" index="65" />
+		</table>
+	</templet>
+
+	<templet id="15">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_UEGPRSD" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90120000001" index="4" />
+			<column name="C90120000002" index="5" />
+			<column name="C90120000003" index="6" />
+			<column name="C90120000004" index="7" />
+			<column name="C90120000005" index="8" />
+			<column name="C90120000006" index="9" />
+			<column name="C90120000007" index="10" />
+			<column name="C90120000008" index="11" />
+			<column name="C90120000009" index="12" />
+			<column name="C90120000010" index="13" />
+			<column name="C90120000011" index="14" />
+			<column name="C90120000012" index="15" />
+			<column name="C90120000013" index="16" />
+			<column name="C90120000014" index="17" />
+			<column name="C90120000015" index="18" />
+			<column name="C90120000016" index="19" />
+			<column name="C90120000017" index="20" />
+			<column name="C90120000018" index="21" />
+			<column name="C90120000019" index="22" />
+			<column name="C90120000020" index="23" />
+			<column name="C90120000021" index="24" />
+			<column name="C90120000022" index="25" />
+			<column name="C90120000023" index="26" />
+			<column name="C90120000024" index="27" />
+			<column name="C90120000025" index="28" />
+			<column name="C90120000026" index="29" />
+			<column name="C90120000027" index="30" />
+			<column name="C90120000028" index="31" />
+			<column name="C90120000029" index="32" />
+			<column name="C90120000030" index="33" />
+			<column name="C90120000031" index="34" />
+			<column name="C90120000032" index="35" />
+			<column name="C90120000033" index="36" />
+			<column name="C90120000034" index="37" />
+			<column name="C90120000035" index="38" />
+			<column name="C90120000036" index="39" />
+			<column name="C90120000037" index="40" />
+			<column name="C90120000038" index="41" />
+			<column name="C90120000039" index="42" />
+			<column name="C90120000040" index="43" />
+			<column name="C90120000041" index="44" />
+			<column name="C90120000042" index="45" />
+			<column name="C90120000043" index="46" />
+			<column name="C90120000044" index="47" />
+			<column name="C90120000045" index="48" />
+			<column name="C90120000046" index="49" />
+			<column name="C90120000047" index="50" />
+			<column name="C90120000048" index="51" />
+			<column name="C90120000049" index="52" />
+			<column name="C90120000050" index="53" />
+			<column name="C90120000051" index="54" />
+			<column name="C90120000052" index="55" />
+			<column name="C90120000053" index="56" />
+			<column name="C90120000054" index="57" />
+			<column name="C90120000055" index="58" />
+			<column name="C90120000056" index="59" />
+			<column name="C90120000057" index="60" />
+			<column name="C90120000058" index="61" />
+			<column name="C90120000059" index="62" />
+			<column name="C90120000060" index="63" />
+			<column name="C90120000061" index="64" />
+			<column name="C90120000062" index="65" />
+			<column name="C90120000063" index="66" />
+			<column name="C90120000064" index="67" />
+			<column name="C90120000065" index="68" />
+			<column name="C90120000066" index="69" />
+			<column name="C90120000067" index="70" />
+			<column name="C90120000068" index="71" />
+			<column name="C90120000069" index="72" />
+			<column name="C90120000070" index="73" />
+			<column name="C90120000071" index="74" />
+			<column name="C90120000072" index="75" />
+			<column name="C90120000073" index="76" />
+			<column name="C90120000074" index="77" />
+			<column name="C90120000075" index="78" />
+			<column name="C90120000076" index="79" />
+			<column name="C90120000077" index="80" />
+			<column name="C90120000078" index="81" />
+			<column name="C90120000079" index="82" />
+			<column name="C90120000080" index="83" />
+			<column name="C90120000081" index="84" />
+			<column name="C90120000082" index="85" />
+			<column name="C90120000083" index="86" />
+			<column name="C90120000084" index="87" />
+			<column name="C90120000085" index="88" />
+			<column name="C90120000086" index="89" />
+			<column name="C90120000087" index="90" />
+		</table>
+	</templet>
+
+	<templet id="16">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_SAPI3M" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90115000001" index="4" />
+			<column name="C90115000002" index="5" />
+			<column name="C90115000003" index="6" />
+			<column name="C90115000004" index="7" />
+			<column name="C90115000005" index="8" />
+			<column name="C90115000006" index="9" />
+			<column name="C90115000007" index="10" />
+			<column name="C90115000008" index="11" />
+			<column name="C90115000009" index="12" />
+			<column name="C90115000010" index="13" />
+			<column name="C90115000011" index="14" />
+			<column name="C90115000012" index="15" />
+			<column name="C90115000013" index="16" />
+			<column name="C90115000014" index="17" />
+			<column name="C90115000015" index="18" />
+			<column name="C90115000016" index="19" />
+			<column name="C90115000017" index="20" />
+			<column name="C90115000018" index="21" />
+			<column name="C90115000019" index="22" />
+			<column name="C90115000020" index="23" />
+			<column name="C90115000021" index="24" />
+			<column name="C90115000022" index="25" />
+			<column name="C90115000023" index="26" />
+			<column name="C90115000024" index="27" />
+			<column name="C90115000025" index="28" />
+		</table>
+	</templet>
+
+	<templet id="17">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_UDTBFM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90101000001" index="4" />
+			<column name="C90101000002" index="5" />
+			<column name="C90101000003" index="6" />
+			<column name="C90101000004" index="7" />
+			<column name="C90101000005" index="8" />
+			<column name="C90101000006" index="9" />
+			<column name="C90101000007" index="10" />
+			<column name="C90101000008" index="11" />
+			<column name="C90101000009" index="12" />
+			<column name="C90101000010" index="13" />
+			<column name="C90101000011" index="14" />
+			<column name="C90101000012" index="15" />
+			<column name="C90101000013" index="16" />
+			<column name="C90101000014" index="17" />
+			<column name="C90101000015" index="18" />
+			<column name="C90101000016" index="19" />
+			<column name="C90101000017" index="20" />
+			<column name="C90101000018" index="21" />
+			<column name="C90101000019" index="22" />
+			<column name="C90101000020" index="23" />
+			<column name="C90101000021" index="24" />
+			<column name="C90101000022" index="25" />
+			<column name="C90101000023" index="26" />
+			<column name="C90101000024" index="27" />
+			<column name="C90101000025" index="28" />
+			<column name="C90101000026" index="29" />
+			<column name="C90101000027" index="30" />
+			<column name="C90101000028" index="31" />
+			<column name="C90101000029" index="32" />
+			<column name="C90101000030" index="33" />
+			<column name="C90101000031" index="34" />
+			<column name="C90101000032" index="35" />
+			<column name="C90101000033" index="36" />
+			<column name="C90101000034" index="37" />
+			<column name="C90101000035" index="38" />
+			<column name="C90101000036" index="39" />
+			<column name="C90101000037" index="40" />
+			<column name="C90101000038" index="41" />
+			<column name="C90101000039" index="42" />
+			<column name="C90101000040" index="43" />
+			<column name="C90101000041" index="44" />
+			<column name="C90101000042" index="45" />
+			<column name="C90101000043" index="46" />
+			<column name="C90101000044" index="47" />
+			<column name="C90101000045" index="48" />
+			<column name="C90101000046" index="49" />
+			<column name="C90101000047" index="50" />
+			<column name="C90101000048" index="51" />
+			<column name="C90101000049" index="52" />
+			<column name="C90101000050" index="53" />
+			<column name="C90101000051" index="54" />
+			<column name="C90101000052" index="55" />
+			<column name="C90101000053" index="56" />
+			<column name="C90101000054" index="57" />
+			<column name="C90101000055" index="58" />
+			<column name="C90101000056" index="59" />
+			<column name="C90101000057" index="60" />
+			<column name="C90101000058" index="61" />
+			<column name="C90101000059" index="62" />
+			<column name="C90101000060" index="63" />
+			<column name="C90101000061" index="64" />
+			<column name="C90101000062" index="65" />
+			<column name="C90101000063" index="66" />
+		</table>
+	</templet>
+
+	<templet id="18">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_ABISMCM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90128000001" index="4" />
+			<column name="C90128000002" index="5" />
+			<column name="C90128000003" index="6" />
+			<column name="C90128000004" index="7" />
+			<column name="C90128000005" index="8" />
+			<column name="C90128000006" index="9" />
+			<column name="C90128000007" index="10" />
+			<column name="C90128000008" index="11" />
+			<column name="C90128000009" index="12" />
+			<column name="C90128000010" index="13" />
+			<column name="C90128000011" index="14" />
+			<column name="C90128000012" index="15" />
+			<column name="C90128000013" index="16" />
+			<column name="C90128000014" index="17" />
+			<column name="C90128000015" index="18" />
+			<column name="C90128000016" index="19" />
+			<column name="C90128000017" index="20" />
+			<column name="C90128000018" index="21" />
+			<column name="C90128000019" index="22" />
+			<column name="C90128000020" index="23" />
+			<column name="C90128000021" index="24" />
+			<column name="C90128000022" index="25" />
+			<column name="C90128000023" index="26" />
+			<column name="C90128000024" index="27" />
+			<column name="C90128000025" index="28" />
+			<column name="C90128000026" index="29" />
+			<column name="C90128000027" index="30" />
+			<column name="C90128000028" index="31" />
+			<column name="C90128000029" index="32" />
+			<column name="C90128000030" index="33" />
+			<column name="C90128000031" index="34" />
+			<column name="C90128000032" index="35" />
+			<column name="C90128000033" index="36" />
+			<column name="C90128000034" index="37" />
+			<column name="C90128000035" index="38" />
+			<column name="C90128000036" index="39" />
+			<column name="C90128000037" index="40" />
+			<column name="C90128000038" index="41" />
+			<column name="C90128000039" index="42" />
+			<column name="C90128000040" index="43" />
+			<column name="C90128000041" index="44" />
+			<column name="C90128000042" index="45" />
+			<column name="C90128000043" index="46" />
+			<column name="C90128000044" index="47" />
+			<column name="C90128000045" index="48" />
+			<column name="C90128000046" index="49" />
+			<column name="C90128000047" index="50" />
+			<column name="C90128000048" index="51" />
+			<column name="C90128000049" index="52" />
+			<column name="C90128000050" index="53" />
+			<column name="C90128000051" index="54" />
+			<column name="C90128000052" index="55" />
+			<column name="C90128000053" index="56" />
+			<column name="C90128000054" index="57" />
+			<column name="C90128000055" index="58" />
+			<column name="C90128000056" index="59" />
+			<column name="C90128000057" index="60" />
+			<column name="C90128000058" index="61" />
+			<column name="C90128000059" index="62" />
+			<column name="C90128000060" index="63" />
+			<column name="C90128000061" index="64" />
+			<column name="C90128000062" index="65" />
+			<column name="C90128000063" index="66" />
+			<column name="C90128000064" index="67" />
+			<column name="C90128000065" index="68" />
+			<column name="C90128000066" index="69" />
+			<column name="C90128000067" index="70" />
+			<column name="C90128000068" index="71" />
+			<column name="C90128000069" index="72" />
+			<column name="C90128000070" index="73" />
+			<column name="C90128000071" index="74" />
+			<column name="C90128000072" index="75" />
+			<column name="C90128000073" index="76" />
+			<column name="C90128000074" index="77" />
+			<column name="C90128000075" index="78" />
+			<column name="C90128000076" index="79" />
+			<column name="C90128000077" index="80" />
+			<column name="C90128000078" index="81" />
+			<column name="C90128000079" index="82" />
+			<column name="C90128000080" index="83" />
+			<column name="C90128000081" index="84" />
+			<column name="C90128000082" index="85" />
+			<column name="C90128000083" index="86" />
+			<column name="C90128000084" index="87" />
+			<column name="C90128000085" index="88" />
+			<column name="C90128000086" index="89" />
+			<column name="C90128000087" index="90" />
+			<column name="C90128000088" index="91" />
+			<column name="C90128000089" index="92" />
+			<column name="C90128000090" index="93" />
+			<column name="C90128000091" index="94" />
+			<column name="C90128000092" index="95" />
+			<column name="C90128000093" index="96" />
+			<column name="C90128000094" index="97" />
+			<column name="C90128000095" index="98" />
+			<column name="C90128000096" index="99" />
+			<column name="C90128000097" index="100" />
+			<column name="C90128000098" index="101" />
+		</table>
+	</templet>
+
+	<templet id="19">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_BSSGPFS" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90121000001" index="4" />
+			<column name="C90121000002" index="5" />
+			<column name="C90121000003" index="6" />
+			<column name="C90121000004" index="7" />
+			<column name="C90121000005" index="8" />
+			<column name="C90121000006" index="9" />
+			<column name="C90121000007" index="10" />
+			<column name="C90121000008" index="11" />
+			<column name="C90121000009" index="12" />
+			<column name="C90121000010" index="13" />
+			<column name="C90121000011" index="14" />
+			<column name="C90121000012" index="15" />
+			<column name="C90121000013" index="16" />
+			<column name="C90121000014" index="17" />
+			<column name="C90121000015" index="18" />
+			<column name="C90121000016" index="19" />
+			<column name="C90121000017" index="20" />
+			<column name="C90121000018" index="21" />
+			<column name="C90121000019" index="22" />
+			<column name="C90121000020" index="23" />
+			<column name="C90121000021" index="24" />
+			<column name="C90121000022" index="25" />
+			<column name="C90121000023" index="26" />
+		</table>
+	</templet>
+
+	<templet id="20">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_GBMS" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90122000001" index="4" />
+			<column name="C90122000002" index="5" />
+			<column name="C90122000003" index="6" />
+			<column name="C90122000004" index="7" />
+			<column name="C90122000005" index="8" />
+			<column name="C90122000006" index="9" />
+			<column name="C90122000007" index="10" />
+			<column name="C90122000008" index="11" />
+			<column name="C90122000009" index="12" />
+			<column name="C90122000010" index="13" />
+			<column name="C90122000011" index="14" />
+			<column name="C90122000012" index="15" />
+			<column name="C90122000013" index="16" />
+			<column name="C90122000014" index="17" />
+			<column name="C90122000015" index="18" />
+			<column name="C90122000016" index="19" />
+			<column name="C90122000017" index="20" />
+			<column name="C90122000018" index="21" />
+			<column name="C90122000019" index="22" />
+			<column name="C90122000020" index="23" />
+			<column name="C90122000021" index="24" />
+			<column name="C90122000022" index="25" />
+			<column name="C90122000023" index="26" />
+			<column name="C90122000024" index="27" />
+			<column name="C90122000025" index="28" />
+			<column name="C90122000026" index="29" />
+			<column name="C90122000027" index="30" />
+			<column name="C90122000028" index="31" />
+			<column name="C90122000029" index="32" />
+			<column name="C90122000030" index="33" />
+			<column name="C90122000031" index="34" />
+			<column name="C90122000032" index="35" />
+			<column name="C90122000033" index="36" />
+			<column name="C90122000034" index="37" />
+			<column name="C90122000035" index="38" />
+			<column name="C90122000036" index="39" />
+		</table>
+	</templet>
+
+	<templet id="21">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_HCM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90106000001" index="4" />
+			<column name="C90106000002" index="5" />
+			<column name="C90106000003" index="6" />
+			<column name="C90106000004" index="7" />
+			<column name="C90106000005" index="8" />
+			<column name="C90106000006" index="9" />
+			<column name="C90106000007" index="10" />
+			<column name="C90106000008" index="11" />
+			<column name="C90106000009" index="12" />
+			<column name="C90106000010" index="13" />
+			<column name="C90106000011" index="14" />
+			<column name="C90106000012" index="15" />
+			<column name="C90106000013" index="16" />
+			<column name="C90106000014" index="17" />
+			<column name="C90106000015" index="18" />
+			<column name="C90106000016" index="19" />
+			<column name="C90106000017" index="20" />
+			<column name="C90106000018" index="21" />
+			<column name="C90106000019" index="22" />
+			<column name="C90106000020" index="23" />
+			<column name="C90106000021" index="24" />
+			<column name="C90106000022" index="25" />
+			<column name="C90106000023" index="26" />
+			<column name="C90106000024" index="27" />
+			<column name="C90106000025" index="28" />
+			<column name="C90106000026" index="29" />
+			<column name="C90106000027" index="30" />
+			<column name="C90106000028" index="31" />
+			<column name="C90106000029" index="32" />
+			<column name="C90106000030" index="33" />
+			<column name="C90106000031" index="34" />
+			<column name="C90106000032" index="35" />
+			<column name="C90106000033" index="36" />
+			<column name="C90106000034" index="37" />
+			<column name="C90106000035" index="38" />
+			<column name="C90106000036" index="39" />
+			<column name="C90106000037" index="40" />
+			<column name="C90106000038" index="41" />
+			<column name="C90106000039" index="42" />
+			<column name="C90106000040" index="43" />
+			<column name="C90106000041" index="44" />
+			<column name="C90106000042" index="45" />
+			<column name="C90106000043" index="46" />
+			<column name="C90106000044" index="47" />
+			<column name="C90106000045" index="48" />
+			<column name="C90106000046" index="49" />
+			<column name="C90106000047" index="50" />
+			<column name="C90106000048" index="51" />
+			<column name="C90106000049" index="52" />
+			<column name="C90106000050" index="53" />
+			<column name="C90106000051" index="54" />
+			<column name="C90106000052" index="55" />
+			<column name="C90106000053" index="56" />
+			<column name="C90106000054" index="57" />
+			<column name="C90106000055" index="58" />
+			<column name="C90106000056" index="59" />
+			<column name="C90106000057" index="60" />
+			<column name="C90106000058" index="61" />
+			<column name="C90106000059" index="62" />
+			<column name="C90106000060" index="63" />
+			<column name="C90106000061" index="64" />
+			<column name="C90106000062" index="65" />
+			<column name="C90106000063" index="66" />
+			<column name="C90106000064" index="67" />
+			<column name="C90106000065" index="68" />
+			<column name="C90106000066" index="69" />
+			<column name="C90106000067" index="70" />
+			<column name="C90106000068" index="71" />
+			<column name="C90106000069" index="72" />
+			<column name="C90106000070" index="73" />
+			<column name="C90106000071" index="74" />
+			<column name="C90106000072" index="75" />
+			<column name="C90106000073" index="76" />
+			<column name="C90106000074" index="77" />
+			<column name="C90106000075" index="78" />
+			<column name="C90106000076" index="79" />
+			<column name="C90106000077" index="80" />
+			<column name="C90106000078" index="81" />
+		</table>
+	</templet>
+
+	<templet id="22">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_MSTAM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90114000001" index="4" />
+			<column name="C90114000002" index="5" />
+			<column name="C90114000003" index="6" />
+			<column name="C90114000004" index="7" />
+			<column name="C90114000005" index="8" />
+			<column name="C90114000006" index="9" />
+			<column name="C90114000007" index="10" />
+			<column name="C90114000008" index="11" />
+			<column name="C90114000009" index="12" />
+			<column name="C90114000010" index="13" />
+			<column name="C90114000011" index="14" />
+			<column name="C90114000012" index="15" />
+			<column name="C90114000013" index="16" />
+			<column name="C90114000014" index="17" />
+			<column name="C90114000015" index="18" />
+			<column name="C90114000016" index="19" />
+			<column name="C90114000017" index="20" />
+			<column name="C90114000018" index="21" />
+			<column name="C90114000019" index="22" />
+			<column name="C90114000020" index="23" />
+			<column name="C90114000021" index="24" />
+			<column name="C90114000022" index="25" />
+			<column name="C90114000023" index="26" />
+			<column name="C90114000024" index="27" />
+			<column name="C90114000025" index="28" />
+			<column name="C90114000026" index="29" />
+			<column name="C90114000027" index="30" />
+			<column name="C90114000028" index="31" />
+			<column name="C90114000029" index="32" />
+			<column name="C90114000030" index="33" />
+			<column name="C90114000031" index="34" />
+			<column name="C90114000032" index="35" />
+			<column name="C90114000033" index="36" />
+		</table>
+	</templet>
+
+	<templet id="23">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_RMMAM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90105000001" index="4" />
+			<column name="C90105000002" index="5" />
+			<column name="C90105000003" index="6" />
+			<column name="C90105000004" index="7" />
+			<column name="C90105000005" index="8" />
+			<column name="C90105000006" index="9" />
+			<column name="C90105000007" index="10" />
+			<column name="C90105000008" index="11" />
+			<column name="C90105000009" index="12" />
+			<column name="C90105000010" index="13" />
+			<column name="C90105000011" index="14" />
+			<column name="C90105000012" index="15" />
+			<column name="C90105000013" index="16" />
+			<column name="C90105000014" index="17" />
+			<column name="C90105000015" index="18" />
+			<column name="C90105000016" index="19" />
+			<column name="C90105000017" index="20" />
+			<column name="C90105000018" index="21" />
+			<column name="C90105000019" index="22" />
+			<column name="C90105000020" index="23" />
+			<column name="C90105000021" index="24" />
+			<column name="C90105000022" index="25" />
+			<column name="C90105000023" index="26" />
+			<column name="C90105000024" index="27" />
+			<column name="C90105000025" index="28" />
+			<column name="C90105000026" index="29" />
+			<column name="C90105000027" index="30" />
+			<column name="C90105000028" index="31" />
+			<column name="C90105000029" index="32" />
+			<column name="C90105000030" index="33" />
+			<column name="C90105000031" index="34" />
+			<column name="C90105000032" index="35" />
+			<column name="C90105000033" index="36" />
+			<column name="C90105000034" index="37" />
+		</table>
+	</templet>
+
+	<templet id="24">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_SCS" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90113000001" index="4" />
+			<column name="C90113000002" index="5" />
+			<column name="C90113000003" index="6" />
+			<column name="C90113000004" index="7" />
+			<column name="C90113000005" index="8" />
+			<column name="C90113000006" index="9" />
+			<column name="C90113000007" index="10" />
+			<column name="C90113000008" index="11" />
+			<column name="C90113000009" index="12" />
+			<column name="C90113000010" index="13" />
+			<column name="C90113000011" index="14" />
+			<column name="C90113000012" index="15" />
+			<column name="C90113000013" index="16" />
+			<column name="C90113000014" index="17" />
+			<column name="C90113000015" index="18" />
+			<column name="C90113000016" index="19" />
+			<column name="C90113000017" index="20" />
+			<column name="C90113000018" index="21" />
+			<column name="C90113000019" index="22" />
+			<column name="C90113000020" index="23" />
+			<column name="C90113000021" index="24" />
+			<column name="C90113000022" index="25" />
+			<column name="C90113000023" index="26" />
+			<column name="C90113000024" index="27" />
+			<column name="C90113000025" index="28" />
+			<column name="C90113000026" index="29" />
+			<column name="C90113000027" index="30" />
+			<column name="C90113000028" index="31" />
+			<column name="C90113000029" index="32" />
+			<column name="C90113000030" index="33" />
+			<column name="C90113000031" index="34" />
+			<column name="C90113000032" index="35" />
+			<column name="C90113000033" index="36" />
+			<column name="C90113000034" index="37" />
+			<column name="C90113000035" index="38" />
+			<column name="C90113000036" index="39" />
+			<column name="C90113000037" index="40" />
+			<column name="C90113000038" index="41" />
+			<column name="C90113000039" index="42" />
+			<column name="C90113000040" index="43" />
+			<column name="C90113000041" index="44" />
+			<column name="C90113000042" index="45" />
+			<column name="C90113000043" index="46" />
+			<column name="C90113000044" index="47" />
+			<column name="C90113000045" index="48" />
+			<column name="C90113000046" index="49" />
+			<column name="C90113000047" index="50" />
+			<column name="C90113000048" index="51" />
+			<column name="C90113000049" index="52" />
+			<column name="C90113000050" index="53" />
+			<column name="C90113000051" index="54" />
+			<column name="C90113000052" index="55" />
+			<column name="C90113000053" index="56" />
+			<column name="C90113000054" index="57" />
+			<column name="C90113000055" index="58" />
+			<column name="C90113000056" index="59" />
+			<column name="C90113000057" index="60" />
+			<column name="C90113000058" index="61" />
+			<column name="C90113000059" index="62" />
+			<column name="C90113000060" index="63" />
+		</table>
+	</templet>
+
+	<templet id="25">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_UPACCHS" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90116000001" index="4" />
+			<column name="C90116000002" index="5" />
+			<column name="C90116000003" index="6" />
+			<column name="C90116000004" index="7" />
+			<column name="C90116000005" index="8" />
+			<column name="C90116000006" index="9" />
+			<column name="C90116000007" index="10" />
+			<column name="C90116000008" index="11" />
+			<column name="C90116000009" index="12" />
+			<column name="C90116000010" index="13" />
+			<column name="C90116000011" index="14" />
+			<column name="C90116000012" index="15" />
+			<column name="C90116000013" index="16" />
+			<column name="C90116000014" index="17" />
+			<column name="C90116000015" index="18" />
+			<column name="C90116000016" index="19" />
+			<column name="C90116000017" index="20" />
+			<column name="C90116000018" index="21" />
+			<column name="C90116000019" index="22" />
+			<column name="C90116000020" index="23" />
+			<column name="C90116000021" index="24" />
+			<column name="C90116000022" index="25" />
+			<column name="C90116000023" index="26" />
+			<column name="C90116000024" index="27" />
+			<column name="C90116000025" index="28" />
+			<column name="C90116000026" index="29" />
+			<column name="C90116000027" index="30" />
+		</table>
+	</templet>
+
+	<templet id="26">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_BSCPSBM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="BSCID" index="2" />
+			<column name="C90003000001" index="3" />
+			<column name="C90003000002" index="4" />
+		</table>
+	</templet>
+
+	<templet id="27">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_CPULM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="BSCID" index="2" />
+			<column name="C90005000001" index="3" />
+			<column name="C90005000002" index="4" />
+		</table>
+	</templet>
+	
+		<templet id="28">
+		<table id="0" name="CLT_PM_ZTE_V3_FL_CPSBM" split="|" >
+			<column name="COLLECT_TIME" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="IBSCMEID" index="1" />
+			<column name="SITEID" index="2" />
+			<column name="BTSID" index="3" />
+			<column name="C90004000081" index="4"/> 
+			<column name="C90004000082" index="5"/> 
+			<column name="C90004000083" index="6"/> 
+			<column name="C90004000084" index="7"/> 
+			<column name="C90004000085" index="8"/> 
+			<column name="C90004000086" index="9"/> 
+			<column name="C90004000087" index="10"/>
+			<column name="C90004000088" index="11"/>
+			<column name="C90004000089" index="12"/>
+			<column name="C90004000090" index="13"/>
+			<column name="C90004000091" index="14"/>
+			<column name="C90004000092" index="15"/>
+			<column name="C90004000094" index="16"/>
+			<column name="C90004000095" index="17"/>
+			<column name="C90004000096" index="18"/>
+			<column name="C90004000097" index="19"/>
+			<column name="C90004000098" index="20"/>
+			<column name="C90004000099" index="21"/>
+			<column name="C90004000100" index="22"/>
+			<column name="C90004000101" index="23"/>
+			<column name="C90004000102" index="24"/>
+			<column name="C90004000103" index="25"/>
+			<column name="C90004000104" index="26"/>
+			<column name="C90004000105" index="27"/>
+			<column name="C90004000172" index="28"/>
+			<column name="C90004000173" index="29"/>
+			<column name="C90004000174" index="30"/>
+			<column name="C90004000175" index="31"/>
+			<column name="C90004000176" index="32"/>
+			<column name="C90004000177" index="33"/>
+			<column name="C90004000178" index="34"/>
+			<column name="C90004000179" index="35"/>
+			<column name="C90004000180" index="36"/>
+			<column name="C90004000181" index="37"/>
+			<column name="C90004000182" index="38"/>
+			<column name="C90004000183" index="39"/>
+			<column name="C90004000184" index="40"/>
+			<column name="C90004000185" index="41"/>
+			<column name="C90004000186" index="42"/>
+			<column name="C90004000187" index="43"/>
+			<column name="C90004000188" index="44"/>
+			<column name="C90004000189" index="45"/>
+			<column name="C90004000190" index="46"/>
+			<column name="C90004000191" index="47"/>
+			<column name="C90004000192" index="48"/>
+			<column name="C90004000193" index="49"/>
+			<column name="C90004000194" index="50"/>
+			<column name="C90004000195" index="51"/>
+			<column name="C90004000196" index="52"/>
+			<column name="C90004000197" index="53"/>
+			<column name="C90004000198" index="54"/>
+			<column name="C90004000199" index="55"/>
+			<column name="C90004000200" index="56"/>
+			<column name="C90004000201" index="57"/>
+			<column name="C90004000202" index="58"/>
+			<column name="C90004000203" index="59"/>
+			<column name="C90004000204" index="60"/>
+			<column name="C90004000205" index="61"/>
+			<column name="C90004000206" index="62"/>
+			<column name="C90004000207" index="63"/>
+			<column name="C90004000208" index="64"/>
+			<column name="C90004000209" index="65"/>
+			<column name="C90004000210" index="66"/>
+			<column name="C90004000211" index="67"/>
+			<column name="C90004000212" index="68"/>
+			<column name="C90004000213" index="69"/>
+			<column name="C90004000214" index="70"/>
+			<column name="C90004000215" index="71"/>
+			<column name="C90004000216" index="72"/>
+			<column name="C90004000217" index="73"/>
+			<column name="C90004000218" index="74"/>
+			<column name="C90004000219" index="75"/>
+			<column name="C90004000220" index="76"/>
+			<column name="C90004000221" index="77"/>
+			<column name="C90004000222" index="78"/>
+			<column name="C90004000223" index="79"/>
+			<column name="C90004000224" index="80"/>
+			<column name="C90004000225" index="81"/> 
+		</table>                             
+	</templet>                            
+</templets>

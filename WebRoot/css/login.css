@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#loginDiv {
+	position: absolute;
+	width: 450px;
+	height: 100px;
+	left: 35%;
+	top: 60%;
+}
+
+#imgDiv {
+	position: absolute;
+	width: 250px;
+	height: 100px;
+	left: 10%;
+	top: 10%;
+}

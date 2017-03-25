@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_CONF_BSC" split="^`" >
+  		<column name="Timestamp" index="1" type="3" format="YYYY-MM-DD"/>
+			<column name="TY_BSC_ID" index="2"/>
+			<column name="Province" index="3"/>
+			<column name="CITY" index="4"/>
+			<column name="VENDOR_NAME" index="5"/>
+ 		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_CONF_BTS" split="^`" >
+  		<column name="Timestamp" index="1" type="3" format="YYYY-MM-DD"/>
+			<column name="TY_BTS_ID" index="2"/>
+			<column name="BTS_ID" index="3"/>
+			<column name="Equipment_NAME" index="4" type="2" format="512"/>
+			<column name="Bts_Name" index="5"/>
+			<column name="Province" index="6"/>
+			<column name="CITY" index="7"/>
+			<column name="TY_BSC_ID" index="8"/>
+			<column name="VENDOR_NAME" index="9"/>
+			<column name="Longitude " index="10"/>
+			<column name="Latitude" index="11"/>
+ 		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="CLT_CONF_SECTOR" split="^`" >
+  		<column name="Timestamp" index="1" type="3" format="YYYY-MM-DD"/>
+			<column name="TY_Cell_Id" index="2"/>
+			<column name="Province" index="3"/>
+			<column name="city" index="4"/>
+			<column name="Bts_Name" index="5"/>
+			<column name="SectorNO" index="6"/>
+			<column name="CELL_NAME" index="7"/>
+			<column name="Longitude " index="8"/>
+			<column name="Latitude" index="9"/>
+			<column name="PN" index="10"/>
+			<column name="TY_BSC_ID" index="11"/>
+			<column name="TY_BTS_ID" index="12"/>
+			<column name="ANT_Longitude " index="13"/>
+			<column name="ANT_Latitude" index="14"/>
+			<column name="ANT_DIR" index="15"/>
+ 		</table>
+	</templet>
+</templets>

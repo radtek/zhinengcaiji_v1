@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" table="tbl_objectinstance" used="1" condition="">
+		<field name="objecttypeid" index="0"/>
+		<field name="objectno" index="1"/>
+	</templet>
+
+	<templet id="1" table="tbl_result_1275071420_3" used="1" condition="">
+		<field name="starttime" index="0"/>
+		<field name="counter_1279173417" index="1"/>
+	</templet>
+
+</templets>

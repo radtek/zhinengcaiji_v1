@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templet>
+	<table name="clt_am_w_hw_stream" encoding="" sqlldrPeriod="100">
+		<column to="SN" src="设备告警流水号"  />
+		<column to="NeSn" src="网络流水号"  />
+		<column to="ObjFdn" src="对象标识"  />
+		<column to="ObjName" src="对象名称"  />
+		<column to="ObjType" src="对象类型"  />
+		<column to="NeFdn" src="网元标识"  />
+		<column to="NeName" src="网元名称"  />
+		<column to="NeType" src="网元类型"  />
+		<column to="AlarmID" src="告警ID"  />
+		<column to="AlarmName" src="告警名称"  />
+		<column to="CategoryID" src="告警种类ID"  />
+		<column to="Category" src="告警种类"  />
+		<column to="SeverityID" src="告警级别ID"  />
+		<column to="Severity" src="告警级别"  />
+		<column to="EventID" src="告警网管类型ID"  />
+		<column to="EventType" src="告警类型"  />
+		<column to="State" src="告警状态"  />
+		<column to="SpecialAlarmStatusID" src="特殊告警状态ID"  />
+		<column to="OccurTime" src="发生时间" type="3" format="yyyy-mm-dd hh24:mi:ss" />
+		<column to="AckTime" src="确认时间" type="3" format="yyyy-mm-dd hh24:mi:ss"  />
+		<column to="UnAckTime" src="反确认时间" type="3" format="yyyy-mm-dd hh24:mi:ss" />
+		<column to="ClearTime" src="恢复时间" type="3" format="yyyy-mm-dd hh24:mi:ss" />
+		<column to="Location" src="定位信息"  />
+		<column to="Operator" src="操作员"  />
+	</table>
+</templet>

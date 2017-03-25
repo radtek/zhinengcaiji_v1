@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+	<templet id="0" file="/tmp/wyzyjk/BSC%%Y%%M%%D*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="BSC_NAME" index="0"/>
+				<field name="BSC_ID" index="1"/>
+				<field name="BSC_STATES" index="2"/>
+				<field name="RELATED_OMC" index="3"/>
+				<field name="CITY_NAME" index="4"/>
+				<field name="VENDER" index="5"/>
+				<field name="VERSION" index="6"/>
+				<field name="NE_DN" index="7"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/tmp/wyzyjk/BTS%%Y%%M%%D*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="BTS_NAME" index="0"/>
+				<field name="BTS_ID" index="1"/>
+				<field name="BTS_STATES" index="2"/>
+				<field name="RELATED_BSC" index="3"/>
+				<field name="RELATED_OMC" index="4"/>
+				<field name="CITY_NAME" index="5"/>
+				<field name="VENDER" index="6"/>
+				<field name="VERSION" index="7"/>
+				<field name="NE_DN" index="8"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="/tmp/wyzyjk/CELL%%Y%%M%%D*.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+				<field name="CELL_NAME" index="0"/>
+				<field name="CELL_STATES" index="1"/>
+				<field name="RELATED_BSC" index="2"/>
+				<field name="LAC" index="3"/>
+				<field name="CI" index="4"/>
+				<field name="RELATED_BTS" index="5"/>
+				<field name="RELATED_OMC" index="6"/>
+				<field name="CITY_NAME" index="7"/>
+				<field name="VENDER" index="8"/>
+				<field name="NE_DN" index="9"/>
+      	<field name="INT_ID" index="10"/>
+      	<field name="site_state" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_NET_MAN_ENODEB" split="~`" >
+      <column name="ENODEB_NAME"   index="1" type="2" format="4000"/>	
+      <column name="ENODEB_ID"   index="2" type="2" format="4000"/>	
+      <column name="RELATED_OMC"   index="3" type="2" format="4000"/>	
+      <column name="CITY_NAME"   index="4" type="2" format="4000"/>	
+      <column name="VENDER"   index="5" type="2" format="4000"/>	
+      <column name="NE_DN"   index="6" type="2" format="4000"/>	
+      <column name="ENBID"   index="7"/>	
+   	</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_NET_MAN_EUTRANCELL" split="~`" >
+      <column name="OBJECT_RDN"   index="1" type="2" format="4000"/>	
+      <column name="EUTRANCELL_NAME"   index="2" type="2" format="4000"/>	
+      <column name="CELLUNIID"   index="3" type="2" format="4000"/>	
+      <column name="CELLMODEFLAG"   index="4" type="2" format="4000"/>	
+      <column name="EARFCNDL"   index="5" type="2" format="4000"/>	
+      <column name="BANDWIDTHDL"   index="6" type="2" format="4000"/>
+      <column name="BANDWIDTHUL"   index="7" type="2" format="4000"/>	
+      <column name="BANDWIDTH"   index="8" type="2" format="4000"/>	
+      <column name="ADMINSTATE"   index="9" type="2" format="4000"/>	
+      <column name="OPTSTATE"   index="10" type="2" format="4000"/>	
+      <column name="CELL_SIZE"   index="11" type="2" format="4000"/>	
+      <column name="PLMNIDLIST"   index="12" type="2" format="4000"/>
+      <column name="TAC"   index="13" type="2" format="4000"/>	
+      <column name="PCI"   index="14" type="2" format="4000"/>	
+      <column name="CELLLOCALID"   index="15" type="2" format="4000"/>	
+      <column name="ENBID"   index="16"/>	
+   	</table>
+	</templet>
+</templets>
+

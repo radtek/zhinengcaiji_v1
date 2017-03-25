@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="DS_CLT_CM_CELL_HW" split="|">
+			<column name="module_id"  index="0" />
+			<column name="cell_index"  index="1" />
+			<column name="cell_id"  index="2" />
+			<column name="sector_id"  index="3" />
+			<column name="local_cell_id"  index="4" />
+			<column name="local_sector_id"  index="5" />
+			<column name="pilot_pn"  index="6" />
+			<column name="sid"  index="7" />
+			<column name="nid"  index="8" />
+			<column name="pzid"  index="9" />
+			<column name="lacode"  index="10" />
+			<column name="virtual_lac1"  index="11" />
+			<column name="virtual_lac2"  index="12" />
+			<column name="virtual_lac3"  index="13" />
+			<column name="virtual_lac4"  index="14" />
+			<column name="virtual_lac5"  index="15" />
+			<column name="border"  index="16" />
+			<column name="site_no"  index="17" />
+			<column name="carr_assgn_allow"  index="18" />
+			<column name="if_bord_cell"  index="19" />
+			<column name="base_id"  index="20" />
+			<column name="rev_rssi_carr_assgn_switch"  index="21" />
+			<column name="do_carr_assgn_allow"  index="22" />
+			<column name="doa_rev_rssi_carr_assgn_switch"  index="23" />
+			<column name="doa_prv_pri_carr_assgn_sw"  index="24" />
+			<column name="ct_lacode"  index="25" />
+			<column name="do_multi_band_assign_sw"  index="26" />
+			<column name="autodwn_fwdeqlchan_thd"  index="27" />
+			<column name="autodwn_count_thd"  index="28" />
+			<column name="unblk_fwdeqlchan_thd"  index="29" />
+			<column name="do_usercount_thd"  index="30" />
+			<column name="do_autodwn_count_thd"  index="31" />
+			<column name="do_unblk_usercount_thd"  index="32" />
+			<column name="irecid"  index="33" />
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="DS_CLT_CM_PILOT_HW" split="|">
+			<column name="global_carrier_index" index="0"  />
+			<column name="module_id" index="1"  />
+			<column name="pilot_id" index="2"  />
+			<column name="cell_id" index="3"  />
+			<column name="sector_id" index="4"  />
+			<column name="carrier_id" index="5"  />
+			<column name="pilot_beacon_flag" index="6"  />
+			<column name="band_class" index="7"  />
+			<column name="arfcn" index="8"  />
+			<column name="tx_gain" index="9"  />
+			<column name="sector_gain" index="10"  />
+			<column name="preced_srv_type" index="11"  />
+			<column name="pilot_prio" index="12"  />
+			<column name="cclm_send_flag" index="13"  />
+			<column name="ecclm_send_flag" index="14"  />
+			<column name="bcch_ecclm_flag" index="15"  />
+			<column name="system_typ" index="16"  />
+			<column name="transitional_flag" index="17"  />
+			<column name="evdo_protocol_ver" index="18"  />
+			<column name="autodownd_sw" index="19"  />
+			<column name="beacon_typ" index="20"  />
+			<column name="irecid" index="21"  />
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="DS_CLT_CM_TBL_BTSBASICINFO_HW" split="|">
+			<column name="ibtsid" index="0"  />
+			<column name="sbtsname" index="1"  />
+			<column name="iloadindex" index="2"  />
+			<column name="ibackuptime" index="3"  />
+			<column name="igatewayip" index="4"  />
+			<column name="inetmask" index="5"  />
+			<column name="isiteclass" index="6"  />
+			<column name="isitetype" index="7"  />
+			<column name="iautoloadflag" index="8"  />
+			<column name="irvsmntflag" index="9"  />
+			<column name="imsaccessflag" index="10"  />
+			<column name="supgradever" index="11"  />
+			<column name="ibinlogautorptflag" index="12"  />
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="DS_CLT_CM_VW_CELLALL_HW" split="|">
+			<column name="module_id"  index="0"  />
+			<column name="cell_index"  index="1"  />
+			<column name="cell_id"  index="2"  />
+			<column name="sector_id"  index="3"  />
+			<column name="local_cell_id"  index="4"  />
+			<column name="local_sector_id"  index="5"  />
+			<column name="pilot_pn"  index="6"  />
+			<column name="sid"  index="7"  />
+			<column name="nid"  index="8"  />
+			<column name="pzid"  index="9"  />
+			<column name="system_type"  index="10"  />
+			<column name="lacode"  index="11"  />
+			<column name="virtual_lac1"  index="12"  />
+			<column name="virtual_lac2"  index="13"  />
+			<column name="virtual_lac3"  index="14"  />
+			<column name="virtual_lac4"  index="15"  />
+			<column name="virtual_lac5"  index="16"  />
+			<column name="border"  index="17"  />
+			<column name="site_no"  index="18"  />
+			<column name="carr_assgn_allow"  index="19"  />
+			<column name="if_bord_cell"  index="20"  />
+			<column name="base_id"  index="21"  />
+			<column name="rev_rssi_carr_assgn_switch"  index="22"  />
+			<column name="ct_lacode"  index="23"  />
+			<column name="autodwn_fwdeqlchan_thd"  index="24"  />
+			<column name="autodwn_count_thd"  index="25"  />
+			<column name="unblk_fwdeqlchan_thd"  index="26"  />
+			<column name="hard_assign_type"  index="27"  />
+			<column name="do_carr_assgn_allow"  index="28"  />
+			<column name="doa_rev_rssi_carr_assgn_switch"  index="29"  />
+			<column name="doa_prv_pri_carr_assgn_sw"  index="30"  />
+			<column name="do_multi_band_assign_sw"  index="31"  />
+			<column name="do_usercount_thd"  index="32"  />
+			<column name="do_autodwn_count_thd"  index="33"  />
+			<column name="do_unblk_usercount_thd"  index="34"  />
+			<column name="do_uzid"  index="35"  />
+			<column name="stay_mode"  index="36"  />
+			<column name="bandclass_assign_sw"  index="37"  />
+			<column name="bandclass_assign"  index="38"  />
+			<column name="an_assist_1xdo_sw"  index="39"  />
+			<column name="location"  index="40"  />
+			<column name="microcell"  index="41"  />
+		</table>
+	</templet>
+	<templet id="4">
+		<table id="0" name="DS_CLT_CM_VWGPSONEINFO_HW" split="|">
+			<column name="SID" index="0"/>
+			<column name="NID" index="1"/>
+			<column name="BTS_NAME" index="2"/>
+			<column name="CELL_ID" index="3"/>
+			<column name="SECTOR_ID" index="4"/>
+			<column name="CARRIER_ID" index="5"/>
+			<column name="ARFCN" index="6"/>
+			<column name="BAND_CLASS" index="7"/>
+			<column name="REGION_TYPE" index="8"/>
+			<column name="PILOT_PN" index="9"/>
+			<column name="PILOT_INC" index="10"/>
+			<column name="BASE_LAT" index="11"/>
+			<column name="BASE_LONG" index="12"/>
+			<column name="ANT_LAT" index="13"/>
+			<column name="ANT_LONG" index="14"/>
+			<column name="ANT_ALT" index="15"/>
+			<column name="SURVEY_ACC" index="16"/>
+			<column name="ANT_ORIENT" index="17"/>
+			<column name="ANT_OPENING" index="18"/>
+			<column name="DOWN_TILT" index="19"/>
+			<column name="ANT_CABLE" index="20"/>
+			<column name="FLC_ACC" index="21"/>
+			<column name="P_REPTR" index="22"/>
+			<column name="FORMAT_TYPE" index="23"/>
+			<column name="MSC_ID" index="24"/>
+		</table>
+	</templet>
+	<templet id="5">
+		<table id="0" name="DS_CLT_CM_MTGETBTSCARRIOR_HW" split="|">
+			<column name="IBTSID" index="0"/>
+			<column name="ILOCALCELLID" index="1"/>
+			<column name="ILOCALSECTORID" index="2"/>
+			<column name="ICARRIERID" index="3"/>
+			<column name="IPILOTBEACONFLAG" index="4"/>
+		</table>
+	</templet>
+	<templet id="6">
+		<table id="0" name="ds_clt_pm_objectinstance_hw" split="|">
+			<column name="objecttypeid" index="0" />
+			<column name="objectno" index="1" />
+			<column name="invalidtime" index="2" />
+			<column name="objectparameter" index="3" />
+			<column name="nefdn" index="4" />
+			<column name="nename" index="5" />
+			<column name="membernum" index="6" />
+			<column name="objectmember0" index="7" />
+			<column name="objectmemname0" index="8" />
+			<column name="objectmember1" index="9" />
+			<column name="objectmemname1" index="10" />
+			<column name="objectmember2" index="11" />
+			<column name="objectmemname2" index="12" />
+			<column name="objectmember3" index="13" />
+			<column name="objectmemname3" index="14" />
+			<column name="objectmember4" index="15" />
+			<column name="objectmemname4" index="16" />
+			<column name="objectmember5" index="17" />
+			<column name="objectmemname5" index="18" />
+			<column name="objectdescription" index="19" />
+			<column name="bamobjectstr" index="20" />
+			<column name="measurementstate" index="21" />
+		</table>
+	</templet>
+</templets>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+	<templet file="*" rowSep="$$$$" fieldSep="\|" table="CLT_CM_HEBEI_COMPLAINT">
+		<field index="0"  name="complaint_id" />
+		<field index="1"  name="accepttime" type="date 'yyyy-mm-dd hh24:mi:ss'" />
+		<field index="2"  name="endtime" type="date 'yyyy-mm-dd hh24:mi:ss'" />
+		<field index="3"  name="complaintcellphone" />
+		<field index="4"  name="complaintusername" />
+		<field index="5"  name="linkman" />
+		<field index="6"  name="linkphone" />
+		<field index="7"  name="complaintgrade" />
+		<field index="8"  name="complaintusertype" />
+		<field index="9"  name="complaintmatter" type="char(2000)" />
+		<field index="10"  name="complaintlan" />
+		<field index="11"  name="complaintordertype" />
+		<field index="12"  name="complaintaddrtype" />
+		<field index="13"  name="complaintareatype" />
+		<field index="14"  name="complaintdetailaddr" />
+		<field index="15"  name="longitude" />
+		<field index="16"  name="latitude" />
+		<field index="17"  name="complaintdealresult" />
+		<field index="18"  name="complaintreason" />
+		<field index="19"  name="complaintreasondetail" type="char(2000)" />
+		<field index="20"  name="solvesituation" />
+		<field index="21"  name="calltype" />
+		<field index="22"  name="isaddbland" />
+	</templet>
+</templets>

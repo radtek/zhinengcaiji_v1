@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templet splitSign="\t" encoding="UTF-8">
+	<define id="0" name="GPS">
+		<field name="Longitude" index="0" />
+		<field name="Latitude" index="1" />
+		<field name="Altitude" index="2" />
+		<field name="Speed" index="3" />
+		<field name="Heading" index="4" />
+		<field name="LockSatCount" index="5" />
+	</define>
+	<define id="1" name="FileHeader">
+		<field name="Version" index="0" />
+		<field name="Vendor" index="1" />
+		<field name="ProductNameVer" index="2" />
+		<field name="NetworkType" index="3" />
+		<field name="DeviceID" index="4" />
+		<field name="DeviceType" index="5" />
+		<field name="Port" index="6" />
+		<field name="ModuleManufacturer" index="7" />
+		<field name="ModuleType" index="8" />
+		<field name="ModuleModel" index="9" />
+		<field name="TestStartTime" index="10" />
+		<field name="BeginLongitude" index="11" />
+		<field name="BeginLatitude" index="12" />
+		<field name="TestType" index="13" />
+		<field name="ServiceType" index="14" />
+		<field name="LogFormatType" index="15" />
+		<field name="PlanID" index="16" />
+	</define>
+	<define id="2" name="EVT">
+		<field name="EventCode" index="0" />
+		<field name="EventInfo" index="1" />
+	</define>
+	<define id="3" name="LAB">
+		<field name="LableCode" index="0" />
+		<field name="LableInfo" index="1" />
+	</define>
+	<define id="4" name="CSC">
+		<field name="MCC" index="0" />
+		<field name="MNC" index="1" />
+		<field name="SID" index="2" />
+		<field name="NID" index="3" />
+		<field name="BID" index="4" />
+		<field name="BandClass" index="5" />
+		<field name="Freq" index="6" />
+		<field name="RefPN" index="7" />
+		<field name="Reg_Zone" index="8" />
+		<field name="Home_SID" index="9" />
+		<field name="PRAT" index="10" />
+		<field name="Base_Class" index="11" />
+		<field name="Base_Lat" index="12" />
+		<field name="Base_Lont" index="13" />
+		<field name="Page_Chan" index="14" />
+		<field name="Home_Reg" index="15" />
+		<field name="PowerUp_Reg" index="16" />
+		<field name="PowerDown_Reg" index="17" />
+		<field name="PRev" index="18" />
+		<field name="Sector_ID" index="19" />
+		<field name="SubnetMask" index="20" />
+		<field name="ColorCode" index="21" />
+		<field name="UATI" index="22" />
+		<field name="EV_Sector_User_Served" index="23" />
+		<field name="EV_Revision" index="24" />
+		<field name="NetworkState" index="25" />
+		<field name="ServingState" index="26" />
+	</define>
+	<define id="5" name="CAP">
+		<field name="Max_Req_Seq" index="0" />
+		<field name="Max_Rsp_Seq" index="1" />
+		<field name="ACC_TMO" index="2" />
+		<field name="Probe_Bkoff" index="3" />
+		<field name="Probe_Pn_Ran" index="4" />
+		<field name="BKOFF" index="5" />
+		<field name="Pam_SZ" index="6" />
+		<field name="Max_Cap_SZ" index="7" />
+		<field name="Acc_Chan" index="8" />
+		<field name="Nom_Pwr_Ext" index="9" />
+	</define>
+	<define id="6" name="CHP">
+		<field name="Win_A" index="0" />
+		<field name="Win_N" index="1" />
+		<field name="Win_R" index="2" />
+		<field name="T_Add" index="3" />
+		<field name="T_Comp" index="4" />
+		<field name="T_Drop" index="5" />
+		<field name="T_Tdrop" index="6" />
+		<field name="Pilot_Inc" index="7" />
+		<field name="Nghbr_Max_Age" index="8" />
+		<field name="Soft_Slope" index="9" />
+		<field name="Add_Intercept" index="10" />
+		<field name="Drop_Intercept" index="11" />
+	</define>
+	<define id="7" name="CPCP">
+		<field name="Init_Pwr" index="0" />
+		<field name="Nom_Pwr" index="1" />
+		<field name="Pwr_Step" index="2" />
+		<field name="Num_Step" index="3" />
+		<field name="Pwr_Period_Enable" index="4" />
+		<field name="Pwr_Thresh_Enable" index="5" />
+		<field name="Pwr_Rep_Frames" index="6" />
+		<field name="Pwr_Rep_Thresh" index="7" />
+		<field name="Pwr_Rep_Delay" index="8" />
+		<field name="TxOpenLoopPower" index="9" />
+		<field name="TxClosedloopadjust" index="10" />
+	</define>
+	<define id="8" name="CASF">
+		<field name="Finger_Count" index="0" />
+		<field name="Ni_Pn" index="1" />
+		<field name="Ni_Offset" index="2" />
+		<field name="Ni_Lock" index="3" />
+		<field name="Ni_EcIo" index="4" />
+		<field name="RTC_Offset" index="5" />
+		<field name="Antenna" index="6" />
+		<field name="RPC_Cell" index="7" />
+		<field name="ASP_IDX" index="8" />
+		<field name="Diversity" index="9" />
+		<field name="C/I(Combined)" index="10" />
+		<field name="C/I(Ant0)" index="11" />
+		<field name="C/I(Ant1)" index="12" />
+	</define>
+	<define id="9" name="CPM">
+		<field name="Ni_Count" index="0" />
+		<field name="Ni_Pn" index="1" />
+		<field name="Ni_EcIo" index="2" />
+		<field name="Ni_Set" index="3" />
+		<field name="Ni_Frequency" index="4" />
+		<field name="RPC_Index" index="5" />
+		<field name="ASP_Index" index="6" />
+		<field name="DRC_Cover" index="7" />
+		<field name="MAC_Index" index="8" />
+	</define>
+	<define id="10" name="CDM">
+		<field name="Rxagc" index="0" />
+		<field name="RxAGC0" index="1" />
+		<field name="RxAGC1" index="2" />
+		<field name="Total_C/I" index="3" />
+		<field name="Total_SINR" index="4" />
+		<field name="DRC_Cover" index="5" />
+		<field name="DRC_Rate" index="6" />
+		<field name="TxPilotPower" index="7" />
+		<field name="Txgainadj" index="8" />
+		<field name="Total_EcIo" index="9" />
+		<field name="Total_Ec" index="10" />
+		<field name="ReferenceEcIo" index="11" />
+		<field name="ReferenceEc" index="12" />
+		<field name="MaxEcIo" index="13" />
+		<field name="MaxEc" index="14" />
+		<field name="MOSvalue_UL" index="15" />
+		<field name="MOSValue_DL" index="16" />
+		<field name="Fber" index="17" />
+		<field name="FFER" index="18" />
+		<field name="Activesetcount" index="19" />
+		<field name="Handoffstate" index="20" />
+		<field name="TxAGC" index="21" />
+		<field name="EV_TxAGC" index="22" />
+	</define>
+	<define id="11" name="CQOS">
+		<field name="Rlprx_Rate" index="0" />
+		<field name="Rlptx_Rate" index="1" />
+		<field name="Rlperr_Rate" index="2" />
+		<field name="Rlprtx_Rate" index="3" />
+		<field name="Physrx_Rate" index="4" />
+		<field name="Phystx_Rate" index="5" />
+		<field name="APP_Bytes_Sent_1X" index="6" />
+		<field name="APP_Bytes_Received_1X" index="7" />
+		<field name="AppThroughputDL_1X" index="8" />
+		<field name="AppThroughputUL_1X" index="9" />
+		<field name="APP_Bytes_Sent_EVDO" index="10" />
+		<field name="APP_Bytes_Received_EVDO" index="11" />
+		<field name="AppThroughputDL_EVDO" index="12" />
+		<field name="AppThroughputUL_EVDO" index="13" />
+		<field name="EV_RxRLPThroughput" index="14" />
+		<field name="EV_TxRLPThroughput" index="15" />
+		<field name="EV_Duplicate_Rate" index="16" />
+		<field name="EV_RLPErrorRate" index="17" />
+		<field name="EV_RLPRTXRate" index="18" />
+		<field name="EV_RxPacketThroughput" index="19" />
+		<field name="EV_RxPER" index="20" />
+		<field name="EV_TxPacketThroughput" index="21" />
+		<field name="EV_TxPER" index="22" />
+	</define>
+	<define id="12" name="C1XFCH">
+		<field name="ForwardFchactive" index="0" />
+		<field name="ForwardFchrate" index="1" />
+		<field name="ForwardFchrc" index="2" />
+		<field name="ReverseFchactive" index="3" />
+		<field name="ReverseFchrate" index="4" />
+		<field name="ReverseFchrc" index="5" />
+		<field name="Inactivesetcount" index="6" />
+		<field name="Activesets" index="7" />
+		<field name="Forward_Fch_Fer" index="8" />
+		<field name="Forward_Fch_Setpoint" index="9" />
+		<field name="Reverse_Fch_Txpower" index="10" />
+	</define>
+	<define id="13" name="C1XSCH">
+		<field name="Forward_SCH0_FER" index="0" />
+		<field name="Forward_SCH0_Setpoint" index="1" />
+		<field name="Reverse_SCH0_TxPower" index="2" />
+		<field name="Forward_SCH1_FER" index="3" />
+		<field name="Forward_SCH1_Setpoint" index="4" />
+		<field name="Reverse_SCH1_Txpower" index="5" />
+		<field name="ForwardSCH0Active" index="6" />
+		<field name="ForwardSCH0Rate" index="7" />
+		<field name="ForwardSCH0Rc" index="8" />
+		<field name="ReverseSCH0Active" index="9" />
+		<field name="ReverseSCH0Rate" index="10" />
+		<field name="ReverseSCH0Rc" index="11" />
+		<field name="ForwardSCH1Active" index="12" />
+		<field name="ForwardSCH1Rate" index="13" />
+		<field name="ForwardSCH1Rc" index="14" />
+		<field name="ReverseSCH1Active" index="15" />
+		<field name="ReverseSCH1Rate" index="16" />
+		<field name="ReverseSCH1Rc" index="17" />
+	</define>
+	<define id="14" name="CEVS">
+		<field name="Session_State" index="0" />
+		<field name="AT_State" index="1" />
+		<field name="ALMP_State" index="2" />
+		<field name="Init_State" index="3" />
+		<field name="Idle_State" index="4" />
+		<field name="Overhead_State" index="5" />
+		<field name="Connected_State" index="6" />
+		<field name="Route_Update_State" index="7" />
+		<field name="HDR_HybridMode_State" index="8" />
+		<field name="CDMA_State" index="9" />
+	</define>
+	<define id="15" name="UIP">
+		<field name="IMSI" index="0" />
+		<field name="ESN" index="1" />
+		<field name="MIN" index="2" />
+	</define>
+	<define id="16" name="DORLC">
+		<field name="DRC2PILOT" index="0" />
+		<field name="RRI2PILOT" index="1" />
+		<field name="DSC2PILOT" index="2" />
+		<field name="DATA2PILOT" index="3" />
+		<field name="AUX2PILOT" index="4" />
+		<field name="MAXT2PILOT" index="5" />
+		<field name="DSC" index="6" />
+		<field name="TxPacketSize" index="7" />
+		<field name="QRAB0" index="8" />
+		<field name="QRAB1" index="9" />
+		<field name="FRAB" index="10" />
+	</define>
+	<define id="17" name="CL3">
+		<field name="UpLinkFlag" index="0" />
+		<field name="ChannelType" index="1" />
+		<field name="HexContent" index="2" />
+	</define>
+	<define id="18" name="CEVQC">
+		<field name="ColorCode" index="0" />
+		<field name="Sector24" index="1" />
+		<field name="RPCCount63To0" index="2" />
+		<field name="RPCCount127To64" index="3" />
+		<field name="Ni_ForwardTrafficValid63To0" index="4" />
+		<field name="Ni_ForwardTrafficValid127To64" index="5" />
+	</define>
+	<define id="19" name="CEVST">
+		<field name="SectorID" index="0" />
+		<field name="ReverseLinkSilenceDuration" index="1" />
+		<field name="ReverseLinkSilencePeriod" index="2" />
+		<field name="Ni_NeighborSearchwindowSize" index="3" />
+		<field name="Ni_NeighborSearchwindowSizeoffset" index="4" />
+	</define>
+	<define id="20" name="CEVAC">
+		<field name="AccessCycleDuration" index="0" />
+		<field name="OpenLoopAdjust" index="1" />
+		<field name="ProbeInitialAdjustEACMAC" index="2" />
+		<field name="ProbeNumStep" index="3" />
+		<field name="PowerStep" index="4" />
+		<field name="PreambleLength" index="5" />
+		<field name="CapsuleLengthMax" index="6" />
+		<field name="Ni_APersistence" index="7" />
+		<field name="PreambleLengthSlots" index="8" />
+		<field name="AccessOffset" index="9" />
+		<field name="SectorAccessMaxRate" index="10" />
+		<field name="ProbeTimeOutAdjust" index="11" />
+		<field name="PilotStrengthNominal" index="12" />
+		<field name="PilotStrengthCorrectionMin" index="13" />
+		<field name="PilotStrengthCorrectionMax" index="14" />
+	</define>
+	<define id="21" name="CEVTCA">
+		<field name="Channel" index="0" />
+		<field name="FrameOffset" index="1" />
+		<field name="DRCLength" index="2" />
+		<field name="DRCChannelGainBase" index="3" />
+		<field name="ACKChannelGain" index="4" />
+		<field name="NumPilots" index="5" />
+	</define>
+	<define id="22" name="TP_MOC">
+		<field name="DialedNumber" index="0" />
+		<field name="Duration" index="1" />
+		<field name="Idle" index="2" />
+		<field name="Timeout" index="3" />
+		<field name="MTPort" index="4" />
+		<field name="Count" index="5" />
+	</define>
+	<define id="23" name="TP_MTC">
+		<field name="MOPort" index="0" />
+		<field name="MOPhoneNum" index="1" />
+		<field name="MOIMSI" index="2" />
+	</define>
+	<define id="24" name="TP_FTPDL">
+		<field name="ServerIP" index="0" />
+		<field name="ServerPort" index="1" />
+		<field name="UserName" index="2" />
+		<field name="UserPassword" index="3" />
+		<field name="Mode" index="4" />
+		<field name="Passive" index="5" />
+		<field name="DLTime" index="6" />
+		<field name="RemoteFile" index="7" />
+		<field name="Count" index="8" />
+		<field name="Interval" index="9" />
+	</define>
+	<define id="25" name="TP_FTPUL">
+		<field name="ServerIP" index="0" />
+		<field name="ServerPort" index="1" />
+		<field name="UserName" index="2" />
+		<field name="UserPassword" index="3" />
+		<field name="Mode" index="4" />
+		<field name="Passive" index="5" />
+		<field name="DLTime" index="6" />
+		<field name="RemoteFile" index="7" />
+		<field name="Size" index="8" />
+		<field name="Count" index="9" />
+		<field name="Interval" index="10" />
+	</define>
+	<define id="26" name="TP_PING">
+		<field name="PingIP" index="0" />
+		<field name="Timeout" index="1" />
+		<field name="Size" index="2" />
+		<field name="Count" index="3" />
+		<field name="Interval" index="4" />
+	</define>
+	<define id="27" name="TP_HTTPP">
+		<field name="URL" index="0" />
+		<field name="Deep" index="1" />
+		<field name="DownloadPicture" index="2" />
+		<field name="HomeTimeout" index="3" />
+		<field name="RefreshTimeout" index="4" />
+		<field name="Mode" index="5" />
+		<field name="Count" index="6" />
+		<field name="Interval" index="7" />
+	</define>
+	<define id="28" name="TP_HTTPDL">
+		<field name="URL" index="0" />
+		<field name="Port" index="1" />
+		<field name="Timeout" index="2" />
+		<field name="Count" index="3" />
+		<field name="Interval" index="4" />
+		<field name="Proxy" index="5" />
+		<field name="ProxyAddress" index="6" />
+		<field name="ProxyPort" index="7" />
+		<field name="ProxyType" index="8" />
+	</define>
+	<define id="29" name="TP_POP3">
+		<field name="ServerAddr" index="0" />
+		<field name="ServerPort" index="1" />
+		<field name="UserName" index="2" />
+		<field name="UserPassword" index="3" />
+		<field name="DeleteMail" index="4" />
+		<field name="Path" index="5" />
+		<field name="SSL" index="6" />
+		<field name="Count" index="7" />
+		<field name="Interval" index="8" />
+		<field name="Timeout" index="9" />
+	</define>
+	<define id="30" name="TP_SMTP">
+		<field name="Sender" index="0" />
+		<field name="From" index="1" />
+		<field name="To" index="2" />
+		<field name="FileSize" index="3" />
+		<field name="Subject" index="4" />
+		<field name="Body" index="5" />
+		<field name="Address" index="6" />
+		<field name="Port" index="7" />
+		<field name="Authentication" index="8" />
+		<field name="Account" index="9" />
+		<field name="Password" index="10" />
+		<field name="Encoding" index="11" />
+		<field name="HTML" index="12" />
+		<field name="SSL" index="13" />
+		<field name="Count" index="14" />
+		<field name="Interval" index="15" />
+		<field name="Timeout" index="16" />
+	</define>
+	<define id="31" name="TP_SMS">
+		<field name="SendNum" index="0" />
+		<field name="RecvNum" index="1" />
+		<field name="Mode" index="2" />
+		<field name="Text" index="3" />
+		<field name="Report" index="4" />
+		<field name="Content" index="5" />
+		<field name="SMSC" index="6" />
+		<field name="Count" index="7" />
+		<field name="Interval" index="8" />
+		<field name="Timeout" index="9" />
+	</define>
+	<define id="32" name="TP_MMSS">
+		<field name="MediaFileSize" index="0" />
+		<field name="Content" index="1" />
+		<field name="Destination" index="2" />
+		<field name="Agent" index="3" />
+		<field name="ConnectionMode" index="4" />
+		<field name="Account" index="5" />
+		<field name="Password" index="6" />
+		<field name="Gateway" index="7" />
+		<field name="Port" index="8" />
+		<field name="ServerAddress" index="9" />
+		<field name="Count" index="10" />
+		<field name="Interval" index="11" />
+		<field name="Timeout" index="12" />
+	</define>
+	<define id="33" name="TP_MMSR">
+		<field name="Agent" index="0" />
+		<field name="ConnectionMode" index="1" />
+		<field name="Account" index="2" />
+		<field name="Password" index="3" />
+		<field name="Gateway" index="4" />
+		<field name="Port" index="5" />
+		<field name="ServerAddress" index="6" />
+		<field name="Count" index="7" />
+		<field name="Interval" index="8" />
+		<field name="Timeout" index="9" />
+		<field name="PushTimeout" index="10" />
+	</define>
+	<define id="34" name="TP_VS">
+		<field name="URL" index="0" />
+		<field name="Username" index="1" />
+		<field name="Password" index="2" />
+		<field name="Agent" index="3" />
+		<field name="RTP" index="4" />
+		<field name="RtspHttpPort" index="5" />
+		<field name="LocalRTPport" index="6" />
+		<field name="PreBufferLength" index="7" />
+		<field name="RebufferLength" index="8" />
+		<field name="PlayTime" index="9" />
+		<field name="Count" index="10" />
+		<field name="Interval" index="11" />
+		<field name="Timeout" index="12" />
+	</define>
+	<define id="35" name="TP_TR">
+		<field name="TraceIP" index="0" />
+		<field name="Count" index="1" />
+		<field name="Interval" index="2" />
+		<field name="Timeout" index="3" />
+	</define>
+	<define id="36" name="TP_GPSO">
+		<field name="Passive" index="0" />
+		<field name="Count" index="1" />
+		<field name="Interval" index="2" />
+		<field name="Timeout" index="3" />
+	</define>
+	<define id="37" name="TP_QC">
+		<field name="Duration" index="0" />
+		<field name="Timeout" index="1" />
+		<field name="SpeackTime" index="2" />
+		<field name="SpeackRightInterval" index="3" />
+		<field name="Count" index="4" />
+		<field name="Interval" index="5" />
+	</define>
+	<define id="38" name="TP_WAPP">
+		<field name="URL" index="0" />
+		<field name="Deep" index="1" />
+		<field name="DownloadPicture" index="2" />
+		<field name="Agent" index="3" />
+		<field name="ConnectionMode" index="4" />
+		<field name="Gateway" index="5" />
+		<field name="Port" index="6" />
+		<field name="Count" index="7" />
+		<field name="Interval" index="8" />
+		<field name="Timeout" index="9" />
+	</define>
+	<define id="39" name="TP_WAPL">
+		<field name="URL" index="0" />
+		<field name="Agent" index="1" />
+		<field name="ConnectionMode" index="2" />
+		<field name="Gateway" index="3" />
+		<field name="Port" index="4" />
+		<field name="Count" index="5" />
+		<field name="Interval" index="6" />
+		<field name="Timeout" index="7" />
+	</define>
+	<define id="40" name="TP_WAPDL">
+		<field name="URL" index="0" />
+		<field name="Type" index="1" />
+		<field name="Agent" index="2" />
+		<field name="ConnectionMode" index="3" />
+		<field name="Gateway" index="4" />
+		<field name="Port" index="5" />
+		<field name="Count" index="6" />
+		<field name="Interval" index="7" />
+		<field name="Timeout" index="8" />
+	</define>
+</templet>

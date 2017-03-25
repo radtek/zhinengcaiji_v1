@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 余意写的，鼎力路测高版本 -->
+<templet id="0">
+	<table id="0" name="CLT_DT_GPS" split="|">
+		<column name="LONGITUDE" src="Longitude"/>
+		<column name="LATITUDE" src="Latitude"/>
+		<column name="ALTITUDE" src="Altitude"/>
+		<column name="SPEED" src="Speed"/>
+		<column name="HEADING" src="Heading"/>
+		<column name="LOCKSTATCOUNT" src="LockSatCount"/>
+	</table>
+	<table id="1" name="CLT_DT_FILE" split="|">
+		<column name="VERSION" src="0"/>
+		<column name="VENDOR" src="1"/>
+		<column name="PRODUCTNAMEVER" src="2"/>
+		<column name="NETWORKTYPE" src="3"/>
+		<column name="DEVICEID" src="4"/>
+		<column name="DEVICETYPE" src="5"/>
+		<column name="PORT" src="6"/>
+		<column name="MODULEMANUFACTURER" src="7"/>
+		<column name="MODULETYPE" src="8"/>
+		<column name="MODULEMODEL" src="9"/>
+		<column name="TESTSTARTTIME" src="10"/>
+		<column name="BEGINLONGITUDE" src="11"/>
+		<column name="BEGINLATITUDE" src="12"/>
+		<column name="TESTTYPE" src="13"/>
+		<column name="SERVICETYPE" src="14"/>
+		<column name="LOGFORMATTYPE" src="15"/>
+		<column name="PLANID" src="16"/>
+	</table>
+	<table id="2" name="CLT_DT_EVT" split="|">
+		<column name="EVENTCODE" src="EventCode" />
+		<column name="EVENTINFO" src="EventInfo" />
+	</table>
+	<table id="3" name="CLT_DT_LAB" split="|">
+		<column name="LABLECODE" src="LableCode" />
+		<column name="LABLEINFO" src="LableInfo" />
+	</table>
+	<table id="4" name="CLT_DT_CSC" split="|">
+		<column name="MCC" src="MCC"/>
+		<column name="MNC" src="MNC"/>
+		<column name="SID" src="SID"/>
+		<column name="NID" src="NID"/>
+		<column name="BID" src="BID"/>
+		<column name="BANDCLASS" src="BandClass"/>
+		<column name="FREQ" src="Freq"/>
+		<column name="REFPN" src="RefPN"/>
+		<column name="REG_ZONE" src="Reg_Zone"/>
+		<column name="HOME_SID" src="Home_SID"/>
+		<column name="PRAT" src="PRAT"/>
+		<column name="BASE_CLASS" src="Base_Class"/>
+		<column name="BASE_LAT" src="Base_Lat"/>
+		<column name="BASE_LONT" src="Base_Lont"/>
+		<column name="PAGE_CHAN" src="Page_Chan"/>
+		<column name="HOME_REG" src="Home_Reg"/>
+		<column name="POWERUP_REG" src="PowerUp_Reg"/>
+		<column name="POWERDOWN_REG" src="PowerDown_Reg"/>
+		<column name="PREV" src="PRev"/>
+		<column name="SECTOR_ID" src="Sector_ID"/>
+		<column name="SUBNETMASK" src="SubnetMask"/>
+		<column name="COLORCODE" src="ColorCode"/>
+		<column name="UATI" src="UATI"/>
+		<column name="EV_SECTOR_USER_SERVED" src="EV_Sector_User_Served"/>
+		<column name="EV_REVISION" src="EV_Revision"/>
+		<column name="NETWORKSTATE" src="NetworkState"/>
+		<column name="SERVINGSTATE" src="ServingState"/>
+	</table>
+	<table id="5" name="CLT_DT_CAP" split="|">
+		<column name="MAX_REQ_SEQ" src="Max_Req_Seq"/>
+		<column name="MAX_RSP_SEQ" src="Max_Rsp_Seq"/>
+		<column name="ACC_TMO" src="ACC_TMO"/>
+		<column name="PROBE_BKOFF" src="Probe_Bkoff"/>
+		<column name="PROBE_PN_RAN" src="Probe_Pn_Ran"/>
+		<column name="BKOFF" src="BKOFF"/>
+		<column name="PAM_SZ" src="Pam_SZ"/>
+		<column name="MAX_CAP_SZ" src="Max_Cap_SZ"/>
+		<column name="ACC_CHAN" src="Acc_Chan"/>
+		<column name="NOM_PWR_EXT" src="Nom_Pwr_Ext"/>
+	</table>
+	<table id="6" name="CLT_DT_CHP" split="|">
+		<column name="WIN_A" src="Win_A"/>
+		<column name="WIN_N" src="Win_N"/>
+		<column name="WIN_R" src="Win_R"/>
+		<column name="T_ADD" src="T_Add"/>
+		<column name="T_COMP" src="T_Comp"/>
+		<column name="T_DROP" src="T_Drop"/>
+		<column name="T_TDROP" src="T_Tdrop"/>
+		<column name="PILOT_INC" src="Pilot_Inc"/>
+		<column name="NGHBR_MAX_AGE" src="Nghbr_Max_Age"/>
+		<column name="SOFT_SLOPE" src="Soft_Slope"/>
+		<column name="ADD_INTERCEPT" src="Add_Intercept"/>
+		<column name="DROP_INTERCEPT" src="Drop_Intercept"/>
+	</table>
+	<table id="7" name="CLT_DT_CPCP" split="|">
+		<column name="INIT_PWR" src="Init_Pwr"/>
+		<column name="NOM_PWR" src="Nom_Pwr"/>
+		<column name="PWR_STEP" src="Pwr_Step"/>
+		<column name="NUM_STEP" src="Num_Step"/>
+		<column name="PWR_PERIOD_ENABLE" src="Pwr_Period_Enable"/>
+		<column name="PWR_THRESH_ENABLE" src="Pwr_Thresh_Enable"/>
+		<column name="PWR_REP_FRAMES" src="Pwr_Rep_Frames"/>
+		<column name="PWR_REP_THRESH" src="Pwr_Rep_Thresh"/>
+		<column name="PWR_REP_DELAY" src="Pwr_Rep_Delay"/>
+		<column name="TXOPENLOOPPOWER" src="TxOpenLoopPower"/>
+		<column name="TXCLOSEDLOOPADJUST" src="TxClosedloopadjust"/>
+	</table>
+	<table id="8" name="CLT_DT_CASF" split="|">
+		<column name="FINGER_COUNT" src="Finger_Count"/>
+		<column name="NI_PN" src="Ni_Pn"/>
+		<column name="NI_OFFSET" src="Ni_Offset"/>
+		<column name="NI_LOCK" src="Ni_Lock"/>
+		<column name="NI_ECIO" src="Ni_EcIo"/>
+		<column name="RTC_OFFSET" src="RTC_Offset"/>
+		<column name="ANTENNA" src="Antenna"/>
+		<column name="RPC_CELL" src="RPC_Cell"/>
+		<column name="ASP_IDX" src="ASP_IDX"/>
+		<column name="DIVERSITY" src="Diversity"/>
+		<column name="C_I_COMBINED" src="C/I(Combined)"/>
+		<column name="C_I_ANT0" src="C/I(Ant0)"/>
+		<column name="C_I_ANT1" src="C/I(Ant1)"/>
+	</table>
+	<table id="9" name="CLT_DT_CPM" split="|">
+		<column name="NI_COUNT" src="Ni_Count"/>
+		<column name="NI_PN" src="Ni_Pn"/>
+		<column name="NI_ECIO" src="Ni_EcIo"/>
+		<column name="NI_SET" src="Ni_Set"/>
+		<column name="NI_FREQUENCY" src="Ni_Frequency"/>
+		<column name="RPC_INDEX" src="RPC_Index"/>
+		<column name="ASP_INDEX" src="ASP_Index"/>
+		<column name="DRC_COVER" src="DRC_Cover"/>
+		<column name="MAC_INDEX" src="MAC_Index"/>
+	</table>
+	<table id="10" name="CLT_DT_CDM" split="|">
+		<column name="RXAGC" src="Rxagc"/>
+		<column name="RXAGC0" src="RxAGC0"/>
+		<column name="RXAGC1" src="RxAGC1"/>
+		<column name="TOTAL_C_I" src="Total_C/I"/>
+		<column name="TOTAL_SINR" src="Total_SINR"/>
+		<column name="DRC_COVER" src="DRC_Cover"/>
+		<column name="DRC_RATE" src="DRC_Rate"/>
+		<column name="TXPILOTPOWER" src="TxPilotPower"/>
+		<column name="TXPOWER" src=""/>
+		<column name="TXGAINADJ" src="Txgainadj"/>
+		<column name="TOTAL_ECIO" src="Total_EcIo"/>
+		<column name="TOTAL_EC" src="Total_Ec"/>
+		<column name="REFERENCEECIO" src="ReferenceEcIo"/>
+		<column name="REFERENCEEC" src="ReferenceEc"/>
+		<column name="MAXECIO" src="MaxEcIo"/>
+		<column name="MAXEC" src="MaxEc"/>
+		<column name="MOSVALUE_UL" src="MOSvalue_UL"/>
+		<column name="MOSVALUE_DL" src="MOSValue_DL"/>
+		<column name="FBER" src="Fber"/>
+		<column name="FFER" src="FFER"/>
+		<column name="ACTIVESETCOUNT" src="Activesetcount"/>
+		<column name="HANDOFFSTATE" src="Handoffstate"/>
+		<column name="TXAGC" src="TxAGC"/>
+		<column name="EV_TXAGC" src="EV_TxAGC"/>
+	</table>
+	<table id="11" name="CLT_DT_CQOS" split="|">
+		<column name="RLPRX_RATE" src="Rlprx_Rate"/>
+		<column name="RLPTX_RATE" src="Rlptx_Rate"/>
+		<column name="RLPERR_RATE" src="Rlperr_Rate"/>
+		<column name="RLPRTX_RATE" src="Rlprtx_Rate"/>
+		<column name="PHYSRX_RATE" src="Physrx_Rate"/>
+		<column name="PHYSTX_RATE" src="Phystx_Rate"/>
+		<column name="APP_BYTES_SENT_1X" src="APP_Bytes_Sent_1X"/>
+		<column name="APP_BYTES_RECEIVED_1X" src="APP_Bytes_Received_1X"/>
+		<column name="APPTHROUGHPUTDL_1X" src="AppThroughputDL_1X"/>
+		<column name="APPTHROUGHPUTUL_1X" src="AppThroughputUL_1X"/>
+		<column name="APP_BYTES_SENT_EVDO" src="APP_Bytes_Sent_EVDO"/>
+		<column name="APP_BYTES_RECEIVED_EVDO" src="APP_Bytes_Received_EVDO"/>
+		<column name="APPTHROUGHPUTDL_EVDO" src="AppThroughputDL_EVDO"/>
+		<column name="APPTHROUGHPUTUL_EVDO" src="AppThroughputUL_EVDO"/>
+		<column name="EV_RXRLPTHROUGHPUT" src="EV_RxRLPThroughput"/>
+		<column name="EV_TXRLPTHROUGHPUT" src="EV_TxRLPThroughput"/>
+		<column name="EV_DUPLICATE_RATE" src="EV_Duplicate_Rate"/>
+		<column name="EV_RLPERRORRATE" src="EV_RLPErrorRate"/>
+		<column name="EV_RLPRTXRATE" src="EV_RLPRTXRate"/>
+		<column name="EV_RXPACKETTHROUGHPUT" src="EV_RxPacketThroughput"/>
+		<column name="EV_RXPER" src="EV_RxPER"/>
+		<column name="EV_TXPACKETTHROUGHPUT" src="EV_TxPacketThroughput"/>
+		<column name="EV_TXPER" src="EV_TxPER"/>
+	</table>
+	<table id="12" name="CLT_DT_C1XFCH" split="|">
+		<column name="FORWARDFCHACTIVE" src="ForwardFchactive"/>
+		<column name="FORWARDFCHRATE" src="ForwardFchrate"/>
+		<column name="FORWARDFCHRC" src="ForwardFchrc"/>
+		<column name="REVERSEFCHACTIVE" src="ReverseFchactive"/>
+		<column name="REVERSEFCHRATE" src="ReverseFchrate"/>
+		<column name="REVERSEFCHRC" src="ReverseFchrc"/>
+		<column name="INACTIVESETCOUNT" src="Inactivesetcount"/>
+		<column name="ACTIVESETS" src="Activesets"/>
+		<column name="FORWARD_FCH_FER" src="Forward_Fch_Fer"/>
+		<column name="FORWARD_FCH_SETPOINT" src="Forward_Fch_Setpoint"/>
+		<column name="REVERSE_FCH_TXPOWER" src="Reverse_Fch_Txpower"/>
+	</table>
+	<table id="13" name="CLT_DT_C1XSCH" split="|">
+		<column name="FORWARD_SCH0_FER" src="Forward_SCH0_FER"/>
+		<column name="FORWARD_SCH0_SETPOINT" src="Forward_SCH0_Setpoint"/>
+		<column name="REVERSE_SCH0_TXPOWER" src="Reverse_SCH0_TxPower"/>
+		<column name="FORWARD_SCH1_FER" src="Forward_SCH1_FER"/>
+		<column name="FORWARD_SCH1_SETPOINT" src="Forward_SCH1_Setpoint"/>
+		<column name="REVERSE_SCH1_TXPOWER" src="Reverse_SCH1_Txpower"/>
+		<column name="FORWARDSCH0ACTIVE" src="ForwardSCH0Active"/>
+		<column name="FORWARDSCH0RATE" src="ForwardSCH0Rate"/>
+		<column name="FORWARDSCH0RC" src="ForwardSCH0Rc"/>
+		<column name="REVERSESCH0ACTIVE" src="ReverseSCH0Active"/>
+		<column name="REVERSESCH0RATE" src="ReverseSCH0Rate"/>
+		<column name="REVERSESCH0RC" src="ReverseSCH0Rc"/>
+		<column name="FORWARDSCH1ACTIVE" src="ForwardSCH1Active"/>
+		<column name="FORWARDSCH1RATE" src="ForwardSCH1Rate"/>
+		<column name="FORWARDSCH1RC" src="ForwardSCH1Rc"/>
+		<column name="REVERSESCH1ACTIVE" src="ReverseSCH1Active"/>
+		<column name="REVERSESCH1RATE" src="ReverseSCH1Rate"/>
+		<column name="REVERSESCH1RC" src="ReverseSCH1Rc"/>
+	</table>
+	<table id="14" name="CLT_DT_CEVS" split="|">
+		<column name="SESSION_STATE" src="Session_State"/>
+		<column name="AT_STATE" src="AT_State"/>
+		<column name="ALMP_STATE" src="ALMP_State"/>
+		<column name="INIT_STATE" src="Init_State"/>
+		<column name="IDLE_STATE" src="Idle_State"/>
+		<column name="OVERHEAD_STATE" src="Overhead_State"/>
+		<column name="CONNECTED_STATE" src="Connected_State"/>
+		<column name="ROUTE_UPDATE_STATE" src="Route_Update_State"/>
+		<column name="HDR_HYBRIDMODE_STATE" src="HDR_HybridMode_State"/>
+		<column name="CDMA_STATE" src="CDMA_State"/>
+	</table>
+	<table id="15" name="CLT_DT_UIP" split="|">
+		<column name="IMSI" src="IMSI" />
+		<column name="ESN" src="ESN" />
+		<column name="MIN" src="MIN" />
+	</table>
+	<table id="16" name="CLT_DT_DORLC" split="|">
+		<column name="DRC2PILOT" src="DRC2PILOT"/>
+		<column name="RRI2PILOT" src="RRI2PILOT"/>
+		<column name="DSC2PILOT" src="DSC2PILOT"/>
+		<column name="DATA2PILOT" src="DATA2PILOT"/>
+		<column name="AUX2PILOT" src="AUX2PILOT"/>
+		<column name="MAXT2PILOT" src="MAXT2PILOT"/>
+		<column name="DSC" src="DSC"/>
+		<column name="TXPACKETSIZE" src="TxPacketSize"/>
+		<column name="QRAB0" src="QRAB0"/>
+		<column name="QRAB1" src="QRAB1"/>
+		<column name="FRAB" src="FRAB"/>
+	</table>
+	<table id="17" name="CLT_DT_CL3" split="|">
+		<column name="UPLINKFLAG" src="UpLinkFlag" />
+		<column name="CHANNELTYPE" src="ChannelType" />
+		<column name="HEXCONTENT" src="HexContent" />
+	</table>
+	<table id="18" name="CLT_DT_CEVQC" split="|">
+		<column name="COLORCODE" src="ColorCode"/>
+		<column name="SECTOR24" src="Sector24"/>
+		<column name="RPCCOUNT63TO0" src="RPCCount63To0"/>
+		<column name="RPCCOUNT127TO64" src="RPCCount127To64"/>
+		<column name="NI_FORWARDTRAFFICVALID63TO0" src="Ni_ForwardTrafficValid63To0"/>
+		<column name="NI_FORWARDTRAFFICVALID127TO64" src="Ni_ForwardTrafficValid127To64"/>
+	</table>
+	<table id="19" name="CLT_DT_CEVST" split="|">
+		<column name="SECTORID" src="SectorID"/>
+		<column name="REVERSELINKSILENCEDURATION" src="ReverseLinkSilenceDuration"/>
+		<column name="REVERSELINKSILENCEPERIOD" src="ReverseLinkSilencePeriod"/>
+		<column name="NI_NEIGHBORSEARCHWINDOWSIZE" src="Ni_NeighborSearchwindowSize"/>
+		<column name="NI_NEIGHBORSEARCHWINDOWSIZEOFF" src="Ni_NeighborSearchwindowSizeoffset"/>
+	</table>
+	<table id="20" name="CLT_DT_CEVAC" split="|">
+		<column name="ACCESSCYCLEDURATION" src="AccessCycleDuration"/>
+		<column name="OPENLOOPADJUST" src="OpenLoopAdjust"/>
+		<column name="PROBEINITIALADJUSTEACMAC" src="ProbeInitialAdjustEACMAC"/>
+		<column name="PROBENUMSTEP" src="ProbeNumStep"/>
+		<column name="POWERSTEP" src="PowerStep"/>
+		<column name="PREAMBLELENGTH" src="PreambleLength"/>
+		<column name="CAPSULELENGTHMAX" src="CapsuleLengthMax"/>
+		<column name="NI_APERSISTENCE" src="Ni_APersistence"/>
+		<column name="PREAMBLELENGTHSLOTS" src="PreambleLengthSlots"/>
+		<column name="ACCESSOFFSET" src="AccessOffset"/>
+		<column name="SECTORACCESSMAXRATE" src="SectorAccessMaxRate"/>
+		<column name="PROBETIMEOUTADJUST" src="ProbeTimeOutAdjust"/>
+		<column name="PILOTSTRENGTHNOMINAL" src="PilotStrengthNominal"/>
+		<column name="PILOTSTRENGTHCORRECTIONMIN" src="PilotStrengthCorrectionMin"/>
+		<column name="PILOTSTRENGTHCORRECTIONMAX" src="PilotStrengthCorrectionMax"/>
+	</table>
+	<table id="21" name="CLT_DT_CEVTCA" split="|">
+		<column name="CHANNEL" src="Channel"/>
+		<column name="FRAMEOFFSET" src="FrameOffset"/>
+		<column name="DRCLENGTH" src="DRCLength"/>
+		<column name="DRCCHANNELGAINBASE" src="DRCChannelGainBase"/>
+		<column name="ACKCHANNELGAIN" src="ACKChannelGain"/>
+		<column name="NUMPILOTS" src="NumPilots"/>
+	</table>
+	<table id="22" name="CLT_DT_TP_MOC" split="|">
+		<column name="DIALEDNUMBER" src="DialedNumber"/>
+		<column name="DURATION" src="Duration"/>
+		<column name="IDLE" src="Idle"/>
+		<column name="TIMEOUT" src="Timeout"/>
+		<column name="MTPORT" src="MTPort"/>
+		<column name="COUNT" src="Count"/>
+	</table>
+	<table id="23" name="CLT_DT_TP_MTC" split="|">
+		<column name="MOPORT" src="MOPort" />
+		<column name="MOPHONENUM" src="MOPhoneNum" />
+		<column name="MOIMSI" src="MOIMSI" />
+	</table>
+	<table id="24" name="CLT_DT_TP_FTPDL" split="|">
+		<column name="SERVERIP" src="ServerIP"/>
+		<column name="SERVERPORT" src="ServerPort"/>
+		<column name="USERNAME" src="UserName"/>
+		<column name="USERPASSWORD" src="UserPassword"/>
+		<column name="MODE_TYPE" src="Mode"/>
+		<column name="PASSIVE" src="Passive"/>
+		<column name="DLTIME" src="DLTime"/>
+		<column name="REMOTEFILE" src="RemoteFile"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+	</table>
+	<table id="25" name="CLT_DT_TP_FTPUL" split="|">
+		<column name="SERVERIP" src="ServerIP"/>
+		<column name="SERVERPORT" src="ServerPort"/>
+		<column name="USERNAME" src="UserName"/>
+		<column name="USERPASSWORD" src="UserPassword"/>
+		<column name="MODE_TYPE" src="Mode"/>
+		<column name="PASSIVE" src="Passive"/>
+		<column name="DLTIME" src="DLTime"/>
+		<column name="REMOTEFILE" src="RemoteFile"/>
+		<column name="SIZE" src="Size"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+	</table>
+	<table id="26" name="CLT_DT_TP_PING" split="|">
+		<column name="PINGIP" src="PingIP"/>
+		<column name="TIMEOUT" src="Timeout"/>
+		<column name="SIZE" src="Size"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+	</table>
+	<table id="27" name="CLT_DT_TP_HTTPP" split="|">
+		<column name="URL" src="URL"/>
+		<column name="DEEP" src="Deep"/>
+		<column name="DOWNLOADPICTURE" src="DownloadPicture"/>
+		<column name="HOMETIMEOUT" src="HomeTimeout"/>
+		<column name="REFRESHTIMEOUT" src="RefreshTimeout"/>
+		<column name="MODE_TYPE" src="Mode"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+	</table>
+	<table id="28" name="CLT_DT_TP_HTTPDL" split="|">
+		<column name="URL" src="URL"/>
+		<column name="PORT" src="Port"/>
+		<column name="TIMEOUT" src="Timeout"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="PROXY" src="Proxy"/>
+		<column name="PROXYADDRESS" src="ProxyAddress"/>
+		<column name="PROXYPORT" src="ProxyPort"/>
+		<column name="PROXYTYPE" src="ProxyType"/>
+	</table>
+	<table id="29" name="CLT_DT_TP_POP3" split="|">
+		<column name="SERVERADDR" src="ServerAddr"/>
+		<column name="SERVERPORT" src="ServerPort"/>
+		<column name="USERNAME" src="UserName"/>
+		<column name="USERPASSWORD" src="UserPassword"/>
+		<column name="DELETEMAIL" src="DeleteMail"/>
+		<column name="PATH" src="Path"/>
+		<column name="SSL" src="SSL"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+	<table id="30" name="CLT_DT_TP_SMTP" split="|">
+		<column name="SENDER" src="Sender"/>
+		<column name="FROM" src="From"/>
+		<column name="TO" src="To"/>
+		<column name="FILESIZE" src="FileSize"/>
+		<column name="SUBJECT" src="Subject"/>
+		<column name="BODY" src="Body"/>
+		<column name="ADDRESS" src="Address"/>
+		<column name="PORT" src="Port"/>
+		<column name="AUTHENTICATION" src="Authentication"/>
+		<column name="ACCOUNT" src="Account"/>
+		<column name="PASSWORD" src="Password"/>
+		<column name="ENCODING" src="Encoding"/>
+		<column name="HTML" src="HTML"/>
+		<column name="SSL" src="SSL"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+	<table id="31" name="CLT_DT_TP_SMS" split="|">
+		<column name="SENDNUM" src="SendNum"/>
+		<column name="RECVNUM" src="RecvNum"/>
+		<column name="MODE_TYPE" src="Mode"/>
+		<column name="TEXT" src="Text"/>
+		<column name="REPORT" src="Report"/>
+		<column name="CONTENT" src="Content"/>
+		<column name="SMSC" src="SMSC"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+	<table id="32" name="CLT_DT_TP_MMSS" split="|">
+		<column name="MEDIAFILESIZE" src="MediaFileSize"/>
+		<column name="CONTENT" src="Content"/>
+		<column name="DESTINATION" src="Destination"/>
+		<column name="AGENT" src="Agent"/>
+		<column name="CONNECTIONMODE" src="ConnectionMode"/>
+		<column name="ACCOUNT" src="Account"/>
+		<column name="PASSWORD" src="Password"/>
+		<column name="GATEWAY" src="Gateway"/>
+		<column name="PORT" src="Port"/>
+		<column name="SERVERADDRESS" src="ServerAddress"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+	<table id="33" name="CLT_DT_TP_MMSR" split="|">
+		<column name="AGENT" src="Agent"/>
+		<column name="CONNECTIONMODE" src="ConnectionMode"/>
+		<column name="ACCOUNT" src="Account"/>
+		<column name="PASSWORD" src="Password"/>
+		<column name="GATEWAY" src="Gateway"/>
+		<column name="PORT" src="Port"/>
+		<column name="SERVERADDRESS" src="ServerAddress"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+		<column name="PUSHTIMEOUT" src="PushTimeout"/>
+	</table>
+	<table id="34" name="CLT_DT_TP_VS" split="|">
+		<column name="URL" src="URL"/>
+		<column name="USERNAME" src="Username"/>
+		<column name="PASSWORD" src="Password"/>
+		<column name="AGENT" src="Agent"/>
+		<column name="RTP" src="RTP"/>
+		<column name="RTSPHTTPPORT" src="RtspHttpPort"/>
+		<column name="LOCALRTPPORT" src="LocalRTPport"/>
+		<column name="PREBUFFERLENGTH" src="PreBufferLength"/>
+		<column name="REBUFFERLENGTH" src="RebufferLength"/>
+		<column name="PLAYTIME" src="PlayTime"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+	<table id="35" name="CLT_DT_TP_TR" split="|">
+		<column name="TRACEIP" src="TraceIP" />
+		<column name="COUNT" src="Count" />
+		<column name="INTERVAL" src="Interval" />
+		<column name="TIMEOUT" src="Timeout" />
+	</table>
+	<table id="36" name="CLT_DT_TP_GPSO" split="|">
+		<column name="PASSIVE" src="Passive" />
+		<column name="COUNT" src="Count" />
+		<column name="INTERVAL" src="Interval" />
+		<column name="TIMEOUT" src="Timeout" />
+	</table>
+	<table id="37" name="CLT_DT_TP_QC" split="|">
+		<column name="DURATION" src="Duration"/>
+		<column name="TIMEOUT" src="Timeout"/>
+		<column name="SPEACKTIME" src="SpeackTime"/>
+		<column name="SPEACKRIGHTINTERVAL" src="SpeackRightInterval"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+	</table>
+	<table id="38" name="CLT_DT_TP_WAPP" split="|">
+		<column name="URL" src="URL"/>
+		<column name="DEEP" src="Deep"/>
+		<column name="DOWNLOADPICTURE" src="DownloadPicture"/>
+		<column name="AGENT" src="Agent"/>
+		<column name="CONNECTIONMODE" src="ConnectionMode"/>
+		<column name="GATEWAY" src="Gateway"/>
+		<column name="PORT" src="Port"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+	<table id="39" name="CLT_DT_TP_WAPL" split="|">
+		<column name="URL" src="URL"/>
+		<column name="AGENT" src="Agent"/>
+		<column name="CONNECTIONMODE" src="ConnectionMode"/>
+		<column name="GATEWAY" src="Gateway"/>
+		<column name="PORT" src="Port"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+	<table id="40" name="CLT_DT_TP_WAPDL" split="|">
+		<column name="URL" src="URL"/>
+		<column name="TYPE" src="Type"/>
+		<column name="AGENT" src="Agent"/>
+		<column name="CONNECTIONMODE" src="ConnectionMode"/>
+		<column name="GATEWAY" src="Gateway"/>
+		<column name="PORT" src="Port"/>
+		<column name="COUNT" src="Count"/>
+		<column name="INTERVAL" src="Interval"/>
+		<column name="TIMEOUT" src="Timeout"/>
+	</table>
+</templet>

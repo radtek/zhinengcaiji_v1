@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+    
+     <templet id="1" fromTable="NOKRWW_PS_RRC_MNC1_RAW" toTable="CLT_PM_W_SIE_PS_RRC_MNC1_RAW" used="1" condition=""><sql>SELECT  *  FROM NOKRWW_PS_RRC_MNC1_RAW      where PERIOD_START_TIME=to_date('%%Y-%%M-%%D %%H:00:00','YYYY-MM-DD HH24:Mi:SS')</sql></templet>
+    </templets>

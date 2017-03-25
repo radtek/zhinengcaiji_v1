@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+ 
+     <templet id="10" fromTable="UTP_LEGACY" toTable="CLT_CM_NKV12_OBJECTS" used="1" condition=""><sql>select * from UTP_LEGACY</sql></templet> 
+</templets>       

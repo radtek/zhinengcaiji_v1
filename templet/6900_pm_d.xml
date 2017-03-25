@@ -1,0 +1,3878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="clt_pm_hw_v9r11_tblobjins" split="|">
+			<column name="OBJECTTYPEID" index="0"/>
+			<column name="OBJECTNO" index="1"/>
+			<column name="INVALIDTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="OBJECTPARAMETER" index="3"/>
+			<column name="NEFDN" index="4"/>
+			<column name="NENAME" index="5"/>
+			<column name="MEMBERNUM" index="6"/>
+			<column name="OBJECTMEMBER0" index="7"/>
+			<column name="OBJECTMEMNAME0" index="8"/>
+			<column name="OBJECTMEMBER1" index="9"/>
+			<column name="OBJECTMEMNAME1" index="10"/>
+			<column name="OBJECTMEMBER2" index="11"/>
+			<column name="OBJECTMEMNAME2" index="12"/>
+			<column name="OBJECTMEMBER3" index="13"/>
+			<column name="OBJECTMEMNAME3" index="14"/>
+			<column name="OBJECTMEMBER4" index="15"/>
+			<column name="OBJECTMEMNAME4" index="16"/>
+			<column name="OBJECTMEMBER5" index="17"/>
+			<column name="OBJECTMEMNAME5" index="18"/>
+			<column name="OBJECTDESCRIPTION" index="19"/>
+			<column name="BAMOBJECTSTR" index="20"/>
+			<column name="MEASUREMENTSTATE" index="21"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="clt_pm_hw_v9r11_1275071217" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="counter_1277869417" index="13"/>
+			<column name="counter_1277869418" index="14"/>
+			<column name="counter_1277869419" index="15"/>
+			<column name="counter_1277869420" index="16"/>
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="clt_pm_hw_v9r11_1275071418" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278070419" index="13"/>
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="clt_pm_hw_v9r11_1275071419" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278071417" index="13"/>
+			<column name="COUNTER_1278071418" index="14"/>
+			<column name="COUNTER_1278071419" index="15"/>
+			<column name="COUNTER_1278071420" index="16"/>
+			<column name="COUNTER_1278071421" index="17"/>
+			<column name="COUNTER_1278071422" index="18"/>
+			<column name="COUNTER_1278071423" index="19"/>
+			<column name="COUNTER_1278071424" index="20"/>
+		</table>
+	</templet>
+	<templet id="4">
+		<table id="0" name="clt_pm_hw_v9r11_1275071420" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278072417" index="13"/>
+			<column name="COUNTER_1278072418" index="14"/>
+			<column name="COUNTER_1278072419" index="15"/>
+			<column name="COUNTER_1278072420" index="16"/>
+			<column name="COUNTER_1278072421" index="17"/>
+			<column name="COUNTER_1278072422" index="18"/>
+			<column name="COUNTER_1278072423" index="19"/>
+			<column name="COUNTER_1278072424" index="20"/>
+			<column name="COUNTER_1278072425" index="21"/>
+			<column name="COUNTER_1278072426" index="22"/>
+			<column name="COUNTER_1278072427" index="23"/>
+			<column name="COUNTER_1278072428" index="24"/>
+			<column name="COUNTER_1278072429" index="25"/>
+			<column name="COUNTER_1278072430" index="26"/>
+			<column name="COUNTER_1278072431" index="27"/>
+			<column name="COUNTER_1278072432" index="28"/>
+			<column name="COUNTER_1278072433" index="29"/>
+			<column name="COUNTER_1278072434" index="30"/>
+			<column name="COUNTER_1278072435" index="31"/>
+			<column name="COUNTER_1278072436" index="32"/>
+			<column name="COUNTER_1278072437" index="33"/>
+			<column name="COUNTER_1278072438" index="34"/>
+			<column name="COUNTER_1278072439" index="35"/>
+			<column name="COUNTER_1278072440" index="36"/>
+			<column name="COUNTER_1278072441" index="37"/>
+			<column name="COUNTER_1278072442" index="38"/>
+			<column name="COUNTER_1278072443" index="39"/>
+			<column name="COUNTER_1278072444" index="40"/>
+			<column name="COUNTER_1278072445" index="41"/>
+			<column name="COUNTER_1278072446" index="42"/>
+			<column name="COUNTER_1278072447" index="43"/>
+			<column name="COUNTER_1278072448" index="44"/>
+			<column name="COUNTER_1278072449" index="45"/>
+			<column name="COUNTER_1278072450" index="46"/>
+			<column name="COUNTER_1278072451" index="47"/>
+			<column name="COUNTER_1278072452" index="48"/>
+			<column name="COUNTER_1278072453" index="49"/>
+			<column name="COUNTER_1278072454" index="50"/>
+			<column name="COUNTER_1278072455" index="51"/>
+			<column name="COUNTER_1278072456" index="52"/>
+			<column name="COUNTER_1278072457" index="53"/>
+			<column name="COUNTER_1278072458" index="54"/>
+			<column name="COUNTER_1278072459" index="55"/>
+			<column name="COUNTER_1278072460" index="56"/>
+			<column name="COUNTER_1278072461" index="57"/>
+			<column name="COUNTER_1278072462" index="58"/>
+			<column name="COUNTER_1278072463" index="59"/>
+			<column name="COUNTER_1278072464" index="60"/>
+			<column name="COUNTER_1278072465" index="61"/>
+			<column name="COUNTER_1278072466" index="62"/>
+			<column name="COUNTER_1278072467" index="63"/>
+			<column name="COUNTER_1278072468" index="64"/>
+			<column name="COUNTER_1278072469" index="65"/>
+			<column name="COUNTER_1278072470" index="66"/>
+			<column name="COUNTER_1278072471" index="67"/>
+			<column name="COUNTER_1278072472" index="68"/>
+			<column name="COUNTER_1278072473" index="69"/>
+			<column name="COUNTER_1278072474" index="70"/>
+			<column name="COUNTER_1278072475" index="71"/>
+			<column name="COUNTER_1278072476" index="72"/>
+			<column name="COUNTER_1278072477" index="73"/>
+			<column name="COUNTER_1278072478" index="74"/>
+			<column name="COUNTER_1278072479" index="75"/>
+			<column name="COUNTER_1278072480" index="76"/>
+			<column name="COUNTER_1278072481" index="77"/>
+			<column name="COUNTER_1278072487" index="78"/>
+			<column name="COUNTER_1278072488" index="79"/>
+			<column name="COUNTER_1278072489" index="80"/>
+			<column name="COUNTER_1278072490" index="81"/>
+			<column name="COUNTER_1278072492" index="82"/>
+			<column name="COUNTER_1278072493" index="83"/>
+			<column name="COUNTER_1278072494" index="84"/>
+			<column name="COUNTER_1278072495" index="85"/>
+			<column name="COUNTER_1278072496" index="86"/>
+			<column name="COUNTER_1278072497" index="87"/>
+			<column name="COUNTER_1278072498" index="88"/>
+			<column name="COUNTER_1278072499" index="89"/>
+			<column name="COUNTER_1278072500" index="90"/>
+			<column name="COUNTER_1278072501" index="91"/>
+			<column name="COUNTER_1278072502" index="92"/>
+			<column name="COUNTER_1278072503" index="93"/>
+			<column name="COUNTER_1278072504" index="94"/>
+			<column name="COUNTER_1278072505" index="95"/>
+			<column name="COUNTER_1278072506" index="96"/>
+			<column name="COUNTER_1278072507" index="97"/>
+			<column name="COUNTER_1278072508" index="98"/>
+			<column name="COUNTER_1278072509" index="99"/>
+			<column name="COUNTER_1278072510" index="100"/>
+			<column name="COUNTER_1278072511" index="101"/>
+			<column name="COUNTER_1278072512" index="102"/>
+			<column name="COUNTER_1278072513" index="103"/>
+			<column name="COUNTER_1278072514" index="104"/>
+			<column name="COUNTER_1278072515" index="105"/>
+			<column name="COUNTER_1278072516" index="106"/>
+			<column name="COUNTER_1278072517" index="107"/>
+			<column name="COUNTER_1278072518" index="108"/>
+			<column name="COUNTER_1278072519" index="109"/>
+			<column name="COUNTER_1278072520" index="110"/>
+			<column name="COUNTER_1278072521" index="111"/>
+			<column name="COUNTER_1278072523" index="112"/>
+			<column name="COUNTER_1278072524" index="113"/>
+			<column name="COUNTER_1278072525" index="114"/>
+			<column name="COUNTER_1278072526" index="115"/>
+			<column name="COUNTER_1278072527" index="116"/>
+			<column name="COUNTER_1278072528" index="117"/>
+			<column name="COUNTER_1278072529" index="118"/>
+			<column name="COUNTER_1278072531" index="119"/>
+			<column name="COUNTER_1278072532" index="120"/>
+			<column name="COUNTER_1278072533" index="121"/>
+			<column name="COUNTER_1278072534" index="122"/>
+			<column name="COUNTER_1278072535" index="123"/>
+			<column name="COUNTER_1278072536" index="124"/>
+			<column name="COUNTER_1278072537" index="125"/>
+			<column name="COUNTER_1278072538" index="126"/>
+			<column name="COUNTER_1278072539" index="127"/>
+			<column name="COUNTER_1278072540" index="128"/>
+			<column name="COUNTER_1278072541" index="129"/>
+			<column name="COUNTER_1278072542" index="130"/>
+			<column name="COUNTER_1278072543" index="131"/>
+			<column name="COUNTER_1278072544" index="132"/>
+			<column name="COUNTER_1278072545" index="133"/>
+			<column name="COUNTER_1278072546" index="134"/>
+			<column name="COUNTER_1278072547" index="135"/>
+			<column name="COUNTER_1278072548" index="136"/>
+			<column name="COUNTER_1278072549" index="137"/>
+			<column name="COUNTER_1278072550" index="138"/>
+			<column name="COUNTER_1278072551" index="139"/>
+			<column name="COUNTER_1278072552" index="140"/>
+			<column name="COUNTER_1278072553" index="141"/>
+			<column name="COUNTER_1278072554" index="142"/>
+			<column name="COUNTER_1278072555" index="143"/>
+			<column name="COUNTER_1278072556" index="144"/>
+			<column name="COUNTER_1278072557" index="145"/>
+			<column name="COUNTER_1278072558" index="146"/>
+			<column name="COUNTER_1278072559" index="147"/>
+			<column name="COUNTER_1278072560" index="148"/>
+			<column name="COUNTER_1278072561" index="149"/>
+			<column name="COUNTER_1278072562" index="150"/>
+			<column name="COUNTER_1278072563" index="151"/>
+			<column name="COUNTER_1278072564" index="152"/>
+			<column name="COUNTER_1278072565" index="153"/>
+			<column name="COUNTER_1278072566" index="154"/>
+			<column name="COUNTER_1278072567" index="155"/>
+			<column name="COUNTER_1278072568" index="156"/>
+			<column name="COUNTER_1278072569" index="157"/>
+			<column name="COUNTER_1278072570" index="158"/>
+			<column name="COUNTER_1278072571" index="159"/>
+			<column name="COUNTER_1278072572" index="160"/>
+			<column name="COUNTER_1278072573" index="161"/>
+			<column name="COUNTER_1278072574" index="162"/>
+			<column name="COUNTER_1278072575" index="163"/>
+			<column name="COUNTER_1278072576" index="164"/>
+			<column name="COUNTER_1278072577" index="165"/>
+			<column name="COUNTER_1278072578" index="166"/>
+			<column name="COUNTER_1278072579" index="167"/>
+			<column name="COUNTER_1278072580" index="168"/>
+			<column name="COUNTER_1278072581" index="169"/>
+			<column name="COUNTER_1278072582" index="170"/>
+			<column name="COUNTER_1278072583" index="171"/>
+			<column name="COUNTER_1278072584" index="172"/>
+			<column name="COUNTER_1278072585" index="173"/>
+			<column name="COUNTER_1278072586" index="174"/>
+			<column name="COUNTER_1278072587" index="175"/>
+			<column name="COUNTER_1278072588" index="176"/>
+			<column name="COUNTER_1278072589" index="177"/>
+			<column name="COUNTER_1278072590" index="178"/>
+			<column name="COUNTER_1278072591" index="179"/>
+			<column name="COUNTER_1278072592" index="180"/>
+			<column name="COUNTER_1278072593" index="181"/>
+			<column name="COUNTER_1278072594" index="182"/>
+			<column name="COUNTER_1278072595" index="183"/>
+			<column name="COUNTER_1278072596" index="184"/>
+			<column name="COUNTER_1278072629" index="185"/>
+			<column name="COUNTER_1278072630" index="186"/>
+			<column name="COUNTER_1278072631" index="187"/>
+			<column name="COUNTER_1278072632" index="188"/>
+			<column name="COUNTER_1278072643" index="189"/>
+			<column name="COUNTER_1278072482" index="190"/>
+			<column name="COUNTER_1278072483" index="191"/>
+			<column name="COUNTER_1278072484" index="192"/>
+			<column name="COUNTER_1278072485" index="193"/>
+			<column name="COUNTER_1278072486" index="194"/>
+			<column name="COUNTER_1278072522" index="195"/>
+			<column name="COUNTER_1278072530" index="196"/>
+			<column name="COUNTER_1278072638" index="197"/>
+			<column name="COUNTER_1278072637" index="198"/>
+			<column name="COUNTER_1278072639" index="199"/>
+			<column name="COUNTER_1278072640" index="200"/>
+		</table>
+	</templet>
+	<templet id="5">
+		<table id="0" name="clt_pm_hw_v9r11_1275071421" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278072417" index="13"/>
+			<column name="COUNTER_1278072418" index="14"/>
+			<column name="COUNTER_1278072419" index="15"/>
+			<column name="COUNTER_1278072420" index="16"/>
+			<column name="COUNTER_1278072421" index="17"/>
+			<column name="COUNTER_1278072422" index="18"/>
+			<column name="COUNTER_1278072423" index="19"/>
+			<column name="COUNTER_1278072424" index="20"/>
+			<column name="COUNTER_1278072425" index="21"/>
+			<column name="COUNTER_1278072426" index="22"/>
+			<column name="COUNTER_1278072427" index="23"/>
+			<column name="COUNTER_1278072428" index="24"/>
+			<column name="COUNTER_1278072429" index="25"/>
+			<column name="COUNTER_1278072430" index="26"/>
+			<column name="COUNTER_1278072431" index="27"/>
+			<column name="COUNTER_1278072432" index="28"/>
+			<column name="COUNTER_1278072433" index="29"/>
+			<column name="COUNTER_1278072434" index="30"/>
+			<column name="COUNTER_1278072435" index="31"/>
+			<column name="COUNTER_1278072436" index="32"/>
+			<column name="COUNTER_1278072437" index="33"/>
+			<column name="COUNTER_1278072438" index="34"/>
+			<column name="COUNTER_1278072439" index="35"/>
+			<column name="COUNTER_1278072440" index="36"/>
+			<column name="COUNTER_1278072441" index="37"/>
+			<column name="COUNTER_1278072442" index="38"/>
+			<column name="COUNTER_1278072443" index="39"/>
+			<column name="COUNTER_1278072444" index="40"/>
+			<column name="COUNTER_1278072445" index="41"/>
+			<column name="COUNTER_1278072446" index="42"/>
+			<column name="COUNTER_1278072447" index="43"/>
+			<column name="COUNTER_1278072448" index="44"/>
+			<column name="COUNTER_1278072449" index="45"/>
+			<column name="COUNTER_1278072450" index="46"/>
+			<column name="COUNTER_1278072451" index="47"/>
+			<column name="COUNTER_1278072452" index="48"/>
+			<column name="COUNTER_1278072453" index="49"/>
+			<column name="COUNTER_1278072454" index="50"/>
+			<column name="COUNTER_1278072455" index="51"/>
+			<column name="COUNTER_1278072456" index="52"/>
+			<column name="COUNTER_1278072457" index="53"/>
+			<column name="COUNTER_1278072458" index="54"/>
+			<column name="COUNTER_1278072459" index="55"/>
+			<column name="COUNTER_1278072460" index="56"/>
+			<column name="COUNTER_1278072461" index="57"/>
+			<column name="COUNTER_1278072462" index="58"/>
+			<column name="COUNTER_1278072463" index="59"/>
+			<column name="COUNTER_1278072464" index="60"/>
+			<column name="COUNTER_1278072465" index="61"/>
+			<column name="COUNTER_1278072466" index="62"/>
+			<column name="COUNTER_1278072467" index="63"/>
+			<column name="COUNTER_1278072468" index="64"/>
+			<column name="COUNTER_1278072469" index="65"/>
+			<column name="COUNTER_1278072470" index="66"/>
+			<column name="COUNTER_1278072471" index="67"/>
+			<column name="COUNTER_1278072472" index="68"/>
+			<column name="COUNTER_1278072473" index="69"/>
+			<column name="COUNTER_1278072474" index="70"/>
+			<column name="COUNTER_1278072475" index="71"/>
+			<column name="COUNTER_1278072476" index="72"/>
+			<column name="COUNTER_1278072477" index="73"/>
+			<column name="COUNTER_1278072478" index="74"/>
+			<column name="COUNTER_1278072479" index="75"/>
+			<column name="COUNTER_1278072480" index="76"/>
+			<column name="COUNTER_1278072481" index="77"/>
+			<column name="COUNTER_1278072487" index="78"/>
+			<column name="COUNTER_1278072488" index="79"/>
+			<column name="COUNTER_1278072489" index="80"/>
+			<column name="COUNTER_1278072490" index="81"/>
+			<column name="COUNTER_1278072492" index="82"/>
+			<column name="COUNTER_1278072493" index="83"/>
+			<column name="COUNTER_1278072494" index="84"/>
+			<column name="COUNTER_1278072495" index="85"/>
+			<column name="COUNTER_1278072496" index="86"/>
+			<column name="COUNTER_1278072497" index="87"/>
+			<column name="COUNTER_1278072498" index="88"/>
+			<column name="COUNTER_1278072499" index="89"/>
+			<column name="COUNTER_1278072500" index="90"/>
+			<column name="COUNTER_1278072501" index="91"/>
+			<column name="COUNTER_1278072502" index="92"/>
+			<column name="COUNTER_1278072503" index="93"/>
+			<column name="COUNTER_1278072504" index="94"/>
+			<column name="COUNTER_1278072505" index="95"/>
+			<column name="COUNTER_1278072506" index="96"/>
+			<column name="COUNTER_1278072507" index="97"/>
+			<column name="COUNTER_1278072508" index="98"/>
+			<column name="COUNTER_1278072509" index="99"/>
+			<column name="COUNTER_1278072510" index="100"/>
+			<column name="COUNTER_1278072511" index="101"/>
+			<column name="COUNTER_1278072512" index="102"/>
+			<column name="COUNTER_1278072513" index="103"/>
+			<column name="COUNTER_1278072514" index="104"/>
+			<column name="COUNTER_1278072515" index="105"/>
+			<column name="COUNTER_1278072516" index="106"/>
+			<column name="COUNTER_1278072517" index="107"/>
+			<column name="COUNTER_1278072518" index="108"/>
+			<column name="COUNTER_1278072519" index="109"/>
+			<column name="COUNTER_1278072520" index="110"/>
+			<column name="COUNTER_1278072521" index="111"/>
+			<column name="COUNTER_1278072523" index="112"/>
+			<column name="COUNTER_1278072524" index="113"/>
+			<column name="COUNTER_1278072525" index="114"/>
+			<column name="COUNTER_1278072526" index="115"/>
+			<column name="COUNTER_1278072527" index="116"/>
+			<column name="COUNTER_1278072528" index="117"/>
+			<column name="COUNTER_1278072529" index="118"/>
+			<column name="COUNTER_1278072531" index="119"/>
+			<column name="COUNTER_1278072532" index="120"/>
+			<column name="COUNTER_1278072533" index="121"/>
+			<column name="COUNTER_1278072534" index="122"/>
+			<column name="COUNTER_1278072535" index="123"/>
+			<column name="COUNTER_1278072536" index="124"/>
+			<column name="COUNTER_1278072537" index="125"/>
+			<column name="COUNTER_1278072538" index="126"/>
+			<column name="COUNTER_1278072539" index="127"/>
+			<column name="COUNTER_1278072540" index="128"/>
+			<column name="COUNTER_1278072541" index="129"/>
+			<column name="COUNTER_1278072542" index="130"/>
+			<column name="COUNTER_1278072543" index="131"/>
+			<column name="COUNTER_1278072544" index="132"/>
+			<column name="COUNTER_1278072545" index="133"/>
+			<column name="COUNTER_1278072546" index="134"/>
+			<column name="COUNTER_1278072547" index="135"/>
+			<column name="COUNTER_1278072548" index="136"/>
+			<column name="COUNTER_1278072549" index="137"/>
+			<column name="COUNTER_1278072550" index="138"/>
+			<column name="COUNTER_1278072551" index="139"/>
+			<column name="COUNTER_1278072552" index="140"/>
+			<column name="COUNTER_1278072553" index="141"/>
+			<column name="COUNTER_1278072554" index="142"/>
+			<column name="COUNTER_1278072555" index="143"/>
+			<column name="COUNTER_1278072556" index="144"/>
+			<column name="COUNTER_1278072557" index="145"/>
+			<column name="COUNTER_1278072558" index="146"/>
+			<column name="COUNTER_1278072559" index="147"/>
+			<column name="COUNTER_1278072560" index="148"/>
+			<column name="COUNTER_1278072561" index="149"/>
+			<column name="COUNTER_1278072562" index="150"/>
+			<column name="COUNTER_1278072563" index="151"/>
+			<column name="COUNTER_1278072564" index="152"/>
+			<column name="COUNTER_1278072565" index="153"/>
+			<column name="COUNTER_1278072566" index="154"/>
+			<column name="COUNTER_1278072567" index="155"/>
+			<column name="COUNTER_1278072568" index="156"/>
+			<column name="COUNTER_1278072569" index="157"/>
+			<column name="COUNTER_1278072570" index="158"/>
+			<column name="COUNTER_1278072571" index="159"/>
+			<column name="COUNTER_1278072572" index="160"/>
+			<column name="COUNTER_1278072573" index="161"/>
+			<column name="COUNTER_1278072574" index="162"/>
+			<column name="COUNTER_1278072575" index="163"/>
+			<column name="COUNTER_1278072576" index="164"/>
+			<column name="COUNTER_1278072577" index="165"/>
+			<column name="COUNTER_1278072578" index="166"/>
+			<column name="COUNTER_1278072579" index="167"/>
+			<column name="COUNTER_1278072580" index="168"/>
+			<column name="COUNTER_1278072581" index="169"/>
+			<column name="COUNTER_1278072582" index="170"/>
+			<column name="COUNTER_1278072583" index="171"/>
+			<column name="COUNTER_1278072584" index="172"/>
+			<column name="COUNTER_1278072585" index="173"/>
+			<column name="COUNTER_1278072586" index="174"/>
+			<column name="COUNTER_1278072587" index="175"/>
+			<column name="COUNTER_1278072588" index="176"/>
+			<column name="COUNTER_1278072589" index="177"/>
+			<column name="COUNTER_1278072590" index="178"/>
+			<column name="COUNTER_1278072591" index="179"/>
+			<column name="COUNTER_1278072592" index="180"/>
+			<column name="COUNTER_1278072593" index="181"/>
+			<column name="COUNTER_1278072594" index="182"/>
+			<column name="COUNTER_1278072595" index="183"/>
+			<column name="COUNTER_1278072596" index="184"/>
+			<column name="COUNTER_1278072629" index="185"/>
+			<column name="COUNTER_1278072630" index="186"/>
+			<column name="COUNTER_1278072631" index="187"/>
+			<column name="COUNTER_1278072632" index="188"/>
+			<column name="COUNTER_1278072643" index="189"/>
+			<column name="COUNTER_1278072482" index="190"/>
+			<column name="COUNTER_1278072483" index="191"/>
+			<column name="COUNTER_1278072484" index="192"/>
+			<column name="COUNTER_1278072485" index="193"/>
+			<column name="COUNTER_1278072486" index="194"/>
+			<column name="COUNTER_1278072522" index="195"/>
+			<column name="COUNTER_1278072530" index="196"/>
+			<column name="COUNTER_1278072638" index="197"/>
+			<column name="COUNTER_1278072637" index="198"/>
+			<column name="COUNTER_1278072639" index="199"/>
+			<column name="COUNTER_1278072640" index="200"/>
+		</table>
+	</templet>
+	<templet id="6">
+		<table id="0" name="clt_pm_hw_v9r11_1275071422" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278072417" index="13"/>
+			<column name="COUNTER_1278072418" index="14"/>
+			<column name="COUNTER_1278072419" index="15"/>
+			<column name="COUNTER_1278072420" index="16"/>
+			<column name="COUNTER_1278072421" index="17"/>
+			<column name="COUNTER_1278072422" index="18"/>
+			<column name="COUNTER_1278072423" index="19"/>
+			<column name="COUNTER_1278072424" index="20"/>
+			<column name="COUNTER_1278072425" index="21"/>
+			<column name="COUNTER_1278072426" index="22"/>
+			<column name="COUNTER_1278072427" index="23"/>
+			<column name="COUNTER_1278072428" index="24"/>
+			<column name="COUNTER_1278072429" index="25"/>
+			<column name="COUNTER_1278072430" index="26"/>
+			<column name="COUNTER_1278072431" index="27"/>
+			<column name="COUNTER_1278072432" index="28"/>
+			<column name="COUNTER_1278072433" index="29"/>
+			<column name="COUNTER_1278072434" index="30"/>
+			<column name="COUNTER_1278072435" index="31"/>
+			<column name="COUNTER_1278072436" index="32"/>
+			<column name="COUNTER_1278072437" index="33"/>
+			<column name="COUNTER_1278072438" index="34"/>
+			<column name="COUNTER_1278072439" index="35"/>
+			<column name="COUNTER_1278072440" index="36"/>
+			<column name="COUNTER_1278072441" index="37"/>
+			<column name="COUNTER_1278072442" index="38"/>
+			<column name="COUNTER_1278072443" index="39"/>
+			<column name="COUNTER_1278072444" index="40"/>
+			<column name="COUNTER_1278072445" index="41"/>
+			<column name="COUNTER_1278072446" index="42"/>
+			<column name="COUNTER_1278072447" index="43"/>
+			<column name="COUNTER_1278072448" index="44"/>
+			<column name="COUNTER_1278072449" index="45"/>
+			<column name="COUNTER_1278072450" index="46"/>
+			<column name="COUNTER_1278072451" index="47"/>
+			<column name="COUNTER_1278072452" index="48"/>
+			<column name="COUNTER_1278072453" index="49"/>
+			<column name="COUNTER_1278072454" index="50"/>
+			<column name="COUNTER_1278072455" index="51"/>
+			<column name="COUNTER_1278072456" index="52"/>
+			<column name="COUNTER_1278072457" index="53"/>
+			<column name="COUNTER_1278072458" index="54"/>
+			<column name="COUNTER_1278072459" index="55"/>
+			<column name="COUNTER_1278072460" index="56"/>
+			<column name="COUNTER_1278072461" index="57"/>
+			<column name="COUNTER_1278072462" index="58"/>
+			<column name="COUNTER_1278072463" index="59"/>
+			<column name="COUNTER_1278072464" index="60"/>
+			<column name="COUNTER_1278072465" index="61"/>
+			<column name="COUNTER_1278072466" index="62"/>
+			<column name="COUNTER_1278072467" index="63"/>
+			<column name="COUNTER_1278072468" index="64"/>
+			<column name="COUNTER_1278072469" index="65"/>
+			<column name="COUNTER_1278072470" index="66"/>
+			<column name="COUNTER_1278072471" index="67"/>
+			<column name="COUNTER_1278072472" index="68"/>
+			<column name="COUNTER_1278072473" index="69"/>
+			<column name="COUNTER_1278072474" index="70"/>
+			<column name="COUNTER_1278072475" index="71"/>
+			<column name="COUNTER_1278072476" index="72"/>
+			<column name="COUNTER_1278072477" index="73"/>
+			<column name="COUNTER_1278072478" index="74"/>
+			<column name="COUNTER_1278072479" index="75"/>
+			<column name="COUNTER_1278072480" index="76"/>
+			<column name="COUNTER_1278072481" index="77"/>
+			<column name="COUNTER_1278072487" index="78"/>
+			<column name="COUNTER_1278072488" index="79"/>
+			<column name="COUNTER_1278072489" index="80"/>
+			<column name="COUNTER_1278072490" index="81"/>
+			<column name="COUNTER_1278072492" index="82"/>
+			<column name="COUNTER_1278072493" index="83"/>
+			<column name="COUNTER_1278072494" index="84"/>
+			<column name="COUNTER_1278072495" index="85"/>
+			<column name="COUNTER_1278072496" index="86"/>
+			<column name="COUNTER_1278072497" index="87"/>
+			<column name="COUNTER_1278072498" index="88"/>
+			<column name="COUNTER_1278072499" index="89"/>
+			<column name="COUNTER_1278072500" index="90"/>
+			<column name="COUNTER_1278072501" index="91"/>
+			<column name="COUNTER_1278072502" index="92"/>
+			<column name="COUNTER_1278072503" index="93"/>
+			<column name="COUNTER_1278072504" index="94"/>
+			<column name="COUNTER_1278072505" index="95"/>
+			<column name="COUNTER_1278072506" index="96"/>
+			<column name="COUNTER_1278072507" index="97"/>
+			<column name="COUNTER_1278072508" index="98"/>
+			<column name="COUNTER_1278072509" index="99"/>
+			<column name="COUNTER_1278072510" index="100"/>
+			<column name="COUNTER_1278072511" index="101"/>
+			<column name="COUNTER_1278072512" index="102"/>
+			<column name="COUNTER_1278072513" index="103"/>
+			<column name="COUNTER_1278072514" index="104"/>
+			<column name="COUNTER_1278072515" index="105"/>
+			<column name="COUNTER_1278072516" index="106"/>
+			<column name="COUNTER_1278072517" index="107"/>
+			<column name="COUNTER_1278072518" index="108"/>
+			<column name="COUNTER_1278072519" index="109"/>
+			<column name="COUNTER_1278072520" index="110"/>
+			<column name="COUNTER_1278072521" index="111"/>
+			<column name="COUNTER_1278072523" index="112"/>
+			<column name="COUNTER_1278072524" index="113"/>
+			<column name="COUNTER_1278072525" index="114"/>
+			<column name="COUNTER_1278072526" index="115"/>
+			<column name="COUNTER_1278072527" index="116"/>
+			<column name="COUNTER_1278072528" index="117"/>
+			<column name="COUNTER_1278072529" index="118"/>
+			<column name="COUNTER_1278072531" index="119"/>
+			<column name="COUNTER_1278072532" index="120"/>
+			<column name="COUNTER_1278072533" index="121"/>
+			<column name="COUNTER_1278072534" index="122"/>
+			<column name="COUNTER_1278072535" index="123"/>
+			<column name="COUNTER_1278072536" index="124"/>
+			<column name="COUNTER_1278072537" index="125"/>
+			<column name="COUNTER_1278072538" index="126"/>
+			<column name="COUNTER_1278072539" index="127"/>
+			<column name="COUNTER_1278072540" index="128"/>
+			<column name="COUNTER_1278072541" index="129"/>
+			<column name="COUNTER_1278072542" index="130"/>
+			<column name="COUNTER_1278072543" index="131"/>
+			<column name="COUNTER_1278072544" index="132"/>
+			<column name="COUNTER_1278072545" index="133"/>
+			<column name="COUNTER_1278072546" index="134"/>
+			<column name="COUNTER_1278072547" index="135"/>
+			<column name="COUNTER_1278072548" index="136"/>
+			<column name="COUNTER_1278072549" index="137"/>
+			<column name="COUNTER_1278072550" index="138"/>
+			<column name="COUNTER_1278072551" index="139"/>
+			<column name="COUNTER_1278072552" index="140"/>
+			<column name="COUNTER_1278072553" index="141"/>
+			<column name="COUNTER_1278072554" index="142"/>
+			<column name="COUNTER_1278072555" index="143"/>
+			<column name="COUNTER_1278072556" index="144"/>
+			<column name="COUNTER_1278072557" index="145"/>
+			<column name="COUNTER_1278072558" index="146"/>
+			<column name="COUNTER_1278072559" index="147"/>
+			<column name="COUNTER_1278072560" index="148"/>
+			<column name="COUNTER_1278072561" index="149"/>
+			<column name="COUNTER_1278072562" index="150"/>
+			<column name="COUNTER_1278072563" index="151"/>
+			<column name="COUNTER_1278072564" index="152"/>
+			<column name="COUNTER_1278072565" index="153"/>
+			<column name="COUNTER_1278072566" index="154"/>
+			<column name="COUNTER_1278072567" index="155"/>
+			<column name="COUNTER_1278072568" index="156"/>
+			<column name="COUNTER_1278072569" index="157"/>
+			<column name="COUNTER_1278072570" index="158"/>
+			<column name="COUNTER_1278072571" index="159"/>
+			<column name="COUNTER_1278072572" index="160"/>
+			<column name="COUNTER_1278072573" index="161"/>
+			<column name="COUNTER_1278072574" index="162"/>
+			<column name="COUNTER_1278072575" index="163"/>
+			<column name="COUNTER_1278072576" index="164"/>
+			<column name="COUNTER_1278072577" index="165"/>
+			<column name="COUNTER_1278072578" index="166"/>
+			<column name="COUNTER_1278072579" index="167"/>
+			<column name="COUNTER_1278072580" index="168"/>
+			<column name="COUNTER_1278072581" index="169"/>
+			<column name="COUNTER_1278072582" index="170"/>
+			<column name="COUNTER_1278072583" index="171"/>
+			<column name="COUNTER_1278072584" index="172"/>
+			<column name="COUNTER_1278072585" index="173"/>
+			<column name="COUNTER_1278072586" index="174"/>
+			<column name="COUNTER_1278072587" index="175"/>
+			<column name="COUNTER_1278072588" index="176"/>
+			<column name="COUNTER_1278072589" index="177"/>
+			<column name="COUNTER_1278072590" index="178"/>
+			<column name="COUNTER_1278072591" index="179"/>
+			<column name="COUNTER_1278072592" index="180"/>
+			<column name="COUNTER_1278072593" index="181"/>
+			<column name="COUNTER_1278072594" index="182"/>
+			<column name="COUNTER_1278072595" index="183"/>
+			<column name="COUNTER_1278072596" index="184"/>
+			<column name="COUNTER_1278072629" index="185"/>
+			<column name="COUNTER_1278072630" index="186"/>
+			<column name="COUNTER_1278072631" index="187"/>
+			<column name="COUNTER_1278072632" index="188"/>
+			<column name="COUNTER_1278072643" index="189"/>
+			<column name="COUNTER_1278072482" index="190"/>
+			<column name="COUNTER_1278072483" index="191"/>
+			<column name="COUNTER_1278072484" index="192"/>
+			<column name="COUNTER_1278072485" index="193"/>
+			<column name="COUNTER_1278072486" index="194"/>
+			<column name="COUNTER_1278072522" index="195"/>
+			<column name="COUNTER_1278072530" index="196"/>
+			<column name="COUNTER_1278072638" index="197"/>
+			<column name="COUNTER_1278072637" index="198"/>
+			<column name="COUNTER_1278072639" index="199"/>
+			<column name="COUNTER_1278072640" index="200"/>
+		</table>
+	</templet>
+	<templet id="7">
+		<table id="0" name="clt_pm_hw_v9r11_1275071423" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278072417" index="13"/>
+			<column name="COUNTER_1278072418" index="14"/>
+			<column name="COUNTER_1278072419" index="15"/>
+			<column name="COUNTER_1278072420" index="16"/>
+			<column name="COUNTER_1278072421" index="17"/>
+			<column name="COUNTER_1278072422" index="18"/>
+			<column name="COUNTER_1278072423" index="19"/>
+			<column name="COUNTER_1278072424" index="20"/>
+			<column name="COUNTER_1278072425" index="21"/>
+			<column name="COUNTER_1278072426" index="22"/>
+			<column name="COUNTER_1278072427" index="23"/>
+			<column name="COUNTER_1278072428" index="24"/>
+			<column name="COUNTER_1278072429" index="25"/>
+			<column name="COUNTER_1278072430" index="26"/>
+			<column name="COUNTER_1278072431" index="27"/>
+			<column name="COUNTER_1278072432" index="28"/>
+			<column name="COUNTER_1278072433" index="29"/>
+			<column name="COUNTER_1278072434" index="30"/>
+			<column name="COUNTER_1278072435" index="31"/>
+			<column name="COUNTER_1278072436" index="32"/>
+			<column name="COUNTER_1278072437" index="33"/>
+			<column name="COUNTER_1278072438" index="34"/>
+			<column name="COUNTER_1278072439" index="35"/>
+			<column name="COUNTER_1278072440" index="36"/>
+			<column name="COUNTER_1278072441" index="37"/>
+			<column name="COUNTER_1278072442" index="38"/>
+			<column name="COUNTER_1278072443" index="39"/>
+			<column name="COUNTER_1278072444" index="40"/>
+			<column name="COUNTER_1278072445" index="41"/>
+			<column name="COUNTER_1278072446" index="42"/>
+			<column name="COUNTER_1278072447" index="43"/>
+			<column name="COUNTER_1278072448" index="44"/>
+			<column name="COUNTER_1278072449" index="45"/>
+			<column name="COUNTER_1278072450" index="46"/>
+			<column name="COUNTER_1278072451" index="47"/>
+			<column name="COUNTER_1278072452" index="48"/>
+			<column name="COUNTER_1278072453" index="49"/>
+			<column name="COUNTER_1278072454" index="50"/>
+			<column name="COUNTER_1278072455" index="51"/>
+			<column name="COUNTER_1278072456" index="52"/>
+			<column name="COUNTER_1278072457" index="53"/>
+			<column name="COUNTER_1278072458" index="54"/>
+			<column name="COUNTER_1278072459" index="55"/>
+			<column name="COUNTER_1278072460" index="56"/>
+			<column name="COUNTER_1278072461" index="57"/>
+			<column name="COUNTER_1278072462" index="58"/>
+			<column name="COUNTER_1278072463" index="59"/>
+			<column name="COUNTER_1278072464" index="60"/>
+			<column name="COUNTER_1278072465" index="61"/>
+			<column name="COUNTER_1278072466" index="62"/>
+			<column name="COUNTER_1278072467" index="63"/>
+			<column name="COUNTER_1278072468" index="64"/>
+			<column name="COUNTER_1278072469" index="65"/>
+			<column name="COUNTER_1278072470" index="66"/>
+			<column name="COUNTER_1278072471" index="67"/>
+			<column name="COUNTER_1278072472" index="68"/>
+			<column name="COUNTER_1278072473" index="69"/>
+			<column name="COUNTER_1278072474" index="70"/>
+			<column name="COUNTER_1278072475" index="71"/>
+			<column name="COUNTER_1278072476" index="72"/>
+			<column name="COUNTER_1278072477" index="73"/>
+			<column name="COUNTER_1278072478" index="74"/>
+			<column name="COUNTER_1278072479" index="75"/>
+			<column name="COUNTER_1278072480" index="76"/>
+			<column name="COUNTER_1278072481" index="77"/>
+			<column name="COUNTER_1278072487" index="78"/>
+			<column name="COUNTER_1278072488" index="79"/>
+			<column name="COUNTER_1278072489" index="80"/>
+			<column name="COUNTER_1278072490" index="81"/>
+			<column name="COUNTER_1278072492" index="82"/>
+			<column name="COUNTER_1278072493" index="83"/>
+			<column name="COUNTER_1278072494" index="84"/>
+			<column name="COUNTER_1278072495" index="85"/>
+			<column name="COUNTER_1278072496" index="86"/>
+			<column name="COUNTER_1278072497" index="87"/>
+			<column name="COUNTER_1278072498" index="88"/>
+			<column name="COUNTER_1278072499" index="89"/>
+			<column name="COUNTER_1278072500" index="90"/>
+			<column name="COUNTER_1278072501" index="91"/>
+			<column name="COUNTER_1278072502" index="92"/>
+			<column name="COUNTER_1278072503" index="93"/>
+			<column name="COUNTER_1278072504" index="94"/>
+			<column name="COUNTER_1278072505" index="95"/>
+			<column name="COUNTER_1278072506" index="96"/>
+			<column name="COUNTER_1278072507" index="97"/>
+			<column name="COUNTER_1278072508" index="98"/>
+			<column name="COUNTER_1278072509" index="99"/>
+			<column name="COUNTER_1278072510" index="100"/>
+			<column name="COUNTER_1278072511" index="101"/>
+			<column name="COUNTER_1278072512" index="102"/>
+			<column name="COUNTER_1278072513" index="103"/>
+			<column name="COUNTER_1278072514" index="104"/>
+			<column name="COUNTER_1278072515" index="105"/>
+			<column name="COUNTER_1278072516" index="106"/>
+			<column name="COUNTER_1278072517" index="107"/>
+			<column name="COUNTER_1278072518" index="108"/>
+			<column name="COUNTER_1278072519" index="109"/>
+			<column name="COUNTER_1278072520" index="110"/>
+			<column name="COUNTER_1278072521" index="111"/>
+			<column name="COUNTER_1278072523" index="112"/>
+			<column name="COUNTER_1278072524" index="113"/>
+			<column name="COUNTER_1278072525" index="114"/>
+			<column name="COUNTER_1278072526" index="115"/>
+			<column name="COUNTER_1278072527" index="116"/>
+			<column name="COUNTER_1278072528" index="117"/>
+			<column name="COUNTER_1278072529" index="118"/>
+			<column name="COUNTER_1278072531" index="119"/>
+			<column name="COUNTER_1278072532" index="120"/>
+			<column name="COUNTER_1278072533" index="121"/>
+			<column name="COUNTER_1278072534" index="122"/>
+			<column name="COUNTER_1278072535" index="123"/>
+			<column name="COUNTER_1278072536" index="124"/>
+			<column name="COUNTER_1278072537" index="125"/>
+			<column name="COUNTER_1278072538" index="126"/>
+			<column name="COUNTER_1278072539" index="127"/>
+			<column name="COUNTER_1278072540" index="128"/>
+			<column name="COUNTER_1278072541" index="129"/>
+			<column name="COUNTER_1278072542" index="130"/>
+			<column name="COUNTER_1278072543" index="131"/>
+			<column name="COUNTER_1278072544" index="132"/>
+			<column name="COUNTER_1278072545" index="133"/>
+			<column name="COUNTER_1278072546" index="134"/>
+			<column name="COUNTER_1278072547" index="135"/>
+			<column name="COUNTER_1278072548" index="136"/>
+			<column name="COUNTER_1278072549" index="137"/>
+			<column name="COUNTER_1278072550" index="138"/>
+			<column name="COUNTER_1278072551" index="139"/>
+			<column name="COUNTER_1278072552" index="140"/>
+			<column name="COUNTER_1278072553" index="141"/>
+			<column name="COUNTER_1278072554" index="142"/>
+			<column name="COUNTER_1278072555" index="143"/>
+			<column name="COUNTER_1278072556" index="144"/>
+			<column name="COUNTER_1278072557" index="145"/>
+			<column name="COUNTER_1278072558" index="146"/>
+			<column name="COUNTER_1278072559" index="147"/>
+			<column name="COUNTER_1278072560" index="148"/>
+			<column name="COUNTER_1278072561" index="149"/>
+			<column name="COUNTER_1278072562" index="150"/>
+			<column name="COUNTER_1278072563" index="151"/>
+			<column name="COUNTER_1278072564" index="152"/>
+			<column name="COUNTER_1278072565" index="153"/>
+			<column name="COUNTER_1278072566" index="154"/>
+			<column name="COUNTER_1278072567" index="155"/>
+			<column name="COUNTER_1278072568" index="156"/>
+			<column name="COUNTER_1278072569" index="157"/>
+			<column name="COUNTER_1278072570" index="158"/>
+			<column name="COUNTER_1278072571" index="159"/>
+			<column name="COUNTER_1278072572" index="160"/>
+			<column name="COUNTER_1278072573" index="161"/>
+			<column name="COUNTER_1278072574" index="162"/>
+			<column name="COUNTER_1278072575" index="163"/>
+			<column name="COUNTER_1278072576" index="164"/>
+			<column name="COUNTER_1278072577" index="165"/>
+			<column name="COUNTER_1278072578" index="166"/>
+			<column name="COUNTER_1278072579" index="167"/>
+			<column name="COUNTER_1278072580" index="168"/>
+			<column name="COUNTER_1278072581" index="169"/>
+			<column name="COUNTER_1278072582" index="170"/>
+			<column name="COUNTER_1278072583" index="171"/>
+			<column name="COUNTER_1278072584" index="172"/>
+			<column name="COUNTER_1278072585" index="173"/>
+			<column name="COUNTER_1278072586" index="174"/>
+			<column name="COUNTER_1278072587" index="175"/>
+			<column name="COUNTER_1278072588" index="176"/>
+			<column name="COUNTER_1278072589" index="177"/>
+			<column name="COUNTER_1278072590" index="178"/>
+			<column name="COUNTER_1278072591" index="179"/>
+			<column name="COUNTER_1278072592" index="180"/>
+			<column name="COUNTER_1278072593" index="181"/>
+			<column name="COUNTER_1278072594" index="182"/>
+			<column name="COUNTER_1278072595" index="183"/>
+			<column name="COUNTER_1278072596" index="184"/>
+			<column name="COUNTER_1278072629" index="185"/>
+			<column name="COUNTER_1278072630" index="186"/>
+			<column name="COUNTER_1278072631" index="187"/>
+			<column name="COUNTER_1278072632" index="188"/>
+			<column name="COUNTER_1278072643" index="189"/>
+			<column name="COUNTER_1278072482" index="190"/>
+			<column name="COUNTER_1278072483" index="191"/>
+			<column name="COUNTER_1278072484" index="192"/>
+			<column name="COUNTER_1278072485" index="193"/>
+			<column name="COUNTER_1278072486" index="194"/>
+			<column name="COUNTER_1278072522" index="195"/>
+			<column name="COUNTER_1278072530" index="196"/>
+			<column name="COUNTER_1278072638" index="197"/>
+			<column name="COUNTER_1278072637" index="198"/>
+			<column name="COUNTER_1278072639" index="199"/>
+			<column name="COUNTER_1278072640" index="200"/>
+		</table>
+	</templet>
+	<templet id="8">
+		<table id="0" name="clt_pm_hw_v9r11_1275071424" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278072417" index="13"/>
+			<column name="COUNTER_1278072418" index="14"/>
+			<column name="COUNTER_1278072419" index="15"/>
+			<column name="COUNTER_1278072420" index="16"/>
+			<column name="COUNTER_1278072421" index="17"/>
+			<column name="COUNTER_1278072422" index="18"/>
+			<column name="COUNTER_1278072423" index="19"/>
+			<column name="COUNTER_1278072424" index="20"/>
+			<column name="COUNTER_1278072425" index="21"/>
+			<column name="COUNTER_1278072426" index="22"/>
+			<column name="COUNTER_1278072427" index="23"/>
+			<column name="COUNTER_1278072428" index="24"/>
+			<column name="COUNTER_1278072429" index="25"/>
+			<column name="COUNTER_1278072430" index="26"/>
+			<column name="COUNTER_1278072431" index="27"/>
+			<column name="COUNTER_1278072432" index="28"/>
+			<column name="COUNTER_1278072433" index="29"/>
+			<column name="COUNTER_1278072434" index="30"/>
+			<column name="COUNTER_1278072435" index="31"/>
+			<column name="COUNTER_1278072436" index="32"/>
+			<column name="COUNTER_1278072437" index="33"/>
+			<column name="COUNTER_1278072438" index="34"/>
+			<column name="COUNTER_1278072439" index="35"/>
+			<column name="COUNTER_1278072440" index="36"/>
+			<column name="COUNTER_1278072441" index="37"/>
+			<column name="COUNTER_1278072442" index="38"/>
+			<column name="COUNTER_1278072443" index="39"/>
+			<column name="COUNTER_1278072444" index="40"/>
+			<column name="COUNTER_1278072445" index="41"/>
+			<column name="COUNTER_1278072446" index="42"/>
+			<column name="COUNTER_1278072447" index="43"/>
+			<column name="COUNTER_1278072448" index="44"/>
+			<column name="COUNTER_1278072449" index="45"/>
+			<column name="COUNTER_1278072450" index="46"/>
+			<column name="COUNTER_1278072451" index="47"/>
+			<column name="COUNTER_1278072452" index="48"/>
+			<column name="COUNTER_1278072453" index="49"/>
+			<column name="COUNTER_1278072454" index="50"/>
+			<column name="COUNTER_1278072455" index="51"/>
+			<column name="COUNTER_1278072456" index="52"/>
+			<column name="COUNTER_1278072457" index="53"/>
+			<column name="COUNTER_1278072458" index="54"/>
+			<column name="COUNTER_1278072459" index="55"/>
+			<column name="COUNTER_1278072460" index="56"/>
+			<column name="COUNTER_1278072461" index="57"/>
+			<column name="COUNTER_1278072462" index="58"/>
+			<column name="COUNTER_1278072463" index="59"/>
+			<column name="COUNTER_1278072464" index="60"/>
+			<column name="COUNTER_1278072465" index="61"/>
+			<column name="COUNTER_1278072466" index="62"/>
+			<column name="COUNTER_1278072467" index="63"/>
+			<column name="COUNTER_1278072468" index="64"/>
+			<column name="COUNTER_1278072469" index="65"/>
+			<column name="COUNTER_1278072470" index="66"/>
+			<column name="COUNTER_1278072471" index="67"/>
+			<column name="COUNTER_1278072472" index="68"/>
+			<column name="COUNTER_1278072473" index="69"/>
+			<column name="COUNTER_1278072474" index="70"/>
+			<column name="COUNTER_1278072475" index="71"/>
+			<column name="COUNTER_1278072476" index="72"/>
+			<column name="COUNTER_1278072477" index="73"/>
+			<column name="COUNTER_1278072478" index="74"/>
+			<column name="COUNTER_1278072479" index="75"/>
+			<column name="COUNTER_1278072480" index="76"/>
+			<column name="COUNTER_1278072481" index="77"/>
+			<column name="COUNTER_1278072487" index="78"/>
+			<column name="COUNTER_1278072488" index="79"/>
+			<column name="COUNTER_1278072489" index="80"/>
+			<column name="COUNTER_1278072490" index="81"/>
+			<column name="COUNTER_1278072492" index="82"/>
+			<column name="COUNTER_1278072493" index="83"/>
+			<column name="COUNTER_1278072494" index="84"/>
+			<column name="COUNTER_1278072495" index="85"/>
+			<column name="COUNTER_1278072496" index="86"/>
+			<column name="COUNTER_1278072497" index="87"/>
+			<column name="COUNTER_1278072498" index="88"/>
+			<column name="COUNTER_1278072499" index="89"/>
+			<column name="COUNTER_1278072500" index="90"/>
+			<column name="COUNTER_1278072501" index="91"/>
+			<column name="COUNTER_1278072502" index="92"/>
+			<column name="COUNTER_1278072503" index="93"/>
+			<column name="COUNTER_1278072504" index="94"/>
+			<column name="COUNTER_1278072505" index="95"/>
+			<column name="COUNTER_1278072506" index="96"/>
+			<column name="COUNTER_1278072507" index="97"/>
+			<column name="COUNTER_1278072508" index="98"/>
+			<column name="COUNTER_1278072509" index="99"/>
+			<column name="COUNTER_1278072510" index="100"/>
+			<column name="COUNTER_1278072511" index="101"/>
+			<column name="COUNTER_1278072512" index="102"/>
+			<column name="COUNTER_1278072513" index="103"/>
+			<column name="COUNTER_1278072514" index="104"/>
+			<column name="COUNTER_1278072515" index="105"/>
+			<column name="COUNTER_1278072516" index="106"/>
+			<column name="COUNTER_1278072517" index="107"/>
+			<column name="COUNTER_1278072518" index="108"/>
+			<column name="COUNTER_1278072519" index="109"/>
+			<column name="COUNTER_1278072520" index="110"/>
+			<column name="COUNTER_1278072521" index="111"/>
+			<column name="COUNTER_1278072523" index="112"/>
+			<column name="COUNTER_1278072524" index="113"/>
+			<column name="COUNTER_1278072525" index="114"/>
+			<column name="COUNTER_1278072526" index="115"/>
+			<column name="COUNTER_1278072527" index="116"/>
+			<column name="COUNTER_1278072528" index="117"/>
+			<column name="COUNTER_1278072529" index="118"/>
+			<column name="COUNTER_1278072531" index="119"/>
+			<column name="COUNTER_1278072532" index="120"/>
+			<column name="COUNTER_1278072533" index="121"/>
+			<column name="COUNTER_1278072534" index="122"/>
+			<column name="COUNTER_1278072535" index="123"/>
+			<column name="COUNTER_1278072536" index="124"/>
+			<column name="COUNTER_1278072537" index="125"/>
+			<column name="COUNTER_1278072538" index="126"/>
+			<column name="COUNTER_1278072539" index="127"/>
+			<column name="COUNTER_1278072540" index="128"/>
+			<column name="COUNTER_1278072541" index="129"/>
+			<column name="COUNTER_1278072542" index="130"/>
+			<column name="COUNTER_1278072543" index="131"/>
+			<column name="COUNTER_1278072544" index="132"/>
+			<column name="COUNTER_1278072545" index="133"/>
+			<column name="COUNTER_1278072546" index="134"/>
+			<column name="COUNTER_1278072547" index="135"/>
+			<column name="COUNTER_1278072548" index="136"/>
+			<column name="COUNTER_1278072549" index="137"/>
+			<column name="COUNTER_1278072550" index="138"/>
+			<column name="COUNTER_1278072551" index="139"/>
+			<column name="COUNTER_1278072552" index="140"/>
+			<column name="COUNTER_1278072553" index="141"/>
+			<column name="COUNTER_1278072554" index="142"/>
+			<column name="COUNTER_1278072555" index="143"/>
+			<column name="COUNTER_1278072556" index="144"/>
+			<column name="COUNTER_1278072557" index="145"/>
+			<column name="COUNTER_1278072558" index="146"/>
+			<column name="COUNTER_1278072559" index="147"/>
+			<column name="COUNTER_1278072560" index="148"/>
+			<column name="COUNTER_1278072561" index="149"/>
+			<column name="COUNTER_1278072562" index="150"/>
+			<column name="COUNTER_1278072563" index="151"/>
+			<column name="COUNTER_1278072564" index="152"/>
+			<column name="COUNTER_1278072565" index="153"/>
+			<column name="COUNTER_1278072566" index="154"/>
+			<column name="COUNTER_1278072567" index="155"/>
+			<column name="COUNTER_1278072568" index="156"/>
+			<column name="COUNTER_1278072569" index="157"/>
+			<column name="COUNTER_1278072570" index="158"/>
+			<column name="COUNTER_1278072571" index="159"/>
+			<column name="COUNTER_1278072572" index="160"/>
+			<column name="COUNTER_1278072573" index="161"/>
+			<column name="COUNTER_1278072574" index="162"/>
+			<column name="COUNTER_1278072575" index="163"/>
+			<column name="COUNTER_1278072576" index="164"/>
+			<column name="COUNTER_1278072577" index="165"/>
+			<column name="COUNTER_1278072578" index="166"/>
+			<column name="COUNTER_1278072579" index="167"/>
+			<column name="COUNTER_1278072580" index="168"/>
+			<column name="COUNTER_1278072581" index="169"/>
+			<column name="COUNTER_1278072582" index="170"/>
+			<column name="COUNTER_1278072583" index="171"/>
+			<column name="COUNTER_1278072584" index="172"/>
+			<column name="COUNTER_1278072585" index="173"/>
+			<column name="COUNTER_1278072586" index="174"/>
+			<column name="COUNTER_1278072587" index="175"/>
+			<column name="COUNTER_1278072588" index="176"/>
+			<column name="COUNTER_1278072589" index="177"/>
+			<column name="COUNTER_1278072590" index="178"/>
+			<column name="COUNTER_1278072591" index="179"/>
+			<column name="COUNTER_1278072592" index="180"/>
+			<column name="COUNTER_1278072593" index="181"/>
+			<column name="COUNTER_1278072594" index="182"/>
+			<column name="COUNTER_1278072595" index="183"/>
+			<column name="COUNTER_1278072596" index="184"/>
+			<column name="COUNTER_1278072629" index="185"/>
+			<column name="COUNTER_1278072630" index="186"/>
+			<column name="COUNTER_1278072631" index="187"/>
+			<column name="COUNTER_1278072632" index="188"/>
+			<column name="COUNTER_1278072643" index="189"/>
+			<column name="COUNTER_1278072482" index="190"/>
+			<column name="COUNTER_1278072483" index="191"/>
+			<column name="COUNTER_1278072484" index="192"/>
+			<column name="COUNTER_1278072485" index="193"/>
+			<column name="COUNTER_1278072486" index="194"/>
+			<column name="COUNTER_1278072522" index="195"/>
+			<column name="COUNTER_1278072530" index="196"/>
+			<column name="COUNTER_1278072638" index="197"/>
+			<column name="COUNTER_1278072637" index="198"/>
+			<column name="COUNTER_1278072639" index="199"/>
+			<column name="COUNTER_1278072640" index="200"/>
+		</table>
+	</templet>
+	<templet id="9">
+		<table id="0" name="clt_pm_hw_v9r11_1275071425" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278077417" index="13"/>
+			<column name="COUNTER_1278077418" index="14"/>
+			<column name="COUNTER_1278077422" index="15"/>
+			<column name="COUNTER_1278077423" index="16"/>
+			<column name="COUNTER_1278077428" index="17"/>
+			<column name="COUNTER_1278077429" index="18"/>
+			<column name="COUNTER_1278077430" index="19"/>
+			<column name="COUNTER_1278077431" index="20"/>
+			<column name="COUNTER_1278077432" index="21"/>
+			<column name="COUNTER_1278077450" index="22"/>
+			<column name="COUNTER_1278077451" index="23"/>
+			<column name="COUNTER_1278077454" index="24"/>
+			<column name="COUNTER_1278077456" index="25"/>
+			<column name="COUNTER_1278077472" index="26"/>
+			<column name="COUNTER_1278077473" index="27"/>
+			<column name="COUNTER_1278077481" index="28"/>
+			<column name="COUNTER_1278077482" index="29"/>
+			<column name="COUNTER_1278077483" index="30"/>
+			<column name="COUNTER_1278077484" index="31"/>
+			<column name="COUNTER_1278077485" index="32"/>
+			<column name="COUNTER_1278077486" index="33"/>
+			<column name="COUNTER_1278077487" index="34"/>
+			<column name="COUNTER_1278077488" index="35"/>
+			<column name="COUNTER_1278077489" index="36"/>
+			<column name="COUNTER_1278077490" index="37"/>
+			<column name="COUNTER_1278077491" index="38"/>
+			<column name="COUNTER_1278077492" index="39"/>
+			<column name="COUNTER_1278077493" index="40"/>
+			<column name="COUNTER_1278077498" index="41"/>
+			<column name="COUNTER_1278077499" index="42"/>
+			<column name="COUNTER_1278077500" index="43"/>
+			<column name="COUNTER_1278077501" index="44"/>
+			<column name="COUNTER_1278077506" index="45"/>
+			<column name="COUNTER_1278077507" index="46"/>
+			<column name="COUNTER_1278077508" index="47"/>
+			<column name="COUNTER_1278077509" index="48"/>
+			<column name="COUNTER_1278077525" index="49"/>
+			<column name="COUNTER_1278077526" index="50"/>
+			<column name="COUNTER_1278077527" index="51"/>
+			<column name="COUNTER_1282411447" index="52"/>
+			<column name="COUNTER_1282411448" index="53"/>
+			<column name="COUNTER_1282411451" index="54"/>
+			<column name="COUNTER_1282411452" index="55"/>
+			<column name="COUNTER_1282423798" index="56"/>
+			<column name="COUNTER_1282423799" index="57"/>
+			<column name="COUNTER_1278077478" index="58"/>
+			<column name="COUNTER_1278077479" index="59"/>
+			<column name="COUNTER_1278077480" index="60"/>
+			<column name="COUNTER_1278077419" index="61"/>
+			<column name="COUNTER_1278077420" index="62"/>
+			<column name="COUNTER_1278077421" index="63"/>
+			<column name="COUNTER_1278077424" index="64"/>
+			<column name="COUNTER_1278077425" index="65"/>
+			<column name="COUNTER_1278077433" index="66"/>
+			<column name="COUNTER_1278077434" index="67"/>
+			<column name="COUNTER_1278077435" index="68"/>
+			<column name="COUNTER_1278077436" index="69"/>
+			<column name="COUNTER_1278077437" index="70"/>
+			<column name="COUNTER_1278077438" index="71"/>
+			<column name="COUNTER_1278077439" index="72"/>
+			<column name="COUNTER_1278077440" index="73"/>
+			<column name="COUNTER_1278077441" index="74"/>
+			<column name="COUNTER_1278077442" index="75"/>
+			<column name="COUNTER_1278077443" index="76"/>
+			<column name="COUNTER_1278077444" index="77"/>
+			<column name="COUNTER_1278077445" index="78"/>
+			<column name="COUNTER_1278077446" index="79"/>
+			<column name="COUNTER_1278077447" index="80"/>
+			<column name="COUNTER_1278077448" index="81"/>
+			<column name="COUNTER_1278077449" index="82"/>
+			<column name="COUNTER_1278077455" index="83"/>
+			<column name="COUNTER_1278077457" index="84"/>
+			<column name="COUNTER_1278077458" index="85"/>
+			<column name="COUNTER_1278077459" index="86"/>
+			<column name="COUNTER_1278077460" index="87"/>
+			<column name="COUNTER_1278077461" index="88"/>
+			<column name="COUNTER_1278077466" index="89"/>
+			<column name="COUNTER_1278077467" index="90"/>
+			<column name="COUNTER_1278077468" index="91"/>
+			<column name="COUNTER_1278077469" index="92"/>
+			<column name="COUNTER_1278077476" index="93"/>
+			<column name="COUNTER_1278077477" index="94"/>
+			<column name="COUNTER_1278077494" index="95"/>
+			<column name="COUNTER_1278077495" index="96"/>
+			<column name="COUNTER_1278077496" index="97"/>
+			<column name="COUNTER_1278077497" index="98"/>
+			<column name="COUNTER_1278077502" index="99"/>
+			<column name="COUNTER_1278077503" index="100"/>
+			<column name="COUNTER_1278077504" index="101"/>
+			<column name="COUNTER_1278077505" index="102"/>
+			<column name="COUNTER_1278077426" index="103"/>
+			<column name="COUNTER_1278077427" index="104"/>
+			<column name="COUNTER_1278077452" index="105"/>
+			<column name="COUNTER_1278077453" index="106"/>
+			<column name="COUNTER_1278077474" index="107"/>
+			<column name="COUNTER_1278077475" index="108"/>
+			<column name="COUNTER_1278077510" index="109"/>
+			<column name="COUNTER_1278077511" index="110"/>
+			<column name="COUNTER_1278077512" index="111"/>
+			<column name="COUNTER_1278077513" index="112"/>
+			<column name="COUNTER_1278077514" index="113"/>
+			<column name="COUNTER_1278077515" index="114"/>
+			<column name="COUNTER_1278077516" index="115"/>
+			<column name="COUNTER_1278077517" index="116"/>
+			<column name="COUNTER_1278077518" index="117"/>
+			<column name="COUNTER_1278077519" index="118"/>
+			<column name="COUNTER_1278077520" index="119"/>
+			<column name="COUNTER_1278077521" index="120"/>
+			<column name="COUNTER_1278077522" index="121"/>
+			<column name="COUNTER_1278077523" index="122"/>
+			<column name="COUNTER_1278077524" index="123"/>
+			<column name="COUNTER_1278077528" index="124"/>
+			<column name="COUNTER_1278077529" index="125"/>
+			<column name="COUNTER_1278077532" index="126"/>
+			<column name="COUNTER_1278077533" index="127"/>
+			<column name="COUNTER_1278077534" index="128"/>
+			<column name="COUNTER_1278077535" index="129"/>
+			<column name="COUNTER_1278077536" index="130"/>
+			<column name="COUNTER_1278077537" index="131"/>
+			<column name="COUNTER_1278077538" index="132"/>
+			<column name="COUNTER_1278077539" index="133"/>
+			<column name="COUNTER_1278077540" index="134"/>
+			<column name="COUNTER_1278077541" index="135"/>
+			<column name="COUNTER_1282411449" index="136"/>
+			<column name="COUNTER_1282411450" index="137"/>
+		</table>
+	</templet>
+	<templet id="10">
+		<table id="0" name="clt_pm_hw_v9r11_1275071426" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278078459" index="13"/>
+			<column name="COUNTER_1278078458" index="14"/>
+			<column name="COUNTER_1278078463" index="15"/>
+			<column name="COUNTER_1278078419" index="16"/>
+			<column name="COUNTER_1278078420" index="17"/>
+			<column name="COUNTER_1278078423" index="18"/>
+			<column name="COUNTER_1278078424" index="19"/>
+			<column name="COUNTER_1278078439" index="20"/>
+			<column name="COUNTER_1278078440" index="21"/>
+			<column name="COUNTER_1278078443" index="22"/>
+			<column name="COUNTER_1278078444" index="23"/>
+			<column name="COUNTER_1278078460" index="24"/>
+			<column name="COUNTER_1278078461" index="25"/>
+			<column name="COUNTER_1278078462" index="26"/>
+			<column name="COUNTER_1278078464" index="27"/>
+			<column name="COUNTER_1278078483" index="28"/>
+			<column name="COUNTER_1278078484" index="29"/>
+			<column name="COUNTER_1278078485" index="30"/>
+			<column name="COUNTER_1278078486" index="31"/>
+			<column name="COUNTER_1278078492" index="32"/>
+			<column name="COUNTER_1278078493" index="33"/>
+			<column name="COUNTER_1278078494" index="34"/>
+			<column name="COUNTER_1278078495" index="35"/>
+			<column name="COUNTER_1278078496" index="36"/>
+			<column name="COUNTER_1278078497" index="37"/>
+			<column name="COUNTER_1278078498" index="38"/>
+			<column name="COUNTER_1278078499" index="39"/>
+			<column name="COUNTER_1278078500" index="40"/>
+			<column name="COUNTER_1278078501" index="41"/>
+			<column name="COUNTER_1278078502" index="42"/>
+			<column name="COUNTER_1278078503" index="43"/>
+			<column name="COUNTER_1278078417" index="44"/>
+			<column name="COUNTER_1278078418" index="45"/>
+			<column name="COUNTER_1278078421" index="46"/>
+			<column name="COUNTER_1278078422" index="47"/>
+			<column name="COUNTER_1278078437" index="48"/>
+			<column name="COUNTER_1278078438" index="49"/>
+			<column name="COUNTER_1278078441" index="50"/>
+			<column name="COUNTER_1278078442" index="51"/>
+			<column name="COUNTER_1278078455" index="52"/>
+			<column name="COUNTER_1278078456" index="53"/>
+			<column name="COUNTER_1278078457" index="54"/>
+			<column name="COUNTER_1278078425" index="55"/>
+			<column name="COUNTER_1278078426" index="56"/>
+			<column name="COUNTER_1278078427" index="57"/>
+			<column name="COUNTER_1278078428" index="58"/>
+			<column name="COUNTER_1278078429" index="59"/>
+			<column name="COUNTER_1278078430" index="60"/>
+			<column name="COUNTER_1278078431" index="61"/>
+			<column name="COUNTER_1278078432" index="62"/>
+			<column name="COUNTER_1278078433" index="63"/>
+			<column name="COUNTER_1278078434" index="64"/>
+			<column name="COUNTER_1278078435" index="65"/>
+			<column name="COUNTER_1278078436" index="66"/>
+			<column name="COUNTER_1278078450" index="67"/>
+			<column name="COUNTER_1278078451" index="68"/>
+			<column name="COUNTER_1278078452" index="69"/>
+			<column name="COUNTER_1278078453" index="70"/>
+			<column name="COUNTER_1278078454" index="71"/>
+			<column name="COUNTER_1278078465" index="72"/>
+			<column name="COUNTER_1278078445" index="73"/>
+			<column name="COUNTER_1278078446" index="74"/>
+			<column name="COUNTER_1278078447" index="75"/>
+			<column name="COUNTER_1278078448" index="76"/>
+			<column name="COUNTER_1278078449" index="77"/>
+			<column name="COUNTER_1278078466" index="78"/>
+			<column name="COUNTER_1278078467" index="79"/>
+			<column name="COUNTER_1278078468" index="80"/>
+			<column name="COUNTER_1278078469" index="81"/>
+			<column name="COUNTER_1278078470" index="82"/>
+			<column name="COUNTER_1278078471" index="83"/>
+			<column name="COUNTER_1278078472" index="84"/>
+			<column name="COUNTER_1278078473" index="85"/>
+			<column name="COUNTER_1278078474" index="86"/>
+			<column name="COUNTER_1278078475" index="87"/>
+			<column name="COUNTER_1278078476" index="88"/>
+			<column name="COUNTER_1278078477" index="89"/>
+			<column name="COUNTER_1278078478" index="90"/>
+			<column name="COUNTER_1278078479" index="91"/>
+			<column name="COUNTER_1278078480" index="92"/>
+			<column name="COUNTER_1278078481" index="93"/>
+			<column name="COUNTER_1278078482" index="94"/>
+			<column name="COUNTER_1278078487" index="95"/>
+			<column name="COUNTER_1278078488" index="96"/>
+			<column name="COUNTER_1278078489" index="97"/>
+			<column name="COUNTER_1278078504" index="98"/>
+			<column name="COUNTER_1278078505" index="99"/>
+			<column name="COUNTER_1278078506" index="100"/>
+			<column name="COUNTER_1278078507" index="101"/>
+			<column name="COUNTER_1278078508" index="102"/>
+			<column name="COUNTER_1278078509" index="103"/>
+			<column name="COUNTER_1278078510" index="104"/>
+			<column name="COUNTER_1278078511" index="105"/>
+			<column name="COUNTER_1278078512" index="106"/>
+			<column name="COUNTER_1278078513" index="107"/>
+			<column name="COUNTER_1278078514" index="108"/>
+			<column name="COUNTER_1278078515" index="109"/>
+			<column name="COUNTER_1278078516" index="110"/>
+			<column name="COUNTER_1278078517" index="111"/>
+			<column name="COUNTER_1278078518" index="112"/>
+			<column name="COUNTER_1278078519" index="113"/>
+		</table>
+	</templet>
+	<templet id="11">
+		<table id="0" name="clt_pm_hw_v9r11_1275071427" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278079528" index="13"/>
+			<column name="COUNTER_1278079527" index="14"/>
+			<column name="COUNTER_1278079531" index="15"/>
+			<column name="COUNTER_1278079468" index="16"/>
+			<column name="COUNTER_1278079469" index="17"/>
+			<column name="COUNTER_1278079470" index="18"/>
+			<column name="COUNTER_1278079471" index="19"/>
+			<column name="COUNTER_1278079472" index="20"/>
+			<column name="COUNTER_1278079473" index="21"/>
+			<column name="COUNTER_1278079529" index="22"/>
+			<column name="COUNTER_1278079530" index="23"/>
+			<column name="COUNTER_1278079532" index="24"/>
+			<column name="COUNTER_1278079533" index="25"/>
+			<column name="COUNTER_1278079417" index="26"/>
+			<column name="COUNTER_1278079418" index="27"/>
+			<column name="COUNTER_1278079419" index="28"/>
+			<column name="COUNTER_1278079420" index="29"/>
+			<column name="COUNTER_1278079421" index="30"/>
+			<column name="COUNTER_1278079422" index="31"/>
+			<column name="COUNTER_1278079423" index="32"/>
+			<column name="COUNTER_1278079424" index="33"/>
+			<column name="COUNTER_1278079425" index="34"/>
+			<column name="COUNTER_1278079426" index="35"/>
+			<column name="COUNTER_1278079427" index="36"/>
+			<column name="COUNTER_1278079428" index="37"/>
+			<column name="COUNTER_1278079429" index="38"/>
+			<column name="COUNTER_1278079430" index="39"/>
+			<column name="COUNTER_1278079431" index="40"/>
+			<column name="COUNTER_1278079432" index="41"/>
+			<column name="COUNTER_1278079449" index="42"/>
+			<column name="COUNTER_1278079450" index="43"/>
+			<column name="COUNTER_1278079451" index="44"/>
+			<column name="COUNTER_1278079452" index="45"/>
+			<column name="COUNTER_1278079453" index="46"/>
+			<column name="COUNTER_1278079454" index="47"/>
+			<column name="COUNTER_1278079455" index="48"/>
+			<column name="COUNTER_1278079456" index="49"/>
+			<column name="COUNTER_1278079457" index="50"/>
+			<column name="COUNTER_1278079458" index="51"/>
+			<column name="COUNTER_1278079459" index="52"/>
+			<column name="COUNTER_1278079460" index="53"/>
+			<column name="COUNTER_1278079461" index="54"/>
+			<column name="COUNTER_1278079462" index="55"/>
+			<column name="COUNTER_1278079463" index="56"/>
+			<column name="COUNTER_1278079464" index="57"/>
+			<column name="COUNTER_1278079433" index="58"/>
+			<column name="COUNTER_1278079434" index="59"/>
+			<column name="COUNTER_1278079435" index="60"/>
+			<column name="COUNTER_1278079436" index="61"/>
+			<column name="COUNTER_1278079437" index="62"/>
+			<column name="COUNTER_1278079438" index="63"/>
+			<column name="COUNTER_1278079439" index="64"/>
+			<column name="COUNTER_1278079440" index="65"/>
+			<column name="COUNTER_1278079441" index="66"/>
+			<column name="COUNTER_1278079442" index="67"/>
+			<column name="COUNTER_1278079443" index="68"/>
+			<column name="COUNTER_1278079444" index="69"/>
+			<column name="COUNTER_1278079445" index="70"/>
+			<column name="COUNTER_1278079446" index="71"/>
+			<column name="COUNTER_1278079447" index="72"/>
+			<column name="COUNTER_1278079448" index="73"/>
+			<column name="COUNTER_1278079474" index="74"/>
+			<column name="COUNTER_1278079475" index="75"/>
+			<column name="COUNTER_1278079476" index="76"/>
+			<column name="COUNTER_1278079477" index="77"/>
+			<column name="COUNTER_1278079478" index="78"/>
+			<column name="COUNTER_1278079479" index="79"/>
+			<column name="COUNTER_1278079480" index="80"/>
+			<column name="COUNTER_1278079481" index="81"/>
+			<column name="COUNTER_1278079482" index="82"/>
+			<column name="COUNTER_1278079483" index="83"/>
+			<column name="COUNTER_1278079484" index="84"/>
+			<column name="COUNTER_1278079485" index="85"/>
+			<column name="COUNTER_1278079486" index="86"/>
+			<column name="COUNTER_1278079487" index="87"/>
+			<column name="COUNTER_1278079488" index="88"/>
+			<column name="COUNTER_1278079489" index="89"/>
+			<column name="COUNTER_1278079490" index="90"/>
+			<column name="COUNTER_1278079465" index="91"/>
+			<column name="COUNTER_1278079466" index="92"/>
+			<column name="COUNTER_1278079467" index="93"/>
+			<column name="COUNTER_1278079491" index="94"/>
+			<column name="COUNTER_1278079492" index="95"/>
+			<column name="COUNTER_1278079493" index="96"/>
+			<column name="COUNTER_1278079494" index="97"/>
+			<column name="COUNTER_1278079495" index="98"/>
+			<column name="COUNTER_1278079496" index="99"/>
+			<column name="COUNTER_1278079497" index="100"/>
+			<column name="COUNTER_1278079498" index="101"/>
+			<column name="COUNTER_1278079499" index="102"/>
+			<column name="COUNTER_1278079500" index="103"/>
+			<column name="COUNTER_1278079502" index="104"/>
+			<column name="COUNTER_1278079503" index="105"/>
+			<column name="COUNTER_1278079504" index="106"/>
+			<column name="COUNTER_1278079505" index="107"/>
+			<column name="COUNTER_1278079506" index="108"/>
+			<column name="COUNTER_1278079507" index="109"/>
+			<column name="COUNTER_1278079508" index="110"/>
+			<column name="COUNTER_1278079509" index="111"/>
+			<column name="COUNTER_1278079510" index="112"/>
+			<column name="COUNTER_1278079511" index="113"/>
+			<column name="COUNTER_1278079512" index="114"/>
+			<column name="COUNTER_1278079514" index="115"/>
+			<column name="COUNTER_1278079515" index="116"/>
+			<column name="COUNTER_1278079516" index="117"/>
+			<column name="COUNTER_1278079517" index="118"/>
+			<column name="COUNTER_1278079518" index="119"/>
+			<column name="COUNTER_1278079519" index="120"/>
+			<column name="COUNTER_1278079520" index="121"/>
+			<column name="COUNTER_1278079521" index="122"/>
+			<column name="COUNTER_1278079522" index="123"/>
+			<column name="COUNTER_1278079523" index="124"/>
+			<column name="COUNTER_1278079524" index="125"/>
+			<column name="COUNTER_1278079526" index="126"/>
+			<column name="COUNTER_1278079534" index="127"/>
+			<column name="COUNTER_1278079535" index="128"/>
+			<column name="COUNTER_1278079536" index="129"/>
+			<column name="COUNTER_1278079537" index="130"/>
+			<column name="COUNTER_1278079538" index="131"/>
+			<column name="COUNTER_1278079539" index="132"/>
+			<column name="COUNTER_1278079540" index="133"/>
+			<column name="COUNTER_1278079541" index="134"/>
+			<column name="COUNTER_1278079542" index="135"/>
+			<column name="COUNTER_1278079543" index="136"/>
+			<column name="COUNTER_1278079544" index="137"/>
+			<column name="COUNTER_1278079545" index="138"/>
+			<column name="COUNTER_1278079546" index="139"/>
+			<column name="COUNTER_1278079547" index="140"/>
+			<column name="COUNTER_1278079548" index="141"/>
+			<column name="COUNTER_1278079549" index="142"/>
+			<column name="COUNTER_1278079550" index="143"/>
+			<column name="COUNTER_1278079551" index="144"/>
+			<column name="COUNTER_1278079552" index="145"/>
+			<column name="COUNTER_1278079553" index="146"/>
+			<column name="COUNTER_1278079554" index="147"/>
+			<column name="COUNTER_1278079555" index="148"/>
+			<column name="COUNTER_1278079556" index="149"/>
+			<column name="COUNTER_1278079557" index="150"/>
+			<column name="COUNTER_1278079558" index="151"/>
+			<column name="COUNTER_1278079559" index="152"/>
+			<column name="COUNTER_1278079560" index="153"/>
+			<column name="COUNTER_1278079561" index="154"/>
+			<column name="COUNTER_1278079562" index="155"/>
+			<column name="COUNTER_1278079563" index="156"/>
+			<column name="COUNTER_1278079564" index="157"/>
+			<column name="COUNTER_1278079565" index="158"/>
+			<column name="COUNTER_1278079566" index="159"/>
+			<column name="COUNTER_1278079567" index="160"/>
+			<column name="COUNTER_1278079568" index="161"/>
+			<column name="COUNTER_1278079569" index="162"/>
+			<column name="COUNTER_1278079570" index="163"/>
+			<column name="COUNTER_1278079571" index="164"/>
+			<column name="COUNTER_1282412170" index="165"/>
+			<column name="COUNTER_1282412171" index="166"/>
+			<column name="COUNTER_1282412172" index="167"/>
+		</table>
+	</templet>
+	<templet id="12">
+		<table id="0" name="clt_pm_hw_v9r11_1275071428" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278079528" index="13"/>
+			<column name="COUNTER_1278079527" index="14"/>
+			<column name="COUNTER_1278079531" index="15"/>
+			<column name="COUNTER_1278079468" index="16"/>
+			<column name="COUNTER_1278079469" index="17"/>
+			<column name="COUNTER_1278079470" index="18"/>
+			<column name="COUNTER_1278079471" index="19"/>
+			<column name="COUNTER_1278079472" index="20"/>
+			<column name="COUNTER_1278079473" index="21"/>
+			<column name="COUNTER_1278079529" index="22"/>
+			<column name="COUNTER_1278079530" index="23"/>
+			<column name="COUNTER_1278079532" index="24"/>
+			<column name="COUNTER_1278079533" index="25"/>
+			<column name="COUNTER_1278079417" index="26"/>
+			<column name="COUNTER_1278079418" index="27"/>
+			<column name="COUNTER_1278079419" index="28"/>
+			<column name="COUNTER_1278079420" index="29"/>
+			<column name="COUNTER_1278079421" index="30"/>
+			<column name="COUNTER_1278079422" index="31"/>
+			<column name="COUNTER_1278079423" index="32"/>
+			<column name="COUNTER_1278079424" index="33"/>
+			<column name="COUNTER_1278079425" index="34"/>
+			<column name="COUNTER_1278079426" index="35"/>
+			<column name="COUNTER_1278079427" index="36"/>
+			<column name="COUNTER_1278079428" index="37"/>
+			<column name="COUNTER_1278079429" index="38"/>
+			<column name="COUNTER_1278079430" index="39"/>
+			<column name="COUNTER_1278079431" index="40"/>
+			<column name="COUNTER_1278079432" index="41"/>
+			<column name="COUNTER_1278079449" index="42"/>
+			<column name="COUNTER_1278079450" index="43"/>
+			<column name="COUNTER_1278079451" index="44"/>
+			<column name="COUNTER_1278079452" index="45"/>
+			<column name="COUNTER_1278079453" index="46"/>
+			<column name="COUNTER_1278079454" index="47"/>
+			<column name="COUNTER_1278079455" index="48"/>
+			<column name="COUNTER_1278079456" index="49"/>
+			<column name="COUNTER_1278079457" index="50"/>
+			<column name="COUNTER_1278079458" index="51"/>
+			<column name="COUNTER_1278079459" index="52"/>
+			<column name="COUNTER_1278079460" index="53"/>
+			<column name="COUNTER_1278079461" index="54"/>
+			<column name="COUNTER_1278079462" index="55"/>
+			<column name="COUNTER_1278079463" index="56"/>
+			<column name="COUNTER_1278079464" index="57"/>
+			<column name="COUNTER_1278079433" index="58"/>
+			<column name="COUNTER_1278079434" index="59"/>
+			<column name="COUNTER_1278079435" index="60"/>
+			<column name="COUNTER_1278079436" index="61"/>
+			<column name="COUNTER_1278079437" index="62"/>
+			<column name="COUNTER_1278079438" index="63"/>
+			<column name="COUNTER_1278079439" index="64"/>
+			<column name="COUNTER_1278079440" index="65"/>
+			<column name="COUNTER_1278079441" index="66"/>
+			<column name="COUNTER_1278079442" index="67"/>
+			<column name="COUNTER_1278079443" index="68"/>
+			<column name="COUNTER_1278079444" index="69"/>
+			<column name="COUNTER_1278079445" index="70"/>
+			<column name="COUNTER_1278079446" index="71"/>
+			<column name="COUNTER_1278079447" index="72"/>
+			<column name="COUNTER_1278079448" index="73"/>
+			<column name="COUNTER_1278079474" index="74"/>
+			<column name="COUNTER_1278079475" index="75"/>
+			<column name="COUNTER_1278079476" index="76"/>
+			<column name="COUNTER_1278079477" index="77"/>
+			<column name="COUNTER_1278079478" index="78"/>
+			<column name="COUNTER_1278079479" index="79"/>
+			<column name="COUNTER_1278079480" index="80"/>
+			<column name="COUNTER_1278079481" index="81"/>
+			<column name="COUNTER_1278079482" index="82"/>
+			<column name="COUNTER_1278079483" index="83"/>
+			<column name="COUNTER_1278079484" index="84"/>
+			<column name="COUNTER_1278079485" index="85"/>
+			<column name="COUNTER_1278079486" index="86"/>
+			<column name="COUNTER_1278079487" index="87"/>
+			<column name="COUNTER_1278079488" index="88"/>
+			<column name="COUNTER_1278079489" index="89"/>
+			<column name="COUNTER_1278079490" index="90"/>
+			<column name="COUNTER_1278079465" index="91"/>
+			<column name="COUNTER_1278079466" index="92"/>
+			<column name="COUNTER_1278079467" index="93"/>
+			<column name="COUNTER_1278079491" index="94"/>
+			<column name="COUNTER_1278079492" index="95"/>
+			<column name="COUNTER_1278079493" index="96"/>
+			<column name="COUNTER_1278079494" index="97"/>
+			<column name="COUNTER_1278079495" index="98"/>
+			<column name="COUNTER_1278079496" index="99"/>
+			<column name="COUNTER_1278079497" index="100"/>
+			<column name="COUNTER_1278079498" index="101"/>
+			<column name="COUNTER_1278079499" index="102"/>
+			<column name="COUNTER_1278079500" index="103"/>
+			<column name="COUNTER_1278079502" index="104"/>
+			<column name="COUNTER_1278079503" index="105"/>
+			<column name="COUNTER_1278079504" index="106"/>
+			<column name="COUNTER_1278079505" index="107"/>
+			<column name="COUNTER_1278079506" index="108"/>
+			<column name="COUNTER_1278079507" index="109"/>
+			<column name="COUNTER_1278079508" index="110"/>
+			<column name="COUNTER_1278079509" index="111"/>
+			<column name="COUNTER_1278079510" index="112"/>
+			<column name="COUNTER_1278079511" index="113"/>
+			<column name="COUNTER_1278079512" index="114"/>
+			<column name="COUNTER_1278079514" index="115"/>
+			<column name="COUNTER_1278079515" index="116"/>
+			<column name="COUNTER_1278079516" index="117"/>
+			<column name="COUNTER_1278079517" index="118"/>
+			<column name="COUNTER_1278079518" index="119"/>
+			<column name="COUNTER_1278079519" index="120"/>
+			<column name="COUNTER_1278079520" index="121"/>
+			<column name="COUNTER_1278079521" index="122"/>
+			<column name="COUNTER_1278079522" index="123"/>
+			<column name="COUNTER_1278079523" index="124"/>
+			<column name="COUNTER_1278079524" index="125"/>
+			<column name="COUNTER_1278079526" index="126"/>
+			<column name="COUNTER_1278079534" index="127"/>
+			<column name="COUNTER_1278079535" index="128"/>
+			<column name="COUNTER_1278079536" index="129"/>
+			<column name="COUNTER_1278079537" index="130"/>
+			<column name="COUNTER_1278079538" index="131"/>
+			<column name="COUNTER_1278079539" index="132"/>
+			<column name="COUNTER_1278079540" index="133"/>
+			<column name="COUNTER_1278079541" index="134"/>
+			<column name="COUNTER_1278079542" index="135"/>
+			<column name="COUNTER_1278079543" index="136"/>
+			<column name="COUNTER_1278079544" index="137"/>
+			<column name="COUNTER_1278079545" index="138"/>
+			<column name="COUNTER_1278079546" index="139"/>
+			<column name="COUNTER_1278079547" index="140"/>
+			<column name="COUNTER_1278079548" index="141"/>
+			<column name="COUNTER_1278079549" index="142"/>
+			<column name="COUNTER_1278079550" index="143"/>
+			<column name="COUNTER_1278079551" index="144"/>
+			<column name="COUNTER_1278079552" index="145"/>
+			<column name="COUNTER_1278079553" index="146"/>
+			<column name="COUNTER_1278079554" index="147"/>
+			<column name="COUNTER_1278079555" index="148"/>
+			<column name="COUNTER_1278079556" index="149"/>
+			<column name="COUNTER_1278079557" index="150"/>
+			<column name="COUNTER_1278079558" index="151"/>
+			<column name="COUNTER_1278079559" index="152"/>
+			<column name="COUNTER_1278079560" index="153"/>
+			<column name="COUNTER_1278079561" index="154"/>
+			<column name="COUNTER_1278079562" index="155"/>
+			<column name="COUNTER_1278079563" index="156"/>
+			<column name="COUNTER_1278079564" index="157"/>
+			<column name="COUNTER_1278079565" index="158"/>
+			<column name="COUNTER_1278079566" index="159"/>
+			<column name="COUNTER_1278079567" index="160"/>
+			<column name="COUNTER_1278079568" index="161"/>
+			<column name="COUNTER_1278079569" index="162"/>
+			<column name="COUNTER_1278079570" index="163"/>
+			<column name="COUNTER_1278079571" index="164"/>
+			<column name="COUNTER_1282412170" index="165"/>
+			<column name="COUNTER_1282412171" index="166"/>
+			<column name="COUNTER_1282412172" index="167"/>
+		</table>
+	</templet>
+	<templet id="13">
+		<table id="0" name="clt_pm_hw_v9r11_1275071429" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278081557" index="13"/>
+			<column name="COUNTER_1278081556" index="14"/>
+			<column name="COUNTER_1278081558" index="15"/>
+			<column name="COUNTER_1278081419" index="16"/>
+			<column name="COUNTER_1278081420" index="17"/>
+			<column name="COUNTER_1278081439" index="18"/>
+			<column name="COUNTER_1278081440" index="19"/>
+			<column name="COUNTER_1278081443" index="20"/>
+			<column name="COUNTER_1278081444" index="21"/>
+			<column name="COUNTER_1278081447" index="22"/>
+			<column name="COUNTER_1278081448" index="23"/>
+			<column name="COUNTER_1278081451" index="24"/>
+			<column name="COUNTER_1278081452" index="25"/>
+			<column name="COUNTER_1278081535" index="26"/>
+			<column name="COUNTER_1278081536" index="27"/>
+			<column name="COUNTER_1278081537" index="28"/>
+			<column name="COUNTER_1278081538" index="29"/>
+			<column name="COUNTER_1278081539" index="30"/>
+			<column name="COUNTER_1278081540" index="31"/>
+			<column name="COUNTER_1278081546" index="32"/>
+			<column name="COUNTER_1278081547" index="33"/>
+			<column name="COUNTER_1278081550" index="34"/>
+			<column name="COUNTER_1278081551" index="35"/>
+			<column name="COUNTER_1278081554" index="36"/>
+			<column name="COUNTER_1278081555" index="37"/>
+			<column name="COUNTER_1278081559" index="38"/>
+			<column name="COUNTER_1278081560" index="39"/>
+			<column name="COUNTER_1278081561" index="40"/>
+			<column name="COUNTER_1278081562" index="41"/>
+			<column name="COUNTER_1278081563" index="42"/>
+			<column name="COUNTER_1278081564" index="43"/>
+			<column name="COUNTER_1278081565" index="44"/>
+			<column name="COUNTER_1278081578" index="45"/>
+			<column name="COUNTER_1278081417" index="46"/>
+			<column name="COUNTER_1278081418" index="47"/>
+			<column name="COUNTER_1278081437" index="48"/>
+			<column name="COUNTER_1278081438" index="49"/>
+			<column name="COUNTER_1278081441" index="50"/>
+			<column name="COUNTER_1278081442" index="51"/>
+			<column name="COUNTER_1278081445" index="52"/>
+			<column name="COUNTER_1278081446" index="53"/>
+			<column name="COUNTER_1278081449" index="54"/>
+			<column name="COUNTER_1278081450" index="55"/>
+			<column name="COUNTER_1278081544" index="56"/>
+			<column name="COUNTER_1278081545" index="57"/>
+			<column name="COUNTER_1278081548" index="58"/>
+			<column name="COUNTER_1278081549" index="59"/>
+			<column name="COUNTER_1278081552" index="60"/>
+			<column name="COUNTER_1278081553" index="61"/>
+			<column name="COUNTER_1278081421" index="62"/>
+			<column name="COUNTER_1278081422" index="63"/>
+			<column name="COUNTER_1278081423" index="64"/>
+			<column name="COUNTER_1278081424" index="65"/>
+			<column name="COUNTER_1278081425" index="66"/>
+			<column name="COUNTER_1278081426" index="67"/>
+			<column name="COUNTER_1278081427" index="68"/>
+			<column name="COUNTER_1278081428" index="69"/>
+			<column name="COUNTER_1278081429" index="70"/>
+			<column name="COUNTER_1278081430" index="71"/>
+			<column name="COUNTER_1278081431" index="72"/>
+			<column name="COUNTER_1278081432" index="73"/>
+			<column name="COUNTER_1278081433" index="74"/>
+			<column name="COUNTER_1278081434" index="75"/>
+			<column name="COUNTER_1278081435" index="76"/>
+			<column name="COUNTER_1278081436" index="77"/>
+			<column name="COUNTER_1278081489" index="78"/>
+			<column name="COUNTER_1278081490" index="79"/>
+			<column name="COUNTER_1278081491" index="80"/>
+			<column name="COUNTER_1278081492" index="81"/>
+			<column name="COUNTER_1278081493" index="82"/>
+			<column name="COUNTER_1278081494" index="83"/>
+			<column name="COUNTER_1278081495" index="84"/>
+			<column name="COUNTER_1278081496" index="85"/>
+			<column name="COUNTER_1278081497" index="86"/>
+			<column name="COUNTER_1278081498" index="87"/>
+			<column name="COUNTER_1278081499" index="88"/>
+			<column name="COUNTER_1278081500" index="89"/>
+			<column name="COUNTER_1278081501" index="90"/>
+			<column name="COUNTER_1278081502" index="91"/>
+			<column name="COUNTER_1278081503" index="92"/>
+			<column name="COUNTER_1278081504" index="93"/>
+			<column name="COUNTER_1278081505" index="94"/>
+			<column name="COUNTER_1278081506" index="95"/>
+			<column name="COUNTER_1278081507" index="96"/>
+			<column name="COUNTER_1278081508" index="97"/>
+			<column name="COUNTER_1278081509" index="98"/>
+			<column name="COUNTER_1278081510" index="99"/>
+			<column name="COUNTER_1278081511" index="100"/>
+			<column name="COUNTER_1278081512" index="101"/>
+			<column name="COUNTER_1278081513" index="102"/>
+			<column name="COUNTER_1278081514" index="103"/>
+			<column name="COUNTER_1278081515" index="104"/>
+			<column name="COUNTER_1278081516" index="105"/>
+			<column name="COUNTER_1278081517" index="106"/>
+			<column name="COUNTER_1278081518" index="107"/>
+			<column name="COUNTER_1278081519" index="108"/>
+			<column name="COUNTER_1278081520" index="109"/>
+			<column name="COUNTER_1278081521" index="110"/>
+			<column name="COUNTER_1278081522" index="111"/>
+			<column name="COUNTER_1278081523" index="112"/>
+			<column name="COUNTER_1278081524" index="113"/>
+			<column name="COUNTER_1278081525" index="114"/>
+			<column name="COUNTER_1278081526" index="115"/>
+			<column name="COUNTER_1278081527" index="116"/>
+			<column name="COUNTER_1278081529" index="117"/>
+			<column name="COUNTER_1278081530" index="118"/>
+			<column name="COUNTER_1278081531" index="119"/>
+			<column name="COUNTER_1278081532" index="120"/>
+			<column name="COUNTER_1278081533" index="121"/>
+			<column name="COUNTER_1278081534" index="122"/>
+			<column name="COUNTER_1278081453" index="123"/>
+			<column name="COUNTER_1278081454" index="124"/>
+			<column name="COUNTER_1278081455" index="125"/>
+			<column name="COUNTER_1278081456" index="126"/>
+			<column name="COUNTER_1278081457" index="127"/>
+			<column name="COUNTER_1278081458" index="128"/>
+			<column name="COUNTER_1278081459" index="129"/>
+			<column name="COUNTER_1278081460" index="130"/>
+			<column name="COUNTER_1278081461" index="131"/>
+			<column name="COUNTER_1278081462" index="132"/>
+			<column name="COUNTER_1278081464" index="133"/>
+			<column name="COUNTER_1278081465" index="134"/>
+			<column name="COUNTER_1278081466" index="135"/>
+			<column name="COUNTER_1278081467" index="136"/>
+			<column name="COUNTER_1278081468" index="137"/>
+			<column name="COUNTER_1278081469" index="138"/>
+			<column name="COUNTER_1278081470" index="139"/>
+			<column name="COUNTER_1278081471" index="140"/>
+			<column name="COUNTER_1278081472" index="141"/>
+			<column name="COUNTER_1278081473" index="142"/>
+			<column name="COUNTER_1278081474" index="143"/>
+			<column name="COUNTER_1278081476" index="144"/>
+			<column name="COUNTER_1278081477" index="145"/>
+			<column name="COUNTER_1278081478" index="146"/>
+			<column name="COUNTER_1278081479" index="147"/>
+			<column name="COUNTER_1278081480" index="148"/>
+			<column name="COUNTER_1278081481" index="149"/>
+			<column name="COUNTER_1278081482" index="150"/>
+			<column name="COUNTER_1278081483" index="151"/>
+			<column name="COUNTER_1278081484" index="152"/>
+			<column name="COUNTER_1278081485" index="153"/>
+			<column name="COUNTER_1278081486" index="154"/>
+			<column name="COUNTER_1278081488" index="155"/>
+			<column name="COUNTER_1278081528" index="156"/>
+			<column name="COUNTER_1278081541" index="157"/>
+			<column name="COUNTER_1278081542" index="158"/>
+			<column name="COUNTER_1278081543" index="159"/>
+			<column name="COUNTER_1278081566" index="160"/>
+			<column name="COUNTER_1278081567" index="161"/>
+			<column name="COUNTER_1278081568" index="162"/>
+			<column name="COUNTER_1278081569" index="163"/>
+			<column name="COUNTER_1278081570" index="164"/>
+			<column name="COUNTER_1278081571" index="165"/>
+			<column name="COUNTER_1278081572" index="166"/>
+			<column name="COUNTER_1278081573" index="167"/>
+			<column name="COUNTER_1278081574" index="168"/>
+			<column name="COUNTER_1278081575" index="169"/>
+			<column name="COUNTER_1278081576" index="170"/>
+			<column name="COUNTER_1278081577" index="171"/>
+			<column name="COUNTER_1282412173" index="172"/>
+			<column name="COUNTER_1282412174" index="173"/>
+			<column name="COUNTER_1282412175" index="174"/>
+		</table>
+	</templet>
+	<templet id="14">
+		<table id="0" name="clt_pm_hw_v9r11_1275071430" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278082435" index="13"/>
+			<column name="COUNTER_1278082436" index="14"/>
+			<column name="COUNTER_1278082437" index="15"/>
+			<column name="COUNTER_1278082438" index="16"/>
+			<column name="COUNTER_1278082439" index="17"/>
+			<column name="COUNTER_1278082440" index="18"/>
+			<column name="COUNTER_1278082417" index="19"/>
+			<column name="COUNTER_1278082418" index="20"/>
+			<column name="COUNTER_1278082419" index="21"/>
+			<column name="COUNTER_1278082420" index="22"/>
+			<column name="COUNTER_1278082421" index="23"/>
+			<column name="COUNTER_1278082422" index="24"/>
+			<column name="COUNTER_1278082423" index="25"/>
+			<column name="COUNTER_1278082424" index="26"/>
+			<column name="COUNTER_1278082432" index="27"/>
+			<column name="COUNTER_1278082433" index="28"/>
+			<column name="COUNTER_1278082434" index="29"/>
+		</table>
+	</templet>
+	<templet id="15">
+		<table id="0" name="clt_pm_hw_v9r11_1275071435" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278087421" index="13"/>
+			<column name="COUNTER_1278087427" index="14"/>
+			<column name="COUNTER_1278087432" index="15"/>
+			<column name="COUNTER_1278087436" index="16"/>
+			<column name="COUNTER_1278087437" index="17"/>
+			<column name="COUNTER_1278087417" index="18"/>
+			<column name="COUNTER_1278087418" index="19"/>
+			<column name="COUNTER_1278087419" index="20"/>
+			<column name="COUNTER_1278087420" index="21"/>
+			<column name="COUNTER_1278087422" index="22"/>
+			<column name="COUNTER_1278087423" index="23"/>
+			<column name="COUNTER_1278087424" index="24"/>
+			<column name="COUNTER_1278087425" index="25"/>
+			<column name="COUNTER_1278087426" index="26"/>
+			<column name="COUNTER_1278087428" index="27"/>
+			<column name="COUNTER_1278087429" index="28"/>
+			<column name="COUNTER_1278087430" index="29"/>
+			<column name="COUNTER_1278087431" index="30"/>
+			<column name="COUNTER_1278087433" index="31"/>
+			<column name="COUNTER_1278087434" index="32"/>
+			<column name="COUNTER_1278087435" index="33"/>
+			<column name="COUNTER_1278087438" index="34"/>
+			<column name="COUNTER_1278087439" index="35"/>
+			<column name="COUNTER_1278087440" index="36"/>
+			<column name="COUNTER_1278087441" index="37"/>
+			<column name="COUNTER_1278087442" index="38"/>
+			<column name="COUNTER_1278087443" index="39"/>
+			<column name="COUNTER_1278087444" index="40"/>
+			<column name="COUNTER_1278087445" index="41"/>
+			<column name="COUNTER_1278087446" index="42"/>
+			<column name="COUNTER_1278087447" index="43"/>
+			<column name="COUNTER_1278087448" index="44"/>
+			<column name="COUNTER_1278087449" index="45"/>
+			<column name="COUNTER_1278087453" index="46"/>
+			<column name="COUNTER_1278087455" index="47"/>
+			<column name="COUNTER_1278087450" index="48"/>
+			<column name="COUNTER_1278087451" index="49"/>
+			<column name="COUNTER_1278087452" index="50"/>
+			<column name="COUNTER_1278087454" index="51"/>
+		</table>
+	</templet>
+	<templet id="16">
+		<table id="0" name="clt_pm_hw_v9r11_1275071437" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278089450" index="13"/>
+			<column name="COUNTER_1278089451" index="14"/>
+			<column name="COUNTER_1278089452" index="15"/>
+			<column name="COUNTER_1278089453" index="16"/>
+			<column name="COUNTER_1278089454" index="17"/>
+			<column name="COUNTER_1278089455" index="18"/>
+			<column name="COUNTER_1278089456" index="19"/>
+			<column name="COUNTER_1278089457" index="20"/>
+			<column name="COUNTER_1278089458" index="21"/>
+			<column name="COUNTER_1278089459" index="22"/>
+			<column name="COUNTER_1278089460" index="23"/>
+			<column name="COUNTER_1278089461" index="24"/>
+			<column name="COUNTER_1278089462" index="25"/>
+			<column name="COUNTER_1278089463" index="26"/>
+			<column name="COUNTER_1278089464" index="27"/>
+			<column name="COUNTER_1278089465" index="28"/>
+			<column name="COUNTER_1278089466" index="29"/>
+			<column name="COUNTER_1278089467" index="30"/>
+			<column name="COUNTER_1278089468" index="31"/>
+			<column name="COUNTER_1278089469" index="32"/>
+			<column name="COUNTER_1278089470" index="33"/>
+			<column name="COUNTER_1278089471" index="34"/>
+			<column name="COUNTER_1278089472" index="35"/>
+			<column name="COUNTER_1278089473" index="36"/>
+			<column name="COUNTER_1278089474" index="37"/>
+			<column name="COUNTER_1278089475" index="38"/>
+			<column name="COUNTER_1278089476" index="39"/>
+			<column name="COUNTER_1278089477" index="40"/>
+			<column name="COUNTER_1278089478" index="41"/>
+			<column name="COUNTER_1278089479" index="42"/>
+		</table>
+	</templet>
+	<templet id="17">
+		<table id="0" name="clt_pm_hw_v9r11_1275071438" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278090437" index="13"/>
+			<column name="COUNTER_1278090438" index="14"/>
+			<column name="COUNTER_1278090439" index="15"/>
+			<column name="COUNTER_1278090417" index="16"/>
+			<column name="COUNTER_1278090418" index="17"/>
+			<column name="COUNTER_1278090419" index="18"/>
+			<column name="COUNTER_1278090420" index="19"/>
+			<column name="COUNTER_1278090421" index="20"/>
+			<column name="COUNTER_1278090422" index="21"/>
+			<column name="COUNTER_1278090423" index="22"/>
+			<column name="COUNTER_1278090424" index="23"/>
+			<column name="COUNTER_1278090425" index="24"/>
+			<column name="COUNTER_1278090426" index="25"/>
+			<column name="COUNTER_1278090427" index="26"/>
+			<column name="COUNTER_1278090428" index="27"/>
+			<column name="COUNTER_1278090429" index="28"/>
+			<column name="COUNTER_1278090430" index="29"/>
+			<column name="COUNTER_1278090431" index="30"/>
+			<column name="COUNTER_1278090432" index="31"/>
+			<column name="COUNTER_1278090433" index="32"/>
+			<column name="COUNTER_1278090434" index="33"/>
+			<column name="COUNTER_1278090435" index="34"/>
+			<column name="COUNTER_1278090436" index="35"/>
+			<column name="COUNTER_1278090440" index="36"/>
+		</table>
+	</templet>
+	<templet id="18">
+		<table id="0" name="clt_pm_hw_v9r11_1275071441" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278093417" index="13"/>
+			<column name="COUNTER_1278093418" index="14"/>
+		</table>
+	</templet>
+	<templet id="19">
+		<table id="0" name="clt_pm_hw_v9r11_1275071617" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278269435" index="13"/>
+			<column name="COUNTER_1278269431" index="14"/>
+			<column name="COUNTER_1278269432" index="15"/>
+			<column name="COUNTER_1278269459" index="16"/>
+			<column name="COUNTER_1278269417" index="17"/>
+			<column name="COUNTER_1278269418" index="18"/>
+			<column name="COUNTER_1278269419" index="19"/>
+			<column name="COUNTER_1278269420" index="20"/>
+			<column name="COUNTER_1278269421" index="21"/>
+			<column name="COUNTER_1278269422" index="22"/>
+			<column name="COUNTER_1278269423" index="23"/>
+			<column name="COUNTER_1278269424" index="24"/>
+			<column name="COUNTER_1278269425" index="25"/>
+			<column name="COUNTER_1278269426" index="26"/>
+			<column name="COUNTER_1278269436" index="27"/>
+			<column name="COUNTER_1278269437" index="28"/>
+			<column name="COUNTER_1278269438" index="29"/>
+			<column name="COUNTER_1278269439" index="30"/>
+			<column name="COUNTER_1278269440" index="31"/>
+			<column name="COUNTER_1278269441" index="32"/>
+			<column name="COUNTER_1278269442" index="33"/>
+			<column name="COUNTER_1278269453" index="34"/>
+			<column name="COUNTER_1278269454" index="35"/>
+			<column name="COUNTER_1278269455" index="36"/>
+			<column name="COUNTER_1278269456" index="37"/>
+			<column name="COUNTER_1278269457" index="38"/>
+			<column name="COUNTER_1278269458" index="39"/>
+		</table>
+	</templet>
+	<templet id="20">
+		<table id="0" name="clt_pm_hw_v9r11_1275071618" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278270417" index="13"/>
+			<column name="COUNTER_1278270418" index="14"/>
+			<column name="COUNTER_1278270419" index="15"/>
+			<column name="COUNTER_1278270420" index="16"/>
+			<column name="COUNTER_1278270421" index="17"/>
+			<column name="COUNTER_1278270422" index="18"/>
+			<column name="COUNTER_1278270423" index="19"/>
+			<column name="COUNTER_1278270424" index="20"/>
+			<column name="COUNTER_1278270425" index="21"/>
+			<column name="COUNTER_1278270426" index="22"/>
+			<column name="COUNTER_1278270427" index="23"/>
+			<column name="COUNTER_1278270428" index="24"/>
+			<column name="COUNTER_1278270429" index="25"/>
+			<column name="COUNTER_1278270430" index="26"/>
+			<column name="COUNTER_1278270431" index="27"/>
+			<column name="COUNTER_1278270436" index="28"/>
+			<column name="COUNTER_1278270437" index="29"/>
+			<column name="COUNTER_1278270438" index="30"/>
+			<column name="COUNTER_1278270439" index="31"/>
+			<column name="COUNTER_1278270440" index="32"/>
+			<column name="COUNTER_1278270441" index="33"/>
+			<column name="COUNTER_1278270442" index="34"/>
+			<column name="COUNTER_1278270443" index="35"/>
+			<column name="COUNTER_1278270444" index="36"/>
+			<column name="COUNTER_1278270445" index="37"/>
+			<column name="COUNTER_1278270446" index="38"/>
+			<column name="COUNTER_1278270447" index="39"/>
+			<column name="COUNTER_1278270448" index="40"/>
+			<column name="COUNTER_1278270449" index="41"/>
+			<column name="COUNTER_1278270450" index="42"/>
+			<column name="COUNTER_1278270451" index="43"/>
+			<column name="COUNTER_1278270432" index="44"/>
+			<column name="COUNTER_1278270433" index="45"/>
+			<column name="COUNTER_1278270434" index="46"/>
+			<column name="COUNTER_1278270435" index="47"/>
+		</table>
+	</templet>
+	<templet id="21">
+		<table id="0" name="clt_pm_hw_v9r11_1275071626" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278278417" index="13"/>
+			<column name="COUNTER_1278278418" index="14"/>
+			<column name="COUNTER_1278278419" index="15"/>
+			<column name="COUNTER_1278278420" index="16"/>
+			<column name="COUNTER_1278278421" index="17"/>
+			<column name="COUNTER_1278278422" index="18"/>
+			<column name="COUNTER_1278278423" index="19"/>
+			<column name="COUNTER_1278278424" index="20"/>
+			<column name="COUNTER_1278278425" index="21"/>
+			<column name="COUNTER_1278278426" index="22"/>
+			<column name="COUNTER_1278278427" index="23"/>
+			<column name="COUNTER_1278278428" index="24"/>
+			<column name="COUNTER_1278278429" index="25"/>
+			<column name="COUNTER_1278278430" index="26"/>
+			<column name="COUNTER_1278278431" index="27"/>
+			<column name="COUNTER_1278278432" index="28"/>
+			<column name="COUNTER_1278278433" index="29"/>
+			<column name="COUNTER_1278278434" index="30"/>
+			<column name="COUNTER_1278278435" index="31"/>
+			<column name="COUNTER_1278278436" index="32"/>
+			<column name="COUNTER_1278278437" index="33"/>
+			<column name="COUNTER_1278278438" index="34"/>
+			<column name="COUNTER_1278278439" index="35"/>
+			<column name="COUNTER_1278278440" index="36"/>
+			<column name="COUNTER_1278278441" index="37"/>
+			<column name="COUNTER_1278278442" index="38"/>
+			<column name="COUNTER_1278278443" index="39"/>
+			<column name="COUNTER_1278278444" index="40"/>
+			<column name="COUNTER_1278278445" index="41"/>
+			<column name="COUNTER_1278278446" index="42"/>
+			<column name="COUNTER_1278278447" index="43"/>
+			<column name="COUNTER_1278278448" index="44"/>
+			<column name="COUNTER_1278278449" index="45"/>
+		</table>
+	</templet>
+	<templet id="22">
+		<table id="0" name="clt_pm_hw_v9r11_1275071817" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278469458" index="13"/>
+			<column name="COUNTER_1278469459" index="14"/>
+			<column name="COUNTER_1278469460" index="15"/>
+			<column name="COUNTER_1278469461" index="16"/>
+			<column name="COUNTER_1278469462" index="17"/>
+			<column name="COUNTER_1278469463" index="18"/>
+			<column name="COUNTER_1278469468" index="19"/>
+			<column name="COUNTER_1278469469" index="20"/>
+			<column name="COUNTER_1278469470" index="21"/>
+			<column name="COUNTER_1278469471" index="22"/>
+			<column name="COUNTER_1278469472" index="23"/>
+			<column name="COUNTER_1278469473" index="24"/>
+			<column name="COUNTER_1278469493" index="25"/>
+			<column name="COUNTER_1278469494" index="26"/>
+			<column name="COUNTER_1278469495" index="27"/>
+			<column name="COUNTER_1278469496" index="28"/>
+			<column name="COUNTER_1278469499" index="29"/>
+			<column name="COUNTER_1278469500" index="30"/>
+			<column name="COUNTER_1278469501" index="31"/>
+			<column name="COUNTER_1278469502" index="32"/>
+			<column name="COUNTER_1278469417" index="33"/>
+			<column name="COUNTER_1278469418" index="34"/>
+			<column name="COUNTER_1278469419" index="35"/>
+			<column name="COUNTER_1278469420" index="36"/>
+			<column name="COUNTER_1278469421" index="37"/>
+			<column name="COUNTER_1278469422" index="38"/>
+			<column name="COUNTER_1278469423" index="39"/>
+			<column name="COUNTER_1278469424" index="40"/>
+			<column name="COUNTER_1278469425" index="41"/>
+			<column name="COUNTER_1278469426" index="42"/>
+			<column name="COUNTER_1278469427" index="43"/>
+			<column name="COUNTER_1278469428" index="44"/>
+			<column name="COUNTER_1278469429" index="45"/>
+			<column name="COUNTER_1278469430" index="46"/>
+			<column name="COUNTER_1278469431" index="47"/>
+			<column name="COUNTER_1278469432" index="48"/>
+			<column name="COUNTER_1278469439" index="49"/>
+			<column name="COUNTER_1278469440" index="50"/>
+			<column name="COUNTER_1278469441" index="51"/>
+			<column name="COUNTER_1278469442" index="52"/>
+			<column name="COUNTER_1278469449" index="53"/>
+			<column name="COUNTER_1278469450" index="54"/>
+			<column name="COUNTER_1278469451" index="55"/>
+			<column name="COUNTER_1278469452" index="56"/>
+			<column name="COUNTER_1278469453" index="57"/>
+			<column name="COUNTER_1278469454" index="58"/>
+			<column name="COUNTER_1278469455" index="59"/>
+			<column name="COUNTER_1278469456" index="60"/>
+			<column name="COUNTER_1278469457" index="61"/>
+			<column name="COUNTER_1278469464" index="62"/>
+			<column name="COUNTER_1278469465" index="63"/>
+			<column name="COUNTER_1278469466" index="64"/>
+			<column name="COUNTER_1278469467" index="65"/>
+			<column name="COUNTER_1278469474" index="66"/>
+			<column name="COUNTER_1278469475" index="67"/>
+			<column name="COUNTER_1278469476" index="68"/>
+			<column name="COUNTER_1278469477" index="69"/>
+			<column name="COUNTER_1278469478" index="70"/>
+			<column name="COUNTER_1278469479" index="71"/>
+			<column name="COUNTER_1278469480" index="72"/>
+			<column name="COUNTER_1278469481" index="73"/>
+			<column name="COUNTER_1278469482" index="74"/>
+			<column name="COUNTER_1278469483" index="75"/>
+			<column name="COUNTER_1278469484" index="76"/>
+			<column name="COUNTER_1278469485" index="77"/>
+			<column name="COUNTER_1278469486" index="78"/>
+			<column name="COUNTER_1278469487" index="79"/>
+			<column name="COUNTER_1278469488" index="80"/>
+			<column name="COUNTER_1278469489" index="81"/>
+			<column name="COUNTER_1278469490" index="82"/>
+			<column name="COUNTER_1278469491" index="83"/>
+			<column name="COUNTER_1278469492" index="84"/>
+			<column name="COUNTER_1278469497" index="85"/>
+			<column name="COUNTER_1278469503" index="86"/>
+			<column name="COUNTER_1278469504" index="87"/>
+			<column name="COUNTER_1278469505" index="88"/>
+			<column name="COUNTER_1278469506" index="89"/>
+			<column name="COUNTER_1282411687" index="90"/>
+			<column name="COUNTER_1282411688" index="91"/>
+			<column name="COUNTER_1282411689" index="92"/>
+			<column name="COUNTER_1282411690" index="93"/>
+			<column name="COUNTER_1282411691" index="94"/>
+			<column name="COUNTER_1282411692" index="95"/>
+			<column name="COUNTER_1282411693" index="96"/>
+			<column name="COUNTER_1282411694" index="97"/>
+			<column name="COUNTER_1282411695" index="98"/>
+			<column name="COUNTER_1282411696" index="99"/>
+			<column name="COUNTER_1282411697" index="100"/>
+			<column name="COUNTER_1282411698" index="101"/>
+			<column name="COUNTER_1282411699" index="102"/>
+			<column name="COUNTER_1282411700" index="103"/>
+			<column name="COUNTER_1282411701" index="104"/>
+			<column name="COUNTER_1282423930" index="105"/>
+			<column name="COUNTER_1282423931" index="106"/>
+			<column name="COUNTER_1282423932" index="107"/>
+			<column name="COUNTER_1282423933" index="108"/>
+			<column name="COUNTER_1282423934" index="109"/>
+			<column name="COUNTER_1282423935" index="110"/>
+			<column name="COUNTER_1282423936" index="111"/>
+			<column name="COUNTER_1282423937" index="112"/>
+			<column name="COUNTER_1282423938" index="113"/>
+			<column name="COUNTER_1282423939" index="114"/>
+			<column name="COUNTER_1278469433" index="115"/>
+			<column name="COUNTER_1278469434" index="116"/>
+			<column name="COUNTER_1278469435" index="117"/>
+			<column name="COUNTER_1278469436" index="118"/>
+			<column name="COUNTER_1278469437" index="119"/>
+			<column name="COUNTER_1278469438" index="120"/>
+			<column name="COUNTER_1278469443" index="121"/>
+			<column name="COUNTER_1278469444" index="122"/>
+			<column name="COUNTER_1278469445" index="123"/>
+			<column name="COUNTER_1278469446" index="124"/>
+			<column name="COUNTER_1278469447" index="125"/>
+			<column name="COUNTER_1278469448" index="126"/>
+		</table>
+	</templet>
+	<templet id="23">
+		<table id="0" name="clt_pm_hw_v9r11_1275071821" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278473442" index="13"/>
+			<column name="COUNTER_1278473443" index="14"/>
+			<column name="COUNTER_1278473444" index="15"/>
+			<column name="COUNTER_1278473445" index="16"/>
+			<column name="COUNTER_1278473471" index="17"/>
+			<column name="COUNTER_1278473472" index="18"/>
+			<column name="COUNTER_1278473433" index="19"/>
+			<column name="COUNTER_1278473434" index="20"/>
+			<column name="COUNTER_1278473435" index="21"/>
+			<column name="COUNTER_1278473452" index="22"/>
+			<column name="COUNTER_1278473453" index="23"/>
+			<column name="COUNTER_1278473417" index="24"/>
+			<column name="COUNTER_1278473418" index="25"/>
+			<column name="COUNTER_1278473419" index="26"/>
+			<column name="COUNTER_1278473420" index="27"/>
+			<column name="COUNTER_1278473421" index="28"/>
+			<column name="COUNTER_1278473422" index="29"/>
+			<column name="COUNTER_1278473427" index="30"/>
+			<column name="COUNTER_1278473428" index="31"/>
+			<column name="COUNTER_1278473429" index="32"/>
+			<column name="COUNTER_1278473430" index="33"/>
+			<column name="COUNTER_1278473431" index="34"/>
+			<column name="COUNTER_1278473432" index="35"/>
+			<column name="COUNTER_1278473436" index="36"/>
+			<column name="COUNTER_1278473437" index="37"/>
+			<column name="COUNTER_1278473438" index="38"/>
+			<column name="COUNTER_1278473439" index="39"/>
+			<column name="COUNTER_1278473440" index="40"/>
+			<column name="COUNTER_1278473441" index="41"/>
+			<column name="COUNTER_1278473446" index="42"/>
+			<column name="COUNTER_1278473447" index="43"/>
+			<column name="COUNTER_1278473448" index="44"/>
+			<column name="COUNTER_1278473449" index="45"/>
+			<column name="COUNTER_1278473450" index="46"/>
+			<column name="COUNTER_1278473451" index="47"/>
+			<column name="COUNTER_1278473454" index="48"/>
+			<column name="COUNTER_1278473455" index="49"/>
+			<column name="COUNTER_1278473456" index="50"/>
+			<column name="COUNTER_1278473457" index="51"/>
+			<column name="COUNTER_1278473458" index="52"/>
+			<column name="COUNTER_1278473459" index="53"/>
+			<column name="COUNTER_1278473463" index="54"/>
+			<column name="COUNTER_1278473464" index="55"/>
+			<column name="COUNTER_1278473465" index="56"/>
+			<column name="COUNTER_1278473466" index="57"/>
+			<column name="COUNTER_1278473467" index="58"/>
+			<column name="COUNTER_1278473468" index="59"/>
+			<column name="COUNTER_1278473469" index="60"/>
+			<column name="COUNTER_1278473470" index="61"/>
+			<column name="COUNTER_1278473473" index="62"/>
+			<column name="COUNTER_1278473423" index="63"/>
+			<column name="COUNTER_1278473424" index="64"/>
+			<column name="COUNTER_1278473425" index="65"/>
+			<column name="COUNTER_1278473426" index="66"/>
+			<column name="COUNTER_1278473460" index="67"/>
+			<column name="COUNTER_1278473461" index="68"/>
+			<column name="COUNTER_1278473462" index="69"/>
+		</table>
+	</templet>
+	<templet id="24">
+		<table id="0" name="clt_pm_hw_v9r11_1275071822" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278474417" index="13"/>
+			<column name="COUNTER_1278474418" index="14"/>
+			<column name="COUNTER_1278474419" index="15"/>
+			<column name="COUNTER_1278474420" index="16"/>
+			<column name="COUNTER_1278474421" index="17"/>
+			<column name="COUNTER_1278474422" index="18"/>
+			<column name="COUNTER_1278474423" index="19"/>
+			<column name="COUNTER_1278474424" index="20"/>
+			<column name="COUNTER_1278474425" index="21"/>
+			<column name="COUNTER_1278474426" index="22"/>
+			<column name="COUNTER_1278474427" index="23"/>
+			<column name="COUNTER_1278474428" index="24"/>
+			<column name="COUNTER_1278474429" index="25"/>
+			<column name="COUNTER_1278474430" index="26"/>
+			<column name="COUNTER_1278474431" index="27"/>
+			<column name="COUNTER_1278474432" index="28"/>
+			<column name="COUNTER_1278474433" index="29"/>
+			<column name="COUNTER_1278474434" index="30"/>
+			<column name="COUNTER_1278474435" index="31"/>
+			<column name="COUNTER_1278474436" index="32"/>
+			<column name="COUNTER_1278474437" index="33"/>
+			<column name="COUNTER_1278474438" index="34"/>
+			<column name="COUNTER_1278474439" index="35"/>
+			<column name="COUNTER_1278474450" index="36"/>
+		</table>
+	</templet>
+	<templet id="25">
+		<table id="0" name="clt_pm_hw_v9r11_1275071823" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278474417" index="13"/>
+			<column name="COUNTER_1278474418" index="14"/>
+			<column name="COUNTER_1278474419" index="15"/>
+			<column name="COUNTER_1278474420" index="16"/>
+			<column name="COUNTER_1278474421" index="17"/>
+			<column name="COUNTER_1278474422" index="18"/>
+			<column name="COUNTER_1278474423" index="19"/>
+			<column name="COUNTER_1278474424" index="20"/>
+			<column name="COUNTER_1278474425" index="21"/>
+			<column name="COUNTER_1278474426" index="22"/>
+			<column name="COUNTER_1278474427" index="23"/>
+			<column name="COUNTER_1278474428" index="24"/>
+			<column name="COUNTER_1278474429" index="25"/>
+			<column name="COUNTER_1278474430" index="26"/>
+			<column name="COUNTER_1278474431" index="27"/>
+			<column name="COUNTER_1278474432" index="28"/>
+			<column name="COUNTER_1278474433" index="29"/>
+			<column name="COUNTER_1278474434" index="30"/>
+			<column name="COUNTER_1278474435" index="31"/>
+			<column name="COUNTER_1278474436" index="32"/>
+			<column name="COUNTER_1278474437" index="33"/>
+			<column name="COUNTER_1278474438" index="34"/>
+			<column name="COUNTER_1278474439" index="35"/>
+			<column name="COUNTER_1278474450" index="36"/>
+		</table>
+	</templet>
+	<templet id="26">
+		<table id="0" name="clt_pm_hw_v9r11_1275071824" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278474417" index="13"/>
+			<column name="COUNTER_1278474418" index="14"/>
+			<column name="COUNTER_1278474419" index="15"/>
+			<column name="COUNTER_1278474420" index="16"/>
+			<column name="COUNTER_1278474421" index="17"/>
+			<column name="COUNTER_1278474422" index="18"/>
+			<column name="COUNTER_1278474423" index="19"/>
+			<column name="COUNTER_1278474424" index="20"/>
+			<column name="COUNTER_1278474425" index="21"/>
+			<column name="COUNTER_1278474426" index="22"/>
+			<column name="COUNTER_1278474427" index="23"/>
+			<column name="COUNTER_1278474428" index="24"/>
+			<column name="COUNTER_1278474429" index="25"/>
+			<column name="COUNTER_1278474430" index="26"/>
+			<column name="COUNTER_1278474431" index="27"/>
+			<column name="COUNTER_1278474432" index="28"/>
+			<column name="COUNTER_1278474433" index="29"/>
+			<column name="COUNTER_1278474434" index="30"/>
+			<column name="COUNTER_1278474435" index="31"/>
+			<column name="COUNTER_1278474436" index="32"/>
+			<column name="COUNTER_1278474437" index="33"/>
+			<column name="COUNTER_1278474438" index="34"/>
+			<column name="COUNTER_1278474439" index="35"/>
+			<column name="COUNTER_1278474450" index="36"/>
+		</table>
+	</templet>
+	<templet id="27">
+		<table id="0" name="clt_pm_hw_v9r11_1275072017" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278669563" index="13"/>
+			<column name="COUNTER_1278669564" index="14"/>
+			<column name="COUNTER_1278669565" index="15"/>
+			<column name="COUNTER_1278669566" index="16"/>
+			<column name="COUNTER_1278669567" index="17"/>
+			<column name="COUNTER_1278669568" index="18"/>
+			<column name="COUNTER_1278669569" index="19"/>
+			<column name="COUNTER_1278669570" index="20"/>
+			<column name="COUNTER_1278669571" index="21"/>
+			<column name="COUNTER_1278669572" index="22"/>
+			<column name="COUNTER_1278669573" index="23"/>
+			<column name="COUNTER_1278669574" index="24"/>
+			<column name="COUNTER_1278669417" index="25"/>
+			<column name="COUNTER_1278669418" index="26"/>
+			<column name="COUNTER_1278669419" index="27"/>
+			<column name="COUNTER_1278669420" index="28"/>
+			<column name="COUNTER_1278669421" index="29"/>
+			<column name="COUNTER_1278669422" index="30"/>
+			<column name="COUNTER_1278669423" index="31"/>
+			<column name="COUNTER_1278669424" index="32"/>
+			<column name="COUNTER_1278669425" index="33"/>
+			<column name="COUNTER_1278669426" index="34"/>
+			<column name="COUNTER_1278669427" index="35"/>
+			<column name="COUNTER_1278669428" index="36"/>
+			<column name="COUNTER_1278669429" index="37"/>
+			<column name="COUNTER_1278669430" index="38"/>
+			<column name="COUNTER_1278669431" index="39"/>
+			<column name="COUNTER_1278669432" index="40"/>
+			<column name="COUNTER_1278669433" index="41"/>
+			<column name="COUNTER_1278669434" index="42"/>
+			<column name="COUNTER_1278669435" index="43"/>
+			<column name="COUNTER_1278669436" index="44"/>
+			<column name="COUNTER_1278669437" index="45"/>
+			<column name="COUNTER_1278669438" index="46"/>
+			<column name="COUNTER_1278669439" index="47"/>
+			<column name="COUNTER_1278669440" index="48"/>
+			<column name="COUNTER_1278669441" index="49"/>
+			<column name="COUNTER_1278669442" index="50"/>
+			<column name="COUNTER_1278669443" index="51"/>
+			<column name="COUNTER_1278669444" index="52"/>
+			<column name="COUNTER_1278669445" index="53"/>
+			<column name="COUNTER_1278669446" index="54"/>
+			<column name="COUNTER_1278669447" index="55"/>
+			<column name="COUNTER_1278669448" index="56"/>
+			<column name="COUNTER_1278669449" index="57"/>
+			<column name="COUNTER_1278669450" index="58"/>
+			<column name="COUNTER_1278669451" index="59"/>
+			<column name="COUNTER_1278669452" index="60"/>
+			<column name="COUNTER_1278669453" index="61"/>
+			<column name="COUNTER_1278669454" index="62"/>
+			<column name="COUNTER_1278669455" index="63"/>
+			<column name="COUNTER_1278669456" index="64"/>
+			<column name="COUNTER_1278669457" index="65"/>
+			<column name="COUNTER_1278669458" index="66"/>
+			<column name="COUNTER_1278669459" index="67"/>
+			<column name="COUNTER_1278669460" index="68"/>
+			<column name="COUNTER_1278669461" index="69"/>
+			<column name="COUNTER_1278669462" index="70"/>
+			<column name="COUNTER_1278669470" index="71"/>
+			<column name="COUNTER_1278669471" index="72"/>
+			<column name="COUNTER_1278669472" index="73"/>
+			<column name="COUNTER_1278669473" index="74"/>
+			<column name="COUNTER_1278669474" index="75"/>
+			<column name="COUNTER_1278669475" index="76"/>
+			<column name="COUNTER_1278669476" index="77"/>
+			<column name="COUNTER_1278669477" index="78"/>
+			<column name="COUNTER_1278669478" index="79"/>
+			<column name="COUNTER_1278669479" index="80"/>
+			<column name="COUNTER_1278669480" index="81"/>
+			<column name="COUNTER_1278669481" index="82"/>
+			<column name="COUNTER_1278669482" index="83"/>
+			<column name="COUNTER_1278669483" index="84"/>
+			<column name="COUNTER_1278669484" index="85"/>
+			<column name="COUNTER_1278669485" index="86"/>
+			<column name="COUNTER_1278669486" index="87"/>
+			<column name="COUNTER_1278669487" index="88"/>
+			<column name="COUNTER_1278669488" index="89"/>
+			<column name="COUNTER_1278669489" index="90"/>
+			<column name="COUNTER_1278669490" index="91"/>
+			<column name="COUNTER_1278669491" index="92"/>
+			<column name="COUNTER_1278669492" index="93"/>
+			<column name="COUNTER_1278669493" index="94"/>
+			<column name="COUNTER_1278669494" index="95"/>
+			<column name="COUNTER_1278669495" index="96"/>
+			<column name="COUNTER_1278669496" index="97"/>
+			<column name="COUNTER_1278669497" index="98"/>
+			<column name="COUNTER_1278669498" index="99"/>
+			<column name="COUNTER_1278669499" index="100"/>
+			<column name="COUNTER_1278669500" index="101"/>
+			<column name="COUNTER_1278669501" index="102"/>
+			<column name="COUNTER_1278669502" index="103"/>
+			<column name="COUNTER_1278669503" index="104"/>
+			<column name="COUNTER_1278669504" index="105"/>
+			<column name="COUNTER_1278669505" index="106"/>
+			<column name="COUNTER_1278669506" index="107"/>
+			<column name="COUNTER_1278669507" index="108"/>
+			<column name="COUNTER_1278669508" index="109"/>
+			<column name="COUNTER_1278669509" index="110"/>
+			<column name="COUNTER_1278669514" index="111"/>
+			<column name="COUNTER_1278669515" index="112"/>
+			<column name="COUNTER_1278669516" index="113"/>
+			<column name="COUNTER_1278669517" index="114"/>
+			<column name="COUNTER_1278669518" index="115"/>
+			<column name="COUNTER_1278669519" index="116"/>
+			<column name="COUNTER_1278669520" index="117"/>
+			<column name="COUNTER_1278669521" index="118"/>
+			<column name="COUNTER_1278669522" index="119"/>
+			<column name="COUNTER_1278669523" index="120"/>
+			<column name="COUNTER_1278669524" index="121"/>
+			<column name="COUNTER_1278669525" index="122"/>
+			<column name="COUNTER_1278669526" index="123"/>
+			<column name="COUNTER_1278669527" index="124"/>
+			<column name="COUNTER_1278669528" index="125"/>
+			<column name="COUNTER_1278669529" index="126"/>
+			<column name="COUNTER_1278669530" index="127"/>
+			<column name="COUNTER_1278669531" index="128"/>
+			<column name="COUNTER_1278669532" index="129"/>
+			<column name="COUNTER_1278669533" index="130"/>
+			<column name="COUNTER_1278669534" index="131"/>
+			<column name="COUNTER_1278669535" index="132"/>
+			<column name="COUNTER_1278669536" index="133"/>
+			<column name="COUNTER_1278669537" index="134"/>
+			<column name="COUNTER_1278669539" index="135"/>
+			<column name="COUNTER_1278669540" index="136"/>
+			<column name="COUNTER_1278669541" index="137"/>
+			<column name="COUNTER_1278669542" index="138"/>
+			<column name="COUNTER_1278669543" index="139"/>
+			<column name="COUNTER_1278669544" index="140"/>
+			<column name="COUNTER_1278669545" index="141"/>
+			<column name="COUNTER_1278669547" index="142"/>
+			<column name="COUNTER_1278669548" index="143"/>
+			<column name="COUNTER_1278669549" index="144"/>
+			<column name="COUNTER_1278669550" index="145"/>
+			<column name="COUNTER_1278669551" index="146"/>
+			<column name="COUNTER_1278669552" index="147"/>
+			<column name="COUNTER_1278669553" index="148"/>
+			<column name="COUNTER_1278669554" index="149"/>
+			<column name="COUNTER_1278669555" index="150"/>
+			<column name="COUNTER_1278669556" index="151"/>
+			<column name="COUNTER_1278669557" index="152"/>
+			<column name="COUNTER_1278669558" index="153"/>
+			<column name="COUNTER_1278669559" index="154"/>
+			<column name="COUNTER_1278669560" index="155"/>
+			<column name="COUNTER_1278669561" index="156"/>
+			<column name="COUNTER_1278669546" index="157"/>
+			<column name="COUNTER_1278669465" index="158"/>
+			<column name="COUNTER_1278669466" index="159"/>
+			<column name="COUNTER_1278669467" index="160"/>
+			<column name="COUNTER_1278669468" index="161"/>
+			<column name="COUNTER_1278669469" index="162"/>
+		</table>
+	</templet>
+	<templet id="28">
+		<table id="0" name="clt_pm_hw_v9r11_1275072018" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278670417" index="13"/>
+			<column name="COUNTER_1278670418" index="14"/>
+			<column name="COUNTER_1278670419" index="15"/>
+			<column name="COUNTER_1278670420" index="16"/>
+			<column name="COUNTER_1278670421" index="17"/>
+			<column name="COUNTER_1278670422" index="18"/>
+			<column name="COUNTER_1278670423" index="19"/>
+			<column name="COUNTER_1278670424" index="20"/>
+			<column name="COUNTER_1278670425" index="21"/>
+			<column name="COUNTER_1278670426" index="22"/>
+			<column name="COUNTER_1278670427" index="23"/>
+			<column name="COUNTER_1278670443" index="24"/>
+			<column name="COUNTER_1278670444" index="25"/>
+			<column name="COUNTER_1278670445" index="26"/>
+			<column name="COUNTER_1278670446" index="27"/>
+			<column name="COUNTER_1278670447" index="28"/>
+			<column name="COUNTER_1278670448" index="29"/>
+			<column name="COUNTER_1278670449" index="30"/>
+			<column name="COUNTER_1278670450" index="31"/>
+			<column name="COUNTER_1278670451" index="32"/>
+			<column name="COUNTER_1278670452" index="33"/>
+			<column name="COUNTER_1278670453" index="34"/>
+			<column name="COUNTER_1278670454" index="35"/>
+			<column name="COUNTER_1278670455" index="36"/>
+			<column name="COUNTER_1278670456" index="37"/>
+			<column name="COUNTER_1278670457" index="38"/>
+			<column name="COUNTER_1278670459" index="39"/>
+			<column name="COUNTER_1278670460" index="40"/>
+			<column name="COUNTER_1278670461" index="41"/>
+			<column name="COUNTER_1278670462" index="42"/>
+			<column name="COUNTER_1278670463" index="43"/>
+			<column name="COUNTER_1278670465" index="44"/>
+			<column name="COUNTER_1278670467" index="45"/>
+			<column name="COUNTER_1278670470" index="46"/>
+			<column name="COUNTER_1278670471" index="47"/>
+			<column name="COUNTER_1278670472" index="48"/>
+			<column name="COUNTER_1278670473" index="49"/>
+			<column name="COUNTER_1278670474" index="50"/>
+			<column name="COUNTER_1278670475" index="51"/>
+			<column name="COUNTER_1278670476" index="52"/>
+			<column name="COUNTER_1278670477" index="53"/>
+			<column name="COUNTER_1278670478" index="54"/>
+			<column name="COUNTER_1278670479" index="55"/>
+			<column name="COUNTER_1278670480" index="56"/>
+			<column name="COUNTER_1278670481" index="57"/>
+			<column name="COUNTER_1278670482" index="58"/>
+			<column name="COUNTER_1278670483" index="59"/>
+			<column name="COUNTER_1278670484" index="60"/>
+			<column name="COUNTER_1278670485" index="61"/>
+			<column name="COUNTER_1278670486" index="62"/>
+			<column name="COUNTER_1278670487" index="63"/>
+			<column name="COUNTER_1278670488" index="64"/>
+			<column name="COUNTER_1278670489" index="65"/>
+			<column name="COUNTER_1278670490" index="66"/>
+			<column name="COUNTER_1278670491" index="67"/>
+			<column name="COUNTER_1278670492" index="68"/>
+			<column name="COUNTER_1278670493" index="69"/>
+			<column name="COUNTER_1278670494" index="70"/>
+			<column name="COUNTER_1278670495" index="71"/>
+			<column name="COUNTER_1278670496" index="72"/>
+			<column name="COUNTER_1278670497" index="73"/>
+			<column name="COUNTER_1278670498" index="74"/>
+			<column name="COUNTER_1278670499" index="75"/>
+			<column name="COUNTER_1278670500" index="76"/>
+			<column name="COUNTER_1278670501" index="77"/>
+			<column name="COUNTER_1278670502" index="78"/>
+			<column name="COUNTER_1278670503" index="79"/>
+			<column name="COUNTER_1278670504" index="80"/>
+			<column name="COUNTER_1278670505" index="81"/>
+			<column name="COUNTER_1278670506" index="82"/>
+			<column name="COUNTER_1278670507" index="83"/>
+			<column name="COUNTER_1278670508" index="84"/>
+			<column name="COUNTER_1278670509" index="85"/>
+			<column name="COUNTER_1278670510" index="86"/>
+			<column name="COUNTER_1278670511" index="87"/>
+			<column name="COUNTER_1278670512" index="88"/>
+			<column name="COUNTER_1278670513" index="89"/>
+			<column name="COUNTER_1278670514" index="90"/>
+			<column name="COUNTER_1278670515" index="91"/>
+			<column name="COUNTER_1278670516" index="92"/>
+			<column name="COUNTER_1278670517" index="93"/>
+			<column name="COUNTER_1278670518" index="94"/>
+			<column name="COUNTER_1278670519" index="95"/>
+			<column name="COUNTER_1278670520" index="96"/>
+			<column name="COUNTER_1278670521" index="97"/>
+			<column name="COUNTER_1278670522" index="98"/>
+			<column name="COUNTER_1278670523" index="99"/>
+			<column name="COUNTER_1278670524" index="100"/>
+			<column name="COUNTER_1278670525" index="101"/>
+			<column name="COUNTER_1278670526" index="102"/>
+			<column name="COUNTER_1278670527" index="103"/>
+			<column name="COUNTER_1278670528" index="104"/>
+			<column name="COUNTER_1278670529" index="105"/>
+			<column name="COUNTER_1278670530" index="106"/>
+			<column name="COUNTER_1278670531" index="107"/>
+			<column name="COUNTER_1278670532" index="108"/>
+			<column name="COUNTER_1278670533" index="109"/>
+			<column name="COUNTER_1278670534" index="110"/>
+			<column name="COUNTER_1278670535" index="111"/>
+			<column name="COUNTER_1278670536" index="112"/>
+			<column name="COUNTER_1278670537" index="113"/>
+			<column name="COUNTER_1278670538" index="114"/>
+			<column name="COUNTER_1278670539" index="115"/>
+			<column name="COUNTER_1278670540" index="116"/>
+			<column name="COUNTER_1278670541" index="117"/>
+			<column name="COUNTER_1278670542" index="118"/>
+			<column name="COUNTER_1278670543" index="119"/>
+			<column name="COUNTER_1278670544" index="120"/>
+			<column name="COUNTER_1278670545" index="121"/>
+			<column name="COUNTER_1278670546" index="122"/>
+			<column name="COUNTER_1278670547" index="123"/>
+			<column name="COUNTER_1278670548" index="124"/>
+			<column name="COUNTER_1278670549" index="125"/>
+			<column name="COUNTER_1278670550" index="126"/>
+			<column name="COUNTER_1278670551" index="127"/>
+			<column name="COUNTER_1278670552" index="128"/>
+			<column name="COUNTER_1278670553" index="129"/>
+			<column name="COUNTER_1278670554" index="130"/>
+			<column name="COUNTER_1278670555" index="131"/>
+			<column name="COUNTER_1278670556" index="132"/>
+			<column name="COUNTER_1278670557" index="133"/>
+			<column name="COUNTER_1278670558" index="134"/>
+			<column name="COUNTER_1278670559" index="135"/>
+			<column name="COUNTER_1278670560" index="136"/>
+			<column name="COUNTER_1278670561" index="137"/>
+			<column name="COUNTER_1278670430" index="138"/>
+			<column name="COUNTER_1278670431" index="139"/>
+			<column name="COUNTER_1278670432" index="140"/>
+			<column name="COUNTER_1278670433" index="141"/>
+			<column name="COUNTER_1278670434" index="142"/>
+			<column name="COUNTER_1278670435" index="143"/>
+			<column name="COUNTER_1278670436" index="144"/>
+			<column name="COUNTER_1278670437" index="145"/>
+			<column name="COUNTER_1278670438" index="146"/>
+			<column name="COUNTER_1278670439" index="147"/>
+			<column name="COUNTER_1278670440" index="148"/>
+			<column name="COUNTER_1278670441" index="149"/>
+			<column name="COUNTER_1278670442" index="150"/>
+			<column name="COUNTER_1278670562" index="151"/>
+			<column name="COUNTER_1278670563" index="152"/>
+			<column name="COUNTER_1278670564" index="153"/>
+			<column name="COUNTER_1278670565" index="154"/>
+		</table>
+	</templet>
+	<templet id="29">
+		<table id="0" name="clt_pm_hw_v9r11_1275072051" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1278703538" index="13"/>
+			<column name="COUNTER_1278703559" index="14"/>
+			<column name="COUNTER_1278703560" index="15"/>
+			<column name="COUNTER_1278703561" index="16"/>
+			<column name="COUNTER_1278703562" index="17"/>
+			<column name="COUNTER_1278703563" index="18"/>
+			<column name="COUNTER_1278703434" index="19"/>
+			<column name="COUNTER_1278703435" index="20"/>
+			<column name="COUNTER_1278703436" index="21"/>
+			<column name="COUNTER_1278703437" index="22"/>
+			<column name="COUNTER_1278703502" index="23"/>
+			<column name="COUNTER_1278703503" index="24"/>
+			<column name="COUNTER_1278703504" index="25"/>
+			<column name="COUNTER_1278703505" index="26"/>
+			<column name="COUNTER_1278703466" index="27"/>
+			<column name="COUNTER_1278703467" index="28"/>
+			<column name="COUNTER_1278703468" index="29"/>
+			<column name="COUNTER_1278703469" index="30"/>
+			<column name="COUNTER_1278703534" index="31"/>
+			<column name="COUNTER_1278703535" index="32"/>
+			<column name="COUNTER_1278703536" index="33"/>
+			<column name="COUNTER_1278703537" index="34"/>
+			<column name="COUNTER_1278703484" index="35"/>
+			<column name="COUNTER_1278703485" index="36"/>
+			<column name="COUNTER_1278703488" index="37"/>
+			<column name="COUNTER_1278703489" index="38"/>
+			<column name="COUNTER_1278703492" index="39"/>
+			<column name="COUNTER_1278703493" index="40"/>
+			<column name="COUNTER_1278703496" index="41"/>
+			<column name="COUNTER_1278703497" index="42"/>
+			<column name="COUNTER_1278703500" index="43"/>
+			<column name="COUNTER_1278703501" index="44"/>
+			<column name="COUNTER_1278703524" index="45"/>
+			<column name="COUNTER_1278703525" index="46"/>
+			<column name="COUNTER_1278703528" index="47"/>
+			<column name="COUNTER_1278703529" index="48"/>
+			<column name="COUNTER_1278703532" index="49"/>
+			<column name="COUNTER_1278703533" index="50"/>
+			<column name="COUNTER_1278703553" index="51"/>
+			<column name="COUNTER_1278703554" index="52"/>
+			<column name="COUNTER_1278703557" index="53"/>
+			<column name="COUNTER_1278703558" index="54"/>
+			<column name="COUNTER_1278703417" index="55"/>
+			<column name="COUNTER_1278703418" index="56"/>
+			<column name="COUNTER_1278703419" index="57"/>
+			<column name="COUNTER_1278703420" index="58"/>
+			<column name="COUNTER_1278703421" index="59"/>
+			<column name="COUNTER_1278703422" index="60"/>
+			<column name="COUNTER_1278703423" index="61"/>
+			<column name="COUNTER_1278703424" index="62"/>
+			<column name="COUNTER_1278703425" index="63"/>
+			<column name="COUNTER_1278703426" index="64"/>
+			<column name="COUNTER_1278703427" index="65"/>
+			<column name="COUNTER_1278703428" index="66"/>
+			<column name="COUNTER_1278703429" index="67"/>
+			<column name="COUNTER_1278703430" index="68"/>
+			<column name="COUNTER_1278703431" index="69"/>
+			<column name="COUNTER_1278703432" index="70"/>
+			<column name="COUNTER_1278703433" index="71"/>
+			<column name="COUNTER_1278703438" index="72"/>
+			<column name="COUNTER_1278703439" index="73"/>
+			<column name="COUNTER_1278703440" index="74"/>
+			<column name="COUNTER_1278703441" index="75"/>
+			<column name="COUNTER_1278703442" index="76"/>
+			<column name="COUNTER_1278703443" index="77"/>
+			<column name="COUNTER_1278703444" index="78"/>
+			<column name="COUNTER_1278703445" index="79"/>
+			<column name="COUNTER_1278703446" index="80"/>
+			<column name="COUNTER_1278703447" index="81"/>
+			<column name="COUNTER_1278703448" index="82"/>
+			<column name="COUNTER_1278703449" index="83"/>
+			<column name="COUNTER_1278703450" index="84"/>
+			<column name="COUNTER_1278703451" index="85"/>
+			<column name="COUNTER_1278703452" index="86"/>
+			<column name="COUNTER_1278703453" index="87"/>
+			<column name="COUNTER_1278703454" index="88"/>
+			<column name="COUNTER_1278703455" index="89"/>
+			<column name="COUNTER_1278703456" index="90"/>
+			<column name="COUNTER_1278703457" index="91"/>
+			<column name="COUNTER_1278703458" index="92"/>
+			<column name="COUNTER_1278703459" index="93"/>
+			<column name="COUNTER_1278703460" index="94"/>
+			<column name="COUNTER_1278703461" index="95"/>
+			<column name="COUNTER_1278703462" index="96"/>
+			<column name="COUNTER_1278703463" index="97"/>
+			<column name="COUNTER_1278703464" index="98"/>
+			<column name="COUNTER_1278703465" index="99"/>
+			<column name="COUNTER_1278703470" index="100"/>
+			<column name="COUNTER_1278703471" index="101"/>
+			<column name="COUNTER_1278703472" index="102"/>
+			<column name="COUNTER_1278703473" index="103"/>
+			<column name="COUNTER_1278703474" index="104"/>
+			<column name="COUNTER_1278703475" index="105"/>
+			<column name="COUNTER_1278703476" index="106"/>
+			<column name="COUNTER_1278703477" index="107"/>
+			<column name="COUNTER_1278703478" index="108"/>
+			<column name="COUNTER_1278703479" index="109"/>
+			<column name="COUNTER_1278703480" index="110"/>
+			<column name="COUNTER_1278703481" index="111"/>
+			<column name="COUNTER_1278703482" index="112"/>
+			<column name="COUNTER_1278703483" index="113"/>
+			<column name="COUNTER_1278703486" index="114"/>
+			<column name="COUNTER_1278703487" index="115"/>
+			<column name="COUNTER_1278703490" index="116"/>
+			<column name="COUNTER_1278703491" index="117"/>
+			<column name="COUNTER_1278703494" index="118"/>
+			<column name="COUNTER_1278703495" index="119"/>
+			<column name="COUNTER_1278703498" index="120"/>
+			<column name="COUNTER_1278703499" index="121"/>
+			<column name="COUNTER_1278703506" index="122"/>
+			<column name="COUNTER_1278703507" index="123"/>
+			<column name="COUNTER_1278703508" index="124"/>
+			<column name="COUNTER_1278703509" index="125"/>
+			<column name="COUNTER_1278703510" index="126"/>
+			<column name="COUNTER_1278703511" index="127"/>
+			<column name="COUNTER_1278703512" index="128"/>
+			<column name="COUNTER_1278703513" index="129"/>
+			<column name="COUNTER_1278703514" index="130"/>
+			<column name="COUNTER_1278703515" index="131"/>
+			<column name="COUNTER_1278703516" index="132"/>
+			<column name="COUNTER_1278703517" index="133"/>
+			<column name="COUNTER_1278703518" index="134"/>
+			<column name="COUNTER_1278703519" index="135"/>
+			<column name="COUNTER_1278703520" index="136"/>
+			<column name="COUNTER_1278703521" index="137"/>
+			<column name="COUNTER_1278703522" index="138"/>
+			<column name="COUNTER_1278703523" index="139"/>
+			<column name="COUNTER_1278703526" index="140"/>
+			<column name="COUNTER_1278703527" index="141"/>
+			<column name="COUNTER_1278703530" index="142"/>
+			<column name="COUNTER_1278703531" index="143"/>
+			<column name="COUNTER_1278703539" index="144"/>
+			<column name="COUNTER_1278703540" index="145"/>
+			<column name="COUNTER_1278703541" index="146"/>
+			<column name="COUNTER_1278703542" index="147"/>
+			<column name="COUNTER_1278703543" index="148"/>
+			<column name="COUNTER_1278703544" index="149"/>
+			<column name="COUNTER_1278703545" index="150"/>
+			<column name="COUNTER_1278703546" index="151"/>
+			<column name="COUNTER_1278703547" index="152"/>
+			<column name="COUNTER_1278703548" index="153"/>
+			<column name="COUNTER_1278703549" index="154"/>
+			<column name="COUNTER_1278703550" index="155"/>
+			<column name="COUNTER_1278703551" index="156"/>
+			<column name="COUNTER_1278703552" index="157"/>
+			<column name="COUNTER_1278703555" index="158"/>
+			<column name="COUNTER_1278703556" index="159"/>
+			<column name="COUNTER_1278703564" index="160"/>
+			<column name="COUNTER_1278703565" index="161"/>
+			<column name="COUNTER_1278703566" index="162"/>
+			<column name="COUNTER_1278703567" index="163"/>
+			<column name="COUNTER_1278703568" index="164"/>
+			<column name="COUNTER_1278703569" index="165"/>
+			<column name="COUNTER_1278703570" index="166"/>
+			<column name="COUNTER_1278703571" index="167"/>
+			<column name="COUNTER_1278703572" index="168"/>
+			<column name="COUNTER_1278703573" index="169"/>
+			<column name="COUNTER_1278703574" index="170"/>
+			<column name="COUNTER_1278703575" index="171"/>
+			<column name="COUNTER_1278703576" index="172"/>
+			<column name="COUNTER_1278703577" index="173"/>
+			<column name="COUNTER_1278703578" index="174"/>
+			<column name="COUNTER_1278703579" index="175"/>
+			<column name="COUNTER_1278703580" index="176"/>
+			<column name="COUNTER_1278703581" index="177"/>
+			<column name="COUNTER_1278703582" index="178"/>
+			<column name="COUNTER_1278703583" index="179"/>
+			<column name="COUNTER_1278703584" index="180"/>
+			<column name="COUNTER_1278703585" index="181"/>
+			<column name="COUNTER_1278703586" index="182"/>
+			<column name="COUNTER_1278703587" index="183"/>
+			<column name="COUNTER_1278703588" index="184"/>
+			<column name="COUNTER_1278703589" index="185"/>
+			<column name="COUNTER_1278703590" index="186"/>
+			<column name="COUNTER_1278703591" index="187"/>
+			<column name="COUNTER_1278703592" index="188"/>
+			<column name="COUNTER_1278703593" index="189"/>
+			<column name="COUNTER_1278703594" index="190"/>
+			<column name="COUNTER_1278703595" index="191"/>
+			<column name="COUNTER_1278703596" index="192"/>
+			<column name="COUNTER_1278703597" index="193"/>
+		</table>
+	</templet>
+	<templet id="30">
+		<table id="0" name="clt_pm_hw_v9r11_1275072519" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279171423" index="13"/>
+		</table>
+	</templet>
+	<templet id="31">
+		<table id="0" name="clt_pm_hw_v9r11_1275072521" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279173417" index="13"/>
+			<column name="COUNTER_1279173418" index="14"/>
+			<column name="COUNTER_1279173419" index="15"/>
+			<column name="COUNTER_1279173420" index="16"/>
+			<column name="COUNTER_1279173421" index="17"/>
+			<column name="COUNTER_1279173422" index="18"/>
+			<column name="COUNTER_1279173423" index="19"/>
+			<column name="COUNTER_1279173424" index="20"/>
+			<column name="COUNTER_1279173425" index="21"/>
+			<column name="COUNTER_1279173426" index="22"/>
+			<column name="COUNTER_1279173427" index="23"/>
+			<column name="COUNTER_1279173428" index="24"/>
+			<column name="COUNTER_1279173429" index="25"/>
+			<column name="COUNTER_1279173430" index="26"/>
+			<column name="COUNTER_1279173431" index="27"/>
+			<column name="COUNTER_1279173432" index="28"/>
+			<column name="COUNTER_1279173433" index="29"/>
+			<column name="COUNTER_1279173434" index="30"/>
+			<column name="COUNTER_1279173450" index="31"/>
+			<column name="COUNTER_1279173451" index="32"/>
+			<column name="COUNTER_1279173452" index="33"/>
+			<column name="COUNTER_1279173453" index="34"/>
+			<column name="COUNTER_1279173454" index="35"/>
+			<column name="COUNTER_1279173455" index="36"/>
+			<column name="COUNTER_1282411780" index="37"/>
+		</table>
+	</templet>
+	<templet id="32">
+		<table id="0" name="clt_pm_hw_v9r11_1275072522" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279173417" index="13"/>
+			<column name="COUNTER_1279173418" index="14"/>
+			<column name="COUNTER_1279173419" index="15"/>
+			<column name="COUNTER_1279173420" index="16"/>
+			<column name="COUNTER_1279173421" index="17"/>
+			<column name="COUNTER_1279173422" index="18"/>
+			<column name="COUNTER_1279173423" index="19"/>
+			<column name="COUNTER_1279173424" index="20"/>
+			<column name="COUNTER_1279173425" index="21"/>
+			<column name="COUNTER_1279173426" index="22"/>
+			<column name="COUNTER_1279173427" index="23"/>
+			<column name="COUNTER_1279173428" index="24"/>
+			<column name="COUNTER_1279173429" index="25"/>
+			<column name="COUNTER_1279173430" index="26"/>
+			<column name="COUNTER_1279173431" index="27"/>
+			<column name="COUNTER_1279173432" index="28"/>
+			<column name="COUNTER_1279173433" index="29"/>
+			<column name="COUNTER_1279173434" index="30"/>
+			<column name="COUNTER_1279173450" index="31"/>
+			<column name="COUNTER_1279173451" index="32"/>
+			<column name="COUNTER_1279173452" index="33"/>
+			<column name="COUNTER_1279173453" index="34"/>
+			<column name="COUNTER_1279173454" index="35"/>
+			<column name="COUNTER_1279173455" index="36"/>
+			<column name="COUNTER_1282411780" index="37"/>
+		</table>
+	</templet>
+	<templet id="33">
+		<table id="0" name="clt_pm_hw_v9r11_1275072523" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279175417" index="13"/>
+			<column name="COUNTER_1279175418" index="14"/>
+			<column name="COUNTER_1279175419" index="15"/>
+			<column name="COUNTER_1279175420" index="16"/>
+			<column name="COUNTER_1279175421" index="17"/>
+			<column name="COUNTER_1279175422" index="18"/>
+			<column name="COUNTER_1279175423" index="19"/>
+			<column name="COUNTER_1279175424" index="20"/>
+			<column name="COUNTER_1279175425" index="21"/>
+			<column name="COUNTER_1279175426" index="22"/>
+			<column name="COUNTER_1279175427" index="23"/>
+			<column name="COUNTER_1279175428" index="24"/>
+			<column name="COUNTER_1279175429" index="25"/>
+			<column name="COUNTER_1279175430" index="26"/>
+			<column name="COUNTER_1279175431" index="27"/>
+			<column name="COUNTER_1279175432" index="28"/>
+			<column name="COUNTER_1279175433" index="29"/>
+			<column name="COUNTER_1279175434" index="30"/>
+			<column name="COUNTER_1279175450" index="31"/>
+			<column name="COUNTER_1279175451" index="32"/>
+			<column name="COUNTER_1279175452" index="33"/>
+			<column name="COUNTER_1279175453" index="34"/>
+			<column name="COUNTER_1282411782" index="35"/>
+		</table>
+	</templet>
+	<templet id="34">
+		<table id="0" name="clt_pm_hw_v9r11_1275072524" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279176417" index="13"/>
+			<column name="COUNTER_1279176418" index="14"/>
+			<column name="COUNTER_1279176419" index="15"/>
+			<column name="COUNTER_1279176420" index="16"/>
+			<column name="COUNTER_1279176421" index="17"/>
+			<column name="COUNTER_1279176422" index="18"/>
+			<column name="COUNTER_1279176423" index="19"/>
+			<column name="COUNTER_1279176424" index="20"/>
+			<column name="COUNTER_1279176425" index="21"/>
+			<column name="COUNTER_1279176426" index="22"/>
+			<column name="COUNTER_1279176427" index="23"/>
+			<column name="COUNTER_1279176428" index="24"/>
+			<column name="COUNTER_1279176429" index="25"/>
+			<column name="COUNTER_1279176430" index="26"/>
+			<column name="COUNTER_1279176431" index="27"/>
+			<column name="COUNTER_1279176432" index="28"/>
+			<column name="COUNTER_1279176433" index="29"/>
+			<column name="COUNTER_1279176434" index="30"/>
+			<column name="COUNTER_1279176448" index="31"/>
+			<column name="COUNTER_1279176449" index="32"/>
+			<column name="COUNTER_1279176450" index="33"/>
+			<column name="COUNTER_1279176451" index="34"/>
+			<column name="COUNTER_1282411783" index="35"/>
+		</table>
+	</templet>
+	<templet id="35">
+		<table id="0" name="clt_pm_hw_v9r11_1275072525" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279177417" index="13"/>
+			<column name="COUNTER_1279177418" index="14"/>
+			<column name="COUNTER_1279177419" index="15"/>
+			<column name="COUNTER_1279177420" index="16"/>
+			<column name="COUNTER_1279177421" index="17"/>
+			<column name="COUNTER_1279177422" index="18"/>
+			<column name="COUNTER_1279177423" index="19"/>
+			<column name="COUNTER_1279177424" index="20"/>
+			<column name="COUNTER_1279177425" index="21"/>
+			<column name="COUNTER_1279177426" index="22"/>
+			<column name="COUNTER_1279177427" index="23"/>
+			<column name="COUNTER_1279177428" index="24"/>
+			<column name="COUNTER_1279177429" index="25"/>
+			<column name="COUNTER_1279177430" index="26"/>
+			<column name="COUNTER_1279177431" index="27"/>
+			<column name="COUNTER_1279177432" index="28"/>
+			<column name="COUNTER_1279177433" index="29"/>
+			<column name="COUNTER_1279177434" index="30"/>
+			<column name="COUNTER_1279177435" index="31"/>
+			<column name="COUNTER_1279177436" index="32"/>
+			<column name="COUNTER_1279177437" index="33"/>
+			<column name="COUNTER_1279177438" index="34"/>
+			<column name="COUNTER_1279177439" index="35"/>
+		</table>
+	</templet>
+	<templet id="36">
+		<table id="0" name="clt_pm_hw_v9r11_1275072526" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279177417" index="13"/>
+			<column name="COUNTER_1279177418" index="14"/>
+			<column name="COUNTER_1279177419" index="15"/>
+			<column name="COUNTER_1279177420" index="16"/>
+			<column name="COUNTER_1279177421" index="17"/>
+			<column name="COUNTER_1279177422" index="18"/>
+			<column name="COUNTER_1279177423" index="19"/>
+			<column name="COUNTER_1279177424" index="20"/>
+			<column name="COUNTER_1279177425" index="21"/>
+			<column name="COUNTER_1279177426" index="22"/>
+			<column name="COUNTER_1279177427" index="23"/>
+			<column name="COUNTER_1279177428" index="24"/>
+			<column name="COUNTER_1279177429" index="25"/>
+			<column name="COUNTER_1279177430" index="26"/>
+			<column name="COUNTER_1279177431" index="27"/>
+			<column name="COUNTER_1279177432" index="28"/>
+			<column name="COUNTER_1279177433" index="29"/>
+			<column name="COUNTER_1279177434" index="30"/>
+			<column name="COUNTER_1279177435" index="31"/>
+			<column name="COUNTER_1279177436" index="32"/>
+			<column name="COUNTER_1279177437" index="33"/>
+			<column name="COUNTER_1279177438" index="34"/>
+			<column name="COUNTER_1279177439" index="35"/>
+		</table>
+	</templet>
+	<templet id="37">
+		<table id="0" name="clt_pm_hw_v9r11_1275072527" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279179417" index="13"/>
+			<column name="COUNTER_1279179418" index="14"/>
+			<column name="COUNTER_1279179419" index="15"/>
+			<column name="COUNTER_1279179420" index="16"/>
+			<column name="COUNTER_1279179421" index="17"/>
+			<column name="COUNTER_1279179422" index="18"/>
+			<column name="COUNTER_1279179423" index="19"/>
+			<column name="COUNTER_1279179424" index="20"/>
+			<column name="COUNTER_1279179425" index="21"/>
+			<column name="COUNTER_1279179426" index="22"/>
+			<column name="COUNTER_1279179427" index="23"/>
+			<column name="COUNTER_1279179428" index="24"/>
+			<column name="COUNTER_1279179429" index="25"/>
+			<column name="COUNTER_1279179430" index="26"/>
+			<column name="COUNTER_1279179431" index="27"/>
+			<column name="COUNTER_1279179432" index="28"/>
+			<column name="COUNTER_1279179433" index="29"/>
+			<column name="COUNTER_1279179434" index="30"/>
+			<column name="COUNTER_1279179435" index="31"/>
+			<column name="COUNTER_1279179436" index="32"/>
+			<column name="COUNTER_1279179437" index="33"/>
+			<column name="COUNTER_1279179438" index="34"/>
+			<column name="COUNTER_1279179439" index="35"/>
+			<column name="COUNTER_1279179440" index="36"/>
+			<column name="COUNTER_1279179441" index="37"/>
+			<column name="COUNTER_1279179442" index="38"/>
+			<column name="COUNTER_1279179443" index="39"/>
+			<column name="COUNTER_1279179444" index="40"/>
+			<column name="COUNTER_1279179445" index="41"/>
+			<column name="COUNTER_1279179446" index="42"/>
+			<column name="COUNTER_1279179447" index="43"/>
+			<column name="COUNTER_1279179448" index="44"/>
+			<column name="COUNTER_1279179449" index="45"/>
+			<column name="COUNTER_1279179450" index="46"/>
+			<column name="COUNTER_1279179451" index="47"/>
+			<column name="COUNTER_1279179452" index="48"/>
+			<column name="COUNTER_1279179453" index="49"/>
+			<column name="COUNTER_1282411751" index="50"/>
+			<column name="COUNTER_1282411752" index="51"/>
+			<column name="COUNTER_1282411753" index="52"/>
+			<column name="COUNTER_1282411754" index="53"/>
+			<column name="COUNTER_1282411755" index="54"/>
+			<column name="COUNTER_1282411756" index="55"/>
+			<column name="COUNTER_1282411757" index="56"/>
+			<column name="COUNTER_1282411758" index="57"/>
+			<column name="COUNTER_1282411759" index="58"/>
+			<column name="COUNTER_1282411760" index="59"/>
+			<column name="COUNTER_1282423948" index="60"/>
+			<column name="COUNTER_1282423949" index="61"/>
+			<column name="COUNTER_1282423950" index="62"/>
+			<column name="COUNTER_1282423951" index="63"/>
+			<column name="COUNTER_1282423952" index="64"/>
+		</table>
+	</templet>
+	<templet id="38">
+		<table id="0" name="clt_pm_hw_v9r11_1275072528" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279179417" index="13"/>
+			<column name="COUNTER_1279179418" index="14"/>
+			<column name="COUNTER_1279179419" index="15"/>
+			<column name="COUNTER_1279179420" index="16"/>
+			<column name="COUNTER_1279179421" index="17"/>
+			<column name="COUNTER_1279179422" index="18"/>
+			<column name="COUNTER_1279179423" index="19"/>
+			<column name="COUNTER_1279179424" index="20"/>
+			<column name="COUNTER_1279179425" index="21"/>
+			<column name="COUNTER_1279179426" index="22"/>
+			<column name="COUNTER_1279179427" index="23"/>
+			<column name="COUNTER_1279179428" index="24"/>
+			<column name="COUNTER_1279179429" index="25"/>
+			<column name="COUNTER_1279179430" index="26"/>
+			<column name="COUNTER_1279179431" index="27"/>
+			<column name="COUNTER_1279179432" index="28"/>
+			<column name="COUNTER_1279179433" index="29"/>
+			<column name="COUNTER_1279179434" index="30"/>
+			<column name="COUNTER_1279179435" index="31"/>
+			<column name="COUNTER_1279179436" index="32"/>
+			<column name="COUNTER_1279179437" index="33"/>
+			<column name="COUNTER_1279179438" index="34"/>
+			<column name="COUNTER_1279179439" index="35"/>
+			<column name="COUNTER_1279179440" index="36"/>
+			<column name="COUNTER_1279179441" index="37"/>
+			<column name="COUNTER_1279179442" index="38"/>
+			<column name="COUNTER_1279179443" index="39"/>
+			<column name="COUNTER_1279179444" index="40"/>
+			<column name="COUNTER_1279179445" index="41"/>
+			<column name="COUNTER_1279179446" index="42"/>
+			<column name="COUNTER_1279179447" index="43"/>
+			<column name="COUNTER_1279179448" index="44"/>
+			<column name="COUNTER_1279179449" index="45"/>
+			<column name="COUNTER_1279179450" index="46"/>
+			<column name="COUNTER_1279179451" index="47"/>
+			<column name="COUNTER_1279179452" index="48"/>
+			<column name="COUNTER_1279179453" index="49"/>
+			<column name="COUNTER_1282411751" index="50"/>
+			<column name="COUNTER_1282411752" index="51"/>
+			<column name="COUNTER_1282411753" index="52"/>
+			<column name="COUNTER_1282411754" index="53"/>
+			<column name="COUNTER_1282411755" index="54"/>
+			<column name="COUNTER_1282411756" index="55"/>
+			<column name="COUNTER_1282411757" index="56"/>
+			<column name="COUNTER_1282411758" index="57"/>
+			<column name="COUNTER_1282411759" index="58"/>
+			<column name="COUNTER_1282411760" index="59"/>
+			<column name="COUNTER_1282423948" index="60"/>
+			<column name="COUNTER_1282423949" index="61"/>
+			<column name="COUNTER_1282423950" index="62"/>
+			<column name="COUNTER_1282423951" index="63"/>
+			<column name="COUNTER_1282423952" index="64"/>
+		</table>
+	</templet>
+	<templet id="39">
+		<table id="0" name="clt_pm_hw_v9r11_1275072531" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279179417" index="13"/>
+			<column name="COUNTER_1279179418" index="14"/>
+			<column name="COUNTER_1279179419" index="15"/>
+			<column name="COUNTER_1279179420" index="16"/>
+			<column name="COUNTER_1279179421" index="17"/>
+			<column name="COUNTER_1279179422" index="18"/>
+			<column name="COUNTER_1279179423" index="19"/>
+			<column name="COUNTER_1279179424" index="20"/>
+			<column name="COUNTER_1279179425" index="21"/>
+			<column name="COUNTER_1279179426" index="22"/>
+			<column name="COUNTER_1279179427" index="23"/>
+			<column name="COUNTER_1279179428" index="24"/>
+			<column name="COUNTER_1279179429" index="25"/>
+			<column name="COUNTER_1279179430" index="26"/>
+			<column name="COUNTER_1279179431" index="27"/>
+			<column name="COUNTER_1279179432" index="28"/>
+			<column name="COUNTER_1279179433" index="29"/>
+			<column name="COUNTER_1279179434" index="30"/>
+			<column name="COUNTER_1279179435" index="31"/>
+			<column name="COUNTER_1279179436" index="32"/>
+			<column name="COUNTER_1279179437" index="33"/>
+			<column name="COUNTER_1279179438" index="34"/>
+			<column name="COUNTER_1279179439" index="35"/>
+			<column name="COUNTER_1279179440" index="36"/>
+			<column name="COUNTER_1279179441" index="37"/>
+			<column name="COUNTER_1279179442" index="38"/>
+			<column name="COUNTER_1279179443" index="39"/>
+			<column name="COUNTER_1279179444" index="40"/>
+			<column name="COUNTER_1279179445" index="41"/>
+			<column name="COUNTER_1279179446" index="42"/>
+			<column name="COUNTER_1279179447" index="43"/>
+			<column name="COUNTER_1279179448" index="44"/>
+			<column name="COUNTER_1279179449" index="45"/>
+			<column name="COUNTER_1279179450" index="46"/>
+			<column name="COUNTER_1279179451" index="47"/>
+			<column name="COUNTER_1279179452" index="48"/>
+			<column name="COUNTER_1279179453" index="49"/>
+			<column name="COUNTER_1282411751" index="50"/>
+			<column name="COUNTER_1282411752" index="51"/>
+			<column name="COUNTER_1282411753" index="52"/>
+			<column name="COUNTER_1282411754" index="53"/>
+			<column name="COUNTER_1282411755" index="54"/>
+			<column name="COUNTER_1282411756" index="55"/>
+			<column name="COUNTER_1282411757" index="56"/>
+			<column name="COUNTER_1282411758" index="57"/>
+			<column name="COUNTER_1282411759" index="58"/>
+			<column name="COUNTER_1282411760" index="59"/>
+			<column name="COUNTER_1282423948" index="60"/>
+			<column name="COUNTER_1282423949" index="61"/>
+			<column name="COUNTER_1282423950" index="62"/>
+			<column name="COUNTER_1282423951" index="63"/>
+			<column name="COUNTER_1282423952" index="64"/>
+		</table>
+	</templet>
+	<templet id="40">
+		<table id="0" name="clt_pm_hw_v9r11_1275072532" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279179417" index="13"/>
+			<column name="COUNTER_1279179418" index="14"/>
+			<column name="COUNTER_1279179419" index="15"/>
+			<column name="COUNTER_1279179420" index="16"/>
+			<column name="COUNTER_1279179421" index="17"/>
+			<column name="COUNTER_1279179422" index="18"/>
+			<column name="COUNTER_1279179423" index="19"/>
+			<column name="COUNTER_1279179424" index="20"/>
+			<column name="COUNTER_1279179425" index="21"/>
+			<column name="COUNTER_1279179426" index="22"/>
+			<column name="COUNTER_1279179427" index="23"/>
+			<column name="COUNTER_1279179428" index="24"/>
+			<column name="COUNTER_1279179429" index="25"/>
+			<column name="COUNTER_1279179430" index="26"/>
+			<column name="COUNTER_1279179431" index="27"/>
+			<column name="COUNTER_1279179432" index="28"/>
+			<column name="COUNTER_1279179433" index="29"/>
+			<column name="COUNTER_1279179434" index="30"/>
+			<column name="COUNTER_1279179435" index="31"/>
+			<column name="COUNTER_1279179436" index="32"/>
+			<column name="COUNTER_1279179437" index="33"/>
+			<column name="COUNTER_1279179438" index="34"/>
+			<column name="COUNTER_1279179439" index="35"/>
+			<column name="COUNTER_1279179440" index="36"/>
+			<column name="COUNTER_1279179441" index="37"/>
+			<column name="COUNTER_1279179442" index="38"/>
+			<column name="COUNTER_1279179443" index="39"/>
+			<column name="COUNTER_1279179444" index="40"/>
+			<column name="COUNTER_1279179445" index="41"/>
+			<column name="COUNTER_1279179446" index="42"/>
+			<column name="COUNTER_1279179447" index="43"/>
+			<column name="COUNTER_1279179448" index="44"/>
+			<column name="COUNTER_1279179449" index="45"/>
+			<column name="COUNTER_1279179450" index="46"/>
+			<column name="COUNTER_1279179451" index="47"/>
+			<column name="COUNTER_1279179452" index="48"/>
+			<column name="COUNTER_1279179453" index="49"/>
+			<column name="COUNTER_1282411751" index="50"/>
+			<column name="COUNTER_1282411752" index="51"/>
+			<column name="COUNTER_1282411753" index="52"/>
+			<column name="COUNTER_1282411754" index="53"/>
+			<column name="COUNTER_1282411755" index="54"/>
+			<column name="COUNTER_1282411756" index="55"/>
+			<column name="COUNTER_1282411757" index="56"/>
+			<column name="COUNTER_1282411758" index="57"/>
+			<column name="COUNTER_1282411759" index="58"/>
+			<column name="COUNTER_1282411760" index="59"/>
+			<column name="COUNTER_1282423948" index="60"/>
+			<column name="COUNTER_1282423949" index="61"/>
+			<column name="COUNTER_1282423950" index="62"/>
+			<column name="COUNTER_1282423951" index="63"/>
+			<column name="COUNTER_1282423952" index="64"/>
+		</table>
+	</templet>
+	<templet id="41">
+		<table id="0" name="clt_pm_hw_v9r11_1275072617" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279269417" index="13"/>
+			<column name="COUNTER_1279269418" index="14"/>
+			<column name="COUNTER_1279269419" index="15"/>
+		</table>
+	</templet>
+	<templet id="42">
+		<table id="0" name="clt_pm_hw_v9r11_1275072618" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279270417" index="13"/>
+			<column name="COUNTER_1279270418" index="14"/>
+			<column name="COUNTER_1279270419" index="15"/>
+			<column name="COUNTER_1279270420" index="16"/>
+			<column name="COUNTER_1279270421" index="17"/>
+			<column name="COUNTER_1279270422" index="18"/>
+			<column name="COUNTER_1279270423" index="19"/>
+			<column name="COUNTER_1279270424" index="20"/>
+			<column name="COUNTER_1279270425" index="21"/>
+			<column name="COUNTER_1279270426" index="22"/>
+			<column name="COUNTER_1279270427" index="23"/>
+			<column name="COUNTER_1279270428" index="24"/>
+			<column name="COUNTER_1279270429" index="25"/>
+			<column name="COUNTER_1279270430" index="26"/>
+			<column name="COUNTER_1279270431" index="27"/>
+			<column name="COUNTER_1279270432" index="28"/>
+			<column name="COUNTER_1279270433" index="29"/>
+			<column name="COUNTER_1279270434" index="30"/>
+			<column name="COUNTER_1279270435" index="31"/>
+			<column name="COUNTER_1279270436" index="32"/>
+			<column name="COUNTER_1279270437" index="33"/>
+			<column name="COUNTER_1279270438" index="34"/>
+			<column name="COUNTER_1279270439" index="35"/>
+			<column name="COUNTER_1279270440" index="36"/>
+			<column name="COUNTER_1279270441" index="37"/>
+			<column name="COUNTER_1279270442" index="38"/>
+			<column name="COUNTER_1279270443" index="39"/>
+			<column name="COUNTER_1279270444" index="40"/>
+			<column name="COUNTER_1279270445" index="41"/>
+			<column name="COUNTER_1279270446" index="42"/>
+			<column name="COUNTER_1279270447" index="43"/>
+			<column name="COUNTER_1279270448" index="44"/>
+			<column name="COUNTER_1279270449" index="45"/>
+			<column name="COUNTER_1279270450" index="46"/>
+			<column name="COUNTER_1279270451" index="47"/>
+			<column name="COUNTER_1279270452" index="48"/>
+			<column name="COUNTER_1279270453" index="49"/>
+			<column name="COUNTER_1279270454" index="50"/>
+			<column name="COUNTER_1279270455" index="51"/>
+			<column name="COUNTER_1279270456" index="52"/>
+			<column name="COUNTER_1279270457" index="53"/>
+			<column name="COUNTER_1279270458" index="54"/>
+			<column name="COUNTER_1279270459" index="55"/>
+			<column name="COUNTER_1279270460" index="56"/>
+			<column name="COUNTER_1279270461" index="57"/>
+			<column name="COUNTER_1279270462" index="58"/>
+			<column name="COUNTER_1279270463" index="59"/>
+			<column name="COUNTER_1279270464" index="60"/>
+			<column name="COUNTER_1279270465" index="61"/>
+			<column name="COUNTER_1279270466" index="62"/>
+			<column name="COUNTER_1279270467" index="63"/>
+			<column name="COUNTER_1279270468" index="64"/>
+			<column name="COUNTER_1279270469" index="65"/>
+			<column name="COUNTER_1279270470" index="66"/>
+			<column name="COUNTER_1279270471" index="67"/>
+			<column name="COUNTER_1279270472" index="68"/>
+			<column name="COUNTER_1279270473" index="69"/>
+			<column name="COUNTER_1279270474" index="70"/>
+			<column name="COUNTER_1279270475" index="71"/>
+			<column name="COUNTER_1279270476" index="72"/>
+			<column name="COUNTER_1279270477" index="73"/>
+			<column name="COUNTER_1279270478" index="74"/>
+			<column name="COUNTER_1279270479" index="75"/>
+			<column name="COUNTER_1279270480" index="76"/>
+			<column name="COUNTER_1279270481" index="77"/>
+			<column name="COUNTER_1279270482" index="78"/>
+			<column name="COUNTER_1279270483" index="79"/>
+			<column name="COUNTER_1279270484" index="80"/>
+			<column name="COUNTER_1279270485" index="81"/>
+			<column name="COUNTER_1279270486" index="82"/>
+			<column name="COUNTER_1279270487" index="83"/>
+			<column name="COUNTER_1279270488" index="84"/>
+			<column name="COUNTER_1279270489" index="85"/>
+			<column name="COUNTER_1279270490" index="86"/>
+			<column name="COUNTER_1279270491" index="87"/>
+			<column name="COUNTER_1279270492" index="88"/>
+			<column name="COUNTER_1279270493" index="89"/>
+			<column name="COUNTER_1279270494" index="90"/>
+			<column name="COUNTER_1279270495" index="91"/>
+			<column name="COUNTER_1279270496" index="92"/>
+			<column name="COUNTER_1279270497" index="93"/>
+			<column name="COUNTER_1279270498" index="94"/>
+			<column name="COUNTER_1279270499" index="95"/>
+			<column name="COUNTER_1282411889" index="96"/>
+			<column name="COUNTER_1282411890" index="97"/>
+			<column name="COUNTER_1282411891" index="98"/>
+			<column name="COUNTER_1282411892" index="99"/>
+			<column name="COUNTER_1282411893" index="100"/>
+			<column name="COUNTER_1282411894" index="101"/>
+			<column name="COUNTER_1282411895" index="102"/>
+			<column name="COUNTER_1282411896" index="103"/>
+			<column name="COUNTER_1282411897" index="104"/>
+			<column name="COUNTER_1282411898" index="105"/>
+			<column name="COUNTER_1282411899" index="106"/>
+			<column name="COUNTER_1282411900" index="107"/>
+		</table>
+	</templet>
+	<templet id="43">
+		<table id="0" name="clt_pm_hw_v9r11_1275072717" split="|">
+			<column name="STARTTIME" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STARTTIMEDSTOFFSET" index="1"/>
+			<column name="SVRSTARTTIME" index="2" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="STSVRDSTOFFSET" index="3"/>
+			<column name="ENDTIME" index="4" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ENDTIMEDSTOFFSET" index="5"/>
+			<column name="SVRENDTIME" index="6" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="ETSVRDSTOFFSET" index="7"/>
+			<column name="INSERTTIME" index="8" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="TIMEZONEOFFSET" index="9"/>
+			<column name="OBJECTNO" index="10"/>
+			<column name="GRANULITYPERIOD" index="11"/>
+			<column name="RESULTRELIABLITYFLAG" index="12"/>
+			<column name="COUNTER_1279270417" index="13"/>
+			<column name="COUNTER_1279270418" index="14"/>
+			<column name="COUNTER_1279270419" index="15"/>
+			<column name="COUNTER_1279270420" index="16"/>
+			<column name="COUNTER_1279270421" index="17"/>
+			<column name="COUNTER_1279270422" index="18"/>
+			<column name="COUNTER_1279270423" index="19"/>
+			<column name="COUNTER_1279270424" index="20"/>
+			<column name="COUNTER_1279270425" index="21"/>
+			<column name="COUNTER_1279270426" index="22"/>
+			<column name="COUNTER_1279270427" index="23"/>
+			<column name="COUNTER_1279270428" index="24"/>
+			<column name="COUNTER_1279270429" index="25"/>
+			<column name="COUNTER_1279270430" index="26"/>
+			<column name="COUNTER_1279270431" index="27"/>
+			<column name="COUNTER_1279270432" index="28"/>
+			<column name="COUNTER_1279270433" index="29"/>
+			<column name="COUNTER_1279270434" index="30"/>
+			<column name="COUNTER_1279270435" index="31"/>
+			<column name="COUNTER_1279270436" index="32"/>
+			<column name="COUNTER_1279270437" index="33"/>
+			<column name="COUNTER_1279270438" index="34"/>
+			<column name="COUNTER_1279270439" index="35"/>
+			<column name="COUNTER_1279270440" index="36"/>
+			<column name="COUNTER_1279270441" index="37"/>
+			<column name="COUNTER_1279270442" index="38"/>
+			<column name="COUNTER_1279270443" index="39"/>
+			<column name="COUNTER_1279270444" index="40"/>
+			<column name="COUNTER_1279270445" index="41"/>
+			<column name="COUNTER_1279270446" index="42"/>
+			<column name="COUNTER_1279270447" index="43"/>
+			<column name="COUNTER_1279270448" index="44"/>
+			<column name="COUNTER_1279270449" index="45"/>
+			<column name="COUNTER_1279270450" index="46"/>
+			<column name="COUNTER_1279270451" index="47"/>
+			<column name="COUNTER_1279270452" index="48"/>
+			<column name="COUNTER_1279270453" index="49"/>
+			<column name="COUNTER_1279270454" index="50"/>
+			<column name="COUNTER_1279270455" index="51"/>
+			<column name="COUNTER_1279270456" index="52"/>
+			<column name="COUNTER_1279270457" index="53"/>
+			<column name="COUNTER_1279270458" index="54"/>
+			<column name="COUNTER_1279270459" index="55"/>
+			<column name="COUNTER_1279270460" index="56"/>
+			<column name="COUNTER_1279270461" index="57"/>
+			<column name="COUNTER_1279270462" index="58"/>
+			<column name="COUNTER_1279270463" index="59"/>
+			<column name="COUNTER_1279270464" index="60"/>
+			<column name="COUNTER_1279270465" index="61"/>
+			<column name="COUNTER_1279270466" index="62"/>
+			<column name="COUNTER_1279270467" index="63"/>
+			<column name="COUNTER_1279270468" index="64"/>
+			<column name="COUNTER_1279270469" index="65"/>
+			<column name="COUNTER_1279270470" index="66"/>
+			<column name="COUNTER_1279270471" index="67"/>
+			<column name="COUNTER_1279270472" index="68"/>
+			<column name="COUNTER_1279270473" index="69"/>
+			<column name="COUNTER_1279270474" index="70"/>
+			<column name="COUNTER_1279270475" index="71"/>
+			<column name="COUNTER_1279270476" index="72"/>
+			<column name="COUNTER_1279270477" index="73"/>
+			<column name="COUNTER_1279270478" index="74"/>
+			<column name="COUNTER_1279270479" index="75"/>
+			<column name="COUNTER_1279270480" index="76"/>
+			<column name="COUNTER_1279270481" index="77"/>
+			<column name="COUNTER_1279270482" index="78"/>
+			<column name="COUNTER_1279270483" index="79"/>
+			<column name="COUNTER_1279270484" index="80"/>
+			<column name="COUNTER_1279270485" index="81"/>
+			<column name="COUNTER_1279270486" index="82"/>
+			<column name="COUNTER_1279270487" index="83"/>
+			<column name="COUNTER_1279270488" index="84"/>
+			<column name="COUNTER_1279270489" index="85"/>
+			<column name="COUNTER_1279270490" index="86"/>
+			<column name="COUNTER_1279270491" index="87"/>
+			<column name="COUNTER_1279270492" index="88"/>
+			<column name="COUNTER_1279270493" index="89"/>
+			<column name="COUNTER_1279270494" index="90"/>
+			<column name="COUNTER_1279270495" index="91"/>
+			<column name="COUNTER_1279270496" index="92"/>
+			<column name="COUNTER_1279270497" index="93"/>
+			<column name="COUNTER_1279270498" index="94"/>
+			<column name="COUNTER_1279270499" index="95"/>
+			<column name="COUNTER_1282411889" index="96"/>
+			<column name="COUNTER_1282411890" index="97"/>
+			<column name="COUNTER_1282411891" index="98"/>
+			<column name="COUNTER_1282411892" index="99"/>
+			<column name="COUNTER_1282411893" index="100"/>
+			<column name="COUNTER_1282411894" index="101"/>
+			<column name="COUNTER_1282411895" index="102"/>
+			<column name="COUNTER_1282411896" index="103"/>
+			<column name="COUNTER_1282411897" index="104"/>
+			<column name="COUNTER_1282411898" index="105"/>
+			<column name="COUNTER_1282411899" index="106"/>
+			<column name="COUNTER_1282411900" index="107"/>
+		</table>
+	</templet>
+</templets>

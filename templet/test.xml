@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<templets>
+
+<templet id="0" fromTable="test1" toTable="test1" used="1" occur="0" condition=""></templet>
+
+<templet id="1" fromTable="test2" toTable="test2" used="1" occur="0" condition=""></templet>
+
+
+</templets>

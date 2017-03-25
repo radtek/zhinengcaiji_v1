@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="clt_am_hw_fl_eventlog" split=";">
+			<column name="LOG_NO" index="0"/>
+			<column name="PRODUCT_NAME" index="1"/>
+			<column name="NET_TYPE" index="2"/>
+			<column name="NET_NAME" index="3"/>
+			<column name="ALARM_NO" index="4"/>
+			<column name="ALARM_NAME" index="5"/>
+			<column name="ALARM_TYPE" index="6"/>
+			<column name="ALARM_LEVEL" index="7"/>
+			<column name="HAPPEN_TIME" index="8"/>
+			<column name="LOC_INFO" index="9"/>
+			<column name="LINK_FLAG" index="10"/>
+			<column name="LINK_NAME" index="11"/>
+			<column name="LINK_TYPE" index="12"/>
+			<column name="ALARM_FLAG" index="13"/>
+			<column name="ALARM_ID" index="14"/>
+			<column name="INSTANCE_TYPE" index="15"/>
+			<column name="BIZ_FLAG" index="16"/>
+			<column name="ADD_INFO" index="17"/>
+			<column name="ARRIVE_TIME" index="18"/>
+			<column name="PROXY_ID" index="19"/>
+			<column name="SOURCE_ALARM_ID" index="20"/>
+			<column name="IS_HIDEN" index="21"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="clt_am_hw_fl_alarmlog" split=";">
+			<column name="LOG_NO" index="0"/>
+			<column name="PRODUCT_NAME" index="1"/>
+			<column name="NET_TYPE" index="2"/>
+			<column name="NET_NAME" index="3"/>
+			<column name="ALARM_NO" index="4"/>
+			<column name="ALARM_NAME" index="5"/>
+			<column name="ALARM_TYPE" index="6"/>
+			<column name="ALARM_LEVEL" index="7"/>
+			<column name="ALARM_STATUS" index="8"/>
+			<column name="HAPPEN_TIME" index="9"/>
+			<column name="AFFIRM_TIME" index="10"/>
+			<column name="CLEAR_TIME" index="11"/>
+			<column name="AFFIRM_WORKER" index="12"/>
+			<column name="CLEAR_WORKER" index="13"/>
+			<column name="LOC_INFO" index="14"/>
+			<column name="LINK_FLAG" index="15"/>
+			<column name="LINK_NAME" index="16"/>
+			<column name="LINK_TYPE" index="17"/>
+			<column name="ALARM_FLAG" index="18"/>
+			<column name="ALARM_ID" index="19"/>
+			<column name="INSTANCE_TYPE" index="20"/>
+			<column name="AUTO_CLEAR" index="21"/>
+			<column name="ALARM_CLEAR_TYPE" index="22"/>
+			<column name="AFFECT_BIZ_FLAG" index="23"/>
+			<column name="ADD_INFO" index="24"/>
+			<column name="ARRIVE_TIME" index="25"/>
+			<column name="LIST_NO" index="26"/>
+			<column name="RELATED_LOG_ID" index="27"/>
+			<column name="PROXY_ID" index="28"/>
+			<column name="SOURCE_ALARM_ID" index="29"/>
+			<column name="IS_HIDEN" index="30"/>
+		</table>
+	</templet>
+</templets>

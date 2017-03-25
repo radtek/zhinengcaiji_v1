@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!--<w-al-reserv-rnc>BD_RNC220</w-al-reserv-rnc> -->
+	<ftpServer enable="true">
+		<rootDir>D:\data\uway\projects\ftp_root\</rootDir>
+		<port>2121</port>
+		<username>admin</username>
+		<password>admin</password>
+		<canWrite>true</canWrite>
+	</ftpServer>
+	<system>
+		<isSPAS>false</isSPAS>
+		<spasLoggingPort>514</spasLoggingPort>
+		<currentPath>E:\Workspace\igp1\data</currentPath>
+		<currentSourcePath>E:\Workspace1</currentSourcePath> <!-- 江苏终端更新个性化需求 -->
+		<templetFilePath>templet</templetFilePath>
+		<fieldMatch>0.99</fieldMatch>
+		<port>9876</port>
+		<zipTool>D:\Program Files (x86)\Haozip</zipTool>
+		<maxThreadCount>200</maxThreadCount>
+		<maxCltCount>200</maxCltCount> <!-- 最大正常任务线程数 -->
+		<maxRecltCount>100</maxRecltCount><!-- 最大补采任务线程数 -->
+		<maxCountPerRegather>50</maxCountPerRegather><!-- 扫描补采任务时最大rowNum -->
+		<maxSessionCount>5</maxSessionCount><!-- 本机连接单个设备ip的最大会话数 -->
+		
+		<maxCltSelectTime>30</maxCltSelectTime><!-- 查询对方库消耗最大时间（分钟）-->
+		<maxCltSelectParallelCount>3</maxCltSelectParallelCount><!--一个采集任务，数据库采集最大select并行个数 -->
+		
+		<sqlldr>
+			<maxSqlldrProCount>30</maxSqlldrProCount><!-- 调用本地sqlldr的最大进程数 -->
+		</sqlldr>
+		<version>
+			<edition>1.2.6.4</edition>
+			<releaseTime>2016-10-28 11:30:00</releaseTime>
+		</version>
+		<ftpPortMode>false</ftpPortMode>
+		<ftpSingleFileTimeOut>60</ftpSingleFileTimeOut><!-- ftp下载单个文件超时时间，单位为秒(s) ，默认60s-->
+		<zipFileSuffixs>.Z,.z</zipFileSuffixs><!--支持解压的后缀名，可以,分开 -->
+	</system>
+	<tempFileCleaner enable="true">
+		<timeMinutes>1000</timeMinutes>
+		<extensions>log,ctl,txt,bad</extensions>
+		<intervalMinutes>60</intervalMinutes>
+	</tempFileCleaner>
+	<db>
+		<name>IGP_DB_POOL</name>
+		<type>javax.sql.DataSource</type>
+		<driverClassName>oracle.jdbc.driver.OracleDriver</driverClassName>
+		<url>jdbc:oracle:thin:@(DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.15.223)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME =ora11)
+    )
+  )</url><!-- ora11 -->
+		<user>wcdma</user><!-- wcdma -->
+		<password>uwaysoft2010</password><!--  -->
+		<service>ora11</service>
+		
+		<db_type>oracle</db_type>
+	    <db_num>1000</db_num>
+		<conn_type>jdbc</conn_type>
+		
+		<maxActive>12</maxActive>
+		<maxIdle>5</maxIdle>
+		<maxWait>10000</maxWait>
+		<validationQuery>select 1 from dual</validationQuery>
+		<queryTimeout>60</queryTimeout>
+		
+		
+		<!-- 厂家数据库连接池的配置，默认开启，false/off关闭（针对数据库接口的采集任务） -->
+		<remote enable="false">
+			<maxActive>12</maxActive>
+			<maxIdle>5</maxIdle>
+			<maxWait>240000</maxWait>
+		</remote>
+	</db>
+	
+	<module>
+		<web enable="off">
+			<charset>UTF-8</charset>
+			<port>8080</port>
+			<httpServer>
+				<class>web.server.Jetty</class>
+				<webapp>.\WebRoot</webapp>
+				<contextpath>/</contextpath>
+				<loglevel>INFO</loglevel>
+			</httpServer>
+		</web>
+
+		<alarm enable="off">
+			<senderBean>alarm.EMailAlarmSender</senderBean>
+			<filters>
+				<newAlarm>
+					<filter>alarm.insertrule.TimeFilter</filter>
+				</newAlarm>
+			</filters>
+		</alarm>
+
+		<dataFileLifecycle enable="off">
+			<fileExt>.uway_dc_flag</fileExt>
+			<lifecycle>4320</lifecycle>
+			<delWhenOff>true</delWhenOff>
+		</dataFileLifecycle>
+
+		<dataLog enable="off">               <!-- 是否开启数据库日志（on表示启用，off表示不启用），记入IGP_DATA_LOG表 -->
+			<interval>100</interval>         <!-- 每隔多少条日志，向数据库提交一次 -->
+			<sqlldrMode>true</sqlldrMode>   <!-- true表示用sqlldr方式向数据库提交日志，false表示用普通方式（批量insert）提交 -->
+			<delTmpFile>true</delTmpFile>    <!-- sqlldr方式提交日志时，是否删除临时文件 -->
+		</dataLog>
+
+		<delayProbe enable="on">             <!-- 表示是否使用探针功能（on表示启用，off表示不启用） -->
+			<probeTimes>3</probeTimes>       <!-- 连续探测到几次数据平衡时，开始采集 -->
+			<interval>3</interval>           <!-- 隔几分钟探测一次 -->
+			<log>true</log>                  <!-- 是否记录探测日志，记录在IGP程序的log/delay_log/目录下 -->
+			<ftp>false</ftp>                 <!-- 是否对FTP采集方式的任务进行探测 ，true为进行，false为不进行，默认不进行 -->
+		</delayProbe>
+
+	</module>
+	<externalTool>
+		<traceFileter2Path>tool\TraceFilter2.exe</traceFileter2Path>
+		<sqlldr>
+			<charset>ZHS16GBK</charset><!-- ZHS16GBK / UTF8 -->
+			<isDelLog>true</isDelLog>
+		</sqlldr>
+		<mail>
+			<smtp_host>mail.uway.cn</smtp_host>
+			<user>litp@uway.cn</user>
+			<password>98453256</password>
+			<to>litp@uway.cn</to>
+			<cc>litp@uway.cn</cc>
+			<bcc />
+		</mail>
+
+	</externalTool>
+	<mr>
+		<mrOutputPath>D:\\data\\uway\\datacollector_path</mrOutputPath>
+		<mrSource>1</mrSource>
+		<frontNum>1</frontNum>
+		<mrSingleCal>true</mrSingleCal>
+		<mrProcessId>0</mrProcessId>
+		<mrZipFlag>0</mrZipFlag>
+		<siteDistRange>0.12</siteDistRange>
+		<location>
+			<locateJava>1</locateJava>
+			<locate>1</locate>
+			<fast>true</fast>
+		</location>
+	</mr>
+	
+	<!-- pmReportedCqi64Qam,pmReportedCqi列处理：爱立信 W网 性能 是否做个性化处理（true为开，false为关）
+		1）当为true时：null+null=null，null+0=0，数值+数值=数值 ；
+		2）当为false时：null+null=0，null+0=0，数值+数值=数值 ；
+	-->
+	<eric_w_pm>
+		<isDeal>false</isDeal>
+	</eric_w_pm>
+	
+	<!-- 江苏LTE4G网络采集，采集表中用mmeid替换了omcid：解析时把omcid作为mmeid入库 -->
+	<lte>
+		<is4G>false</is4G>
+	</lte>
+	
+	<!-- 路测采集，采集中用于配制 异常事件代码 -->
+    <hwdtcdma>
+        <codes>1007,1013,1015,1303,106B,106E,1305,1328,1338,106F</codes>
+    </hwdtcdma>
+    
+    <!-- 联通W网华为性能、爱立信性能，通知第三方入库-->
+    <socketInfo>
+    	<hwPm><ip></ip><port></port></hwPm>
+    	<ericPm><ip></ip><port></port></ericPm>
+    </socketInfo>
+    
+    <tmp>
+        <omc_id></omc_id>
+          <task_id></task_id>
+        <src_path></src_path>
+        <data_time></data_time>
+    </tmp>
+	
+	<log4j>
+		<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+			<appender name="FILE" class="org.apache.log4j.RollingFileAppender">
+				<param name="File" value="log/system.log" />
+				<param name="Append" value="true" />
+				<param name="MaxBackupIndex" value="10" />
+				<layout class="org.apache.log4j.PatternLayout">
+					<param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%p] %m%n" />
+				</layout>
+			</appender>
+			<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+				<layout class="org.apache.log4j.PatternLayout">
+					<param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%p] %m%n" />
+				</layout>
+				<filter class="org.apache.log4j.varia.LevelRangeFilter">
+					<param name="LevelMin" value="INFO" />
+					<param name="LevelMax" value="FATAL" />
+				</filter>
+			</appender>
+
+			<root>
+				<priority value="debug" />
+				<appender-ref ref="FILE" />
+				<appender-ref ref="STDOUT" />
+			</root>
+		</log4j:configuration>
+	</log4j>
+</config>

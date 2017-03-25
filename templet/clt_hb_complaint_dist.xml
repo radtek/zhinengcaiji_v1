@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gbk"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_HB_COMPLAINT" split="|">
+		
+		<column name="SVC_ID"  index="0"/>
+<column name="SVC_CITY_NAME"  index="1"/>
+<column name="DISTRICT"  index="2"/>
+<column name="SVC_MOBILE"  index="3"/>
+<column name="SVC_CUSTOMER"  index="4"/>
+<column name="SVC_CONTACTER"  index="5"/>
+<column name="SVC_CONTACT_PHONE"  index="6"/>
+<column name="SVC_BUG_ADDRESS"  index="7" type="2" format="1000"/>
+<column name="SVC_CUSTOMER_TYPE"  index="8"/>
+<column name="SVC_MEMBER_ATT"  index="9"/>
+<column name="SVC_COMPLAINT_STATE"  index="10"/>
+<column name="SYSTEMNAME"  index="11"/>
+<column name="SVC_COMPLAINT_CATEGORY"  index="12"/>
+<column name="SVC_CONTROL_TYPE"  index="13"/>
+<column name="SVC_PHENOMENA_TYPE"  index="14"/>
+<column name="SVC_PHENOMENA_SUBTYPE"  index="15" type="2" format="1000"/>
+<column name="SVC_DETAILED_DESCRIPTION"  index="16" type="2" format="4000"/>
+<column name="SVC_PRO_INFORMATION"  index="17" type="2" format="4000"/>
+<column name="SVC_EMERGENCY_LEVEL"  index="18"/>
+<column name="SVC_ACCEPT_TIME"  index="19"  type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+<column name="SVC_EXPECT_CLOSED_TIME"  index="20" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+<column name="SVC_IS_REVISIT"  index="21"/>
+<column name="SVC_REVISIT_TIME"  index="22" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+<column name="USERFEEDBACK"  index="23" type="2" format="500"/>
+<column name="SVC_CUSTOMER_SATISFACTION"  index="24"/>
+<column name="SVC_CLOSED_TIME"  index="25" type="3" format="YYYY-MM-DD HH24:MI:SS"/>
+<column name="SVC_CLOSER"  index="26"/>
+<column name="SVC_CLOSED_DESCRIPTION"  index="27" type="2" format="4000"/>
+
+
+		</table>
+	</templet>
+
+	
+</templets>

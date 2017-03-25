@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_PM_ERI_R12_BSCGPRS" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="PAGCSCONG" index="6"/>
+			<column name="DISCDL" index="7"/>
+			<column name="DISCUL" index="8"/>
+			<column name="PAGCSBSC" index="9"/>
+			<column name="PAGPSBSC" index="10"/>
+			<column name="ALLPDCHPCUFAIL" index="11"/>
+			<column name="FAILMOVECELL" index="12"/>
+			<column name="NACCPCO" index="13"/>
+			<column name="ESUTONRM" index="14"/>
+			<column name="ESUDLTBF" index="15"/>
+			<column name="DELRELTONRM" index="16"/>
+			<column name="DELRELDLTBF" index="17"/>
+			<column name="EXULTIP" index="18"/>
+			<column name="EXULNRM" index="19"/>
+			<column name="GSL0040" index="20"/>
+			<column name="GSL4160" index="21"/>
+			<column name="GSL6180" index="22"/>
+			<column name="GSL8190" index="23"/>
+			<column name="GSL9100" index="24"/>
+			<column name="GSLMAX" index="25"/>
+			<column name="GSLUTIL" index="26"/>
+			<column name="GSLSCAN" index="27"/>
+			<column name="ALLPDCHPCUATT" index="28"/>
+			<column name="AQMDELIVDATA" index="29"/>
+			<column name="AQMRECDATA" index="30"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="CLT_PM_ERI_R12_CELEVENTD" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ID1" index="6"/>
+			<column name="DISNORM" index="7"/>
+			<column name="DISBQA" index="8"/>
+			<column name="DISETA" index="9"/>
+			<column name="DISBSS" index="10"/>
+			<column name="DISFER" index="11"/>
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="CLT_PM_ERI_R12_CELEVENTI" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ID1" index="6"/>
+			<column name="HOINUQA" index="7"/>
+			<column name="HOINSUC" index="8"/>
+			<column name="HOINBQA" index="9"/>
+			<column name="HOINDQA" index="10"/>
+			<column name="HOINBOCH" index="11"/>
+			<column name="BCDTCBCOM" index="12"/>
+			<column name="BCLOSSCOM" index="13"/>
+			<column name="BCDTCBSUC" index="14"/>
+			<column name="BCLOSSSUC" index="15"/>
+			<column name="HOSUCTCHOPT" index="16"/>
+			<column name="HOATTHRPACK" index="17"/>
+			<column name="HOSUCHRPACK" index="18"/>
+			<column name="HOINSRTL2BOCH" index="19"/>
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="CLT_PM_ERI_R12_CELLCCHDR" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="CDISSSSUB" index="6"/>
+			<column name="CDISQA" index="7"/>
+			<column name="CDISSS" index="8"/>
+			<column name="CDISSS1" index="9"/>
+			<column name="CDISSS2" index="10"/>
+			<column name="CDISSS3" index="11"/>
+			<column name="CDISSS4" index="12"/>
+			<column name="CDISSS5" index="13"/>
+			<column name="CDISTA" index="14"/>
+			<column name="CDISQASUB" index="15"/>
+		</table>
+	</templet>
+	<templet id="4">
+		<table id="0" name="CLT_PM_ERI_R12_CELLCCHHO" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ID1" index="6"/>
+			<column name="CCHHOTOCH" index="7"/>
+			<column name="CCHHOCNT" index="8"/>
+			<column name="CCHHOSUC" index="9"/>
+		</table>
+	</templet>
+	<templet id="5">
+		<table id="0" name="CLT_PM_ERI_R12_CELLGPRS" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="RETRANSDL" index="6"/>
+			<column name="ALLPDCHACTACC" index="7"/>
+			<column name="ALLPDCHSCAN" index="8"/>
+			<column name="RETRANSUL" index="9"/>
+			<column name="PCHALLATT" index="10"/>
+			<column name="PDRAC" index="11"/>
+			<column name="PAGCSBVCI" index="12"/>
+			<column name="PPAGCSBVCI" index="13"/>
+			<column name="RBCDL" index="14"/>
+			<column name="PREEMPTPDCH" index="15"/>
+			<column name="RBCUL" index="16"/>
+			<column name="ALLPDCHACC" index="17"/>
+			<column name="PCHALLFAIL" index="18"/>
+			<column name="ALLPDCHPEAK" index="19"/>
+			<column name="PDPRAC" index="20"/>
+			<column name="MC19ULSCHED" index="21"/>
+			<column name="MC19ULACK" index="22"/>
+			<column name="DLTBFEST" index="23"/>
+			<column name="FAILDLTBFEST" index="24"/>
+			<column name="TBFPREEMPEST" index="25"/>
+			<column name="PREEMPTTBF" index="26"/>
+			<column name="MOVECELLTBF" index="27"/>
+			<column name="CELLMOVED" index="28"/>
+			<column name="CS12ULSCHED" index="29"/>
+			<column name="CS12DLSCHED" index="30"/>
+			<column name="CS12ULACK" index="31"/>
+			<column name="CS12DLACK" index="32"/>
+			<column name="MC19QULSCHED" index="33"/>
+			<column name="MC19QULACK" index="34"/>
+			<column name="MSESTDLTBF" index="35"/>
+			<column name="LDISEST" index="36"/>
+			<column name="FAILDLANSW" index="37"/>
+		</table>
+	</templet>
+	<templet id="6">
+		<table id="0" name="CLT_PM_ERI_R12_CELLGPRS2" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="LDISTFI" index="6"/>
+			<column name="IAULREL" index="7"/>
+			<column name="LDISRR" index="8"/>
+			<column name="PREJOTH" index="9"/>
+			<column name="LDISOTH" index="10"/>
+			<column name="PREJTFI" index="11"/>
+			<column name="FLUDISC" index="12"/>
+			<column name="PSCHREQ" index="13"/>
+			<column name="FLUMOVE" index="14"/>
+			<column name="PCHRREQ" index="15"/>
+			<column name="PCHRZRETRY" index="16"/>
+			<column name="PCHROPRETRY" index="17"/>
+			<column name="PCHRSCAN" index="18"/>
+			<column name="PAGDISCPPCH" index="19"/>
+			<column name="PAGCSONPPCH" index="20"/>
+			<column name="PAGPSONPPCH" index="21"/>
+			<column name="PMTATT" index="22"/>
+			<column name="PMTREF" index="23"/>
+			<column name="CS14DLSCHED" index="24"/>
+			<column name="MC19DLSCHED" index="25"/>
+			<column name="PREEMPTULREL" index="26"/>
+			<column name="OTHULREL" index="27"/>
+			<column name="MSESTULTBF" index="28"/>
+			<column name="MC19DLACK" index="29"/>
+			<column name="CS14DLACK" index="30"/>
+			<column name="CS14QDLSCHED" index="31"/>
+			<column name="CS14QDLACK" index="32"/>
+			<column name="MC19QDLSCHED" index="33"/>
+			<column name="MC19QDLACK" index="34"/>
+			<column name="CRSULREL" index="35"/>
+		</table>
+	</templet>
+	<templet id="7">
+		<table id="0" name="CLT_PM_ERI_R12_CELLQOSEG" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ULTHP2EGDATA" index="6"/>
+			<column name="DLBGEGDATA" index="7"/>
+			<column name="ULBGEGDATA" index="8"/>
+			<column name="DLTHP1EGDATA" index="9"/>
+			<column name="ULTHP1EGDATA" index="10"/>
+			<column name="DLTHP3EGDATA" index="11"/>
+			<column name="ULTHP3EGDATA" index="12"/>
+			<column name="DLTHP2EGDATA" index="13"/>
+			<column name="ULTHP1EGTHR" index="14"/>
+			<column name="DLTHP1EGTHR" index="15"/>
+			<column name="ULTHP2EGTHR" index="16"/>
+			<column name="DLTHP2EGTHR" index="17"/>
+			<column name="ULTHP3EGTHR" index="18"/>
+			<column name="DLTHP3EGTHR" index="19"/>
+			<column name="ULBGEGTHR" index="20"/>
+			<column name="DLBGEGTHR" index="21"/>
+			<column name="ULTHP1EGPFC" index="22"/>
+			<column name="DLTHP1EGPFC" index="23"/>
+			<column name="ULTHP2EGPFC" index="24"/>
+			<column name="DLTHP2EGPFC" index="25"/>
+			<column name="ULTHP3EGPFC" index="26"/>
+			<column name="DLTHP3EGPFC" index="27"/>
+			<column name="ULBGEGPFC" index="28"/>
+			<column name="DLBGEGPFC" index="29"/>
+		</table>
+	</templet>
+	<templet id="8">
+		<table id="0" name="CLT_PM_ERI_R12_CELLQOSG" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ULTHP1GDATA" index="6"/>
+			<column name="ULBGGDATA" index="7"/>
+			<column name="DLTHP2GDATA" index="8"/>
+			<column name="ULTHP3GDATA" index="9"/>
+			<column name="DLTHP1GDATA" index="10"/>
+			<column name="ULTHP2GDATA" index="11"/>
+			<column name="DLBGGDATA" index="12"/>
+			<column name="DLTHP3GDATA" index="13"/>
+			<column name="ULTHP1GTHR" index="14"/>
+			<column name="DLTHP1GTHR" index="15"/>
+			<column name="ULTHP2GTHR" index="16"/>
+			<column name="DLTHP2GTHR" index="17"/>
+			<column name="ULTHP3GTHR" index="18"/>
+			<column name="DLTHP3GTHR" index="19"/>
+			<column name="ULBGGTHR" index="20"/>
+			<column name="DLBGGTHR" index="21"/>
+			<column name="ULTHP1GPFC" index="22"/>
+			<column name="DLTHP1GPFC" index="23"/>
+			<column name="ULTHP2GPFC" index="24"/>
+			<column name="DLTHP2GPFC" index="25"/>
+			<column name="ULTHP3GPFC" index="26"/>
+			<column name="DLTHP3GPFC" index="27"/>
+			<column name="ULBGGPFC" index="28"/>
+			<column name="DLBGGPFC" index="29"/>
+		</table>
+	</templet>
+	<templet id="9">
+		<table id="0" name="CLT_PM_ERI_R12_CELLSQI" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="TSQIGOODSUB" index="6"/>
+			<column name="TSQIACCPTSUB" index="7"/>
+			<column name="TSQIBAD" index="8"/>
+			<column name="TSQIGOOD" index="9"/>
+			<column name="TSQIBADSUB" index="10"/>
+			<column name="TSQIACCPT" index="11"/>
+			<column name="TSQIGOODAF" index="12"/>
+			<column name="TSQIGOODAH" index="13"/>
+			<column name="TSQIGOODSUBAF" index="14"/>
+			<column name="TSQIGOODSUBAH" index="15"/>
+			<column name="TSQIACCPTAF" index="16"/>
+			<column name="TSQIACCPTAH" index="17"/>
+			<column name="TSQIACCPTSUBAF" index="18"/>
+			<column name="TSQIACCPTSUBAH" index="19"/>
+			<column name="TSQIBADAF" index="20"/>
+			<column name="TSQIBADAH" index="21"/>
+			<column name="TSQIBADSUBAF" index="22"/>
+			<column name="TSQIBADSUBAH" index="23"/>
+			<column name="TSQIGOODAW" index="24"/>
+			<column name="TSQIGOODSUBAW" index="25"/>
+			<column name="TSQIACCPTAW" index="26"/>
+			<column name="TSQIACCPTSUBAW" index="27"/>
+			<column name="TSQIBADAW" index="28"/>
+			<column name="TSQIBADSUBAW" index="29"/>
+		</table>
+	</templet>
+	<templet id="10">
+		<table id="0" name="CLT_PM_ERI_R12_CELTCHF" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="TFMSESTB" index="6"/>
+			<column name="TFCONGSHO" index="7"/>
+			<column name="TFCASSALL" index="8"/>
+			<column name="TFCASSALLSUB" index="9"/>
+			<column name="TFCALLSSUB" index="10"/>
+			<column name="TFTRALSUB" index="11"/>
+			<column name="TFTCONGS" index="12"/>
+			<column name="TFTHARDCONGSSUB" index="13"/>
+			<column name="TFCONGSAS" index="14"/>
+			<column name="TFNDROP" index="15"/>
+			<column name="TFCONGSASSUB" index="16"/>
+			<column name="TFTCONSUB" index="17"/>
+			<column name="TFCALLS" index="18"/>
+			<column name="TFMSESTBSUB" index="19"/>
+			<column name="TFNSCAN" index="20"/>
+			<column name="TFCONGSHOSUB" index="21"/>
+			<column name="TFTRALACC" index="22"/>
+			<column name="TFTHARDCONGS" index="23"/>
+			<column name="TFNRELCONG" index="24"/>
+			<column name="TFNRELCONGSUB" index="25"/>
+			<column name="TFNDROPSUB" index="26"/>
+			<column name="TFNCEDROP" index="27"/>
+			<column name="TFNCEDROPSUB" index="28"/>
+		</table>
+	</templet>
+	<templet id="11">
+		<table id="0" name="CLT_PM_ERI_R12_CELTCHFP" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="TFTRALPACC" index="6"/>
+			<column name="TFDROPPGSMSUB" index="7"/>
+			<column name="TFDROPPGSM" index="8"/>
+			<column name="TFCONGPGSMSUB" index="9"/>
+			<column name="TFNSCAN" index="10"/>
+			<column name="TFCONGPGSM" index="11"/>
+			<column name="TFTRALPACCSUB" index="12"/>
+			<column name="TFESTPGSM" index="13"/>
+			<column name="TFESTPGSMSUB" index="14"/>
+		</table>
+	</templet>
+	<templet id="12">
+		<table id="0" name="CLT_PM_ERI_R12_CELTCHH" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="THTRALACC" index="6"/>
+			<column name="THCONGSHOSUB" index="7"/>
+			<column name="THNDROP" index="8"/>
+			<column name="THCONGSAS" index="9"/>
+			<column name="THNRELCONG" index="10"/>
+			<column name="THCALLS" index="11"/>
+			<column name="THTCONSUB" index="12"/>
+			<column name="THMSESTB" index="13"/>
+			<column name="THNDROPSUB" index="14"/>
+			<column name="THCONGSHO" index="15"/>
+			<column name="THCONGSASSUB" index="16"/>
+			<column name="THNRELCONGSUB" index="17"/>
+			<column name="THCASSALL" index="18"/>
+			<column name="THNSCAN" index="19"/>
+			<column name="THTCONGS" index="20"/>
+			<column name="THMSESTBSUB" index="21"/>
+			<column name="THTRALSUB" index="22"/>
+			<column name="THCALLSSUB" index="23"/>
+			<column name="THCASSALLSUB" index="24"/>
+			<column name="THTHARDCONGS" index="25"/>
+			<column name="THTHARDCONSUB" index="26"/>
+			<column name="THNCEDROP" index="27"/>
+			<column name="THNCEDROPSUB" index="28"/>
+		</table>
+	</templet>
+	<templet id="13">
+		<table id="0" name="CLT_PM_ERI_R12_CLSDCCH" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="CNRELCONG" index="6"/>
+			<column name="CNDROP" index="7"/>
+			<column name="CCALLS" index="8"/>
+			<column name="CTRALACC" index="9"/>
+			<column name="CAVAACC" index="10"/>
+			<column name="CNSCAN" index="11"/>
+			<column name="CNUCHCNT" index="12"/>
+			<column name="CTCONGS" index="13"/>
+			<column name="CCONGS" index="14"/>
+			<column name="CMSESTAB" index="15"/>
+			<column name="CAVASCAN" index="16"/>
+			<column name="CSCSTCONG" index="17"/>
+			<column name="CSCSOPTCONG" index="18"/>
+			<column name="CESTCHACTIV" index="19"/>
+			<column name="CESTIMMASS" index="20"/>
+		</table>
+	</templet>
+	<templet id="14">
+		<table id="0" name="CLT_PM_ERI_R12_CLSDCCHO" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="CAVASUB" index="6"/>
+			<column name="CAVASCANSUB" index="7"/>
+			<column name="CNRELCONGSUB" index="8"/>
+			<column name="CTCONSUB" index="9"/>
+			<column name="CNSCANSUB" index="10"/>
+			<column name="CMSESTABSUB" index="11"/>
+			<column name="CCALLSSUB" index="12"/>
+			<column name="CCONGSSUB" index="13"/>
+			<column name="CTRALSUB" index="14"/>
+			<column name="CNUCHSUB" index="15"/>
+		</table>
+	</templet>
+	<templet id="15">
+		<table id="0" name="CLT_PM_ERI_R12_CLSMS" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="CSMSUP" index="6"/>
+			<column name="CSMSDWN" index="7"/>
+			<column name="TSMSUP" index="8"/>
+			<column name="TSMSDWN" index="9"/>
+		</table>
+	</templet>
+	<templet id="16">
+		<table id="0" name="CLT_PM_ERI_R12_CLTCH" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="NONAVHCH" index="6"/>
+			<column name="TCHSIG" index="7"/>
+			<column name="TAVASCAN" index="8"/>
+			<column name="TNUCHSUB" index="9"/>
+			<column name="TCASSALL" index="10"/>
+			<column name="TAVASUB" index="11"/>
+			<column name="TAVASCANSUB" index="12"/>
+			<column name="TASSATT" index="13"/>
+			<column name="TASSALL" index="14"/>
+			<column name="TNUCHCNT" index="15"/>
+			<column name="NONAVFCH" index="16"/>
+			<column name="TAVAACC" index="17"/>
+			<column name="OVERLOADREJCON" index="18"/>
+		</table>
+	</templet>
+	<templet id="17">
+		<table id="0" name="CLT_PM_ERI_R12_CLTCHDRF" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="TFDISSS1" index="6"/>
+			<column name="TFDISSS2" index="7"/>
+			<column name="TFDISSS3" index="8"/>
+			<column name="TFDISSS4" index="9"/>
+			<column name="TFDISSS5" index="10"/>
+			<column name="TFDISQADL" index="11"/>
+			<column name="TFDISQADLSUB" index="12"/>
+			<column name="TFDISQAULSUB" index="13"/>
+			<column name="TFDISQABLSUB" index="14"/>
+			<column name="TFDISSDLSUB" index="15"/>
+			<column name="TFSUDLOSSUB" index="16"/>
+			<column name="TFDISSBLSUB" index="17"/>
+			<column name="TFDISSULSUB" index="18"/>
+			<column name="TFDISQAUL" index="19"/>
+			<column name="TFDISQA" index="20"/>
+			<column name="TFDISQABL" index="21"/>
+			<column name="TFDISSBL" index="22"/>
+			<column name="TFDISSDL" index="23"/>
+			<column name="TFDISSUL" index="24"/>
+			<column name="TFSUDLOS" index="25"/>
+			<column name="TFDISTA" index="26"/>
+			<column name="TFDISFERUL" index="27"/>
+			<column name="TFDISFERDL" index="28"/>
+			<column name="TFDISFERBL" index="29"/>
+			<column name="TFDISFERULSUB" index="30"/>
+			<column name="TFDISFERDLSUB" index="31"/>
+			<column name="TFDISFERBLSUB" index="32"/>
+		</table>
+	</templet>
+	<templet id="18">
+		<table id="0" name="CLT_PM_ERI_R12_CLTCHDRH" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="THDISQADLSUB" index="6"/>
+			<column name="THDISQABLSUB" index="7"/>
+			<column name="THDISQAULSUB" index="8"/>
+			<column name="THDISSULSUB" index="9"/>
+			<column name="THDISSBLSUB" index="10"/>
+			<column name="THDISSDLSUB" index="11"/>
+			<column name="THSUDLOSSUB" index="12"/>
+			<column name="THDISSS1" index="13"/>
+			<column name="THDISSS2" index="14"/>
+			<column name="THDISSS3" index="15"/>
+			<column name="THDISSS4" index="16"/>
+			<column name="THDISSS5" index="17"/>
+			<column name="THDISQABL" index="18"/>
+			<column name="THDISQADL" index="19"/>
+			<column name="THDISQAUL" index="20"/>
+			<column name="THDISQA" index="21"/>
+			<column name="THDISTA" index="22"/>
+			<column name="THDISSBL" index="23"/>
+			<column name="THDISSDL" index="24"/>
+			<column name="THDISSUL" index="25"/>
+			<column name="THSUDLOS" index="26"/>
+			<column name="THDISFERUL" index="27"/>
+			<column name="THDISFERDL" index="28"/>
+			<column name="THDISFERBL" index="29"/>
+			<column name="THDISFERULSUB" index="30"/>
+			<column name="THDISFERDLSUB" index="31"/>
+			<column name="THDISFERBLSUB" index="32"/>
+		</table>
+	</templet>
+	<templet id="19">
+		<table id="0" name="CLT_PM_ERI_R12_IDLEOTCHF" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ITFOSIB1" index="6"/>
+			<column name="ITFOSIB2" index="7"/>
+			<column name="ITFOSIB3" index="8"/>
+			<column name="ITFOSIB4" index="9"/>
+			<column name="ITFOSIB5" index="10"/>
+			<column name="NOACCOF" index="11"/>
+		</table>
+	</templet>
+	<templet id="20">
+		<table id="0" name="CLT_PM_ERI_R12_IDLEOTCHH" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ITHOSIB1" index="6"/>
+			<column name="ITHOSIB2" index="7"/>
+			<column name="ITHOSIB3" index="8"/>
+			<column name="ITHOSIB4" index="9"/>
+			<column name="ITHOSIB5" index="10"/>
+			<column name="NOACCOH" index="11"/>
+		</table>
+	</templet>
+	<templet id="21">
+		<table id="0" name="CLT_PM_ERI_R12_IDLEUTCHF" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ITFUSIB1" index="6"/>
+			<column name="ITFUSIB2" index="7"/>
+			<column name="ITFUSIB3" index="8"/>
+			<column name="ITFUSIB4" index="9"/>
+			<column name="ITFUSIB5" index="10"/>
+			<column name="NOACCUF" index="11"/>
+		</table>
+	</templet>
+	<templet id="22">
+		<table id="0" name="CLT_PM_ERI_R12_IDLEUTCHH" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ITHUSIB1" index="6"/>
+			<column name="ITHUSIB2" index="7"/>
+			<column name="ITHUSIB3" index="8"/>
+			<column name="ITHUSIB4" index="9"/>
+			<column name="ITHUSIB5" index="10"/>
+			<column name="NOACCUH" index="11"/>
+		</table>
+	</templet>
+	<templet id="23">
+		<table id="0" name="CLT_PM_ERI_R12_LAPD" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="CPROCOLERR" index="6"/>
+			<column name="CRECIFRAME" index="7"/>
+			<column name="CLINKFAIL" index="8"/>
+			<column name="CBADFRAME" index="9"/>
+			<column name="CRETRANSM" index="10"/>
+			<column name="CTRIFRAME" index="11"/>
+			<column name="COVERLOAD" index="12"/>
+		</table>
+	</templet>
+	<templet id="24">
+		<table id="0" name="CLT_PM_ERI_R12_LOAS" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="NOFFMHI" index="6"/>
+			<column name="NFTDORG" index="7"/>
+			<column name="NFTDIEX" index="8"/>
+			<column name="NOFFMLO" index="9"/>
+			<column name="NCAPREQCNT" index="10"/>
+			<column name="NOFFORG" index="11"/>
+			<column name="ACCLOAD" index="12"/>
+			<column name="NOFFIEX" index="13"/>
+			<column name="NFTDMHI" index="14"/>
+			<column name="NSCAN" index="15"/>
+			<column name="NFTDMLO" index="16"/>
+			<column name="NCAPREJCNT" index="17"/>
+			<column name="NOFFPRIO" index="18"/>
+			<column name="NOFFNPRIO" index="19"/>
+			<column name="NFTDPRIO" index="20"/>
+			<column name="NFTDNPRIO" index="21"/>
+			<column name="NOFFTCAP" index="22"/>
+			<column name="NFTDTCAP" index="23"/>
+		</table>
+	</templet>
+	<templet id="25">
+		<table id="0" name="CLT_PM_ERI_R12_MOTS" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="ID1" index="6"/>
+			<column name="ID2" index="7"/>
+			<column name="CONCNT" index="8"/>
+			<column name="CONERRCNT" index="9"/>
+		</table>
+	</templet>
+	<templet id="26">
+		<table id="0" name="CLT_PM_ERI_R12_NCELLREL" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOVERCNT" index="6"/>
+			<column name="HOVERSUC" index="7"/>
+			<column name="HORTTOCH" index="8"/>
+			<column name="HOSRTL2TOCH" index="9"/>
+		</table>
+	</templet>
+	<templet id="27">
+		<table id="0" name="CLT_PM_ERI_R12_NECELASS" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOASBCL" index="6"/>
+			<column name="HOSUCBCL" index="7"/>
+			<column name="HOASWCL" index="8"/>
+			<column name="HOSUCWCL" index="9"/>
+		</table>
+	</templet>
+	<templet id="28">
+		<table id="0" name="CLT_PM_ERI_R12_NECELHO" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOEXCTA" index="6"/>
+			<column name="HOUPLQA" index="7"/>
+			<column name="HOTOKCL" index="8"/>
+			<column name="HODWNQA" index="9"/>
+			<column name="HOTOHCS" index="10"/>
+			<column name="HOTOLCL" index="11"/>
+			<column name="HODUPFT" index="12"/>
+		</table>
+	</templet>
+	<templet id="29">
+		<table id="0" name="CLT_PM_ERI_R12_NECELHOEX" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOSUCHR" index="6"/>
+			<column name="HOATTHSS" index="7"/>
+			<column name="HOATTLSS" index="8"/>
+			<column name="HOATTHR" index="9"/>
+		</table>
+	</templet>
+	<templet id="30">
+		<table id="0" name="CLT_PM_ERI_R12_NECELLREL" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOVERCNT" index="6"/>
+			<column name="HOVERSUC" index="7"/>
+			<column name="HORTTOCH" index="8"/>
+			<column name="HOSRTL2TOCH" index="9"/>
+		</table>
+	</templet>
+	<templet id="31">
+		<table id="0" name="CLT_PM_ERI_R12_NICELASS" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOASBCL" index="6"/>
+			<column name="HOSUCBCL" index="7"/>
+			<column name="HOASWCL" index="8"/>
+			<column name="HOSUCWCL" index="9"/>
+		</table>
+	</templet>
+	<templet id="32">
+		<table id="0" name="CLT_PM_ERI_R12_NICELHO" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOEXCTA" index="6"/>
+			<column name="HOUPLQA" index="7"/>
+			<column name="HOTOKCL" index="8"/>
+			<column name="HODWNQA" index="9"/>
+			<column name="HOTOHCS" index="10"/>
+			<column name="HOTOLCL" index="11"/>
+			<column name="HODUPFT" index="12"/>
+		</table>
+	</templet>
+	<templet id="33">
+		<table id="0" name="CLT_PM_ERI_R12_NICELHOEX" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="HOSUCHR" index="6"/>
+			<column name="HOATTHSS" index="7"/>
+			<column name="HOATTLSS" index="8"/>
+			<column name="HOATTHR" index="9"/>
+		</table>
+	</templet>
+	<templet id="34">
+		<table id="0" name="CLT_PM_ERI_R12_RANDOMACC" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="RAOTHER" index="6"/>
+			<column name="RATRHFAOTHER" index="7"/>
+			<column name="CNROCNT" index="8"/>
+			<column name="RAANPAG" index="9"/>
+			<column name="RATRHFAREG" index="10"/>
+			<column name="RACALRE" index="11"/>
+			<column name="RAEMCAL" index="12"/>
+			<column name="RAACCFA" index="13"/>
+			<column name="RATRHFAEMCAL" index="14"/>
+			<column name="RAOSREQ" index="15"/>
+			<column name="RATRHFAANPAG" index="16"/>
+		</table>
+	</templet>
+	<templet id="35">
+		<table id="0" name="CLT_PM_ERI_R12_TRAPCOM" split="|">
+			<column name="NODEID" index="0"/>
+			<column name="START_DATE" index="1"/>
+			<column name="START_TIME" index="2"/>
+			<column name="END_TIME" index="3"/>
+			<column name="COLLECTION_INTERVAL_MINS" index="4"/>
+			<column name="OBJ_ID" index="5"/>
+			<column name="FRV3UNATT" index="6"/>
+			<column name="HRV1UNATT" index="7"/>
+			<column name="HRV3UNATT" index="8"/>
+			<column name="FRV2UNATT" index="9"/>
+			<column name="HRV2UNATT" index="10"/>
+			<column name="FRV1UNATT" index="11"/>
+			<column name="FRV5UNATT" index="12"/>
+		</table>
+	</templet>
+</templets>

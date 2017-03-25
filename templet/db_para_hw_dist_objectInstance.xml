@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="ds_clt_pm_objectinstance_hw" split="|">
+			<column name="objecttypeid" index="0" />
+			<column name="objectno" index="1" />
+			<column name="invalidtime" index="2" />
+			<column name="objectparameter" index="3" />
+			<column name="nefdn" index="4" />
+			<column name="nename" index="5" />
+			<column name="membernum" index="6" />
+			<column name="objectmember0" index="7" />
+			<column name="objectmemname0" index="8" />
+			<column name="objectmember1" index="9" />
+			<column name="objectmemname1" index="10" />
+			<column name="objectmember2" index="11" />
+			<column name="objectmemname2" index="12" />
+			<column name="objectmember3" index="13" />
+			<column name="objectmemname3" index="14" />
+			<column name="objectmember4" index="15" />
+			<column name="objectmemname4" index="16" />
+			<column name="objectmember5" index="17" />
+			<column name="objectmemname5" index="18" />
+			<column name="objectdescription" index="19" />
+			<column name="bamobjectstr" index="20" />
+			<column name="measurementstate" index="21" />
+		</table>
+	</templet>
+</templets>

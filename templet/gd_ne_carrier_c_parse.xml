@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="*">
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="BSC_ID" index="0" />
+				<field name="BTS_ID" index="1" />
+				<field name="CELL_ID" index="2" />
+				<field name="SECTOR_ID" index="3" />
+				<field name="地市编号" index="4" />
+				<field name="MSC_ID" index="5" />
+				<field name="基站名称" index="6" />
+				<field name="扇区名称" index="7" />
+				<field name="省份" index="8" />
+				<field name="行政区" index="9" />
+				<field name="营销中心" index="10" />
+				<field name="设备厂家" index="11" />
+				<field name="系统类型" index="12" />
+				<field name="经度" index="13" />
+				<field name="纬度" index="14" />
+				<field name="区域类型" index="15" />
+				<field name="方向角" index="16" />
+				<field name="1X载波个数" index="17" />
+				<field name="1X载波列表" index="18" />
+				<field name="是否DO扇区" index="19" />
+				<field name="EVDO载波个数" index="20" />
+				<field name="EVDO载波列表" index="21" />
+				<field name="是否覆盖高铁" index="22" />
+				<field name="是否覆盖客运铁路" index="23" />
+				<field name="是否覆盖高速" index="24" />
+				<field name="是否覆盖国道" index="25" />
+				<field name="是否覆盖省道" index="26" />
+				<field name="是否覆盖县道" index="27" />
+				<field name="是否覆盖乡镇" index="28" />
+				<field name="是否覆盖行政村" index="29" />
+				<field name="是否覆盖地铁或轻轨" index="30" />
+				<field name="是否覆盖旅游景点" index="31" />
+				<field name="是否覆盖工业园" index="32" />
+				<field name="是否覆盖高校" index="33" />
+				<field name="是否覆盖港口" index="34" />
+				<field name="是否覆盖海域" index="35" />
+				<field name="是否覆盖酒店" index="36" />
+				<field name="是否覆盖隧道" index="37" />
+				<field name="是否覆盖高层小区" index="38" />
+				<field name="是否覆盖体育场" index="39" />
+			</fields>
+		</ds>
+	</templet>
+</templets>

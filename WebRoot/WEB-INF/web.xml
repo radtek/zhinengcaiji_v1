@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>TaskServlet</servlet-name>
+		<!--
+			<display-name>This is the display name of my J2EE
+			component</display-name> <description>This is the description of my
+			J2EE component</description>
+		-->
+		<servlet-class>web.servlet.TaskServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TaskServlet</servlet-name>
+		<url-pattern>/page/task</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+	<welcome-file-list>
+		<welcome-file>
+            index.jsp
+        </welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>DeviceServlet</servlet-name>
+		<servlet-class>web.servlet.DeviceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeviceServlet</servlet-name>
+		<url-pattern>/page/device.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TemplateServlet</servlet-name>
+		<servlet-class>web.servlet.TemplateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TemplateServlet</servlet-name>
+		<url-pattern>/page/template.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>web.servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/page/sysmgr/user.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserGroupServlet</servlet-name>
+		<servlet-class>web.servlet.UserGroupServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserGroupServlet</servlet-name>
+		<url-pattern>/page/sysmgr/userGroup.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BugServlet</servlet-name>
+		<servlet-class>web.servlet.BugServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BugServlet</servlet-name>
+		<url-pattern>/page/sysmgr/bug.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CollectLogServlet</servlet-name>
+		<servlet-class>web.servlet.CollectLogServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CollectLogServlet</servlet-name>
+		<url-pattern>/page/sysmonitor/collectLog.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RTaskServlet</servlet-name>
+		<servlet-class>web.servlet.RTaskServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RTaskServlet</servlet-name>
+		<url-pattern>/RTaskServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sysMgrServlet</servlet-name>
+		<servlet-class>web.servlet.SysMgrServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sysMgrServlet</servlet-name>
+		<url-pattern>/sysMgrServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>auth</servlet-name>
+		<servlet-class>web.servlet.AuthorizationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>auth</servlet-name>
+		<url-pattern>/auth</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>toys</servlet-name>
+		<servlet-class>web.servlet.ToysServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>toys</servlet-name>
+		<url-pattern>/ToysServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>templetFileMgr</servlet-name>
+		<servlet-class>web.servlet.TempletFileMgrServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>templetFileMgr</servlet-name>
+		<url-pattern>/page/TempletFileMgr.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>templetFileUpload</servlet-name>
+		<servlet-class>web.servlet.TempletFileUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>templetFileUpload</servlet-name>
+		<url-pattern>/page/TempletFileUpload.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>templetFileDownload</servlet-name>
+		<servlet-class>web.servlet.TempletFileDownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>templetFileDownload</servlet-name>
+		<url-pattern>/page/TempletFileDownload.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sum</servlet-name>
+		<servlet-class>web.servlet.SummaryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sum</servlet-name>
+		<url-pattern>/page/sysmonitor/sum</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>taskLifeCycleServlet</servlet-name>
+		<servlet-class>web.servlet.TaskLifeCycleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>taskLifeCycleServlet</servlet-name>
+		<url-pattern>/page/task/taskLifeCycleServlet</url-pattern>
+	</servlet-mapping>
+
+	<!--
+		<servlet> <servlet-name>cookie</servlet-name>
+		<servlet-class>web.servlet.CookieServlet</servlet-class> </servlet>
+		<servlet-mapping> <servlet-name>cookie</servlet-name>
+		<url-pattern>/</url-pattern> </servlet-mapping>
+	-->
+	<filter>
+		<filter-name>authFilter</filter-name>
+		<filter-class>web.servlet.AuthorizationFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>authFilter</filter-name>
+		<url-pattern>/page/*</url-pattern>
+	</filter-mapping>
+</web-app>

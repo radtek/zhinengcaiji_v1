@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;AC.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="ACCELLID" index="4"/>
+				<field name="ULCACSWITCH" index="5"/>
+				<field name="DLCACSWITCH" index="6"/>
+				<field name="PATHLOSS" index="7"/>
+				<field name="CPICHECN0" index="8"/>
+				<field name="RRCSIGUSRNUMTHR" index="9"/>
+				<field name="ULINTERFACTOR" index="10"/>
+				<field name="RACHCACTHRESH" index="11"/>
+				<field name="BCKNOISEADJSWH" index="12"/>
+				<field name="ORIBCKNOISE" index="13"/>
+				<field name="UNLDTHRESH" index="14"/>
+				<field name="DELTATHR" index="15"/>
+				<field name="DRTLIGHTLDTHR" index="16"/>
+				<field name="BCKNOITHR" index="17"/>
+				<field name="BCKNOIMAXSTEP" index="18"/>
+				<field name="BCKNOIMAXADJAST" index="19"/>
+				<field name="BCKNOIUPFACTOR" index="20"/>
+				<field name="BCKNOIDNFACTOR" index="21"/>
+				<field name="LDFACTCALSRVNUM" index="22"/>
+				<field name="BGNOIUPTSRVNUM" index="23"/>
+				<field name="STAWINNUM" index="24"/>
+				<field name="EFFUNLDCNTTHR" index="25"/>
+				<field name="NOIOFFSETTHR" index="26"/>
+				<field name="MINORTHOGFACTOR" index="27"/>
+				<field name="MAXORTHOGFACTOR" index="28"/>
+				<field name="REFSFLAYER" index="29"/>
+				<field name="-1" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="1" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Aich.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CPCID" index="5"/>
+				<field name="PRACHCPCID" index="6"/>
+				<field name="CHCODE" index="7"/>
+				<field name="AICHTRANTIME" index="8"/>
+				<field name="STTDIND" index="9"/>
+				<field name="OBSERVESTATUS" index="10"/>
+				<field name="-1" index="11"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="2" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Bch.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CTCID" index="5"/>
+				<field name="BCHPWR" index="6"/>
+				<field name="OBSERVESTATUS" index="7"/>
+				<field name="-1" index="8"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="3" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;BPriAc.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="BPRIACINDEX" index="4"/>
+				<field name="BASICPRIO" index="5"/>
+				<field name="DCHULACTHRESH" index="6"/>
+				<field name="DCHDLACTHRESH" index="7"/>
+				<field name="EDCHACTHRESH" index="8"/>
+				<field name="HSDPAACTHRESH" index="9"/>
+				<field name="MBMSACTHRESH" index="10"/>
+				<field name="THRESHREFCOUNT" index="11"/>
+				<field name="CODETREERESRTO" index="12"/>
+				<field name="SAFEPWROFST" index="13"/>
+				<field name="-1" index="14"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="4" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;CelSel.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="SIB3ORSIB4" index="5"/>
+				<field name="QUALMEAS" index="6"/>
+				<field name="SINTRASEARCHPRE" index="7"/>
+				<field name="SINTRASEARCH" index="8"/>
+				<field name="SINTERSEARCHPRE" index="9"/>
+				<field name="SINTERSEARCH" index="10"/>
+				<field name="SSEARCHHCSPRE" index="11"/>
+				<field name="SSEARCHHCS" index="12"/>
+				<field name="OTHERRATINFOPRE" index="13"/>
+				<field name="SSEARCHRAT" index="14"/>
+				<field name="SHCSRATPRE" index="15"/>
+				<field name="SHCSRAT" index="16"/>
+				<field name="SLIMITRAT" index="17"/>
+				<field name="QQUALMIN" index="18"/>
+				<field name="QRXLEVMIN" index="19"/>
+				<field name="DLTAQRXLEVMINPR" index="20"/>
+				<field name="DLTAQRXLEVMIN" index="21"/>
+				<field name="QHYST1S" index="22"/>
+				<field name="QHYST1SPCH" index="23"/>
+				<field name="QHYST1SFACH" index="24"/>
+				<field name="QHYST2S" index="25"/>
+				<field name="QHYST2SPCH" index="26"/>
+				<field name="QHYST2SFACH" index="27"/>
+				<field name="TRESELECTION" index="28"/>
+				<field name="TRESELECTIONPCH" index="29"/>
+				<field name="TRESELECTIONFACH" index="30"/>
+				<field name="SPSFPRE" index="31"/>
+				<field name="SPSF" index="32"/>
+				<field name="INTERFREQSFPRE" index="33"/>
+				<field name="INTERFREQSF" index="34"/>
+				<field name="INTERRATSFPRE" index="35"/>
+				<field name="INTERRATSF" index="36"/>
+				<field name="NOHCSTCRMAX" index="37"/>
+				<field name="NOHCSNCR" index="38"/>
+				<field name="NOHCSTCRMAXHYST" index="39"/>
+				<field name="HCSSRVCELINFOPRE" index="40"/>
+				<field name="QHCSECNO" index="41"/>
+				<field name="QHCSRSCP" index="42"/>
+				<field name="TCRMAX" index="43"/>
+				<field name="NCR" index="44"/>
+				<field name="TCRMAXHYST" index="45"/>
+				<field name="CELLBARREDIND" index="46"/>
+				<field name="INFREQRESELIND" index="47"/>
+				<field name="TBARRED" index="48"/>
+				<field name="OPERATORUSEIND" index="49"/>
+				<field name="CELLRSVEXT" index="50"/>
+				<field name="ACBARREDOMCR" index="51"/>
+				<field name="-1" index="52"/>
+			</fields>
+		</ds>
+	</templet>
+	
+	
+	<templet id="5" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;CHspa.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CHSPACID" index="4"/>
+				<field name="HSDPASCRAMCODE" index="5"/>
+				<field name="HSSHAREIND" index="6"/>
+				<field name="NUMOFHSPDSCH" index="7"/>
+				<field name="MINNUMOFHSPDSCH" index="8"/>
+				<field name="MAXNUMOFHSPDSCH" index="9"/>
+				<field name="NUMOFHSSCCH" index="10"/>
+				<field name="DPCHCODEHY" index="11"/>
+				<field name="CODEUPTHYA" index="12"/>
+				<field name="HSPDSCHBITRATE" index="13"/>
+				<field name="HSPAPWRRATIO" index="14"/>
+				<field name="MINHSPAPWRRTO" index="15"/>
+				<field name="MAXHSPAPWRRTO" index="16"/>
+				<field name="MEASPWROFFSET" index="17"/>
+				<field name="HSDSCHTRAFLIMIT" index="18"/>
+				<field name="ESTMINHSDPAPWR" index="19"/>
+				<field name="NUMOFEAGCH" index="20"/>
+				<field name="NUMOFERGHICH" index="21"/>
+				<field name="NSERVTOTOTALPWR" index="22"/>
+				<field name="EDCHTRAFLIMIT" index="23"/>
+				<field name="MAXRTWP" index="24"/>
+				<field name="CQIREPTNMCONF" index="25"/>
+				<field name="MIMOTWOSTRRATIO" index="26"/>
+				<field name="OBSERVESTATUS" index="27"/>
+				<field name="-1" index="28"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="6" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;cnInfo.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="MCC" index="4"/>
+				<field name="MNC" index="5"/>
+				<field name="CNDOMAIN" index="6"/>
+				<field name="T3212CS" index="7"/>
+				<field name="ATTINDCS" index="8"/>
+				<field name="NMOPS" index="9"/>
+				<field name="KCS" index="10"/>
+				<field name="KPS" index="11"/>
+				<field name="MBMSMODPRDCOEFF" index="12"/>
+				<field name="-1" index="13"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="7" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;DivPc.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="DIVPCINDEX" index="4"/>
+				<field name="SRVTYPE" index="5"/>
+				<field name="TXDIVMOD" index="6"/>
+				<field name="MAXDLDPCHPWR" index="7"/>
+				<field name="MINDLDPCHPWR" index="8"/>
+				<field name="DPCHPO1" index="9"/>
+				<field name="DPCHPO2" index="10"/>
+				<field name="DPCHPO3" index="11"/>
+				<field name="DPCCHPILOTEBN0" index="12"/>
+				<field name="MAXULDPCHPWR" index="13"/>
+				<field name="ULINITSIR" index="14"/>
+				<field name="ULMAXSIR" index="15"/>
+				<field name="ULMINSIR" index="16"/>
+				<field name="EAGCHPOTTI2" index="17"/>
+				<field name="EAGCHPOTTI10" index="18"/>
+				<field name="ERGCHPOTTI2" index="19"/>
+				<field name="ERGCHPOTTI10" index="20"/>
+				<field name="EHICHPOTTI2" index="21"/>
+				<field name="EHICHPOTTI10" index="22"/>
+				<field name="PWRFORSGLCELL" index="23"/>
+				<field name="PWRFORHALFISD" index="24"/>
+				<field name="-1" index="25"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="8" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;DlTfcs.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="DLTFCSCTFCINDEX" index="4"/>
+				<field name="CTFCNUM" index="5"/>
+				<field name="DLTFCSCTFC" index="6"/>
+				<field name="-1" index="7"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="9" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;drbc.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="R99MAXULRATEDCH" index="0"   />
+				<field name="IBCHQSWCH" index="1"   />
+				<field name="SCHQSWCH" index="2"   />
+				<field name="VOIPCHQSWCH" index="3"/>
+				<field name="CRATETHRD" index="4"/>
+				<field name="PSRATELMTLOWC" index="5"/>
+				<field name="PSRATELMTHIGHC" index="6"/>
+				<field name="SRBONEDCHSWCH" index="7"/>
+				<field name="ETTITRAFFVOLSWCH" index="8"/>
+				<field name="ETTIEATHD" index="9"/>
+				<field name="ETTIEBTHD" index="10"/>
+				<field name="MOI" index="11"/>
+				<field name="CONFSETID" index="12"/>
+				<field name="USERLABEL" index="13"/>
+				<field name="OMCRNCID" index="14"/>
+				<field name="DRBCINDEX" index="15"/>
+				<field name="DRBCSWCH" index="16"/>
+				<field name="UETRFRPTMED" index="17"/>
+				<field name="DXHSBO0E4BTHD" index="18"/>
+				<field name="FACHE4ATHD" index="19"/>
+				<field name="DCHE4ATHD" index="20"/>
+				<field name="DCHE4BTHD" index="21"/>
+				<field name="DTOPCHTHD" index="22"/>
+				<field name="FTOPCHTHD" index="23"/>
+				<field name="DTOIDLETHD" index="24"/>
+				<field name="FTOIDLETHD" index="25"/>
+				<field name="PCHHOLDTIMETHR" index="26"/>
+				<field name="HSTOFTIMESTHR" index="27"/>
+				<field name="DTCPEATHD" index="28"/>
+				<field name="DTCPEBTHD" index="29"/>
+				<field name="DLPWRDASF" index="30"/>
+				<field name="ULPWRDASF" index="31"/>
+				<field name="RFACH" index="32"/>
+				<field name="RRACH" index="33"/>
+				<field name="FACHSWCH" index="34"/>
+				<field name="PCHSWCH" index="35"/>
+				<field name="DCHADJRATESWCH" index="36"/>
+				<field name="HSMAXDLRATEDCH" index="37"/>
+				<field name="R99MAXDLRATEDCH" index="38"/>
+				<field name="HSMAXULRATEDCH" index="39"/>
+				<field name="-1" index="40"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="10" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;externalGsmCell.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="MCC" index="4"/>
+				<field name="MNCBCDCODELEN" index="5"/>
+				<field name="MNC" index="6"/>
+				<field name="LAC" index="7"/>
+				<field name="CI" index="8"/>
+				<field name="BSCID" index="9"/>
+				<field name="NCC" index="10"/>
+				<field name="BCC" index="11"/>
+				<field name="SNACNUM" index="12"/>
+				<field name="SNAC" index="13"/>
+				<field name="BANDINDICATOR" index="14"/>
+				<field name="BCCHARFCN" index="15"/>
+				<field name="MAXULTXPWR" index="16"/>
+				<field name="HCSPRIO" index="17"/>
+				<field name="QRXLEVMINSIB11" index="18"/>
+				<field name="DTQRXLVMNSIB11PR" index="19"/>
+				<field name="DTQRXLVMNSIB11" index="20"/>
+				<field name="QRXLEVMINSIB12" index="21"/>
+				<field name="DTQRXLVMNSIB12PR" index="22"/>
+				<field name="DTQRXLVMNSIB12" index="23"/>
+				<field name="GSMCELLINDIVOFFSET" index="24"/>
+				<field name="NMSCI" index="25"/>
+				<field name="NMSLAC" index="26"/>
+				<field name="NMSMCC" index="27"/>
+				<field name="NMSMNC" index="28"/>
+				<field name="NMSRAC" index="29"/>
+				<field name="NMSRACC" index="30"/>
+				<field name="-1" index="31"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="11" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;externalUtranCell.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="MCC" index="4"/>
+				<field name="MNC" index="5"/>
+				<field name="RNCID" index="6"/>
+				<field name="CID" index="7"/>
+				<field name="LAC" index="8"/>
+				<field name="SACPC" index="9"/>
+				<field name="SACBPRE" index="10"/>
+				<field name="SACB" index="11"/>
+				<field name="RAC" index="12"/>
+				<field name="URANUM" index="13"/>
+				<field name="URA" index="14"/>
+				<field name="SNACNUM" index="15"/>
+				<field name="SNAC" index="16"/>
+				<field name="UUARFCN" index="17"/>
+				<field name="DUARFCN" index="18"/>
+				<field name="PRIMSCRACODE" index="19"/>
+				<field name="HSPASPTMETH" index="20"/>
+				<field name="TXDIVIND" index="21"/>
+				<field name="STTDSUPTIND" index="22"/>
+				<field name="CLM1SUPTIND" index="23"/>
+				<field name="CLM2SUPTIND" index="24"/>
+				<field name="ADJCELLDIVCTRLFLD" index="25"/>
+				<field name="DIURCMBIND" index="26"/>
+				<field name="RTTMEASSPTIND" index="27"/>
+				<field name="TUTRANGPSSPTIND" index="28"/>
+				<field name="TIMADJABI" index="29"/>
+				<field name="SUPTCGTDETIND" index="30"/>
+				<field name="DL64QAMSUPTIND" index="31"/>
+				<field name="FLEXMACDSUPTIND" index="32"/>
+				<field name="KUTRAN" index="33"/>
+				<field name="HCSPRIO" index="34"/>
+				<field name="QQUALMINSIB11" index="35"/>
+				<field name="QRXLEVMINSIB11" index="36"/>
+				<field name="DTQRXLVMNSIB11PR" index="37"/>
+				<field name="DTQRXLVMNSIB11" index="38"/>
+				<field name="QQUALMINSIB12" index="39"/>
+				<field name="QRXLEVMINSIB12" index="40"/>
+				<field name="DTQRXLVMNSIB12PR" index="41"/>
+				<field name="DTQRXLVMNSIB12" index="42"/>
+				<field name="MAXRACHTXPWR" index="43"/>
+				<field name="PCPICHPWRPRE" index="44"/>
+				<field name="PCPICHPWR" index="45"/>
+				<field name="HOSWITCH" index="46"/>
+				<field name="CELLDESCRIPTYPE" index="47"/>
+				<field name="POLYGONPOINTNUM" index="48"/>
+				<field name="POLYLATITUDESIGN" index="49"/>
+				<field name="POLYLATITUDE" index="50"/>
+				<field name="POLYLONGITUDE" index="51"/>
+				<field name="LATITUDESIGN" index="52"/>
+				<field name="LATITUDE" index="53"/>
+				<field name="LONGITUDE" index="54"/>
+				<field name="ALTITUDE" index="55"/>
+				<field name="ALTITUDEDIR" index="56"/>
+				<field name="ALTITUDEACC" index="57"/>
+				<field name="UNCERTALTITUDE" index="58"/>
+				<field name="CONFIDENCE" index="59"/>
+				<field name="CELLRADIUS" index="60"/>
+				<field name="UNCERTCODE" index="61"/>
+				<field name="ANTETYPE" index="62"/>
+				<field name="ANTELATITUDESIGN" index="63"/>
+				<field name="ANTELATITUDE" index="64"/>
+				<field name="ANTELONGITUDE" index="65"/>
+				<field name="ANTEALTITUDE" index="66"/>
+				<field name="ANTEALTITUDEDIR" index="67"/>
+				<field name="OFFSETANGLE" index="68"/>
+				<field name="INNERANGLE" index="69"/>
+				<field name="ATIMEDELAY" index="70"/>
+				<field name="ATIMEDELAYJITTER" index="71"/>
+				<field name="ADJCS64SWITCH" index="72"/>
+				<field name="NRTMAXDLRATEDCHD" index="73"/>
+				<field name="NRTMAXULRATEDCHD" index="74"/>
+				<field name="RTMAXDLRATEDCHD" index="75"/>
+				<field name="RTMAXULRATEDCHD" index="76"/>
+				<field name="NRTMAXRATEEDCHD" index="77"/>
+				<field name="RTMAXRATEEDCHD" index="78"/>
+				<field name="FREQBANDIND" index="79"/>
+				<field name="FDPCHSUPTIND" index="80"/>
+				<field name="EDCHTTI2SUPTIND" index="81"/>
+				<field name="EDCHSFCAP" index="82"/>
+				<field name="EDCHHARQCOMBCAP" index="83"/>
+				<field name="HCELLRESNUM" index="84"/>
+				<field name="ADJHCELLRESID" index="85"/>
+				<field name="NMSMCC" index="86"/>
+				<field name="NMSMNC" index="87"/>
+				<field name="NMSCID" index="88"/>
+				<field name="NMSRNCID" index="89"/>
+				<field name="NMSHSDSTAT" index="90"/>
+				<field name="NMSNBRCODHSPDSCH" index="91"/>
+				<field name="NMSNBRCODHSSCCH" index="92"/>
+				<field name="-1" index="93"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="12" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;gsmRelation.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="MCC" index="5"/>
+				<field name="MNC" index="6"/>
+				<field name="LAC" index="7"/>
+				<field name="CI" index="8"/>
+				<field name="GSMSHARECOVER" index="9"/>
+				<field name="MEASPRIO" index="10"/>
+				<field name="GSMSTATEMODE" index="11"/>
+				<field name="GSMSIB11ORSIB11BIS" index="12"/>
+				<field name="USEOFHCS" index="13"/>
+				<field name="QOFFSET1SNSIB11" index="14"/>
+				<field name="QHCSSIB11" index="15"/>
+				<field name="PENALTYTIMESIB11" index="16"/>
+				<field name="TEMPOFFSET1SIB11" index="17"/>
+				<field name="QOFFSET1SNSIB12" index="18"/>
+				<field name="QHCSSIB12" index="19"/>
+				<field name="PENALTYTIMESIB12" index="20"/>
+				<field name="TEMPOFFSET1SIB12" index="21"/>
+				<field name="NMSADJACENTCELL" index="22"/>
+				<field name="NMSBCCHFREQUENCY" index="23"/>
+				<field name="NMSNCC" index="24"/>
+				<field name="NMSBCC" index="25"/>
+				<field name="-1" index="26"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="13" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Hspa.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="HSPAINDEX" index="4"/>
+				<field name="HSSCPWROFSTPRE" index="5"/>
+				<field name="ACKPWROFFSET" index="6"/>
+				<field name="NACKPWROFFSET" index="7"/>
+				<field name="CQIPWROFFSET" index="8"/>
+				<field name="INTERACKPWROFST" index="9"/>
+				<field name="INTERNACKPWROFST" index="10"/>
+				<field name="INTERCQIPWROFST" index="11"/>
+				<field name="CQICYCLE" index="12"/>
+				<field name="CQIREPFACTOR" index="13"/>
+				<field name="ANACKREPFACTOR" index="14"/>
+				<field name="HSDSCHTOTPWRMETH" index="15"/>
+				<field name="PBPENDTIMETHD" index="16"/>
+				<field name="T1D" index="17"/>
+				<field name="MAXDRWITHMIMO" index="18"/>
+				<field name="HSPDSCHASSMETH" index="19"/>
+				<field name="HSSCCHASSMETH" index="20"/>
+				<field name="CODEPENDTHD" index="21"/>
+				<field name="CODEUPTPRDUNIT" index="22"/>
+				<field name="CODEUPTPRD" index="23"/>
+				<field name="HSDPACMASSOMODE" index="24"/>
+				<field name="SINGLEIURDCH2HS" index="25"/>
+				<field name="MAXNUMOFEDCHACT" index="26"/>
+				<field name="EDCHACTSIZEIND" index="27"/>
+				<field name="HSUPACMASSOMODE" index="28"/>
+				<field name="MTRTWPADJSTEP" index="29"/>
+				<field name="MACRODIVGAIN" index="30"/>
+				<field name="EAGCHPOUPTSWCH" index="31"/>
+				<field name="EDPCCHPOTTI2" index="32"/>
+				<field name="EDPCCHPOTTI10" index="33"/>
+				<field name="SCHEINFOPOTTI2" index="34"/>
+				<field name="SCHEINFOPOTTI10" index="35"/>
+				<field name="NHRSWITCH" index="36"/>
+				<field name="OLPCSTEPCORR" index="37"/>
+				<field name="HARQRVCONFIG" index="38"/>
+				<field name="EDCHREFPO" index="39"/>
+				<field name="EDCHPROOLLEV2" index="40"/>
+				<field name="EDCHPROOLLEV10" index="41"/>
+				<field name="TPCERRTARGET" index="42"/>
+				<field name="HSCODEDNTIMER" index="43"/>
+				<field name="NONHSCODEDNTIMER" index="44"/>
+				<field name="ETFCIBSTTTI2T2" index="45"/>
+				<field name="ETFCIBSTTTI2T3" index="46"/>
+				<field name="DTXDRXSWCH" index="47"/>
+				<field name="RTDTXDRXSWCH" index="48"/>
+				<field name="ENABDELAY" index="49"/>
+				<field name="HSSCLESSSWCH" index="50"/>
+				<field name="NVHSSCLESSSWCH" index="51"/>
+				<field name="MAXRATEWITHNVHS" index="52"/>
+				<field name="VHSDSTBSIZENUM" index="53"/>
+				<field name="VHSMACHSTBSIZE" index="54"/>
+				<field name="VHSMACEHSTBSIZE" index="55"/>
+				<field name="NVHSDSTBSIZENUM" index="56"/>
+				<field name="NVHSMACHSTBSIZE" index="57"/>
+				<field name="NVHSMACEHSTBSIZE" index="58"/>
+				<field name="RLCSIZESUPTTYPE" index="59"/>
+				<field name="MAXMACDSIZE" index="60"/>
+				<field name="LICENSEENL2IND" index="61"/>
+				<field name="LICENSE64QAMIND" index="62"/>
+				<field name="LICENSEMIMOIND" index="63"/>
+				<field name="-1" index="64"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="14" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Inter.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="INTERMEASCFGNO" index="4"/>
+				<field name="INTERMEASCFGNOTE" index="5"/>
+				<field name="MEASRPTTRMOD" index="6"/>
+				<field name="UTRACARRIERRSSI" index="7"/>
+				<field name="FREQQUALEST" index="8"/>
+				<field name="CELLSYNRPTIND" index="9"/>
+				<field name="CIDRPTIND" index="10"/>
+				<field name="INTERECN0RPTIND" index="11"/>
+				<field name="INTERRSCPRPTIND" index="12"/>
+				<field name="INTERPATHLOSSRPTIND" index="13"/>
+				<field name="INTERRPTCRT" index="14"/>
+				<field name="INTERMEASQUANTITY" index="15"/>
+				<field name="INTERFILTERCOEFF" index="16"/>
+				<field name="INTERMEASEVTNUM" index="17"/>
+				<field name="MEAEVTID" index="18"/>
+				<field name="THRESHUSEDFREQ" index="19"/>
+				<field name="WUSED" index="20"/>
+				<field name="HYSTERESIS" index="21"/>
+				<field name="TRIGTIME" index="22"/>
+				<field name="THRESHNOUSEDFREQ" index="23"/>
+				<field name="WNOUSED" index="24"/>
+				<field name="PRDRPTAMOUNT" index="25"/>
+				<field name="PRDRPTINTERVAL" index="26"/>
+				<field name="-1" index="27"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="15" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Intra.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="INTRAMEASCFGNO" index="4"/>
+				<field name="INTRAMEASCFGNOTE" index="5"/>
+				<field name="MEASRPTTRMOD" index="6"/>
+				<field name="INTRAFILTERCOEFF" index="7"/>
+				<field name="INTRAMEASQUANTITY" index="8"/>
+				<field name="INTRAECN0RPTIND" index="9"/>
+				<field name="INTRARSCPRPTIND" index="10"/>
+				<field name="INTRAPATHLOSSRPTIND" index="11"/>
+				<field name="INTRARPTCRT" index="12"/>
+				<field name="INTRAMEASEVTNUM" index="13"/>
+				<field name="MEAEVTID" index="14"/>
+				<field name="RPTRANGE" index="15"/>
+				<field name="W" index="16"/>
+				<field name="HYSTERESIS" index="17"/>
+				<field name="THRESHUSEDFREQ" index="18"/>
+				<field name="RPTDEACTTHR" index="19"/>
+				<field name="RPLCACTTHR" index="20"/>
+				<field name="TRIGTIME" index="21"/>
+				<field name="EVTRPTAMOUNT" index="22"/>
+				<field name="EVTRPTINTERVAL" index="23"/>
+				<field name="PRDRPTAMOUNT" index="24"/>
+				<field name="PRDRPTINTERVAL" index="25"/>
+				<field name="-1" index="26"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="16" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;LdCtrl.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="LDCTRLCELLID" index="4"/>
+				<field name="LCTRIGTIMES" index="5"/>
+				<field name="LCPENDTIMES" index="6"/>
+				<field name="LCMEASWINSIZE" index="7"/>
+				<field name="MAXNUMUEOFDECRAT" index="8"/>
+				<field name="AGLLDDEC" index="9"/>
+				<field name="DECGBRSW" index="10"/>
+				<field name="MAXGBRDECNUM" index="11"/>
+				<field name="REQUIREDRDSWIT" index="12"/>
+				<field name="FORCEDHOSWIT" index="13"/>
+				<field name="FORCEDRABRELSWIT" index="14"/>
+				<field name="FORCERABTOFASWIT" index="15"/>
+				<field name="ULSERIOUSOVERLD" index="16"/>
+				<field name="ULOVERLD" index="17"/>
+				<field name="ULALRMLD" index="18"/>
+				<field name="ULDECRATESW" index="19"/>
+				<field name="ULFORCEHANDOFFSW" index="20"/>
+				<field name="ULDROPSW" index="21"/>
+				<field name="ULDNMAXSTG" index="22"/>
+				<field name="ULMAXFORHONUM" index="23"/>
+				<field name="ULMAXDRPURNUM" index="24"/>
+				<field name="DLSERIOUSOVERLD" index="25"/>
+				<field name="DLOVERLD" index="26"/>
+				<field name="DLALRMLD" index="27"/>
+				<field name="DLDECRATESW" index="28"/>
+				<field name="DLFORCEHANDOFFSW" index="29"/>
+				<field name="DLDROPSW" index="30"/>
+				<field name="DLDNMAXSTG" index="31"/>
+				<field name="DLMAXDELRLNUM" index="32"/>
+				<field name="DLMAXFORHONUM" index="33"/>
+				<field name="DLMAXDRPURNUM" index="34"/>
+				<field name="DLADJUSTMFPSW" index="35"/>
+				<field name="HSDSOVERLDTHR" index="36"/>
+				<field name="HSDSRECOVERTHR" index="37"/>
+				<field name="NODEBSAFETHR" index="38"/>
+				<field name="SWITCHTOFACH" index="39"/>
+				<field name="NFACH" index="40"/>
+				<field name="-1" index="41"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="17" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;nodeB.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="NODEBNO" index="4"/>
+				<field name="NODEBTYPE" index="5"/>
+				<field name="FUNCVER" index="6"/>
+				<field name="SIBIUBCODEIND" index="7"/>
+				<field name="AUDITTIMER" index="8"/>
+				<field name="DIVCONTRLFIELD" index="9"/>
+				<field name="ADJTYPE" index="10"/>
+				<field name="MAXADJSTEP" index="11"/>
+				<field name="ADJPERIOD" index="12"/>
+				<field name="ADJRATIO" index="13"/>
+				<field name="DLREFPOWUPDTTH" index="14"/>
+				<field name="TIMADJABI" index="15"/>
+				<field name="SUPTCGTDETIND" index="16"/>
+				<field name="TIMEDELAY" index="17"/>
+				<field name="TIMEDELAYJITTER" index="18"/>
+				<field name="HSSHARMETHOD" index="19"/>
+				<field name="HSNUMSHARE" index="20"/>
+				<field name="HSSHARUPTPRD" index="21"/>
+				<field name="NMSNODEBFUNCTION" index="22"/>
+				<field name="NMSUTRANCELL" index="23"/>
+				<field name="NMSIUBBANDWIDTH" index="24"/>
+				<field name="NODEBINFO1" index="25"/>
+				<field name="NODEBINFO2" index="26"/>
+				<field name="NODEBINFO3" index="27"/>
+				<field name="NODEBINFO4" index="28"/>
+				<field name="-1" index="29"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="18" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;PC.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="PCCELLID" index="4"/>
+				<field name="PICHPWR" index="5"/>
+				<field name="AICHPWR" index="6"/>
+				<field name="ULINTERUPDTTH" index="7"/>
+				<field name="DYNAUPDTPO2STCH" index="8"/>
+				<field name="DPCCHPCPLEN" index="9"/>
+				<field name="SRBDELAY" index="10"/>
+				<field name="DLILPCSWITCH" index="11"/>
+				<field name="PHYFILTERCOEFF" index="12"/>
+				<field name="SIRERRUPDTFACTOR" index="13"/>
+				<field name="COVERPRD" index="14"/>
+				<field name="DPCMODE" index="15"/>
+				<field name="PCPIPWRDNSTEP" index="16"/>
+				<field name="PCPIPWRDNTMWIN" index="17"/>
+				<field name="PCPIPWRDNSTEPTM" index="18"/>
+				<field name="-1" index="19"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="19" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Pch.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CTCID" index="5"/>
+				<field name="SCCPCHCPCID" index="6"/>
+				<field name="PCHTOAWS" index="7"/>
+				<field name="PCHTOAWE" index="8"/>
+				<field name="PCHPWR" index="9"/>
+				<field name="TFSINDEX" index="10"/>
+				<field name="OBSERVESTATUS" index="11"/>
+				<field name="-1" index="12"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="20" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Pcpich.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CPCID" index="5"/>
+				<field name="PCPICHPWR" index="6"/>
+				<field name="STTDIND" index="7"/>
+				<field name="OBSERVESTATUS" index="8"/>
+				<field name="-1" index="9"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="21" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;plBal.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="PLBALCELLID" index="4"/>
+				<field name="INITRRCLBSW" index="5"/>
+				<field name="RABASSLBSW" index="6"/>
+				<field name="CALLHOLDLBSW" index="7"/>
+				<field name="INITRRCSBSW" index="8"/>
+				<field name="RABASSSBSW" index="9"/>
+				<field name="CALLHOLDSBSW" index="10"/>
+				<field name="DLLDBALPWRSWCH" index="11"/>
+				<field name="DLLDBALPWRWEIGHT" index="12"/>
+				<field name="DLLOADNEEDBAL2U" index="13"/>
+				<field name="DLLOADNEEDBAL2G" index="14"/>
+				<field name="EXTRACDELTATRD" index="15"/>
+				<field name="ULLDBALPWRSWCH" index="16"/>
+				<field name="ULLDBALPWRWEIGHT" index="17"/>
+				<field name="ULLOADNEEDBAL2U" index="18"/>
+				<field name="ULLOADNEEDBAL2G" index="19"/>
+				<field name="EXTRACDELTATRU" index="20"/>
+				<field name="LDBALCDSWCH" index="21"/>
+				<field name="LDBALCDWEIGHT" index="22"/>
+				<field name="EXTRACDELTACDTRD" index="23"/>
+				<field name="DLCDLDNEEDBAL2U" index="24"/>
+				<field name="HIGH2MEDCDLDTHR" index="25"/>
+				<field name="MED2HIGHCDLDTHR" index="26"/>
+				<field name="MED2LOWCDLDTHR" index="27"/>
+				<field name="LOW2MEDCDLDTHR" index="28"/>
+				<field name="CSBALSWCH" index="29"/>
+				<field name="-1" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="22" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Prach.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CPCID" index="5"/>
+				<field name="SIB5ORSIB6" index="6"/>
+				<field name="SIGNATURE" index="7"/>
+				<field name="AVAILSUBCHANNUM" index="8"/>
+				<field name="AVAILABLESF" index="9"/>
+				<field name="PREAMSCRACODE" index="10"/>
+				<field name="PUNCTLIMIT" index="11"/>
+				<field name="PERMITMAXASC" index="12"/>
+				<field name="ASIGSTIDX" index="13"/>
+				<field name="ASIGENDIDX" index="14"/>
+				<field name="ASUBCHNUM" index="15"/>
+				<field name="PSFNUM" index="16"/>
+				<field name="PSF" index="17"/>
+				<field name="AC2ASCMAP" index="18"/>
+				<field name="DYNPSTLEVELINIT" index="19"/>
+				<field name="MMAX" index="20"/>
+				<field name="NB01MIN" index="21"/>
+				<field name="NB01MAX" index="22"/>
+				<field name="MAXRACHTXPWR" index="23"/>
+				<field name="PREAMTHS" index="24"/>
+				<field name="CONSTVAL" index="25"/>
+				<field name="PRSTEP" index="26"/>
+				<field name="MAXPREAMRETRANS" index="27"/>
+				<field name="TFCSINDEX" index="28"/>
+				<field name="OBSERVESTATUS" index="29"/>
+				<field name="-1" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="23" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Psch.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CPCID" index="5"/>
+				<field name="SIB5ORSIB6" index="6"/>
+				<field name="SIGNATURE" index="7"/>
+				<field name="AVAILSUBCHANNUM" index="8"/>
+				<field name="AVAILABLESF" index="9"/>
+				<field name="PREAMSCRACODE" index="10"/>
+				<field name="PUNCTLIMIT" index="11"/>
+				<field name="PERMITMAXASC" index="12"/>
+				<field name="ASIGSTIDX" index="13"/>
+				<field name="ASIGENDIDX" index="14"/>
+				<field name="ASUBCHNUM" index="15"/>
+				<field name="PSFNUM" index="16"/>
+				<field name="PSF" index="17"/>
+				<field name="AC2ASCMAP" index="18"/>
+				<field name="DYNPSTLEVELINIT" index="19"/>
+				<field name="MMAX" index="20"/>
+				<field name="NB01MIN" index="21"/>
+				<field name="NB01MAX" index="22"/>
+				<field name="MAXRACHTXPWR" index="23"/>
+				<field name="PREAMTHS" index="24"/>
+				<field name="CONSTVAL" index="25"/>
+				<field name="PRSTEP" index="26"/>
+				<field name="MAXPREAMRETRANS" index="27"/>
+				<field name="TFCSINDEX" index="28"/>
+				<field name="OBSERVESTATUS" index="29"/>
+				<field name="-1" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="24" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;QosSeg.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="QOSRNCID" index="4"/>
+				<field name="ARPSEGNUM" index="5"/>
+				<field name="ARPTHRESH" index="6"/>
+				<field name="THPSEGNUM" index="7"/>
+				<field name="THPTHRESH" index="8"/>
+				<field name="BPSEGNUM" index="9"/>
+				<field name="BPTHRESH" index="10"/>
+				<field name="ULNORMBITRATE" index="11"/>
+				<field name="DLNORMBITRATE" index="12"/>
+				<field name="MAXDLDPCHPO" index="13"/>
+				<field name="MAXULDPCHPO" index="14"/>
+				<field name="ULRATEADJLEVNUM" index="15"/>
+				<field name="ULRATEADJLEV" index="16"/>
+				<field name="DLRATEADJLEVNUM" index="17"/>
+				<field name="DLRATEADJLEV" index="18"/>
+				<field name="-1" index="19"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="25" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Rat.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="INTERRATCFGNO" index="4"/>
+				<field name="INTERRATCFGNOTE" index="5"/>
+				<field name="MEASRPTTRMOD" index="6"/>
+				<field name="RATFILTERCOEFF" index="7"/>
+				<field name="OWNMEASQUANTITY" index="8"/>
+				<field name="GSMFILTERCOEFF" index="9"/>
+				<field name="BSICVERIREQ" index="10"/>
+				<field name="UTRANESTQUAL" index="11"/>
+				<field name="GSMCARRRSSIIND" index="12"/>
+				<field name="RATRPTCRT" index="13"/>
+				<field name="EVENTNUM" index="14"/>
+				<field name="EVENTID" index="15"/>
+				<field name="THRESH" index="16"/>
+				<field name="W" index="17"/>
+				<field name="THRESHSYS" index="18"/>
+				<field name="HYSTERESIS" index="19"/>
+				<field name="TRIGTIME" index="20"/>
+				<field name="PRDRPTAMOUNT" index="21"/>
+				<field name="PRDRPTINTERVAL" index="22"/>
+				<field name="-1" index="23"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="26" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;rncFunction.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="DLLOWLIMNEGGBR" index="0"   />
+				<field name="NEGGBRLEVNUM" index="1"   />
+				<field name="MRSWITCH" index="2"   />
+				<field name="IMSILEN" index="3"/>
+				<field name="IMSIMASK" index="4"/>
+				<field name="IMSISUBNET" index="5"/>
+				<field name="STARTINGCLOCK" index="6"/>
+				<field name="STOPPINGCLOCK" index="7"/>
+				<field name="MRUEMEASTYPESWIT" index="8"/>
+				<field name="MRUEMEASRPTINT" index="9"/>
+				<field name="MRUEMEASRPTTRMOD" index="10"/>
+				<field name="RLREFTIMEAJTSWIT" index="11"/>
+				<field name="CBSLICENSE" index="12"/>
+				<field name="CDTSWITCH" index="13"/>
+				<field name="CDTIMEIACQSWITCH" index="14"/>
+				<field name="CDTMROVDTHD" index="15"/>
+				<field name="MRUELOCMEARPTINT" index="16"/>
+				<field name="TCPQUEUESWCH" index="17"/>
+				<field name="PARALLELSOFTHO" index="18"/>
+				<field name="REESTINRABSETUP" index="19"/>
+				<field name="NMSRNCID" index="20"/>
+				<field name="NMSMCC" index="21"/>
+				<field name="NMSMNC" index="22"/>
+				<field name="NMSMAXCALLCAPABILITY" index="23"/>
+				<field name="NMSMAXTHROUGHPUT" index="24"/>
+				<field name="NMSMSCPOOLBALANCENUM" index="25"/>
+				<field name="NMSSGSNPOOLBALANCENUM" index="26"/>
+				<field name="MOI" index="27"/>
+				<field name="CONFSETID" index="28"/>
+				<field name="USERLABEL" index="29"/>
+				<field name="OMCRNCID" index="30"/>
+				<field name="RRCRNCID" index="31"/>
+				<field name="SHAREDNETMODE" index="32"/>
+				<field name="KUTRAN" index="33"/>
+				<field name="RCPOVERLOADTHS" index="34"/>
+				<field name="INTEGRITYALG" index="35"/>
+				<field name="ENCRYALG" index="36"/>
+				<field name="GPSDATACIPERPRE" index="37"/>
+				<field name="DESCIPHKEYFLAG" index="38"/>
+				<field name="CIPHSERNUM" index="39"/>
+				<field name="NRETRAN" index="40"/>
+				<field name="INITRRCONDCH" index="41"/>
+				<field name="TWAIT" index="42"/>
+				<field name="N308" index="43"/>
+				<field name="COUNTCHECKSWITCH" index="44"/>
+				<field name="TCNTINTERVAL" index="45"/>
+				<field name="IGYSNOFFSTSRB0" index="46"/>
+				<field name="IGYSNOFFSTSRB1" index="47"/>
+				<field name="IGYSNOFFSTSRB2" index="48"/>
+				<field name="IGYSNOFFSTSRB3" index="49"/>
+				<field name="IGYSNOFFSTSRB4" index="50"/>
+				<field name="CIPSNSPOFFSTSRB1" index="51"/>
+				<field name="CIPSNSPOFFSTSRB2" index="52"/>
+				<field name="CIPSNSPOFFSTSRB3" index="53"/>
+				<field name="CIPSNSPOFFSTSRB4" index="54"/>
+				<field name="CIPSNATOFFSTSRB1" index="55"/>
+				<field name="CIPSNATOFFSTSRB2" index="56"/>
+				<field name="CIPSNATOFFSTSRB3" index="57"/>
+				<field name="CIPSNATOFFSTSRB4" index="58"/>
+				<field name="CIPCFNOFFSETCS" index="59"/>
+				<field name="CIPCFNOFFSETPS" index="60"/>
+				<field name="GSMBARANGENUM" index="61"/>
+				<field name="GSMLRANGE" index="62"/>
+				<field name="GSMURANGE" index="63"/>
+				<field name="FDDFREQRNGNUM" index="64"/>
+				<field name="LUARFCN" index="65"/>
+				<field name="UUARFCN" index="66"/>
+				<field name="MAXRPTCELACT" index="67"/>
+				<field name="MAXRPTCELMONFREQ" index="68"/>
+				<field name="MAXRPTCELAMFREQ" index="69"/>
+				<field name="MAXRPTCELDETFREQ" index="70"/>
+				<field name="MAXRPTCELMDFREQ" index="71"/>
+				<field name="MAXRPTCELALLAMFQ" index="72"/>
+				<field name="MAXRPTCELALLADFQ" index="73"/>
+				<field name="MAXRTCELALLAMDFQ" index="74"/>
+				<field name="MAXRPTCELACTNOFQ" index="75"/>
+				<field name="MAXRPTCELMONNOFQ" index="76"/>
+				<field name="MAXRPTCELMVANOFQ" index="77"/>
+				<field name="MAXRPTCELVAMNOFQ" index="78"/>
+				<field name="MAXRPTCELAVARAT" index="79"/>
+				<field name="MAXRPTCLAMFAMNOF" index="80"/>
+				<field name="AMRRNCADJUST" index="81"/>
+				<field name="DLAMRPRDOREVT" index="82"/>
+				<field name="REVEVTDETECTIME" index="83"/>
+				<field name="AMRNBMODE0USETAG" index="84"/>
+				<field name="AMRNBMODE1USETAG" index="85"/>
+				<field name="AMRNBMODE2USETAG" index="86"/>
+				<field name="AMRNBMODE3USETAG" index="87"/>
+				<field name="AMRNBMODE4USETAG" index="88"/>
+				<field name="AMRNBMODE5USETAG" index="89"/>
+				<field name="AMRNBMODE6USETAG" index="90"/>
+				<field name="AMRNBMODE7USETAG" index="91"/>
+				<field name="AMRWBMODE0USETAG" index="92"/>
+				<field name="AMRWBMODE1USETAG" index="93"/>
+				<field name="AMRWBMODE2USETAG" index="94"/>
+				<field name="AMRWBMODE3USETAG" index="95"/>
+				<field name="AMRWBMODE4USETAG" index="96"/>
+				<field name="AMRWBMODE5USETAG" index="97"/>
+				<field name="AMRWBMODE6USETAG" index="98"/>
+				<field name="AMRWBMODE7USETAG" index="99"/>
+				<field name="AMRWBMODE8USETAG" index="100"/>
+				<field name="DCELLUPDCNT" index="101"/>
+				<field name="DCELLUPDCNTLEN" index="102"/>
+				<field name="LOCACCUR" index="103"/>
+				<field name="LOCACCURCODE" index="104"/>
+				<field name="SIB153OCCNUM" index="105"/>
+				<field name="SIB153OCCID" index="106"/>
+				<field name="SAILOCSWITCH" index="107"/>
+				<field name="GALOCSWITCH" index="108"/>
+				<field name="FPMOD" index="109"/>
+				<field name="TOAWS" index="110"/>
+				<field name="TOAWE" index="111"/>
+				<field name="NRTTOAWS" index="112"/>
+				<field name="NRTTOAWE" index="113"/>
+				<field name="PICOTOAWS" index="114"/>
+				<field name="PICOTOAWE" index="115"/>
+				<field name="PICONRTTOAWS" index="116"/>
+				<field name="PICONRTTOAWE" index="117"/>
+				<field name="TIMEADJSWITCH" index="118"/>
+				<field name="RTREDELAYTIMER" index="119"/>
+				<field name="NRTREDELAYTIMER" index="120"/>
+				<field name="MAXNUMOFACT" index="121"/>
+				<field name="TRIGGERTIMEFORDC" index="122"/>
+				<field name="EVTACONTTHRESH" index="123"/>
+				<field name="STATICWINSIZE" index="124"/>
+				<field name="STARTSFFACTOR" index="125"/>
+				<field name="ENDSFFACTOR" index="126"/>
+				<field name="TNNSF" index="127"/>
+				<field name="ROHCTGTMODE" index="128"/>
+				<field name="QOSNEGRENEGSWI" index="129"/>
+				<field name="ULLOWLIMNEGGBR" index="130"/>
+				<field name="-1" index="131"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="27" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;rncNeInfo.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="GLOPHYNEID" index="4"/>
+				<field name="NETYPE" index="5"/>
+				<field name="PLMNNUM" index="6"/>
+				<field name="MCC" index="7"/>
+				<field name="MNCBCDCODELEN" index="8"/>
+				<field name="MNC" index="9"/>
+				<field name="NEID" index="10"/>
+				<field name="ANI" index="11"/>
+				<field name="OFFICEID" index="12"/>
+				<field name="PREFEROFFICEFLAG" index="13"/>
+				<field name="PROVER" index="14"/>
+				<field name="PROYEAR" index="15"/>
+				<field name="PROMON" index="16"/>
+				<field name="RNCFEATSWITCH0" index="17"/>
+				<field name="RNCFEATSWITCH1" index="18"/>
+				<field name="RNCFEATSWITCH2" index="19"/>
+				<field name="RNCFEATSWITCH3" index="20"/>
+				<field name="RNCFEATSWITCH4" index="21"/>
+				<field name="RNCFEATSWITCH5" index="22"/>
+				<field name="RNCFEATSWITCH6" index="23"/>
+				<field name="RNCFEATSWITCH7" index="24"/>
+				<field name="ROUTETYPE" index="25"/>
+				<field name="GTTYPE" index="26"/>
+				<field name="TRANSTYPE" index="27"/>
+				<field name="PLANEX" index="28"/>
+				<field name="NATURE" index="29"/>
+				<field name="GT" index="30"/>
+				<field name="IUBRSTYPE" index="31"/>
+				<field name="IURBRSTYPE" index="32"/>
+				<field name="IUBSRVBRSTYPE" index="33"/>
+				<field name="IUBCCHBRSTYPE" index="34"/>
+				<field name="IUBNBAPBRSTYPE" index="35"/>
+				<field name="BAAL2SERVER" index="36"/>
+				<field name="HSDPASRVPRIOR" index="37"/>
+				<field name="KPRIADJUST" index="38"/>
+				<field name="DCHIDOFFSET" index="39"/>
+				<field name="NODESYNCFLAG" index="40"/>
+				<field name="TRANSSYNCFLAG" index="41"/>
+				<field name="ISLINKMAPTOPORT" index="42"/>
+				<field name="RNCRCPMODULE" index="43"/>
+				<field name="NDBALCMODULE" index="44"/>
+				<field name="IUBCCHIPDSCP" index="45"/>
+				<field name="IUIPDSCP0" index="46"/>
+				<field name="IUIPDSCP1" index="47"/>
+				<field name="IUIPDSCP2" index="48"/>
+				<field name="IUIPDSCP3" index="49"/>
+				<field name="RTPPAYLOADTYPE" index="50"/>
+				<field name="TBTYPEINDEX" index="51"/>
+				<field name="RESBWDINDEX" index="52"/>
+				<field name="CSDEFAULTFLAG" index="53"/>
+				<field name="CSCAPWEIGHT" index="54"/>
+				<field name="CSNRIBITNUM" index="55"/>
+				<field name="CSNRINUM" index="56"/>
+				<field name="CSNRI" index="57"/>
+				<field name="PSDEFAULTFLAG" index="58"/>
+				<field name="PSCAPWEIGHT" index="59"/>
+				<field name="PSNRIBITNUM" index="60"/>
+				<field name="PSNRINUM" index="61"/>
+				<field name="PSNRI" index="62"/>
+				<field name="COSVPNID" index="63"/>
+				<field name="BANDADJSWITCH" index="64"/>
+				<field name="IUBPATHPROSWIT" index="65"/>
+				<field name="ADDTIMEDELAY" index="66"/>
+				<field name="ADDDELAYJITTER" index="67"/>
+				<field name="MAINTAINSTATUS" index="68"/>
+				<field name="NMSRNCFUNCTION" index="69"/>
+				<field name="NMSIURBANDWIDTH" index="70"/>
+				<field name="-1" index="71"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="28" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Sccpch.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CPCID" index="5"/>
+				<field name="SIB5ORSIB6" index="6"/>
+				<field name="SCCPCHUSAGE" index="7"/>
+				<field name="SCCPCHOFFSET" index="8"/>
+				<field name="DLSCRACODE" index="9"/>
+				<field name="DLCHCODENO" index="10"/>
+				<field name="SLOTFMT" index="11"/>
+				<field name="MPLEXPOS" index="12"/>
+				<field name="PO1" index="13"/>
+				<field name="PO3" index="14"/>
+				<field name="MAXFACHPWR" index="15"/>
+				<field name="STTDIND" index="16"/>
+				<field name="PCHIND" index="17"/>
+				<field name="PICHCPCID" index="18"/>
+				<field name="TFCSINDEX" index="19"/>
+				<field name="FLOWCONSWT" index="20"/>
+				<field name="OBSERVESTATUS" index="21"/>
+				<field name="-1" index="22"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="29" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;Ssch.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="CPCID" index="5"/>
+				<field name="SSCHPWR" index="6"/>
+				<field name="OBSERVESTATUS" index="7"/>
+				<field name="-1" index="8"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="30" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;SubSrv.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="SRVTYPE" index="4"/>
+				<field name="MBMSIND" index="5"/>
+				<field name="BLERTARGET" index="6"/>
+				<field name="QETRCHBERTARGET" index="7"/>
+				<field name="QEPHYCHBERTARGET" index="8"/>
+				<field name="MAXBITRATE" index="9"/>
+				<field name="MINBITRATE" index="10"/>
+				<field name="DIRECTION" index="11"/>
+				<field name="DOMAIN" index="12"/>
+				<field name="TRAFFICCLASS" index="13"/>
+				<field name="RLCMODE" index="14"/>
+				<field name="SUBFLOWNUM" index="15"/>
+				<field name="BLERPERIODFACTOR" index="16"/>
+				<field name="BLERTIMEWINSIZE" index="17"/>
+				<field name="GOODTHRESPHYBER" index="18"/>
+				<field name="BADTHRESPHYBER" index="19"/>
+				<field name="GOODTHRES" index="20"/>
+				<field name="BADTHRES" index="21"/>
+				<field name="VALIDTIMEWIN" index="22"/>
+				<field name="ERRORTHRESH" index="23"/>
+				<field name="BLERACCPPERIOD" index="24"/>
+				<field name="HSSCCHPWROFFSET" index="25"/>
+				<field name="EDCHHARQPOFDD" index="26"/>
+				<field name="NHRTHRUP" index="27"/>
+				<field name="NHRTHRDOWN" index="28"/>
+				<field name="STATWINSIZETTI2" index="29"/>
+				<field name="STATWINSIZETTI10" index="30"/>
+				<field name="CORRNUMHARQTONHR" index="31"/>
+				<field name="UPTHRESSAMPLENUM" index="32"/>
+				<field name="DWTHRESSAMPLENUM" index="33"/>
+				<field name="DELTAT2TP" index="34"/>
+				<field name="MAXRETRANSEDCH" index="35"/>
+				<field name="HAPPYBITDELCOND" index="36"/>
+				<field name="PERIODSING" index="37"/>
+				<field name="PERIODSIG" index="38"/>
+				<field name="ALFA" index="39"/>
+				<field name="FRAMEHANDLPRITY" index="40"/>
+				<field name="RBPARACFGTYPE" index="41"/>
+				<field name="PRERBCFGID" index="42"/>
+				<field name="PRECONFVALTAG" index="43"/>
+				<field name="PTMRLSPERM" index="44"/>
+				<field name="MBMSCOMTYPE" index="45"/>
+				<field name="BLERTARGETFORDC" index="46"/>
+				<field name="BLERTARGETFORSF" index="47"/>
+				<field name="ULBLERBADTHRESH" index="48"/>
+				<field name="ULBLERBADTIMETHR" index="49"/>
+				<field name="ULBLERNORTIMETHR" index="50"/>
+				<field name="T1" index="51"/>
+				<field name="DISCARDTIMERPRE" index="52"/>
+				<field name="DISCARDTIMER" index="53"/>
+				<field name="MACHSWINSIZE" index="54"/>
+				<field name="ETTI" index="55"/>
+				<field name="EDCHTRGRANTTYPE" index="56"/>
+				<field name="-1" index="57"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="31" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;TrfPc.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="TRFPCINDEX" index="4"/>
+				<field name="SRVTYPE" index="5"/>
+				<field name="ULILPCALG" index="6"/>
+				<field name="TPCSTEPSIZE" index="7"/>
+				<field name="ULOLPCSWITCH" index="8"/>
+				<field name="OLPCPRIOSWITCH" index="9"/>
+				<field name="ULOLPCQESWITCH" index="10"/>
+				<field name="OLPCALG" index="11"/>
+				<field name="OLPCUPDATEPRD" index="12"/>
+				<field name="ULSIRTARGUPSTEP" index="13"/>
+				<field name="ULSIRTARGDNSTEP" index="14"/>
+				<field name="TPCDLSTEP" index="15"/>
+				<field name="-1" index="16"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="32" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;ueCnst.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="T313" index="0"   />
+				<field name="N313" index="1"   />
+				<field name="T314" index="2"   />
+				<field name="T315" index="3"/>
+				<field name="N315" index="4"/>
+				<field name="T316" index="5"/>
+				<field name="T317" index="6"/>
+				<field name="MOI" index="7"/>
+				<field name="CONFSETID" index="8"/>
+				<field name="USERLABEL" index="9"/>
+				<field name="OMCRNCID" index="10"/>
+				<field name="UECNSTINDEX" index="11"/>
+				<field name="T300" index="12"/>
+				<field name="N300" index="13"/>
+				<field name="T312IDLE" index="14"/>
+				<field name="N312IDLE" index="15"/>
+				<field name="T302" index="16"/>
+				<field name="N302" index="17"/>
+				<field name="T304" index="18"/>
+				<field name="N304" index="19"/>
+				<field name="T305" index="20"/>
+				<field name="T307" index="21"/>
+				<field name="T308" index="22"/>
+				<field name="T309" index="23"/>
+				<field name="T312CONNECTED" index="24"/>
+				<field name="N312CONNECTED" index="25"/>
+				<field name="-1" index="26"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="33" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;UeTrv.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="UETRVMCFGNO" index="4"/>
+				<field name="UETRVMCFGNOTE" index="5"/>
+				<field name="MEASRPTTRMOD" index="6"/>
+				<field name="MEASOBJ" index="7"/>
+				<field name="UETRVMEASQUANTITY" index="8"/>
+				<field name="AVERAGETIME" index="9"/>
+				<field name="RPTRLCBUFIND" index="10"/>
+				<field name="RPTRLCAVEIND" index="11"/>
+				<field name="RPTRLCVARIND" index="12"/>
+				<field name="UETRVRPTCRT" index="13"/>
+				<field name="UETRVMEASEVTNUM" index="14"/>
+				<field name="MEAEVTID" index="15"/>
+				<field name="RPTTHRES" index="16"/>
+				<field name="RPTTHRES0" index="17"/>
+				<field name="RPTTHRES1" index="18"/>
+				<field name="RPTTHRES2" index="19"/>
+				<field name="RPTTHRES3" index="20"/>
+				<field name="RPTTHRES4" index="21"/>
+				<field name="RPTTHRES5" index="22"/>
+				<field name="RPTTHRES6" index="23"/>
+				<field name="THOUGHTHRES" index="24"/>
+				<field name="TRIGTIME" index="25"/>
+				<field name="PENDINGTIME" index="26"/>
+				<field name="TXINTERCFGPRE" index="27"/>
+				<field name="TXINTERRUPTION" index="28"/>
+				<field name="PRDRPTAMOUNT" index="29"/>
+				<field name="PRDRPTINTERVAL" index="30"/>
+				<field name="-1" index="31"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="34" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;UlTfcs.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="ULTFCSCTFCINDEX" index="4"/>
+				<field name="CTFCNUM" index="5"/>
+				<field name="CTFC" index="6"/>
+				<field name="BETAC" index="7"/>
+				<field name="BETAD" index="8"/>
+				<field name="POPPM" index="9"/>
+				<field name="-1" index="10"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="35" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;utranCell.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="ADDRESS" index="3"/>
+				<field name="CELLADDITION1" index="4"/>
+				<field name="TRFCATRATMIDX" index="5"/>
+				<field name="OBSERVESTATUS" index="6"/>
+				<field name="TXDIVIND" index="7"/>
+				<field name="NRTMAXDLRATEDCH" index="8"/>
+				<field name="NRTMAXULRATEDCH" index="9"/>
+				<field name="RTMAXDLRATEDCH" index="10"/>
+				<field name="RTMAXULRATEDCH" index="11"/>
+				<field name="NRTMAXRATEEDCH" index="12"/>
+				<field name="RTMAXRATEEDCH" index="13"/>
+				<field name="CHECKPERIOD" index="14"/>
+				<field name="DECRATEURNUM" index="15"/>
+				<field name="SCENARIOTYPE" index="16"/>
+				<field name="OCNSCODENUMBER" index="17"/>
+				<field name="OCNSCODE" index="18"/>
+				<field name="CELLREESTABIND" index="19"/>
+				<field name="MRUEMEASSWIT" index="20"/>
+				<field name="MRCELLMEASSWIT" index="21"/>
+				<field name="MRCELMRPTINTCOEF" index="22"/>
+				<field name="CLOSEFREFUNSWIT" index="23"/>
+				<field name="STARTTIMETOCLSF" index="24"/>
+				<field name="ENDTIMETOCLSF" index="25"/>
+				<field name="UENUMTHRESHCLS" index="26"/>
+				<field name="FRECLSOPNTRIGTM" index="27"/>
+				<field name="OPENFREALG" index="28"/>
+				<field name="CS64SWITCH" index="29"/>
+				<field name="NMSCID" index="30"/>
+				<field name="NMSLCID" index="31"/>
+				<field name="NMSCELLLEVEL" index="32"/>
+				<field name="NMSRADIOCAPACITY" index="33"/>
+				<field name="NMSHSDSTAT" index="34"/>
+				<field name="NMSNUMOFHSPDSCH" index="35"/>
+				<field name="NMSNUMOFHSSCCH" index="36"/>
+				<field name="NMSHSUSTAT" index="37"/>
+				<field name="NMSNUMOFEAGCH" index="38"/>
+				<field name="NMSNUMOFERGHICH" index="39"/>
+				<field name="NMSMBMSSTAT" index="40"/>
+				<field name="NMSMBMSTSNUM" index="41"/>
+				<field name="NMSMICHCMNUM" index="42"/>
+				<field name="NMSUTRANCELLIUBLINK" index="43"/>
+				<field name="CELLADDITION2" index="44"/>
+				<field name="CELLADDITION3" index="45"/>
+				<field name="CELLADDITION4" index="46"/>
+				<field name="OMCRNCID" index="47"/>
+				<field name="MCC" index="48"/>
+				<field name="MNC" index="49"/>
+				<field name="RNCID" index="50"/>
+				<field name="CID" index="51"/>
+				<field name="MODULE" index="52"/>
+				<field name="NODEBNO" index="53"/>
+				<field name="SECTORID" index="54"/>
+				<field name="LAC" index="55"/>
+				<field name="SACPC" index="56"/>
+				<field name="SACBPRE" index="57"/>
+				<field name="SACB" index="58"/>
+				<field name="RAC" index="59"/>
+				<field name="CELLSCEN" index="60"/>
+				<field name="LCID" index="61"/>
+				<field name="LCGID" index="62"/>
+				<field name="TCELL" index="63"/>
+				<field name="FREQBANDIND" index="64"/>
+				<field name="UUARFCN" index="65"/>
+				<field name="DUARFCN" index="66"/>
+				<field name="MAXDLTXPWR" index="67"/>
+				<field name="CLTAMPRE" index="68"/>
+				<field name="CLTAM" index="69"/>
+				<field name="PRIMSCRACODE" index="70"/>
+				<field name="NUMINSYNCIND" index="71"/>
+				<field name="NUMOUTSYNCIND" index="72"/>
+				<field name="TRLFAILURE" index="73"/>
+				<field name="DLTPCN" index="74"/>
+				<field name="PWRRAISLIM" index="75"/>
+				<field name="DLPWRAVERWIN" index="76"/>
+				<field name="URANUM" index="77"/>
+				<field name="URA" index="78"/>
+				<field name="PCCPCHINFSIB5PRE" index="79"/>
+				<field name="PCCPCHINFSIB6PRE" index="80"/>
+				<field name="EXPTIMFACTOR" index="81"/>
+				<field name="PRACHSIB6PRE" index="82"/>
+				<field name="SIBUPDCOEFF" index="83"/>
+				<field name="SIB7ORIGINATOR" index="84"/>
+				<field name="SIB4IND" index="85"/>
+				<field name="SIB6IND" index="86"/>
+				<field name="SIB12IND" index="87"/>
+				<field name="CELLDESCRIPTYPE" index="88"/>
+				<field name="POLYGONPOINTNUM" index="89"/>
+				<field name="POLYLATITUDESIGN" index="90"/>
+				<field name="POLYLATITUDE" index="91"/>
+				<field name="POLYLONGITUDE" index="92"/>
+				<field name="LATITUDESIGN" index="93"/>
+				<field name="LATITUDE" index="94"/>
+				<field name="LONGITUDE" index="95"/>
+				<field name="ALTITUDE" index="96"/>
+				<field name="ALTITUDEDIR" index="97"/>
+				<field name="ALTITUDEACC" index="98"/>
+				<field name="UNCERTALTITUDE" index="99"/>
+				<field name="CONFIDENCE" index="100"/>
+				<field name="CELLRADIUS" index="101"/>
+				<field name="UNCERTCODE" index="102"/>
+				<field name="GARPTTYPE" index="103"/>
+				<field name="ANTETYPE" index="104"/>
+				<field name="ANTELATITUDESIGN" index="105"/>
+				<field name="ANTELATITUDE" index="106"/>
+				<field name="ANTELONGITUDE" index="107"/>
+				<field name="ANTEALTITUDE" index="108"/>
+				<field name="ANTEALTITUDEDIR" index="109"/>
+				<field name="OFFSETANGLE" index="110"/>
+				<field name="INNERANGLE" index="111"/>
+				<field name="CLASSZONEIND" index="112"/>
+				<field name="RPTPRDUNIT" index="113"/>
+				<field name="INFORPTPERIOD" index="114"/>
+				<field name="HSPASPTMETH" index="115"/>
+				<field name="MIMOIND" index="116"/>
+				<field name="MBMSSUPTIND" index="117"/>
+				<field name="SUPTMULUSDETIND" index="118"/>
+				<field name="STTDSUPTIND" index="119"/>
+				<field name="CLM1SUPTIND" index="120"/>
+				<field name="CLM2SUPTIND" index="121"/>
+				<field name="CELLRECFGIND" index="122"/>
+				<field name="CHANNELRECFGIND" index="123"/>
+				<field name="RTTMEASSPTIND" index="124"/>
+				<field name="FNRPTIND" index="125"/>
+				<field name="TUTRANGPSSPTIND" index="126"/>
+				<field name="RTTTYPEFLAG" index="127"/>
+				<field name="DETSETHOSWCH" index="128"/>
+				<field name="PREFTRAFTYPE" index="129"/>
+				<field name="CELLINDIVOFFSET" index="130"/>
+				<field name="USEOFHCS" index="131"/>
+				<field name="HCSPRIO" index="132"/>
+				<field name="TFAST" index="133"/>
+				<field name="NFAST" index="134"/>
+				<field name="TSLOWJUDGE" index="135"/>
+				<field name="TSLOW" index="136"/>
+				<field name="NSLOW" index="137"/>
+				<field name="AMRUEINTRPTMODE" index="138"/>
+				<field name="RLUEINTRPTMODE" index="139"/>
+				<field name="SOFTHOMTH" index="140"/>
+				<field name="INTERHOMTH" index="141"/>
+				<field name="INTRATHOMTH" index="142"/>
+				<field name="INTERHOTACTIC" index="143"/>
+				<field name="RATHOTACTIC" index="144"/>
+				<field name="ULPWRHOSWCH" index="145"/>
+				<field name="ULBLERHOSWCH" index="146"/>
+				<field name="DLPWRHOSWCH" index="147"/>
+				<field name="MAXRATEMD" index="148"/>
+				<field name="HOSWITCH" index="149"/>
+				<field name="DLPBTCPMEASWCH" index="150"/>
+				<field name="DLPBTCPTYPSWCH" index="151"/>
+				<field name="NONINTRAMEASQUAN" index="152"/>
+				<field name="INTRAMEASQUAN" index="153"/>
+				<field name="PAGINGSENDTIMES" index="154"/>
+				<field name="TRFPCINDEX" index="155"/>
+				<field name="DIVPCINDEX" index="156"/>
+				<field name="TRFACINDEX" index="157"/>
+				<field name="DIVACINDEX" index="158"/>
+				<field name="SCHPRIINDEX" index="159"/>
+				<field name="LDCTLPRIINDEX" index="160"/>
+				<field name="CGTCTLPRIINDEX" index="161"/>
+				<field name="BPRIACINDEX" index="162"/>
+				<field name="TRFDEDMEASINDEX" index="163"/>
+				<field name="TRFCATINTRAMIDX" index="164"/>
+				<field name="TRFCATINTERMIDX" index="165"/>
+				<field name="-1" index="166"/>
+			</fields>
+		</ds>
+	</templet>
+
+	<templet id="36" file="/w/zte/cm/new_352-352-%%Y%%M%%D-v3.17.310.xls&gt;utranRelation.csv" >
+		<ds id="0">
+			<meta>
+				<head splitSign="," />
+			</meta>
+			<fields splitSign=",">
+				<field name="MOI" index="0"   />
+				<field name="CONFSETID" index="1"   />
+				<field name="USERLABEL" index="2"   />
+				<field name="OMCRNCID" index="3"/>
+				<field name="CID" index="4"/>
+				<field name="NMCC" index="5"/>
+				<field name="NMNC" index="6"/>
+				<field name="NRNCID" index="7"/>
+				<field name="NCID" index="8"/>
+				<field name="SHARECOVER" index="9"/>
+				<field name="MEASPRIO" index="10"/>
+				<field name="STATEMODE" index="11"/>
+				<field name="SIB11ORSIB11BIS" index="12"/>
+				<field name="CELLINDIVOFFSET" index="13"/>
+				<field name="FBDCELLIND" index="14"/>
+				<field name="READSFNIND" index="15"/>
+				<field name="QOFFSET1SNSIB11" index="16"/>
+				<field name="QOFFSET2SNSIB11" index="17"/>
+				<field name="USEOFHCS" index="18"/>
+				<field name="QHCSECN0SIB11" index="19"/>
+				<field name="QHCSRSCPSIB11" index="20"/>
+				<field name="QHCSECN0SIB12" index="21"/>
+				<field name="QHCSRSCPSIB12" index="22"/>
+				<field name="PENALTYTIMESIB11" index="23"/>
+				<field name="TEMPOFFSET1SIB11" index="24"/>
+				<field name="TEMPOFFSET2SIB11" index="25"/>
+				<field name="QOFFSET1SNSIB12" index="26"/>
+				<field name="QOFFSET2SNSIB12" index="27"/>
+				<field name="PENALTYTIMESIB12" index="28"/>
+				<field name="TEMPOFFSET1SIB12" index="29"/>
+				<field name="TEMPOFFSET2SIB12" index="30"/>
+				<field name="NMSADJACENTCELL" index="31"/>
+				<field name="NMSUARFCNUL" index="32"/>
+				<field name="NMSUARFCNDL" index="33"/>
+				<field name="NMSPRIMARYSCRAMBLINGCODE" index="34"/>
+				<field name="NMSPRIMARYCPICHPOWER" index="35"/>
+				<field name="NMSLAC" index="36"/>
+				<field name="NMSRAC" index="37"/>
+				<field name="NMSHSDFLAG" index="38"/>
+				<field name="NMSHSUFLAG" index="39"/>
+				<field name="-1" index="40"/>
+			</fields>
+		</ds>
+	</templet>
+
+</templets>

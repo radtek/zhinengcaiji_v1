@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="MOD_IFS_BLINDPOINT" split="|" >
+			<column name="BP_LOCAL_NET" index="0" />
+			<column name="BP_ADDR" index="1" />
+			<column name="BP_LNG" index="2" />
+			<column name="BP_LAT" index="3" />
+			<column name="BP_AREA_TYPE" index="4" />
+			<column name="BP_INROOM" index="5" />
+			<column name="BP_NET_TYPE" index="6" />
+			<column name="BP_SOURCE" index="7" />
+			<column name="BP_STATE" index="8" />
+			<column name="BP_TYPE" index="9" />
+			<column name="BP_LOCAT_TIME" index="10" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="BP_LOCAT_WAY" index="11" />
+			<column name="BP_DEAL_TIME" index="12" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="BP_REASON" index="13" type="2" format="4000" />
+			<column name="BP_SOLVE_SCHEME" index="14"  type="2" format="4000"  />
+			<column name="BP_FINAL_SCHEME" index="15" />
+			<column name="BP_CREATE_TIME" index="16" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="BP_COMPLAIN_TIMES" index="17" />
+			<column name="BP_ORDER_NO" index="18" />
+			<column name="BP_START_TIME" index="19"  type="3" format="YYYY-MM-DD-HH24:MI:SS"  />
+			<column name="BP_END_TIME" index="20"  type="3" format="YYYY/MM/DD HH24:MI:SS" />
+			<column name="BP_AUDIT_PERSON" index="21" />
+			<column name="BP_AUDIT_TIME_LIMIT" index="22" />
+			<column name="BP_AUDIT_COST" index="23" />
+			<column name="BP_RECEIVE_TIME_LIMIT" index="24" />
+			<column name="BP_RECEIVE_COST" index="25" />
+			<column name="BP_DEAL_PERSON" index="26" />
+			<column name="BP_DEAL_TIME_LIMIT" index="27" />
+			<column name="BP_DEAL_COST" index="28" />
+			<column name="BP_VISIT_PERSON" index="29" />
+			<column name="BP_VISIT_TIME_LIMIT" index="30" />
+			<column name="BP_VISIT_COST" index="31" />
+			<column name="BP_ORDER_STATE" index="32" />
+			<column name="BP_OPERAT_STATE" index="33" />
+			<column name="BP_DEMAND_SOURCE" index="34" />
+			<column name="BP_ACCEPT_TIME" index="35" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="BP_FILE_TIME" index="36" type="3" format="YYYY/MM/DD HH24:MI:SS"  />
+			<column name="BP_ORDER_LEVEL" index="37" type="2" format="2000" />
+			<column name="BP_ORDER_CONTENT" index="38" type="2" format="4000"  />
+			<column name="BP_ATTACH_COUNT" index="39" />
+			<column name="BP_SEQ_NO" index="40" />
+			<column name="BP_BELONGS_COUNTY" index="41" />
+			<column name="BP_BELONGS_TOWNS" index="42" />
+			<column name="TOPN_ID" index="43" />
+			<column name="TOPN_TIMES" index="44" />
+			<column name="IS_1X_BLIND" index="45" />
+			<column name="BLIND_1X_REASON" index="46" />
+			<column name="IS_DO_BLIND" index="47" />
+			<column name="BLIND_DO_REASON" index="48" />
+			<column name="HAS_PLAN" index="49" />
+			<column name="PLAN_SITE_NAME" index="50" />
+			<column name="PLAN_SITE_LNG" index="51" />
+			<column name="PLAN_SITE_LAT" index="52" />
+			<column name="PLAN_ADDRESS" index="53" />
+			<column name="PLAN_IS_ROOM" index="54" />
+			<column name="DEVICE_TYPE" index="55" />
+			<column name="CONFIG_1X" index="56" />
+			<column name="CONFIG_DO" index="57" />
+			<column name="BUILD_SITE_REASON" index="58" />
+			<column name="LIST_TO_PLAN" index="59" />
+			<column name="PLAN_BUILD_SITE_TIME" index="60" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="REPORT_PERSON" index="61" />
+			<column name="REPORT_TIME" index="62" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="DEAL_PROGRESS" index="63" />
+			<column name="RESERVED1" index="64" />
+			<column name="RESERVED2" index="65" />
+			<column name="RESERVED3" index="66" />
+			<column name="RESERVED4" index="67" />
+			<column name="RESERVED5" index="68" />
+			<column name="RESERVED6" index="69" />
+			<column name="RESERVED7" index="70" />
+			<column name="RESERVED8" index="71" />
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="MOD_IFS_FAULTORDER" split="|" >
+			<column name="FO_SEQ_NO" index="0" />
+			<column name="ACCEPT_TIME" index="1" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="OVER_TIME" index="2" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="FO_PHONE" index="3" />
+			<column name="FO_USER" index="4" />
+			<column name="CONTACT_PERSON" index="5" />
+			<column name="CONTACT_PHONE" index="6" />
+			<column name="FO_LEVEL" index="7" />
+			<column name="FO_USER_TYPE" index="8" />
+			<column name="FO_CONTENT" index="9" type="2" format="999" />
+			<column name="FO_LOCAL_NET" index="10" />
+			<column name="FO_ORDER_TYPE" index="11" />
+			<column name="FO_ADDR_TYPE" index="12" />
+			<column name="FO_AREA_TYPE" index="13" />
+			<column name="FO_ADDRESS" index="14" />
+			<column name="FO_COMPLAINT_CAUSE" index="15"  type="2" format="4000" />
+			<column name="FO_DISPATCH_TIME" index="16" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="FO_TIME_LIMIT" index="17" />
+			<column name="FO_FILE_TIME" index="18" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="FO_DURATION_ALL" index="19" />
+			<column name="FO_REPEAT_FAULT_NUM" index="20" />
+			<column name="FO_LNG" index="21" />
+			<column name="FO_LAT" index="22" />
+			<column name="FO_DEAL_RESULT" index="23" />
+			<column name="FO_REASON_TYPE" index="24" />
+			<column name="RESOLVE_STATE" index="25" />
+			<column name="CALL_TYPE" index="26" />
+			<column name="RESERVED1" index="27" />
+			<column name="RESERVED2" index="28" />
+			<column name="RESERVED3" index="29" />
+			<column name="RESERVED4" index="30" />
+			<column name="RESERVED5" index="31" />
+			<column name="RESERVED6" index="32" />
+			<column name="RESERVED7" index="33" />
+			<column name="RESERVED8" index="34" />
+		</table>
+	</templet>
+</templets>

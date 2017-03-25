@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" file="C:\Users\yangjian\Desktop\bell\RMFS00001.132">
+		<public>
+			<startSign>MFS version	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field index="0">
+					<startSign>Number of the MFS	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		
+		<ds id="0">
+			<meta>
+				<endSign>&#x000A;&#x000A;</endSign>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;">
+				<field name="TP" index="3" occur="required" />
+				<field name="BEARER" index="4" occur="required" />
+				<field name="PVC" index="5" occur="required" />
+				<field name="P23" index="6" />
+				<field name="P34" index="7" />
+				<field name="P4" index="8" />
+				<field name="P45" index="9" />
+				<field name="P46" index="10" />
+				<field name="P5" index="11" />
+				<field name="P6C" index="12" />
+				<field name="P6D" index="13" />
+			</fields>
+		</ds>
+		
+	</templet>
+	
+	<templet id="1" file="C:\Users\yangjian\Desktop\bell\R11000001.132">
+		<public>
+			<startSign>BSS release	:</startSign>
+			<endSign>&#x000A;&#x000A;</endSign>
+			<fields>
+				<field index="0">
+					<startSign>Name of BSC	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field index="1">
+					<startSign>Measurement begin date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+				<field index="2">
+					<startSign>Measurement end date and time	:</startSign>
+					<endSign>&#x000A;</endSign>
+				</field>
+			</fields>
+		</public>
+		
+		<ds id="0">
+			<meta>
+				<endSign>&#x000A;&#x000A;</endSign>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;">
+				<field name="BTS_INDEX" index="3" occur="required" />
+				<field name="BTS_SECTOR" index="4" occur="required" />
+				<field name="CELL_NAME" index="5" occur="required" />
+				<field name="CELL_CI" index="6" />
+				<field name="CELL_LAC" index="7" />
+				<field name="BSC_MCC" index="8" />
+				<field name="BSC_MNC" index="9" />
+				<field name="MC01" index="10" occur="required" />
+				<field name="MC02" index="11" />
+				<field name="MC02A" index="12" />
+				<field name="MC02B" index="13" />
+			</fields>
+		</ds>
+		
+		<ds id="1">
+			<meta>
+				<endSign>&#x000A;&#x000A;</endSign>
+				<head splitSign="&#x0009;" />
+			</meta>
+			<fields splitSign="&#x0009;">
+				<field name="BTS_INDEX" index="3" occur="required" />
+				<field name="BTS_SECTOR" index="4" occur="required" />
+				<field name="CELL_NAME" index="5" occur="required" />
+				<field name="CELL_CI" index="6" />
+				<field name="CELL_LAC" index="7" />
+				<field name="BSC_MCC" index="8" />
+				<field name="BSC_MNC" index="9" />
+				<field name="TRXID" index="10" occur="required" />
+				<field name="MC370A" index="11" />
+				<field name="MC370B" index="12" />
+				<field name="MC380A" index="13" />
+			</fields>
+		</ds>
+		
+	</templet>
+	
+</templets>

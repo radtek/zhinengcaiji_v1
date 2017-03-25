@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="*_CM_载频参数表(1X).txt">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;"/>
+			</meta>
+			<fields splitSign="&#x0009;">
+				<field name="BSSID" index="0"/>
+				<field name="SYSTEM" index="1"/>
+				<field name="CELLID" index="2"/>
+				<field name="CARRIERID" index="3"/>
+				<field name="GROUPID" index="4"/>
+				<field name="SECTORID" index="5"/>
+				<field name="BAND_CLASS" index="6"/>
+				<field name="CDMA_FREQ" index="7"/>
+				<field name="QPCH_HASH_IND" index="8"/>
+				<field name="QPCH_SUPPORTED" index="9"/>
+				<field name="ENHANCE_RC_SUPPORT" index="10"/>
+				<field name="BCCH_SUPPORT" index="11"/>
+				<field name="TD_MODE" index="12"/>
+				<field name="TD_HASH_IND" index="13"/>
+				<field name="TD_POWER_LEVEL" index="14"/>
+				<field name="NOM_PWR" index="15"/>
+				<field name="NOM_PWR_EXT" index="16"/>
+				<field name="INCRITICALCELL" index="17"/>
+				<field name="FIRST_LIST" index="18"/>
+				<field name="REVERSE_PRE_LEN" index="19"/>
+				<field name="T_DROP_SSHO_VOICE" index="20"/>
+				<field name="RTD_THRESHOLD_VOICE" index="21"/>
+				<field name="T_DROP_SSHO_DATA" index="22"/>
+				<field name="RTD_THRESHOLD_DATA" index="23"/>
+				<field name="MAX_IDEALPILOTPWR" index="24"/>
+				<field name="CONTROLTHRESHOLD" index="25"/>
+				<field name="ADJUSTMENTPROPORTION" index="26"/>
+				<field name="FILTERPARA" index="27"/>
+				<field name="CARRIERCALLTHRESHOLD" index="28"/>
+				<field name="CALLCOMTHRESHOLD" index="29"/>
+				<field name="STATUS" index="30"/>
+				<field name="ISBEACON" index="31"/>
+				<field name="CARRIERTYPE" index="32"/>
+				<field name="GSRDM_ACCOLC_0" index="33"/>
+				<field name="GSRDM_ACCOLC_1" index="34"/>
+				<field name="GSRDM_ACCOLC_2" index="35"/>
+				<field name="GSRDM_ACCOLC_3" index="36"/>
+				<field name="GSRDM_ACCOLC_4" index="37"/>
+				<field name="GSRDM_ACCOLC_5" index="38"/>
+				<field name="GSRDM_ACCOLC_6" index="39"/>
+				<field name="GSRDM_ACCOLC_7" index="40"/>
+				<field name="GSRDM_ACCOLC_8" index="41"/>
+				<field name="GSRDM_ACCOLC_9" index="42"/>
+				<field name="GSRDM_ACCOLC_10" index="43"/>
+				<field name="GSRDM_ACCOLC_11" index="44"/>
+				<field name="GSRDM_ACCOLC_12" index="45"/>
+				<field name="GSRDM_ACCOLC_13" index="46"/>
+				<field name="GSRDM_ACCOLC_14" index="47"/>
+				<field name="GSRDM_ACCOLC_15" index="48"/>
+				<field name="GSRDM_REDT_ACCOLC" index="49"/>
+				<field name="GSRDM_RETURN_IF_FAIL" index="50"/>
+				<field name="GSRDM_DELETE_TMSI" index="51"/>
+				<field name="GSRDM_EXCL_P_REV_MS" index="52"/>
+				<field name="EGSRD_REDT_P_REV_INL" index="53"/>
+				<field name="EGSRD_EXCL_P_REV_IND" index="54"/>
+				<field name="EGSRD_REDT_P_MIN" index="55"/>
+				<field name="EGSRD_REDT_P_MAX" index="56"/>
+				<field name="GSRDM_RECORD_TYPE" index="57"/>
+				<field name="GSRDM_BAND_CLASS" index="58"/>
+				<field name="GSRDM_EXPECTED_SID" index="59"/>
+				<field name="GSRDM_EXPECTED_NID" index="60"/>
+				<field name="GSRDM_CDMA_CHAN0" index="61"/>
+				<field name="GSRDM_CDMA_CHAN1" index="62"/>
+				<field name="GSRDM_CDMA_CHAN2" index="63"/>
+				<field name="GSRDM_CDMA_CHAN3" index="64"/>
+				<field name="GSRDM_CDMA_CHAN4" index="65"/>
+				<field name="GSRDM_CDMA_CHAN5" index="66"/>
+				<field name="GSRDM_CDMA_CHAN6" index="67"/>
+				<field name="GSRDM_CDMA_CHAN7" index="68"/>
+				<field name="GSRDM_CDMA_CHAN8" index="69"/>
+				<field name="GSRDM_CDMA_CHAN9" index="70"/>
+				<field name="GSRDM_CDMA_CHAN10" index="71"/>
+				<field name="GSRDM_CDMA_CHAN11" index="72"/>
+				<field name="GSRDM_CDMA_CHAN12" index="73"/>
+				<field name="GSRDM_CDMA_CHAN13" index="74"/>
+				<field name="GSRDM_CDMA_CHAN14" index="75"/>
+				<field name="GSRDM_NUM_CHANS" index="76"/>
+				<field name="RESERVED1" index="77"/>
+				<field name="RESERVED2" index="78"/>
+				<field name="ALIAS_B" index="79" type="2" format="4000"/>
+				<field name="SWITCH1" index="80"/>
+				<field name="SWITCH2" index="81"/>
+				<field name="SWITCH3" index="82"/>
+				<field name="SWITCH4" index="83"/>
+				<field name="SWITCH5" index="84"/>
+				<field name="SWITCH6" index="85"/>
+				<field name="SWITCH7" index="86"/>
+				<field name="SWITCH8" index="87"/>
+				<field name="SWITCH9" index="88"/>
+				<field name="SWITCH10" index="89"/>
+				<field name="DIVERSITYSECTORID" index="90"/>
+				<field name="SECTORGAIN" index="91"/>
+				<field name="POWEROFFTIME_START" index="92"/>
+				<field name="POWEROFFTIME_END" index="93"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="*_CM_小区实体参数表(1X).txt">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;"/>
+			</meta>
+			<fields splitSign="&#x0009;">
+				<field name="BSSID" index="0"/>
+				<field name="SYSTEM" index="1"/>
+				<field name="CELLID" index="2"/>
+				<field name="SID" index="3"/>
+				<field name="NID" index="4"/>
+				<field name="LAC" index="5"/>
+				<field name="CI" index="6"/>
+				<field name="PILOT_PN" index="7"/>
+				<field name="PILOT_INC" index="8"/>
+				<field name="SRCH_WIN_A" index="9"/>
+				<field name="SRCH_WIN_N" index="10"/>
+				<field name="SRCH_WIN_R" index="11"/>
+				<field name="NGHBR_MAX_AGE" index="12"/>
+				<field name="RESCAN" index="13"/>
+				<field name="RLGAIN_TRAFFIC_PILOT" index="14"/>
+				<field name="RLGAIN_SCH_PILOT" index="15"/>
+				<field name="RADIUS" index="16"/>
+				<field name="P_REV" index="17"/>
+				<field name="MIN_P_REV" index="18"/>
+				<field name="STANDARDP_REV_SUPPORT" index="19"/>
+				<field name="BASE_LAT" index="20"/>
+				<field name="BASE_LONG" index="21"/>
+				<field name="T_MULCHAN" index="22"/>
+				<field name="ENC_SUPPORTED" index="23"/>
+				<field name="RCCLASS2_SUPPORT" index="24"/>
+				<field name="NGHBR_CELL_NUM" index="25"/>
+				<field name="HANDOFFMODE" index="26"/>
+				<field name="T_COMP_PS" index="27"/>
+				<field name="STATUS" index="28"/>
+				<field name="OVER_LAC_INCL1" index="29"/>
+				<field name="OVER_LAC1" index="30"/>
+				<field name="OVER_LAC_INCL2" index="31"/>
+				<field name="OVER_LAC2" index="32"/>
+				<field name="RESERVED1" index="33"/>
+				<field name="RESERVED2" index="34"/>
+				<field name="STDSYNCCH" index="35"/>
+				<field name="GOS_B" index="36"/>
+				<field name="BAND_CLASS" index="37"/>
+				<field name="CELLMODE" index="38"/>
+				<field name="MAXRACHSEARCHFRA" index="39"/>
+				<field name="MAXRACHSEPARATION" index="40"/>
+				<field name="DLA_ID" index="41"/>
+				<field name="ALIAS_B" index="42" type="2" format="4000"/>
+				<field name="SWITCH1" index="43"/>
+				<field name="SWITCH2" index="44"/>
+				<field name="SWITCH3" index="45"/>
+				<field name="SWITCH4" index="46"/>
+				<field name="SWITCH5" index="47"/>
+				<field name="SWITCH6" index="48"/>
+				<field name="SWITCH7" index="49"/>
+				<field name="SWITCH8" index="50"/>
+				<field name="SWITCH9" index="51"/>
+				<field name="SWITCH10" index="52"/>
+				<field name="PTT_BCAST_INDEX" index="53"/>
+				<field name="SIGN_SLOT_CYCLE_IND" index="54"/>
+				<field name="MAX_PTT_SCI" index="55"/>
+				<field name="FIX_SEARCH_WINDOW" index="56"/>
+				<field name="PR_LENGTH" index="57"/>
+				<field name="TR_LENGTH" index="58"/>
+				<field name="MAX_RESEND_NUM" index="59"/>
+				<field name="DIVERSITYMODE" index="60"/>
+				<field name="SECTORLOC" index="61"/>
+				<field name="MAXCALLDISTANCE" index="62"/>
+				<field name="CARRIERKEEPPWR_VOICE" index="63"/>
+				<field name="CARRIERKEEPPWR_DATA" index="64"/>
+				<field name="LOADBALANCEPWR_VOICE" index="65"/>
+				<field name="LOADBALANCEPWR_DATA" index="66"/>
+				<field name="CARRIERKEEPFCH_VOICE" index="67"/>
+				<field name="CARRIERKEEPFCH_DATA" index="68"/>
+				<field name="LOADBALANCEFCH_VOICE" index="69"/>
+				<field name="LOADBALANCEFCH_DATA" index="70"/>
+				<field name="MSCOFFICEID" index="71"/>
+				<field name="EVRCBOPERATINGPOINT" index="72"/>
+				<field name="HARDHANDOFF_COMP" index="73"/>
+				<field name="HARDHANDOFF_TIMER" index="74"/>
+				<field name="PTT_RLGAIN_ADJ" index="75"/>
+				<field name="SIGNAL_PWRSTEP" index="76"/>
+				<field name="PTT_RLGAINADJ_NOACK" index="77"/>
+				<field name="PTT_RLGAINADJ_EXT" index="78"/>
+				<field name="SERVICERESTRICTMODE" index="79"/>
+				<field name="PHYCELLID" index="80"/>
+				<field name="ISSAMEPNSECTOR" index="81"/>
+				<field name="REFCELLID" index="82"/>
+				<field name="LONGLATLOCK_B" index="83"/>
+				<field name="DLA_HIGH" index="84"/>
+				<field name="DLA_LOW" index="85"/>
+				<field name="PTTBC_PILOT_REPORT" index="86"/>
+				<field name="BASE_LAT_B" index="87"/>
+				<field name="BASE_LONG_B" index="88"/>
+				<field name="PTTBC_SNCAMPWRADJ" index="89"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="*_CM_载频无线参数表(DO).txt">
+		<ds id="0">
+			<meta>
+				<head splitSign="&#x0009;"/>
+			</meta>
+			<fields splitSign="&#x0009;">
+				<field name="ANID" index="0"/>
+				<field name="SYSTEM" index="1"/>
+				<field name="CELLID" index="2"/>
+				<field name="CARRIERID" index="3"/>
+				<field name="GROUPID" index="4"/>
+				<field name="CARRIERCELLID" index="5"/>
+				<field name="SYSTEMTYPE" index="6"/>
+				<field name="ISBEACON" index="7"/>
+				<field name="ISCRITICAL" index="8"/>
+				<field name="SWITCH1" index="9"/>
+				<field name="SWITCH2" index="10"/>
+				<field name="SWITCH3" index="11"/>
+				<field name="SWITCH4" index="12"/>
+				<field name="SWITCH5" index="13"/>
+				<field name="SWITCH6" index="14"/>
+				<field name="SWITCH7" index="15"/>
+				<field name="SWITCH8" index="16"/>
+				<field name="SWITCH9" index="17"/>
+				<field name="SWITCH10" index="18"/>
+				<field name="CHMTYPE" index="19"/>
+				<field name="BCSUBNET" index="20"/>
+				<field name="ISREDIRECTION" index="21"/>
+				<field name="REDIRECTIONCR0" index="22"/>
+				<field name="REDIRECTIONCR1" index="23"/>
+				<field name="RTDTHRESHOLD1MIN" index="24"/>
+				<field name="RTDTHRESHOLD1MAX" index="25"/>
+				<field name="RTDTHRESHOLD2MIN" index="26"/>
+				<field name="RTDTHRESHOLD2MAX" index="27"/>
+				<field name="CELLMODE" index="28"/>
+				<field name="PHYCELLID" index="29"/>
+				<field name="CDMA_FREQ" index="30"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

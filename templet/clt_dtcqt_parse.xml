@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+       <templet id="0" file="/CQT_GSM_%%Y%%M%%D_zgk.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+          <field name="统计日期" index="0"/> 
+          <field name="地市" index="1"/> 
+          <field name="测试点名称" index="2"/> 
+          <field name="测试覆盖率≥-90dBm分子" index="3"/> 
+          <field name="测试覆盖率≥-90dBm分母" index="4"/> 
+          <field name="测试覆盖率≥-90dBm比例" index="5"/> 
+          <field name="话音质量>=4比例_分子" index="6"/> 
+          <field name="话音质量≥4比例_分母" index="7"/> 
+          <field name="话音质量≥4比例" index="8"/> 
+          <field name="测试语音MOS值_均值" index="9"/> 
+          <field name="MOS值_采样点数" index="10"/> 
+          <field name="语音接通率_分子" index="11"/> 
+          <field name="语音接通率_分母" index="12"/> 
+          <field name="语音接通率" index="13"/> 
+          <field name="语音信令掉话率_分子" index="14"/> 
+          <field name="语音信令掉话率_分母" index="15"/> 
+          <field name="语音信令掉话率" index="16"/> 
+          <field name="平均建立时延>=7s_分子" index="17"/> 
+          <field name="平均建立时延>=7s_分母" index="18"/> 
+          <field name="平均建立时延>=7s_比例" index="19"/> 
+          <field name="测试点编号" index="20"/> 
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/DT_GSM_%%Y%%M%%D_zgk.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+          <field name="测试点编号" index="0"/>
+          <field name="测试点名称" index="1"/>
+          <field name="地市" index="2"/>
+          <field name="统计日期" index="3"/>
+          <field name="测试覆盖率≥-90dBm分子" index="4"/>
+          <field name="测试覆盖率≥-90dBm分母" index="5"/>
+          <field name="测试覆盖率≥-90dBm比例" index="6"/>
+          <field name="话音质量>=4比例_分子" index="7"/>
+          <field name="话音质量≥4比例_分母" index="8"/>
+          <field name="话音质量≥4比例" index="9"/>
+          <field name="测试语音MOS值_均值" index="10"/>
+          <field name="MOS值_采样点数" index="11"/>
+          <field name="语音接通率_分子" index="12"/>
+          <field name="语音接通率_分母" index="13"/>
+          <field name="语音接通率" index="14"/>
+          <field name="语音信令掉话率_分子" index="15"/>
+          <field name="语音信令掉话率_分母" index="16"/>
+          <field name="语音信令掉话率" index="17"/>
+          <field name="平均建立时延>=7s_分子" index="18"/>
+          <field name="平均建立时延>=7s_分母" index="19"/>
+          <field name="平均建立时延>=7s_比例" index="20"/>
+          <field name="语音业务掉话率_指标分子" index="21"/>
+          <field name="语音业务掉话率_指标分母" index="22"/>
+          <field name="语音业务掉话率" index="23"/>
+			</fields>
+		</ds>
+	</templet>
+        <templet id="2" file="/CQT_WCDMA_%%Y%%M%%D_zgk.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+        <field name="测试点编号" index="0"/>
+        <field name="测试点名称" index="1"/>
+        <field name="地市" index="2"/>
+        <field name="统计日期" index="3"/>
+        <field name="RSCP≥-80dBm的分子" index="4"/>
+        <field name="RSCP≥-80dBm的分母" index="5"/>
+        <field name="RSCP≥-80dBm采样点比例" index="6"/>
+        <field name="Ec/Io≥-10dB分子" index="7"/>
+        <field name="Ec/Io≥-10dB分母" index="8"/>
+        <field name="Ec/Io≥-10dB采样点比例" index="9"/>
+        <field name="软切换比例_分子" index="10"/>
+        <field name="软切换比例_分母" index="11"/>
+        <field name="软切换比例" index="12"/>
+        <field name="导频污染栅格_分子" index="13"/>
+        <field name="导频污染栅格_分母" index="14"/>
+        <field name="导频污染栅格比例" index="15"/>
+        <field name="话音接通率_分子" index="16"/>
+        <field name="话音接通率_分母" index="17"/>
+        <field name="话音接通率" index="18"/>
+        <field name="语音掉话率_分子" index="19"/>
+        <field name="语音掉话率分母" index="20"/>
+        <field name="语音掉话率" index="21"/>
+        <field name="语音业务掉话率_分子" index="22"/>
+        <field name="语音业务掉话率_分母" index="23"/>
+        <field name="语音业务掉话率" index="24"/>
+        <field name="MOS值_均值" index="25"/>
+        <field name="MOS值_采样点数" index="26"/>
+        <field name="数据建立成功率_分子" index="27"/>
+        <field name="数据建立成功率_分母" index="28"/>
+        <field name="数据业务建立成功率" index="29"/>
+        <field name="PS3G网络占比_分子" index="30"/>
+        <field name="PS3G网络占比_分母" index="31"/>
+        <field name="PS3G网络占比" index="32"/>
+        <field name="HSDPA吞吐率_均值" index="33"/>
+        <field name="HSDPA吞吐率_采样点数" index="34"/>
+        <field name="HSUPA吞吐率_均值" index="35"/>
+        <field name="HSUPA吞吐率_采样点数" index="36"/>
+        <field name="平均呼叫时延>=5s分子" index="37"/>
+        <field name="平均呼叫时延>=5s分母" index="38"/>
+        <field name="平均建立时延>=5s比例" index="39"/>
+			</fields>
+		</ds>
+	</templet>
+        <templet id="3" file="/DT_WCDMA_%%Y%%M%%D_zgk.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+          <field name="网格编号" index="0"/>
+          <field name="网格名称" index="1"/>
+          <field name="地市" index="2"/>
+          <field name="统计日期" index="3"/>
+          <field name="RSCP≥-80dBm采样点_指标" index="4"/>
+          <field name="RSCP≥-80dBm采样点_分母" index="5"/>
+          <field name="RSCP≥-80dB采样点比例" index="6"/>
+          <field name="Ec/Io≥-10dB采样点_分子" index="7"/>
+          <field name="Ec/Io≥-10dB采样点_分母" index="8"/>
+          <field name="Ec/Io≥-10dB采样点比例" index="9"/>
+          <field name="软切换比例_分子" index="10"/>
+          <field name="软切换比例_分母" index="11"/>
+          <field name="软切换比例" index="12"/>
+          <field name="导频污染栅格_分子" index="13"/>
+          <field name="导频污染栅格_分母" index="14"/>
+          <field name="导频污染栅格比例" index="15"/>
+          <field name="话音接通率_分子" index="16"/>
+          <field name="话音接通率_分母" index="17"/>
+          <field name="话音接通率" index="18"/>
+          <field name="语音掉话率_分子" index="19"/>
+          <field name="语音掉话率_分母" index="20"/>
+          <field name="语音掉话率" index="21"/>
+          <field name="语音业务掉话率_分子" index="22"/>
+          <field name="语音业务掉话率_分母" index="23"/>
+          <field name="语音业务掉话率" index="24"/>
+          <field name="MOS值_均值" index="25"/>
+          <field name="MOS值_采样点数" index="26"/>
+          <field name="数据建立成功率_分子" index="27"/>
+          <field name="数据建立成功率_分母" index="28"/>
+          <field name="数据建立成功率" index="29"/>
+          <field name="PS3G网络占比_分子" index="30"/>
+          <field name="PS3G网络占比_分母" index="31"/>
+          <field name="PS3G网络占比" index="32"/>
+          <field name="HSDPA吞吐率_均值" index="33"/>
+          <field name="HSDPA吞吐率_采样点数" index="34"/>
+          <field name="HSUPA吞吐率_均值" index="35"/>
+          <field name="HSUPA吞吐率_采样点数" index="36"/>
+          <field name="平均呼叫时延>=5s_分子" index="37"/>
+          <field name="平均呼叫时延>=5s_分母" index="38"/>
+          <field name="平均呼叫时延>=5s比例" index="39"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

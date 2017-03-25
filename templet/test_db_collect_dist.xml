@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="clt_pm_w_hw_objectinstance" split=";" >
+			<column name="objecttypeid" index="0" />
+			<column name="objectno" index="1" />
+		</table>
+	</templet>
+
+	<templet id="1">
+		<table id="0" name="clt_pm_w_hw_1275071420_3" split=";" >
+			<column name="starttime" index="0" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="counter_1279173417" index="1" />
+		</table>
+	</templet>
+
+</templets>

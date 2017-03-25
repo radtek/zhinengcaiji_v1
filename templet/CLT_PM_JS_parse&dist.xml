@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<templets>
+
+<templet id="0" fromTable="pro_ida.net_sa_billinfo" toTable="CLT_JS_ZD_NET_SA_BILLINFO" used="1" occur="0" condition="" htmlTagsFilterColumns="DECLARE_REMARK"></templet>
+<templet id="1" fromTable="JS_IDA.T_PUB_BILL_ACTION" toTable="CLT_JS_ZD_T_PUB_BILL_ACTION" used="1" occur="0" condition=""></templet>
+     
+</templets>

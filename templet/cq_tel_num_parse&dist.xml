@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0" fromTable="tbm_net_note_list" toTable="clt_tbm_net_note_list" used="1" occur="1">
+		<sql>select * from tbm_net_note_list where trunc(send_time)=to_date('%%Y-%%M-%%D','yyyy-mm-dd')</sql>
+	</templet> 
+</templets>

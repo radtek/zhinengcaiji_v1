@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="DS_CLT_CONF_BSC" split="|">
+			<column name="col_0" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="col_1" index="1"/>
+			<column name="col_2" index="2"/>
+			<column name="col_3" index="3"/>
+			<column name="col_4" index="4"/>
+			<column name="col_5" index="5"/>
+			<column name="col_6" index="6"/>
+			<column name="col_7" index="7"/>
+			<column name="col_8" index="8"/>
+			<column name="col_9" index="9"/>
+			<column name="col_10" index="10"/>
+			<column name="col_11" index="11"/>
+			<column name="col_12" index="12"/>
+			<column name="col_13" index="13"/>
+			<column name="col_14" index="14"/>
+			<column name="col_15" index="15"/>
+			<column name="col_16" index="16"/>
+			<column name="col_17" index="17"/>
+			<column name="col_18" index="18"/>
+			<column name="col_19" index="19"/>
+			<column name="col_20" index="20"/>
+			<column name="col_21" index="21"/>
+			<column name="col_22" index="22"/>
+			<column name="col_23" index="23"/>
+			<column name="col_24" index="24"/>
+			<column name="col_25" index="25"/>
+			<column name="col_26" index="26"/>
+			<column name="col_27" index="27"/>
+			<column name="col_28" index="28"/>
+			<column name="col_29" index="29"/>
+			<column name="col_30" index="30"/>
+			<column name="col_31" index="31"/>
+		</table>
+	</templet>
+	<templet id="1">
+		<table id="0" name="DS_CLT_CONF_BTS" split="|">
+			<column name="col_0" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="col_1" index="1"/>
+			<column name="col_2" index="2"/>
+			<column name="col_3" index="3"/>
+			<column name="col_4" index="4"/>
+			<column name="col_5" index="5"/>
+			<column name="col_6" index="6"/>
+			<column name="col_7" index="7"/>
+			<column name="col_8" index="8"/>
+			<column name="col_9" index="9"/>
+			<column name="col_10" index="10"/>
+			<column name="col_11" index="11"/>
+			<column name="col_12" index="12"/>
+			<column name="col_13" index="13"/>
+			<column name="col_14" index="14"/>
+			<column name="col_15" index="15"/>
+			<column name="col_16" index="16"/>
+			<column name="col_17" index="17"/>
+			<column name="col_18" index="18"/>
+			<column name="col_19" index="19"/>
+			<column name="col_20" index="20"/>
+			<column name="col_21" index="21"/>
+			<column name="col_22" index="22"/>
+			<column name="col_23" index="23"/>
+			<column name="col_24" index="24"/>
+			<column name="col_25" index="25"/>
+			<column name="col_26" index="26"/>
+			<column name="col_27" index="27"/>
+			<column name="col_28" index="28"/>
+			<column name="col_29" index="29"/>
+			<column name="col_30" index="30"/>
+			<column name="col_31" index="31"/>
+			<column name="col_32" index="32"/>
+			<column name="col_33" index="33"/>
+			<column name="col_34" index="34"/>
+			<column name="col_35" index="35"/>
+			<column name="col_36" index="36"/>
+			<column name="col_37" index="37"/>
+			<column name="col_38" index="38"/>
+			<column name="col_39" index="39"/>
+			<column name="col_40" index="40"/>
+			<column name="col_41" index="41"/>
+			<column name="col_42" index="42"/>
+			<column name="col_43" index="43"/>
+			<column name="col_44" index="44"/>
+			<column name="col_45" index="45"/>
+			<column name="col_46" index="46"/>
+			<column name="col_47" index="47"/>
+			<column name="col_48" index="48"/>
+			<column name="col_49" index="49"/>
+			<column name="col_50" index="50"/>
+			<column name="col_51" index="51"/>
+			<column name="col_52" index="52"/>
+			<column name="col_53" index="53"/>
+			<column name="col_54" index="54"/>
+			<column name="col_55" index="55"/>
+			<column name="col_56" index="56"/>
+			<column name="col_57" index="57"/>
+			<column name="col_58" index="58"/>
+			<column name="col_59" index="59"/>
+			<column name="col_60" index="60"/>
+			<column name="col_61" index="61"/>
+			<column name="col_62" index="62"/>
+			<column name="col_63" index="63"/>
+			<column name="col_64" index="64"/>
+			<column name="col_65" index="65"/>
+			<column name="col_66" index="66"/>
+			<column name="col_67" index="67"/>
+			<column name="col_68" index="68"/>
+			<column name="col_69" index="69"/>
+			<column name="col_70" index="70"/>
+			<column name="col_71" index="71"/>
+			<column name="col_72" index="72"/>
+		</table>
+	</templet>
+	<templet id="2">
+		<table id="0" name="DS_CLT_CONF_MSC" split="|">
+			<column name="col_0" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="col_1" index="1"/>
+			<column name="col_2" index="2"/>
+			<column name="col_3" index="3"/>
+			<column name="col_4" index="4"/>
+			<column name="col_5" index="5"/>
+			<column name="col_6" index="6"/>
+			<column name="col_7" index="7"/>
+			<column name="col_8" index="8"/>
+			<column name="col_9" index="9"/>
+			<column name="col_10" index="10"/>
+			<column name="col_11" index="11"/>
+			<column name="col_12" index="12"/>
+			<column name="col_13" index="13"/>
+			<column name="col_14" index="14"/>
+			<column name="col_15" index="15"/>
+			<column name="col_16" index="16"/>
+			<column name="col_17" index="17"/>
+			<column name="col_18" index="18"/>
+			<column name="col_19" index="19"/>
+			<column name="col_20" index="20"/>
+			<column name="col_21" index="21"/>
+			<column name="col_22" index="22"/>
+			<column name="col_23" index="23"/>
+			<column name="col_24" index="24"/>
+			<column name="col_25" index="25"/>
+		</table>
+	</templet>
+	<templet id="3">
+		<table id="0" name="DS_CLT_CONF_SECTOR" split="|">
+			<column name="col_0" index="0" type="3" format="yyyy-mm-dd hh24:mi:ss"/>
+			<column name="col_1" index="1"/>
+			<column name="col_2" index="2"/>
+			<column name="col_3" index="3"/>
+			<column name="col_4" index="4"/>
+			<column name="col_5" index="5"/>
+			<column name="col_6" index="6"/>
+			<column name="col_7" index="7"/>
+			<column name="col_8" index="8"/>
+			<column name="col_9" index="9"/>
+			<column name="col_10" index="10"/>
+			<column name="col_11" index="11"/>
+			<column name="col_12" index="12"/>
+			<column name="col_13" index="13"/>
+			<column name="col_14" index="14"/>
+			<column name="col_15" index="15"/>
+			<column name="col_16" index="16"/>
+			<column name="col_17" index="17"/>
+			<column name="col_18" index="18"/>
+			<column name="col_19" index="19"/>
+			<column name="col_20" index="20"/>
+			<column name="col_21" index="21"/>
+			<column name="col_22" index="22"/>
+			<column name="col_23" index="23"/>
+			<column name="col_24" index="24"/>
+			<column name="col_25" index="25"/>
+			<column name="col_26" index="26"/>
+			<column name="col_27" index="27"/>
+			<column name="col_28" index="28"/>
+			<column name="col_29" index="29"/>
+			<column name="col_30" index="30"/>
+			<column name="col_31" index="31"/>
+			<column name="col_32" index="32"/>
+			<column name="col_33" index="33"/>
+			<column name="col_34" index="34"/>
+			<column name="col_35" index="35"/>
+			<column name="col_36" index="36"/>
+			<column name="col_37" index="37"/>
+			<column name="col_38" index="38"/>
+			<column name="col_39" index="39"/>
+			<column name="col_40" index="40"/>
+			<column name="col_41" index="41"/>
+			<column name="col_42" index="42"/>
+			<column name="col_43" index="43"/>
+			<column name="col_44" index="44"/>
+			<column name="col_45" index="45"/>
+			<column name="col_46" index="46"/>
+			<column name="col_47" index="47"/>
+			<column name="col_48" index="48"/>
+			<column name="col_49" index="49"/>
+			<column name="col_50" index="50"/>
+			<column name="col_51" index="51"/>
+			<column name="col_52" index="52"/>
+			<column name="col_53" index="53"/>
+			<column name="col_54" index="54"/>
+			<column name="col_55" index="55"/>
+			<column name="col_56" index="56"/>
+			<column name="col_57" index="57"/>
+			<column name="col_58" index="58"/>
+			<column name="col_59" index="59"/>
+			<column name="col_60" index="60"/>
+			<column name="col_61" index="61"/>
+			<column name="col_62" index="62"/>
+			<column name="col_63" index="63"/>
+			<column name="col_64" index="64"/>
+			<column name="col_65" index="65"/>
+			<column name="col_66" index="66"/>
+			<column name="col_67" index="67"/>
+			<column name="col_68" index="68"/>
+			<column name="col_69" index="69"/>
+			<column name="col_70" index="70"/>
+			<column name="col_71" index="71"/>
+			<column name="col_72" index="72"/>
+			<column name="col_73" index="73"/>
+			<column name="col_74" index="74"/>
+		</table>
+	</templet>
+</templets>

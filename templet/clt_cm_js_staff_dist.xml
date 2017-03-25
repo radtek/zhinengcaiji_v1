@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="clt_cm_js_staff" split=";" >
+			<column name="province" index="0" />
+			<column name="city" index="1" />
+			<column name="sname" index="2" />
+			<column name="sex" index="3" />
+			<column name="age" index="4" />
+			<column name="job" index="5" />
+			<column name="education" index="6" />
+			<column name="mobile" index="7" />
+			<column name="email" index="8" />
+			<column name="title" index="9" />
+			<column name="qualification" index="10" />
+			<column name="teacher" index="11" />
+			<column name="special_interface" index="12" />
+			<column name="awards" index="13" />
+			<column name="optimization_level" index="14" />
+			<column name="stime" index="15" type="3" format="yyyy-mm-dd" />
+		</table>
+	</templet>
+</templets>

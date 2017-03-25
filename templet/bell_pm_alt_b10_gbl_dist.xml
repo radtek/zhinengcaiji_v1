@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="gb2312"?>
+<templets>
+	<templet id="0">
+		<table id="0" name="CLT_PM_ALT_B10_GBL" split=";" >
+			<column name="MFS" index="0" />
+			<column name="STARTTIME" index="1" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="STOPTIME" index="2" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="TP" index="3" />
+			<column name="BEARER" index="4" />
+			<column name="PVC" index="5" />
+			<column name="P23" index="6" />
+			<column name="P34" index="7" />
+			<column name="P4" index="8" />
+			<column name="P45" index="9" />
+			<column name="P46" index="10" />
+			<column name="P5" index="11" />
+			<column name="P6C" index="12" />
+			<column name="P6D" index="13" />
+		</table>
+	</templet>
+	
+	<templet id="1">
+		<table id="0" name="clt_pm_alt_b10_r110" split=";" >
+			<column name="BSCNAME" index="0" />
+			<column name="STARTTIME" index="1" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="STOPTIME" index="2" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="BTS_INDEX" index="3" />
+			<column name="BTS_SECTOR" index="4" />
+			<column name="CELL_NAME" index="5" />
+			<column name="CELL_CI" index="6" />
+			<column name="CELL_LAC" index="7" />
+			<column name="BSC_MCC" index="8" />
+			<column name="BSC_MNC" index="9" />
+			<column name="MC01" index="10" />
+			<column name="MC02" index="11" />
+			<column name="MC02A" index="12" />
+			<column name="MC02B" index="13" />
+		</table>
+		
+		<table id="1" name="CLT_PM_ALT_B10_R111" split=";" >
+			<column name="BSCNAME" index="0" />
+			<column name="STARTTIME" index="1" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="STOPTIME" index="2" type="3" format="YYYY-MM-DD HH24:MI:SS" />
+			<column name="BTS_INDEX" index="3" />
+			<column name="BTS_SECTOR" index="4" />
+			<column name="CELL_NAME" index="5" />
+			<column name="CELL_CI" index="6" />
+			<column name="CELL_LAC" index="7" />
+			<column name="BSC_MCC" index="8" />
+			<column name="BSC_MNC" index="9" />
+			<column name="TRXID" index="10" />
+			<column name="MC370A" index="11" />
+			<column name="MC370B" index="12" />
+			<column name="MC380A" index="13" />
+		</table>
+	</templet>
+</templets>                                                                   

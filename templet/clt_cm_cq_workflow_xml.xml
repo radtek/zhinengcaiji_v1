@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templet table="CLT_TASKINFO">
+	<head name="TO_CHAR(START_TIME,'YYYY-MM-DD" col="START_TIME" />
+	<head name="CHINA_NAME" col="CHINA_NAME" />
+	<head name="REMARK" col="REMARK" />
+	<head name="CI" col="CI" />
+	<head name="MAX(CARRIER_NUM)" col="MAX_CARRIER_NUM" />
+	<head name="MAX(AVAIL_CARRIER)" col="MAX_AVAIL_CARRIER" />
+	<head name="MAX(TRAFFIC)" col="MAX_TRAFFIC" />
+	<head name="SUM(TRAFFIC)" col="SUM_TRAFFIC" />
+	<head name="MAX(TRAFFIC_HALF)" col="MAX_TRAFFIC_HALF" />
+	<head name="SUM(TRAFFIC_HALF)" col="SUM_TRAFFIC_HALF" />
+	<head name="MAX(CALL_BLOCK)" col="MAX_CALL_BLOCK" />
+	<head name="SUM(CALL_BLOCK)" col="SUM_CALL_BLOCK" />
+	<head name="MAX(CALL_ATT)" col="MAX_CALL_ATT" />
+	<head name="SUM(CALL_ATT)" col="SUM_CALL_ATT" />
+	<head name="SUM(CALL_SEIZE)" col="SUM_CALL_SEIZE" />
+	<head name="SUM(CALL_DROP)" col="SUM_CALL_DROP" />
+</templet>

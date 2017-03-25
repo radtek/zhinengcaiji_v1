@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<!--1-移动AAA原始数据说明-->
+	<templet id="0">
+		<table id="0" name="gd_pk_mobile" split=",">
+			<column name="StreamNumber" index="0" />
+			<column name="Acct_Status_Type" index="1" />
+			<column name="RoamFlag" index="2" />
+			<column name="PaidType" index="3" />
+			<column name="MDN" index="4" />
+			<column name="MSID" index="5" />
+			<column name="ESN" index="6" />
+			<column name="MEID" index="7" />
+			<column name="Source_IP_Address" index="8" />
+			<column name="Network_Access_Idetifier " index="9" />
+			<column name="Account_Session_ID " index="10" />
+			<column name="Correlation_ID" index="11" />
+			<column name="Session_Continue" index="12" />
+			<column name="Beginning_Session" index="13" />
+			<column name="PDSN_Address" index="14" />
+			<column name="Serving_PCF " index="15" />
+			<column name="BSID" index="16" />
+			<column name="Subnet" index="17" />
+			<column name="Service_Option" index="18" />
+			<column name="Data_Octet_Count_T " index="19" />
+			<column name="Data_Octet_Count_O " index="20" />
+			<column name="Acct_Terminate_Cause " index="21" />
+			<column name="Acct_Input_Gigawords " index="22" />
+			<column name="Acct_Output_Gigawords" index="23" />
+			<column name="Start_Time" index="24" />
+			<column name="End_Time" index="25" />
+			<column name="HOME_AREA_CODE" index="26" />
+			<column name="VISIT_AREA_CODE " index="27" />
+			<column name="UP_COUNT" index="28" />
+			<column name="DOWN_COUNT" index="29" />
+			<column name="TIME_LENGTH " index="30" />
+			<column name="ERROR_CODE" index="31" />
+		</table>
+	</templet>
+	<!-- 2-固网AAA-后付费（163大后台）原始数据说明 -->
+	<templet id="1">
+		<table id="0" name="gd_pk_fix_aft" split="|">
+			<column name="File_id" index="0" />
+			<column name="Offset_aft" index="1" />
+			<column name="LOCAL_NET" index="2" />
+			<column name="COUNTING_TYPE_ID2" index="3" />
+			<column name="PRODUCT_SPEC_ID" index="4" />
+			<column name="COLLECT_TIME" index="5" />
+			<column name="LOGIN_TIME" index="6" />
+			<column name="LOGOUT_TIME" index="7" />
+			<column name="SERVICE_TYPE" index="8" />
+			<column name="FRAMED_IP" index="9" />
+			<column name="FRAMED_PROTOCOL" index="10" />
+			<column name="NAS_IP" index="11" />
+			<column name="NAS_PORT" index="12" />
+			<column name="NAS_PORT_TYPE" index="13" />
+			<column name="NAS_IDENTIFIER" index="14" />
+			<column name="SESSION_ID" index="15" />
+			<column name="SESSION_TIME" index="16" />
+			<column name="DATA_IN" index="17" />
+			<column name="DATA_OUT" index="18" />
+			<column name="PACKET_IN" index="19" />
+			<column name="PACKET_OUT" index="20" />
+			<column name="TERMINATE_CAUSE" index="21" />
+			<column name="USE_NODE_ID" index="22" />
+			<column name="ROAM_FLAG" index="23" />
+			<column name="XPI" index="24" />
+			<column name="XCI" index="25" />
+			<column name="PORT_TYPE" index="26" />
+			<column name="SLOT" index="27" />
+			<column name="SUB_SLOT" index="28" />
+			<column name="PORT" index="29" />
+			<column name="MAC_ADDRESS" index="30" />
+			<column name="DOMAIN_ID" index="31" />
+			<column name="DELAY_TIME" index="32" />
+			<column name="RADIUS_ID" index="33" />
+			<column name="MULTI_SESSION_ID" index="34" />
+			<column name="LINK_COUNT" index="35" />
+			<column name="XDR_ID" index="36" />
+			<column name="NODE_ID" index="37" />
+			<column name="COUNTING_TYPE_ID" index="38" />
+			<column name="PRODUCT_ID" index="39" />
+			<column name="OFFERING_ID" index="40" />
+			<column name="OFFERING_SPEC_ID" index="41" />
+			<column name="OFFERING_TYPE" index="42" />
+			<column name="BILL_CYCLE_ID" index="43" />
+			<column name="IS_OPEN" index="44" />
+			<column name="CUSTOMER_ID" index="45" />
+			<column name="BILL_ACCOUNT_ID" index="46" />
+			<column name="RATE_ID" index="47" />
+			<column name="EXTERNAL_NUMBER" index="48" />
+			<column name="DISCOUNT_TIME" index="49" />
+			<column name="USE_USAGE" index="50" />
+			<column name="USE_FEE" index="51" />
+			<column name="IN_INFO_USAGE" index="52" />
+			<column name="IN_INFO_FEE" index="53" />
+			<column name="OUT_INFO_USAGE" index="54" />
+			<column name="OUT_INFO_FEE" index="55" />
+			<column name="R_USE_USAGE" index="56" />
+			<column name="R_USE_FEE" index="57" />
+			<column name="XDR_PAY_TYPE" index="58" />
+			<column name="GREEN_TYPE" index="59" />
+			<column name="RULE_NO" index="60" />
+		</table>
+	</templet>
+	<!-- 3-固网AAA-预付费（163大后台）原始数据说明 -->
+	<templet id="2">
+		<table id="0" name="gd_pk_fix_pre" split="|">
+			<column name="SessionId" index="0" />
+			<column name="TimeStamp" index="1" />
+			<column name="ServiceScenarious" index="2" />
+			<column name="ChargedParty" index="3" />
+			<column name="ServID" index="4" />
+			<column name="ProductSpecID" index="5" />
+			<column name="NasIP" index="6" />
+			<column name="FRAMED_IP" index="7" />
+			<column name="Use_Node_ID" index="8" />
+			<column name="Duration" index="9" />
+			<column name="Fee1" index="10" />
+			<column name="Fee2" index="11" />
+			<column name="Fee3" index="12" />
+			<column name="Fee4" index="13" />
+			<column name="ACCT_Item_Type_ID1" index="14" />
+			<column name="ACCT_Item_Type_ID2" index="15" />
+			<column name="ACCT_Item_Type_ID3" index="16" />
+			<column name="ACCT_Item_Type_ID4" index="17" />
+			<column name="FreeFee1" index="18" />
+			<column name="FreeFee2" index="19" />
+			<column name="FreeFee3" index="20" />
+			<column name="FreeFee4" index="21" />
+			<column name="PrepaidBalance" index="22" />
+			<column name="AreaCode" index="23" />
+			<column name="UpFlux" index="24" />
+			<column name="DownFlux" index="25" />
+			<column name="Fee_Duration" index="26" />
+			<column name="ProductID" index="27" />
+			<column name="UserType" index="28" />
+			<column name="BSID" index="29" />
+		</table>
+	</templet>
+</templets>

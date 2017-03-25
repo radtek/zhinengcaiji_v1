@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<templets>
+	<templet id="0">
+		<table id="0" name="clt_flux_day_stat" split=";" >
+			<column name="collect_time" index="0"/>
+			<column name="device_id" index="1"/>
+			<column name="port_info" index="2"/>
+			<column name="getway" index="3"/>
+			<column name="ifinoctets" index="4"/>
+			<column name="ifoutoctets" index="5"/>
+			<column name="ifinerrors" index="6"/>
+			<column name="ifouterrors" index="7"/>
+			<column name="ifindiscards" index="8"/>
+			<column name="ifoutdiscards" index="9"/>
+			<column name="ifinucastpkts" index="10"/>
+			<column name="ifoutucastpkts" index="11"/>
+			<column name="ifinnucastpkts" index="12"/>
+			<column name="ifoutnucastpkts" index="13"/>
+			<column name="ifinunknownprotos" index="14"/>
+			<column name="ifoutqlen" index="15"/>
+			<column name="ifinoctetsbps" index="16"/>
+			<column name="ifoutoctetsbps" index="17"/>
+			<column name="ifinerrorspps" index="18"/>
+			<column name="ifouterrorspps" index="19"/>
+			<column name="ifindiscardspps" index="20"/>
+			<column name="ifoutdiscardspps" index="21"/>
+			<column name="ifinucastpktspps" index="22"/>
+			<column name="ifoutucastpktspps" index="23"/>
+			<column name="ifinnucastpktspps" index="24"/>
+			<column name="ifoutnucastpktspps" index="25"/>
+			<column name="ifinunknownprotospps" index="26"/>
+			<column name="ifoutqlenpps" index="27"/>
+			<column name="ifinoctetsbpsmax" index="28"/>
+			<column name="ifoutoctetsbpsmax" index="29"/>
+			<column name="deltatime" index="30"/>
+		</table>
+	</templet>
+
+
+
+</templets>

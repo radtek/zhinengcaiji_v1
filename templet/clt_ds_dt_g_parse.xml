@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templets>
+	<templet id="0" file="/DT_GSM_%%Y%%M%%D_ZGK.csv" type="DT">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+	        <field name="日期" index="0"/>
+					<field name="经度" index="2"/>
+					<field name="纬度" index="3"/>
+					<field name="RxLevSub总采样点个数" index="4"/>
+					<field name="RxLevSub[-60,0)采样点数" index="5"/>
+					<field name="RxLevSub[-65,-60)" index="6"/>
+					<field name="RxLevSub[-70,-65)" index="7"/>
+					<field name="RxLevSub[-75,-70)" index="8"/>
+					<field name="RxLevSub2采样点个数" index="9"/>
+					<field name="RxLevSub3采样点个数" index="10"/>
+					<field name="RxLevSub4采样点个数" index="11"/>
+					<field name="RxLevSub5采样点个数" index="12"/>
+					<field name="RxLevSub6采样点个数" index="13"/>
+					<field name="RxLevSub最大值" index="14"/>
+					<field name="RxLevSub最小值" index="15"/>
+					<field name="RxLevSub平均值" index="16"/>
+					<field name="RxQualSub总采样点个数" index="17"/>
+					<field name="RxQualSub1采样点个数" index="18"/>
+					<field name="RxQualSub2采样点个数" index="19"/>
+					<field name="RxQualSub3采样点个数" index="20"/>
+					<field name="RxQualSub最大值" index="21"/>
+					<field name="RxQualSub最小值" index="22"/>
+					<field name="RxQualSub平均值" index="23"/>
+					<field name="C/I总采样点个数" index="24"/>
+					<field name="C/I1采样点个数" index="25"/>
+					<field name="C/I2采样点个数" index="26"/>
+					<field name="C/I3采样点个数" index="27"/>
+					<field name="C/I平均值" index="28"/>
+					<field name="C/I最大值" index="29"/>
+					<field name="C/I最小值" index="30"/>
+					<field name="MsPower最大值" index="31"/>
+					<field name="MsPower最小值" index="32"/>
+					<field name="MsPower平均值" index="33"/>
+					<field name="MOS平均值" index="34"/>
+					<field name="MOS最大值" index="35"/>
+					<field name="MOS最小值" index="36"/>
+					<field name="呼叫次数" index="37"/>
+					<field name="掉话次数" index="38"/>
+					<field name="接入失败次数" index="39"/>
+					<field name="接入次数" index="40"/>
+					<field name="切换次数" index="41"/>
+					<field name="切换失败次数" index="42"/>
+					<field name="GRID_ID" index="43"/>
+					<field name="PIECE_ID" index="44"/>
+					<field name="PIECE_NAME" index="45"/>
+					<field name="REGION_ID" index="46"/>
+					<field name="REGION_NAME" index="47"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="1" file="/DT_WCDMA_%%Y%%M%%D_ZGK.csv" type="DT">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+        <field name="日期" index="0"/>
+				<field name="经度" index="2"/>
+				<field name="纬度" index="3"/>
+				<field name="RSCP总采样点个数" index="4"/>
+				<field name="RSCP[-60,0)" index="5"/>
+				<field name="RSCP[-65dbm,-60dbm)" index="6"/>
+				<field name="RSCP[-70dbm,-65dbm)" index="7"/>
+				<field name="RSCP[-75dbm,-70dbm) " index="8"/>
+				<field name="RSCP[-80dbm,-75dbm)" index="9"/>
+				<field name="RSCP2采样点个数" index="10"/>
+				<field name="RSCP3采样点个数" index="11"/>
+				<field name="RSCP4采样点个数" index="12"/>
+				<field name="RSCP5采样点个数" index="13"/>
+				<field name="RSCP6采样点个数" index="14"/>
+				<field name="RSCP7采样点个数" index="15"/>
+				<field name="Ec/Io总采样点个数" index="16"/>
+				<field name="Ec/Io1采样点个数" index="17"/>
+				<field name="Ec/Io2采样点个数" index="18"/>
+				<field name="Ec/Io3采样点个数" index="19"/>
+				<field name="Ec/Io4采样点个数" index="20"/>
+				<field name="Ec/Io5采样点个数" index="21"/>
+				<field name="Ec/Io6采样点个数" index="22"/>
+				<field name="Ec/Io7采样点个数" index="23"/>
+				<field name="上行发射功率[-5,0)数" index="24"/>
+				<field name="[-10,-5)" index="25"/>
+				<field name="上行发射功率[-15,-10)" index="26"/>
+				<field name="RSCP平均值" index="27"/>
+				<field name="Ec/Io平均值" index="28"/>
+				<field name="RSCP最大值" index="29"/>
+				<field name="RSCP最小值" index="30"/>
+				<field name="EcNo最大值" index="31"/>
+				<field name="EcNo最小值" index="32"/>
+				<field name="EcNo平均值" index="33"/>
+				<field name="CQI总采样点数" index="34"/>
+				<field name="CQI1采样点个数" index="35"/>
+				<field name="CQI2采样点个数" index="36"/>
+				<field name="CQI3采样点个数" index="37"/>
+				<field name="CQI4采样点个数" index="38"/>
+				<field name="CQI5采样点个数" index="39"/>
+				<field name="CQI6采样点个数" index="40"/>
+				<field name="CQI平均值" index="41"/>
+				<field name="CQI最大值" index="42"/>
+				<field name="CQI最小值" index="43"/>
+				<field name="上行发射功率总采样点" index="44"/>
+				<field name="上行发射功率1采样点" index="45"/>
+				<field name="上行发射功率2采样点" index="46"/>
+				<field name="上行发射功率3采样点" index="47"/>
+				<field name="上行发射功率4采样点" index="48"/>
+				<field name="上行发射功率最大值" index="49"/>
+				<field name="上行发射功率最小值" index="50"/>
+				<field name="上行发射功率平均值" index="51"/>
+				<field name="HSDPA吞吐率平均值" index="52"/>
+				<field name="HSDPA吞吐率最大值" index="53"/>
+				<field name="HSDPA吞吐率最小值" index="54"/>
+				<field name="HSUPA吞吐率平均值" index="55"/>
+				<field name="HSUPA吞吐率最大值" index="56"/>
+				<field name="HSUPA吞吐率最小值" index="57"/>
+				<field name="MOS值平均值" index="58"/>
+				<field name="MOS值最大值" index="59"/>
+				<field name="MOS值最小值" index="60"/>
+				<field name="CS呼叫次数" index="61"/>
+				<field name="CS呼叫失败次数" index="62"/>
+				<field name="PS呼叫次数" index="63"/>
+				<field name="PS呼叫失败次数" index="64"/>
+				<field name="CS掉话次数" index="65"/>
+				<field name="PS掉线次数" index="66"/>
+				<field name="导频污染次数" index="67"/>
+				<field name="GRID_ID" index="68"/>
+				<field name="PIECE_ID" index="69"/>
+				<field name="PIECE_NAME" index="70"/>
+				<field name="REGION_ID" index="71"/>
+				<field name="REGION_NAME" index="72"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="2" file="/EVENT_GSM_%%Y%%M%%D_ZGK.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+        <field name="事件名称" index="0"/>
+				<field name="事件编号" index="1"/>
+				<field name="经度" index="2"/>
+				<field name="纬度" index="3"/>
+				<field name="时间点" index="4"/>
+				<field name="小区" index="5"/>
+				<field name="原因" index="6"/>
+			</fields>
+		</ds>
+	</templet>
+	<templet id="3" file="/EVENT_WCDMA_%%Y%%M%%D_ZGK.csv">
+		<ds id="0">
+			<meta>
+				<head splitSign=","/>
+			</meta>
+			<fields splitSign=",">
+        <field name="事件名称" index="0"/>
+				<field name="事件编号" index="1"/>
+				<field name="经度" index="2"/>
+				<field name="纬度" index="3"/>
+				<field name="时间点" index="4"/>
+				<field name="小区" index="5"/>
+				<field name="原因" index="6"/>
+			</fields>
+		</ds>
+	</templet>
+</templets>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<TEMPLATE>
+	<PUBLIC>
+		<SCANTYPE>0</SCANTYPE>
+	</PUBLIC>
+	<UNRESERVED>
+		<UITEM>
+			<UNSTR>WARNING:</UNSTR>
+		</UITEM>
+		<UITEM>
+			<UNSTR>$</UNSTR>
+		</UITEM>
+		<UITEM>
+			<UNSTR>                      EVDO HANDOFF MATRIX</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>Start Date:</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>Stop Date:</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>Service Node ID:</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>               DECL:</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>              TO CELL</UNSTR>
+		</UITEM>
+    <UITEM>
+			<UNSTR>           TO  UNDEC:</UNSTR>
+		</UITEM>
+		<UITEM>
+			<UNSTR>FROM FROM SECT</UNSTR>
+		</UITEM>
+		<UITEM>
+			<UNSTR>CELL SECT DECL</UNSTR>
+		</UITEM>
+	</UNRESERVED>
+	<RESERVED>
+    <RITEM>
+        <FILENAME>TABLE_0</FILENAME>
+        <LINEHEADSIGN></LINEHEADSIGN>
+        <LINEHEADTYPE>0</LINEHEADTYPE>
+        <PARSETYPE>1</PARSETYPE>
+        <COLUMNCOUNT>12</COLUMNCOUNT>
+        <FIELDSPLITSIGN>&#032;</FIELDSPLITSIGN>
+        <NEWFIELDSPLITSIGN>;</NEWFIELDSPLITSIGN>
+        <nvl></nvl>
+        <COLUMNS>
+           <FIELDITEM>
+                <FIELDINDEX>0</FIELDINDEX>
+                <FIELDNAME>FROM_CELL</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>1</FIELDINDEX>
+                <FIELDNAME>FROM_SECT</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>2</FIELDINDEX>
+                <FIELDNAME>TO_SECT_DECL</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>3</FIELDINDEX>
+                <FIELDNAME>UNDEC_PN_OFFSET</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>4</FIELDINDEX>
+                <FIELDNAME>DECL_TO_SECT_UNDEC_CHAN</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>5</FIELDINDEX>
+                <FIELDNAME>TO_ACTIVE_AP_IP</FIELDNAME>
+           </FIELDITEM>
+            <FIELDITEM>
+                <FIELDINDEX>6</FIELDINDEX>
+                <FIELDNAME>SOFT_SOFTER_COUNTS_ADD_COMPL</FIELDNAME>
+           </FIELDITEM>
+           <FIELDITEM>
+                <FIELDINDEX>7</FIELDINDEX>
+                <FIELDNAME>SOFT_SOFTER_COUNTS_ADD_ATTEMP</FIELDNAME>
+           </FIELDITEM>
+           <FIELDITEM>
+                <FIELDINDEX>8</FIELDINDEX>
+                <FIELDNAME>SOFT_SOFTER_COUNTS_DROP_COMPL</FIELDNAME>
+           </FIELDITEM>
+           <FIELDITEM>
+                <FIELDINDEX>9</FIELDINDEX>
+                <FIELDNAME>SOFT_SOFTER_COUNTS_DROP_ATTEMP</FIELDNAME>
+           </FIELDITEM>
+           <FIELDITEM>
+                <FIELDINDEX>10</FIELDINDEX>
+                <FIELDNAME>HARD_COUNTS_COMPL</FIELDNAME>
+           </FIELDITEM>
+           <FIELDITEM>
+                <FIELDINDEX>11</FIELDINDEX>
+                <FIELDNAME>HARD_COUNTS_ATTEMP</FIELDNAME>
+           </FIELDITEM>
+        </COLUMNS>
+     </RITEM>		
+	</RESERVED>
+</TEMPLATE>
