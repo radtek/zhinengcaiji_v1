@@ -16,7 +16,7 @@
 		<templetFilePath>templet</templetFilePath>
 		<fieldMatch>0.99</fieldMatch>
 		<port>9876</port>
-		<zipTool>D:\Program Files (x86)\Haozip</zipTool>
+		<zipTool>D:\Program Files\winrar</zipTool>
 		<maxThreadCount>200</maxThreadCount>
 		<maxCltCount>200</maxCltCount> <!-- 最大正常任务线程数 -->
 		<maxRecltCount>100</maxRecltCount><!-- 最大补采任务线程数 -->

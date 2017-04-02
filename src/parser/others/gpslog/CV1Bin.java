@@ -469,8 +469,10 @@ public class CV1Bin extends Parser {
 								sb.delete(0, sb.length());
 								// 拼接main主表sql ，当pn2没有数据时，对main的处理方式。这里读两行
 								String tempLineData0 = br.readLine().trim();
-								tempLineData0 = br.readLine().trim();
-
+								tempLineData0 = br.readLine();
+								if(tempLineData0==null)
+									continue;
+								tempLineData0=tempLineData0.trim();
 								/** 会出现多个“Serv. -”开头的或者空行，忽略掉。--20141218 */
 								while (tempLineData0.startsWith("Serv. -") || tempLineData0.length() == 0) {
 									tempLineData0 = br.readLine().trim();

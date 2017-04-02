@@ -87,6 +87,7 @@ public class LocalFileAccessor extends AbstractAccessor {
 			// 解析
 			log.debug(name + "：localFile,当前要解析的文件为:" + fileName);
 			parser.setFileName(fileName);
+			parser.setCollectObjInfo(this.taskInfo);
 			try {
 				parser.parseData();
 			} catch (Exception e) {
